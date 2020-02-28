@@ -1,0 +1,663 @@
+﻿"lang"
+{ 
+	"Language" "swedish" 
+	"Tokens" 
+	{
+		"dac_ability_autoattack"												"Autoattack"
+		"dac_ability_regen"														"Regeneration"
+
+		// ANTIMAGE
+		"dac_ability_antimage_mana_break"										"Mana Break"
+		"dac_ability_antimage_mana_break_Description"							"PASSIV: Antimage bränner {s:mana_per_hit} av motståndarens mana vid varje attack och delar ut 50 procent av den brända manan som skada mot målet. Han bränner {s:hype_per_hit} hype när Underlords träffas."
+		"dac_ability_antimage_mana_break_Lore"									"Anti-Mage har kommit för att ta mig ... och jag kommer att vara redo. – <i>Turath, på flykt från Tyler Estate</i>"
+
+		//QUEEN OF PAIN
+		"dac_ability_queenofpain_scream_of_pain"								"Scream Of Pain"
+		"dac_ability_queenofpain_scream_of_pain_Description"					"Queen of Pain ger ifrån sig ett öronbedövande skrik som skadar alla fiender runt henne inom {s:radius} rutor för {s:damage} i skada."
+		"dac_ability_queenofpain_scream_of_pain_Lore"							"Akasha är kanske inte någon nära vän, men hon hjälper mig gärna om hon tror att hon kan dra nytta av det senare. – <i>Anessix, pragmatisk demon</i>"
+
+		//LINA
+		"dac_ability_lina_laguna_blade"											"Laguna Blade"
+		"dac_ability_lina_laguna_blade_Description"								"Lina avfyrar en blixt som gör {s:damage} skada på en enskild enhet och sätter eld på den i {s:fire_duration} sekunder."
+		"dac_ability_lina_laguna_blade_Lore"									"Det var inte svårt att få Lina att komma till White Spire – vi är båda fans av varandras arbete. – <i>Hobgen, professionell mordbrännare</i>"
+
+		//FURION
+		"dac_ability_natures_prophet_summon_tree"								"Nature's Call"
+		"dac_ability_natures_prophet_summon_tree_Description"					"Nature's Prophet framkallar en treant. Treants räknas som druider."
+		"dac_ability_natures_prophet_summon_tree_Lore"							"Enno har kontaktat sina små skogsvänner ... detta kan vara ett problem. – <i>O'nia, förvisad handlare från Revtel</i>"
+
+		"dac_ability_natures_prophet_wrath_of_nature"							"Wrath of Nature"
+		"dac_ability_natures_prophet_wrath_of_nature_Description"				"Nature's Prophet kastar en energistöt mot en fiende som utdelar {s:damage} skada. Energin studsar {s:jumps} gånger mellan fiender på spelplanen, och den utdelade skadan ökar med {s:increase_pct} % per studs."
+		"dac_ability_natures_prophet_wrath_of_nature_Lore"						"I själva verket är mitt syfte överflödigt. Man behöver inget vapen för att döda en man, allt man behöver är tålamodet för att låta naturen ha sin gång. – <i>Quiet, beräknande robot</i>"
+
+		//WINDRUNNER
+		"dac_ability_windrunner_powershot"										"Powershot"
+		"dac_ability_windrunner_powershot_Description"							"Windranger spänner sin båge i upp till {s:castPoint} sekunder för att avfyra ett kraftigt skott som gör upp till {s:powershot_damage} i skada. För varje fiende som Powershot träffar, minskar dess skada med {s:damage_reduction} %."
+		"dac_ability_windrunner_powershot_Lore"									"Jag skaffade många vänner under mina resor, och jag är inte rädd för att be dem om tjänster. – <i>Wren, världsresenär</i>"
+
+		//WITCHDOCTOR
+		"dac_ability_witch_doctor_paralyzing_cask"								"Paralyzing Cask"
+		"dac_ability_witch_doctor_paralyzing_cask_Description"					"Witchdoctor kastar en behållare med förlamande pulver som studsar {s:bounces} gånger mellan fiendens enheter, förlamar och ger {s:damage} i skada till de som träffas."
+		"dac_ability_witch_doctor_paralyzing_cask_Lore"							"Jag älskar att se dig jobba, doktorn ... – <i>Hobgen, bråkig fe</i>"
+
+		//JUGGERNAUT
+		"dac_ability_juggernaut_blade_fury"										"Blade Fury"
+		"dac_ability_juggernaut_blade_fury_Description"							"Juggernaut snurrar med sitt svärd, vilket gör honom immun mot magi och gör {s:damage} skada per sekund på fiender inom {s:radius} ruta i {s:duration} sekunder. Juggernaut kan också börja snurra för att undvika en magisk attack."
+		"dac_ability_juggernaut_blade_fury_Lore"								"Yurnero är inte bara en krigare. Han är en oövervinnlig kraft. Om vi får honom på vår sida kommer vi att stapla lik inom kort. – <i>Grekk ser saken från flera perspektiv</i>"
+
+		//SANDKING
+		"dac_ability_sandking_burrowstrike"										"Burrowstrike"
+		"dac_ability_sandking_burrowstrike_Description"							"Sand King gräver ned sig och tar sig framåt under jord. Träffade fiender tar {s:damage} skada och lamslås i {s:stun_duration} sekunder.<br>Applicerar en stack av Caustic Finale på alla fiender som träffas."
+		"dac_ability_sandking_burrowstrike_Lore"								"Vi har lagt mycket arbete på att etablera vårt tunnelnätverk, vi kan inte låta Sand King förstöra det vi har byggt. – <i>Jull, spritbaron</i>"
+
+		"dac_ability_sandking_caustic_finale"									"Caustic Finale"
+		"dac_ability_sandking_caustic_finale_Description"						"PASSIV: När Sand King träffar en fiende förgiftas den i {s:apply_duration} sekunder. När giftet slutar verka exploderar det och gör {s:damage_aoe} skada och saktar ned attackhastigheten för alla fiender i närheten av målet med {s:attack_slow} i {s:slow_duration} sekunder. Skadan halveras om målet fortfarande lever."
+		"dac_ability_sandking_caustic_finale_Lore"								"Skulle det skada honom att använda en presenning? – Anessix, orörd och ohygglig</i>"
+
+		//SHADOW FRIEND
+		"dac_ability_shadow_fiend_requiem"										"Requiem of Souls"
+		"dac_ability_shadow_fiend_requiem_Description"							"Shadow Fiend kanaliserar de fördömdas själar och släpper lös demonisk energi runt omkring sig, som gör {s:damage} i skada på alla fiender som träffas."
+		"dac_ability_shadow_fiend_requiem_Lore"									"Ristul-hovet och jag har en ... överenskommelse. – <i>Anessix, jordbunden demon</i>"
+
+		//PHANTOM ASSASSIN
+		"dac_ability_phantom_assassin_coup_de_grace"							"Coup de Grace"
+		"dac_ability_phantom_assassin_coup_de_grace_Description"				"PASSIV: Phantom Assassin har {s:crit_chance} % chans att göra {s:crit_bonus} % i kritisk skada mot fiendeenheter."
+		"dac_ability_phantom_assassin_coup_de_grace_Lore"						"Hon lönnmördade Kwerthias, så varför ska jag tro att hon inte är ute efter mig med? – <i>O'nia, paranoid handlare</i>"
+
+		//DROW RANGER
+		"dac_ability_drow_ranger_trueshot_aura"									"Precision Aura"
+		"dac_ability_drow_ranger_trueshot_aura_Description"						"PASSIV: Drow Ranger ger {s:bonus} % extra attackhastighet till alla allierade inom {s:range} ruta/rutor."
+		"dac_ability_drow_ranger_trueshot_aura_Lore"							"Traxex. Du och jag kommer att nå toppen. Lita på mig. – <i>Grekk, kvacksalvare</i>"
+
+		//MORPHLING
+		"dac_ability_morphling_waveform"										"Waveform"
+		"dac_ability_morphling_waveform_Description"							"Morphling förvandlas till vätska och väller framåt vilket gör {s:damage} i skada på alla fiendeenheter som står i vägen.\n\nMorphling är osårbar under Waveform."
+		"dac_ability_morphling_waveform_Lore"									"Turaths förmåga att vinna favör hos sådana som Morphling är ... oroväckande – <i>Quiet, urverkskonspiratör</i>"
+
+		//AXE
+		"dac_ability_axe_berserkers_call"										"Berserker's Call"
+		"dac_ability_axe_berserkers_call_Description"							"Axe hånar fiendeenheter inom {s:radius} rutor och tvingar dem att attackera honom i {s:duration} sekunder. Medan Berserker's Call är aktivt får Axe {s:bonus_armor} bonusskydd."
+		"dac_ability_axe_berserkers_call_Lore"									"Att få Axes hjälp är enkelt ... allt man behöver är öl och att lova att det kommer att bli en bra berättelse för honom att skildra. – <i>Wren, mobiliserande rebell</i>" 
+
+		"dac_ability_axe_culling_blade"											"Culling Blade"
+		"dac_ability_axe_culling_blade_Description"								"If Axe's target is below {s:target_percent_health_threshold}% health, he instantly kills them. With his axe."
+		"dac_ability_axe_culling_blade_Lore"									"Axe is REALLY good at cutting people in half - <i>Goodkind, Axe's Bard</i>" 
+
+		"dac_ability_axe_counter_helix"											"Counter Helix"
+		"dac_ability_axe_counter_helix_Description"								"When attacked, Axe has a {s:spin_chance}% chance to perform a helix counter attack, dealing {s:spin_damage} pure damage to all enemies within 1 cell."
+		"dac_ability_axe_counter_helix_Lore"									"I let him in the Sundered Moon once... after the bar fight I had to remodel the whole damn place. - <i>In which Jull talks about why Axe isn't allowed back in his bar</i>" 
+
+		//RAZOR
+		"dac_ability_razor_plasma_field"										"Plasma Field"
+		"dac_ability_razor_plasma_field_Description"							"Razor släpper lös en ring av blixtar som blir starkare när den växer, vilket saktar ned och skadar fiender i dess väg. Ringen träffar även på tillbakavägen. Skada och nedsaktning ökar ju längre avståndet är från Razor. Plasmafältet träffar varje enhet en gång i vardera riktning."
+		"dac_ability_razor_plasma_field_Lore"									"Om du tycker att han är läskig på White Spires gator ska du se vad han gör i Narrow Maze. – <i>Anessix, sportälskare</i>"
+
+		//CRYSTAL MAIDEN
+		"dac_ability_crystal_maiden_brilliance_aura"							"Arcane Aura"
+		"dac_ability_crystal_maiden_brilliance_aura_Description"				"PASSIV: Var {s:interval} sekund ger Crystal Maiden {s:mana_regen} extra manaregeneration till alla allierade enheter."
+		"dac_ability_crystal_maiden_brilliance_aura_Lore"						"Ta reda på om hon är här för mig eller Turath. – <i>Jull, spritsmugglare i Icewrack</i>"
+
+		"dac_ability_crystal_maiden_frostbite"									"Frostbite"
+		"dac_ability_crystal_maiden_frostbite_Description"						"Täcker en fiendeenhet i is och motverkar rörelse och attacker samtidigt som {s:damage} skada görs per sekund i {s:duration} sekunder. Mål som påverkas av Frostbite kan inte helas."
+		"dac_ability_crystal_maiden_frostbite_Lore"								"Det händer mycket i White Spire, så det är lätt att man ibland missar saker. Till exempel brukade Crystal Maiden från Icewrack bara hjälpa sina kompanjoner, men nuförtiden fryser hon tydligen folk, vilket var en nyhet för mig. – <i>Carl, den sista som fick veta</i>"
+
+		//KUNKKA
+		"dac_ability_kunkka_ghostship"											"Ghostship"
+		"dac_ability_kunkka_ghostship_Description"								"Kunkka kallar på ett spökskepp som seglar igenom striden innan det kolliderar och gör {s:ability_damage} i skada. Skeppet lamslår även alla fiender inom {s:ghostship_crash_cells} rutor av vraket i {s:stun_duration} sekunder."
+		"dac_ability_kunkka_ghostship_Lore"										"Momma Eeb hade många vänner ... Kunkka vill ha svar lika mycket som jag. – <i>Wren, hämndlysten dotter</i>"
+
+		//TINY
+		"dac_ability_tiny_toss"													"Toss"
+		"dac_ability_tiny_toss_Description"										"Tiny plockar upp en slumpvald intilliggande fiende och kastar iväg den mot fiendeenheten längst ifrån honom. Alla fiender inom {s:damage_radius} ruta/rutor av kollisionen tar {s:damage} i skada och lamslås i {s:stun_duration} sekunder."
+		"dac_ability_tiny_toss_Lore"											"Verkar som att Enno fått tag på en muskelknutte. – <i>Grekk stöter på ett stort problem</i>"
+
+		//PUCK
+		"dac_ability_puck_illusory_orb"											"Illusory Orb"
+		"dac_ability_puck_illusory_orb_Description"								"Puck kastar ett magiskt klot som svävar i en rak linje och gör {s:damage} skada mot alla fiendeenheter i vägen."
+		"dac_ability_puck_illusory_orb_Lore"									"Låt inte hans utseende lura dig, Puck är en riktigt jäkel. – <i>Hobgen delar med sig av sin visdom</i>"
+
+		"dac_ability_puck_phase_shift"											"Phase Shift"
+		"dac_ability_puck_phase_shift_Description"								"<i>UPPLÅST AV DRAKALLIANSEN</i><br>PASSIV: Precis innan Puck tar skada, skiftar den till en annan dimension där den är osårbar i {s:shift_duration} sekunder."
+		"dac_ability_puck_phase_shift_Lore"										"Den lilla rackaren är aldrig i närheten när han behövs. – <i>Hobgen, otålig Underlord</i>"
+
+		//CLOCKWERK
+		"dac_ability_clockwerk_battery_assault"									"Battery Assault"
+		"dac_ability_clockwerk_battery_assault_Description"						"Clockwerk avfyrar kraftfullt splitter mot slumpvalda fiendeenheter inom {s:radius_in_cells} ruta/rutor var {s:damage_tick} sekund i {s:duration} sekunder, vilket gör {s:damage} i magisk skada och lamslår tillfälligt."
+		"dac_ability_clockwerk_battery_assault_Lore"							"Mässingshärolden skulle kalla dig en styggelse, men jag tycker du är ganska smart, lilla Keen. – <i>Quiet, kättersk robot</i>"
+
+		//LICH
+		"dac_ability_lich_chain_frost"											"Chain Frost"
+		"dac_ability_lich_chain_frost_Description"								"Lich släpper lös ett frostklot som studsar mellan fiender upp till {s:jumps} gånger. Klotet saktar ned attack- och förflyttningshastighet med {s:slow_value} % i {s:slow_duration} sekunder och gör {s:damage} i skada för varje träff."
+		"dac_ability_lich_chain_frost_Lore"										"Vi kan hjälpa varandra, Lich. – <I>Turath köpslår med Faust</i>"
+
+		//TIDEHUNTER
+		"dac_ability_tidehunter_ravage"											"Ravage"
+		"dac_ability_tidehunter_ravage_Description"								"Tidehunter slår till marken och bryter upp tentakler i alla riktningar, vilket gör {s:damage} i skada samt lamslår alla fiendeenheter inom {s:cells} rutor i {s:duration} sekunder."
+		"dac_ability_tidehunter_ravage_Lore"									"Kunkka, jag gillade dig mer när du inte jagades av ett havsmonster. – <i>Wren, en vän när det passar henne</i>"
+
+		//SHADOWSHAMAN
+		"dac_ability_shadow_shaman_voodoo"										"Hex"
+		"dac_ability_shadow_shaman_voodoo_Description"							"Shadow Shaman förvandlar en fiendeenhet till ett ofarligt djur och gör denne inkapabel till att attackera eller använda förmågor i {s:duration} sekunder."
+		"dac_ability_shadow_shaman_voodoo_Lore"									"Den snubben kan minsann ställa till en show! – <i>Grekk uppvisar yrkesmässig artighet</i>"
+
+		"dac_ability_shadow_shaman_mass_serpent_ward"							"Mass Serpent Ward"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Shadow Shaman traps an enemy unit by summoning up to 4 Serpent Wards."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"At least he's not turning people into chickens anymore - <i>O'nia, Fowl Mood</i>"
+
+		//ENIGMA
+		"dac_ability_enigma_midnight_pulse"										"Midnight Pulse"
+		"dac_ability_enigma_midnight_pulse_Description"							"Enigma steeps an area underneath the enemy with the highest max health in dark resonance, dealing {s:damage_percent}% of an enemy's max health for {s:duration} seconds to all enemy units up to {s:radius} cell away from the target and slowing them by {s:slow_percent}%."
+		"dac_ability_enigma_midnight_pulse_Lore"								"Det finns saker i denna värld som du inte kan kontrollera. – <i>Turath, galen magiker</i>"
+
+		//TINKER
+		"dac_ability_tinker_heat_seeking_missile"								"Heat-Seeking Missile"
+		"dac_ability_tinker_heat_seeking_missile_Description"					"Tinker avfyrar en raketsalva mot {s:targets} slumpvalda fiender vilket gör {s:damage_per_missile} skada vid träff."
+		"dac_ability_tinker_heat_seeking_missile_Lore"							"Sällskapet för likasinnade keenfolk kommer att bli ett problem om de inte hejdas. – <i>O'nia försöker bilda en enhetlig front</i>"
+
+		//SNIPER
+		"dac_ability_sniper_assassinate"										"Assassinate"
+		"dac_ability_sniper_assassinate_Description"							"Sniper tar sikte på en fiende i {s:castPoint} sekunder innan han avfyrar ett förödande skott som gör {s:damage} skada och lamslår målet ögonblickligt. Underlords hamnar inte i skottlinjen."
+		"dac_ability_sniper_assassinate_Lore"									"En gång i tiden hade jag ett keenfolk-nummer som showöppnare. Toppen för publiken, mindre bra för ansvarsförsäkringen. – <i>Grekk fokuserar på slutvinsten</i>"
+
+		//NECROLYTE
+		"dac_ability_necrophos_death_pulse"										"Death Pulse"
+		"dac_ability_necrophos_death_pulse_Description"							"Necrophos släpper lös en dödsvåg runtom sig som träffar fiender och allierade inom {s:radius} rutor. Gör {s:damage} skada mot fiender och helar allierade med {s:heal} HP."
+		"dac_ability_necrophos_death_pulse_Lore"								"Kom igen Necrophos, det måste finnas något som du vill ha ... – <i>Anessix, vältalig jäkel</i>"
+
+		//SLARDAR
+		"dac_ability_slardar_amplify_damage"									"Corrosive Haze"
+		"dac_ability_slardar_amplify_damage_Description"						"Slardar modifierar fiendens skydd med {s:armor_reduction} i {s:duration} sekunder."
+		"dac_ability_slardar_amplify_damage_Lore"								"Slark och jag kunde göra affärer, så jag är säker på att vi också kan komma överens. – <i>Jull</i>"
+
+		//BEASTMASTER
+		"dac_ability_beastmaster_wild_axes"										"Wild Axes"
+		"dac_ability_beastmaster_wild_axes_Description"							"Beastmaster kastar iväg sina yxor och kallar tillbaka dem, och de skär igenom alla fiendeenheter i vägen och ger {s:axe_damage} skada.\n\nVarje yxa kan träffa en fiende en gång, och ökar efterföljande skada från Beastmaster med {s:damage_amp} %."
+		"dac_ability_beastmaster_wild_axes_Lore"								"Hur många av dessa trädkramare kommer att stå på den veklingens sida? – <i>Grekk klagar på Enno</i>"
+
+		//VENOMANCER
+		"dac_ability_venomancer_plague_ward"									"Plague Ward"
+		"dac_ability_venomancer_plague_ward_Description"						"Venomancer summons {s:num_wards} Plague Ward to fight alongside him. Plague Wards apply Poison stacks to their target."
+		"dac_ability_venomancer_plague_ward_Lore"								"Dina skapelser är vackra att beskåda. Låt mig hjälpa dig bruka din trädgård ... – <i>Turath lär sig att man kommer långt med smicker</i>"
+
+		"dac_ability_venomancer_venomous_gale"									"Venomous Gale"
+		"dac_ability_venomancer_venomous_gale_Description"						"Avfyrar en giftboll längs en linje. Fiender som träffas tar {s:projectile_damage} MAGISK skada och blir förgiftade. Påverkade enheter förlorar {s:movement_slow} % förflyttningshastighet och {s:attack_slow} attackhastighet i {s:tick_duration} sekunder."
+		"dac_ability_venomancer_venomous_gale_Lore"								"Nej, nej, nej, om vi sätter den killen i arenan kommer halva publiken att dö. Hitta någon annan. – <i>Grekk funderar på ett lämpligt alternativ för Sun Wukong</i>"
+
+		"dac_ability_venomancer_poison_sting"									"Poison Sting"
+		"dac_ability_venomancer_poison_sting_Description"						"PASSIVE: Each attack applies a stack of Poison to the target."
+		"dac_ability_venomancer_poison_sting_Lore"								"Keep that thing away from Enno, more poison is the last thing the little runt needs... - <i>Hobgen, Not A Fan Of Being Poisoned</i>"
+
+		//TEMPLAR ASSASSIN
+		"dac_ability_templar_assassin_refraction"								"Refraction"
+		"dac_ability_templar_assassin_refraction_Description"					"Templar Assassin blir flyktig, undviker skada och får +{s:bonus_damage} attackskada.<br><br>Effekterna för skada och undvikande är separata och har {s:instances} instanser vardera."
+		"dac_ability_templar_assassin_refraction_Lore"							"Om du hjälper mig så blir du skuldfri. – <i>Wren när hon får all hjälp som hon kan få</i>"
+
+		"dac_ability_templar_assassin_meld"										"Meld"
+		"dac_ability_templar_assassin_meld_Description"							"PASSIV: Efter att ha teleporterat till sitt mål gör Templar Assassin {s:damage} extra skada vid sin första attack och sänker sitt måls skydd med {s:armor_debuff} i {s:armor_debuff_duration} sekunder."
+		"dac_ability_templar_assassin_meld_Lore"								"Dina talanger gör att du passar perfekt för mina planer. – <i>Anessix erbjuder ett jobb</i>"
+		
+		//VIPER
+		"dac_ability_viper_viper_strike"										"Viper Strike"
+		"dac_ability_viper_viper_strike_Description"							"Vipers frätande gift saktar ned en fiendes förflyttnings- och attackhastighet med {s:bonus_attack_speed} % samtidigt som det gör {s:damage} giftskada över tid.<br><br>Den nedsaktande effekten försvinner under tiden som giftet verkar."
+		"dac_ability_viper_viper_strike_Lore"									"Vi är inte så olika ... jag vet också hur det är att vara en slav. – <i>Quiet, konspirerande robot</i>"
+
+		"dac_ability_viper_nethertoxin"											"Nethertoxin"
+		"dac_ability_viper_nethertoxin_Description"								"Viper förgiftar en ruta, vilket gör {s:damage} skada per sekund på fienden som står i den, rotfäster den och applicerar BREAK."
+		"dac_ability_viper_nethertoxin_Lore"									"Passa dig Slark, det kommer inte sluta bra för dig om du försöker råna mig. – <i>O'nia avslöjar sin anlitade kumpan</i>"
+
+		"dac_ability_viper_corrosive_skin"										"Corrosive Skin"
+		"dac_ability_viper_corrosive_skin_Description"							"<i>UNLOCKED BY THE DRAGON ALLIANCE</i><br>PASSIVE: Viper exudes an infectious toxin that applies a stack of Poison and slows the attack speed by {s:attack_slow} of any enemy that damages it for {s:dot_duration} seconds. The acid exudate also increases Viper's magic resistance by {s:magic_resistance}."
+		"dac_ability_viper_corrosive_skin_Lore"									"Jag skulle vilja hitta ett sätt att göra en kappa av den där ... – <i>Carl har stora drömmar</i>"
+
+		//LUNA
+		"dac_ability_luna_moon_glaive"											"Moon Glaives"
+		"dac_ability_luna_moon_glaive_Description"								"PASSIV: Lunas glavar studsar mellan fiendeenheter {s:bounces} gånger inom {s:range} rutor.<br><br>Glavarna gör {s:damage_reduction_percent} % mindre skada efter varje studs."
+		"dac_ability_luna_moon_glaive_Lore"										"Jag förstår knappt hälften av vad du säger, men jag gillar hur du kastar de där grejerna. – <i>Grekk, människokännare</i>"
+
+		//DRAGON KNIGHT
+		"dac_ability_dragon_knight_breathe_fire"								"Breathe Fire"
+		"dac_ability_dragon_knight_breathe_fire_Description"					"Dragon Knight sprutar eld framför sig som gör {s:damage} skada och reducerar fienders attackskada med {s:attack_reduction} % i {s:duration} sekunder."
+		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davion, dina talanger slösas bort på någon som inte ser skönheten i det du gör. – <i>När Hobgen försöker locka till sig talanger</i>"
+
+		"dac_ability_dragon_knight_elder_dragon_form"							"Elder Dragon Form"
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>UPPLÅST AV DRAKALLIANSEN</i><br>PASSIV: I början av striden tar Dragon Knight skepnaden av en av tre kraftfulla drakar, vilket ökar hans förflyttningshastighet med {s:bonus_movement_speed} % och attackskada med {s:bonus_attack_damage} och ger honom nya krafter.<br><br>Grön drake:\n Attacker gör {s:corrosive_breath_damage} giftskada per sekund i {s:corrosive_breath_duration} sekunder.<br><br>Röd drake:\nAttacker skadar alla fiendeenheter inom {s:splash_radius} rutor runtom målet med {s:splash_damage_percent} % skada, och förgiftar även målen.<br><br>Blå drake:\nSaktar ned förflyttningshastighet med {s:frost_bonus_movement_speed} % och attackhastighet med {s:frost_bonus_attack_speed} % hos fiendeenheter inom {s:frost_aoe} rutor i {s:frost_duration} sekunder, och förgiftar även målen."
+		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"Kaden talade mycket om dig, låt oss hoppas att hans beröm är välförtjänt. – <i>Wren, vän med Drakfästet</i>"
+
+		//ENCHANTRESS
+		"dac_ability_enchantress_natures_attendants"							"Nature's Attendants"
+		"dac_ability_enchantress_natures_attendants_Description"				"Enchantress framkallar ett moln av irrbloss som helar alla allierade inom {s:radius} rutor.\n\nAllierade helas i {s:duration} sekunder med {s:heal} HP var {s:heal_interval} sekund."
+		"dac_ability_enchantress_natures_attendants_Lore"						"Hon kommer inte överleva en dag i White Spire. Inte. En. Dag. – <i>Hobgen underskattar sina motståndare</i>"
+
+		//BOUNTY HUNTER
+		"dac_ability_bounty_hunter_shuriken_toss"								"Shuriken Toss"
+		"dac_ability_bounty_hunter_shuriken_toss_Description"					"Bounty Hunter slungar en dödlig kaststjärna mot en fiendeenhet vilket gör {s:damage} skada och lamslår målet ögonblickligt."
+		"dac_ability_bounty_hunter_shuriken_toss_Lore"							"Så länge man har pengar kan man alltid lita på en man vars lojalitet är till salu. – <i>O'nia delar med sig av tveksam visdom</i>"
+
+		//BATRIDER
+		"dac_ability_batrider_sticky_napalm"									"Sticky Napalm"
+		"dac_ability_batrider_sticky_napalm_Description"						"Batrider kastar klibbig olja som täcker ett {s:radius} rutor stort område från träffpunkten. Oljan ökar Batriders attackskada med {s:damage} för varje stack och saktar ned fienders attack- och förflyttningshastighet med {s:movement_speed_pct} %.<br><br>Fler instanser av Sticky Napalm fortsätter att öka skada och nedsaktningsprocent, upp till {s:max_stacks} stackar."
+		"dac_ability_batrider_sticky_napalm_Lore"								"Jag älskar den här killen. ÄLSKAR HONOM! – <i>Hobgen, pyroman</i>"
+
+		//DOOM BRINGER
+		"dac_ability_doom_bringer_doom"											"Doom"
+		"dac_ability_doom_bringer_doom_Description"								"Doom frambesvärjar en kraftfull förbannelse som förhindrar en fiende från att använda förmågor och bryter dessa, samtidigt som de tar {s:damage} skada per sekund.\n\nVarar i {s:duration} sekunder."
+		"dac_ability_doom_bringer_doom_Lore"									"Jag föredrar att köpslå med metaforiska demoner ... – <i>O'nia ger sin åsikt om Anessix allierade</i>"
+
+		//GYROCOPTER
+		"dac_ability_gyrocopter_call_down"										"Call Down"
+		"dac_ability_gyrocopter_call_down_Description"							"Gyrocopter avfyrar missiler mot fiendeenheter i ett {s:radius} rutor stort område.\n\nTvå missiler följer varandra, där den första gör {s:damage_first} skada och saktar ned med {s:slow_first} % i {s:slow_duration_first} sekunder. Den sista gör {s:damage_second} skada och saktar ned med {s:slow_second} % i {s:slow_duration_second} sekunder."
+		"dac_ability_gyrocopter_call_down_Lore"									"Tänk på hur mycket gods vi kan frakta med hans hjälp. – <i>Jull tänker stort</i>"
+
+		//ALCHEMIST
+		"dac_ability_alchemist_acid_spray"										"Acid Spray"
+		"dac_ability_alchemist_acid_spray_Description"							"Alchemist sprider frätande syra över ett {s:radius} rutor brett område.\n\nFiendeenheter som står på den kontaminerade marken tar {s:damage} i skada per sekund och får sitt skydd minskat med {s:armor_reduction}."
+		"dac_ability_alchemist_acid_spray_Lore"									"Du gillar att bränna folks ansikten, jag gillar att bränna ned folks hus ... vi är som gjorda för varandra. – <i>Hobgen överbryggar en kulturskillnad</i>"
+
+		// Lycan
+		"dac_ability_lycan_wolf_spawn_shift"									"Shapeshift"
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan summons two wolves and transforms and gains {s:hp_per}% to his max health, his move speed is boosted to {s:speed} and gains {s:crit_chance}% chance to Critical Hit for {s:crit_bonus}% Damage."
+		"dac_ability_lycan_wolf_spawn_shift_Lore"								"Snälla Lycan, hjälp mig att hämnas. – <i>Wren vädjar till Lycans mänskliga sida</i>"
+		
+		// LONE DRUID
+		"dac_ability_lone_druid_summon_bear"									"Summon Spirit Bear"
+		"dac_ability_lone_druid_summon_bear_Description"						"Framkallar en kraftfull Spirit Bear som slår följe."
+		"dac_ability_lone_druid_summon_bear_Lore"								"Håll bara björnen borta från mig, okej? Jag klarar inte av björnar. – <i>Grekk har björnfobi</i>"
+		
+
+		//CHAOS KNIGHT
+		"dac_ability_chaos_knight_chaos_bolt"									"Chaos Bolt"
+		"dac_ability_chaos_knight_chaos_bolt_Description"						"Chaos Knight kastar en mystisk energistråle som ger {s:damage_min}–{s:damage_max} skada och lamslår i {s:stun_min}–{s:stun_max} sekunder."
+		"dac_ability_chaos_knight_chaos_bolt_Lore"								"White Spire skulle må bra av lite kaos. – <i>Hogben, skapare av kaos</i>"
+
+		//OGRE MAGI
+		"dac_ability_ogre_magi_bloodlust"										"Bloodlust"
+		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Magi får en allierad enhet att bli rosenrasande, vilket ökar dess förflyttningshastighet med {s:bonus_movement_speed} % och attackhastighet med {s:bonus_attack_speed} %. Om Ogre Magi förtrollar sig själv får han {s:self_bonus} % extra attackhastighet."
+		"dac_ability_ogre_magi_bloodlust_Lore"									"Ogre Magi är värd dubbelt mot vad han tar betalt. Turligt nog är han även en idiot. – <i>O'nia, snåljåp</i>"
+
+		// MAGNUS
+		"dac_ability_magnataur_empower"											"Empower"
+		"dac_ability_magnataur_empower_Description"								"Magnus gör en allierad enhet rasande, vilket ger den +{s:bonus_damage_pct} % skada och {s:cleave_damage_pct} % spridning i {s:duration} sekunder."
+		"dac_ability_magnataur_empower_Lore"									"Låt Anessix tro att hon kan spela Enno, hon kommer inse sitt misstag strax innan hon trampas ihjäl. – <i>Hobgen är tålmodig för ovanlighetens skull</i>"
+
+		//TREANT PROTECTOR
+		"dac_ability_treant_leech_seed"											"Leech Seed"
+		"dac_ability_treant_leech_seed_Description"								"Treant Protector sår ett livsstjälande frö i en fiendeenhet, vilket suger ut {s:leech_damage} HP var {s:damage_interval} sekund, samtidigt som attack och förflyttning saktas ned med {s:movement_slow} %.<br><br>Fröet helar allierade enheter inom {s:radius} rutor omkring målet. Varar i {s:duration} sekunder. Hoppar till ett nytt mål inom {s:radius} rutor om det nuvarande målet dör."
+		"dac_ability_treant_leech_seed_Lore"									"Helt ärligt väntade jag mig aldrig att Enno skulle få hjälp av ett träd. – <i>Jull och Anessix tar ett glas</i>"
+
+		//KEEPER OF THE LIGHT
+		"dac_ability_keeper_of_the_light_illuminate"							"Illuminate"
+		"dac_ability_keeper_of_the_light_illuminate_Description"				"Keeper of the Light kanaliserar energi och bygger upp styrka ju längre tid som går. När energivågen släpps lös gör den {s:damage_per_second} skada per sekund som den kanaliserades."
+		"dac_ability_keeper_of_the_light_illuminate_Lore"						"Väktaren har större krafter än man tror. Hålls han inte i schack kan det innebära slutet för oss alla. – <i>Turath, ljusförgörare </i>"
+
+		// MEDUSA
+		"dac_ability_medusa_stone_gaze"											"Stone Gaze"
+		"dac_ability_medusa_stone_gaze_Description"								"Medusa saktar ned attack- och förflyttningshastighet med {s:slow} % hos alla fiendeenheter som ser på henne inom {s:radius} rutor.<br><br>Om de ser på Medusa i sammanlagt {s:face_duration} sekunder förvandlas enheten till sten.<br><br>Förstenade enheter är lamslagna och tar {s:bonus_physical_damage} % extra fysisk skada."
+		"dac_ability_medusa_stone_gaze_Lore"									"Hon är min typ av dam, men jag suktar bara efter Mireska. – <i>Hobgen, förälskad kriminell</i>"
+
+		"dac_ability_medusa_split_shot"											"Split Shot"
+		"dac_ability_medusa_split_shot_Description"								"PASSIV: Medusa delar magiskt upp sina skott till {s:extra_shots} pilar, som träffar extra mål inom {s:range} ruta/rutor från hennes primära mål. Dessa pilar delar ut {s:damage_modifier} % av skadan från sin primära pils skada."
+		"dac_ability_medusa_split_shot_Lore"									"Har du sett den kvinnan skjuta med pilbåge? Du lever i och för sig fortfarande, så förmodligen inte ... – <i>Grekk gör reklam för sin nyaste löntagare</i>"
+
+		// TROLL WARLORD
+		"dac_ability_troll_warlord_fervor"										"Fervor"
+		"dac_ability_troll_warlord_fervor_Description"							"PASSIV: Troll Warlord levererar slag efter slag och får {s:attack_speed} % ökad attackhastighet per stack.<br><br>Om Troll Warlord byter mål nollställs stackarna.<br><br>Effekten stackar endast upp till {s:max_stacks} gånger."
+		"dac_ability_troll_warlord_fervor_Lore"									"Effektiv och obeveklig. Precis som jag. – <i>Quiet ödslar ingen energi</i>"
+
+
+		// SHADOW_DEMON
+		"dac_ability_shadow_demon_demonic_purge"								"Demonic Purge"
+		"dac_ability_shadow_demon_demonic_purge_Description"					"Tar bort positiva buffs upprepade gånger, applicerar BREAK och saktar ned målet i {s:duration} sekunder. Enheten får långsamt tillbaka sin hastighet fram till slutet av varaktigheten, då {s:damage} skada utdelas."
+		"dac_ability_shadow_demon_demonic_purge_Lore"							"Hör här din håriga jäkel, jag vet att du tror du kan samarbeta med Anessix, men har du sett vilka hon umgås med? – <i>Hobgen är inget fan av demoner (eller Enno)</i>"
+
+		// SVEN
+		"dac_ability_sven_cleave"												"Great Cleave"
+		"dac_ability_sven_cleave_Description"									"PASSIV: Denna enhets närstridsattacker träffar fiender i närheten och gör {s:cleave_damage_pct} % skada."
+		"dac_ability_sven_cleave_Lore"											"Har du någonsin sett en Vigil-riddare göra sin grej? Det är vackert. – <i>Grekk, stridskonnässör</i>"
+
+		"dac_ability_sven_gods_strength"										"God's Strength"
+		"dac_ability_sven_gods_strength_Description"							"Sven blir rasande och får {s:bonus_damage_from_cast} % skada i {s:duration} sekunder."
+		"dac_ability_sven_gods_strength_Lore"									"Det finns inget jag älskar mer än en man som är besatt av hämnd. – <i>Anessix bedömer Sven</i>"
+
+		// SHREDDER
+		"dac_ability_timbersaw_whirling_death"									"Whirling Death"
+		"dac_ability_timbersaw_whirling_death_Description"						"De vassa kanterna på Timbersaws pansar spinner och gör {s:damage} skada mot fiender inom {s:radius} rutor."
+		"dac_ability_timbersaw_whirling_death_Lore"								"Jag hade på känn att Enno skulle kalla in sina vänner från Woodland, så jag tog och ringde ett samtal själv. – <i>Hobgen löser ett problem</i>"
+
+		//TUSK
+		"dac_ability_tusk_walrus_punch"											"VALROSSLAG!"
+		"dac_ability_tusk_walrus_punch_Description"								"Tusk blir ett med sitt mäktiga valrosslag – en kritisk träff som delar ut {s:critical_damage} % skada och kastar upp målet i luften i {s:air_time} sekund.\n\nVid landning saktas målet ned med {s:move_slow} % i {s:slow_duration} sekunder. Tusk kan inte dö medan han slår."
+		"dac_ability_tusk_walrus_punch_Lore"									"Vi var vänner en gång i tiden. Vi får snart se om han är här för att hjälpa mig eller slå mig. – <i>Jull tänker tillbaka på sin ungdom</i>"
+		
+		
+		//ABADDON
+		"dac_ability_abaddon_aphotic_shield"									"Aphotic Shield"
+		"dac_ability_abaddon_aphotic_shield_Description"						"Abaddon skyddar en allierad enhet med en sköld som absorberar {s:damage_absorb} skada i {s:duration} sekunder.\n\nNär skölden förstörs exploderar den och gör {s:damage_absorb} skada mot fiender inom {s:radius} rutor.\n\nTar bort vissa negativa buffar och lamslagningar vid användning."
+		"dac_ability_abaddon_aphotic_shield_Lore"								"Jag har mycket respekt för Avernus-ätten. – <i>O'nia fjäskar för favör</i>"
+
+		// TERRORBLADE
+		"dac_ability_terrorblade_metamorph"										"Metamorphosis"
+		"dac_ability_terrorblade_metamorph_Description"							"Terrorblade byter skepnad till en kraftfull demon och kan attackera från ett avstånd på {s:bonus_attack_range} rutor från målet med {s:bonus_attack_damage} extra skada och {s:bonus_attack_speed} extra attackhastighet. Terrorblade byter även HP med en annan allierad vid aktivering av förmågan."
+		"dac_ability_terrorblade_metamorph_Lore"								"När man ser den där prata med Anessix, vet man att något dåligt är på väg att hända. – <i>Jull, personbetraktare</i>"
+
+		// TECHIES
+		"dac_ability_techies_bomb" 												"Remote Mines"
+		"dac_ability_techies_bomb_Description"									"Grabbarna armerar en bomb som detonerar efter {s:explode_time} sekunder och gör {s:damage} skada i ett {s:range} rutor stort område.\n\nGör halv skada mot fiender halva maxavståndet ifrån explosionen."
+		"dac_ability_techies_bomb_Lore"											"Säg vad du vill om keenfolk, men de är allt bra roliga. – <i>Hobgen betraktar en explosiv uppvisning</i>"
+
+		//DISRUPTOR
+		"dac_ability_disruptor_static_storm"									"Static Storm"
+		"dac_ability_disruptor_static_storm_Description"						"Disruptor skapar en storm av statisk elektricitet som tystar alla fiender i ett {s:radius} rutor stort område från mitten i {s:duration} sekunder.<br><br>Skadan är till en början låg och orsakar totalt {s:damage_total} skada så länge stormen varar."
+		"dac_ability_disruptor_static_storm_Lore"								"Jag är inte säker på om han verkligen är här för att hjälpa mig, eller om han bara vill hålla ett öga på Axe. – <i>Wren, kapten för en brokig besättning</i>"
+
+		//OMNIKNIGHT
+		"dac_ability_omniknight_purification"									"Purification"
+		"dac_ability_omniknight_purification_Description"						"Omniknight helar omedelbart en allierad enhet med {s:heal} HP och skadar alla fiendeenheter inom {s:radius} rutor med samma mängd."
+		"dac_ability_omniknight_purification_Lore"								"Han använder sin tro som ett vapen ... som jag. – <i>Turath, inbillad frälsare</i> "
+		
+		//PUDGE
+		"dac_ability_pudge_meathook"											"Meat Hook"
+		"dac_ability_pudge_meathook_Description"								"Pudge kastar iväg en blodig krok mot fienden längst ifrån honom och drar med sig målet tillbaka, vilket gör {s:damage} skada.\n\nPudge och allierade inom 1 ruta kommer att rikta sina attacker mot målet tills det dör."
+		"dac_ability_pudge_meathook_Lore"										"Pudge? Ja, han är trevlig. Säger alltid hej när jag garvar kropparna. – <i>Carl, odöd skräddare</i>"
+		
+		//WARLOCK
+		"dac_ability_warlock_shadow_word"										"Shadow Word"
+		"dac_ability_warlock_shadow_word_Description"							"Warlock viskar en trollformel och återställer omedelbart {s:burst_tooltip} hälsa åt en allierad enhet och {s:hot_tooltip} per sekund i {s:duration} sekunder, eller skadar en enhet med {s:damage_tick}, varje sekund i {s:duration} sekunder."
+		"dac_ability_warlock_shadow_word_Lore"									"Vissa hemligheter är menade att hållas ... Demnok kommer att betala för sin brist på omdöme. – <i>Anessix bidar sin tid</i>"
+		
+		//BLOODSEEKER
+		"dac_ability_bloodseeker_blood_rage"									"Bloodrage"
+		"dac_ability_bloodseeker_blood_rage_Description"						"PASSIV: Bloodseeker tar skada varje sekund som motsvarar {s:self_dmg_pct} % av hans maxhälsa.<br><br>När han förlorar hälsa får han ökad attackhastighet upp till {s:attack_speed_bonus_max} som mest med {s:min_health_pct} % hälsa.<br><br>När en intilliggande fiende dör återfår han {s:heal_pct} % av sin maxhälsa."
+		"dac_ability_bloodseeker_blood_rage_Lore"								"Om det är något jag lärt mig under min karriär är det att folk älskar blod. Anlita den här mannen. – <i>Grekk, beslutsam förespråkare</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double"									"Tempest Double"
+		"dac_ability_arc_warden_tempest_double_Description"						"Arc Warden skapar en kopia av sig själv med samma HP som han själv har.<br><br>Dubbletten kan använda Arc Wardens utrustade föremål och kommer att försöka attackera samma mål som hans skapare. Kloner kan inte skapa kloner och de gör {s:clone_dmg_reduction} % mindre skada."
+		"dac_ability_arc_warden_tempest_double_Lore"							"Han för med sig skapelsens mysterier. – <i>Turath, kryptisk profet</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double_no_items"						"Tempest Double"
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Arc Warden creates a copy of himself with the same health he currently has."
+		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"He brings with him the mysteries of creation. - <i>Turath, Cryptic Prophet</i>"
+
+		//MIRANA
+		"dac_ability_mirana_arrow"												"Sacred Arrow"
+		"dac_ability_mirana_arrow_Description"									"Mirana skjuter en långdistanspil med dödlig precision som lamslår hennes mål i {s:duration} sekunder och gör {s:damage} skada."
+		"dac_ability_mirana_arrow_Lore"											"Lita aldrig på en fanatiker Wren, det är inte värt det. – <i>Jull ger ett vänligt råd</i>"
+		
+		//SLARK
+		"dac_ability_slark_essence_shift"										"Essence Shift"
+		"dac_ability_slark_essence_shift_description"							"PASSIV: Slark ökar sin skada med {s:stolen_dmg} och sin attackhastighet med {s:stolen_aspd} vid varje attack."
+		"dac_ability_slark_essence_shift_lore"									"Slark är nyckeln till att vi ska kunna förflytta våra varor in och ut ur Dark Reef. – <i>Jull, entreprenör</i>"
+
+		"dac_ability_slark_pounce"												"Pounce"
+		"dac_ability_slark_pounce_description"									"PASSIV: När Slark landar efter ett hopp, avväpnar han sitt mål i {s:disarm_duration} sekunder."
+		"dac_ability_slark_pounce_lore"											"Hur avvärjde han oss igen!? – <i>Hobgen på hetsigt humör</i>"
+
+		//BLACK DRAGON
+		"dac_ability_black_dragon_splash_attack"								"Spridningsattack"
+		"dac_ability_black_dragon_splash_attack_description"					"PASSIV: Svartdrakens avståndsattacker gör spridningsskada mot enheter inom 1 ruta av drakens mål."
+		"dac_ability_black_dragon_splash_attack_lore"							" "
+
+		//"SVEN GREAT CLEAVE - used for YEAR BEAST and ROSHAN"
+		"dac_ability_sven_great_cleave"											"Great Cleave"
+		"dac_ability_sven_great_cleave_description"								"PASSIV: Denna enhets närstridsattacker träffar fiender i närheten."
+		"dac_ability_sven_great_cleave_lore"									" "
+
+		//"ROSHAN SPELL IMMUNE"
+		"dac_ability_roshan_spell_immune"										"Immun mot förmågor"
+		"dac_ability_roshan_spell_immune_description"							"AKTIV: Roshan blir immun mot förmågor i {s:duration} sekunder."
+		"dac_ability_roshan_spell_immune_lore"									" "
+
+		// Lone Druid Bear
+		"dac_ability_lone_druid_spirit_bear_entangle"							"Entangling Claws"
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Spirit Bears attacker har en chans att snärja målet och lamslå det."
+		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
+
+		// THUNDER LIZARD BLOODLUST
+		"dac_ability_thunder_lizard_bloodlust"									"Bloodlust"
+		"dac_ability_thunder_lizard_bloodlust_Description"						"Varelsen får en allierad enhet att bli rosenrasande, vilket ökar dess förflyttningshastighet med {s:bonus_movement_speed} % och attackhastighet med {s:bonus_attack_speed} %. Om den förtrollar sig själv får den {s:self_bonus} % extra attackhastighet."
+		"dac_ability_thunder_lizard_bloodlust_Lore"								" "
+
+		// HEALING WARD PLACEABLE
+		"dac_ability_healing_ward_healing_aura"											"Helande aura"
+		"dac_ability_healing_ward_healing_aura_description"								"Helar allierade enheter inom {s:heal_range} ruta med {s:health_regen} HP/s."
+		"dac_ability_healing_ward_healing_aura_lore"									""
+
+		// TOMBSTONE PLACEABLE
+		"dac_ability_tombstone_raise_zombies"										"Frammana zombier"
+		"dac_ability_tombstone_raise_zombies_description"							"Enheter som dör inom {s:range} ruta frammanar en zombie."
+		"dac_ability_tombstone_raise_zombies_lore"									""
+
+		// BARRICADE PLACEABLE
+		"dac_ability_barricade_aura"										"Barrikad"
+		"dac_ability_barricade_aura_description"							"Barrikaden skyddar enheter i närheten och är immun mot förmågor."
+		"dac_ability_barricade_aura_lore"									""
+
+		// TARGET DUMMY PLACEABLE
+		"dac_ability_target_dummy_taunt"										"Taunt"
+		"dac_ability_target_dummy_taunt_description"							"Måltavlan hånar."
+		"dac_ability_target_dummy_taunt_lore"									""
+
+		// CINDERWALL TALENT
+		"dac_ability_cinderwall_aura"										"Askvägg"
+		"dac_ability_cinderwall_aura_description"							"Askväggen skyddar enheter i närheten och är immun mot förmågor. Antänder fiender i närheten."
+		"dac_ability_cinderwall_aura_lore"									""
+
+		// FACELESS VOID
+		"dac_ability_faceless_void_chronocube"										"Chronocube"
+		"dac_ability_faceless_void_chronocube_description"							"Skapar ett hål i tidrummet som låser fast alla enheter inom {s:radius} rutor från kubens mitt i {s:stun_duration} sekunder. Faceless Void rör sig väldigt snabbt i kuben och får {s:bonus_attack_speed} attackhastighet. Endast Faceless Void är opåverkad av kuben. Vid användning försöker Faceless Void att teleportera ut alla allierade lönnmördare ur kuben."
+		"dac_ability_faceless_void_chronocube_lore"									"Claszureme kommer lägga sig i. Det kan vara ett problem. – <i>Jull inser att han inte kan slå tiden</i>"
+
+		"dac_ability_faceless_void_time_walk"										"Time Walk"
+		"dac_ability_faceless_void_time_walk_description"							"PASSIV: Faceless Void hoppar till sitt nästa mål och återställer all tagen skada under de senaste två sekunderna."
+		"dac_ability_faceless_void_time_walk_lore"									"Jag skulle aldrig röra de där fördömda timglasen, tror du jag vill ha Pierpont snokandes här? – <i>Hobgen, förnuftig galning</i>"
+
+		// LEGION COMMANDER
+		"dac_ability_legion_commander_duel"											"Duel"
+		"dac_ability_legion_commander_duel_description"								"Legion Commander utmanar fiendehjälten med lägst HP som är 1 ruta bort, varvid de tvingas attackera varandra i {s:stun_duration} sekunder. Ingen av hjältarna kan använda förmågor. Om en av hjältarna dör under varaktigheten, kommer den vinnande hjälten permanent få {s:winner_bonus_damage} extra skada. ([20/32/48] bonusskada i Knockout-läge)"
+		"dac_ability_legion_commander_duel_lore"									"Det finns ingen anledning att posera, Tresdin ... jag kan hjälpa dig att hitta Rix – <i>Anessix, lugn under press</i>"
+
+		"dac_ability_legion_commander_will_of_the_bullsnake"						"Will of the Bullsnake"
+		"dac_ability_legion_commander_will_of_the_bullsnake_description"			"<i>UPPLÅST AV DRAKALLIANSEN</i><br>PASSIV: När Legion Commander vinner en duell helar hon omedelbart för {s:heal_percentage} % av sin max-HP."
+		"dac_ability_legion_commander_will_of_the_bullsnake_lore"					"Jag känner din sort, befälhavare, och du är en av de farligaste varelserna. En troende. – <i>Wren, världskännare</i>"
+
+		"dac_ability_legion_commander_element"										"Elemental Charge"
+		"dac_ability_legion_commander_element_description"							"PASSIV: När Legion Commande genomför en Delta Slam som en del av andarnas allians, gör hon dubbel skada."
+		"dac_ability_legion_commander_element_lore"									"De flesta soldater plågas av andar ... men hon leder dem. –<i>Jull vet när han ser en tom blick</i>"
+
+		// NYX ASSASSIN
+		"dac_ability_nyx_assassin_spiked_carapace"									"Spiked Carapace"
+		"dac_ability_nyx_assassin_spiked_carapace_description"						"Taggar kommer ut från Nyx Assassins skal som neutraliserar och reflekterar {s:damage_taken_reflect_percentage} % av inkommande skada tillbaka till skadans källa (högst en gång per källa), som dessutom lamslås i {s:stun_duration} sekunder."
+		"dac_ability_nyx_assassin_spiked_carapace_lore"								"Den korrekta termen är leddjur. – <i>Quiet, perfektionist</i>"
+
+		"dac_ability_nyx_assassin_vendetta"											"Vendetta"
+		"dac_ability_nyx_assassin_vendetta_description"								"PASSIV: Nyx Assassin teleporterar och förstärker sin nästa attack, som gör {s:bonus_damage} extra skada och bryter enheten i {s:break_duration} sekunder, vilket inaktiverar alla dess passiva effekter."
+		"dac_ability_nyx_assassin_vendetta_lore"									"Insekt. Leddjur. Vem bryr sig? Poängen är att jag måste få honom att döda någon ... kan du få tag i honom eller inte? – <i>O'nia gillar inte att bli rättad</i>"
+
+		// WEAVER
+		"dac_ability_weaver_shukuchi"												"Shukuchi"
+		"dac_ability_weaver_shukuchi_description"									"Weaver gör sig osynlig och rör sig snabbt igenom ett mål upp till {s:distance_cells} rutor bort. Weaver delar ut {s:damage} skada på varje fiende som den rör sig igenom."
+		"dac_ability_weaver_shukuchi_lore"											"Weaver. Tillsammans ska vi göra om världen. – <i>Turath, galen nog att göra det</i>"
+
+		// BROODMOTHER
+		"dac_ability_broodmother_spawn_spiderlings"									"Spawn Spiderlings"
+		"dac_ability_broodmother_spawn_spiderlings_description"						"Broodmother injicerar sina ungar i en fiendeenhet, vilket gör {s:damage} skada. Om målet dör kommer {s:num_spiderlings} spindlar att kläckas. Spindlar kan inte attackeras, har låg attackskada och har 1 HP."
+		"dac_ability_broodmother_spawn_spiderlings_lore"							"Look I may burn people alive, but at least I'm not hatching eggs in people... - <i>In which Hobgen equivocates"
+
+		"dac_ability_broodmother_spin_web"											"Spin Web"
+		"dac_ability_broodmother_spin_web_description"								"Broodmother spinner ett {s:radius} rutor brett nät över en fiendeenhet. Fiender på nätet förlorar {s:debuff_attack_speed} attackhastighet, {s:debuff_speed} % förflyttningshastighet och {s:debuff_casting_speed} % användningshastighet."
+		"dac_ability_broodmother_spin_web_lore"										"Hade det varit möjligt att anställa några av dina småttingar för att spinna silke åt mig? Jag är ganska säker på att barnarbetslagar inte gäller spindlar. – <i>Carl, etisk skräddare</i>"
+
+		// WISP
+		"dac_ability_wisp_tether"													"Tether"
+		"dac_ability_wisp_tether_description"										"Io binder sig till den närmsta allierade hjälten och drar sig själv till den. Io och den bundna hjälten får {s:bonus_attack_speed} attackhastighet och {s:damage_reduction} % skadereducering. Förbindelsen bryts om Io är mer än {s:tether_break_distance} rutor bort."
+		"dac_ability_wisp_tether_lore"												"<i>Enno stirrar intensivt på Io</i>"
+
+		"dac_ability_wisp_relocate"													"Relocate"
+		"dac_ability_wisp_relocate_description"										"Io teleporterar iväg i {s:relocate_time_away} sekunder för att återuppliva en död hjälte. De två enheterna återvänder med fullt HP och negativa effekter rensas bort från dem."
+		"dac_ability_wisp_relocate_lore"											"<i>Io stirrar tillbaka</i>"
+
+		// BRISTLEBACK	
+		"dac_ability_bristleback_quill_spray"										"Quill Spray"
+		"dac_ability_bristleback_quill_spray_description"							"Bristleback skjuter taggar från sin rygg som skadar alla fiender upp till {s:radius} rutor bort. Fiender tar {s:quill_base_damage} skada plus ytterligare {s:quill_stack_damage} skada för varje gång de har träffats av Quill Spray under samma runda, upp till maximalt {s:max_stacks} stackar."
+		"dac_ability_bristleback_quill_spray_lore"									"Låt mig vara extremt tydlig. Du och Tusk kommer inte förstöra min bar i kväll. – <i>Jull, dörrvakt</i>"
+
+		// LIFESTEALER
+		"dac_ability_life_stealer_feast"											"Feast"
+		"dac_ability_life_stealer_feast_description"								"PASSIV: Lifestealers attacker skadar fiender och helar honom med {s:lifesteal_percentage} % av målets max-HP."
+		"dac_ability_life_stealer_feast_lore"										"Jag uppskattar inte att du gör antaganden om att jag på grund av mitt tillstånd omedelbart vet var Lifestealer är. – <i>Carl, ofta felbedömd</i>"
+
+		// DAZZLE
+		"dac_ability_dazzle_shadow_wave"											"Shadow Wave"
+		"dac_ability_dazzle_shadow_wave_description"								"Dazzle skickar en kraftstöt som studsar mellan upp till {s:max_targets} allierade som är {s:bounce_radius} rutor ifrån varandra och helar dem med {s:damage}, medan fiender som är {s:damage_radius} ruta bort tar {s:damage} skada. Dazzle helas alltid av Shadow Wave."
+		"dac_ability_dazzle_shadow_wave_lore"										"Och hur mycket skulle det kosta att anlita dig? Jag har ett intresse av att inte dö. – <i>O'nia är paranoid</i>"
+
+		// STORM SPIRIT
+		"dac_ability_storm_spirit_ball_lightning"									"Ball Lightning"
+		"dac_ability_storm_spirit_ball_lightning_description"						"Storm Spirit blir en klotblixt som rusar fram över slagfältet och gör {s:damage} skada på varje enhet som han passerar genom, plus {s:damage_per_cell} skada per ruta som han förflyttade sig."
+		"dac_ability_storm_spirit_ball_lightning_lore"								"Egocentrikern motiveras av sitt hjärta och inte sin hjärna. Han blir den enklaste att fånga. –<i>Turath gör upp en plan</i>"
+
+		"dac_ability_storm_spirit_element"											"Storm Elemental"
+		"dac_ability_storm_spirit_element_description"								"PASSIV: När Storm Spirit genomför en Delta Slam avväpnar han påverkade fiendeenheter i 3 sekunder."
+		"dac_ability_storm_spirit_element_lore"										"Vi behöver inte oroa oss för Quiet, hon kommer inte vilja vara nära stormen. –<i>Anessix tänker igenom alla möjligheter</i>"
+
+		// EMBER SPIRIT
+		"dac_ability_ember_spirit_sleight_of_fist"									"Sleight of Fist"
+		"dac_ability_ember_spirit_sleight_of_fist_description"						"Ember Spirit attackerar blixtsnabbt alla fiender inom {s:cells} rutor och återvänder sedan till sin startposition. Attackerna gör {s:bonus_damage} extra skada."
+		"dac_ability_ember_spirit_sleight_of_fist_lore"								"Han må slåss som en demon, men han är en hederlig varelse. Hans ord är gott nog för mig. –<i>Jull, om tjuvheder</i>"
+
+		"dac_ability_ember_spirit_element"											"Fire Elemental"
+		"dac_ability_ember_spirit_element_description"								"PASSIV: När Ember Spirit genomför en Delta Slam tänder han eld på påverkade fiendeenheter i 3 sekunder."
+		"dac_ability_ember_spirit_element_lore"										"Jag vill anlita den här killen. –<i>Lika par leka bäst, enligt Hobgen</i>"
+
+		// EARTH SPIRIT
+		"dac_ability_earth_spirit_geomagnetic_grip"									"Geomagnetic Grip"
+		"dac_ability_earth_spirit_geomagnetic_grip_description"						"Earth Spirit frammanar en Stone Remnant utanför spelplanen och drar den mot sitt nuvarande mål. Fiender som träffas av Stone Remnant tystas i {s:silence_duration} sekunder och tar {s:damage} skada."
+		"dac_ability_earth_spirit_geomagnetic_grip_lore"							"Jag älskar när Kaolin kommer till stan. Han gräver fram de mest fascinerande sakerna. –<i>Carl söker leveranser</i>"
+
+		"dac_ability_earth_spirit_element"											"Earth Elemental"
+		"dac_ability_earth_spirit_element_description"								"PASSIV: När Earth Spirit genomför en Delta Slam tystar han påverkade fiendeenheter i 3 sekunder."
+		"dac_ability_earth_spirit_element_lore"										"Vad jag skulle ge för att få se Wukong slåss mot den killen i arenan ... –<i>Grekk, drömmare</i>"
+
+		// VOID SPIRIT
+		"dac_ability_void_spirit_dissimilate"										"Dissimilate"
+		"dac_ability_void_spirit_dissimilate_description"							"Void Spirit träder in i etern, försvinner och skapar 3 portaler. Efter {s:disappear_duration} sekunder träder han fram från en av portalerna och gör {s:bonus_damage} skada på fiender inom {s:damage_distance} ruta och reducerar deras skydd med {s:armor_reduction} i {s:armor_reduction_duration} sekunder."
+		"dac_ability_void_spirit_dissimilate_lore"									"Man slutar inte gömma sig utan anledning. Ta reda på varför han är här. –<i>Anessix letar efter en hemlighet</i>"
+
+		"dac_ability_void_spirit_element"											"Void Elemental"
+		"dac_ability_void_spirit_element_description"								"PASSIV: När Void Spirit genomför en Delta Slam bryter han påverkade fiendeenheter i 3 sekunder."
+		"dac_ability_void_spirit_element_lore"										"Var försiktig med den där, Slark. –<i>Jull ger ett vänligt råd</i>"
+
+		// GRANNY LIZARD
+		"dac_ability_granny_lizard_shotgun_blast"									"Ol' Scatterblast"
+		"dac_ability_granny_lizard_shotgun_blast_description"						"Efter 4 vanliga attacker laddar Snapfire sin hagelbössa och skjuter mot en fiende i närheten inom 2 rutor. Skottet gör {s:blast_damage} skada inom en kon som saktar ned påverkade enheter med {s:blast_bonus_attack_speed} %"
+		"dac_ability_granny_lizard_shotgun_blast_lore"								"Keens har alltid haft ett fascinerande sinne för krigföring, och krigföring är mitt levebröd. Vi kanske kan göra affärer. –<i>Quiet, affärsängel</i>"
+
+		"dac_ability_granny_lizard_bazooka"											"Mortimer Kisses"
+		"dac_ability_granny_lizard_bazooka_description"								"<i>UPPLÅST AV DRAKALLIANSEN</i>: Mortimer spottar {s:projectile_count} eldklot mot fiender upp till {s:cast_range} rutor bort. Varje eldklot gör {s:damage} skada på alla fiender inom {s:impact_radius} ruta från påverkansrutan och tänder eld på dem i {s:burn_duration} sekunder."
+		"dac_ability_granny_lizard_bazooka_lore"									"Vadå, vill du tala om för damen att den där saken inte är en drake? –<i>Grekk bryr sig inte om äkthet</i>"
+
+		// MANGO TREE
+		"dac_ability_mango_tree_mango_throw"										"Mango Throw"
+		"dac_ability_mango_tree_mango_throw_description"							"At the start of combat and every {s:mango_production_interval} seconds afterwards, the Mango Tree throws a mango up to {s:radius} cells away. Any unit that touches a mango eats it to gain 50 mana and 100 health."
+		"dac_ability_mango_tree_mango_throw_lore"									"Don't look at me like that, it's just fruit - <i>In which Anessix desperately fights against stereotypes</i>"
+
+		// UNDERLORDS
+
+		"dac_ability_underlord_scales"												"Skala följer Underlord-nivå"
+
+		"dac_ability_anessix_summon_companions"										"Anessix's Demon Pals"
+		"dac_ability_anessix_summon_companions_description"							"Anessix frammanar sina demonkompanjoner. Om båda demonerna dör, kommer hon att frammana dem igen."
+		"dac_ability_anessix_summon_companions_lore"								"Det lönar sig att känna folk ... – <i>Anessix har kontakter i den undre världen</i>"
+
+		"dac_ability_anessix_summon_golem"											"Summon Demonic Golem"
+		"dac_ability_anessix_summon_golem_description"								"Anessix framkallar en demonisk golem som tar sig in bakom fiendens linjer och lamslår alla fiender inom 2 rutor i 2 sekunder."
+		"dac_ability_anessix_summon_golem_lore"										"Jag skulle aldrig döda dig ... det är vad mina medhjälpare är till för. – <i>Anessix har tveksam moral</i>"
+
+		"dac_ability_anessix_passive"												"Passiv förmåga"
+		"dac_ability_anessix_passive_description"									"Anessix framkallar en kompanjon som slåss vid hennes sida."
+
+		"dac_ability_anessix_companion_archer_passive"								"Critical Strike"
+		"dac_ability_anessix_companion_archer_passive_description"					"PASSIV: Demonskytten har {s:chance} % chans vid varje attack att göra en kritisk träff som gör {s:bonus} % skada."
+		"dac_ability_anessix_companion_archer_passive_lore"							"Mina bundsförvanter vet hur man gör det obehagligt. –<i>Anessix, järnnäve i en silkeshandske</i>"
+
+		"dac_ability_anessix_pure_pain"												"Pure Pain"
+		"dac_ability_anessix_pure_pain_description"									"Anessix siktar på en slumpvald fiende och gör {s:damage} ren skada per sekund i {s:duration} sekunder."
+		"dac_ability_anessix_pure_pain_description_perlevel"						"Anessix siktar på en slumpvald fiende och gör {s:damage} ren skada per sekund i {s:duration} sekunder."
+		"dac_ability_anessix_pure_pain_lore"										"Du kommer att berätta det jag behöver veta ... –<i>Anessix, social</i>"
+
+		"dac_ability_anessix_martyrs_boon"											"Martyr's Boon"
+		"dac_ability_anessix_martyrs_boon_description"								"Anessix tar skada som motsvarar {s:selfdmg} % av hennes max-HP. Alla allierade enheter helas med {s:regen} HP per sekund i {s:duration} sekunder."
+		"dac_ability_anessix_martyrs_boon_description_perlevel"						"Anessix tar skada som motsvarar {s:selfdmg} % av hennes max-HP. Alla allierade enheter helas med {s:regen} HP per sekund i {s:duration} sekunder."
+		"dac_ability_anessix_martyrs_boon_lore"										"Min vänlighet matchar min grymhet. – <i>Anessix, välvillig arbetsgivare</i>"
+
+		"dac_ability_anessix_enthrall"												"Enthrall"
+		"dac_ability_anessix_enthrall_description"									"Anessix markerar ett mål i {s:target_duration} sekunder och minskar målets skydd med {s:armor_reduction} och tvingar din armé att attackera det. Om målet dör återkallar Anessix det som en demon som slåss för henne."
+		"dac_ability_anessix_enthrall_description_lore"								"Du tillhör mig nu. – <i>Anessix genomför ett aggressivt förvärvande</i>"
+
+		"dac_ability_demon_warrior_bash"											"Warrior Bash"
+		"dac_ability_demon_warrior_bash_description"								"Anessix kompanjon har {s:bash_chance} % chans att lamslå sitt mål i {s:bash_duration} sekunder och göra {s:bonus_chance_damage} extra skada."
+		"dac_ability_demon_warrior_bash_lore"										"Om du vill se Anessix måste du gå genom mig ... – <i>Brill, demonisk träl</i>"
+
+		"dac_ability_hobgen_passive"												"Passiv förmåga"
+		"dac_ability_hobgen_passive_description"									"Hobgens attacker tänder eld på fiender i 3 sekunder."
+
+		"dac_ability_hobgen_explosivo"												"Explosivo!"
+		"dac_ability_hobgen_explosivo_description"									"Hobgen avfyrar ett eldklot mot ett mål som gör {s:damage_base} skada jämnt fördelad över alla intilliggande mål och som också tänder eld på dem."
+		"dac_ability_hobgen_explosivo_description_perlevel"							"Hobgen avfyrar ett eldklot mot ett mål som gör {s:damage_base} skada jämnt fördelad över alla intilliggande mål och som också tänder eld på dem."
+		"dac_ability_hobgen_explosivo_description_lore"								"Låt oss spränga något. – <I>Hobgen, amatör inom rivningsarbete</i>"
+
+		"dac_ability_hobgen_supercharged"											"Super-Charged"
+		"dac_ability_hobgen_supercharged_description"								"Hobgen superladdar den närmsta allierade enheten, vilket gör att den börjar brinna och får {s:aspd} attackhastighet."
+		"dac_ability_hobgen_supercharged_description_perlevel"						"Hobgen superladdar den närmsta allierade enheten, vilket gör att den börjar brinna och får {s:aspd} attackhastighet."
+		"dac_ability_hobgen_supercharged_description_lore"							"Ibland behöver folk bara lite motivation. – <i>Hobgen demonstrerar uttrycket ”att ha eld i baken” </i>"
+
+		"dac_ability_hobgen_airstrike"												"Friendly Fire"
+		"dac_ability_hobgen_airstrike_description"									"Hobgens polare kastar {s:strikes} bomber på slagfältet som gör {s:damage} skada på fiender som träffas direkt. Fiender som träffas av explosionen tar halva skadan."
+		"dac_ability_hobgen_airstrike_description_lore"								"Bränn allt! – <i>Hobgen, galen pyroman</i>"
+
+		"dac_ability_hobgen_letsgocrazy"											"Let's Go Crazy"
+		"dac_ability_hobgen_letsgocrazy_description"								"Hobgens attacker når nu över hela spelplanen och hela din trupp får {s:aspd} mer attackhastighet. Hobgen kommer kontinuerligt att byta mål till enheter som inte brinner."
+		"dac_ability_hobgen_letsgocrazy_description_perlevel"						"Hobgens attacker når nu över hela spelplanen och hela din trupp får {s:aspd} mer attackhastighet. Hobgen kommer kontinuerligt att byta mål till enheter som inte brinner."
+		"dac_ability_hobgen_letsgocrazy_description_lore"							"Så du vill att jag ska vara den onde? Det kan ordnas. – <i>Hobgens förhandling med Enno tar en dålig vändning</i>"
+
+		"dac_ability_demon_warrior_protect"											"Warrior Protect"
+		"dac_ability_demon_warrior_protect_description"								"Demonen skyddar Anessix från avståndsattacker som riktas mot henne."
+		"dac_ability_demon_warrior_protect_description_lore"						"Håll dig vid min sida, raring ... det finns oönskade här omkring. – <i>Anessix tar en promenad i White Spire</i>"
+
+		"dac_ability_jull_passive"													"Passiv förmåga"
+		"dac_ability_jull_passive_description"										"Jull får {s:armor_per_enemy} skydd per intilliggande enhet, allierad eller fiende."
+
+		"dac_ability_jull_beeftron"													"Shake It Off"
+		"dac_ability_jull_beeftron_description"										"Jull reflekterar {s:melee_reflect_pct} % av skada från närstridsattacker tillbaka till intilliggande fiendeenheter och helar {s:melee_heal_pct} % av skadan från närstridsattacker och {s:ranged_heal_pct} % av skadan från avståndsattacker som tagits under de senaste {s:melee_reflect_window} sekunderna."
+		"dac_ability_jull_beeftron_lore"											"Jag. Kommer inte. Att knäckas! – <i>Jull visar sin beslutsamhet inför tortyr</i>"
+
+		"dac_ability_jull_punchtron"												"Wallop"
+		"dac_ability_jull_punchtron_description"									"Jull slår sin nuvarande fiende, gör {s:punch_damage} skada och knuffar dem {s:punch_distance} rutor bort från deras position. Fiender som står i vägen lamslås i {s:stun_duration} sekunder och flyttas. Om fienderna träffar spelplanens kant kommer de att ta skada igen."
+		"dac_ability_jull_punchtron_lore"											"Kom, Tusk. Det var alltför länge sedan. – <i>Gamla vänner reder ut gammalt groll</i>"
+
+		"dac_ability_jull_barrelsoffun"												"Barrels of Fun"
+		"dac_ability_jull_barrelsoffun_description"									"Jull framkallar tunnor i spelplanens kanter. Om de träffar en allierad får denna {s:attack_speed_buff_pct} i attackhastighet. Om de träffar en fiende tar de {s:barrel_dmg} fysisk skada och {s:damage_taken_debuff_pct} % mer fysisk och magisk skada under resten av striden."
+		"dac_ability_jull_barrelsoffun_lore"										"Jag finner inget nöje med att förstöra min egna produkt, men ibland måste man göra uppoffringar. – <i>Jull bestämmer sig för att improvisera</i>"
+
+		"dac_ability_jull_happyhour"												"Happy Hour"
+		"dac_ability_jull_happyhour_description"									"Jull köper en runda till alla enheter i din trupp. När de tar skada kommer {s:damage_distributed_pct} % av den att tas emot omedelbart och resten tas under {s:damage_distributed_duration} sekunder."
+		"dac_ability_jull_happyhour_lore"											"Vänner! Ikväll står jag för drinkarna! – <i>Jull, ägare av Sundered Moon</i>"
+
+		"dac_ability_enno_poison_spin"												"Poison Spin"
+		"dac_ability_enno_poison_spin_description"									"Enno hoppar upp i luften och skjuter en giftpil mot upp till {s:target_count} fiender inom {s:range} rutor och applicerar en stack av gift som gör {s:damage} fysisk skada per stack."
+		"dac_ability_enno_poison_spin_lore"											"Låt inte hans storlek lura dig ... Enno är farligare än vad han ser ut. – <i>Jull förbereder sig på att besöka The Warrens</i>"
+
+		"dac_ability_enno_escape_artist"											"Escape Artist"
+		"dac_ability_enno_escape_artist_description"								"The first time Enno drops below {s:escape_health_pct_1}/{s:escape_health_pct_2}/{s:escape_health_pct_3}% health, he escapes in a cloud of smoke, purging all negative effects on him and reappearing elsewhere on the board. Enemies adjacent to Enno when he lands are stunned for {s:stun_duration} seconds."
+		"dac_ability_enno_escape_artist_lore"										"Kan någon fånga den där knatten och döda honom! – <i>Hobgen, fruktansvärt irriterad</i>"
+
+		"dac_ability_enno_steal"													"Yoink!"
+		"dac_ability_enno_steal_description"										"Enno stjäl föremålet med lägst nivå från fiendetruppen i början av striden. När en fiende dör plundrar han dem om de är utrustade med ett bättre föremål. Alla föremål återlämnas till sina ursprungliga ägare vid slutet av striden."
+		"dac_ability_enno_steal_lore"												"Jag är Mistress of Secrets, inte en mirakelarbetare. Om Enno tog något från dig kommer du inte få tillbaka det förrän han tröttnar på det. – <i>Anessix har alltid en hand på sin handväska</i>"
+
+		"dac_ability_enno_airbrawl"													"All Out Attack!"
+		"dac_ability_enno_airbrawl_description"										"Enno launches an All Out Attack against all enemies, adding {s:stacks} stacks of Poison, dealing {s:fight_damage} physical damage and stunning them for {s:land_stun_duration} seconds."
+		"dac_ability_enno_airbrawl_lore"											"SLÄPP NER MIG DITT HÅRIGA KRÄK! – <i>Hobgen får lära sig ödmjukhet</i>"
+	}
+}

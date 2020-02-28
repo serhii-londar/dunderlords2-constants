@@ -1,0 +1,663 @@
+﻿"lang"
+{ 
+	"Language" "finnish" 
+	"Tokens" 
+	{
+		"dac_ability_autoattack"												"Autoattack"
+		"dac_ability_regen"														"Regen"
+
+		// ANTIMAGE
+		"dac_ability_antimage_mana_break"										"Mana Break"
+		"dac_ability_antimage_mana_break_Description"							"PASSIIVINEN: Anti-Mage polttaa {s:mana_per_hit} vihollisen manaa jokaisella iskulla ja jakaa 50 % poltetusta manasta vahinkona kohteeseen. Se polttaa {s:hype_per_hit} hypeä osuessaan underlordiin."
+		"dac_ability_antimage_mana_break_Lore"									"Anti-Mage on tullut noutamaan minut. Minä olen valmis. – <i>Turath, Tyler Estate -karkuri</i>"
+
+		//QUEEN OF PAIN
+		"dac_ability_queenofpain_scream_of_pain"								"Scream Of Pain"
+		"dac_ability_queenofpain_scream_of_pain_Description"					"Queen of Pain päästää kimakan huudon, vahingoittaa kaikkia vihollisia {s:radius} ruudun säteellä ja tekee {s:damage} vahinkoa."
+		"dac_ability_queenofpain_scream_of_pain_Lore"							"Akasha ei ole ehkä läheinen ystävä mutta auttaa mieluusti, jos hyötyy siitä myöhemmin. – <i>Anessix, käytännönläheinen demoni</i>"
+
+		//LINA
+		"dac_ability_lina_laguna_blade"											"Laguna Blade"
+		"dac_ability_lina_laguna_blade_Description"								"Lina iskee salamalla ja tekee {s:damage} vahinkoa yhdelle yksikölle ja sytyttää sen palamaan {s:fire_duration} sekunniksi."
+		"dac_ability_lina_laguna_blade_Lore"									"Lina oli helppo saada tulemaan Valkoiseen torniin. Arvostamme toistemme töitä. – <i>Hobgen, tuhopolton ammattilainen</i>"
+
+		//FURION
+		"dac_ability_natures_prophet_summon_tree"								"Nature's Call"
+		"dac_ability_natures_prophet_summon_tree_Description"					"Nature's Prophet kutsuu treantin. Treantti on druidi."
+		"dac_ability_natures_prophet_summon_tree_Lore"							"Enno on ottanut yhteyttä metsän eläimiin. Se voi tietää ongelmia. – <i>O'nia, Revtelin karkotettu kauppias</i>"
+
+		"dac_ability_natures_prophet_wrath_of_nature"							"Wrath of Nature"
+		"dac_ability_natures_prophet_wrath_of_nature_Description"				"Nature's Prophet iskee kipinää kohteeseen tehden {s:damage} vahinkoa. Tämä kimpoaa {s:jumps} kertaa pelilaudalla olevien vihollisten keskuudessa ja lisää vahinkoa {s:increase_pct} % kimpoamista kohti."
+		"dac_ability_natures_prophet_wrath_of_nature_Lore"						"Totuus on, ettei minulla ole mitään virkaa. Et tarvitse asetta tappaaksesi miehen, sinun pitää vain odottaa kärsivällisesti, että luonto tekee tehtävänsä. – <i>Quiet, juonittelijarobotti</i>"
+
+		//WINDRUNNER
+		"dac_ability_windrunner_powershot"										"Powershot"
+		"dac_ability_windrunner_powershot_Description"							"Windranger jännittää joustaan enintään {s:castPoint} sekunnin ajan, ampuu yhden tarkan nuolen ja tekee {s:powershot_damage} vahinkoa. Nuolen tekemä vahinko vähenee {s:damage_reduction} % jokaisesta osuman saaneesta vihollisesta."
+		"dac_ability_windrunner_powershot_Lore"									"Sain matkoillani monta uutta ystävää enkä pelkää pyytää palveluksia. – <i>Wren, maailmanmatkaaja</i>"
+
+		//WITCHDOCTOR
+		"dac_ability_witch_doctor_paralyzing_cask"								"Paralyzing Cask"
+		"dac_ability_witch_doctor_paralyzing_cask_Description"					"Witch Doctor viskaa tyrmäävää jauhetta sisältävän tynnyrin, joka ponnahtaa {s:bounces} kertaa vihollisten joukossa lamauttaen ja tehden {s:damage} vahinkoa niille, joihin se osuu."
+		"dac_ability_witch_doctor_paralyzing_cask_Lore"							"On ilo seurata, kun teet töitä, Doc... – <i>Hobgen, kiusantekijäkeiju</i>"
+
+		//JUGGERNAUT
+		"dac_ability_juggernaut_blade_fury"										"Blade Fury"
+		"dac_ability_juggernaut_blade_fury_Description"							"Juggernaut kieppuu tikarin kanssa, mikä tekee siitä taioille immuunin. Se aiheuttaa {s:damage} vahinkoa sekunnissa {s:radius} ruudun säteellä oleville vihollisille {s:duration} sekunnin ajan. Juggernaut saattaa myös alkaa kieppua välttääkseen loitsuhyökkäyksen."
+		"dac_ability_juggernaut_blade_fury_Lore"								"Yurnero ei ole mikä tahansa soturi, vaan se on Juggernaut. Jos saamme sen omalle puolellemme, ruumiita alkaa tulla. – <i>Grek katsoo asiaa kaikista näkökulmista</i>"
+
+		//SANDKING
+		"dac_ability_sandking_burrowstrike"										"Burrowstrike"
+		"dac_ability_sandking_burrowstrike_Description"							"Sand King kaivautuu maahan ja syöksyy eteenpäin, tekee vihollisille {s:damage} vahinkoa ja tainnuttaa ne {s:stun_duration} sekunniksi.<br> Lisää Caustic Finalea kaikkiin osuttuihin vihollisiin."
+		"dac_ability_sandking_burrowstrike_Lore"								"Tunneliverkoston rakentaminen oli iso urakka. Sand King ei saa tuhota sitä. – <i>Jull, viinaparoni</i>"
+
+		"dac_ability_sandking_caustic_finale"									"Caustic Finale"
+		"dac_ability_sandking_caustic_finale_Description"						"PASSIIVINEN: kun Sand King osuu viholliseen, se myrkyttää vihollisen {s:apply_duration} sekunniksi. Kun myrkyn vaikutus lakkaa, se räjähtää ja levittää {s:damage_aoe} vahinkoa ja hidastaa {s:slow_duration} sekunniksi kaikkien kohteen lähellä olevien vihollisten hyökkäysnopeutta {s:attack_slow} yksiköllä. Vahinko puolittuu, jos kohde on vielä elossa."
+		"dac_ability_sandking_caustic_finale_Lore"								"Ei kai kaveri suojapeitteen käyttöön kuole? – <i>Anessix, koskematon infernalisti</i>"
+
+		//SHADOW FRIEND
+		"dac_ability_shadow_fiend_requiem"										"Requiem of Souls"
+		"dac_ability_shadow_fiend_requiem_Description"							"Shadow Fiend kanavoi kirottujen sielut, vapauttaa ympärilleen demonienergiaa ja tekee {s:damage} vahinkoa kaikille, jotka osuvat energiapamauksen alueelle."
+		"dac_ability_shadow_fiend_requiem_Lore"									"Minulla on Ristulin hovin kanssa diili. – <i>Anessix, maallinen demoni</i>"
+
+		//PHANTOM ASSASSIN
+		"dac_ability_phantom_assassin_coup_de_grace"							"Coup de Grace"
+		"dac_ability_phantom_assassin_coup_de_grace_Description"				"PASSIIVINEN: Phantom Assassinilla on {s:crit_chance} % mahdollisuus jakaa vihollisille {s:crit_bonus} % kriittistä osumaa."
+		"dac_ability_phantom_assassin_coup_de_grace_Lore"						"Se tappoi Kwerthiasin. Ihan hyvin se voi jahdata nyt minua. – <i>O'nia, vainoharhainen kauppias</i>"
+
+		//DROW RANGER
+		"dac_ability_drow_ranger_trueshot_aura"									"Precision Aura"
+		"dac_ability_drow_ranger_trueshot_aura_Description"						"PASSIIVINEN: Drow Ranger lisää {s:bonus} % hyökkäysnopeutta kaikille {s:range} ruudun säteellä oleville liittolaisille."
+		"dac_ability_drow_ranger_trueshot_aura_Lore"							"Me pääsemme vielä huipulle, Traxex. Usko pois. – <i>Grek, huijari</i>"
+
+		//MORPHLING
+		"dac_ability_morphling_waveform"										"Waveform"
+		"dac_ability_morphling_waveform_Description"							"Morphling sulaa nesteeksi, syöksyy eteenpäin ja aiheuttaa tielleen osuville vihollisille {s:damage} vahinkoa.\n\nMorphling on vahingoittumaton Waveformin aikana."
+		"dac_ability_morphling_waveform_Lore"									"Huolestuttavaa, että Turath mielistelee Morphlingin kaltaisia palvelusten toivossa. – <i>Quiet, juonittelijarobotti</i>"
+
+		//AXE
+		"dac_ability_axe_berserkers_call"										"Berserker's Call"
+		"dac_ability_axe_berserkers_call_Description"							"Axe pilkkaa vihollisia {s:radius} ruudun säteellä ja pakottaa ne hyökkäämään kimppuunsa {s:duration} sekunniksi. Axe saa {s:bonus_armor} lisäpanssaria, kun Berserker's Call on aktiivinen."
+		"dac_ability_axe_berserkers_call_Lore"									"Axe on aina valmis auttamaan. Riittää, kun se saa olutta ja luvan kertoa hyvän tarinan. – <i>Wren, kiihottajakapinoija</i>" 
+
+		"dac_ability_axe_culling_blade"											"Culling Blade"
+		"dac_ability_axe_culling_blade_Description"								"Jos Axen kohteella on vähemmän kuin {s:target_percent_health_threshold} % terveyttä, Axe tappaa sen heti kirveellään."
+		"dac_ability_axe_culling_blade_Lore"									"Axe on TOSI hyvä jengin pilkkomisessa – <i>Goodkind, Axen bardi</i>" 
+
+		"dac_ability_axe_counter_helix"											"Counter Helix"
+		"dac_ability_axe_counter_helix_Description"								"Joutuessaan hyökkäyksen kohteeksi Axella on {s:spin_chance} % mahdollisuus tehdä kierrevastaisku, joka tekee {s:spin_damage} puhdasta vahinkoa kaikkiin 1 ruudun etäisyydellä oleviin vihollisiin."
+		"dac_ability_axe_counter_helix_Lore"									"Päästin sen kerran Särkyneeseen kuuhun... Yhden baaritappelun jälkeen jouduin remppaamaan koko mestan – <i>Jull kertoo, miksi Axe ei ole enää tervetullut baariinsa</i>" 
+
+		//RAZOR
+		"dac_ability_razor_plasma_field"										"Plasma Field"
+		"dac_ability_razor_plasma_field_Description"							"Razor purkaa salamakehän, joka voimistuu kasvaessaan ja iskee kipinää kutistuessaan. Se hidastuu ja tekee jopa {s:damage_max} vahinkoa {s:radius} ruudun säteellä oleville vihollisille.<br><br>Vahinko ja hidastus kasvavat sitä mukaa, mitä kauempana Razor on.<br><br> Plasma-aalto osuu jokaiseen kahdesti: kerran kasvaessaan ja toisen kutistuessaan."
+		"dac_ability_razor_plasma_field_Lore"									"Jos hän on sinusta pelottava Valkoisen tornin kaduilla, näkisitpä hänet Kapeassa labyrintissa. – <i>Anessix, penkkiurheilija</i>"
+
+		//CRYSTAL MAIDEN
+		"dac_ability_crystal_maiden_brilliance_aura"							"Arcane Aura"
+		"dac_ability_crystal_maiden_brilliance_aura_Description"				"PASSIVIINEN: Crystal Maiden antaa kaikille liittolaisille {s:mana_regen} mananpalautumista joka {s:interval} sekunti."
+		"dac_ability_crystal_maiden_brilliance_aura_Lore"						"Ota selvää, jahtaako se minua vai Turathia. – <i>Jull, Jääraunioiden trokari</i>"
+
+		"dac_ability_crystal_maiden_frostbite"									"Frostbite"
+		"dac_ability_crystal_maiden_frostbite_Description"						"Loitsii vihollisen jään sisään, mikä estää vihollista liikkumasta tai hyökkäämästä, ja tekee {s:damage} vahinkoa {s:duration} sekunnin ajan. Frostbiten alaisia kohteita ei voi parantaa."
+		"dac_ability_crystal_maiden_frostbite_Lore"								"Valkoisessa tornissa tapahtuu paljon, ja joskus on helppo olla huomaamatta asioita. Jääraunion Crystal Maiden esimerkiksi tapasi vain auttaa lähimmäisiään, mutta nykyisin se ilmeisesti jäädyttää väkeä. Tämä oli minulle uutinen. – <i>Carl, joka saa tietää viimeisenä</i>"
+
+		//KUNKKA
+		"dac_ability_kunkka_ghostship"											"Ghostship"
+		"dac_ability_kunkka_ghostship_Description"								"Kunkka kutsuu esiin aavelaivan, joka purjehtii halki taistelutantereen, ennen kuin hajoaa kappaleiksi. Se tekee {s:ability_damage} vahinkoa ja tainnuttaa kaikki {s:ghostship_crash_cells} ruudun säteellä hylystä olevat viholliset {s:stun_duration} sekunniksi."
+		"dac_ability_kunkka_ghostship_Lore"										"Momma Eebillä oli paljon kavereita. Kunkka janoaa vastauksia yhtä paljon kuin minä. – <i>Wren, kostonhimoinen tytär</i>"
+
+		//TINY
+		"dac_ability_tiny_toss"													"Toss"
+		"dac_ability_tiny_toss_Description"										"Tiny nappaa sattumanvaraisesti lähellä olevan vihollisen ja nakkaa sen kauimpana olevaa viholliskohdetta kohti.<br><br>Törmäyksessä kohde tekee {s:damage} vahinkoa kaikille vihollisille {s:damage_radius} ruudun säteellä ja tainnuttaa ne {s:stun_duration} sekunniksi."
+		"dac_ability_tiny_toss_Lore"											"Ennolla oli näköjään lihaskimppu apunaan. – <i>Grekillä on isommanpuoleinen ongelma</i>"
+
+		//PUCK
+		"dac_ability_puck_illusory_orb"											"Illusory Orb"
+		"dac_ability_puck_illusory_orb_Description"								"Puck laukaisee suorassa linjassa leijailevan taikapallon, joka aiheuttaa sen tielle osuville vihollisille {s:damage} vahinkoa."
+		"dac_ability_puck_illusory_orb_Lore"									"Moni kakku päältä kaunis. Puck on oikeasti roisto. – <i>Hobgen latelee elämänviisauksia</i>"
+
+		"dac_ability_puck_phase_shift"											"Phase Shift"
+		"dac_ability_puck_phase_shift_Description"								"<i>LOHIKÄÄRMEIDEN LIITTOUMAN AVAAMA</i><br>PASSIIVINEN: juuri ennen vahingon ottamista Puck vaihtaa toiseen ulottuvuuteen, jossa se on immuuni tämän maailman hyökkäyksille {s:shift_duration} sekunnin ajan."
+		"dac_ability_puck_phase_shift_Lore"										"Tämä luupää ei ole koskaan paikalla, kun sitä tarvitaan. – <i>Hobgen, kärsimätön underlordi</i>"
+
+		//CLOCKWERK
+		"dac_ability_clockwerk_battery_assault"									"Battery Assault"
+		"dac_ability_clockwerk_battery_assault_Description"						"Clockwerk laukaisee voimakkaita sirpaleita sattumanvaraisia vihollisia kohti {s:radius_in_cells} ruudun säteellä {s:damage_tick} sekunnin välein {s:duration} sekunnin ajan sekä tekee {s:damage} loitsuvahinkoa ja minitainnutuksen."
+		"dac_ability_clockwerk_battery_assault_Lore"							"Brass Herald kutsuisi sinua iljetykseksi, mutta minusta sinä olet varsin fiksu pikkukeeni. – <i>Quiet, harhaoppinen automaatti</i>"
+
+		//LICH
+		"dac_ability_lich_chain_frost"											"Chain Frost"
+		"dac_ability_lich_chain_frost_Description"								"Lich vapauttaa jääpallon, joka kimpoaa {s:jumps} kertaa lähellä olevien vihollisten välillä. Se hidastaa {s:slow_duration} sekunniksi niiden hyökkäys- ja liikenopeutta {s:slow_value} % ja tekee {s:damage} vahinkoa jokaisella osumalla."
+		"dac_ability_lich_chain_frost_Lore"										"Voimme auttaa toisiamme, Lich. –<i>Turath tekee sopimuksen paholaisen kanssa</i>"
+
+		//TIDEHUNTER
+		"dac_ability_tidehunter_ravage"											"Ravage"
+		"dac_ability_tidehunter_ravage_Description"								"Tidehunter läimäyttää maata ja lonkerot purkautuvat joka suuntaan. Se tekee {s:damage} vahinkoa ja tainnuttaa kaikki viholliset {s:cells} ruudun säteellä {s:duration} sekunniksi."
+		"dac_ability_tidehunter_ravage_Lore"									"Kunkka, olit parempaa seuraa, kun sinulla ei ollut leviathania kintereillä. –<i>Wren, pinnallinen ystävä</i>"
+
+		//SHADOWSHAMAN
+		"dac_ability_shadow_shaman_voodoo"										"Hex"
+		"dac_ability_shadow_shaman_voodoo_Description"							"Shadow Shaman noituu vihollisen harmittomaksi olennoksi, joka ei voi hyökätä tai käyttää kykyjään {s:duration} sekunnin ajan."
+		"dac_ability_shadow_shaman_voodoo_Lore"									"On siinä varsinainen showmies! – <i>Grek kehuu työkaveria</i>"
+
+		"dac_ability_shadow_shaman_mass_serpent_ward"							"Mass Serpent Ward"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Shadow Shaman saartaa vihollisen kutsumalla jopa 4 käärmettä."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"Ainakaan se ei enää muuta ketään kanaksi – <i>O'nia, kypsä kanoihin</i>"
+
+		//ENIGMA
+		"dac_ability_enigma_midnight_pulse"										"Midnight Pulse"
+		"dac_ability_enigma_midnight_pulse_Description"							"Enigma levittää korkeimman enimmäisterveyden omaavan vihollisen alle synkän resonanssin alueen, joka tekee jopa {s:radius} ruudun säteellä oleville vihollisille vahinkoa {s:damage_percent} % niiden enimmäisterveydestä {s:duration} sekunnin ajan ja hidastaa niitä {s:slow_percent} %."
+		"dac_ability_enigma_midnight_pulse_Lore"								"Kaikkea ei voi maailmassa hallita. – <i>Turath, hullu velho</i>"
+
+		//TINKER
+		"dac_ability_tinker_heat_seeking_missile"								"Heat-Seeking Missile"
+		"dac_ability_tinker_heat_seeking_missile_Description"					"Tinker ampuu ohjuksilla {s:targets} satunnaista vihollista ja tekee osuessaan {s:damage_per_missile} vahinkoa."
+		"dac_ability_tinker_heat_seeking_missile_Lore"							"Samanmielisten keenien yhteisö tietää ongelmia, jos sitä ei pidetä silmällä. – <i>O'nia yrittää yhdistää joukot </i>"
+
+		//SNIPER
+		"dac_ability_sniper_assassinate"										"Assasinate"
+		"dac_ability_sniper_assassinate_Description"							"Sniper tähtää vihollista kohti {s:castPoint} sekunnin ajan ja ampuu sitten tuhoisan laukauksen, joka tekee {s:damage} vahinkoa ja minitainnuttaa kohteen. Sniper ei kohdista hyökkäystään underlordeihin."
+		"dac_ability_sniper_assassinate_Lore"									"Minulla oli ennen lämmittelijänä keeni. Yleisö tykkäsi, vakuutusyhtiö ei niinkään. – <i>Grek keskittyy olennaiseen</i>"
+
+		//NECROLYTE
+		"dac_ability_necrophos_death_pulse"										"Death Pulse"
+		"dac_ability_necrophos_death_pulse_Description"							"Necrophos laukaisee ympärilleen kuolonaallon, joka vaikuttaa vihollisiin ja liittolaisiin jopa {s:radius} ruudun säteellä.<br><br> Death Pulse tekee {s:damage} vahinkoa vihollisille ja parantaa liittolaisia {s:heal}."
+		"dac_ability_necrophos_death_pulse_Lore"								"Kakista jo Necrophos. Kyllä sinäkin jotain halajat. – <i>Anessix, lipeväkielinen paholainen</i>"
+
+		//SLARDAR
+		"dac_ability_slardar_amplify_damage"									"Corrosive Haze"
+		"dac_ability_slardar_amplify_damage_Description"						"Slardar muuttaa {s:duration} sekunniksi vihollisen panssaria {s:armor_reduction}."
+		"dac_ability_slardar_amplify_damage_Lore"								"Yhteistyö sujui Slarkin kanssa hyvin, joten kyllä mekin sopimukseen pääsemme. – <i>Jull, kiljufani</i>"
+
+		//BEASTMASTER
+		"dac_ability_beastmaster_wild_axes"										"Wild Axes"
+		"dac_ability_beastmaster_wild_axes_Description"							"Beastmaster sinkoaa kirveet ilmoille ja kutsuu ne takaisin. Ne silpovat vihollisia ja jakavat {s:axe_damage} vahinkoa.<br><br>Jokainen kirves voi osua viholliseen vain kerran ja vahvistaa Beastmasterin tekemän vahingon määrää {s:damage_amp} prosentilla."
+		"dac_ability_beastmaster_wild_axes_Lore"								"Moniko puunhalaaja asettuu rääpäleen puolelle? – <i>Grek valittaa Ennosta</i>"
+
+		//VENOMANCER
+		"dac_ability_venomancer_plague_ward"									"Plague Ward"
+		"dac_ability_venomancer_plague_ward_Description"						"Venomancer kutsuu {s:num_wards} ruttoluikeroa taistelemaan kanssaan. Ruttoluikerot käyttävät kohteeseen annoksen myrkkyä."
+		"dac_ability_venomancer_plague_ward_Lore"								"Luomuksesi ovat kauniita. Autan sinua puutarhanhoidossa... – <i>Turath tajuaa, että mielistelyllä pääsee pitkälle</i>"
+
+		"dac_ability_venomancer_venomous_gale"									"Venomous Gale"
+		"dac_ability_venomancer_venomous_gale_Description"						"Laukaisee myrkkypallon linjassa. Osuman ottaneet viholliset ottavat {s:projectile_damage} LOITSUvahinkoa, ja ne on myrkytetty. Vaikutuksen alaiset yksiköt menettävät {s:movement_slow} % liikenopeudesta ja {s:attack_slow} hyökkäysnopeudesta {s:tick_duration} sekunniksi."
+		"dac_ability_venomancer_venomous_gale_Lore"								"Ei, ei, ei. Jos me laitamme tuon kaverin keskelle näyttämöä, puolet yleisöstä kuolee. Etsi joku muu. –<i>Grek punnitsee sopivaa korvaajaa Sun Wukongille</i>"
+
+		"dac_ability_venomancer_poison_sting"									"Poison Sting"
+		"dac_ability_venomancer_poison_sting_Description"						"PASSIIVINEN: Jokainen hyökkäys käyttää kohteeseen annoksen myrkkyä."
+		"dac_ability_venomancer_poison_sting_Lore"								"Pidä tuo kaukana Ennosta. Lisää myrkkyä se kiusankappale kaipaa kaikista vähiten... –<i>Hobgen ei tahdo saada myrkytystä</i>"
+
+		//TEMPLAR ASSASSIN
+		"dac_ability_templar_assassin_refraction"								"Refraction"
+		"dac_ability_templar_assassin_refraction_Description"					"Templar Assassin hämärtää olemuksensa välttääkseen vahinkoa ja saadakseen +{s:bonus_damage} % hyökkäysvahinkoa.<br><br>Vahinko- ja sen välttämistehosteet ovat erillisiä, ja niitä on {s:instances} kutakin."
+		"dac_ability_templar_assassin_refraction_Lore"							"Jos autat minua, olemme sujut. – <i>Wren pyytää apua kaikkialta</i>"
+
+		"dac_ability_templar_assassin_meld"										"Meld"
+		"dac_ability_templar_assassin_meld_Description"							"PASSIIVINEN: teleportattuaan itsensä kohteensa luo, Templar Assassin tekee {s:damage} ylimääräistä vahinkoa ensimmäisellä hyökkäyksellä ja alentaa {s:armor_debuff_duration} sekunniksi kohteen panssaria {s:armor_debuff}."
+		"dac_ability_templar_assassin_meld_Lore"								"Kykysi sopivat täydellisesti suunnitelmiini. – <i>Anessix tekee työtarjouksen</i>"
+		
+		//VIPER
+		"dac_ability_viper_viper_strike"										"Viper Strike"
+		"dac_ability_viper_viper_strike_Description"							"Viperin hapan myrkky hidastaa vihollisen liike- ja hyökkäysnopeutta {s:bonus_attack_speed} % sekä tekee samalla {s:damage} myrkkyvahinkoa ajan myötä.<br><br>Hidastustehoste heikkenee myrkyn vaikutuksen keston aikana."
+		"dac_ability_viper_viper_strike_Lore"									"Olemme lopulta hyvin samanlaisia. Minäkin tiedän, mitä orjuus on. – <i>Quiet, juonitteleva robotti</i>"
+
+		"dac_ability_viper_nethertoxin"											"Nethertoxin"
+		"dac_ability_viper_nethertoxin_Description"								"Viper myrkyttää ruudun ja tekee {s:damage} vahinkoa sekunnissa mille tahansa ruudussa olevalle viholliselle, juurruttaa ne ja käyttää murtamista."
+		"dac_ability_viper_nethertoxin_Lore"									"Otapa varovasti Slark. Ryöstöyrityksesi ei tule päättymään sinulle otollisesti. – <i>O'nia paljastaa palkatun lihaskimppunsa</i> "
+
+		"dac_ability_viper_corrosive_skin"										"Corrosive Skin"
+		"dac_ability_viper_corrosive_skin_Description"							"<i>LOHIKÄÄRMEIDEN LIITTOUMAN AVAAMA</i><br>PASSIIVINEN: Viper erittää tartunta-alttiin toksiinin. Jos vihollinen hyökkää Viperin kimppuun, vihollinen ottaa yhden annoksen myrkkyä ja sen hyökkäysnopeus hidastuu {s:attack_slow} yksiköllä {s:dot_duration} sekunniksi. Happomainen erite lisää Viperin loitsunvastustusta {s:magic_resistance} yksiköllä."
+		"dac_ability_viper_corrosive_skin_Lore"									"Miten tuosta saisi takin tehtyä...? – <i>Carl unelmoi suurista suunnitelmista</i>"
+
+		//LUNA
+		"dac_ability_luna_moon_glaive"											"Moon Glaives"
+		"dac_ability_luna_moon_glaive_Description"								"PASSIIVINEN: Lunan heittoterät kimpoilevat {s:bounces} kertaa vihollisesta toiseen {s:range} ruudun säteellä.<br><br>Jokainen pomppu tekee {s:damage_reduction_percent} % vähemmän vahinkoa."
+		"dac_ability_luna_moon_glaive_Lore"										"En tajua puoliakaan puheestasi, mutta hienosti sinä heität. – <i>Grek, laumaeläin</i>"
+
+		//DRAGON KNIGHT
+		"dac_ability_dragon_knight_breathe_fire"								"Breathe Fire"
+		"dac_ability_dragon_knight_breathe_fire_Description"					"Dragon Knight syöksee tulta edessä olevien vihollisten päälle, polttaa vihollisia tehden {s:damage} vahinkoa sekä vähentää niiden hyökkäysvahinkoa {s:attack_reduction} % {s:duration} sekunniksi."
+		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davion, ei saa heittää helmiä sioille. – <i>Hobgen yrittää metsästää lahjakkuuksia</i>"
+
+		"dac_ability_dragon_knight_elder_dragon_form"							"Elder Dragon Form"
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>LOHIKÄÄRMEIDEN LIITTOUMAN AVAAMA</i><br>PASSIIVINEN: Dragon Knight ottaa taistelun aluksi yhden kolmesta vanhojen ja voimakkaiden lohikäärmeiden muodoista, mikä lisää sen liikenopeutta {s:bonus_movement_speed} % ja hyökkäysvahinkoa {s:bonus_attack_damage} ja antaa sille uusia voimia.<br><br>Vihreä lohikäärme:\nhyökkäykset tekevät {s:corrosive_breath_damage} myrkkyvahinkoa sekunnissa {s:corrosive_breath_duration} sekunnin ajan.<br><br>Punainen lohikäärme:\nvihollisten myrkyttämisen lisäksi se vahingoittaa kaikkia vihollisia {s:splash_radius} ruudun säteellä kohteesta ja tekee {s:splash_damage_percent} % vahinkoa.<br><br>Sininen lohikäärme:\n vihollisten myrkyttämisen lisäksi se hidastaa {s:frost_duration} sekunniksi {s:frost_aoe} ruudun säteellä olevien vihollisten liikenopeutta {s:frost_bonus_movement_speed} % ja hyökkäysnopeutta {s:frost_bonus_attack_speed} %."
+		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"Kaden kehui sinua. Toivottavasti aiheesta. – <i>Wren, lohikäärmeiden ystävä</i>"
+
+		//ENCHANTRESS
+		"dac_ability_enchantress_natures_attendants"							"Nature's Attendants"
+		"dac_ability_enchantress_natures_attendants_Description"				"Enchantress kutsuu {s:wisp_count} virvatulta, joka parantaa liittolaiset {s:radius} ruudun säteellä.<br><br>Liittolaiset saavat {s:heal} terveyttä {s:heal_interval} sekunnin välein ja {s:duration} sekunnin ajan."
+		"dac_ability_enchantress_natures_attendants_Lore"						"Hän ei selviä päivääkään Valkoisessa tornissa. Ei päivääkään. – <i>Hobgen aliarvioi vastustajansa</i>"
+
+		//BOUNTY HUNTER
+		"dac_ability_bounty_hunter_shuriken_toss"								"Shuriken Toss"
+		"dac_ability_bounty_hunter_shuriken_toss_Description"					"Bounty Hunter heittää vihollista tappavalla heittotähdellä, joka tekee {s:damage} vahinkoa ja minitainnuttaa vihollisen."
+		"dac_ability_bounty_hunter_shuriken_toss_Lore"							"Luota siihen, jonka lojaalius on myytävänä, niin kauan kuin rahaa riittää. – <i>O'nia ja kyseenalainen viisaus</i>"
+
+		//BATRIDER
+		"dac_ability_batrider_sticky_napalm"									"Sticky Napalm"
+		"dac_ability_batrider_sticky_napalm_Description"						"Batrider heittää tahmeaa öljyä, joka peittää maan {s:radius} ruudun säteellä osumakohdasta. Öljy lisää Batriderin iskuun {s:damage} vahinkoa kertaa kohti sekä hidastaa vihollisten liike- ja hyökkäysnopeutta {s:movement_speed_pct} %.<br><br>Sticky Napalmin seuraavat käyttökerrat lisäävät edelleen vahinkoa ja laskevat prosentteja enintään {s:max_stacks} kertaa."
+		"dac_ability_batrider_sticky_napalm_Lore"								"Mahtava tyyppi. Kerrassaan mahtava. –<i>Hobgen, pyromaanikko</i>"
+
+		//DOOM BRINGER
+		"dac_ability_doom_bringer_doom"											"Doom"
+		"dac_ability_doom_bringer_doom_Description"								"Doom langettaa kirouksen, joka estää vihollista käyttämästä loitsuja tai käyttää niihin murtamista. Samalla ne ottavat {s:damage} vahinkoa sekunnissa.<br><br>Kestää {s:duration} sekuntia."
+		"dac_ability_doom_bringer_doom_Lore"									"Mieluiten teen sopimuksia vertauskuvallisten demonien kanssa. – <i>O'nia ottaa kantaa Anessixin liittolaisiin</i>"
+
+		//GYROCOPTER
+		"dac_ability_gyrocopter_call_down"										"Call Down"
+		"dac_ability_gyrocopter_call_down_Description"							"Gyrocopter tekee ohjusiskun, joka osuus kaikkiin {s:radius} ruudun säteellä iskukohdasta oleviin vihollisiin.<br><br>Kaksi ohjusta tulee peräkanaa. Ensimmäinen tekee {s:damage_first} vahinkoa ja hidastaa {s:slow_duration_first} sekunniksi {s:slow_first} %. Toinen tekee {s:damage_second} vahinkoa ja hidastaa {s:slow_second} % {s:slow_duration_second} sekunniksi."
+		"dac_ability_gyrocopter_call_down_Lore"									"Mieti, miten tavara liikkuisi, jos hän tulisi apuun. – <i>Jull suunnittelee pitkällä tähtäimellä</i>"
+
+		//ALCHEMIST
+		"dac_ability_alchemist_acid_spray"										"Acid Spray"
+		"dac_ability_alchemist_acid_spray_Description"							"Alchemist ruiskuttaa korkeapaineista happoa {s:radius} ruudun säteellä kohteesta.<br><br>Saastuneella alueella kulkevat viholliset ottavat {s:damage} vahinkoa sekunnissa, ja niiden panssari heikentyy {s:armor_reduction}."
+		"dac_ability_alchemist_acid_spray_Lore"									"Sinä poltat ihmisten kasvoja, minä taloja. Ollaan täydellinen pari. – <i>Hobgen kuroo umpeen kultturierojen kuilun</i>"
+
+		// Lycan
+		"dac_ability_lycan_wolf_spawn_shift"									"Shapeshift"
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan kutsuu kaksi sutta, muuntautuu ja saa {s:hp_per} % lisää enimmäisterveyteen. Sen kasvanut liikenopeus on {s:speed}, ja sillä on {s:crit_chance} prosentin mahdollisuus kriittiseen osumaan {s:crit_bonus} % vahingolla."
+		"dac_ability_lycan_wolf_spawn_shift_Lore"								"Auta minua kostamaan, Lycan. – <i>Wren vetoaa Lycanin inhimillisyyteen</i>"
+		
+		// LONE DRUID
+		"dac_ability_lone_druid_summon_bear"									"Summon Spirit Bear"
+		"dac_ability_lone_druid_summon_bear_Description"						"Kutsuu voimakkaan karhukumppanin."
+		"dac_ability_lone_druid_summon_bear_Lore"								"Pidä karhu kaukana. En kestä karhuja. – <i>Grek, karhupelkoinen</i>"
+		
+
+		//CHAOS KNIGHT
+		"dac_ability_chaos_knight_chaos_bolt"									"Chaos Bolt"
+		"dac_ability_chaos_knight_chaos_bolt_Description"						"Chaos Knight heittää mystisen energiasalaman, joka tekee {s:damage_min}–{s:damage_max} vahinkoa ja tainnuttaa {s:stun_min}–{s:stun_max} sekunniksi."
+		"dac_ability_chaos_knight_chaos_bolt_Lore"								"Pikkukaaos tekisi Valkoiselle tornille terää. – <i>Hobgen, kaaoksen lähettiläs</i>"
+
+		//OGRE MAGI
+		"dac_ability_ogre_magi_bloodlust"										"Bloodlust"
+		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Magi yllyttää liittolaisen kiihkoon siten, että sen liikenopeus kasvaa {s:bonus_movement_speed} % ja hyökkäysnopeus lisääntyy {s:bonus_attack_speed} %. Jos loitsua käytetään Ogre Magiin, hyökkäysnopeus on sen sijaan {s:self_bonus} %."
+		"dac_ability_ogre_magi_bloodlust_Lore"									"Velho on kaksi kertaa hintansa väärti. Onneksi se on myös idiootti. – <i>O'nia, tarjousten metsästäjä</i>"
+
+		// MAGNUS
+		"dac_ability_magnataur_empower"											"Empower"
+		"dac_ability_magnataur_empower_Description"								"Magnus vihastuttaa liittolaisen antaen sille {s:bonus_damage_pct} % vahinkoa ja {s:cleave_damage_pct} % halkaisuvahinkoa {s:duration} sekunniksi."
+		"dac_ability_magnataur_empower_Lore"									"Anna Anessixen luulla, että se voi pyörittää Ennoa. Anessix huomaa kyllä muutamassa sekunnissa olleensa väärässä, kun se tallotaan kuoliaaksi. –<i>Hobgen näyttää harvinaisen vilauksen kärsivällisyydestään</i>"
+
+		//TREANT PROTECTOR
+		"dac_ability_treant_leech_seed"											"Leech Seed"
+		"dac_ability_treant_leech_seed_Description"								"Treant Protector istuttaa elinvoimaa imevän siemenen viholliseen. Se vie {s:leech_damage} vihollisen terveyttä joka {s:damage_interval} sekunnin välein ja hidastaa vihollisen hyökkäys- ja liikenopeutta {s:movement_slow} %.<br><br>Siemen parantaa liittolaiset {s:radius} ruudun säteellä kohteesta. Kesto: {s:duration} sekuntia, ja kohteen kuollessa se hyppää uuteen kohteeseen {s:radius} ruudun säteellä."
+		"dac_ability_treant_leech_seed_Lore"									"Pakko myöntää. En olisi uskonut Ennon pyytävän puuta apuun.– <i>Jull ja Anessix käyvät paukulla</i>"
+
+		//KEEPER OF THE LIGHT
+		"dac_ability_keeper_of_the_light_illuminate"							"Illuminate"
+		"dac_ability_keeper_of_the_light_illuminate_Description"				"Keeper of Light kanavoi energiaa, jonka voima kasvaa kanavoinnin edetessä. Kun energia vapautetaan, se hyökyy eteenpäin aaltona, joka tekee {s:damage_per_second} vahinkoa sekunnissa."
+		"dac_ability_keeper_of_the_light_illuminate_Lore"						"Keeper on mahtavampi kuin antaa olettaa. Tästä seuraa tuhoa, jos sitä ei panna aisoihin. – <i>Turath, valon sammuttaja</i> "
+
+		// MEDUSA
+		"dac_ability_medusa_stone_gaze"											"Stone Gaze"
+		"dac_ability_medusa_stone_gaze_Description"								"Vihollisen liike- ja hyökkäysnopeus hidastuu {s:slow} %, kun se katsoo Medusaa jopa {s:radius} ruudun päästä.<br><br>Jos vihollinen katsoo Medusaa yhteensä {s:face_duration} sekuntia, se kivettyy.<br><br>Kivettyneet viholliset ovat tainnoksissa ja ottavat {s:bonus_physical_damage} % fyysistä lisävahinkoa."
+		"dac_ability_medusa_stone_gaze_Lore"									"Minun tyyppiäni, mutta minä haluan Mireskan. – <i>Hobgen, rakastunut roisto</i>"
+
+		"dac_ability_medusa_split_shot"											"Split Shot"
+		"dac_ability_medusa_split_shot_Description"								"PASSIIVINEN: Medusa ampuu enintään {s:extra_shots} lisänuolta ja osuu ensisijaisen kohteensa lisäksi {s:range} ruudun päässä sijaitseviin lisäkohteisiin. Ylimääräiset nuolet tekevät {s:damage_modifier} % alkuperäisten nuolten vahingosta."
+		"dac_ability_medusa_split_shot_Lore"									"Oletko nähnyt valtiattaren ampuvan jousipyssyllä? Sinulla näyttää henki vielä kulkevan, joten et liene ole... <i>Grek puhuu viimeisimmästä rekrytoinnistaan</i>"
+
+		// TROLL WARLORD
+		"dac_ability_troll_warlord_fervor"										"Fervor"
+		"dac_ability_troll_warlord_fervor_Description"							"PASSIIVINEN: Troll Warlord nuijii isku iskun jälkeen, ja saa {s:attack_speed} % lisää hyökkäysnopeutta.<br><br>Jos peikko vaihtaa kohdettaan, se menettää hyökkäysnopeutensa.<br><br>Tehosteet voi laskea yhteen enintään {s:max_stacks} kertaa."
+		"dac_ability_troll_warlord_fervor_Lore"									"Aikaansaava ja armoton, kuten minä. – <i>Quiet, ei turhaa huhkintaa</i>"
+
+
+		// SHADOW_DEMON
+		"dac_ability_shadow_demon_demonic_purge"								"Demonic Purge"
+		"dac_ability_shadow_demon_demonic_purge_Description"					"Poistaa toistuvasti viholliselta vahvistukset, käyttää murtamista ja hidastaa kohdetta {s:duration} sekunniksi. Yksikön liike-/hyökkäysnopeus palautuu hitaasti keston ajan, minkä lopuksi se tekee {s:damage} vahinkoa."
+		"dac_ability_shadow_demon_demonic_purge_Lore"							"Kuulepas nyt karvainen ryökäle. Luulet voivasi työskennellä Anessixen kanssa, mutta oletko nähnyt sitä väkeä, jonka kanssa se hengailee? <i>Hobgen, joka ei ole demonien (tai Ennon) fani</i>"
+
+		// SVEN
+		"dac_ability_sven_cleave"												"Great Cleave"
+		"dac_ability_sven_cleave_Description"									"PASSIIVINEN: lähitaisteluhyökkäykset osuvat lähellä oleviin vihollisiin {s:cleave_damage_pct} % vahingolla."
+		"dac_ability_sven_cleave_Lore"											"Oletko koskaan nähnyt vartioritaria taistelemassa? Se on niin kaunista. – <i>Grek, taistelutuntija</i>"
+
+		"dac_ability_sven_gods_strength"										"God's Strength"
+		"dac_ability_sven_gods_strength_Description"							"Sven vihastuu ja saa {s:bonus_damage_from_cast} % vahinkoa {s:duration} sekunnin ajan."
+		"dac_ability_sven_gods_strength_Lore"									"En pidä mistään enempää kuin miehestä, joka on jääräpäisesti keskittynyt kostoonsa. –<i>Anessix arvioi Sveniä</i>"
+
+		// SHREDDER
+		"dac_ability_timbersaw_whirling_death"									"Whirling Death"
+		"dac_ability_timbersaw_whirling_death_Description"						"Timbersaw'n panssarin terävät kärjet pyörivät ja aiheuttavat vihollisille {s:damage} vahinkoa {s:radius} ruudun säteellä."
+		"dac_ability_timbersaw_whirling_death_Lore"								"Aavistin, että Enno kutsuu apuun metsäkamunsa, joten minäkin pyysin apua. – <i>Hobgen ryhtyy ratkomaan ongelmia</i>"
+
+		//TUSK
+		"dac_ability_tusk_walrus_punch"											"Walrus PUNCH!"
+		"dac_ability_tusk_walrus_punch_Description"								"Tusk täräyttää mahtavan mursulyönnin. Se on niin voimakas, että se tekee {s:critical_damage} % vahinkoa ja lennättää uhrin ilmaan {s:air_time} sekunniksi. Uhri hidastuu {s:move_slow} % {s:slow_duration} sekunniksi, kun se putoaa maahan. Lyönnin aikaan Tuskia ei voi tappaa."
+		"dac_ability_tusk_walrus_punch_Lore"									"Olimme kerran kavereita. Kohta nähdään, tuliko hän auttamaan vai lyömään. – <i>Jull muistelee nuoruuttaan</i>"
+		
+		
+		//ABADDON
+		"dac_ability_abaddon_aphotic_shield"									"Aphotic Shield"
+		"dac_ability_abaddon_aphotic_shield_Description"						"Abaddon suojelee liittolaista kilvellä ja vie {s:damage_absorb} vahinkoa {s:duration} sekunnin ajan.<br><br>Kun kilpi tuhotaan, se räjähtää ja tekee {s:damage_absorb} vahinkoa vihollisille jopa {s:radius} ruudun säteellä.<br><br>Tietyt heikennykset ja tainnutukset poistetaan."
+		"dac_ability_abaddon_aphotic_shield_Lore"								"Arvostan kovasti Avernuksen sukua. – <i>O'nia mielistelee palveluksen toiveessa</i>"
+
+		// TERRORBLADE
+		"dac_ability_terrorblade_metamorph"										"Metamorphosis"
+		"dac_ability_terrorblade_metamorph_Description"							"Terrorblade muuttuu vahvaksi demoniksi ja saa {s:bonus_attack_range} ruudun kaukohyökkäyksen, {s:bonus_attack_damage} lisävahinkoa ja {s:bonus_attack_speed} hyökkäysnopeutta. Terrorblade vaihtaa terveyttä liittolaisen kanssa kyvyn käynnistyessä."
+		"dac_ability_terrorblade_metamorph_Lore"								"Kun tuo juttelee Anessixin kanssa, tiedossa on jotain pahaa. – <i>Jull, tarkkailija</i>"
+
+		// TECHIES
+		"dac_ability_techies_bomb" 												"Remote Mines"
+		"dac_ability_techies_bomb_Description"									"Jengi asentaa pommin, joka räjähtää {s:explode_time} sekunnin päästä ja tekee {s:damage} vahinkoa {s:range} ruudun säteellä.<br><br>Tekee puolikkaan vahinkoa vihollisille, jotka ovat puolimatkassa."
+		"dac_ability_techies_bomb_Lore"											"Sano mitä sanot, mutta keenit osaavat kyllä hauskuttaa. – <i>Hobgen seuraa romutusta</i>"
+
+		//DISRUPTOR
+		"dac_ability_disruptor_static_storm"									"Static Storm"
+		"dac_ability_disruptor_static_storm_Description"						"Disruptor luo tuhoisan, staattisen myrskyn, joka hiljentää kaikki viholliset {s:duration} sekunnin ajaksi jopa {s:radius} ruudun päästä keskustasta.<br><br>Vahinko alkaa heikkona mutta voimistuu tehden {s:damage_total} vahinkoa myrskyn keston ajan."
+		"dac_ability_disruptor_static_storm_Lore"								"En tiedä, tuliko hän auttamaan vai vahtimaan Axea. – <i>Wren, sekalaisen sakin johtaja</i>"
+
+		//OMNIKNIGHT
+		"dac_ability_omniknight_purification"									"Purification"
+		"dac_ability_omniknight_purification_Description"						"Omniknight parantaa liittolaisen välittömästi {s:heal} pisteellä ja vahingoittaa kaikkia vihollisia {s:radius} ruudun säteellä."
+		"dac_ability_omniknight_purification_Lore"								"Hän käyttää uskoa aseenaan, kuten minäkin. – <i>Turath, harhainen pelastaja</i>"
+		
+		//PUDGE
+		"dac_ability_pudge_meathook"											"Meat Hook"
+		"dac_ability_pudge_meathook_Description"								"Pudge linkoaa verisen koukun kohti kauinta vihollista, vetää sen takaisin ja tekee {s:damage} vahinkoa.<br><br>Pudge ja yhden ruudun säteellä olevat liittolaiset keskittävät iskunsa uhriin, kunnes se kuolee."
+		"dac_ability_pudge_meathook_Lore"										"Pudge on mahtava. Tervehtii aina, kun parkitsen ruumiita. – <i>Carl, kuolematon vaatturi</i>"
+		
+		//WARLOCK
+		"dac_ability_warlock_shadow_word"										"Shadow Word"
+		"dac_ability_warlock_shadow_word_Description"							"Warlock kuiskaa loitsun, joka antaa liittolaiselle {s:burst_tooltip} terveyttä heti ja {s:hot_tooltip} sekuntia kohti {s:duration} sekunnin ajan tai aiheuttaa viholliselle {s:damage_tick} vahinkoa joka sekunti {s:duration} sekunnin ajan."
+		"dac_ability_warlock_shadow_word_Lore"									"Joitain salaisuuksia ei paljasteta. Demnok saa vielä maksaa lörpöttelystään. – <i>Anessix odottaa tilaisuuttaan</i>"
+		
+		//BLOODSEEKER
+		"dac_ability_bloodseeker_blood_rage"									"Bloodrage"
+		"dac_ability_bloodseeker_blood_rage_Description"						"PASSIIVINEN: Bloodseeker ottaa vahinkoa joka sekunti joka vastaa {s:self_dmg_pct} % sen enimmäisterveydestä.<br><br>Menettäessään terveyttä se saa jopa {s:attack_speed_bonus_max} % lisähyökkäysnopeutta {s:min_health_pct} % terveydellä.<br><br>Kun viereinen vihollinen kuolee, se saa {s:heal_pct} % enimmäisterveydestään takaisin."
+		"dac_ability_bloodseeker_blood_rage_Lore"								"Jos minä jotain olen urallani oppinut, niin sen, että kansa janoaa verta. Palkkaa hänet. – <i>Grek, päättäväinen promoottori</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double"									"Tempest Double"
+		"dac_ability_arc_warden_tempest_double_Description"						"Arc Warden luo itsestään kopion senhetkisellä terveydellään.<br><br>Kopio voi käyttää kaikkia Arc Wardenin nykyisiä esineitä ja yrittää hyökätä kutsujansa tavoin saman vihollisen kimppuun. Kloonit eivät pysty luomaan klooneja ja ne tekevät {s:clone_dmg_reduction} % vähemmän vahinkoa."
+		"dac_ability_arc_warden_tempest_double_Lore"							"Hän tuo mukanaan luomisen ihmeet. – <i>Turath, kryptinen profeetta</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double_no_items"						"Tempest Double"
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Arc Warden luo kopion itsestään senhetkisellä terveydellä."
+		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"Hän tuo mukanaan luomisen ihmeet. – <i>Turath, kryptinen profeetta</i>"
+
+		//MIRANA
+		"dac_ability_mirana_arrow"												"Sacred Arrow"
+		"dac_ability_mirana_arrow_Description"									"Mirana ampuu tappavalla tarkkuudella pitkän kantaman nuolen, joka tainnuttaa kohteen {s:duration} sekunniksi ja tekee {s:damage} vahinkoa."
+		"dac_ability_mirana_arrow_Lore"											"Kiihkoilijoihin ei kannata ikinä luottaa, Wren. – <i>Jull jakelee ystävällisiä neuvoja</i>"
+		
+		//SLARK
+		"dac_ability_slark_essence_shift"										"Essence Shift"
+		"dac_ability_slark_essence_shift_description"							"PASSIIVINEN: Slark kasvattaa vahinkoaan {s:stolen_dmg} yksiköllä ja hyökkäysnopeuttaan {s:stolen_aspd} yksiköllä jokaista hyökkäystä kohti."
+		"dac_ability_slark_essence_shift_lore"									"Slarkilla on avainrooli Pimeän riutan tavaran toimittamisessa. – <i>Jull, oman elämänsä sankari</i>"
+
+		"dac_ability_slark_pounce"												"Pounce"
+		"dac_ability_slark_pounce_description"									"PASSIIVINEN: Slark laskeutuu hypystään ja riisuu kohteensa aseista {s:disarm_duration} sekunniksi."
+		"dac_ability_slark_pounce_lore"											"Kuinka hän sai meidät jälleen estettyä? – <i>Hobgen, tulisielu</i>"
+
+		//BLACK DRAGON
+		"dac_ability_black_dragon_splash_attack"								"Splash Attack"
+		"dac_ability_black_dragon_splash_attack_description"					"PASSIIVINEN: Mustan lohikäärmeen kaukohyökkäys tekee aluevahinkoa yhden ruudun säteellä kohteesta oleville yksiköille."
+		"dac_ability_black_dragon_splash_attack_lore"							" "
+
+		//"SVEN GREAT CLEAVE - used for YEAR BEAST and ROSHAN"
+		"dac_ability_sven_great_cleave"											"Great Cleave"
+		"dac_ability_sven_great_cleave_description"								"PASSIIVINEN: lähitaisteluhyökkäykset osuvat lähellä oleviin vihollisiin."
+		"dac_ability_sven_great_cleave_lore"									" "
+
+		//"ROSHAN SPELL IMMUNE"
+		"dac_ability_roshan_spell_immune"										"Spell Immune"
+		"dac_ability_roshan_spell_immune_description"							"AKTIIVINEN: Roshanista tulee loitsuimmuuni {s:duration} sekunniksi."
+		"dac_ability_roshan_spell_immune_lore"									" "
+
+		// Lone Druid Bear
+		"dac_ability_lone_druid_spirit_bear_entangle"							"Entangling Claws"
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Spirit Bearin hyökkäyksillä voi kietoa ja tainnuttaa kohteen."
+		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
+
+		// THUNDER LIZARD BLOODLUST
+		"dac_ability_thunder_lizard_bloodlust"									"Bloodlust"
+		"dac_ability_thunder_lizard_bloodlust_Description"						"Olento yllyttää liittolaisen kiihkoon siten, että sen liikenopeus kasvaa {s:bonus_movement_speed} % ja hyökkäysnopeus lisääntyy {s:bonus_attack_speed} %. Jos loitsu osuu omaan nilkkaan, hyökkäysnopeusbonus on sen sijaan {s:self_bonus} %."
+		"dac_ability_thunder_lizard_bloodlust_Lore"								" "
+
+		// HEALING WARD PLACEABLE
+		"dac_ability_healing_ward_healing_aura"											"Healing Aura"
+		"dac_ability_healing_ward_healing_aura_description"								"Parantaa liittolaiset {s:heal_range} ruudun sisällä {s:health_regen} terveydellä sekunnissa."
+		"dac_ability_healing_ward_healing_aura_lore"									""
+
+		// TOMBSTONE PLACEABLE
+		"dac_ability_tombstone_raise_zombies"										"Raise Zombies"
+		"dac_ability_tombstone_raise_zombies_description"							"{s:range} ruudun sisällä kuolevat yksiköt kutsuvat zombin."
+		"dac_ability_tombstone_raise_zombies_lore"									""
+
+		// BARRICADE PLACEABLE
+		"dac_ability_barricade_aura"										"Barricade"
+		"dac_ability_barricade_aura_description"							"Barricade suojelee lähellä olevia yksiköitä ja on loitsuimmuuni."
+		"dac_ability_barricade_aura_lore"									""
+
+		// TARGET DUMMY PLACEABLE
+		"dac_ability_target_dummy_taunt"										"Taunt"
+		"dac_ability_target_dummy_taunt_description"							"Target Buddy pilkkaa."
+		"dac_ability_target_dummy_taunt_lore"									""
+
+		// CINDERWALL TALENT
+		"dac_ability_cinderwall_aura"										"Cinderwall"
+		"dac_ability_cinderwall_aura_description"							"Cinderwall suojelee lähellä olevia yksiköitä ja on immuuni loitsuille. Se sytyttää lähellä olevia yksiköitä palamaan."
+		"dac_ability_cinderwall_aura_lore"									""
+
+		// FACELESS VOID
+		"dac_ability_faceless_void_chronocube"										"Chronocube"
+		"dac_ability_faceless_void_chronocube_description"							"Luo aika-avaruuden repeymän, joka tainnuttaa jokaisen kuution keskustasta {s:radius} ruudun säteellä olevan yksikön {s:stun_duration} sekunniksi. Faceless Void liikkuu hyvin nopeasti kuution sisällä ja saa {s:bonus_attack_speed} hyökkäysnopeutta. Vain Faceless Void kykenee liikkumaan. Langettamisen jälkeen Faceless Void yrittää teleportata kaikki lahtariliittolaiset pois kuutiosta."
+		"dac_ability_faceless_void_chronocube_lore"									"Claszureme meinaa sekaantua tähän. Se voi muodostua ongelmaksi. – <i>Jull tajuaa, ettei voi iskeä aikaa</i>"
+
+		"dac_ability_faceless_void_time_walk"										"Time Walk"
+		"dac_ability_faceless_void_time_walk_description"							"PASSIIVINEN: Faceless Void syöksyy seuraavaan kohteeseensa ja parantaa kaiken viimeisen 2 sekunnin aikana otetun vahingon."
+		"dac_ability_faceless_void_time_walk_lore"									"En koskisi yhteenkään niistä kirotuista tiimalaseista. Luuletko, että haluan Pierpontin tänne nurkkiin nuuskimaan? – <i>Hobgen, järkevä maanikko</i>"
+
+		// LEGION COMMANDER
+		"dac_ability_legion_commander_duel"											"Duel"
+		"dac_ability_legion_commander_duel_description"								"Legion Commander kohdistaa hyökkäyksenä 1 ruudun päässä olevaan vähiten terveyttä omaavaan viholliseen, ja niiden pitää hyökätä toistensa kimppuun {s:stun_duration} sekunnin ajan. Kumpikaan sankareista ei voi käyttää kykyjä. Jos jompikumpi kuolee taistelun aikana, kaksinkamppailun voittava sankari saa {s:winner_bonus_damage} pysyvää lisävahinkoa. ([20/32/48] lisävahinkoa Tyrmäys-pelitilassa.)"
+		"dac_ability_legion_commander_duel_lore"									"Ei tarvitse seisoa asennossa, Tresdin... Voin auttaa sinua löytämään Rixin. – <i>Anessix, tyynenä paineen alla</i>"
+
+		"dac_ability_legion_commander_will_of_the_bullsnake"						"Will of the Bullsnake"
+		"dac_ability_legion_commander_will_of_the_bullsnake_description"			"<i>LOHIKÄÄRMEIDEN LIITTOUMAN AVAAMA</i><br>PASSIIVINEN: kun Legion Commander voittaa kaksintaistelun, se parantuu välittömästi {s:heal_percentage} % enimmäisterveydestään."
+		"dac_ability_legion_commander_will_of_the_bullsnake_lore"					"Tunnen sinun tyyppisi, komentaja. Olet yksi vaarallisimmista olioista. Sellainen, joka uskoo. – <i>Wren, maailmaa opiskeleva</i>"
+
+		"dac_ability_legion_commander_element"										"Elemental Charge"
+		"dac_ability_legion_commander_element_description"							"PASSIIVINEN: kun Legion Commander käynnistää Delta Slamin osana henkien liittoumaa, se tekee tuplavahinkoa."
+		"dac_ability_legion_commander_element_lore"									"Monet sotilaat ovat henkien riivaamia... tuo johtaa niitä. – <i>Jull, tunnistaa tuhannen jaardin tuijotuksen nähdessään sellaisen</i>"
+
+		// NYX ASSASSIN
+		"dac_ability_nyx_assassin_spiked_carapace"									"Spiked Carapace"
+		"dac_ability_nyx_assassin_spiked_carapace_description"						"Nyx Assassinin piikkikuori torjuu ja heijastaa {s:damage_taken_reflect_percentage} % tehdystä vahingosta (yhden per vihollinen) ja tainnuttaa kaikkia sitä vahingoittaneita hahmoja {s:stun_duration} sekuntia."
+		"dac_ability_nyx_assassin_spiked_carapace_lore"								"Oikea termi on nelijalkainen. – <i>Quiet, yksityiskohdat huomioiva</i>"
+
+		"dac_ability_nyx_assassin_vendetta"											"Vendetta"
+		"dac_ability_nyx_assassin_vendetta_description"								"PASSIIVINEN: teleportattuaan hyökätäkseen yksikön kimppuun Nyx Assassin tekee {s:bonus_damage} lisävahinkoa seuraavassa hyökkäyksessään ja käyttää murtamista viholliseen {s:break_duration} sekuntia poistaen kaikki passiiviset tehosteet käytöstä."
+		"dac_ability_nyx_assassin_vendetta_lore"									"Hyönteinen. Nelijalkainen. Kuka välittää. Asian ydin on, että tarvitsen sitä tappaakseni jonkun nyt... Saatko hänet kiinni vai etkö? – <i>O'nia, joka ei pidä siitä, että häntä korjataan</i>"
+
+		// WEAVER
+		"dac_ability_weaver_shukuchi"												"Shukuchi"
+		"dac_ability_weaver_shukuchi_description"									"Weaver häviää näkyvistä eikä sen kimppuun voi hyökätä. Se liikkuu nopeasti jopa {s:distance_cells} ruudun päässä olevan kohteen läpi tehden {s:damage} vahinkoa kaikkiin vihollisiin, joiden läpi se kulkee."
+		"dac_ability_weaver_shukuchi_lore"											"Weaver, yhdessä teemme maailman uusiksi. –<i>Turath, tarpeeksi hullu tehdäkseen sen</i>"
+
+		// BROODMOTHER
+		"dac_ability_broodmother_spawn_spiderlings"									"Spawn Spiderlings"
+		"dac_ability_broodmother_spawn_spiderlings_description"						"Broodmother siittää poikasensa viholliseen tehden {s:damage} vahinkoa. Jos kohde kuolee, {s:num_spiderlings} Spiderling-poikasta kuoriutuu. Spiderlingeja kohti ei voi hyökätä, ne tekevät vähän vahinkoa ja niillä on 1 terveys."
+		"dac_ability_broodmother_spawn_spiderlings_lore"							"Saatan polttaa ihmisiä elävältä, mutta en ainakaan haudo niissä munia... –<i>Hobgen yrittää harhauttaa</i>"
+
+		"dac_ability_broodmother_spin_web"											"Spin Web"
+		"dac_ability_broodmother_spin_web_description"								"Broodmother kutoo {s:radius} ruudun kokoisen verkon vihollisen päälle. Verkossa olevat viholliset menettävät {s:debuff_attack_speed} hyökkäysnopeutta, {s:debuff_speed} % liikenopeutta ja {s:debuff_casting_speed} % langetusnopeutta."
+		"dac_ability_broodmother_spin_web_lore"										"En vissiin voi palkata jälkeläisiäsi kieputtamaan minulle vähän silkkiä? Olen melko varma, etteivät lapsityölait koske hämähäkkejä. – <i>Carl, eettinen räätäli</i>"
+
+		// WISP
+		"dac_ability_wisp_tether"													"Tether"
+		"dac_ability_wisp_tether_description"										"Io sitoutuu lähimpään liittolaissankariin ja vetää itsensä sitä kohti. Se antaa molemmille {s:bonus_attack_speed} hyökkäysnopeutta ja {s:damage_reduction} % vahinkovähennystä. Sidos katkeaa, jos Io on {s:tether_break_distance} ruutua kauempana."
+		"dac_ability_wisp_tether_lore"												"<i>Enno tuijottaa Io:ta tarkkaavaisesti</i>"
+
+		"dac_ability_wisp_relocate"													"Relocate"
+		"dac_ability_wisp_relocate_description"										"Io teleporttaa pois {s:relocate_time_away} sekunniksi elvyttääkseen kuolleen sankarin. Nämä kaksi yksikköä palaavat täydellä terveydellä ja negatiivisista vaikutuksista puhdistettuna."
+		"dac_ability_wisp_relocate_lore"											"<i>Io tuijottaa takaisin</i>"
+
+		// BRISTLEBACK	
+		"dac_ability_bristleback_quill_spray"										"Quill Spray"
+		"dac_ability_bristleback_quill_spray_description"							"Bristleback levittää piikkejä selästään ja vahingoittaa kaikkia vihollisia {s:radius} ruudun säteellä. Viholliset ottavat {s:quill_base_damage} vahinkoa sekä {s:quill_stack_damage} lisävahinkoa joka kerta, kun kasa piikkejä osuu niihin tämän erän aikana (enintään {s:max_stacks} kertaa)."
+		"dac_ability_bristleback_quill_spray_lore"									"Anna kun teen tämän nyt harvinaisen selväksi. Sinä ja Tusk ette hajota baariani tänään. –<i>Jull, jäähdyttelijä</i>"
+
+		// LIFESTEALER
+		"dac_ability_life_stealer_feast"											"Feast"
+		"dac_ability_life_stealer_feast_description"								"PASSIIVINEN: Lifestealerin hyökkäykset vahingoittavat vihollisia ja parantavat sitä itseään {s:lifesteal_percentage} % kohteen enimmäisterveydestä."
+		"dac_ability_life_stealer_feast_lore"										"En arvosta sitä, että teet olotilani perusteella oletuksia, että tietäisin heti missä Lifestealer oleilee. – <i>Carl, usein väärinymmärretty</i>"
+
+		// DAZZLE
+		"dac_ability_dazzle_shadow_wave"											"Shadow Wave"
+		"dac_ability_dazzle_shadow_wave_description"								"Dazzle iskee voimavasaman, joka kaartuu jopa {s:max_targets} liittolaisen välille, jotka ovat {s:bounce_radius} ruudun päässä toisistaan, parantaa niitä {s:damage} ja vahingoittaa {s:damage_radius} ruudun säteellä olevia vihollisia {s:damage} pisteellä. Shadow Wave parantaa aina Dazzlea."
+		"dac_ability_dazzle_shadow_wave_lore"										"Paljonko veloitat, jos käytän palveluitasi jatkossakin? Minun intresseissäni on pysyä hengissä. –<i>O'nia, varjoissa puukottelija</i>"
+
+		// STORM SPIRIT
+		"dac_ability_storm_spirit_ball_lightning"									"Ball Lightning"
+		"dac_ability_storm_spirit_ball_lightning_description"						"Storm Spirit muuntautuu epävakaaksi sähköksi ja kiitää taistelukentän läpi. Se tekee {s:damage} vahinkoa kaikille ohittamilleen yksiköille ja {s:damage_per_cell} vahinkoa läpikulkemiaan ruutuja kohti."
+		"dac_ability_storm_spirit_ball_lightning_lore"								"Tuon egoistin motivaatio tulee sydämestä, ei päästä. Se on helpoin saada nalkkiin. – <i>Turath punoo juonia</i>"
+
+		"dac_ability_storm_spirit_element"											"Storm Elemental"
+		"dac_ability_storm_spirit_element_description"								"PASSIIVINEN: kun Storm Spirit käynnistää Delta Slamin, se riisuu vaikutuksen alaiset viholliset aseista 3 sekunniksi."
+		"dac_ability_storm_spirit_element_lore"										"Meidän ei tarvitse huolehtia Quietista, se ei halua olla lähelläkään myrskyä. - <i>Anessix punnitsee kaikkia vaihtoehtoja</i>"
+
+		// EMBER SPIRIT
+		"dac_ability_ember_spirit_sleight_of_fist"									"Sleight of Fist"
+		"dac_ability_ember_spirit_sleight_of_fist_description"						"Ember Spirit syöksyy räjähtävällä nopeudella, hyökkää jokaista vihollista kohti {s:cells} ruudun säteellä ja palaa sitten lähtöpisteeseensä. Hyökkäykset tekevät {s:bonus_damage} lisävahinkoa."
+		"dac_ability_ember_spirit_sleight_of_fist_lore"								"Se ehkä taistelee kuin demoni, mutta se on kunniallinen olento. Sen sana riittää minulle. – <i>Jull lausuu kunniasta varkaiden keskuudessa</i>"
+
+		"dac_ability_ember_spirit_element"											"Fire Elemental"
+		"dac_ability_ember_spirit_element_description"								"PASSIIVINEN: kun Ember Spirit käynnistää Delta Slamin, se sytyttää vaikutuksen alaiset viholliset palamaan 3 sekunniksi."
+		"dac_ability_ember_spirit_element_lore"										"Haluan tämän kaverin palkkalistalleni. - <i>Hobgen, kykyjen tuntija </i>"
+
+		// EARTH SPIRIT
+		"dac_ability_earth_spirit_geomagnetic_grip"									"Geomagnetic Grip"
+		"dac_ability_earth_spirit_geomagnetic_grip_description"						"Earth Spirit kutsuu Stone Remnantin kartan ulkopuolelta ja vetää sitä kohdettaan kohti. Viholliset, joihin Stone Remnant osuu, on hiljennetty {s:silence_duration} sekunniksi, ja ne ottavat {s:damage} vahinkoa."
+		"dac_ability_earth_spirit_geomagnetic_grip_lore"							"Hienoa, kun Kaolin tulee kaupunkiin. Se kaivaa esiin mitä kiehtovampia asioita. – <i>Carl etsii tarvikkeita</i>"
+
+		"dac_ability_earth_spirit_element"											"Earth Elemental"
+		"dac_ability_earth_spirit_element_description"								"PASSIIVINEN: kun Earth Spirit käynnistää Delta Slamin, se hiljentää vaikutuksen alaiset viholliset 3 sekunniksi."
+		"dac_ability_earth_spirit_element_lore"										"Mitäpä en antaisi nähdäkseni Wukongin taistelevan kehässä tätä tyyppiä vastaan... – <i>Grek, fantasiavälittäjä</i>"
+
+		// VOID SPIRIT
+		"dac_ability_void_spirit_dissimilate"										"Dissimilate"
+		"dac_ability_void_spirit_dissimilate_description"							"Void Spirit katoaa eetteriin ja luo 3 portaalia. {s:disappear_duration} sekunnin jälkeen se poistuu yhdestä portaalista ja tekee {s:bonus_damage} vahinkoa {s:damage_distance} ruudun säteellä oleville vihollisille ja vähentää niiden panssaria {s:armor_reduction} yksiköllä {s:armor_reduction_duration} sekunniksi."
+		"dac_ability_void_spirit_dissimilate_lore"									"Piileskelyä ei lopeteta ilman hyvää syytä. Selvitä, miksi se on täällä. – <i>Anessix etsii salaisuutta</i>"
+
+		"dac_ability_void_spirit_element"											"Void Elemental"
+		"dac_ability_void_spirit_element_description"								"PASSIIVINEN: kun Void Spirit käynnistää Delta Slamin, se murtaa vaikutuksen alaiset viholliset 3 sekunniksi."
+		"dac_ability_void_spirit_element_lore"										"Otapa varovasti sen lähellä, Slark.  – <i>Jull jakelee ystävällisiä neuvoja</i>"
+
+		// GRANNY LIZARD
+		"dac_ability_granny_lizard_shotgun_blast"									"Ol' Scatterblast"
+		"dac_ability_granny_lizard_shotgun_blast_description"						"Neljän perushyökkäyksen jälkeen Snapfire lataa haulikkonsa, laukaisee se lähellä olevaan viholliseen tehden {s:blast_damage} vahinkoa kartion muotoisesti ja hidastaa yksiköiden hyökkäystä {s:blast_bonus_attack_speed} %:lla."
+		"dac_ability_granny_lizard_shotgun_blast_lore"								"Keeneillä on aina ollut kiehtovat ajatukset sodankäynnistä. Ja sodankäyntihän on minun elantoni. Ehkäpä tässä on kauppoja hierottavaksi. – <i>Quiet, enkelisijoittaja</i>"
+
+		"dac_ability_granny_lizard_bazooka"											"Mortimer Kisses"
+		"dac_ability_granny_lizard_bazooka_description"								"<i>LOHIKÄÄRMEIDEN LIITTOUMAN AVAAMA</i>: Mortimer sylkee {s:projectile_count} tulipalloa {s:cast_range} ruudun säteellä oleviin vihollisiin. Jokainen tulipallo tekee {s:damage} vahinkoa kaikille {s:impact_radius} ruudun säteellä osumakohdasta oleville vihollisille ja sytyttää ne palamaan {s:burn_duration} sekunniksi."
+		"dac_ability_granny_lizard_bazooka_lore"									"Haluatko siis kertoa tuolle rouvalle, ettei tuo olento ole lohikäärme? – <i>Grek, joka ei ole huolissaan aitoudesta</i>"
+
+		// MANGO TREE
+		"dac_ability_mango_tree_mango_throw"										"Mango Throw"
+		"dac_ability_mango_tree_mango_throw_description"							"Mango Tree heittää mangon jopa {s:radius} ruudun päähän taistelun alussa ja sen jälkeen joka {s:mango_production_interval}. sekunti. Jokainen mangoa koskeva yksikkö syö sen ja saa 50 manaa ja 100 terveyttä."
+		"dac_ability_mango_tree_mango_throw_lore"									"Älä katso minua noin. Se on vain hedelmää. –<i>Annesix yrittää epätoivoisesti taistella stereotypioita vastaan</i>"
+
+		// UNDERLORDS
+
+		"dac_ability_underlord_scales"												"Skaalautuu underlordin mukaan"
+
+		"dac_ability_anessix_summon_companions"										"Anessix's Demon Pals"
+		"dac_ability_anessix_summon_companions_description"							"Anessix kutsuu demonijoukkionsa. Jos molemmat demonit on kuolleita, se kutsuu niitä uudelleen."
+		"dac_ability_anessix_summon_companions_lore"								"Kannattaa tuntea tyyppejä... – <i>Anessix alamaailman yhteyksistä</i>"
+
+		"dac_ability_anessix_summon_golem"											"Summon Demonic Golem"
+		"dac_ability_anessix_summon_golem_description"								"Anessix kutsuu demonisen golemin, joka murskaa vihollislinjojen takana ja tainnuttaa jokaisen vihollisen 2 ruudun säteellä 2 sekunniksi."
+		"dac_ability_anessix_summon_golem_lore"										"Oikeasti, en koskaan tappaisi sinua... minulla on väkeä sitä varten. – <i>Anessix, kyseenalaisen moraalin omaava</i>"
+
+		"dac_ability_anessix_passive"												"Passiivinen kyky"
+		"dac_ability_anessix_passive_description"									"Anessix kutsuu kumppanin taistelemaan vierellään."
+
+		"dac_ability_anessix_companion_archer_passive"								"Critical Strike"
+		"dac_ability_anessix_companion_archer_passive_description"					"PASSIIVINEN: Demon Archerilla on {s:chance} % mahdollisuus jakaa vihollisille {s:bonus} % kriittistä osumaa joka hyökkäyksessä."
+		"dac_ability_anessix_companion_archer_passive_lore"							"<i>Kumppanini tietävät, miten asioista tehdään epämiellyttäviä. – <i>Anessix, rautanyrkki samettikäsineessä</i>"
+
+		"dac_ability_anessix_pure_pain"												"Pure Pain"
+		"dac_ability_anessix_pure_pain_description"									"Anessix hyökkää satunnaisen vihollisen kimppuun ja tekee {s:damage} puhdasta vahinkoa joka sekunti {s:duration} sekunnin ajan."
+		"dac_ability_anessix_pure_pain_description_perlevel"						"Anessix hyökkää satunnaisen vihollisen kimppuun ja tekee {s:damage} puhdasta vahinkoa joka sekunti {s:duration} sekunnin ajan."
+		"dac_ability_anessix_pure_pain_lore"										"Kerrot minulle sen, mitä haluan tietää... – <i>Anessix, ihmisystävällinen</i>"
+
+		"dac_ability_anessix_martyrs_boon"											"Martyr's Boon"
+		"dac_ability_anessix_martyrs_boon_description"								"Anessix ottaa vahinkoa {s:selfdmg} % enimmäisterveydestään. Kaikki liittolaiset paranevat {s:regen} pisteellä sekunnissa seuraavien {s:duration} sekunnin ajan."
+		"dac_ability_anessix_martyrs_boon_description_perlevel"						"Anessix ottaa vahinkoa {s:selfdmg} % enimmäisterveydestään. Kaikki liittolaiset paranevat {s:regen} pisteellä sekunnissa seuraavien {s:duration} sekunnin ajan."
+		"dac_ability_anessix_martyrs_boon_lore"										"Ystävällisyyteni ja julmuuteni ovat tasapainossa. – <i>Anessix, hyväntahtoinen työnantaja</i>"
+
+		"dac_ability_anessix_enthrall"												"Enthrall"
+		"dac_ability_anessix_enthrall_description"									"Anessix merkitsee hyökkäyskohteen {s:target_duration} sekunniksi, vähentää kohteen panssaria {s:armor_reduction} yksiköllä ja pakottaa armeijasi hyökkäämään sen kimppuun. Jos kohde kuolee, Anessix tuo sen takaisin demonina taistelemaan puolestaan."
+		"dac_ability_anessix_enthrall_description_lore"								"Kuulut nyt minulle. – <i>Anessix osallistuu vihamieliseen vallankaappaukseen</i>"
+
+		"dac_ability_demon_warrior_bash"											"Warrior Bash"
+		"dac_ability_demon_warrior_bash_description"								"Anessixen kumppanilla on {s:bash_chance} % mahdollisuus tainnuttaa vihollisensa {s:bash_duration} sekunniksi ja tehdä {s:bonus_chance_damage} lisävahinkoa."
+		"dac_ability_demon_warrior_bash_lore"										"Jos haluat tavata Anessixen, sinun pitää päästä ensin minun ohitseni... – <i>Brill, demoninen palvelija</i>"
+
+		"dac_ability_hobgen_passive"												"Passiivinen kyky"
+		"dac_ability_hobgen_passive_description"									"Hobgenin hyökkäykset sytyttävät viholliset palamaan 3 sekunniksi."
+
+		"dac_ability_hobgen_explosivo"												"Explosivo!"
+		"dac_ability_hobgen_explosivo_description"									"Hobgen heittää kohteeseen tulipallon, joka tekee {s:damage_base} vahinkoa tasaisesti kaikille viereisille kohteille ja sytyttää ne kaikki palamaan."
+		"dac_ability_hobgen_explosivo_description_perlevel"							"Hobgen heittää kohteeseen tulipallon, joka tekee {s:damage_base} vahinkoa tasaisesti kaikille viereisille kohteille ja sytyttää ne kaikki palamaan."
+		"dac_ability_hobgen_explosivo_description_lore"								"Räjäytetäänpäs jotain. – <I>Hobgen, amatööriräjäyttelijä</i>"
+
+		"dac_ability_hobgen_supercharged"											"Super-Charged"
+		"dac_ability_hobgen_supercharged_description"								"Hobgen superlataa lähimmän liittolaisensa, sytyttää sen palamaan ja antaa sille {s:aspd} hyökkäysnopeutta."
+		"dac_ability_hobgen_supercharged_description_perlevel"						"Hobgen superlataa lähimmän liittolaisensa, sytyttää sen palamaan ja antaa sille {s:aspd} hyökkäysnopeutta."
+		"dac_ability_hobgen_supercharged_description_lore"							"Joskus jengi tarvitsee vain vähän lisämotivaatiota. – <i>Hobgen sytyttää kirjaimellisen ja vertauskuvallisen roihun</i>"
+
+		"dac_ability_hobgen_airstrike"												"Friendly Fire"
+		"dac_ability_hobgen_airstrike_description"									"Hobgenin kaverit heittävät taistelukentälle {s:strikes} pommia, jotka tekevät {s:damage} vahinkoa vihollisille, joihin räjähdys osuu. Räjähdyksen vaikutusalueelle osuneet viholliset ottavat puolikkaan vahinkoa."
+		"dac_ability_hobgen_airstrike_description_lore"								"Poltetaan kaikki! – <i>Hobgen, pähkähullu pyromaani</i>"
+
+		"dac_ability_hobgen_letsgocrazy"											"Let's Go Crazy"
+		"dac_ability_hobgen_letsgocrazy_description"								"Hobgenin hyökkäys yltää nyt koko taistelukentälle, ja koko joukkue saa {s:aspd} hyökkäysnopeutta. Hobgen voi jatkuvasti vaihtaa kohdetta yksiköihin, jotka eivät pala."
+		"dac_ability_hobgen_letsgocrazy_description_perlevel"						"Hobgenin hyökkäys yltää nyt koko taistelukentälle, ja koko joukkue saa {s:aspd} hyökkäysnopeutta. Hobgen voi jatkuvasti vaihtaa kohdetta yksiköihin, jotka eivät pala."
+		"dac_ability_hobgen_letsgocrazy_description_lore"							"Haluat siis, että minä olen tarinan pahis, vai? Sopii minulle. – <i>Hobgenin neuvottelut Ennon kanssa saavat ikävän käänteen</i>"
+
+		"dac_ability_demon_warrior_protect"											"Warrior Protect"
+		"dac_ability_demon_warrior_protect_description"								"Demoni suojelee Anessixia ja estää kaukohyökkäykset sitä vastaan."
+		"dac_ability_demon_warrior_protect_description_lore"						"Kultaseni, pysyttelepä vierelläni... ei-toivottuja on liikkeellä. – <i>Anessix käy kävelyllä Valkoisessa tornissa</i>"
+
+		"dac_ability_jull_passive"													"Passiivinen kyky"
+		"dac_ability_jull_passive_description"										"Jull saa {s:armor_per_enemy} panssaria jokaista viereistä liittolais- tai vihollisyksikköä kohti."
+
+		"dac_ability_jull_beeftron"													"Shake It Off"
+		"dac_ability_jull_beeftron_description"										"Jull heijastaa {s:melee_reflect_pct} % otetusta lähitaisteluvahingosta takaisin kaikille viereisille vihollisille ja parantuu {s:melee_heal_pct} %:lla lähitaisteluvahingosta ja {s:ranged_heal_pct} % kaukotaisteluvahingosta, joka on otettu viimeisen {s:melee_reflect_window} sekunnin aikana."
+		"dac_ability_jull_beeftron_lore"											"Minua. Ei. Murreta! – <i>Jull näyttää sisunsa kidutuksesta piittaamatta.</i>"
+
+		"dac_ability_jull_punchtron"												"Wallop"
+		"dac_ability_jull_punchtron_description"									"Jull lyö nykyistä vihollistaan, tekee {s:punch_damage} vahinkoa ja työntää ne {s:punch_distance} ruudun päähän nykyisestä paikastaan. Matkan varrella olevat viholliset tainnutetaan {s:stun_duration} sekunniksi ja siirretään. Jos vihollinen osuu pelilaudan reunaan, se ottaa uudelleen vahinkoa."
+		"dac_ability_jull_punchtron_lore"											"Tulehan nyt Tusk. Viime kerrasta onkin jo liian pitkä aika. – <i>Vanhat kaverukset tekevät tilit selviksi</i>"
+
+		"dac_ability_jull_barrelsoffun"												"Barrels of Fun"
+		"dac_ability_jull_barrelsoffun_description"									"Jull kutsuu tynnyreitä pelilaudan reunoilta. Jos ne osuvat liittolaiseen, se saa {s:attack_speed_buff_pct} hyökkäysnopeutta. Jos ne osuvat viholliseen, se ottaa {s:barrel_dmg} fyysistä vahinkoa ja saa {s:damage_taken_debuff_pct} % enemmän loitsu- ja fyysistä vahinkoa koko lopputaistelun ajan."
+		"dac_ability_jull_barrelsoffun_lore"										"Omien tuotteideni tuhoaminen ei tuo minulle minkäänlaista iloa, mutta joskus on tehtävä uhrauksia. – <i>Jull päättää improvisoida</i>"
+
+		"dac_ability_jull_happyhour"												"Happy Hour"
+		"dac_ability_jull_happyhour_description"									"Jull tarjoaa kierroksen kaikille joukkueesi sankareille. Kun se ottaa vahinkoa, {s:damage_distributed_pct} % otetusta vahingosta saadaan heti, loput otetaan {s:damage_distributed_duration} sekunnin aikana."
+		"dac_ability_jull_happyhour_lore"											"Ystävät! Tänään juomat on minun piikkiin! – <i>Jull, Särkyneen kuun omistaja</i>"
+
+		"dac_ability_enno_poison_spin"												"Poison Spin"
+		"dac_ability_enno_poison_spin_description"									"Enno hyppää ilmaan ja ampuu myrkkynuolen jopa {s:target_count} vihollista kohti, jotka ovat {s:range} ruudun sisällä. Se käyttää annoksen myrkkyä, joka kasautuu ja tekee {s:damage} fyysistä vahinkoa kasautumista kohti."
+		"dac_ability_enno_poison_spin_lore"											"Älä anna sen koon hämätä… Enno on vaarallisempi kuin miltä se näyttää. – <i>Jull valmistelee visiittiä Käytäväverkostoihin</i>"
+
+		"dac_ability_enno_escape_artist"											"Escape Artist"
+		"dac_ability_enno_escape_artist_description"								"Kun Ennon terveys putoaa ensimmäisen kerran alle {s:escape_health_pct_1}/{s:escape_health_pct_2}/{s:escape_health_pct_3} %:n, se pakenee savupilveen, joka puhdistaa sen kaikki negatiiviset vaikutukset, ja se ilmestyy johonkin toiseen kohtaan pelilaudalla. Ennon viereiset viholliset tainnutetaan {s:stun_duration} sekunniksi, kun se laskeutuu."
+		"dac_ability_enno_escape_artist_lore"										"Napatkaa nyt joku tuo rääpäle ja tappakaa se! – <i>Hobgen, erittäin ärtynyt</i>"
+
+		"dac_ability_enno_steal"													"Yoink!"
+		"dac_ability_enno_steal_description"										"Enno varastaa taistelun alussa vihollisjoukkueelta sen alimman tason esineen. Kun vihollinen kuolee, Enno nappaa sen esineen, jos se on paremmin varustettu. Kaikki esineet palautetaan alkuperäisille omistajilleen taistelun päätyttyä."
+		"dac_ability_enno_steal_lore"												"Katsos, olen Salaisuuksien valtiatar, en mikään ihmeidentekijä. Jos Enno otti sinulta jotain, et saa sitä takaisin, ennen kuin Enno kyllästyy siihen. – <i>Anessix, pitää aina kiinni lompakostaan</i>"
+
+		"dac_ability_enno_airbrawl"													"All Out Attack!"
+		"dac_ability_enno_airbrawl_description"										"Enno käynnistää All Out Attack -hyökkäyksen vihollisia kohti, lisää {s:stacks} annosta myrkkyä, jakaa {s:fight_damage} fyysistä vahinkoa ja tainnuttaa ne {s:land_stun_duration} sekunniksi."
+		"dac_ability_enno_airbrawl_lore"											"AJA KARVAINEN RYÖKÄLE POIS! – <i>Hobgen saa läksytyksen nöyryydestä</i>"
+	}
+}

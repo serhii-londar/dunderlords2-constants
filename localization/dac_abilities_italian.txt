@@ -1,0 +1,663 @@
+﻿"lang"
+{ 
+	"Language" "italian" 
+	"Tokens" 
+	{
+		"dac_ability_autoattack"												"Attacco automatico"
+		"dac_ability_regen"														"Rigenerazione"
+
+		// ANTIMAGE
+		"dac_ability_antimage_mana_break"										"Infrangi-mana"
+		"dac_ability_antimage_mana_break_Description"							"PASSIVA: Anti-Mage brucia {s:mana_per_hit} punti mana dell'avversario ad ogni attacco, infliggendo il 50% del mana bruciato come danno al bersaglio. Consuma {s:hype_per_hit} punti furia quando colpisce gli Underlord."
+		"dac_ability_antimage_mana_break_Lore"									"Anti-Mage è qui per me... e io sarò qui ad aspettarlo. - <i>Turath, fuggitivo della tenuta Tyler</i>"
+
+		//QUEEN OF PAIN
+		"dac_ability_queenofpain_scream_of_pain"								"Urlo del dolore"
+		"dac_ability_queenofpain_scream_of_pain_Description"					"Queen of Pain lancia un urlo travolgente intorno a sé, danneggiando tutti i nemici nel raggio di {s:radius} caselle per {s:damage} punti danno."
+		"dac_ability_queenofpain_scream_of_pain_Lore"							"Akasha non sarà una mia amica stretta, ma mi aiuterà volentieri se pensa di potere approfittarne più tardi. - <i>Anessix, demone pragmatico</i>"
+
+		//LINA
+		"dac_ability_lina_laguna_blade"											"Lama della laguna"
+		"dac_ability_lina_laguna_blade_Description"								"Lina scaglia un fulmine che infligge {s:damage} punti danno a una singola unità e la incendia per {s:fire_duration} secondi."
+		"dac_ability_lina_laguna_blade_Lore"									"Non è stato difficile convincere Lina a venire a Guglia bianca, io e lei ci apprezziamo a vicenda. - <i>Hobgen, piromane di professione</i>"
+
+		//FURION
+		"dac_ability_natures_prophet_summon_tree"								"Richiamo della natura"
+		"dac_ability_natures_prophet_summon_tree_Description"					"Nature's Prophet evoca un Albero animato. L'Albero animato è considerato un Druido."
+		"dac_ability_natures_prophet_summon_tree_Lore"							"Enno ha contattato i suoi piccoli amici della foresta... potrebbe essere un problema. - <i>O'nia, mercante bandita di Revtel</i>"
+
+		"dac_ability_natures_prophet_wrath_of_nature"							"Furia della natura"
+		"dac_ability_natures_prophet_wrath_of_nature_Description"				"Nature's Prophet scaglia energia contro un bersaglio infliggendo {s:damage} punti danno. L'energia rimbalza {s:jumps} volte tra i nemici sulla scacchiera, potenziandosi del {s:increase_pct}% a ogni rimbalzo."
+		"dac_ability_natures_prophet_wrath_of_nature_Lore"						"La verità è che il mio fine è superfluo. Non ti serve un'arma per uccidere un uomo, tutto ciò di cui hai bisogno è avere pazienza e lasciare che la natura faccia il suo corso. - <i>Quiet, automa calcolatore</i>"
+
+		//WINDRUNNER
+		"dac_ability_windrunner_powershot"										"Colpo potente"
+		"dac_ability_windrunner_powershot_Description"							"Windranger tende il suo arco fino a {s:castPoint} secondi per scagliare un unico colpo devastante, che infligge fino a {s:powershot_damage} punti danno. Per ogni nemico colpito da Colpo potente, il danno si riduce del {s:damage_reduction}%."
+		"dac_ability_windrunner_powershot_Lore"									"Mi sono fatta molti amici durante i miei viaggi e non ho paura di riscuotere qualche favore. <i>Wren, giramondo</i>"
+
+		//WITCHDOCTOR
+		"dac_ability_witch_doctor_paralyzing_cask"								"Teschio paralizzante"
+		"dac_ability_witch_doctor_paralyzing_cask_Description"					"Witch Doctor lancia un teschio colmo di polvere paralizzante che rimbalza {s:bounces} volte tra le unità nemiche, stordendo e infliggendo {s:damage} punti danno a quelle che colpisce."
+		"dac_ability_witch_doctor_paralyzing_cask_Lore"							"Adoro guardarti lavorare, Doc... - <i>Hobgen, fiabesco e dispettoso</i>"
+
+		//JUGGERNAUT
+		"dac_ability_juggernaut_blade_fury"										"Lama furiosa"
+		"dac_ability_juggernaut_blade_fury_Description"							"Juggernaut inizia a ruotare con la sua lama, diventando immune ai danni magici e infliggendo {s:damage} punti danno al secondo alle unità nemiche nel raggio di {s:radius} casella per {s:duration} secondi. Juggernaut può anche iniziare a ruotare per evitare un attacco magico."
+		"dac_ability_juggernaut_blade_fury_Lore"								"Yurnero non è solo un guerriero. È un Juggernaut. Se è dalla nostra parte inizieremo a impilare cadaveri in un baleno. - <i>Grek analizza tutte le possibilità</i>"
+
+		//SANDKING
+		"dac_ability_sandking_burrowstrike"										"Attacco dal sottosuolo"
+		"dac_ability_sandking_burrowstrike_Description"							"Sand King scava una galleria nel terreno e si proietta in avanti, colpendo i nemici, infliggendo loro {s:damage} punti danno e stordendoli per {s:stun_duration} secondi.<br>Applica il veleno di Finale caustico a tutti i nemici colpiti."
+		"dac_ability_sandking_burrowstrike_Lore"								"Abbiamo lavorato duramente per creare la nostra rete di tunnel, non possiamo permettere che Sand King distrugga ciò che abbiamo costruito. - <i>Jull, barone dei liquori</i>"
+
+		"dac_ability_sandking_caustic_finale"									"Finale caustico"
+		"dac_ability_sandking_caustic_finale_Description"						"PASSIVA: quando Sand King colpisce un nemico, lo avvelena per {s:apply_duration} secondi. Al termine dell'effetto, il veleno esplode e infligge {s:damage_aoe} punti danno e riduce la velocità di attacco di tutti i nemici adiacenti al bersaglio di {s:attack_slow} per {s:slow_duration} secondi. I punti danno sono dimezzati se il bersaglio è ancora vivo."
+		"dac_ability_sandking_caustic_finale_Lore"								"Non potrebbe almeno dare una ripulita? - <i>Anessix, amante dell'igiene</i>"
+
+		//SHADOW FRIEND
+		"dac_ability_shadow_fiend_requiem"										"Requiem delle anime"
+		"dac_ability_shadow_fiend_requiem_Description"							"Shadow Fiend canalizza le anime dei dannati e rilascia energia demoniaca attorno a sé, infliggendo {s:damage} punti danno a chiunque venga colpito dall'esplosione."
+		"dac_ability_shadow_fiend_requiem_Lore"									"Io e la Corte di Ristul abbiamo trovato... un'intesa. - <i>Anessix, demone terreno</i>"
+
+		//PHANTOM ASSASSIN
+		"dac_ability_phantom_assassin_coup_de_grace"							"Colpo di grazia"
+		"dac_ability_phantom_assassin_coup_de_grace_Description"				"PASSIVA: Phantom Assassin ha il {s:crit_chance}% di probabilità di assestare un devastante colpo critico che infligge il {s:crit_bonus}% di danno aggiuntivo alle unità nemiche."
+		"dac_ability_phantom_assassin_coup_de_grace_Lore"						"Ha già assassinato Kwerthias, perché non dovrei essere il prossimo? - <i>O'nia, mercante paranoico</i>"
+
+		//DROW RANGER
+		"dac_ability_drow_ranger_trueshot_aura"									"Aura di precisione"
+		"dac_ability_drow_ranger_trueshot_aura_Description"						"PASSIVA: Drow Ranger aggiunge un bonus del {s:bonus}% alla velocità di attacco di tutti gli alleati nel raggio di {s:range} casella."
+		"dac_ability_drow_ranger_trueshot_aura_Lore"							"Fidati, Traxex. Io e te faremo strada. - <i>Grek, truffatore</i>"
+
+		//MORPHLING
+		"dac_ability_morphling_waveform"										"Forma d'onda"
+		"dac_ability_morphling_waveform_Description"							"Morphling si dissolve in un liquido e scorre in avanti, danneggiando le unità nemiche sul suo cammino per {s:damage} punti danno.<br><br>Morphling è invulnerabile durante Forma d'onda."
+		"dac_ability_morphling_waveform_Lore"									"L'abilità di Turath di ottenere il favore di Morphling è... disturbante. - <i>Quet, cospiratrice meccanica</i>"
+
+		//AXE
+		"dac_ability_axe_berserkers_call"										"Richiamo del berserker"
+		"dac_ability_axe_berserkers_call_Description"							"Axe provoca le unità nemiche nel raggio di {s:radius} casella, obbligandole ad attaccarlo per {s:duration} secondi. Mentre Richiamo del berserker è attiva, Axe ottiene {s:bonus_armor} punti armatura aggiuntivi."
+		"dac_ability_axe_berserkers_call_Lore"									"È facile farsi aiutare da Axe... basta offrirgli un po' di birra e promettergli che avrà una bella storia da raccontare. - <i>Wren, ribelle entusiasta</i>" 
+
+		"dac_ability_axe_culling_blade"											"Boia"
+		"dac_ability_axe_culling_blade_Description"								"Se il bersaglio di Axe ha meno del {s:target_percent_health_threshold}% di punti salute, viene ucciso all'istante."
+		"dac_ability_axe_culling_blade_Lore"									"Axe è DAVVERO bravo a fare a fette le persone - <i>Goodkind, cantore di Axe</i>" 
+
+		"dac_ability_axe_counter_helix"											"Contrattacco ad elica"
+		"dac_ability_axe_counter_helix_Description"								"Quando viene attaccato, Axe ha una probabilità del {s:spin_chance}% di effettuare un contrattacco a elica, infliggendo {s:spin_damage} danni puri a tutti i nemici nel raggio di 1 casella."
+		"dac_ability_axe_counter_helix_Lore"									"L'ho fatto entrare al Sundered Moon una volta e ho dovuto ristrutturare l'intero dannato bar. - <i>Jull spiega perché Axe non può tornare al suo bar</i>" 
+
+		//RAZOR
+		"dac_ability_razor_plasma_field"										"Campo di plasma"
+		"dac_ability_razor_plasma_field_Description"							"Rilascia un fulmine circolare che cresce di potenza mentre si espande, per poi contrarsi rallentando e infliggendo {s:damage_max} punti danno alle unità nemiche distanti fino a {s:radius} caselle.<br><br>Il danno e il rallentamento aumentano all'aumentare della distanza da Razor.<br><br>Campo di plasma colpisce ogni unità due volte, una per ciascuna direzione."
+		"dac_ability_razor_plasma_field_Lore"									"Se credi che sia spaventoso sulle strade di Guglia bianca, dovresti vedere cosa combina nel Labirinto Angusto. - <i>Anessix, amante dello sport</i>"
+
+		//CRYSTAL MAIDEN
+		"dac_ability_crystal_maiden_brilliance_aura"							"Aura arcana"
+		"dac_ability_crystal_maiden_brilliance_aura_Description"				"PASSIVA: ogni {s:interval} secondi, Crystal Maiden fornisce una rigenerazione di {s:mana_regen} punti mana a tutte le unità alleate."
+		"dac_ability_crystal_maiden_brilliance_aura_Lore"						"Scopri se è qui per me o per Turath. - <i>Jull, contrabbandiere del Deserto di Ghiaccio</i>"
+
+		"dac_ability_crystal_maiden_frostbite"									"Morsa di ghiaccio"
+		"dac_ability_crystal_maiden_frostbite_Description"						"Ricopre di ghiaccio l'unità nemica bersagliata impedendole di muoversi e di attaccare e infligge {s:damage} punti danno al secondo per {s:duration} secondi. I bersagli colpiti da Morsa di ghiaccio non possono essere curati."
+		"dac_ability_crystal_maiden_frostbite_Lore"								"Guglia bianca è un posto alquanto caotico ed è facile perdersi le ultime novità. Ad esempio, prima, Crystal Maiden del Deserto di Ghiaccio dava semplicemente una mano al suo uomo, mentre adesso congela le persone. Io non lo sapevo. -<i>Carl, l'ultimo a sapere le cose</i>"
+
+		//KUNKKA
+		"dac_ability_kunkka_ghostship"											"Nave fantasma"
+		"dac_ability_kunkka_ghostship_Description"								"Kunkka evoca una nave fantasma che si arena sul campo di battaglia, infliggendo {s:ability_damage} punti danno e stordendo tutti i nemici distanti {s:ghostship_crash_cells} caselle dal luogo dello schianto per {s:stun_duration} secondi."
+		"dac_ability_kunkka_ghostship_Lore"										"Mamma Eeb aveva un sacco di amici... Kunkka vuole le stesse risposte che voglio io. - <i>Wren, figlia vendicativa</i>"
+
+		//TINY
+		"dac_ability_tiny_toss"													"Lancio"
+		"dac_ability_tiny_toss_Description"										"Tiny afferra un nemico adiacente casuale e lo scaglia contro il bersaglio nemico più lontano.<br><br>Al momento dell'impatto, il bersaglio infligge {s:damage} punti danno a tutti i nemici distanti {s:damage_radius} casella e li stordisce per {s:stun_duration} secondi."
+		"dac_ability_tiny_toss_Lore"											"Sembra che Enno si sia fatto degli amici forzuti. - <i>Grek ha un grosso problema</i>"
+
+		//PUCK
+		"dac_ability_puck_illusory_orb"											"Sfera illusoria"
+		"dac_ability_puck_illusory_orb_Description"								"Puck lancia in linea retta un globo magico che infligge {s:damage} punti danno a tutte le unità nemiche sul suo tragitto."
+		"dac_ability_puck_illusory_orb_Lore"									"Non lasciarti ingannare dal suo aspetto, Puck è un gran bastardo. - <i>Hobgen regala dei saggi consigli</i>"
+
+		"dac_ability_puck_phase_shift"											"Spostamento di fase"
+		"dac_ability_puck_phase_shift_Description"								"<i>SBLOCCATA CON LA SINERGIA DRAGONE</i><br>PASSIVA: Puck si trasporta brevemente in un'altra dimensione, dove è immune ad ogni danno per {s:shift_duration} secondi."
+		"dac_ability_puck_phase_shift_Lore"										"Quella piccola peste non è mai qui intorno quando ti serve. - <i>Hobgen, Underlord impaziente</i>"
+
+		//CLOCKWERK
+		"dac_ability_clockwerk_battery_assault"									"Batteria d'assalto"
+		"dac_ability_clockwerk_battery_assault_Description"						"Clockwerk scarica potenti schegge a delle unità nemiche casuali nel raggio di {s:radius_in_cells} casella ogni {s:damage_tick} secondi, per {s:duration} secondi, infliggendo {s:damage} danni magici e mini-stordimenti."
+		"dac_ability_clockwerk_battery_assault_Lore"							"L'Araldo di Ottone ti definirebbe un abominio, ma per me sei piuttosto scaltro, piccolo Smilzo. - <i>Quiet, automatismo eretico</i>"
+
+		//LICH
+		"dac_ability_lich_chain_frost"											"Congelamento a catena"
+		"dac_ability_lich_chain_frost_Description"								"Lich rilascia una sfera di gelo che rimbalza fino a {s:jumps} volte tra le unità nemiche che gli si trovano vicino, rallentandone la velocità di attacco e di movimento del {s:slow_value}% per {s:slow_duration} secondi e infliggendo {s:damage} punti danno ad ogni colpo."
+		"dac_ability_lich_chain_frost_Lore"										"Possiamo aiutarci a vicenda, Lich. - <i>Turath fa un patto col diavolo</i>"
+
+		//TIDEHUNTER
+		"dac_ability_tidehunter_ravage"											"Devastazione"
+		"dac_ability_tidehunter_ravage_Description"								"Tidehunter colpisce il terreno, facendo eruttare tentacoli in tutte le direzioni, infliggendo {s:damage} punti danno e stordendo tutte le unità nel raggio di {s:cells} caselle per {s:duration} secondi."
+		"dac_ability_tidehunter_ravage_Lore"									"Kunkka, mi piacevi di più quando non c'era un Leviatano a darti la caccia. - <i>Wren, amica a convenienza</i>"
+
+		//SHADOWSHAMAN
+		"dac_ability_shadow_shaman_voodoo"										"Maledizione"
+		"dac_ability_shadow_shaman_voodoo_Description"							"Shadow Shaman trasforma l'unità nemica bersagliata in una creatura innocua, disabilitandone le abilità e la possibilità di attaccare per {s:duration} secondi."
+		"dac_ability_shadow_shaman_voodoo_Lore"									"Lui sì che sa come dare spettacolo! - <i>Grek dimostra la sua cortesia professionale</i>"
+
+		"dac_ability_shadow_shaman_mass_serpent_ward"							"Guardiani serpenti"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Shadow Shaman intrappola un'unità nemica evocando fino a 4 Guardiani serpenti."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"Almeno non sta più trasformando persone in polli - <i>O'nia, dall'umore nero</i>"
+
+		//ENIGMA
+		"dac_ability_enigma_midnight_pulse"										"Impulso di mezzanotte"
+		"dac_ability_enigma_midnight_pulse_Description"							"Enigma emette un'aura oscura sotto al nemico con la salute massima che infligge punti danno per il {s:damage_percent}% della salute massima per {s:duration} secondi a tutte le unità nel raggio di {s:radius} casella dal bersaglio e rallentandoli del {s:slow_percent}%."
+		"dac_ability_enigma_midnight_pulse_Lore"								"Ci sono cose al mondo che non possono essere controllate. - <i>Turath, mago folle</i>"
+
+		//TINKER
+		"dac_ability_tinker_heat_seeking_missile"								"Missili a ricerca di calore"
+		"dac_ability_tinker_heat_seeking_missile_Description"					"Tinker lancia una salva di razzi verso {s:targets} nemici casuali infliggendo {s:damage_per_missile} punti danno all'impatto."
+		"dac_ability_tinker_heat_seeking_missile_Lore"							"La Società degli Smilzi Uniti potrebbe essere un problema se nessuno li tiene d'occhio. -<i>O'nia prova a formare un fronte unito</i>"
+
+		//SNIPER
+		"dac_ability_sniper_assassinate"										"Assassinio"
+		"dac_ability_sniper_assassinate_Description"							"Sniper mira a un'unità nemica per {s:castPoint} secondi e spara un proiettile devastante che infligge {s:damage} punti danno e stordisce leggermente il bersaglio. Gli Underlord non possono essere presi di mira."
+		"dac_ability_sniper_assassinate_Lore"									"Sai, prima facevo introdurre il mio spettacolo dagli Smilzi. Il pubblico li adorava, ma era sempre un rischio. <i>Grek bada al sodo</i>"
+
+		//NECROLYTE
+		"dac_ability_necrophos_death_pulse"										"Battito mortale"
+		"dac_ability_necrophos_death_pulse_Description"							"Necrophos rilascia attorno a sé un'onda mortifera che ha effetto su unità nemiche ed alleate nel raggio di {s:radius} caselle.<br><br>Battito mortale infligge {s:damage} punti danno ai nemici e guarisce gli alleati di {s:heal} punti salute."
+		"dac_ability_necrophos_death_pulse_Lore"								"Suvvia, Necrophos, deve pur esserci qualcosa che desideri.... - <i>Anessix, il Diavolo persuasivo</i>"
+
+		//SLARDAR
+		"dac_ability_slardar_amplify_damage"									"Fumi corrosivi"
+		"dac_ability_slardar_amplify_damage_Description"						"Slardar riduce i punti armatura dei nemici di {s:armor_reduction} per {s:duration} secondi."
+		"dac_ability_slardar_amplify_damage_Lore"								"Io e Slark riuscivamo a fare affari, sicuramente anche noi troveremo un accordo. - <i>Jull, amante del buon vino</i>"
+
+		//BEASTMASTER
+		"dac_ability_beastmaster_wild_axes"										"Asce selvagge"
+		"dac_ability_beastmaster_wild_axes_Description"							"Beastmaster scaglia le sue asce e le richiama a sé, infliggendo {s:axe_damage} punti danno alle unità nemiche sul loro tragitto.<br><br>Ogni ascia può colpire un nemico una volta e amplifica del {s:damage_amp}% i danni successivi inflitti da Beastmaster."
+		"dac_ability_beastmaster_wild_axes_Lore"								"Quanti pollici verdi ha trovato quel piccoletto per difenderlo? - <i>Grek si lamenta di Enno</i>"
+
+		//VENOMANCER
+		"dac_ability_venomancer_plague_ward"									"Guardiano pestilenziale"
+		"dac_ability_venomancer_plague_ward_Description"						"Venomancer evoca {s:num_wards} Guardiano pestilenziale che combatte al suo fianco. Guardiano pestilenziale accumula veleno al suo bersaglio."
+		"dac_ability_venomancer_plague_ward_Lore"								"Le tue creazioni sono meravigliose. Lascia che ti aiuti a coltivare il tuo giardino... - <i>Turath impara che l'adulazione apre tutte le porte</i>"
+
+		"dac_ability_venomancer_venomous_gale"									"Brezza velenosa"
+		"dac_ability_venomancer_venomous_gale_Description"						"Lancia una palla di veleno in linea retta. I nemici colpiti subiscono {s:projectile_damage} danni MAGICI e vengono avvelenati, oltre a perdere il {s:movement_slow}% della loro velocità di movimento e {s:attack_slow} di velocità di attacco per {s:tick_duration} secondi."
+		"dac_ability_venomancer_venomous_gale_Lore"								"No, no! Se mettiamo quel tizio al centro della scena, metà del pubblico finisce stecchita in un baleno. Trova qualcun altro. - <i>Grek valuta un valido sostituto per Sun Wukong</i>"
+
+		"dac_ability_venomancer_poison_sting"									"Puntura velenosa"
+		"dac_ability_venomancer_poison_sting_Description"						"PASSIVA: ogni attacco avvelena il bersaglio."
+		"dac_ability_venomancer_poison_sting_Lore"								"Tieni quella roba lontana da Enno, altro veleno è l'ultima cosa di cui quel piccoletto ha bisogno... - <i>A Hobgen non piace molto essere avvelenato</i>"
+
+		//TEMPLAR ASSASSIN
+		"dac_ability_templar_assassin_refraction"								"Rifrazione"
+		"dac_ability_templar_assassin_refraction_Description"					"Templar Assassin diventa elusiva, evitando danni e ottenendo +{s:bonus_damage} al danno d'attacco.<br><br>Gli effetti dell'elusione e del danno d'attacco sono separati e hanno {s:instances} istanze ciascuno."
+		"dac_ability_templar_assassin_refraction_Lore"							"Se mi aiuti, il tuo debito sarà cancellato. - <i>Wren cerca di ottenere tutto l'aiuto di cui ha bisogno</i>"
+
+		"dac_ability_templar_assassin_meld"										"Mimetizzazione"
+		"dac_ability_templar_assassin_meld_Description"							"PASSIVA: dopo essersi teletrasportata verso il bersaglio, Templar Assassin infligge {s:damage} punti danno aggiuntivi con il suo primo attacco e riduce i punti armatura del bersaglio di {s:armor_debuff} per {s:armor_debuff_duration} secondi."
+		"dac_ability_templar_assassin_meld_Lore"								"I tuoi talenti ti rendono la scelta ideale per quello che ho in mente. - <i>Anessix e la sua offerta di lavoro</i>"
+		
+		//VIPER
+		"dac_ability_viper_viper_strike"										"Colpo viperino"
+		"dac_ability_viper_viper_strike_Description"							"Il veleno acido di Viper rallenta la velocità di movimento e di attacco dell'unità nemica bersagliata del {s:bonus_attack_speed}%, infliggendole inoltre {s:damage} danni da veleno nel tempo.<br><br>Questo effetto di rallentamento svanisce con il passare del tempo."
+		"dac_ability_viper_viper_strike_Lore"									"Non siamo così diversi... Anche io so cosa vuol dire essere uno schiavo. - <i>Quiet, robot cosipiratore</i>"
+
+		"dac_ability_viper_nethertoxin"											"Subdotossina"
+		"dac_ability_viper_nethertoxin_Description"								"Viper avvelena una casella, infliggendo {s:damage} punti danno al secondo a qualunque unità nemica che si trova su di essa e applica INIBIZIONE."
+		"dac_ability_viper_nethertoxin_Lore"									"Stai attento Slark, cercare di derubarmi non finirà bene per te - <i>O'nia rivela il suo braccio destro</i> "
+
+		"dac_ability_viper_corrosive_skin"										"Pelle corrosiva"
+		"dac_ability_viper_corrosive_skin_Description"							"<i>SBLOCCATA CON LA SINERGIA DRAGONE</i><br>PASSIVA: Viper trasuda una tossina infettiva che avvelena e riduce di {s:attack_slow} la velocità di attacco di attacco di qualunque nemico lo ferisca per {s:dot_duration} secondi. L'acido trasudato aumenta anche la sua resistenza ai danni magici di {s:magic_resistance}."
+		"dac_ability_viper_corrosive_skin_Lore"									"Vorrei tanto farmi un cappotto con la sua pelle... - <i>Carl, sognatore</i>"
+
+		//LUNA
+		"dac_ability_luna_moon_glaive"											"Falce di luna"
+		"dac_ability_luna_moon_glaive_Description"								"PASSIVA: i falcioni di luna rimbalzano {s:bounces} volte tra le unità nemiche nel raggio di {s:range} caselle.<br><br>I falcioni infliggono il {s:damage_reduction_percent}% di danno in meno ad ogni rimbalzo."
+		"dac_ability_luna_moon_glaive_Lore"										"Non capisco la metà di quello che dici, ma mi piace come lanci quegli affari. - <i>Grek il socievole</i>"
+
+		//DRAGON KNIGHT
+		"dac_ability_dragon_knight_breathe_fire"								"Alito infuocato"
+		"dac_ability_dragon_knight_breathe_fire_Description"					"Scatena un soffio infuocato in linea retta di fronte a Dragon Knight che brucia i nemici infliggendo {s:damage} punti danno e ne riduce il danno d'attacco del {s:attack_reduction}% per {s:duration} secondi."
+		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davion, il tuo talento è stato sprecato per qualcuno che non ti apprezza abbastanza. - <i>Hobgen prova a reclutare talenti</i>"
+
+		"dac_ability_dragon_knight_elder_dragon_form"							"Forma di drago antico"
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>SBLOCCATA CON LA SINERGIA DRAGONE</i><br>PASSIVA: all'inizio della battaglia, Dragon Knight assume la forma di uno dei tre potenti draghi antichi, aumentando la sua velocità di movimento del {s:bonus_movement_speed}% e i punti danno di {s:bonus_attack_damage}, ottenendo temporaneamente nuovi poteri.<br><br>Drago verde:\ngli attacchi infliggono {s:corrosive_breath_damage} danni da veleno al secondo per {s:corrosive_breath_duration} secondi.<br><br>Drago rosso:\nin aggiunta all'avvelenamento dei nemici, gli attacchi danneggiano tutte le unità nel raggio di {s:splash_radius} casella dal bersaglio per il {s:splash_damage_percent}% dei danni.<br><br>Drago blu:\nin aggiunta all'avvelenamento dei nemici, rallenta del {s:frost_bonus_movement_speed}% la velocità di movimento e del {s:frost_bonus_attack_speed}% la velocità di attacco delle unità nemiche nel raggio di {s:frost_aoe} casella per {s:frost_duration} secondi."
+		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"Kaden ha parlato bene di te, spero che confermerai le aspettative. - <i>Wren, alleata della Fortezza del dragone</i>"
+
+		//ENCHANTRESS
+		"dac_ability_enchantress_natures_attendants"							"Seguaci della natura"
+		"dac_ability_enchantress_natures_attendants_Description"				"Enchantress evoca uno sciame di {s:wisp_count} spiriti che cura tutti gli alleati nel raggio di {s:radius} caselle.<br><br>Per {s:duration} secondi, gli alleati guariscono di {s:heal} punti salute ogni {s:heal_interval} secondi."
+		"dac_ability_enchantress_natures_attendants_Lore"						"Non durerà un giorno a Guglia bianca. Non un giorno. - <i>Hobgen sottovaluta il proprio avversario</i>"
+
+		//BOUNTY HUNTER
+		"dac_ability_bounty_hunter_shuriken_toss"								"Lancio di shuriken"
+		"dac_ability_bounty_hunter_shuriken_toss_Description"					"Bounty Hunter scaglia uno shuriken a un'unità nemica, infliggendo {s:damage} punti danno e stordendo lievemente il bersaglio."
+		"dac_ability_bounty_hunter_shuriken_toss_Lore"							"Se hai abbastanza soldi, puoi sempre fidarti di un uomo che mette la propria lealtà in vendita. - <i>O'nia, saggezza discutibile</i>"
+
+		//BATRIDER
+		"dac_ability_batrider_sticky_napalm"									"Napalm viscoso"
+		"dac_ability_batrider_sticky_napalm_Description"						"Batrider lancia un'ampolla che ricopre di petrolio appiccicoso un'area con un raggio di {s:radius} casella dal punto di impatto, aggiungendo {s:damage} punti danno ai suoi attacchi e riducendo la velocità di attacco dei nemici del {s:movement_speed_pct}%.<br><br>Gli utilizzi successivi di Napalm viscoso aumentano il danno e il tasso di rallentamento. Cumulabile fino a {s:max_stacks} volte."
+		"dac_ability_batrider_sticky_napalm_Lore"								"Adoro questo tizio. LO ADORO. <i>Hobgen, piromane</i>"
+
+		//DOOM BRINGER
+		"dac_ability_doom_bringer_doom"											"Condanna"
+		"dac_ability_doom_bringer_doom_Description"								"Doom evoca una potente maledizione che impedisce a un nemico di lanciare incantesimi e lo inibisce. Il nemico subisce anche {s:damage} punti danno al secondo.<br><br>Dura {s:duration} secondi."
+		"dac_ability_doom_bringer_doom_Lore"									"Preferisco scendere a patti con i miei demoni metaforici... - <i>O'nia, scettica sugli alleati di Anessix</i>"
+
+		//GYROCOPTER
+		"dac_ability_gyrocopter_call_down"										"Abbattimento"
+		"dac_ability_gyrocopter_call_down_Description"							"Gyrocopter lancia un attacco missilistico sulle unità nemiche distanti {s:radius} caselle.<br><br>Arrivano due missili in successione: il primo infligge {s:damage_first} punti di danno e un rallentamento del {s:slow_first}% per {s:slow_duration_first} secondi, mentre il secondo infligge {s:damage_second} punti danno e un rallentamento del {s:slow_second}% per {s:slow_duration_second} secondi."
+		"dac_ability_gyrocopter_call_down_Lore"									"Pensa a quanto materiale potremmo spostare con il suo aiuto. <i>Jull pensa in grande</i>"
+
+		//ALCHEMIST
+		"dac_ability_alchemist_acid_spray"										"Spruzzo acido"
+		"dac_ability_alchemist_acid_spray_Description"							"Alchemist spruzza un acido ad alta pressione che colpisce i nemici nel raggio di {s:radius} caselle dal bersaglio.<br><br>Le unità nemiche che passano sul terreno contaminato subiscono {s:damage} punti danno al secondo e una riduzione dell'armatura di {s:armor_reduction}."
+		"dac_ability_alchemist_acid_spray_Lore"									"A te piace bruciare la faccia della gente, a me piace bruciare le case della gente... una combinazione divina. - <i>Hobgen riduce le differenze culturali</i>"
+
+		// Lycan
+		"dac_ability_lycan_wolf_spawn_shift"									"Trasformazione"
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan evoca due lupi, si trasforma e aumenta del {s:hp_per}% la sua salute massima, la sua velocità di movimento aumenta di {s:speed} e ottiene il {s:crit_chance}% di probabilità di assestare un colpo critico che infligge il {s:crit_bonus}% di danni."
+		"dac_ability_lycan_wolf_spawn_shift_Lore"								"Lycan, ti prego, aiutami a vendicarmi. - <i>Wren fa leva sull'umanità di Lycan</i>"
+		
+		// LONE DRUID
+		"dac_ability_lone_druid_summon_bear"									"Evocazione dello spirito orso"
+		"dac_ability_lone_druid_summon_bear_Description"						"Evoca un potente spirito orso."
+		"dac_ability_lone_druid_summon_bear_Lore"								"Basta che non fai avvicinare l'orso, va bene? Io e gli orsi non andiamo d'accordo. - <i>Grek, orsofobico</i>"
+		
+
+		//CHAOS KNIGHT
+		"dac_ability_chaos_knight_chaos_bolt"									"Dardo del caos"
+		"dac_ability_chaos_knight_chaos_bolt_Description"						"Chaos Knight lancia un misterioso fulmine di energia che infligge {s:damage_min}-{s:damage_max} punti danno e stordisce per {s:stun_min}-{s:stun_max} secondi."
+		"dac_ability_chaos_knight_chaos_bolt_Lore"								"A Guglia bianca farebbe bene un po' di caos. - <i>Hobgen, agente del caos</i>"
+
+		//OGRE MAGI
+		"dac_ability_ogre_magi_bloodlust"										"Brama sanguinaria"
+		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Magi incita alla frenesia un'unità alleata, aumentandone le velocità di attacco del {s:bonus_attack_speed}% e di movimento del {s:bonus_movement_speed}%. Se utilizzata su Ogre Magi, la velocità di attacco aggiuntiva è del {s:self_bonus}%."
+		"dac_ability_ogre_magi_bloodlust_Lore"									"Il Magi vale il doppio di quello che si fa pagare. Per fortuna, il Magi è anche un idiota. - <i>O'nia alla ricerca di uno sconto</i>"
+
+		// MAGNUS
+		"dac_ability_magnataur_empower"											"Potenziamento"
+		"dac_ability_magnataur_empower_Description"								"Magnus fa infuriare un alleato, che ottiene il {s:cleave_damage_pct}% di danni da squarcio e i cui punti danno aumentano del {s:bonus_damage_pct}% per {s:duration} secondi."
+		"dac_ability_magnataur_empower_Lore"									"Lascia che Anessix pensi di potersi prendere gioco di Enno, capirà quanto ha torto qualche secondo prima di essere calpestata. - <i>Hobgen mostra un po' di rara pazienza</i>"
+
+		//TREANT PROTECTOR
+		"dac_ability_treant_leech_seed"											"Seme parassita"
+		"dac_ability_treant_leech_seed_Description"								"Treant Protector pianta un seme parassita in un'unità nemica, prosciugandone la salute di {s:leech_damage} punti ogni {s:damage_interval} secondi e rallentando la sua velocità di movimento del {s:movement_slow}%.<br><br>Il seme cura le unità alleate in un raggio di {s:radius} caselle attorno al bersaglio. Dura {s:duration} secondi. Se il bersaglio muore, salta verso un nuovo bersaglio nel raggio di {s:radius} casella."
+		"dac_ability_treant_leech_seed_Lore"									"Devo dire la verità, non mi aspettavo che Enno si sarebbe fatto aiutare da un albero. <i>Jull e Anessix si fanno una bevuta</i>"
+
+		//KEEPER OF THE LIGHT
+		"dac_ability_keeper_of_the_light_illuminate"							"Illuminazione"
+		"dac_ability_keeper_of_the_light_illuminate_Description"				"Keeper of the Light canalizza dell'energia luminosa, aumentandone il potere quanto più a lungo è canalizzata. Una volta rilasciata, l'energia infligge {s:damage_per_second} punti danno per ogni secondo per cui è stata canalizzata."
+		"dac_ability_keeper_of_the_light_illuminate_Lore"						"Keeper of the Light è più potente di quanto non lasci intendere. Se lo lasciassimo incontrollato potrebbe essere la nostra fine. - <i>Turath, distruttore della luce</i>"
+
+		// MEDUSA
+		"dac_ability_medusa_stone_gaze"											"Sguardo pietrificante"
+		"dac_ability_medusa_stone_gaze_Description"								"Ogni unità nemica nel raggio di {s:radius} caselle rivolta verso Medusa subirà una riduzione della velocità di movimento e della velocità di attacco del {s:slow}%.<br><br>Se si guarda Medusa per un totale di {s:face_duration} secondi, quell'unità verrà trasformata in pietra.<br><br>Le unità pietrificate sono stordite e subiscono il {s:bonus_physical_damage}% di danni fisici aggiuntivi."
+		"dac_ability_medusa_stone_gaze_Lore"									"È il mio tipo di donna, ma ho occhi solo per Mireska. - <i>Hobgen, criminale dal cuore tenero</i>"
+
+		"dac_ability_medusa_split_shot"											"Colpo diviso"
+		"dac_ability_medusa_split_shot_Description"								"PASSIVA: Medusa scocca magicamente {s:extra_shots} frecce in più, colpendo ulteriori nemici nel raggio di {s:range} casella dal bersaglio principale. Queste frecce aggiuntive infliggono il {s:damage_modifier}% dei punti danno inflitti normalmente."
+		"dac_ability_medusa_split_shot_Lore"									"Hai visto quella ragazza tirare con l'arco? Beh, respiri ancora, quindi immagino di no... - <i>Grek accoglie le reclute</i>"
+
+		// TROLL WARLORD
+		"dac_ability_troll_warlord_fervor"										"Fervore"
+		"dac_ability_troll_warlord_fervor_Description"							"PASSIVA: ad ogni colpo consecutivo Troll Warlord aumenta la sua velocità di attacco del {s:attack_speed}%.<br><br>Se Troll Warlord cambia bersaglio, la serie si azzera.<br><br>L'effetto è cumulabile fino a {s:max_stacks} volte."
+		"dac_ability_troll_warlord_fervor_Lore"									"Efficace e implacabile. Proprio come me. - <i>Quiet, niente sforzi inutili</i>"
+
+
+		// SHADOW_DEMON
+		"dac_ability_shadow_demon_demonic_purge"								"Purga demoniaca"
+		"dac_ability_shadow_demon_demonic_purge_Description"					"Ripulisce l'unità nemica bersagliata, rimuovendone gli effetti positivi, applicando INIBIZIONE e rallentandola per {s:duration} secondi. L'unità riacquista lentamente le velocità di movimento e di attacco originarie con l'esaurirsi dell'effetto, al termine del quale subisce {s:damage} punti danno."
+		"dac_ability_shadow_demon_demonic_purge_Lore"							"Ascolta, bastardo peloso, so che pensi di poter lavorare con Anessix, ma hai visto con chi va in giro? - <i>Hobgen non è un amante dei Demoni (né di Enno)</i>"
+
+		// SVEN
+		"dac_ability_sven_cleave"												"Fendente gigante"
+		"dac_ability_sven_cleave_Description"									"PASSIVA: l'attacco in mischia di questa unità colpisce i nemici vicini per il {s:cleave_damage_pct}% dei punti danno."
+		"dac_ability_sven_cleave_Lore"											"Hai mai visto un Cavaliere Vigile darsi da fare? È bellissimo. - <i>Grek, intenditore di combattimenti</i>"
+
+		"dac_ability_sven_gods_strength"										"Forza divina"
+		"dac_ability_sven_gods_strength_Description"							"Sven si infuria e i suoi punti danno aumentano del {s:bonus_damage_from_cast}% per {s:duration} secondi."
+		"dac_ability_sven_gods_strength_Lore"									"Non c'è niente che amo più di un uomo determinato alla vendetta - <i>Anessix loda Sven</i>"
+
+		// SHREDDER
+		"dac_ability_timbersaw_whirling_death"									"Morte rotante"
+		"dac_ability_timbersaw_whirling_death_Description"						"Il vortice creato dalle lame affilate dell'armatura di Timbersaw danneggia i nemici nel raggio di {s:radius} caselle, infliggendo {s:damage} punti danno."
+		"dac_ability_timbersaw_whirling_death_Lore"								"Avevo capito che Enno stava richiamando tutti i suoi amici della foresta, quindi ho chiamato un po' di amici anche io. - <i>Hobgen risolve un problema</i>"
+
+		//TUSK
+		"dac_ability_tusk_walrus_punch"											"Pugno del tricheco"
+		"dac_ability_tusk_walrus_punch_Description"								"Tusk mette a segno il suo potente Pugno del tricheco, un colpo critico che infligge il {s:critical_damage}% di punti danno e lancia in aria la sua vittima per {s:air_time} secondi. Quando ricade al suolo, la vittima è rallentata del {s:move_slow}% per {s:slow_duration} secondi. Quando colpisce con il Pugno del tricheco, Tusk non può essere ucciso."
+		"dac_ability_tusk_walrus_punch_Lore"									"Era mio amico, una volta. Scopriremo presto se è venuto per aiutarmi o per prendermi a pugni. - <i>Jull ripensa alla sua giovinezza</i>"
+		
+		
+		//ABADDON
+		"dac_ability_abaddon_aphotic_shield"									"Scudo afotico"
+		"dac_ability_abaddon_aphotic_shield_Description"						"Abaddon protegge un'unità alleata con uno scudo che assorbe {s:damage_absorb} punti danno per {s:duration} secondi.<br><br>Quando viene distrutto, lo scudo scoppia infliggendo {s:damage_absorb} punti danno ai nemici nel raggio di {s:radius} caselle.<br><br>Rimuove alcuni tipi di effetti negativi e stordimenti dall'unità sulla quale viene applicato."
+		"dac_ability_abaddon_aphotic_shield_Lore"								"Ho il massimo rispetto per la Casata dell'Averno. - <i>O'nia racimola favori</i>"
+
+		// TERRORBLADE
+		"dac_ability_terrorblade_metamorph"										"Metamorfosi"
+		"dac_ability_terrorblade_metamorph_Description"							"Terrorblade si trasforma in un potente demone, guadagnando un attacco a distanza di {s:bonus_attack_range} caselle e un bonus del {s:bonus_attack_damage}% al danno e di {s:bonus_attack_speed} alla velocità di attacco. Quando Terrorblade usa questa abilità, scambia i suoi punti salute con quelli di un alleato."
+		"dac_ability_terrorblade_metamorph_Lore"								"Quando quello lì parla con Anessix, sai che sta per succedere qualcosa di brutto. - <i>Jull, abile a leggere le persone</i>"
+
+		// TECHIES
+		"dac_ability_techies_bomb" 												"Mine remote"
+		"dac_ability_techies_bomb_Description"									"I Techies piazzano un esplosivo che scoppia dopo {s:explode_time} secondi e infligge {s:damage} punti danno in un raggio di {s:range} caselle.<br><br>Il danno è ridotto della metà per i nemici a metà della distanza di effetto massima."
+		"dac_ability_techies_bomb_Lore"											"Puoi dire quello che vuoi sui Keen, ma regalano sempre una risata. - <i>Hobgen, mentre assiste a una demolizione</i>"
+
+		//DISRUPTOR
+		"dac_ability_disruptor_static_storm"									"Tempesta statica"
+		"dac_ability_disruptor_static_storm_Description"						"Disruptor crea una tempesta statica che silenzia tutte le unità nemiche nel raggio di {s:radius} caselle per {s:duration} secondi.<br><br>Il danno inflitto è inizialmente debole, ma diventa più intenso con il passare del tempo, fino a raggiungere il danno massimo di {s:damage_total} durante la tempesta."
+		"dac_ability_disruptor_static_storm_Lore"								"Non so se sia qui per aiutarmi o per tenere d'occhio Axe. - <i>Wren, a capo di un gruppo variegato</i>"
+
+		//OMNIKNIGHT
+		"dac_ability_omniknight_purification"									"Purificazione"
+		"dac_ability_omniknight_purification_Description"						"Omniknight cura istantaneamente un'unità alleata di {s:heal} punti salute e danneggia tutte le unità nemiche nel raggio di {s:radius} casella per lo stesso valore."
+		"dac_ability_omniknight_purification_Lore"								"La fede è la sua arma... e anche la mia. - <i>Turath, messia delirante</i>"
+		
+		//PUDGE
+		"dac_ability_pudge_meathook"											"Gancio da macellaio"
+		"dac_ability_pudge_meathook_Description"								"Pudge scaglia un gancio insanguinato verso l'unità nemica più lontana da lui, trascinandola a sé e infliggendo {s:damage} punti danno.<br><br>Pudge e gli alleati nel raggio di 1 casella dirigono gli attacchi alla vittima finché questa non muore."
+		"dac_ability_pudge_meathook_Lore"										"Pudge? Oh, è magnifico. Dice sempre ciao quando sto arrostendo i corpi. -<i>Carl, il sarto morto vivente</i>"
+		
+		//WARLOCK
+		"dac_ability_warlock_shadow_word"										"Parola d'ombra"
+		"dac_ability_warlock_shadow_word_Description"							"Warlock sussurra un incantesimo che ripristina immediatamente {s:burst_tooltip} punti salute e altri {s:hot_tooltip} al secondo per {s:duration} secondi a un alleato, oppure danneggia un nemico di {s:damage_tick} ogni secondo per {s:duration} secondi."
+		"dac_ability_warlock_shadow_word_Lore"									"Alcuni segreti devono rimanere tali... Demnok pagherà per la sua mancanza di discrezione. - <i>Anessix, in attesa del momento giusto</i>"
+		
+		//BLOODSEEKER
+		"dac_ability_bloodseeker_blood_rage"									"Rabbia sanguinaria"
+		"dac_ability_bloodseeker_blood_rage_Description"						"PASSIVA: ogni secondo Bloodseeker subisce danni pari al {s:self_dmg_pct}% della sua salute massima.<br><br>Alla riduzione della sua salute, la sua velocità di attacco aumenta fino ad un massimo di {s:attack_speed_bonus_max} al {s:min_health_pct}% di salute.<br><br>Quando un nemico vicino muore, guadagna il {s:heal_pct}% della sua salute massima."
+		"dac_ability_bloodseeker_blood_rage_Lore"								"Se ho imparato qualcosa nella mia carriera, è che alla gente piace il sangue. Recluta quest'uomo. - <i>Grek, risorse umane</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double"									"Tempesta doppia"
+		"dac_ability_arc_warden_tempest_double_Description"						"Arc Warden crea una copia di se stesso. La copia ha la stessa salute di Arc Warden al momento in cui viene creata.<br><br>La copia può utilizzare tutti gli oggetti equipaggiati da Arc Warden e proverà ad attaccare gli stessi nemici. Le copie non possono generare altre copie e infliggono il {s:clone_dmg_reduction}% in meno di punti danno."
+		"dac_ability_arc_warden_tempest_double_Lore"							"Porta con sé i misteri della creazione. - <i>Turath, profeta per enigmi</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double_no_items"						"Tempesta doppia"
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Arc Warden crea una copia di sé stesso. La copia ha la stessa salute di Arc Warden al momento in cui viene creata."
+		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"Porta con sé i misteri della creazione. - <i>Turath, profeta criptico</i>"
+
+		//MIRANA
+		"dac_ability_mirana_arrow"												"Freccia sacra"
+		"dac_ability_mirana_arrow_Description"									"Mirana scocca con precisione letale una freccia a lungo raggio, stordendo il suo bersaglio per {s:duration} secondi e infliggendo {s:damage} punti danno."
+		"dac_ability_mirana_arrow_Lore"											"Non fidarti dei fanatici, Wren. Non ne vale la pena. - <i>Un consiglio amichevole di Jull</i>"
+		
+		//SLARK
+		"dac_ability_slark_essence_shift"										"Furto d'essenza"
+		"dac_ability_slark_essence_shift_description"							"PASSIVA: Slark aumenta i suoi punti danno di {s:stolen_dmg} e la velocità di attacco di {s:stolen_aspd} con ogni attacco."
+		"dac_ability_slark_essence_shift_lore"									"Slark è fondamentale per far entrare e uscire il nostro prodotto dalla Scogliera Profonda. - <i>Jull, che si è fatto da sé</i>"
+
+		"dac_ability_slark_pounce"												"Balzo"
+		"dac_ability_slark_pounce_description"									"PASSIVA: quando balza in avanti, Slark disarma il suo bersaglio per {s:disarm_duration} secondi."
+		"dac_ability_slark_pounce_lore"											"Come ha fatto a batterci di nuovo? - <i>Hobgen, orgoglio ardente</i>"
+
+		//BLACK DRAGON
+		"dac_ability_black_dragon_splash_attack"								"Attacco ad area"
+		"dac_ability_black_dragon_splash_attack_description"					"PASSIVA: l'attacco a distanza del Dragone nero infligge danno ad area alle unità distanti 1 casella dal bersaglio del Dragone."
+		"dac_ability_black_dragon_splash_attack_lore"							" "
+
+		//"SVEN GREAT CLEAVE - used for YEAR BEAST and ROSHAN"
+		"dac_ability_sven_great_cleave"											"Fendente gigante"
+		"dac_ability_sven_great_cleave_description"								"PASSIVA: l'attacco in mischia di questa unità colpisce i nemici vicini."
+		"dac_ability_sven_great_cleave_lore"									" "
+
+		//"ROSHAN SPELL IMMUNE"
+		"dac_ability_roshan_spell_immune"										"Immune agli incantesimi"
+		"dac_ability_roshan_spell_immune_description"							"ATTIVA: Roshan diventa immune agli incantesimi per {s:duration} secondi."
+		"dac_ability_roshan_spell_immune_lore"									" "
+
+		// Lone Druid Bear
+		"dac_ability_lone_druid_spirit_bear_entangle"							"Artigli intrappolanti"
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Gli attacchi dello spirito orso hanno una possibilità di intrappolare i nemici e stordirli."
+		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
+
+		// THUNDER LIZARD BLOODLUST
+		"dac_ability_thunder_lizard_bloodlust"									"Brama sanguinaria"
+		"dac_ability_thunder_lizard_bloodlust_Description"						"La creatura incita alla frenesia un'unità alleata, aumentandone le velocità di attacco del {s:bonus_attack_speed}% e di movimento del {s:bonus_movement_speed}%. Se utilizzata su sé stessa, la velocità di attacco aggiuntiva è del {s:self_bonus}%."
+		"dac_ability_thunder_lizard_bloodlust_Lore"								" "
+
+		// HEALING WARD PLACEABLE
+		"dac_ability_healing_ward_healing_aura"											"Aura lenitiva"
+		"dac_ability_healing_ward_healing_aura_description"								"Cura le unità alleate nel raggio di {s:heal_range} casella di {s:health_regen} punti salute al secondo."
+		"dac_ability_healing_ward_healing_aura_lore"									""
+
+		// TOMBSTONE PLACEABLE
+		"dac_ability_tombstone_raise_zombies"										"Evocazione zombi"
+		"dac_ability_tombstone_raise_zombies_description"							"Le unità che muoiono nel raggio di {s:range} casella evocano uno zombi."
+		"dac_ability_tombstone_raise_zombies_lore"									""
+
+		// BARRICADE PLACEABLE
+		"dac_ability_barricade_aura"										"Barricata"
+		"dac_ability_barricade_aura_description"							"La barricata protegge le unità vicine ed è immune agli incantesimi."
+		"dac_ability_barricade_aura_lore"									""
+
+		// TARGET DUMMY PLACEABLE
+		"dac_ability_target_dummy_taunt"										"Provocazione"
+		"dac_ability_target_dummy_taunt_description"							"Il bersaglio inanimato provoca gli avversari."
+		"dac_ability_target_dummy_taunt_lore"									""
+
+		// CINDERWALL TALENT
+		"dac_ability_cinderwall_aura"										"Muro di cemento"
+		"dac_ability_cinderwall_aura_description"							"Il muro di cemento protegge le unità vicine ed è immune agli incantesimi. Incendia le unità vicine."
+		"dac_ability_cinderwall_aura_lore"									""
+
+		// FACELESS VOID
+		"dac_ability_faceless_void_chronocube"										"Cronocubo"
+		"dac_ability_faceless_void_chronocube_description"							"Crea una bolla nello spaziotempo che stordisce tutte le unità in un raggio di {s:radius} caselle dal centro del cubo per {s:stun_duration} secondi. Faceless Void si muove molto rapidamente all'interno del cubo e ottiene +{s:bonus_attack_speed} alla velocità di attacco. Solo Faceless Void è immune al Cronocubo. Quando lanciato, Faceless Void tenta di teletrasportare tutti gli Assassini alleati fuori dal cubo."
+		"dac_ability_faceless_void_chronocube_lore"									"Claszureme interferirà. Potrebbe essere un problema. - <i>Jull realizza che non può colpire Time</i>"
+
+		"dac_ability_faceless_void_time_walk"										"Passo temporale"
+		"dac_ability_faceless_void_time_walk_description"							"PASSIVA: Faceless Void sfreccia verso il suo prossimo bersaglio, annullando qualsiasi danno subito durante gli ultimi 2 secondi."
+		"dac_ability_faceless_void_time_walk_lore"									"Non toccherei una di quelle maledette clessidre, pensi che voglia Pierpont a curiosare qui? - <i>Hobgen, sensibile maniaco</i>"
+
+		// LEGION COMMANDER
+		"dac_ability_legion_commander_duel"											"Duello"
+		"dac_ability_legion_commander_duel_description"								"Legion Commander attacca il nemico con la salute più bassa nel raggio di 1 casella, il quale è costretto a rispondere agli attacchi per {s:stun_duration} secondi. Nessuno dei due eroi può usare abilità. Se uno dei due eroi muore durante il Duello, il vincitore ottiene {s:winner_bonus_damage} punti danno aggiuntivi permanenti ([20/32/48] punti danno aggiuntivi in modalità K.O.)."
+		"dac_ability_legion_commander_duel_lore"									"Non c'è bisogno di abbattersi, Tresdin... Posso aiutarti a trovare Rix - <i>Anessix regge la pressione</i>"
+
+		"dac_ability_legion_commander_will_of_the_bullsnake"						"Forza di volontà di Bullsnake"
+		"dac_ability_legion_commander_will_of_the_bullsnake_description"			"<i>SBLOCCATA DALLA SINERGIA DRAGONE</i><br>PASSIVA: quando Legion Commander vince un Duello guarisce immediatamente per il {s:heal_percentage}% della sua salute massima."
+		"dac_ability_legion_commander_will_of_the_bullsnake_lore"					"Conosco i combattenti come te, Comandante, e tu sei una delle creature più pericolose. Un credente. - <i>Wren, studente del mondo</i>"
+
+		"dac_ability_legion_commander_element"										"Carica elementale"
+		"dac_ability_legion_commander_element_description"							"PASSIVA: quando Legion Commander esegue un Colpo delta, grazie alla sinergia Spirito, infligge il doppio dei danni."
+		"dac_ability_legion_commander_element_lore"									"La maggior parte dei soldati sono terrorizzati dagli spiriti... e lei li guida. - <i>Jull, lo sguardo oltre l'orizzonte</i>"
+
+		// NYX ASSASSIN
+		"dac_ability_nyx_assassin_spiked_carapace"									"Carapace appuntito"
+		"dac_ability_nyx_assassin_spiked_carapace_description"						"Nyx Assassin espelle le spine dal suo carapace, che negano e riflettono il {s:damage_taken_reflect_percentage}% del danno ricevuto (massimo una volta per ogni attaccante) oltre a stordire la fonte del danno per {s:stun_duration} secondi."
+		"dac_ability_nyx_assassin_spiked_carapace_lore"								"Il termine corretto è artropode. - <i>Quiet, perfezionista</i>"
+
+		"dac_ability_nyx_assassin_vendetta"											"Vendetta"
+		"dac_ability_nyx_assassin_vendetta_description"								"PASSIVA: dopo essersi teletrasportato per attaccare un'unità, Nyx Assassin infligge {s:bonus_damage} punti danno nel suo attacco successivo e inibisce il nemico per {s:break_duration} secondi, disabilitando tutti i suoi effetti passivi."
+		"dac_ability_nyx_assassin_vendetta_lore"									"Insetto. Artropode. Chi se ne frega, il punto è che ho bisogno che uccida qualcuno adesso. Puoi chiamarlo o no? - <i>O'nia, conoscitrice della lingua</i>"
+
+		// WEAVER
+		"dac_ability_weaver_shukuchi"												"Shukuchi"
+		"dac_ability_weaver_shukuchi_description"									"Weaver si rende invisibile, diventando impossibile da colpire e attraversando dei bersagli in un raggio di {s:distance_cells} caselle. Weaver infligge {s:damage} punti danno a ogni nemico che attraversa."
+		"dac_ability_weaver_shukuchi_lore"											"Weaver. Insieme ricostruiremo il mondo. - <i>Turath, abbastanza pazzo da farlo</i>"
+
+		// BROODMOTHER
+		"dac_ability_broodmother_spawn_spiderlings"									"Genera ragni"
+		"dac_ability_broodmother_spawn_spiderlings_description"						"Broodmother depone i suoi piccoli nell'unità nemica bersagliata, infliggendo {s:damage} punti danno. Se il bersaglio muore, usciranno dall'uovo {s:num_spiderlings} ragni. I ragni non possono essere attaccati direttamente, infliggono danni ridotti e hanno 1 punto salute."
+		"dac_ability_broodmother_spawn_spiderlings_lore"							"D'accordo, brucio vive le persone, ma almeno non ci depongo dentro le uova! - <i>Hobgen capisce male</i>"
+
+		"dac_ability_broodmother_spin_web"											"Tela filata"
+		"dac_ability_broodmother_spin_web_description"								"Broodmother avvolge un'unità nemica in una ragnatela larga {s:radius} caselle. I nemici avvolti perdono {s:debuff_attack_speed} velocità di attacco, l'{s:debuff_speed}% della velocità di movimento e il {s:debuff_casting_speed}% della velocità di lancio degli incantesimi."
+		"dac_ability_broodmother_spin_web_lore"										"Suppongo che non potrei assumere i tuoi ragazzetti per filare un po' di seta? Sono abbastanza sicuro che i ragni non siano coperti dalle leggi sul lavoro minorile. - <i>Carl, sarto con un'etica</i>"
+
+		// WISP
+		"dac_ability_wisp_tether"													"Legame"
+		"dac_ability_wisp_tether_description"										"Io si lega all'eroe alleato più vicino e vi si avvicina. Io e l'eroe legato ottengono un aumento della velocità di attacco di {s:bonus_attack_speed} e una riduzione dei danni subiti del {s:damage_reduction}%. Il legame si spezza se Io è a più di {s:tether_break_distance} caselle di distanza."
+		"dac_ability_wisp_tether_lore"												"<i>Enno guarda Io intensamente</i>"
+
+		"dac_ability_wisp_relocate"													"Trasferimento"
+		"dac_ability_wisp_relocate_description"										"Io si teletrasporta e sparisce per {s:relocate_time_away} secondi per resuscitare un eroe morto. Le due unità ritornano con il pieno di salute e con tutti gli effetti negativi annullati."
+		"dac_ability_wisp_relocate_lore"											"<i>Io restituisce lo sguardo</i>"
+
+		// BRISTLEBACK	
+		"dac_ability_bristleback_quill_spray"										"Getto di aculei"
+		"dac_ability_bristleback_quill_spray_description"							"Bristleback lancia un getto di aculei dalla sua schiena, danneggiando le unità nemiche in un raggio di {s:radius} caselle. I nemici subiscono {s:quill_base_damage} punti danno oltre ad altri {s:quill_stack_damage} punti danno per ogni Getto di aculei che li colpisce nel corso del round, fino ad un massimo di {s:max_stacks} volte."
+		"dac_ability_bristleback_quill_spray_lore"									"Fatemi chiarire qualcosa. Tu e Tusk non distruggerete il mio bar stasera. - <i>Jull, sempre calmo </i>"
+
+		// LIFESTEALER
+		"dac_ability_life_stealer_feast"											"Banchetto"
+		"dac_ability_life_stealer_feast_description"								"PASSIVA: gli attacchi di Lifestealer danneggiano i nemici e lo curano per il {s:lifesteal_percentage}% della salute massima del bersaglio."
+		"dac_ability_life_stealer_feast_lore"										"Non apprezzo il fatto che tu abbia ipotizzato che, a causa delle mie condizioni, io conosca gli intrecci di Lifestealer. - <i>Carl, spesso giudicato male</i>"
+
+		// DAZZLE
+		"dac_ability_dazzle_shadow_wave"											"Onda ombrosa"
+		"dac_ability_dazzle_shadow_wave_description"								"Dazzle lancia un'onda di energia che si diffonde tra un massimo di {s:max_targets} alleati in un raggio di {s:bounce_radius} caselle, curando ciascun alleato di {s:damage} punti salute e infliggendo {s:damage} punti danno alle unità nemiche nel raggio di {s:damage_radius} casella. Dazzle viene sempre guarito da Onda ombrosa."
+		"dac_ability_dazzle_shadow_wave_lore"										"E quanto costerebbe usufruire dei tuoi servizi? Ho un grande interesse a rimanere in vita. - <i> O'nia - accoltellatrice di ombre </i>"
+
+		// STORM SPIRIT
+		"dac_ability_storm_spirit_ball_lightning"									"Fulmine globulare"
+		"dac_ability_storm_spirit_ball_lightning_description"						"Storm Spirit si trasforma in elettricità volatile, saettando nel campo di battaglia e infliggendo {s:damage} punti danno a ogni unità che attraversa, oltre a {s:damage_per_cell} punti danno per ogni casella in cui è passato."
+		"dac_ability_storm_spirit_ball_lightning_lore"								"Le motivazioni dell'egoista nascono dal cuore, non dal cervello. Sarà quello più facile da intrappolare. - <i>Turath sviluppa una trama</i>"
+
+		"dac_ability_storm_spirit_element"											"Tempesta elementale"
+		"dac_ability_storm_spirit_element_description"								"PASSIVA: quando Storm Spirit esegue un Colpo delta, disarma le unità nemiche colpite per 3 secondi."
+		"dac_ability_storm_spirit_element_lore"										"Non dobbiamo preoccuparci di Quiet, lei saprà stare lontana dalla tempesta. - <i>Anessix considera tutte le sfaccettature</i>"
+
+		// EMBER SPIRIT
+		"dac_ability_ember_spirit_sleight_of_fist"									"Raffica di pugni"
+		"dac_ability_ember_spirit_sleight_of_fist_description"						"Ember Spirit scatta a una velocità accecante, attaccando tutti i nemici in un raggio di {s:cells} caselle per poi tornare alla posizione iniziale. Gli attacchi infliggono {s:bonus_damage} punti danno aggiuntivi."
+		"dac_ability_ember_spirit_sleight_of_fist_lore"								"Anche se combatte come un demone, è una creature onorevole. La sua parola mi basta. - <i>Jull, onore tra ladri</i>"
+
+		"dac_ability_ember_spirit_element"											"Fuoco elementale"
+		"dac_ability_ember_spirit_element_description"								"PASSIVA: quando Ember Spirit esegue un Colpo delta, incendia le unità nemiche colpite per 3 secondi."
+		"dac_ability_ember_spirit_element_lore"										"Voglio questo tizio sul mio libro paga. - <i>Hobgen, talent scout</i>"
+
+		// EARTH SPIRIT
+		"dac_ability_earth_spirit_geomagnetic_grip"									"Presa geomagnetica"
+		"dac_ability_earth_spirit_geomagnetic_grip_description"						"Earth Spirit evoca un Residuo di pietra fuori dalla mappa e lo spinge verso il suo bersaglio attuale. I nemici colpiti dal Residuo di pietra vengono silenziati per {s:silence_duration} secondi e subiscono {s:damage} punti danno."
+		"dac_ability_earth_spirit_geomagnetic_grip_lore"							"Adoro quando Kaolin è in città, porta alla luce le cose più affascinanti.  - <i>Carl cerca rifornimenti</i>"
+
+		"dac_ability_earth_spirit_element"											"Terra elementale"
+		"dac_ability_earth_spirit_element_description"								"PASSIVA: quando Earth Spirit esegue un Colpo delta, silenzia le unità nemiche colpite per 3 secondi."
+		"dac_ability_earth_spirit_element_lore"										"Cosa non darei per vedere Wukong combattere contro quel tizio nel ring... - <i>Grek, appassionato di wrestling</i>"
+
+		// VOID SPIRIT
+		"dac_ability_void_spirit_dissimilate"										"Dissimilazione"
+		"dac_ability_void_spirit_dissimilate_description"							"Void Spirit diventa un'entità eterea, scomparendo e creando 3 portali. Dopo {s:disappear_duration} secondi esce da uno dei portali e infligge {s:bonus_damage} punti danno ai nemici in un raggio di {s:damage_distance} casella, riducendone l'armatura del {s:armor_reduction}% per {s:armor_reduction_duration} secondi."
+		"dac_ability_void_spirit_dissimilate_lore"									"Non esci allo scoperto senza una buona ragione. Scopri perché lui è qui. - <i>Anessix, in cerca di un segreto</i>"
+
+		"dac_ability_void_spirit_element"											"Vuoto elementale"
+		"dac_ability_void_spirit_element_description"								"PASSIVA: quando Void Spirit esegue un Colpo delta, inibisce le unità nemiche colpite per 3 secondi."
+		"dac_ability_void_spirit_element_lore"										"Vedi di fare attenzione, Slark. - <i>Jull, dispensa consigli</i>"
+
+		// GRANNY LIZARD
+		"dac_ability_granny_lizard_shotgun_blast"									"Cara vecchia esplosione"
+		"dac_ability_granny_lizard_shotgun_blast_description"						"Dopo 4 attacchi di base Snapfire prepara il suo fucile a pompa, colpendo un nemico vicino infliggendo {s:blast_damage} punti danno in un raggio a forma di cono e rallentando l'attacco delle unità colpite del {s:blast_bonus_attack_speed}%."
+		"dac_ability_granny_lizard_shotgun_blast_lore"								"I furbi hanno sempre avuto una mente eccelsa per la guerra e la guerra è la mia passione e il mio mestiere. Forse si può combinare qualche buon affare. - <i>Quiet, magnate</i>"
+
+		"dac_ability_granny_lizard_bazooka"											"Baci di Mortimer"
+		"dac_ability_granny_lizard_bazooka_description"								"<i>SBLOCCATA CON LA SINERGIA DRAGONE</i>: Mortimer sputa {s:projectile_count} palle di fuoco contro i nemici fino a {s:cast_range} caselle di distanza. Ogni sputo infuocato infligge {s:damage} punti danno a tutti nemici nel raggio di {s:impact_radius} casella dall'impatto e li incendia per {s:burn_duration} secondi."
+		"dac_ability_granny_lizard_bazooka_lore"									"Glielo dici tu alla signora che quella cosa non è un drago? - <i>Grek, incurante del certificato di autenticità</i>"
+
+		// MANGO TREE
+		"dac_ability_mango_tree_mango_throw"										"Lancio del mango"
+		"dac_ability_mango_tree_mango_throw_description"							"All'inizio del combattimento e ogni {s:mango_production_interval} secondi successivi, l'Albero di mango lancia un mango fino a {s:radius} caselle di distanza. Qualunque unità che tocca il mango lo mangia e ottiene 50 punti mana e 100 punti salute."
+		"dac_ability_mango_tree_mango_throw_lore"									"Non guardarmi così, è solo frutta - <i>Anessix lotta disperatamente contro gli stereotipi</i>"
+
+		// UNDERLORDS
+
+		"dac_ability_underlord_scales"												"Aumenta in base al livello dell'Underlord"
+
+		"dac_ability_anessix_summon_companions"										"Amici demoniaci di Anessix"
+		"dac_ability_anessix_summon_companions_description"							"Anessix evoca la sua banda di demoni. Se entrambi i demoni sono morti, li evocherà nuovamente."
+		"dac_ability_anessix_summon_companions_lore"								"Avere molte conoscenze aiuta sempre... - <i>Anessix e i suoi loschi contatti</i>"
+
+		"dac_ability_anessix_summon_golem"											"Evoca Golem demoniaco"
+		"dac_ability_anessix_summon_golem_description"								"Anessix evoca un Golem demoniaco che si schianta dietro le linee nemiche stordendo tutti i nemici nel raggio di 2 caselle per 2 secondi."
+		"dac_ability_anessix_summon_golem_lore"										"Ovvio che io non ti ucciderò... quella è roba che lascio fare alla servitù. - <i>Anessix e la sua etica discutibile</i>"
+
+		"dac_ability_anessix_passive"												"Abilità passiva"
+		"dac_ability_anessix_passive_description"									"Anessix evoca un compagno che combatte per lei."
+
+		"dac_ability_anessix_companion_archer_passive"								"Colpo critico"
+		"dac_ability_anessix_companion_archer_passive_description"					"PASSIVO: Demone arciere ha una probabilità del {s:chance}% di assestare un colpo critico del {s:bonus}% al nemico a ogni attacco."
+		"dac_ability_anessix_companion_archer_passive_lore"							"<i>I miei scagnozzi sanno come rendervi la vita difficile. - <i>Anessix, pugno di ferro in un guanto di velluto</i>"
+
+		"dac_ability_anessix_pure_pain"												"Dolore lancinante"
+		"dac_ability_anessix_pure_pain_description"									"Anessix bersaglia un'unità nemica casuale, infliggendole {s:damage} danni puri per livello al secondo per {s:duration} secondi."
+		"dac_ability_anessix_pure_pain_description_perlevel"						"Anessix bersaglia un'unità nemica casuale, infliggendole {s:damage} danni puri per livello al secondo per {s:duration} secondi."
+		"dac_ability_anessix_pure_pain_lore"										"Mi dirai quello che voglio sapere... - <i>Anessix dal carattere amichevole</i>"
+
+		"dac_ability_anessix_martyrs_boon"											"Benedizione del martire"
+		"dac_ability_anessix_martyrs_boon_description"								"Anessix subisce danni pari al {s:selfdmg}% della sua salute massima. Tutte le unità alleate vengono curate di {s:regen} punti salute al secondo per i successivi {s:duration} secondi."
+		"dac_ability_anessix_martyrs_boon_description_perlevel"						"Anessix subisce danni pari al {s:selfdmg}% della sua salute massima. Tutte le unità alleate vengono curate di {s:regen} punti salute al secondo per i successivi {s:duration} secondi."
+		"dac_ability_anessix_martyrs_boon_lore"										"La mia bontà d'animo è pari alla mia crudeltà.  - <i>Anessix, datrice di lavoro generosa</i>"
+
+		"dac_ability_anessix_enthrall"												"Incantamento"
+		"dac_ability_anessix_enthrall_description"									"Anessix costringe la sua armata ad attaccare uno specifico bersaglio per {s:target_duration} secondi riducendo i punti armatura del bersaglio di {s:armor_reduction}. Se il bersaglio muore, Anessix lo resuscita come un demone che combatterà per lei."
+		"dac_ability_anessix_enthrall_description_lore"								"Ora mi appartieni. - <i>Anessix e le sue conquiste</i>"
+
+		"dac_ability_demon_warrior_bash"											"Colpo del Guerriero"
+		"dac_ability_demon_warrior_bash_description"								"Il compagno di Anessix ha il {s:bash_chance}% di probabilità di stordire il bersaglio per {s:bash_duration} secondi e di infliggere un danno aggiuntivo di {s:bonus_chance_damage}."
+		"dac_ability_demon_warrior_bash_lore"										"Se vuoi vedere Anessix, devi prima superare me... - <i>Brill, servitore demoniaco</i>"
+
+		"dac_ability_hobgen_passive"												"Abilità passiva"
+		"dac_ability_hobgen_passive_description"									"Gli attacchi di Hobgen incendiano i nemici per 3 secondi."
+
+		"dac_ability_hobgen_explosivo"												"Esplosivo!"
+		"dac_ability_hobgen_explosivo_description"									"Hobgen lancia una palla di fuoco contro un bersaglio che infligge {s:damage_base} punti danno, divisi equamente tra tutti i bersagli adiacenti, incendiandoli tutti."
+		"dac_ability_hobgen_explosivo_description_perlevel"							"Hobgen lancia una palla di fuoco contro un bersaglio che infligge {s:damage_base} punti danno, divisi equamente tra tutti i bersagli adiacenti, incendiandoli tutti."
+		"dac_ability_hobgen_explosivo_description_lore"								"Facciamo saltare qualcosa in aria. - <I>Hobgen e il suo hobby delle demolizioni</i>"
+
+		"dac_ability_hobgen_supercharged"											"Super carica"
+		"dac_ability_hobgen_supercharged_description"								"Hobgen super carica l'unità alleata più vicina, infuocandola e aumentandone di {s:aspd} la velocità di attacco."
+		"dac_ability_hobgen_supercharged_description_perlevel"						"Hobgen super carica l'unità alleata più vicina, infuocandola e aumentandone di {s:aspd} la velocità di attacco."
+		"dac_ability_hobgen_supercharged_description_lore"							"A volte le persone hanno semplicemente bisogno di venire motivate. - <i>Hobgen accende il fuoco sacro (non solo metaforicamente)</i>"
+
+		"dac_ability_hobgen_airstrike"												"Fuoco amico"
+		"dac_ability_hobgen_airstrike_description"									"Gli scagnozzi di Hobgen lanciano {s:strikes} bombe sul campo di battaglia, infliggendo {s:damage} punti danno alle unità nemiche colpite direttamente. I nemici coinvolti nell'area di effetto dell'esplosione subiscono la metà dei punti danno."
+		"dac_ability_hobgen_airstrike_description_lore"								"Che bruci tutto! - <i>Hobgen, piromane impazzito</i>"
+
+		"dac_ability_hobgen_letsgocrazy"											"Diamoci dentro"
+		"dac_ability_hobgen_letsgocrazy_description"								"Gli attacchi di Hobgen ora raggiungono l'intero campo di battaglia e la tua armata guadagna {s:aspd} di velocità di attacco. Hobgen cambierà continuamente il suo bersaglio per attaccare unità che non sono in fiamme."
+		"dac_ability_hobgen_letsgocrazy_description_perlevel"						"Gli attacchi di Hobgen ora raggiungono l'intero campo di battaglia e la tua armata guadagna {s:aspd} di velocità di attacco. Hobgen cambierà continuamente il suo bersaglio per attaccare unità che non sono in fiamme."
+		"dac_ability_hobgen_letsgocrazy_description_lore"							"Dunque devo essere io a fare la parte del cattivo, eh? Nessun problema. - <i>Le trattative tra Hobgen ed Enno prendono una brutta piega</i>"
+
+		"dac_ability_demon_warrior_protect"											"Protezione del Guerriero"
+		"dac_ability_demon_warrior_protect_description"								"Il Demone proteggerà Anessix, bloccando gli attacchi a distanza contro di lei."
+		"dac_ability_demon_warrior_protect_description_lore"						"Stammi accanto, ci sono persone poco raccomandabili in giro. - <i>Anessix fa una passeggiata a Guglia bianca</i>"
+
+		"dac_ability_jull_passive"													"Abilità passiva"
+		"dac_ability_jull_passive_description"										"Jull guadagna {s:armor_per_enemy} punti armatura per ogni unità alleata o nemica adiacente."
+
+		"dac_ability_jull_beeftron"													"Libero dal dolore"
+		"dac_ability_jull_beeftron_description"										"Jull riflette il {s:melee_reflect_pct}% dei danni da mischia sulle unità nemiche adiacenti e rigenera la salute per il {s:melee_heal_pct}% dei danni da mischia e il {s:ranged_heal_pct}% dei danni da attacchi a distanza subiti negli ultimi {s:melee_reflect_window} secondi."
+		"dac_ability_jull_beeftron_lore"											"Non cederò mai! - <i>Jull non ha paura di essere torturato</i>"
+
+		"dac_ability_jull_punchtron"												"Lotta"
+		"dac_ability_jull_punchtron_description"									"Jull colpisce il suo bersaglio attuale, infligge {s:punch_damage} punti danno e lo sposta di {s:punch_distance} caselle dalla posizione originale. I nemici nella scia del bersaglio respinto rimangono storditi per {s:stun_duration} secondi e spostati dalla loro casella. Se l'avversario raggiunge il limite della scacchiera, subisce nuovamente danni."
+		"dac_ability_jull_punchtron_lore"											"Forza, Tusk. È passato troppo tempo dall'ultima volta.  - <i>Due vecchi amici che devono pareggiare i conti</i>"
+
+		"dac_ability_jull_barrelsoffun"												"In una botte di ferro"
+		"dac_ability_jull_barrelsoffun_description"									"Jull fa apparire dei barili dai bordi della scacchiera. Quando colpiscono un alleato, questo guadagna {s:attack_speed_buff_pct} di velocità di attacco. Quando colpiscono un nemico, questo subisce {s:barrel_dmg} punti danno fisici e il {s:damage_taken_debuff_pct}% in più di danni magici e fisici fino alla fine del combattimento."
+		"dac_ability_jull_barrelsoffun_lore"										"Non mi piace distruggere la mia stessa merce, ma a volte bisogna fare dei sacrifici. - <i>Jull decide di improvvisare</i>"
+
+		"dac_ability_jull_happyhour"												"Aperitivo"
+		"dac_ability_jull_happyhour_description"									"Jull offre un round a tutte le unità alleate. Il {s:damage_distributed_pct}% del danno subito viene ricevuto immediatamente, mentre il resto viene ricevuto nel corso di {s:damage_distributed_duration} secondi."
+		"dac_ability_jull_happyhour_lore"											"Amici, stasera offro io! - <i>Jull, proprietario del Sundered Moon</i>"
+
+		"dac_ability_enno_poison_spin"												"Girandola velenosa"
+		"dac_ability_enno_poison_spin_description"									"Enno fa un balzo e scaglia un dardo avvelenato che colpisce fino a {s:target_count} nemici nel raggio di {s:range} caselle, infliggendo danni cumulabili da veleno e {s:damage} punti danno fisici a ogni colpo."
+		"dac_ability_enno_poison_spin_lore"											"Non farti ingannare dalla sua taglia… Enno è più pericoloso di quanto sembri – <i>Jull si prepara a visitare le Tane</i>"
+
+		"dac_ability_enno_escape_artist"											"Escapologo"
+		"dac_ability_enno_escape_artist_description"								"La prima volta che la sua salute scende al di sotto del {s:escape_health_pct_1}/{s:escape_health_pct_2}/{s:escape_health_pct_3}%, Enno fugge in una nuvola di fumo, dissipando tutti gli effetti negativi che ha subito, e ricompare in un punto diverso della scacchiera. I nemici adiacenti alla casella in cui riappare vengono storditi per {s:stun_duration} secondi."
+		"dac_ability_enno_escape_artist_lore"										"Qualcuno prenda quel nanerottolo e lo uccida! – <i>Hobgen, terribilmente irritato</i>"
+
+		"dac_ability_enno_steal"													"Adesso è mio!"
+		"dac_ability_enno_steal_description"										"Enno ruba l'oggetto di livello più basso dalla squadra nemica all'inizio del combattimento. Ogni volta che un nemico muore, Enno ne saccheggia il cadavere se questo è equipaggiato con un oggetto migliore. Tutti gli oggetti ritorneranno ai legittimi proprietari alla fine del combattimento."
+		"dac_ability_enno_steal_lore"												"Ascoltami bene, sarò anche la Signora dei segreti ma non posso fare miracoli. Se Enno ti ha rubato qualcosa, non te la darà indietro finché non si sarà stancato di averla. – <i>Anessix tiene sempre sott'occhio la sua borsa</i>"
+
+		"dac_ability_enno_airbrawl"													"Attacco su vasta scala"
+		"dac_ability_enno_airbrawl_description"										"Enno lancia un Attacco su vasta scala contro la squadra nemica, applica {s:stacks} Veleno, infligge {s:fight_damage} danni fisici e li stordisce per {s:land_stun_duration} secondi."
+		"dac_ability_enno_airbrawl_lore"											"TOGLIETEMI QUESTO BASTARDO PELOSO DI DOSSO!– <i>Hobgen impara l'umiltà</i>"
+	}
+}

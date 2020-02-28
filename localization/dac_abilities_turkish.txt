@@ -1,0 +1,663 @@
+﻿"lang"
+{ 
+	"Language" "turkish" 
+	"Tokens" 
+	{
+		"dac_ability_autoattack"												"Otomatik Saldırı"
+		"dac_ability_regen"														"Yenilenme"
+
+		// ANTIMAGE
+		"dac_ability_antimage_mana_break"										"Mana Silme"
+		"dac_ability_antimage_mana_break_Description"							"PASİF: Büyücü Avcısı her saldırısında düşmanının {s:mana_per_hit} manasını yakar ve yakılan mananın %50'sini hedefine hasar olarak verir. Underlord'lara saldırdığında onlardan {s:hype_per_hit} coşku yakar."
+		"dac_ability_antimage_mana_break_Lore"									"Büyücü Avcısı benim için geldi... Onun için hazır olacağım. - <i>Tyler Malikânesi Kaçağı Turath</i>"
+
+		//QUEEN OF PAIN
+		"dac_ability_queenofpain_scream_of_pain"								"Istırap Çığlığı"
+		"dac_ability_queenofpain_scream_of_pain_Description"					"Istırap Kraliçesi yakındaki düşmanlara hasar veren acı bir çığlık atarak {s:radius} hücre mesafesindeki bütün düşmanlara {s:damage} hasar verir."
+		"dac_ability_queenofpain_scream_of_pain_Lore"							"Akasha yakın bir arkadaşım değil ancak edeceği yardım sayesinde beni kontrol edebileceğini düşünürse, yardım edecektir. - <i>Pragmatik Şeytan Anessix</i>"
+
+		//LINA
+		"dac_ability_lina_laguna_blade"											"Laguna Kılıcı"
+		"dac_ability_lina_laguna_blade_Description"								"Alevler Prensesi yıldırım atarak tek bir birime {s:damage} hasar verir ve o birimi {s:fire_duration} saniyeliğine yakar."
+		"dac_ability_lina_laguna_blade_Lore"									"Lina'nın Beyaz Kule'ye gelmesini sağlamak pek zor olmadı, sonuçta ikimiz de birbirimizin yaptığı işleri takdir ediyoruz. - <i>Profesyonel Kundakçı Hobgen</i>"
+
+		//FURION
+		"dac_ability_natures_prophet_summon_tree"								"Doğanın Çağrısı"
+		"dac_ability_natures_prophet_summon_tree_Description"					"Doğanın Elçisi bir ağaç çağırır. Bu ağaç druid sayılır."
+		"dac_ability_natures_prophet_summon_tree_Lore"							"Enno zavallı orman arkadaşlarından yardım istedi... Bu bir sorun oluşturabilir. - <i>Sürgün Edilmiş Revtel Tüccarı O'nia</i>"
+
+		"dac_ability_natures_prophet_wrath_of_nature"							"Doğanın Gazabı"
+		"dac_ability_natures_prophet_wrath_of_nature_Description"				"Doğanın Elçisi bir hedefi çarparak {s:damage} hasar verir. Bu, tahtadaki düşmanlar arasında {s:jumps} defa seker ve her sektiğinde hasarı %{s:increase_pct} artar."
+		"dac_ability_natures_prophet_wrath_of_nature_Lore"						"Aslına bakacak olursan hayattaki gayemin pek gerekli olduğunu söyleyemem. Sonuçta aslında birini öldürmek için silaha ihtiyacın yok, doğal sürecin tamamlanmasını bekleyecek sabrın olsa yeter. - <i>Düşünen Çarklı Sessiz</i>"
+
+		//WINDRUNNER
+		"dac_ability_windrunner_powershot"										"Kuvvetli Atış"
+		"dac_ability_windrunner_powershot_Description"							"Rüzgâr Korucusu tek bir kuvvetli atış yapmak için yayını {s:castPoint} saniyeye kadar gerer ve en fazla {s:powershot_damage} hasar verir. Kuvvetli atış tarafından vurulan her düşman başına atışın hasarı %{s:damage_reduction} azalır."
+		"dac_ability_windrunner_powershot_Lore"									"Seyahatlerim esnasında çok fazla arkadaş edindim ve yardım istemekten çekinmiyorum. - <i>Dünya Seyyâhı Wren</i>"
+
+		//WITCHDOCTOR
+		"dac_ability_witch_doctor_paralyzing_cask"								"Felç Edici Tas"
+		"dac_ability_witch_doctor_paralyzing_cask_Description"					"Büyücü Hekim düşman birimlerinin arasında onları sersemleterek ve {s:damage} hasar vererek {s:bounces} defa seken felç edici tozla dolu bir tas fırlatır."
+		"dac_ability_witch_doctor_paralyzing_cask_Lore"							"Seni iş başında izlemeye bayılıyorum Hekim... - <i>Fesatçı Peri Hobgen</i>"
+
+		//JUGGERNAUT
+		"dac_ability_juggernaut_blade_fury"										"Kılıç Öfkesi"
+		"dac_ability_juggernaut_blade_fury_Description"							"Durdurulamaz Savaşçı kılıçlarını döndürmeye başlayarak büyü dokunulmazlığına sahip olur ve {s:radius} hücre çevresindeki düşman birimlerine {s:duration} saniye boyunca {s:damage} hasar verir. Büyü saldırılarından kaçınmak için Durdurulamaz Savaşçı etrafında dönebilir."
+		"dac_ability_juggernaut_blade_fury_Lore"								"Yurnero sadece bir savaşçı değil. O durdurulamaz bir savaşçı. Eğer Yurnero'yu kendi tarafımıza çekebilirsek kimse bize karşı duramaz. - <i>Grek bütün olasılıkları göz önünde bulundururken</i>"
+
+		//SANDKING
+		"dac_ability_sandking_burrowstrike"										"Yer Altı Saldırısı"
+		"dac_ability_sandking_burrowstrike_Description"							"Kumlar Kralı yer altına girip ileri doğru tünel kazarak düşmanlara {s:damage} hasar verir ve {s:stun_duration} saniye boyunca sersemletir.<br>Vurduğu tüm düşmanlara Aşındırıcı Son istifler."
+		"dac_ability_sandking_burrowstrike_Lore"								"Tünel ağımızı kurmak için çok uğraştık, Kumlar Kralı'nın bütün bu emeğimizi yerle bir etmesine izin veremeyiz. - <i>İçki Baronu Jull</i>"
+
+		"dac_ability_sandking_caustic_finale"									"Aşındırıcı Son"
+		"dac_ability_sandking_caustic_finale_Description"						"PASİF: Kumlar Kralı bir düşmana vurduğu zaman hedefini {s:apply_duration} saniyeliğine zehirler. Zehir geçtikten sonra patlar, {s:damage_aoe} hasar verir ve hedefin yakındaki bütün düşmanların saldırı hızlarını {s:slow_duration} saniyeliğine {s:attack_slow} azaltır. Hedef patlamadan sonra hayatta kalırsa hasar yarıya düşer."
+		"dac_ability_sandking_caustic_finale_Lore"								"Muşamba kullansa fena olmaz hani... <i>Cehennem Uzmanı Anessix</i>"
+
+		//SHADOW FRIEND
+		"dac_ability_shadow_fiend_requiem"										"Ruhların Ağıdı"
+		"dac_ability_shadow_fiend_requiem_Description"							"Gölge İblis lanetli ruhları yönlendirerek şeytani bir enerji patlamasına neden olur ve patlamadan etkilenenlere {s:damage} hasar verir."
+		"dac_ability_shadow_fiend_requiem_Lore"									"Ristul Meclisi ve benim aramda bir... Anlaşma var. - <i>Yer Şeytanı Anessix</i>"
+
+		//PHANTOM ASSASSIN
+		"dac_ability_phantom_assassin_coup_de_grace"							"İnsaflı İnfaz"
+		"dac_ability_phantom_assassin_coup_de_grace_Description"				"PASİF: Hayalet Suikastçı %{s:crit_chance} şansla düşman birimlerine %{s:crit_bonus} değerinde mahvedici bir kritik saldırı yapar."
+		"dac_ability_phantom_assassin_coup_de_grace_Lore"						"Suikastçı, Kwerthias'ı öldürdü, muhtemelen şimdi benim peşime de düşer. - <i>Paranoyak Tüccar O'nia</i>"
+
+		//DROW RANGER
+		"dac_ability_drow_ranger_trueshot_aura"									"İsabet Aurası"
+		"dac_ability_drow_ranger_trueshot_aura_Description"						"PASİF: Korucu Kara Elf, {s:range} hücre mesafesindeki bütün dostlarına fazladan %{s:bonus} saldırı hızı verir."
+		"dac_ability_drow_ranger_trueshot_aura_Lore"							"Traxex. Sen ve ben büyük işler başaracağız. Güven bana. - <i>Madrabaz Grek</i>"
+
+		//MORPHLING
+		"dac_ability_morphling_waveform"										"Dalga Biçimi"
+		"dac_ability_morphling_waveform_Description"							"Kabulgan sıvılaşır ve ileri doğru dalgalanır, yolundaki düşman birimlere {s:damage} hasar verir.\n\nKabulgan, Dalga Biçimi'ndeyken dokunulmaz olur."
+		"dac_ability_morphling_waveform_Lore"									"Turath'ın Kabulgan gibilerden tatlı dille iyilik isteyebilmesi biraz... Can sıkıcı. - <i>Robot Komplocusu Sessiz</i>"
+
+		//AXE
+		"dac_ability_axe_berserkers_call"										"Vahşi Savaşçının Haykırışı"
+		"dac_ability_axe_berserkers_call_Description"							"Balta {s:radius} hücre çevresindeki düşman birimlerin kendisine {s:duration} saniye boyunca saldırmasını sağlar. Vahşi Savaşçının Çağrısı etkinken Balta fazladan {s:bonus_armor} zırh kazanır."
+		"dac_ability_axe_berserkers_call_Lore"									"Balta'nın yardımını almak kolaydır... Balta'ya, daha sonra anlatabileceği iyi bir hikâye kazanabileceği sözü vermek yeterlidir. - <i>Şevklendirici İsyancı Wren</i>" 
+
+		"dac_ability_axe_culling_blade"											"Hasat Baltası"
+		"dac_ability_axe_culling_blade_Description"								"Balta'nın hedefi %{s:target_percent_health_threshold} sağlığın altındaysa, hedefini bu baltayla anında öldürür."
+		"dac_ability_axe_culling_blade_Lore"									"Balta milleti ikiye bölme konusunda BAYAĞI yetenekli. - <i>Balta'nın Ozanı Goodkind</i>" 
+
+		"dac_ability_axe_counter_helix"											"Karşıt Helezon"
+		"dac_ability_axe_counter_helix_Description"								"Balta saldırıya maruz kaldığında %{s:spin_chance} şansla karşı helezon saldırısı yapar ve 1 hücre mesafedeki bütün düşmanlara {s:spin_damage} saf hasar verir."
+		"dac_ability_axe_counter_helix_Lore"									"Bir defasında Parçalanmış Ay'a girmesine izin vermiştim... Çıkan kavgadan sonra bütün mekânı baştan yapmam gerekmişti! - <i>Jull, Balta'nın onun barına gelme yasağını açıklarken</i>" 
+
+		//RAZOR
+		"dac_ability_razor_plasma_field"										"Plazma Alanı"
+		"dac_ability_razor_plasma_field_Description"							"Yıldırım Ruhu, boyutu arttıkça gücü de artan bir yıldırım halkası oluşturur ve bu halka {s:radius} hücre mesafesindeki düşman birimleri yavaşlatır ve en fazla {s:damage_max} hasar verir.<br><br>Yıldırım Ruhu'yla aradaki mesafeye göre bu halkanın hasarı ve yavaşlatması da artar.<br><br>Yıldırım Halkası her birime iki defa vurur; ilk genişlerken diğeri de geri çekilirken."
+		"dac_ability_razor_plasma_field_Lore"									"Yıldırım Ruhu'nun Beyaz Kule'nin sokaklarında korkutucu olduğunu düşünüyorsan bir de Dar Labirent'te yaptıklarını görmelisin. - <i>Spor Hayranı Anessix</i>"
+
+		//CRYSTAL MAIDEN
+		"dac_ability_crystal_maiden_brilliance_aura"							"Esrarlı Aura"
+		"dac_ability_crystal_maiden_brilliance_aura_Description"				"PASİF: Her {s:interval} saniyede bir Buzlar Prensesi dostlarına {s:mana_regen} mana yenilemesi verir."
+		"dac_ability_crystal_maiden_brilliance_aura_Lore"						"Benim için mi yoksa Turath için mi buraya geldiğini bir öğren bakalım. - <i>Buzenkaz Kaçakçısı Jull</i>"
+
+		"dac_ability_crystal_maiden_frostbite"									"Buz Hapishanesi"
+		"dac_ability_crystal_maiden_frostbite_Description"						"Düşman birimini buzun içine hapseder, {s:duration} saniye boyunca saniye başına {s:damage} hasar verirken saldırı yapmasını ve hareket etmesini de imkânsız kılar. Buz Hapishanesi'nden etkilenen hedefler iyileştirilemez."
+		"dac_ability_crystal_maiden_frostbite_Lore"								"Beyaz Kule'de işler çok yoğun, o yüzden bazen bazı şeyler kolayca gözden kaçabiliyor. Örneğin Buzenkaz'ın Buzlar Kraliçesi eskiden ahbaplarına sadece yardım ederdi, ama belli ki bugünlerde insanları resmen donduruyor. Bak işte, bu yeni haber. -<i>Her Şeyden En Son Haberi Olan Carl</i>"
+
+		//KUNKKA
+		"dac_ability_kunkka_ghostship"											"Hayalet Gemi"
+		"dac_ability_kunkka_ghostship_Description"								"Savaşın içinden parçalanmak üzere olan ruhani bir gemi çağırır, enkazın maksimum {s:ghostship_crash_cells} hücre mesafesinde yakalanan düşman birimlere {s:ability_damage} hasar verir ve {s:stun_duration} saniyeliğine sersemletir."
+		"dac_ability_kunkka_ghostship_Lore"										"Eeb Ana'nın çok sayıda arkadaşı vardı... Kunkka da benim gibi cevap arayışı içinde. - <i>İntikam Almak İsteyen Evlat Wren</i>"
+
+		//TINY
+		"dac_ability_tiny_toss"													"Fırlatma"
+		"dac_ability_tiny_toss_Description"										"Minik, etrafındaki düşmanlardan birini rastgele olarak tutar ve en uzaktaki düşman hedefine fırlatır.<br><br>Çarptığı zaman hedef, {s:damage_radius} hücre çevresindeki bütün düşmanlara {s:damage} hasar verir ve {s:stun_duration} saniyeliğine sersemletir."
+		"dac_ability_tiny_toss_Lore"											"Görünüşe göre Enno kendisine fedai bulmuş. <i>Grek büyük bir sorunla karşı karşıyayken</i>"
+
+		//PUCK
+		"dac_ability_puck_illusory_orb"											"Büyülü Küre"
+		"dac_ability_puck_illusory_orb_Description"								"Puck düz bir hat boyunca süzülen büyülü bir küre fırlatır, bu küre yolu üzerindeki birimlere {s:damage} hasar verir."
+		"dac_ability_puck_illusory_orb_Lore"									"Görünüşüne aldanma, Puck çok fenadır. - <i>Hobgen özlü sözler söylerken</i>"
+
+		"dac_ability_puck_phase_shift"											"Boyut Değiştirme"
+		"dac_ability_puck_phase_shift_Description"								"<i>EJDERHA İTTİFAKI İLE AÇILIR</i><br>PASİF: Ejder Peri hasar almadan hemen önce kısa bir süreliğine farklı bir boyuta geçer ve {s:shift_duration} saniye boyunca hasar almaz."
+		"dac_ability_puck_phase_shift_Lore"										"Bu herif de lazım olduğunda ortalarda görünmez. - <i>Sabırsız Underlord Hobgen</i>"
+
+		//CLOCKWERK
+		"dac_ability_clockwerk_battery_assault"									"Şarapnel Patlaması"
+		"dac_ability_clockwerk_battery_assault_Description"						"Çarklı Usta, {s:radius_in_cells} hücre mesafesindeki rastgele düşmanlara {s:duration} saniyeliğine her {s:damage_tick} saniyede bir {s:damage} büyü hasarı veren ve onları kısa süreliğine sersemleten oldukça kuvvetli bir şarapnel patlaması gerçekleştirir."
+		"dac_ability_clockwerk_battery_assault_Lore"							"Brass Herald sana bir ucube olduğunu söylerdi ama bence sen gayet zeki birisin ufak Keen. - <i>Kâfir Otomat Sessiz</i>"
+
+		//LICH
+		"dac_ability_lich_chain_frost"											"Buzul Sekme"
+		"dac_ability_lich_chain_frost_Description"								"Lich birbirine yakın düşman birimler arasında en fazla {s:jumps} kez seken, {s:slow_duration} saniye boyunca saldırı ve hareket hızlarını %{s:slow_value} yavaşlatan ve her vuruşunda {s:damage} hasar veren buzdan bir küre atar."
+		"dac_ability_lich_chain_frost_Lore"										"Birbirimize yardım edebiliriz, Lich. - <I>Turath şeytanla anlaşma yaparken</i>"
+
+		//TIDEHUNTER
+		"dac_ability_tidehunter_ravage"											"Tahribat"
+		"dac_ability_tidehunter_ravage_Description"								"Dalga Avcısı yere tüm gücüyle vurarak her yerden dokungaç çıkmasını sağlar. Dokungaçlar {s:duration} saniye boyunca {s:cells} hücre mesafesindeki tüm düşman birimlerini sersemleterek {s:damage} hasar verir."
+		"dac_ability_tidehunter_ravage_Lore"									"Kunkka, Deniz Canavarı tarafından avlanmıyorken seni daha çok severdim. - <i>İyi Gün Dostu Wren</i>"
+
+		//SHADOWSHAMAN
+		"dac_ability_shadow_shaman_voodoo"										"Lanet"
+		"dac_ability_shadow_shaman_voodoo_Description"							"Gölge Şaman bir düşman birimini zararsız bir yaratığa dönüştürerek {s:duration} saniye boyunca o birimin saldırılarını ve yeteneklerini devre dışı bırakır."
+		"dac_ability_shadow_shaman_voodoo_Lore"									"İşte bu adam şov nasıl yapılır biliyor! - <i>Grek profesyonel nezaket gösterirken</i>"
+
+		"dac_ability_shadow_shaman_mass_serpent_ward"							"Toplu Yılan Gözleri"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Gölge Şaman 4 taneye kadar Yılan Gözü çağırarak bir düşman birimini hapseder."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"En azından artık milleti tavuğa dönüştürmüyor. - <i>Memnuniyetsiz O'nia</i>"
+
+		//ENIGMA
+		"dac_ability_enigma_midnight_pulse"										"Gece Yarısı Dalgası"
+		"dac_ability_enigma_midnight_pulse_Description"							"Enigma, en yüksek azami sağlığa sahip hedefin altındaki alanı karanlık titreşime boğarak bu düşmanın azami sağlığının %{s:damage_percent} kadarını {s:duration} saniye boyunca bu hedeften en fazla {s:radius} hücre mesafedeki tüm düşmanlara hasar olarak verir ve onları %{s:slow_percent} yavaşlatır."
+		"dac_ability_enigma_midnight_pulse_Lore"								"Bu dünyada kontrol edemeyeceğin bazı şeyler vardır. - <i>Kaçık Büyücü Turath</i>"
+
+		//TINKER
+		"dac_ability_tinker_heat_seeking_missile"								"Isı Güdümlü Füze"
+		"dac_ability_tinker_heat_seeking_missile_Description"					"Mucit, {s:targets} rastgele düşmana bir dizi roket göndererek {s:damage_per_missile} hasar verir."
+		"dac_ability_tinker_heat_seeking_missile_Lore"							"Eğer kontrol altına alamazsak Hemfikir Keen'liler Topluluğu soruna neden olacak. - <i>O'nia ittifak oluşturmaya çalışırken</i>"
+
+		//SNIPER
+		"dac_ability_sniper_assassinate"										"Suikast"
+		"dac_ability_sniper_assassinate_Description"							"Keskin Nişancı bir düşmana {s:castPoint} saniye boyunca hedef alır, ardından hedefi kısa süreliğine sersemleten ve {s:damage} hasar veren tahrip edici bir atış yapar. Underlord'lar hedef alınamaz."
+		"dac_ability_sniper_assassinate_Lore"									"Eskiden şovuma bir Keen gösterisiyle başlardım. İzleyiciler için çok iyi olmakla beraber mesuliyet sigortası için pek iyi değildi. - <i>İşin Sonucuna Odaklanmış Grek</i>"
+
+		//NECROLYTE
+		"dac_ability_necrophos_death_pulse"										"Ölüm Dalgası"
+		"dac_ability_necrophos_death_pulse_Description"							"Nekrofos etrafına bir ölüm dalgası saçarak maksimum {s:radius} hücre mesafesindeki hem düşman hem de dost birimleri etkiler.<br><br>Ölüm dalgası düşmanlara {s:damage} hasar, dostlara da {s:heal} iyileştirme verir."
+		"dac_ability_necrophos_death_pulse_Lore"								"Haydi ama Nekrofos, istediğin bir şey mutlaka vardır... - <i>Tatlı Dilli Şeytan Anessix</i>"
+
+		//SLARDAR
+		"dac_ability_slardar_amplify_damage"									"Aşındırıcı Pus"
+		"dac_ability_slardar_amplify_damage_Description"						"Slither Muhafızı, düşmanın zırhını {s:duration} saniyeliğine {s:armor_reduction} azaltır."
+		"dac_ability_slardar_amplify_damage_Lore"								"Gece Gezgini ve ben birlikte iş yapabiliyorduk, eminim seninle de yapabiliriz. <i>Hapishane Şarabı Meraklısı Jull</i>"
+
+		//BEASTMASTER
+		"dac_ability_beastmaster_wild_axes"										"Vahşi Baltalar"
+		"dac_ability_beastmaster_wild_axes_Description"							"Yaratık Efendisi baltalarını fırlatır ve ardından geri çağırır. Bu esnada baltalar önüne çıkan düşman birimlere {s:axe_damage} hasar verir.<br><br>Her balta bir düşmana bir defa vurabilir ve vurulan düşmanlara %{s:damage_amp} hasar yükseltmesi uygulanır; bu sayede Yaratık Efendisi'nden gelecek diğer saldırıların hasarı artar."
+		"dac_ability_beastmaster_wild_axes_Lore"								"Bu ağaç sevicilerden kaçı daha o cücenin yardımına gelecek? - <i>Grek, Enno hakkında şikâyet ederken</i>"
+
+		//VENOMANCER
+		"dac_ability_venomancer_plague_ward"									"Veba Gözü"
+		"dac_ability_venomancer_plague_ward_Description"						"Zehir Efendisi yanında savaşması için {s:num_wards} Veba Gözü çağırır. Veba Gözleri hedeflerine zehir istifler."
+		"dac_ability_venomancer_plague_ward_Lore"								"Eserlerin gerçekten de çok güzel. Bahçeni işlememe izin ver... - <i>Turath, yağcılığın insana bütün kapıları açtığını öğrenirken</i>"
+
+		"dac_ability_venomancer_venomous_gale"									"Zehirli Top"
+		"dac_ability_venomancer_venomous_gale_Description"						"Tek bir hatta ilerleyen zehirden bir top fırlatır. Vurulan düşmanlar {s:projectile_damage} büyü hasarı alır ve zehirlenir. Etkilenen birimler {s:tick_duration} saniye boyunca %{s:movement_slow} hareket hızı ve {s:attack_slow} saldırı hızı kaybeder."
+		"dac_ability_venomancer_venomous_gale_Lore"								"Hayatta olmaz, bu elemanı sahnenin ortasına koyarsak seyircilerin yarısı mevta olur! Başkasını bulun. - <i>Grek, Sun Wukong yerine uygun olacak birini düşünürken</i>"
+
+		"dac_ability_venomancer_poison_sting"									"Zehirli Sokma"
+		"dac_ability_venomancer_poison_sting_Description"						"PASİF: Her saldırı hedefe zehir istifler."
+		"dac_ability_venomancer_poison_sting_Lore"								"O şeyi Enno'dan uzak tut çünkü o küçük adinin en son ihtiyacı olan şey daha fazla zehir... - <i>Zehirlenmekten Hoşlanmayan Hobgen</i>"
+
+		//TEMPLAR ASSASSIN
+		"dac_ability_templar_assassin_refraction"								"Kırılım"
+		"dac_ability_templar_assassin_refraction_Description"					"Tapınak Suikastçısı bulunamaz hâle gelerek hasar almaktan kaçınır ve fazladan +{s:bonus_damage} saldırı hasarı kazanır.<br><br>Hasar ve kaçınma etkileri ayrıdır ve her birinin {s:instances} durumu vardır."
+		"dac_ability_templar_assassin_refraction_Lore"							"Bana yardım edersen borcunu ödenmiş sayarım. <i>Wren alabileceği bütün yardımı almaya çalışırken</i>"
+
+		"dac_ability_templar_assassin_meld"										"Kamuflaj"
+		"dac_ability_templar_assassin_meld_Description"							"PASİF: Tapınak Suikastçısı hedefine ışınlandıktan sonra ilk saldırısında {s:damage} ilave hasar verir ve hedefinin zırhını {s:armor_debuff_duration} saniyeliğine {s:armor_debuff} azaltır."
+		"dac_ability_templar_assassin_meld_Lore"								"Senin yeteneklerine tam anlamıyla uyan bir işim var. - <i>Anessix iş teklif ederken</i>"
+		
+		//VIPER
+		"dac_ability_viper_viper_strike"										"Viper Saldırısı"
+		"dac_ability_viper_viper_strike_Description"							"Engerek'in asitli zehri bir düşman birimin hareket ve saldırı hızını %{s:bonus_attack_speed} azaltırken aynı zamanda {s:damage} zamanla oluşan zehir hasarı verir.<br><br>Yavaşlatma etkisi zehrin süresi boyunca azalarak sona erer."
+		"dac_ability_viper_viper_strike_Lore"									"Sen ve ben o kadar da farklı değiliz... Ben de köle olmanın ne demek olduğunu bilirim. - <i>Plan Yapan Otomat Sessiz</i>"
+
+		"dac_ability_viper_nethertoxin"											"Şeytani Toksin"
+		"dac_ability_viper_nethertoxin_Description"								"Engerek bir hücreye zehir salar, düşmanlara saniye başına {s:damage} hasar verir, yere bağlar ve onlara güçten düşürme uygular."
+		"dac_ability_viper_nethertoxin_Lore"									"Ayağını denk al Gece Gezgini, beni soymaya çalışırsan bu senin için pek hayırlı bitmez. - <i>O'nia, fedaisini tanıştırırken</i> "
+
+		"dac_ability_viper_corrosive_skin"										"Aşındırıcı Deri"
+		"dac_ability_viper_corrosive_skin_Description"							"<i>EJDERHA İTTİFAKI İLE AÇILIR</i><br>PASİF: Engerek, kendine hasar veren düşmanlara bulaşarak saldırı hızlarını {s:dot_duration} saniye boyunca {s:attack_slow} azaltacak ve zehir istifleyecek bir zehir salgılar. Salgılanan asit ayrıca Engerek'in büyü direncini de {s:magic_resistance} artırır."
+		"dac_ability_viper_corrosive_skin_Lore"									"Şundan bir ceket yapmayı o kadar isterdim ki... - <i>Büyük Hayallerin Adamı Carl</i>"
+
+		//LUNA
+		"dac_ability_luna_moon_glaive"											"Ay Bıçakları"
+		"dac_ability_luna_moon_glaive_Description"								"PASİF: Luna bıçaklarını kuvvetlendirerek saldırılarının {s:range} hücre mesafesindeki düşmanların arasında {s:bounces} defa sekmesini sağlar.<br><br>Bıçaklar her sekmeden sonra %{s:damage_reduction_percent} daha az hasar verir."
+		"dac_ability_luna_moon_glaive_Lore"										"Söylediklerinin yarısını anlayamıyorum fakat şu şeyleri atma şekline bayılıyorum. - <i>Sosyal İnsan Grek</i>"
+
+		//DRAGON KNIGHT
+		"dac_ability_dragon_knight_breathe_fire"								"Ateş Püskürtme"
+		"dac_ability_dragon_knight_breathe_fire_Description"					"Ejderha Şövalyesi önündeki düşman birimlerini yakarak {s:damage} hasar veren ve saldırı hasarlarını da {s:duration} saniyeliğine %{s:attack_reduction} azaltan alev püskürtür."
+		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davion, yeteneklerin kıymetini bilmeyenler üzerinde harcanıyor- <i>Hobgen yetenek avlamaya çalışırken</i>"
+
+		"dac_ability_dragon_knight_elder_dragon_form"							"Kadim Ejderha Biçimi"
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>EJDERHA İTTİFAKI İLE AÇILIR</i><br>PASİF: Savaşın başında Ejderha Şövalyesi üç güçlü kadim ejderha biçimden birine bürünerek hareket hızını %{s:bonus_movement_speed}, saldırı hızını da {s:bonus_attack_damage} artırır ve yeni güçlere kavuşur.<br><br>Yeşil Ejderha:\nSaldırılar {s:corrosive_breath_duration} saniye boyunca saniye başına {s:corrosive_breath_damage} zehir hasarı verir.<br><br>Kızıl Ejderha:\n Düşmanları zehirlemenin yanında, saldırılar hedefin {s:splash_radius} hücre çevresindeki tüm düşman birimlere %{s:splash_damage_percent} hasar verir.<br><br>Mavi Ejderha:\nDüşmanları zehirlemenin yanında, saldırılar {s:frost_duration} saniye boyunca {s:frost_aoe} hücre çevresindeki düşman birimlerin hareket hızını %{s:frost_bonus_movement_speed}, saldırı hızını %{s:frost_bonus_attack_speed} azaltır."
+		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"Kaden seni çok övdü, umarım övgüleri boşa çıkarmazsın. - <i>Ejderha Kalesi'nin Dostu Wren</i>"
+
+		//ENCHANTRESS
+		"dac_ability_enchantress_natures_attendants"							"Doğanın Lütufları"
+		"dac_ability_enchantress_natures_attendants_Description"				"Ahu, {s:radius} hücre mesafesindeki bütün dostları iyileştiren {s:wisp_count} peri çağırır.<br><br>{s:duration} saniye boyunca dostları her {s:heal_interval} saniyede bir {s:heal} iyileştirir."
+		"dac_ability_enchantress_natures_attendants_Lore"						"Beyaz Kule'de bir gün bile dayanamaz. Ne diyorum bak, sadece bir gün. - <i>Hobgen rakibini küçümserken</i>"
+
+		//BOUNTY HUNTER
+		"dac_ability_bounty_hunter_shuriken_toss"								"Şiriken Fırlatma"
+		"dac_ability_bounty_hunter_shuriken_toss_Description"					"Ödül Avcısı bir düşman birimine ölümcül bir şiriken fırlatır, hedefe {s:damage} hasar verir ve kısa süreliğine sersemletir."
+		"dac_ability_bounty_hunter_shuriken_toss_Lore"							"Sadakati satılık olan birine ancak paran olduğu müddetçe güvenebilirsin. - <i>Bilgeliği Meçhul O'nia</i>"
+
+		//BATRIDER
+		"dac_ability_batrider_sticky_napalm"									"Yapışkan Napalm"
+		"dac_ability_batrider_sticky_napalm_Description"						"Yarasa Binicisi, vuruş noktasının {s:radius} hücre çevresini yapışkan petrolle kaplar. Petrol, Yarasa Binicisi'nin saldırısına istif başına {s:damage} hasar ekler, düşmanların hareket ve saldırı hızlarını %{s:movement_speed_pct} azaltır.<br><br>Daha sonra kullanılacak Yapışkan Napalm saldırıları hasarı ve yavaşlatma yüzdelerini en fazla {s:max_stacks} istife kadar artırmaya devam eder."
+		"dac_ability_batrider_sticky_napalm_Lore"								"Bu herife bayılıyorum. BAYILIYORUM BU HERİFE. - <i>Kundakçı Hobgen</i>"
+
+		//DOOM BRINGER
+		"dac_ability_doom_bringer_doom"											"Kıyamet"
+		"dac_ability_doom_bringer_doom_Description"								"Kıyamet Elçisi düşmanı lanetleyerek büyü yapmasını engeller ve saniye başına {s:damage} hasar verir.<br><br>{s:duration} saniye sürer."
+		"dac_ability_doom_bringer_doom_Lore"									"Mecazi şeytanlarla anlaşma yapmayı tercih ediyorum... - <i>O'nia, Anessix'in müttefikleriyle ilgili fikir belirtirken</i>"
+
+		//GYROCOPTER
+		"dac_ability_gyrocopter_call_down"										"Hava Saldırısı"
+		"dac_ability_gyrocopter_call_down_Description"							"Jirokopter vuruş noktasından {s:radius} hücre mesafedeki düşman birimlerine füze atar.<br><br>İki füze arka arkaya isabet eder, ilki {s:damage_first} hasar ve {s:slow_duration_first} saniyeliğine %{s:slow_first} yavaşlatma verir; diğeri de {s:damage_second} hasar ve {s:slow_duration_second} saniyeliğine %{s:slow_second} yavaşlatma verir."
+		"dac_ability_gyrocopter_call_down_Lore"									"Onun yardımıyla nakliyesini yapabileceğimiz mal miktarını düşünsene. <i>Jull büyük resmi görürken</i>"
+
+		//ALCHEMIST
+		"dac_ability_alchemist_acid_spray"										"Asit Püskürtmesi"
+		"dac_ability_alchemist_acid_spray_Description"							"Simyacı hedeften {s:radius} hücre mesafedeki bir alana yüksek basınçlı asit püskürtür.<br><br>Kirlenmiş alana adım atan düşmanlar saniyede {s:damage} hasar alır ve zırhları {s:armor_reduction} azalır."
+		"dac_ability_alchemist_acid_spray_Lore"									"Sen insanların suratlarını yakmayı seviyorsun, bense evlerini... Bence kaderimizde birlikte çalışmak var. - <i>Hobgen aradaki kültürel farkı kapatmaya çalışırken</i>"
+
+		// Lycan
+		"dac_ability_lycan_wolf_spawn_shift"									"Şekil Değiştirme"
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Kurt Adam iki kurt çağırarak dönüşür ve azami sağlığı %{s:hp_per} artar, hareket hızı {s:speed} olarak değişir ve %{s:crit_bonus} hasar verebileceği %{s:crit_chance} kritik vuruş şansı kazanır."
+		"dac_ability_lycan_wolf_spawn_shift_Lore"								"Kurt Adam, lütfen intikam almam için bana yardım et. - <i>Wren, Kurt Adam'ın insan tarafına yalvarırken</i>"
+		
+		// LONE DRUID
+		"dac_ability_lone_druid_summon_bear"									"Ruh Ayısı Çağırma"
+		"dac_ability_lone_druid_summon_bear_Description"						"Yoldaş olarak güçlü bir Ruh Ayısı çağırır."
+		"dac_ability_lone_druid_summon_bear_Lore"								"Ayıyı benden uzak tut, tamam mı? Ayılarla aram pek iyi değil. - <i>Ayı Fobisine Sahip Grek</i>"
+		
+
+		//CHAOS KNIGHT
+		"dac_ability_chaos_knight_chaos_bolt"									"Kaos Topu"
+		"dac_ability_chaos_knight_chaos_bolt_Description"						"Kaos Şövalyesi {s:stun_min}-{s:stun_max} saniye boyunca sersemleten ve düşmana {s:damage_min}-{s:damage_max} hasar veren gizemli bir enerji topu fırlatır."
+		"dac_ability_chaos_knight_chaos_bolt_Lore"								"Beyaz Kule'de biraz kaos iyi olur. - <i>Kaosun Uşağı Hobgen</i>"
+
+		//OGRE MAGI
+		"dac_ability_ogre_magi_bloodlust"										"Kana Susama"
+		"dac_ability_ogre_magi_bloodlust_Description"							"Büyücü Ogre dost bir birimi çıldırtarak hareket hızını %{s:bonus_movement_speed} ve saldırı hızını da %{s:bonus_attack_speed} artırır. Eğer bu, Büyücü Ogre'ın üzerinde kullanılırsa fazladan saldırı hızı %{s:self_bonus} olur."
+		"dac_ability_ogre_magi_bloodlust_Lore"									"Büyücü, istediği ücretten iki kat daha değerli. Neyse ki tam bir aptal. - <i>Fırsat Avcısı O'nia</i>"
+
+		// MAGNUS
+		"dac_ability_magnataur_empower"											"Kuvvetlendirme"
+		"dac_ability_magnataur_empower_Description"								"Magnoseros dost bir birimi kudurtarak ona {s:duration} saniyeliğine +%{s:bonus_damage_pct} hasar ve %{s:cleave_damage_pct} saçma verir."
+		"dac_ability_magnataur_empower_Lore"									"Bırak, Anessix Enno'yu parmağında oynattığını düşünsün. Çiğnenmeden birkaç saniye önce ne kadar yanıldığını öğrenecek zaten. - <i>Hobgen'ın nadiren sabır gösterdiği anlardan biri</i>"
+
+		//TREANT PROTECTOR
+		"dac_ability_treant_leech_seed"											"Can Emici Tohum"
+		"dac_ability_treant_leech_seed_Description"								"Muhafız Ağaç bir düşman birime can emen bir tohum ekerek sağlığını her {s:damage_interval} saniyede bir {s:leech_damage} emerken saldırı ve hareket hızını da %{s:movement_slow} azaltır.<br><br>Tohum, hedefin maksimum {s:radius} hücre mesafesindeki dost birimleri iyileştirir. {s:duration} saniye sürer. Mevcut hedef ölürse {s:radius} hücre mesafedeki yeni bir hedefe atlar."
+		"dac_ability_treant_leech_seed_Lore"									"Yalan söylemeyeceğim, Enno'nun bir ağaçtan yardım almasını hiç beklemiyordum. - <i>Jull ve Anessix birlikte içerken</i>"
+
+		//KEEPER OF THE LIGHT
+		"dac_ability_keeper_of_the_light_illuminate"							"Aydınlatma"
+		"dac_ability_keeper_of_the_light_illuminate_Description"				"Işığın Koruyucusu ışık enerjisi oluşturup yönlendirir, yönlendirme uzadıkça güç toplar. Salıverildikten sonra yönlendirildiği saniye başına {s:damage_per_second} hasar veren bir dalga gönderilir."
+		"dac_ability_keeper_of_the_light_illuminate_Lore"						"Koruyucu göründüğünden çok daha güçlü, eğer kontrol altında tutmazsak hepimizin sonunu getirebilir. - <i>Işığın Yok Edicisi Turath</i> "
+
+		// MEDUSA
+		"dac_ability_medusa_stone_gaze"											"Taşlaştırıcı Bakış"
+		"dac_ability_medusa_stone_gaze_Description"								"Gorgon'un maksimum {s:radius} hücre mesafesinde bulunan ve ona bakan düşmanların saldırı ve hareket hızları %{s:slow} yavaşlar.<br><br>Gorgon'a toplamda {s:face_duration} saniyeden fazla bakan birimler taşa dönüşür.<br><br>Taşlaştırılmış birimler sersemler ve fazladan %{s:bonus_physical_damage} fiziksel hasar alır."
+		"dac_ability_medusa_stone_gaze_Lore"									"İşte tam benlik bir kadın ama benim gözüm Mireska'da. - <i>Sevdalı Suçlu Hobgen</i>"
+
+		"dac_ability_medusa_split_shot"											"Çoklu Atış"
+		"dac_ability_medusa_split_shot_Description"								"PASİF: Gorgon maksimum {s:extra_shots} büyülü ok daha atar ve ana hedefe {s:range} hücre mesafedeki diğer hedefleri vurur. Fazladan atılan oklar, asıl okun verdiği hasarın yüzde {s:damage_modifier} kadarını verir."
+		"dac_ability_medusa_split_shot_Lore"									"Ok atan hanımefendiyi gördün mü? Gerçi hâlâ nefes alıyorsun... Yani henüz görmedin. - <i>Grek ekibine kattığı son üyeden bahsederken</i>"
+
+		// TROLL WARLORD
+		"dac_ability_troll_warlord_fervor"										"Coşku"
+		"dac_ability_troll_warlord_fervor_Description"							"PASİF: Trol Savaş Lordu darbe ardına darbe indirerek istif başına fazladan %{s:attack_speed} saldırı hızı kazanır.<br><br>Trol hedef değiştirirse istifler sıfırlanır.<br><br>Bu etki en fazla {s:max_stacks} defa istiflenebilir."
+		"dac_ability_troll_warlord_fervor_Lore"									"Etkili ve amansız. Tıpkı benim gibi. - <i>Boşa Efor Harcamayan Sessiz</i>"
+
+
+		// SHADOW_DEMON
+		"dac_ability_shadow_demon_demonic_purge"								"Şeytani Arındırma"
+		"dac_ability_shadow_demon_demonic_purge_Description"					"Düşman hedefi tekrar tekrar arındırarak onu {s:duration} saniyeliğine yavaşlatır, üzerindeki güçlendirmeleri kaldırır ve güçten düşürme uygular. Birim, süre bitene kadar hızını/saldırı hızını yavaş yavaş kazanır, en sonunda {s:damage} hasar alır."
+		"dac_ability_shadow_demon_demonic_purge_Lore"							"Beni dikkatli dinle tüylü âdi, Anessix'le çalışabileceğini düşündüğünü biliyorum ama onun ne çeşit tiplerle birlikte çalıştığını biliyor musun? - <i>İblislerden (ya da Enno'dan) Hoşlanmayan Hobgen</i>"
+
+		// SVEN
+		"dac_ability_sven_cleave"												"Güçlü Yarma"
+		"dac_ability_sven_cleave_Description"									"PASİF: Bu birimin yakın dövüş saldırıları civardaki düşmanlara %{s:cleave_damage_pct} vurur."
+		"dac_ability_sven_cleave_Lore"											"Hiç Nöbetin Şövalyelerinden birini iş başında gördün mü? Çok güzel bir görüntüdür. - <i>Dövüş Erbabı Grek</i>"
+
+		"dac_ability_sven_gods_strength"										"Tanrının Kuvveti"
+		"dac_ability_sven_gods_strength_Description"							"Hain Şövalye kudurarak {s:duration} saniye boyunca %{s:bonus_damage_from_cast} hasar kazanır."
+		"dac_ability_sven_gods_strength_Lore"									"İntikam alma konusunda kararlı bir adam kadar sevdiğim başka bir şey yok. - <i>Anessix, Hain Şövalye'yi çözmeye çalışırken</i>"
+
+		// SHREDDER
+		"dac_ability_timbersaw_whirling_death"									"Ölümcül Testere"
+		"dac_ability_timbersaw_whirling_death_Description"						"Oduncu'nun zırhının keskin kenarları dönerek {s:radius} hücre mesafedeki düşmanlara {s:damage} hasar verir."
+		"dac_ability_timbersaw_whirling_death_Lore"								"Enno'nun kendi orman arkadaşlarını çağırdığını tahmin ettiğim için ben de gidip kendi arkadaşımı çağırdım. - <i>Hobgen bir sorunu çözmeye çalışırken</i>"
+
+		//TUSK
+		"dac_ability_tusk_walrus_punch"											"Deniz Aygırı YUMRUĞU!"
+		"dac_ability_tusk_walrus_punch_Description"								"Kışın Efendisi güçlü Deniz Aygırı Yumruğu ile %{s:critical_damage} hasar veren bir kritik saldırı yapar ve kurbanın ayağını {s:air_time} saniye boyunca yerden keser. Düşman yere indiğinde {s:slow_duration} saniyeliğine %{s:move_slow} yavaşlar. Kışın Efendisi yumruk atarken öldürülemez."
+		"dac_ability_tusk_walrus_punch_Lore"									"Bir zamanlar dostumdu. Buraya bana yardıma mı yoksa beni yumruklamaya mı geldiğini yakında anlarız.<i>Jull gençliğini yad ederken</i>"
+		
+		
+		//ABADDON
+		"dac_ability_abaddon_aphotic_shield"									"Zifiri Kalkan"
+		"dac_ability_abaddon_aphotic_shield_Description"						"Avernus Lordu dost birimleri {s:duration} saniye boyunca {s:damage_absorb} hasar emen bir kalkanla korur.<br><br>Kalkan yok edildiği zaman patlar ve {s:radius} hücre mesafesindeki düşmanlara {s:damage_absorb} hasar verir.<br><br>Çeşitli olumsuz güçlendirmeleri siler ve kullanıldığında sersemletir."
+		"dac_ability_abaddon_aphotic_shield_Lore"								"Avernus Hanesi'ne çok hürmet duyuyorum. - <i>O'nia iyilik isterken</i>"
+
+		// TERRORBLADE
+		"dac_ability_terrorblade_metamorph"										"Başkalaşma"
+		"dac_ability_terrorblade_metamorph_Description"							"Dehşetin Kılıcı güçlü bir iblise dönüşerek {s:bonus_attack_range} hücre menzile sahip menzilli saldırı kazanır. Ayrıca {s:bonus_attack_damage} bonus hasar ve {s:bonus_attack_speed} saldırı hızı kazanır. Bu yetenek kullanıldığında Dehşetin Kılıcı başka bir dost birimle sağlık değerlerini değiş tokuş eder."
+		"dac_ability_terrorblade_metamorph_Lore"								"Onun Anessix'le konuştuğunu gördüğün zaman bil ki kötü bir şey olacaktır. - <i>İnsanları İzleyen Jull</i>"
+
+		// TECHIES
+		"dac_ability_techies_bomb" 												"Uzaktan Kumandalı Mayınlar"
+		"dac_ability_techies_bomb_Description"									"Ekip, gömüldükten {s:explode_time} saniye sonra patlayan ve {s:range} hücre mesafesindeki bir alana {s:damage} hasar veren mayınlar gömer.<br><br>Mayınlar, azami uzaklığın yarısında bulunan düşmanlara yarı hasar verir."
+		"dac_ability_techies_bomb_Lore"											"Keen hakkında dilediğini söyle ancak insanı güldürmesini gerçekten iyi biliyorlar. - <i>Hobgen yıkım gösterisini izlerken</i>"
+
+		//DISRUPTOR
+		"dac_ability_disruptor_static_storm"									"Statik Fırtına"
+		"dac_ability_disruptor_static_storm_Description"						"Fırtına Çağıran, merkezden maksimum {s:radius} hücre mesafede bulunan düşman birimlere hasar veren ve onları {s:duration} saniyeliğine susturan statik bir fırtına oluşturur.<br><br>Hasar başlangıçta zayıftır ancak toplam {s:damage_total} hasarına ulaşana kadar fırtına süresi boyunca artmaya devam eder."
+		"dac_ability_disruptor_static_storm_Lore"								"Bana yardım etmek için mi yoksa Balta'ya göz kulak olmak için mi burada tam emin değilim. - <i>Uyumsuzlar Ekibinin Lideri Wren</i>"
+
+		//OMNIKNIGHT
+		"dac_ability_omniknight_purification"									"Arındırma"
+		"dac_ability_omniknight_purification_Description"						"Omnişövalye dost bir birime anında {s:heal} iyileştirme verir ve {s:radius} hücre çevresindeki düşmanlara da hasar verir."
+		"dac_ability_omniknight_purification_Lore"								"İnancını bir silah gibi kuşanır... Tıpkı benim gibi. - <i>Kuruntulu Mesih Turath</i>"
+		
+		//PUDGE
+		"dac_ability_pudge_meathook"											"Et Kancası"
+		"dac_ability_pudge_meathook_Description"								"Pudge en uzak düşmana kanlı bir kanca fırlatarak kurbanını kendine çeker ve {s:damage} hasar verir.<br><br>Pudge ve onun 1 hücre çevresindeki dostları saldırılarını ölene kadar çekilen kurbana yönlendirir."
+		"dac_ability_pudge_meathook_Lore"										"Pudge? Şahane biridir. Ceset tabaklarken bana hep selam verir. - <i>Terzi Yaşayan Ölü Carl</i>"
+		
+		//WARLOCK
+		"dac_ability_warlock_shadow_word"										"Gölge Kelam"
+		"dac_ability_warlock_shadow_word_Description"							"İblis Efendisi büyülü sözleri fısıldar, bir dost birimi anında {s:burst_tooltip} iyileştirir ve ardından {s:duration} saniye boyunca toplamda {s:hot_tooltip} iyileştirir; ya da bir düşman birimine {s:duration} saniye boyunca saniye başına {s:damage_tick} hasar verir."
+		"dac_ability_warlock_shadow_word_Lore"									"Bazı sırların saklanması gereklidir... Demnok yeterince ketum olamayışının cezasını çekecek. - <i>Ceza Vereceği Anı Bekleyen Anessix</i>"
+		
+		//BLOODSEEKER
+		"dac_ability_bloodseeker_blood_rage"									"Kan Öfkesi"
+		"dac_ability_bloodseeker_blood_rage_Description"						"PASİF: Kan Avcısı azami sağlığının %{s:self_dmg_pct} kadarını saniye başına hasar olarak alır.<br><br>%{s:min_health_pct} sağlıkta en fazla {s:attack_speed_bonus_max} saldırı hızı kazanır.<br><br>Bitişiğindeki bir düşman öldüğünde azami sağlığının %{s:heal_pct} kadarını geri kazanır."
+		"dac_ability_bloodseeker_blood_rage_Lore"								"Kariyerim boyunca bir şey öğrendiysem o da milletin kana bayıldığıdır. Bu adamı işe alın. - <i>Kararlı Patron Grek</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double"									"Mükemmel Kopya"
+		"dac_ability_arc_warden_tempest_double_Description"						"Yıldırım Muhafızı kendisiyle aynı sağlığa sahip bir kopyasını oluşturur.<br><br>Kopya, Yıldırım Muhafızı'nın mevcut eşyalarını kullanır ve Muhafız'ın saldırdığı hedefe saldırmaya çalışır. Kopyalar başka kopya çıkaramaz ve %{s:clone_dmg_reduction} daha az hasar verir."
+		"dac_ability_arc_warden_tempest_double_Lore"							"Beraberinde yaradılışın gizlerini de getiriyor. - <i>Gizemli Elçi Turath</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double_no_items"						"Mükemmel Kopya"
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Yıldırım Muhafızı kendisiyle aynı sağlığa sahip bir kopyasını oluşturur."
+		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"Beraberinde yaradılışın gizlerini de getiriyor. - <i>Gizemli Elçi Turath</i>"
+
+		//MIRANA
+		"dac_ability_mirana_arrow"												"Kutsal Ok"
+		"dac_ability_mirana_arrow_Description"									"Mirana ölümcül bir isabetle uzun mesafeli ok atarak hedefini {s:duration} saniye boyunca sersemletir ve hedefine {s:damage} hasar verir."
+		"dac_ability_mirana_arrow_Lore"											"Bir bağnaza hiçbir zaman güvenme Wren, buna değmez. - <i>Jull dostane bir öneride bulunurken</i>"
+		
+		//SLARK
+		"dac_ability_slark_essence_shift"										"Öz Dönüştürme"
+		"dac_ability_slark_essence_shift_description"							"PASİF: Gece Gezgini her saldırıda hasarını {s:stolen_dmg}, hasar hızını {s:stolen_aspd} artırır."
+		"dac_ability_slark_essence_shift_lore"									"Malı, Karanlık Resif'ten dışarı götürebilmemiz için Gece Gezgini çok büyük önem teşkil ediyor. - <i>Bu Konuma Kendi Başına Gelen Jull</i>"
+
+		"dac_ability_slark_pounce"												"Atılma"
+		"dac_ability_slark_pounce_description"									"PASİF: Yaptığı sıçramadan sonra yere konan Gece Gezgini, hedefini {s:disarm_duration} saniye boyunca etkisizleştirir."
+		"dac_ability_slark_pounce_lore"											"Bu gene böyle kafamıza konmayı nasıl başardı?! - <i>Çabuk Parlayan Hobgen</i>"
+
+		//BLACK DRAGON
+		"dac_ability_black_dragon_splash_attack"								"Sıçrayan Saldırı"
+		"dac_ability_black_dragon_splash_attack_description"					"PASİF: Kara Ejderha'nın menzilli saldırısı, Ejderha'nın hedefinin 1 hücre çevresindeki birimlere sıçrama hasarı verir."
+		"dac_ability_black_dragon_splash_attack_lore"							" "
+
+		//"SVEN GREAT CLEAVE - used for YEAR BEAST and ROSHAN"
+		"dac_ability_sven_great_cleave"											"Güçlü Yarma"
+		"dac_ability_sven_great_cleave_description"								"PASİF: Bu birimin yakın dövüş saldırıları civardaki düşmanlara vurur."
+		"dac_ability_sven_great_cleave_lore"									" "
+
+		//"ROSHAN SPELL IMMUNE"
+		"dac_ability_roshan_spell_immune"										"Büyü Bağışıklığı"
+		"dac_ability_roshan_spell_immune_description"							"AKTİF: Roshan {s:duration} saniyeliğine büyülere karşı bağışıklık kazanır."
+		"dac_ability_roshan_spell_immune_lore"									" "
+
+		// Lone Druid Bear
+		"dac_ability_lone_druid_spirit_bear_entangle"							"Hareketsizleştiren Pençeler"
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Ruh Ayısı'nın saldırıları hedefe dolanma şansına sahip olur ve onları sersemletir."
+		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
+
+		// THUNDER LIZARD BLOODLUST
+		"dac_ability_thunder_lizard_bloodlust"									"Kana Susama"
+		"dac_ability_thunder_lizard_bloodlust_Description"						"Yaratık dost bir birimi çıldırtarak hareket hızını %{s:bonus_movement_speed} ve saldırı hızını da %{s:bonus_attack_speed} artırır. Eğer bu, yaratık üzerinde kullanılırsa fazladan saldırı hızı %{s:self_bonus} olur."
+		"dac_ability_thunder_lizard_bloodlust_Lore"								" "
+
+		// HEALING WARD PLACEABLE
+		"dac_ability_healing_ward_healing_aura"											"İyileştirme Aurası"
+		"dac_ability_healing_ward_healing_aura_description"								"{s:heal_range} hücre mesafedeki dost birimleri saniye başına {s:health_regen} iyileştirir."
+		"dac_ability_healing_ward_healing_aura_lore"									""
+
+		// TOMBSTONE PLACEABLE
+		"dac_ability_tombstone_raise_zombies"										"Zombi Çağırma"
+		"dac_ability_tombstone_raise_zombies_description"							"{s:range} hücre mesafede ölen birimler zombi çağırır."
+		"dac_ability_tombstone_raise_zombies_lore"									""
+
+		// BARRICADE PLACEABLE
+		"dac_ability_barricade_aura"										"Barikat"
+		"dac_ability_barricade_aura_description"							"Barikat yakındaki birimleri korur ve büyülere bağışıklığı vardır."
+		"dac_ability_barricade_aura_lore"									""
+
+		// TARGET DUMMY PLACEABLE
+		"dac_ability_target_dummy_taunt"										"Kışkırtma"
+		"dac_ability_target_dummy_taunt_description"							"Fedakâr Dost düşmanları kışkırtırak üstüne çeker."
+		"dac_ability_target_dummy_taunt_lore"									""
+
+		// CINDERWALL TALENT
+		"dac_ability_cinderwall_aura"										"Kor Duvar"
+		"dac_ability_cinderwall_aura_description"							"Kor Duvar yakındaki birimleri korur ve büyülere bağışıklığı vardır. Ayrıca yakındaki birimleri ateşe verir."
+		"dac_ability_cinderwall_aura_lore"									""
+
+		// FACELESS VOID
+		"dac_ability_faceless_void_chronocube"										"Kronoküp"
+		"dac_ability_faceless_void_chronocube_description"							"Uzay zaman bütünlüğünü yararak yarattığı küpün merkezinden {s:radius} hücre mesafeye kadar olan tüm birimleri {s:stun_duration} saniyeliğine sersemletir. Yüzsüz Hiçlik bu küpün içinde hızlıca hareket edebilir ve {s:bonus_attack_speed} saldırı hızı kazanır. Bu yarıktan sadece Yüzsüz Hiçlik etkilenmez. Kullanıldığı zaman Yüzsüz Hiçlik bütün dost suikastçıları küpten dışarı ışınlamaya çalışır."
+		"dac_ability_faceless_void_chronocube_lore"									"Claszureme işimize burnunu sokacak. Bu bir problem olabilir. - <i>Jull, zamana yumruk atamayacağını fark ettiğinde</i>"
+
+		"dac_ability_faceless_void_time_walk"										"Zaman Yürüyüşü"
+		"dac_ability_faceless_void_time_walk_description"							"PASİF: Yüzsüz Hiçlik bir sonraki hedefine atılarak son 2 saniyede aldığı bütün hasarı iyileştirir."
+		"dac_ability_faceless_void_time_walk_lore"									"Tabii ki bu lanet kum saatlerine dokunmak istemiyorum, sence Pierpont'u buraya getirmek istiyor gibi bir hâlim mi var? - <i>Mantıklı Manyak Hobgen</i>"
+
+		// LEGION COMMANDER
+		"dac_ability_legion_commander_duel"											"Düello"
+		"dac_ability_legion_commander_duel_description"								"Lejyon Komutanı kendisine 1 hücre mesafede olan en düşük sağlığa sahip hedefi seçer ve {s:stun_duration} saniyeliğine birbirlerine saldırmaya zorunlu oldukları bir düello başlar. Her iki kahraman da bu esnada yetenek kullanamaz. Süre dahilinde kahramanlardan biri öldüğünde, düellonun galibi olan kahraman kalıcı olarak {s:winner_bonus_damage} bonus hasar kazanır. (Nakavt'ta [20/32/48] bonus hasar)"
+		"dac_ability_legion_commander_duel_lore"									"Dayılanmaya gerek yok Tresdin... Rix'i bulmana yardım edebilirim. - <i>Baskı Altında İstifini Bozmayan Anessix</i>"
+
+		"dac_ability_legion_commander_will_of_the_bullsnake"						"Boğa Yılanı'nın İradesi"
+		"dac_ability_legion_commander_will_of_the_bullsnake_description"			"<i>EJDERHA İTTİFAKI İLE AÇILIR</i><br>PASİF: Lejyon Komutanı, Düello'yu kazandıktan sonra azami sağlığının %{s:heal_percentage} kadarını hemen iyileşme olarak alır."
+		"dac_ability_legion_commander_will_of_the_bullsnake_lore"					"Senin gibileri iyi bilirim Komutan ve sen gördüğüm en tehlikeli yaratıklardan birisin... Çünkü inandığın bir şey var. - <i>Hayat Üniversitesi Öğrencisi Wren</i>"
+
+		"dac_ability_legion_commander_element"										"Elemental Hücum"
+		"dac_ability_legion_commander_element_description"							"PASİF: Lejyon Komutanı, ruh ittifakının bir parçası olarak Ezici Delta hareketini kullandığında iki katı hasar verir."
+		"dac_ability_legion_commander_element_lore"									"Normalde hayaletler askerlere dadanır ama o, bu hayaletlere liderlik ediyor. - <i>Dertli Boş Bakışları Tespit Edebilen Jull</i>"
+
+		// NYX ASSASSIN
+		"dac_ability_nyx_assassin_spiked_carapace"									"Dikenli Kabuk"
+		"dac_ability_nyx_assassin_spiked_carapace_description"						"Nyx Suikastçısı kabuğundan diken çıkararak aldığı hasarın %{s:damage_taken_reflect_percentage} kadarını etkisizleştirir ve yansıtır (her hasar kaynağı için bu en fazla tek sefer olur), ayrıca hasarı veren düşmanı {s:stun_duration} saniyeliğine sersemletir."
+		"dac_ability_nyx_assassin_spiked_carapace_lore"								"Doğrusu eklem bacaklılar olacak. - <i>Detaycı Sessiz</i>"
+
+		"dac_ability_nyx_assassin_vendetta"											"Öç Alma"
+		"dac_ability_nyx_assassin_vendetta_description"								"PASİF: Nyx Suikastçısı bir birime saldırmak üzere ışınlandıktan sonraki saldırısında {s:bonus_damage} fazladan hasar verir ve düşmana {s:break_duration} saniyeliğine Güçten Düşürme uygulayarak onun bütün pasif etkilerini devre dışı bırakır."
+		"dac_ability_nyx_assassin_vendetta_lore"									"Ha böcek ha eklem bacaklı, kimin umurunda? Onun birisini öldürmesine ihtiyacım var, ona ulaşma şansın var mı? - <i>Düzeltilmekten Hoşlanmayan O'nia</i>"
+
+		// WEAVER
+		"dac_ability_weaver_shukuchi"												"Şukuçi"
+		"dac_ability_weaver_shukuchi_description"									"Kader Örücü somut formunu terk ederek görünmez ve hedeflenemez olur. En fazla {s:distance_cells} hücre mesafede yer alan bir hedefin içinden yürüyerek geçebilir. Kader Örücü, içinden geçtiği her düşmana {s:damage} hasar verir."
+		"dac_ability_weaver_shukuchi_lore"											"Örücü. Sen ve ben birlikte dünyayı yeni baştan yaratabiliriz. - <i>Bunu Yapabilecek Kadar Deli Turath</i>"
+
+		// BROODMOTHER
+		"dac_ability_broodmother_spawn_spiderlings"									"Yavru Örümcek Çıkarma"
+		"dac_ability_broodmother_spawn_spiderlings_description"						"Örümcek Ana yavrularını bir düşmana enjekte ederek {s:damage} hasar verir. Hedef ölürse {s:num_spiderlings} yavru örümcek yumurtadan çıkar. Yavru örümcekler hedeflenemeyen, düşük hasar veren ve 1 sağlığa sahip birimlerdir."
+		"dac_ability_broodmother_spawn_spiderlings_lore"							"İnsanları canlı bir şekilde yakıyor olabilirim fakat en azından insanların içinde canlı canlı yumurta yetiştirmiyorum... - <i>Hobgen kelime oyunu yapmaya çalışırken</i>"
+
+		"dac_ability_broodmother_spin_web"											"Ağ Örme"
+		"dac_ability_broodmother_spin_web_description"								"Örümcek Ana, düşman bir birimin üzerinde {s:radius} hücre genişliğinde bir ağ örer. Ağa takılan düşmanlar {s:debuff_attack_speed} saldırı hızı, %{s:debuff_speed} hareket hızı ve %{s:debuff_casting_speed} büyü yapma hızı kaybeder."
+		"dac_ability_broodmother_spin_web_lore"										"Çocuklarından birini bana ağ örmesi için gönderebilirsin bence. Örümceklerin çocuk işçiliği yasalarına tâbi olmadığına eminim. - <i>Etik Terzi Carl</i>"
+
+		// WISP
+		"dac_ability_wisp_tether"													"Bağlanma"
+		"dac_ability_wisp_tether_description"										"İlahi Ruh en yakınındaki dost kahramana bağlanarak kendisini ona doğru çeker. İlahi Ruh ve bağlandığı kahraman, {s:bonus_attack_speed} saldırı hızı ve %{s:damage_reduction} hasar azaltması kazanır. İlahi Ruh, bağlı olduğu birimden {s:tether_break_distance} hücreden daha fazla uzaklaşırsa bağ kopar."
+		"dac_ability_wisp_tether_lore"												"<i>Enno, İlahi Ruh'a dikkatle bakarken</i>"
+
+		"dac_ability_wisp_relocate"													"Yer Değiştirme"
+		"dac_ability_wisp_relocate_description"										"İlahi Ruh, ölü bir kahramanı canlandırmak için {s:relocate_time_away} saniyeliğine ışınlanır. Her iki birim de tahtaya tam sağlıkla ve bütün olumsuz etkilerden arındırılmış bir biçimde döner."
+		"dac_ability_wisp_relocate_lore"											"<i>İlahi Ruh bakışa, bakışla karşılık verirken</i>"
+
+		// BRISTLEBACK	
+		"dac_ability_bristleback_quill_spray"										"Diken Saçma"
+		"dac_ability_bristleback_quill_spray_description"							"Diken Sırt sırtından etrafa diken saçarak {s:radius} hücre mesafedeki bütün düşman birimlere hasar verir. Düşmanlar {s:quill_base_damage} hasarın yanı sıra bu rauntta Diken Saçma'dan etkilendikleri her sefer için maksimum {s:max_stacks} sefere kadar fazladan {s:quill_stack_damage} hasar alır."
+		"dac_ability_bristleback_quill_spray_lore"									"Bir şeyi açıklığa kavuşturalım. Sen ve Kışın Efendisi bu akşam barıma zarar vermeyeceksiniz. - <i>Her Daim Sakin Jull</i>"
+
+		// LIFESTEALER
+		"dac_ability_life_stealer_feast"											"Ziyafet"
+		"dac_ability_life_stealer_feast_description"								"PASİF: Can Çalan'ın saldırıları, hedefin azami sağlığının %{s:lifesteal_percentage} kadarını düşmana hasar, kahramana ise iyileştirme olarak verir."
+		"dac_ability_life_stealer_feast_lore"										"Sırf durumumdan ötürü Can Çalan'ın yerini bildiğime dair varsayımlarda bulunman hiç hoş değil. - <i>Hakkında Sıklıkla Yanlış Kanılara Varılan Carl</i>"
+
+		// DAZZLE
+		"dac_ability_dazzle_shadow_wave"											"Gölge Dalgası"
+		"dac_ability_dazzle_shadow_wave_description"								"Gölge Rahibi, birbirlerinden {s:bounce_radius} hücre mesafede olan en fazla {s:max_targets} dost arasında seken bir güç dalgası göndererek onları {s:damage} iyileştirir ve {s:damage_radius} hücre mesafedeki düşmanlara da {s:damage} hasar verir. Gölge Dalga, Gölge Rahibi'ni her zaman iyileştirir."
+		"dac_ability_dazzle_shadow_wave_lore"										"Hizmetlerinden faydalanmak bana ne kadara patlar? Ölmemeyi tercih ediyorum. - <i>Paranoyak O'nia</i>"
+
+		// STORM SPIRIT
+		"dac_ability_storm_spirit_ball_lightning"									"Yıldırım Topu"
+		"dac_ability_storm_spirit_ball_lightning_description"						"Fırtına Elementali kararsız elektriğe dönüşerek savaş alanında düşmanların içinden geçer. Geçtiği düşmanlara {s:damage} hasar verir ayrıca ilerlediği hücre sayısı kadar da {s:damage_per_cell} ilave hasar verir."
+		"dac_ability_storm_spirit_ball_lightning_lore"								"Egoistler beyinleri yerine kalpleriyle hareket eder. Tuzağa düşürmesi çok kolay olacak. - <i>Turath sinsi sinsi planlar yaparken</i>"
+
+		"dac_ability_storm_spirit_element"											"Fırtına Elementali"
+		"dac_ability_storm_spirit_element_description"								"PASİF: Fırtına Ruhu, Ezici Delta saldırısı yaptığında etkilenen düşmanları 3 saniyeliğine etkisizleştirir."
+		"dac_ability_storm_spirit_element_lore"										"Sessiz'den endişe etmemize gerek yok, fırtınanın yaklaştığını ruhu duymayacaktır. - <i>Anessix bütün olasılıkları göz önünde bulundururken</i>"
+
+		// EMBER SPIRIT
+		"dac_ability_ember_spirit_sleight_of_fist"									"Yumruk Çabukluğu"
+		"dac_ability_ember_spirit_sleight_of_fist_description"						"Ateş Ruhu keskin hızla etrafa fırlar, {s:cells} hücrelik alandaki bütün düşmanlarına saldırır, sonunda başladığı pozisyona geri döner. Saldırıları {s:bonus_damage} fazladan hasar verir."
+		"dac_ability_ember_spirit_sleight_of_fist_lore"								"Bir iblis gibi savaşıyor olabilir fakat onurlu bir yaratıktır. Benim için, onun verdiği söz yeterli. - <i>Jull hırsızlar arasındaki onurdan bahsederken</i>"
+
+		"dac_ability_ember_spirit_element"											"Ateş Elementali"
+		"dac_ability_ember_spirit_element_description"								"PASİF: Ateş Ruhu, Ezici Delta saldırısı yaptığında etkilenen düşmanları 3 saniyeliğine tutuşturur."
+		"dac_ability_ember_spirit_element_lore"										"Bu adamı işe alacağım. - <i>Yetenek Avcısı Hobgen</i>"
+
+		// EARTH SPIRIT
+		"dac_ability_earth_spirit_geomagnetic_grip"									"Jeomanyetik Kavrama"
+		"dac_ability_earth_spirit_geomagnetic_grip_description"						"Toprak Ruhu harita dışında beliren bir Taş Kalıntı çağırır ve bunu mevcut hedefine doğru çeker. Taş Kalıntı'dan etkilenen düşmanlar {s:silence_duration} saniyeliğine susturulur ve {s:damage} hasar alır."
+		"dac_ability_earth_spirit_geomagnetic_grip_lore"							"Toprak Ruhu Kaolin'in buraya gelmesine bayılıyorum. Topraktan hep çok enteresan şeyleri bulup çıkarıyor. - <i>Erzak Arayan Carl</i>"
+
+		"dac_ability_earth_spirit_element"											"Toprak Elementali"
+		"dac_ability_earth_spirit_element_description"								"PASİF: Toprak Ruhu, Ezici Delta saldırısı yaptığında etkilenen düşmanları 3 saniyeliğine susturulur."
+		"dac_ability_earth_spirit_element_lore"										"Maymun Kral Wukong'un bu elemanla ringte kapışmasını izlemek için her şeyimi verirdim... - <i>Fantezi Bahisçisi Grek</i>"
+
+		// VOID SPIRIT
+		"dac_ability_void_spirit_dissimilate"										"Hiçliğe Karışma"
+		"dac_ability_void_spirit_dissimilate_description"							"Hiçlik Ruhu hiçliğe karışarak kaybolur ve 3 geçit açar. {s:disappear_duration} saniye geçtikten sonra bu geçitlerden birinden çıkarak {s:damage_distance} hücre mesafedeki bütün düşmanlara {s:bonus_damage} hasar verir ve zırhlarını {s:armor_reduction_duration} saniyeliğine {s:armor_reduction} azaltır."
+		"dac_ability_void_spirit_dissimilate_lore"									"Boşuna hiçlikten çıkılmaz. Onun neden burada olduğunu öğren. - <i>Sırlar Peşinde Koşan Anessix</i>"
+
+		"dac_ability_void_spirit_element"											"Hiçlik Elementali"
+		"dac_ability_void_spirit_element_description"								"PASİF: Hiçlik Ruhu, Ezici Delta saldırısı yaptığında etkilenen düşmanlara 3 saniyeliğine güçten düşürme uygular."
+		"dac_ability_void_spirit_element_lore"										"Onunlayken çok dikkatli ol Gece Gezgini Slark. - <i>Jull dostane bir öneride bulunurken</i>"
+
+		// GRANNY LIZARD
+		"dac_ability_granny_lizard_shotgun_blast"									"Emektar Pompalı"
+		"dac_ability_granny_lizard_shotgun_blast_description"						"4 temel saldırıdan sonra Çılgın Nine pompalı tüfeğini hazır eder ve bir koni şeklinde nişan alıp yakındaki bir düşmanı patlatarak {s:blast_damage} hasar verir, aynı zamanda bu saldırıdan etkilenen birimlerin saldırı hızı da %{s:blast_bonus_attack_speed} azalır."
+		"dac_ability_granny_lizard_shotgun_blast_lore"								"Keen halkı hep zihinsel olarak savaşa yatkın olmuştur ki savaş da tam benim iş alanım. Belki de yapabileceğimiz iş anlaşmaları vardır. - <i>Melek Yatırımcı Sessiz</i>"
+
+		"dac_ability_granny_lizard_bazooka"											"Mortimer'ın Öpücükleri"
+		"dac_ability_granny_lizard_bazooka_description"								"<i>EJDERHA İTTİFAKIYLA AÇILIR</i>: Mortimer, {s:cast_range} hücre mesafedeki düşmanlara {s:projectile_count} ateş küresi atar. Her küre, düştüğü alanın {s:impact_radius} hücre çevresindeki düşmanlara {s:damage} hasar verir ve onları {s:burn_duration} saniyeliğine tutuşturur."
+		"dac_ability_granny_lizard_bazooka_lore"									"Ne yani, o kadına bu şeyin bir ejderha olmadığını mı söylemek istiyorsun? - <i>Orijinalliği Pek Umursamayan Grek</i>"
+
+		// MANGO TREE
+		"dac_ability_mango_tree_mango_throw"										"Mango Fırlatması"
+		"dac_ability_mango_tree_mango_throw_description"							"Savaş başlangıcında ve sonrasındaki her {s:mango_production_interval} saniyede bir Mango Ağacı {s:radius} hücre uzağa bir adet mango fırlatır. Mangoya dokunan birimler bunu yiyerek 50 mana ve 100 sağlık kazanır."
+		"dac_ability_mango_tree_mango_throw_lore"									"Bana ne diye öyle bakıyorsun? Meyve işte. - <i>Anessix basmakalıp düşüncelere karşı mücadele verirken</i>"
+
+		// UNDERLORDS
+
+		"dac_ability_underlord_scales"												"Underlord'a göre ölçeklenir"
+
+		"dac_ability_anessix_summon_companions"										"Anessix'in İblis Ahbapları"
+		"dac_ability_anessix_summon_companions_description"							"Anessix bir grup iblis çağırır. Her iki iblis de ölmüşse, Anessix bu iblisleri tekrar çağırır."
+		"dac_ability_anessix_summon_companions_lore"								"İnsanın tanıdıklarının olması çok faydalı... - <i>Yeraltı Bağlantılarının Ustası Anessix</i>"
+
+		"dac_ability_anessix_summon_golem"											"Şeytani Golem Çağırma"
+		"dac_ability_anessix_summon_golem_description"								"Annessix, şeytani bir golem çağırıp düşman hattının gerisine sızarak 2 hücre mesafedeki tüm birimleri 2 saniyeliğine sersemletir."
+		"dac_ability_anessix_summon_golem_lore"										"Seni hayatta öldürmem... Boşuna mı yardımcı tutuyoruz? - <i>Tartışılabilir ahlaka sahip Anessix</i>"
+
+		"dac_ability_anessix_passive"												"Pasif Yetenek"
+		"dac_ability_anessix_passive_description"									"Anessix, kendi yanında savaşmak üzere bir yoldaş çağırır."
+
+		"dac_ability_anessix_companion_archer_passive"								"Kritik Saldırı"
+		"dac_ability_anessix_companion_archer_passive_description"					"PASİF: İblis Okçu her saldırısında %{s:chance} şansla düşmanına %{s:bonus} kritik saldırı yapar."
+		"dac_ability_anessix_companion_archer_passive_lore"							"Arkadaşlarım işleri tatsızlaştırmayı iyi bilir. - <i>Yumuşak Atın Çiftesi Anessix</i>"
+
+		"dac_ability_anessix_pure_pain"												"Saf Acı"
+		"dac_ability_anessix_pure_pain_description"									"Anessix rastgele bir düşmanı seçerek ona {s:duration} saniye boyunca saniyede bir {s:damage} saf hasar verir."
+		"dac_ability_anessix_pure_pain_description_perlevel"						"Anessix rastgele bir düşmanı seçerek ona {s:duration} saniye boyunca saniyede bir {s:damage} saf hasar verir."
+		"dac_ability_anessix_pure_pain_lore"										"Bilmem gerekenleri bana sen anlatacaksın... - <i>Sosyal İnsan Anessix</i>"
+
+		"dac_ability_anessix_martyrs_boon"											"Şehidin Lütfu"
+		"dac_ability_anessix_martyrs_boon_description"								"Anessix, toplam sağlığının %{s:selfdmg} kadarını hasar olarak alır. Bütün dost birimler {s:duration} saniye boyunca saniye başına {s:regen} iyileşir."
+		"dac_ability_anessix_martyrs_boon_description_perlevel"						"Anessix, toplam sağlığının %{s:selfdmg} kadarını hasar olarak alır. Bütün dost birimler {s:duration} saniye boyunca saniye başına {s:regen} iyileşir."
+		"dac_ability_anessix_martyrs_boon_lore"										"Nezaketim zalimliğime denktir.  - <i>Müşfik İşveren Anessix</i>"
+
+		"dac_ability_anessix_enthrall"												"Zoraki Saldırı"
+		"dac_ability_anessix_enthrall_description"									"Anessix bir hedefi {s:target_duration} saniyeliğine işaretleyerek hedefin zırhını {s:armor_reduction} azaltır ve ordunuzu hedefe saldırmaya zorlar. Hedef öldüğü takdirde, Anessix ölen hedefi bir iblis olarak kendi adına savaşması için getirir."
+		"dac_ability_anessix_enthrall_description_lore"								"Artık bana aitsin. - <i>Anessix düşmanını ele geçirirken</i>"
+
+		"dac_ability_demon_warrior_bash"											"Savaşçının Darbesi"
+		"dac_ability_demon_warrior_bash_description"								"Anessix'in yoldaşı {s:bonus_chance_damage} hasar verir ve %{s:bash_chance} şansla hedefini {s:bash_duration} saniyeliğine sersemletir."
+		"dac_ability_demon_warrior_bash_lore"										"Anessix'i görmek istiyorsan önce bana geleceksin... - <i>Şeytani Köle Brill</i>"
+
+		"dac_ability_hobgen_passive"												"Pasif Yetenek"
+		"dac_ability_hobgen_passive_description"									"Hobgen'in saldırıları düşmanları 3 saniye boyunca ateşe verir."
+
+		"dac_ability_hobgen_explosivo"												"İnfilak"
+		"dac_ability_hobgen_explosivo_description"									"Hobgen hedefine bir ateş topu fırlatarak hedef ve hedefin dibindeki düşmanlar arasında eşit şekilde pay edilecek {s:damage_base} hasar verir. Etkilenen bütün düşmanlar alev alır."
+		"dac_ability_hobgen_explosivo_description_perlevel"							"Hobgen hedefine bir ateş topu fırlatarak hedef ve hedefin dibindeki düşmanlar arasında eşit şekilde pay edilecek {s:damage_base} hasar verir. Etkilenen bütün düşmanlar alev alır."
+		"dac_ability_hobgen_explosivo_description_lore"								"Haydi bir şeyleri patlatalım. - <I>Amatör Patlatma Uzmanı Hobgen</i>"
+
+		"dac_ability_hobgen_supercharged"											"Süperşarj"
+		"dac_ability_hobgen_supercharged_description"								"Hobgen en yakınındaki dost birim üzerinde Süperşarj yeteneğini kullanarak o birimi tutuşturur ve ona +{s:aspd} saldırı hızı verir."
+		"dac_ability_hobgen_supercharged_description_perlevel"						"Hobgen en yakınındaki dost birim üzerinde Süperşarj yeteneğini kullanarak o birimi tutuşturur ve ona +{s:aspd} saldırı hızı verir."
+		"dac_ability_hobgen_supercharged_description_lore"							"Bazen gereken tek şey ufak bir motivasyondur. - <i>Hobgen mecazi ve gerçek bir ateş yakarken </i>"
+
+		"dac_ability_hobgen_airstrike"												"Dost Ateşi"
+		"dac_ability_hobgen_airstrike_description"									"Hobgen'ın dostları savaş alanına {s:strikes} bomba atarak doğrudan vurulan düşman birimlerine {s:damage} hasar verir. Patlamanın etki alanına maruz kalan düşmanlar yarı hasar alır."
+		"dac_ability_hobgen_airstrike_description_lore"								"Her şeyi kül etme vakti! - <i>Deliye Dönmüş Kundakçı Hobgen</i>"
+
+		"dac_ability_hobgen_letsgocrazy"											"Çıldırma Vakti!"
+		"dac_ability_hobgen_letsgocrazy_description"								"Hobgen'in saldırıları tüm savaş alanına etki eder ve ekibinizin tamamı {s:aspd} saldırı hızı kazanır. Hobgen sürekli olarak alev almamış hedefler arasında geçiş yapar."
+		"dac_ability_hobgen_letsgocrazy_description_perlevel"						"Hobgen'in saldırıları tüm savaş alanına etki eder ve ekibinizin tamamı {s:aspd} saldırı hızı kazanır. Hobgen sürekli olarak alev almamış hedefler arasında geçiş yapar."
+		"dac_ability_hobgen_letsgocrazy_description_lore"							"Benim kötü adam olmamı mı istiyorsun? Neden olmasın. - <i>Hobgen'ın Enno ile olan müzakereleri bir çıkmaza doğru giderken</i>"
+
+		"dac_ability_demon_warrior_protect"											"Koruyucu Savaşçı"
+		"dac_ability_demon_warrior_protect_description"								"İblis, Anessix'i gelecek menzilli saldırılara karşı korur."
+		"dac_ability_demon_warrior_protect_description_lore"						"Yanımda kal canım... Etrafta sakıncalı karakterler var. - <i>Anessix, Beyaz Kule'de yürürken</i>"
+
+		"dac_ability_jull_passive"													"Pasif Yetenek"
+		"dac_ability_jull_passive_description"										"Jull bitişiğindeki dost veya düşman birim başına {s:armor_per_enemy} zırh kazanır."
+
+		"dac_ability_jull_beeftron"													"Silkinme"
+		"dac_ability_jull_beeftron_description"										"Jull, yakın dövüş hasarının %{s:melee_reflect_pct} kadarını bitişiğindeki tüm düşman birimlere yansıtır. Yakın dövüş hasarının %{s:melee_heal_pct} kadarını ve son {s:melee_reflect_window} saniyede alınan menzilli hasarın %{s:ranged_heal_pct} kadarını iyileştirir."
+		"dac_ability_jull_beeftron_lore"											"Beni. Konuşturamayacaksınız! - <i>Jull işkence altında metanet gösterirken</i>"
+
+		"dac_ability_jull_punchtron"												"Pataklama"
+		"dac_ability_jull_punchtron_description"									"Jull mevcut düşmanını yumruklayarak {s:punch_damage} hasar verir ve onu olduğu konumdan {s:punch_distance} hücre uzağa atar. Yolundaki düşmanlar {s:stun_duration} saniyeliğine sersemletilir ve yerlerinden edilir. Düşman tahtanın kenarına vurursa tekrar hasar alır."
+		"dac_ability_jull_punchtron_lore"											"Gel şöyle Kışın Efendisi, görüşmeyeli uzun zaman oldu. - <i>Eski dostlar eski bir defteri kapatırken</i>"
+
+		"dac_ability_jull_barrelsoffun"												"Fıçı Fıçı Eğlence"
+		"dac_ability_jull_barrelsoffun_description"									"Jull tahtanın köşelerinden gelecek fıçılar çağırır. Fıçılar dost bir birime çarptığında {s:attack_speed_buff_pct} saldırı hızı verir. Düşman birime çarptığında o birim {s:barrel_dmg} fiziksel hasar alır ve savaşın geri kalanı boyunca aldığı büyü hasarı ve fiziksel hasar %{s:damage_taken_debuff_pct} artar."
+		"dac_ability_jull_barrelsoffun_lore"										"Kendi ürünümü yok etmekten hiç zevk almıyorum ama yapacak bir şey yok, bazen kurban vermek gerekiyor. - <i>Jull doğaçlama yapmaya karar verirken</i>"
+
+		"dac_ability_jull_happyhour"												"İçkiler Benden"
+		"dac_ability_jull_happyhour_description"									"Jull ekibinizin tüm üyelerine içki ısmarlar. Hasar alınırken %{s:damage_distributed_pct} kadarı hemen verilirken geri kalan kısmı {s:damage_distributed_duration} saniyede verilir."
+		"dac_ability_jull_happyhour_lore"											"Dostlarım! Bu akşam içkiler benden! - <i>Parçalanmış Ay'ın Sahibi Jull</i>"
+
+		"dac_ability_enno_poison_spin"												"Zehir Dönüşü"
+		"dac_ability_enno_poison_spin_description"									"Enno havaya sıçrar ve {s:range} hücre mesafe içindeki maksimum {s:target_count} düşmana zehirli bir dart atarak zehir istifi uygular ve istif başına {s:damage} fiziksel hasar verir."
+		"dac_ability_enno_poison_spin_lore"											"Cüssesine aldanma... Enno göründüğünden daha tehlikelidir. - <i>Jull, varoşları ziyaret etmeye hazırlanırken</i>"
+
+		"dac_ability_enno_escape_artist"											"Kaçış Ustası"
+		"dac_ability_enno_escape_artist_description"								"Enno, sağlığı %{s:escape_health_pct_1}/{s:escape_health_pct_2}/{s:escape_health_pct_3} altına düştüğü ilk seferde bir duman bulutu içinde kaçarak kendi üzerindeki tüm olumsuz etkileri temizler ve tahtanın başka bir yerinde ortaya çıkar. Enno, yere indiğinde bitişiğindeki düşmanları {s:stun_duration} saniye boyunca sersemletir."
+		"dac_ability_enno_escape_artist_lore"										"Biri şu minik hergeleyi yakalasın! – <i>Aşırı Kızgın Hobgen</i>"
+
+		"dac_ability_enno_steal"													"El Koy!"
+		"dac_ability_enno_steal_description"										"Enno savaşın başında düşman ekibinin en düşük seviyeli eşyasını çalar. Daha iyi eşya kuşanmış bir düşman öldüğünde Enno onu yağmalar. Savaşın sonunda tüm eşyalar ilk sahiplerine döner."
+		"dac_ability_enno_steal_lore"												"Ben sadece Sırların Hanımı'yım, mucize yaratma gibi bir kabiliyetim yok. Eğer Enno bir şeyini çaldıysa, Enno ondan sıkılana kadar çalınan şeyini geri alma ihtimalin yok. - <i>Çantasını Eliyle Sürekli Kontrol Eden Anessix</i>"
+
+		"dac_ability_enno_airbrawl"													"Topyekûn Saldırı"
+		"dac_ability_enno_airbrawl_description"										"Enno tüm düşmanlara karşı Topyekûn Saldırı başlatır. Düşmanlara {s:stacks} zehir istifi uygular, {s:fight_damage} fiziksel hasar verir ve onları {s:land_stun_duration} saniyeliğine sersemletir."
+		"dac_ability_enno_airbrawl_lore"											"ŞU TÜYLÜ PİSLİĞİ BENDEN UZAKLAŞTIR! – <i>Hobgen alçak gönüllülük dersi alırken</i>"
+	}
+}

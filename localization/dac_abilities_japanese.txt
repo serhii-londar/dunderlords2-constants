@@ -1,0 +1,663 @@
+﻿"lang"
+{ 
+	"Language" "japanese" 
+	"Tokens" 
+	{
+		"dac_ability_autoattack"												"自動攻撃"
+		"dac_ability_regen"														"自然回復"
+
+		// ANTIMAGE
+		"dac_ability_antimage_mana_break"										"マナブレイク"
+		"dac_ability_antimage_mana_break_Description"							"パッシブ：アンチメイジは攻撃の度に敵のマナ{s:mana_per_hit}を燃焼させ、燃焼したマナの50%をダメージとして対象に与える。アンダーロードを攻撃すると{s:hype_per_hit}ハイプを燃焼する。"
+		"dac_ability_antimage_mana_break_Lore"									"アンチメイジが追ってきている…準備はできている。— <i>トゥラス、タイラーエステートからの脱走者</i>"
+
+		//QUEEN OF PAIN
+		"dac_ability_queenofpain_scream_of_pain"								"苦痛の叫び"
+		"dac_ability_queenofpain_scream_of_pain_Description"					"クイーン・オブ・ペインは甲高い叫び声を上げ、{s:radius}マス以内のすべての敵に{s:damage}ダメージを与える。"
+		"dac_ability_queenofpain_scream_of_pain_Lore"							"アカシャは親友とは言えないが、後で私に対して威張れると思えば喜んで助けになってくれるだろう。— <i>アネシックス、実利的な悪魔</i>"
+
+		//LINA
+		"dac_ability_lina_laguna_blade"											"ラグナブレード"
+		"dac_ability_lina_laguna_blade_Description"								"リナは単体の敵ユニットへ稲妻を放ち、{s:damage}ダメージを与え、{s:fire_duration}秒間炎上させる。"
+		"dac_ability_lina_laguna_blade_Lore"									"リナをホワイトスパイアに行くように説得するのは難しいことじゃなかったさ。俺たち、お互いの仕事にほれ込んでるからな。— <i>ホブゲン、プロの放火犯</i>"
+
+		//FURION
+		"dac_ability_natures_prophet_summon_tree"								"自然の呼び声"
+		"dac_ability_natures_prophet_summon_tree_Description"					"ネイチャーズ・プロフェットはトレントを召喚する。このトレントはドルイドと見なされる。"
+		"dac_ability_natures_prophet_summon_tree_Lore"							"エンノは森の仲間たちに助けを求めた…これはヤバいことになるかもしれない。— <i>オニア、追放されたレヴテルの商人</i>"
+
+		"dac_ability_natures_prophet_wrath_of_nature"							"自然の怒り"
+		"dac_ability_natures_prophet_wrath_of_nature_Description"				"ネイチャーズ・プロフェットは対象を攻撃し、{s:damage}ダメージを与える。この攻撃はボード上の敵の間で{s:jumps}回跳ね、一回ごとにダメージが{s:increase_pct}%増加する。"
+		"dac_ability_natures_prophet_wrath_of_nature_Lore"						"実際、私の目的など意味を持たないのだ。殺すのに武器は要らない。必要なのは自然の力に委ねる忍耐だ。－<i>クワイエット、時計仕掛けの計略家</i>"
+
+		//WINDRUNNER
+		"dac_ability_windrunner_powershot"										"パワーショット"
+		"dac_ability_windrunner_powershot_Description"							"ウィンドレンジャーは弓を最大{s:castPoint}秒間引き絞ることで単発の強力なショットを放ち、最大{s:powershot_damage}ダメージを与える。パワーショットのダメージは、敵に命中するごとに{s:damage_reduction}%ずつ低下する。"
+		"dac_ability_windrunner_powershot_Lore"									"旅の途中でたくさんの友達ができた。頼み事をすることに躊躇なんてしないわよ。— <i>レン、世界中を旅する者</i>"
+
+		//WITCHDOCTOR
+		"dac_ability_witch_doctor_paralyzing_cask"								"パラライズキャスク"
+		"dac_ability_witch_doctor_paralyzing_cask_Description"					"ウィッチドクターは麻痺の粉が入った樽を投げる。樽は敵ユニットの間を{s:bounces}回跳ね、当たったユニットにスタンと{s:damage}ダメージを与える。"
+		"dac_ability_witch_doctor_paralyzing_cask_Lore"							"あんたの仕事っぷりを見るのは気持ちがいいね、ドク…— <i>ホブゲン、フェイ・ミスチフメーカー</i>"
+
+		//JUGGERNAUT
+		"dac_ability_juggernaut_blade_fury"										"ブレードフューリー"
+		"dac_ability_juggernaut_blade_fury_Description"							"ジャガーノートは刀で竜巻を起こし、魔法が無効の状態になり、{s:radius}マス以内の敵ユニットに毎秒{s:damage}ダメージを与える。効果は{s:duration}秒間続く。ジャガーノートは魔法攻撃を回避するため回転し始めることもある。"
+		"dac_ability_juggernaut_blade_fury_Lore"								"ユルネロはただの戦士じゃない。奴はジャガーノートだ。味方にできれば、あっという間に死体の山ができるぜ。— <i>あらゆる角度から分析するグレック</i>"
+
+		//SANDKING
+		"dac_ability_sandking_burrowstrike"										"バローストライク"
+		"dac_ability_sandking_burrowstrike_Description"							"サンドキングは地面に潜り、地下を前進し、敵に{s:damage}ダメージと{s:stun_duration}秒間のスタンを与える。<br>攻撃を受けたすべての敵に腐食のフィナーレを適用する。"
+		"dac_ability_sandking_burrowstrike_Lore"								"トンネルを張り巡らせるのには大変な苦労をしたんだ。俺らがせっかく作り上げたものをサンドキングはぶち壊しやがる。— <i>ジュル、密造酒王</i>"
+
+		"dac_ability_sandking_caustic_finale"									"腐食のフィナーレ"
+		"dac_ability_sandking_caustic_finale_Description"						"パッシブ：サンドキングは攻撃する度に、敵に{s:apply_duration}秒間毒を与える。毒の効果が切れると爆発し、対象に近接するすべての敵に{s:damage_aoe}ダメージを与え、攻撃速度を{s:slow_duration}秒間{s:attack_slow}減速させる。対象が生きている場合、ダメージは半減する。"
+		"dac_ability_sandking_caustic_finale_Lore"								"防水シートを使えば？－<i>アネシックス、素朴な極悪人</i>"
+
+		//SHADOW FRIEND
+		"dac_ability_shadow_fiend_requiem"										"魂のレクイエム"
+		"dac_ability_shadow_fiend_requiem_Description"							"シャドウフィーンドは呪われた魂と交流し、自身の周囲に悪魔のエネルギーを解き放ち、爆発に巻き込まれた者に{s:damage}ダメージを与える。"
+		"dac_ability_shadow_fiend_requiem_Lore"									"リストゥールの宮廷と私の間には…理解がある。— <i>アネシックス、地上の悪魔</i>"
+
+		//PHANTOM ASSASSIN
+		"dac_ability_phantom_assassin_coup_de_grace"							"とどめの一撃"
+		"dac_ability_phantom_assassin_coup_de_grace_Description"				"パッシブ：ファントムアサシンは敵ユニットに{s:crit_chance}%の確率で強烈な{s:crit_bonus}%クリティカルストライクを加える。"
+		"dac_ability_phantom_assassin_coup_de_grace_Lore"						"彼女はクワーティアスを暗殺した。私のことも狙ってると考えるべきじゃない？— <i>オニア、被害妄想の商人</i>"
+
+		//DROW RANGER
+		"dac_ability_drow_ranger_trueshot_aura"									"精度オーラ"
+		"dac_ability_drow_ranger_trueshot_aura_Description"						"パッシブ：ドローレンジャーは{s:range}マス以内のすべての味方の攻撃速度に{s:bonus}%のボーナスを追加する。"
+		"dac_ability_drow_ranger_trueshot_aura_Lore"							"トラクセクス、俺とお前で頂点まで登り詰めるんだ。俺を信じろ。— <i>グレック、いかさまセールスマン</i>"
+
+		//MORPHLING
+		"dac_ability_morphling_waveform"										"ウェーブフォーム"
+		"dac_ability_morphling_waveform_Description"							"モーフリングは液体となって押し寄せ、道中の敵ユニットに{s:damage}ダメージを与える。<br><br>ウェーブフォームの間、自身は無敵状態。"
+		"dac_ability_morphling_waveform_Lore"									"モーフリングのようなやつらに取り入ることができるトゥラスの才能は…厄介だ。— <i>クワイエット、時計仕掛けの陰謀家</i>"
+
+		//AXE
+		"dac_ability_axe_berserkers_call"										"狂戦士の挑発"
+		"dac_ability_axe_berserkers_call_Description"							"アックスは{s:radius}マス以内の敵ユニットを挑発し、{s:duration}秒間、強制的に攻撃させる。狂戦士の挑発の効果が持続している間、アックスは{s:bonus_armor}ボーナス防御力を得る。"
+		"dac_ability_axe_berserkers_call_Lore"									"アックスの助けを得るのなんて簡単よ…ビールをおごって、武勇伝を聞いてあげると約束すればいいだけ。— <i>反乱軍結集中のレン</i>" 
+
+		"dac_ability_axe_culling_blade"											"淘汰の刃"
+		"dac_ability_axe_culling_blade_Description"								"対象のヘルスが{s:target_percent_health_threshold}%以下になると、アックスは斧で対象を瞬時に殺す。"
+		"dac_ability_axe_culling_blade_Lore"									"アックスは人を半分に斬るのが本当にうまい－<i>アックスの詩人、グッドカインド</i>" 
+
+		"dac_ability_axe_counter_helix"											"らせんカウンター"
+		"dac_ability_axe_counter_helix_Description"								"攻撃されると、アックスは{s:spin_chance}%の確率でらせんカウンター攻撃を仕掛け、1マス以内のすべての敵にピュアダメージ{s:spin_damage}を与える。"
+		"dac_ability_axe_counter_helix_Lore"									"あいつを一度、サンダードムーンに入れてやったことがある…だが、あの喧嘩の後、酒場全体を建て直さなきゃならなかった。－<i>アックスが酒場に来店禁止になった理由を語るジュル</i>" 
+
+		//RAZOR
+		"dac_ability_razor_plasma_field"										"プラズマフィールド"
+		"dac_ability_razor_plasma_field_Description"							"レイザーが放つ稲妻の輪は広がるほど威力を増すが、縮まるときにも攻撃を加え、{s:radius}マス以内の敵ユニットに減速と最大{s:damage_max}のダメージを与える。<br><br>ダメージと減速はレイザーからの距離に応じて増加する。<br><br>プラズマフィールドは各ユニットを往復1回ずつ計2回攻撃する。"
+		"dac_ability_razor_plasma_field_Lore"									"ホワイトスパイアの街での彼を恐ろしいと思うなら、細道の迷宮での彼を見るがいい。— <i>アネシックス、競技ファン</i>"
+
+		//CRYSTAL MAIDEN
+		"dac_ability_crystal_maiden_brilliance_aura"							"アーケインオーラ"
+		"dac_ability_crystal_maiden_brilliance_aura_Description"				"パッシブ：クリスタルメイデンは{s:interval}秒ごとに、全味方ユニットに{s:mana_regen}マナ自然回復を与える。"
+		"dac_ability_crystal_maiden_brilliance_aura_Lore"						"彼女のお目当ては俺なのか、トゥラスなのか…突き止めてやろう。— <i>ジュル、アイスラックの酒密造者</i>"
+
+		"dac_ability_crystal_maiden_frostbite"									"フロストバイト"
+		"dac_ability_crystal_maiden_frostbite_Description"						"敵ユニットを氷に閉じ込め、移動と攻撃を阻止すると同時に、{s:duration}秒間、毎秒{s:damage}ダメージを与える。フロストバイトの影響下の対象は回復できない。"
+		"dac_ability_crystal_maiden_frostbite_Lore"								"ホワイトスパイアでは色々ありすぎて、見落とすこともよくあるのさ。例えば、アイスラックのクリスタルメイデンは昔は仲間を救うだけだったんだが、最近は敵を凍らせたりもするらしい。初耳だったよ。— <i>世事に疎いカール</i>"
+
+		//KUNKKA
+		"dac_ability_kunkka_ghostship"											"幽霊船"
+		"dac_ability_kunkka_ghostship_Description"								"クンカは戦地を突き進む幽霊船を召喚し、難破地点の{s:ghostship_crash_cells}マス以内の敵ユニットに{s:ability_damage}ダメージと{s:stun_duration}秒間のスタンを与える。"
+		"dac_ability_kunkka_ghostship_Lore"										"イーブママにはたくさん友達がいた…クンカだって私と同じくらい答えを求めている。— <i>レン、復讐を誓う娘</i>"
+
+		//TINY
+		"dac_ability_tiny_toss"													"トス"
+		"dac_ability_tiny_toss_Description"										"タイニーは隣接するランダムな敵を掴み、一番遠くの敵に投げつける。<br><br>対象は衝突時に{s:damage_radius}マス以内のすべての敵に{s:damage}ダメージと{s:stun_duration}秒間のスタンを与える。"
+		"dac_ability_tiny_toss_Lore"											"エンノのやつ、どうやら屈強な助っ人を見つけたらしいな。— <i>大きな問題にぶち当たったグレック</i>"
+
+		//PUCK
+		"dac_ability_puck_illusory_orb"											"幻影のオーブ"
+		"dac_ability_puck_illusory_orb_Description"								"パックはまっすぐに飛ぶ魔法のオーブを放ち、道中の敵ユニットに{s:damage}ダメージを与える。"
+		"dac_ability_puck_illusory_orb_Lore"									"パックの見かけに騙されるんじゃない。あれは真の厄介者だぞ。— <i>ホブゲンの賢い言葉</i>"
+
+		"dac_ability_puck_phase_shift"											"フェイズシフト"
+		"dac_ability_puck_phase_shift_Description"								"<i>ドラゴンアライアンスでアンロック</i><br>パッシブ：ダメージを受ける直前に、パックは別の次元に移動し、{s:shift_duration}秒間、ダメージ無効状態になる。"
+		"dac_ability_puck_phase_shift_Lore"										"あのチビ、必要な時にいたためしがない ー <i>ホブゲン、せっかちなアンダーロード</i>"
+
+		//CLOCKWERK
+		"dac_ability_clockwerk_battery_assault"									"バッテリーアサルト"
+		"dac_ability_clockwerk_battery_assault_Description"						"クロックワークは{s:duration}秒間、{s:damage_tick}秒ごとに{s:radius_in_cells}マス以内のランダムな敵ユニットに対し強力な金属片を発射し、{s:damage}魔法ダメージとミニスタンを与える。"
+		"dac_ability_clockwerk_battery_assault_Lore"							"ブラス・ヘラルドならあなたのことを忌まわしいと言うかもしれないが…キーン、私はあなたを賢いと思っている。— <i>クワイエット、異端のオートマトン</i>"
+
+		//LICH
+		"dac_ability_lich_chain_frost"											"チェーンフロスト"
+		"dac_ability_lich_chain_frost_Description"								"リッチは近隣の敵ユニットの間を最大{s:jumps}回跳ねる冷気の球を放ち、当たるごとに攻撃速度と移動速度を{s:slow_duration}秒間、{s:slow_value}%低下させ、{s:damage}ダメージを与える。"
+		"dac_ability_lich_chain_frost_Lore"										"お互いを助け合えるだろう、リッチ。— <I>ファウスト的な取引をするトゥラス</i>"
+
+		//TIDEHUNTER
+		"dac_ability_tidehunter_ravage"											"大荒廃"
+		"dac_ability_tidehunter_ravage_Description"								"タイドハンターは地面を強く叩いて全方位に触手を噴出させ、{s:cells}マス以内のすべての敵ユニットに{s:damage}ダメージと{s:duration}秒間のスタンを与える。"
+		"dac_ability_tidehunter_ravage_Lore"									"クンカ、あなたがリヴァイアサンに追われていない時の方がもっと好きだったな。— <i>レン、都合のいい時だけの友人</i>"
+
+		//SHADOWSHAMAN
+		"dac_ability_shadow_shaman_voodoo"										"ヘックス"
+		"dac_ability_shadow_shaman_voodoo_Description"							"シャドウシャーマンは敵ユニットを無害な動物に変え、{s:duration}秒間、攻撃とアビリティを無効にする。"
+		"dac_ability_shadow_shaman_voodoo_Lore"									"ショーマンとはああいう男のことを言うんだ！— <i>プロらしい礼儀を見せるグレック</i>"
+
+		"dac_ability_shadow_shaman_mass_serpent_ward"							"マスサーペントワード"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"シャドウシャーマンは最大4体のサーペントワードを召喚し、敵ユニットを囲む。"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"少なくとも、あいつが人をニワトリに変えることはなくなった。－<i>オニア、トリつく島もない</i>"
+
+		//ENIGMA
+		"dac_ability_enigma_midnight_pulse"										"真夜中の波動"
+		"dac_ability_enigma_midnight_pulse_Description"							"エニグマは、最大ヘルスが一番高い敵の下に暗黒の共鳴を起こし、対象から{s:radius}マス以内のすべての敵ユニットに{s:duration}秒間、その最大ヘルスの{s:damage_percent}%のダメージを与え、{s:slow_percent}%減速させる。"
+		"dac_ability_enigma_midnight_pulse_Lore"								"この世にはお前にはどうにもできないものがあるのだよ。— <i>トゥラス、狂ったメイジ</i>"
+
+		//TINKER
+		"dac_ability_tinker_heat_seeking_missile"								"熱誘導ミサイル"
+		"dac_ability_tinker_heat_seeking_missile_Description"					"ティンカーはランダムな敵ユニット{s:targets}体に向けてロケットを発射し、{s:damage_per_missile}ダメージを与える。"
+		"dac_ability_tinker_heat_seeking_missile_Lore"							"キーン族を野放しにしておくと、いずれ問題になる。— <i>統一戦線の形成を試みるオニア</i>"
+
+		//SNIPER
+		"dac_ability_sniper_assassinate"										"暗殺"
+		"dac_ability_sniper_assassinate_Description"							"スナイパーは敵ユニットに{s:castPoint}秒間狙いを定めた後、強力な弾丸を放ち、対象に{s:damage}ダメージとミニスタンを与える。アンダーロードは対象にならない。"
+		"dac_ability_sniper_assassinate_Lore"									"昔、前座にキーンを使ってたことがある。観客は大喜びだが、法外な保険を払う羽目になったぜ。— <i>儲けのことしか頭にないグレック</i>"
+
+		//NECROLYTE
+		"dac_ability_necrophos_death_pulse"										"デスパルス"
+		"dac_ability_necrophos_death_pulse_Description"							"ネクロフォスは周囲に死の波を放ち、{s:radius}マス以内の敵と味方の両ユニットに影響を及ぼす。<br><br>デスパルスは敵に{s:damage}ダメージを与え、味方を{s:heal}回復する。"
+		"dac_ability_necrophos_death_pulse_Lore"								"さぁ、ネクロフォス…欲しいものがあるんだろう？— <i>アネシックス、銀の舌を持つ悪魔</i>"
+
+		//SLARDAR
+		"dac_ability_slardar_amplify_damage"									"腐食性煙霧"
+		"dac_ability_slardar_amplify_damage_Description"						"スラーダーは{s:duration}秒間、敵の防御力を{s:armor_reduction}下げる。"
+		"dac_ability_slardar_amplify_damage_Lore"								"俺はスラークとだって取引できたんだぜ。スラーダーとだって合意できるに決まってる。— <i>ジュル、刑務所ワイン愛好家</i>"
+
+		//BEASTMASTER
+		"dac_ability_beastmaster_wild_axes"										"ワイルドアックス"
+		"dac_ability_beastmaster_wild_axes_Description"							"ビーストマスターは斧を飛ばしてから呼び戻し、軌道上の敵ユニットに{s:axe_damage}ダメージを与える。<br><br>それぞれの斧は敵に一度だけ当たり、ビーストマスターによるその後のダメージを{s:damage_amp}%増幅する。"
+		"dac_ability_beastmaster_wild_axes_Lore"								"あのチビのために一体何人の自然愛好家が必要なんだい？— <i>エンノについて文句を言うグレック</i>"
+
+		//VENOMANCER
+		"dac_ability_venomancer_plague_ward"									"疫病ワード"
+		"dac_ability_venomancer_plague_ward_Description"						"ヴェノマンサーは援軍として{s:num_wards}体の疫病ワードを呼び出す。疫病ワードは対象にスタックする毒効果を適用する。"
+		"dac_ability_venomancer_plague_ward_Lore"								"あなたが作り出したものはなんと美しいことか…あなたの庭の世話をこの私に手伝わせてください…— <i>おべっかで欲しいものが手に入ることに気付いたトゥラス</i>"
+
+		"dac_ability_venomancer_venomous_gale"									"ヴェノマスゲール"
+		"dac_ability_venomancer_venomous_gale_Description"						"毒の玉を一直線に発射し、敵ユニットに{s:projectile_damage}魔法ダメージを与える。敵は毒に侵され、{s:tick_duration}秒間、移動速度が{s:movement_slow}%と攻撃速度が{s:attack_slow}減速する。"
+		"dac_ability_venomancer_venomous_gale_Lore"								"ダメだダメだ、あいつを舞台の中央に立たせると、観客の半分が死ぬんだ。誰か他の奴を探せ。－<i>孫悟空の代わりを検討するグレック</i>"
+
+		"dac_ability_venomancer_poison_sting"									"毒針"
+		"dac_ability_venomancer_poison_sting_Description"						"パッシブ：攻撃するたびに対象にスタックする毒効果が適用される。"
+		"dac_ability_venomancer_poison_sting_Lore"								"そいつをエンノに近づけるなよ…あのドブネズミにこれ以上の毒は必要ない。－<i>毒に侵されるのを嫌うホブゲン</i>"
+
+		//TEMPLAR ASSASSIN
+		"dac_ability_templar_assassin_refraction"								"リフラクション"
+		"dac_ability_templar_assassin_refraction_Description"					"テンプルアサシンは捕まえにくくなり、敵からのダメージを回避し、自身は+{s:bonus_damage}%の攻撃ダメージを得る。<br><br>これらの効果は別々で、それぞれ{s:instances}回に限られている。"
+		"dac_ability_templar_assassin_refraction_Lore"							"手を貸してくれるなら借りは帳消しよ。— <i>できる限りの手助けを得るレン</i>"
+
+		"dac_ability_templar_assassin_meld"										"メルド"
+		"dac_ability_templar_assassin_meld_Description"							"パッシブ： 攻撃対象へテレポート後、テンプルアサシンは最初の攻撃で{s:damage}追加ダメージを与え、対象の防御力を{s:armor_debuff_duration}秒間{s:armor_debuff}低下させる。"
+		"dac_ability_templar_assassin_meld_Lore"								"お前の才能は私の計画遂行に打ってつけだ。－<i>仕事を与えるアネシックス</i>"
+		
+		//VIPER
+		"dac_ability_viper_viper_strike"										"ヴァイパーストライク"
+		"dac_ability_viper_viper_strike_Description"							"ヴァイパーの酸性の毒は、敵ユニットの移動速度と攻撃速度を{s:bonus_attack_speed}%低下させ、毒の継続ダメージ{s:damage}を与える。<br><br>速度低下の効果は、毒の効果時間の経過と共に弱まる。"
+		"dac_ability_viper_viper_strike_Lore"									"私たちはそんなに違わない…私も奴隷であることがどういうことなのか知っている。— <i>クワイエット、陰謀装置</i>"
+
+		"dac_ability_viper_nethertoxin"											"ネザートキシン"
+		"dac_ability_viper_nethertoxin_Description"								"ヴァイパーは地面に毒を吐き、マス内の敵ユニットに毎秒{s:damage}ダメージを与え、ブレイク状態とルート状態にする。"
+		"dac_ability_viper_nethertoxin_Lore"									"足元に気を付けろ、スラーク。私から盗みを働こうとすると、ひどい目に遭うだろう。－<i>雇った力について明かすオニア</i> "
+
+		"dac_ability_viper_corrosive_skin"										"腐食性スキン"
+		"dac_ability_viper_corrosive_skin_Description"							"<i>ドラゴンアライアンスでアンロック</i><br>パッシブ：ヴァイパーは体から感染性のある毒を滲み出させてスタックする毒効果を適用し、{s:dot_duration}秒間、敵の攻撃速度を{s:attack_slow}低下させる。滲み出した酸性の液体はヴァイパーの魔法耐性を{s:magic_resistance}増加させる。"
+		"dac_ability_viper_corrosive_skin_Lore"									"そいつでコートを作ってみたいものだ...— <i>大きな夢を持つカール</i>"
+
+		//LUNA
+		"dac_ability_luna_moon_glaive"											"ムーングレイヴ"
+		"dac_ability_luna_moon_glaive_Description"								"パッシブ：ルナの武器は{s:range}マス以内の敵ユニット間で{s:bounces}回跳ねる。<br><br>ダメージは跳ねるごとに{s:damage_reduction_percent}%減少する。"
+		"dac_ability_luna_moon_glaive_Lore"										"あんたが言ってることは半分もわからんが、あんたがそいつを投げるやり方は気に入ったよ。— <i>グレック、真の社交家</i>"
+
+		//DRAGON KNIGHT
+		"dac_ability_dragon_knight_breathe_fire"								"ファイアブレス"
+		"dac_ability_dragon_knight_breathe_fire_Description"					"ドラゴンナイトは前方にファイアブレスを吹き出し、{s:duration}秒間敵を燃やして{s:damage}ダメージを与え、敵から受けるダメージを{s:attack_reduction}%減少させる。"
+		"dac_ability_dragon_knight_breathe_fire_Lore"							"ダヴィオン、お前の才能を理解しないやつらと一緒にいても宝の持ち腐れだ。— <i>才能を盗み取ろうとするホブゲン</i>"
+
+		"dac_ability_dragon_knight_elder_dragon_form"							"エルダードラゴンの姿"
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>ドラゴンアライアンスによってアンロック</i><br>パッシブ：戦闘開始時に、ドラゴンナイトは3種類の強力なエルダードラゴンの一つに変化し、移動速度が{s:bonus_movement_speed}%上昇し、{s:bonus_attack_damage}攻撃ダメージボーナスと、新たな能力を得る。<br><br>グリーンドラゴン：\n{s:corrosive_breath_duration}秒間、毎秒{s:corrosive_breath_damage}の毒ダメージを通常攻撃に追加。<br><br>レッドドラゴン：\n敵への毒攻撃に加え、標的の{s:splash_radius}マス以内にいるすべての敵ユニットに{s:splash_damage_percent}%のダメージを与える。<br><br>ブルードラゴン：\n敵への毒攻撃に加え、{s:frost_duration}秒間、{s:frost_aoe}マス以内の敵ユニットの移動速度を{s:frost_bonus_movement_speed}%、攻撃速度を{s:frost_bonus_attack_speed}%下げる。"
+		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"ケイデンがあなたのことを褒めていたけど、彼の称賛に値することを祈るわ。— <i>レン、ドラゴンホールドの友</i>"
+
+		//ENCHANTRESS
+		"dac_ability_enchantress_natures_attendants"							"森のお供たち"
+		"dac_ability_enchantress_natures_attendants_Description"				"エンチャントレスはウィスプ{s:wisp_count}体からなる群れを召喚し、自身とその{s:radius}マス以内の味方ユニットを回復する。<br><br>効果は{s:duration}秒間持続し、味方のヘルスが{s:heal_interval}秒ごとに{s:heal}回復する。"
+		"dac_ability_enchantress_natures_attendants_Lore"						"彼女はホワイトスパイアじゃ1日も持たないだろうね。たったの1日もだ。— <i>敵を甘く見るホブゲン</i>"
+
+		//BOUNTY HUNTER
+		"dac_ability_bounty_hunter_shuriken_toss"								"手裏剣投げ"
+		"dac_ability_bounty_hunter_shuriken_toss_Description"					"バウンティーハンターは敵ユニットに{s:damage}ダメージとミニスタンを与える危険な手裏剣を投げつける。"
+		"dac_ability_bounty_hunter_shuriken_toss_Lore"							"資金がある間は、金で忠誠を売る男をいつも信頼するべき。— <i>疑わしい知恵を披露するオニア</i>"
+
+		//BATRIDER
+		"dac_ability_batrider_sticky_napalm"									"粘着ナパーム"
+		"dac_ability_batrider_sticky_napalm_Description"						"バットライダーは粘着性の油を投げつけ、投下地点の{s:radius}マス以内の範囲を油で覆う。油はスタックごとに{s:damage}ダメージを通常攻撃に追加し、範囲内の敵ユニットの移動速度と攻撃速度を{s:movement_speed_pct}%低下させる。<br><br>粘着ナパームによるボーナスダメージと減速は最高{s:max_stacks}回まで増加する。"
+		"dac_ability_batrider_sticky_napalm_Lore"								"こいつは最高だ。最高だよ！— <i>ホブゲン、放火魔</i>"
+
+		//DOOM BRINGER
+		"dac_ability_doom_bringer_doom"											"ドゥーム"
+		"dac_ability_doom_bringer_doom_Description"								"ドゥームは敵に呪いをかけてスペルの使用を禁じ、ブレイク状態にする。同時に毎秒{s:damage}ダメージを与える。<br><br>効果は{s:duration}秒間持続。"
+		"dac_ability_doom_bringer_doom_Lore"									"取引するなら比喩的な悪魔が相手の方がいい…— <i>アネシックスの仲間について意見を述べるオニア</i>"
+
+		//GYROCOPTER
+		"dac_ability_gyrocopter_call_down"										"コールダウン"
+		"dac_ability_gyrocopter_call_down_Description"							"ジャイロコプターは{s:radius}マス以内の敵ユニットの頭上に落ちる空中ミサイルを呼ぶ。<br><br>連続した2発のミサイルのうち1発目は{s:damage_first}ダメージと{s:slow_duration_first}秒間の{s:slow_first}%減速を与え、2発目は{s:damage_second}ダメージと{s:slow_duration_second}秒間の{s:slow_second}%減速を与える。"
+		"dac_ability_gyrocopter_call_down_Lore"									"あいつの助けがあればどれだけ多くの品を運べるか…考えてもみろよ。 — <i>未来を思い描くジュル</i>"
+
+		//ALCHEMIST
+		"dac_ability_alchemist_acid_spray"										"アシッドスプレー"
+		"dac_ability_alchemist_acid_spray_Description"							"アルケミストは指定地点から{s:radius}マス以内に高圧の酸を散布する。<br><br>汚染領域に足を踏み入れた敵ユニットは毎秒{s:damage}ダメージを受け、防御力が{s:armor_reduction}低下する。"
+		"dac_ability_alchemist_acid_spray_Lore"									"あんたは人の顔を焼くのが好きなんだろ、俺は人の家を焼くのが好きなんだ。最強のコンビじゃないか。 — <i>文化の違いを埋めるホブゲン</i>"
+
+		// Lycan
+		"dac_ability_lycan_wolf_spawn_shift"									"変身"
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"ライカンは2匹の狼を召喚し、最大ヘルスが{s:hp_per}%、移動速度が{s:speed}まで増加し、さらに{s:crit_chance}%の確率で{s:crit_bonus}%ダメージのクリティカルヒットを与える。"
+		"dac_ability_lycan_wolf_spawn_shift_Lore"								"お願い、ライカン。復讐に手を貸して。— <i>ライカンの慈悲の心に語りかけるレン</i>"
+		
+		// LONE DRUID
+		"dac_ability_lone_druid_summon_bear"									"スピリットベア召喚"
+		"dac_ability_lone_druid_summon_bear_Description"						"強力な仲間のスピリットベアを召喚する。"
+		"dac_ability_lone_druid_summon_bear_Lore"								"頼むからクマを近づけないでくれ…クマは苦手なんだ。— <i>グレック、クマ恐怖症</i>"
+		
+
+		//CHAOS KNIGHT
+		"dac_ability_chaos_knight_chaos_bolt"									"カオスボルト"
+		"dac_ability_chaos_knight_chaos_bolt_Description"						"カオスナイトは神秘的なエネルギーの稲妻を投げつけ、敵ユニットに{s:damage_min}～{s:damage_max}ダメージと{s:stun_min}～{s:stun_max}秒のスタンを与える。"
+		"dac_ability_chaos_knight_chaos_bolt_Lore"								"ホワイトスパイアに少々カオスが必要だな。 — <i>ホブゲン、カオスをもたらす者</i>"
+
+		//OGRE MAGI
+		"dac_ability_ogre_magi_bloodlust"										"ブラッドラスト"
+		"dac_ability_ogre_magi_bloodlust_Description"							"オーガマギは味方ユニットの熱狂を扇動し、移動速度を{s:bonus_movement_speed}%、攻撃速度を{s:bonus_attack_speed}%上昇させる。自身にキャストした場合は攻撃速度ボーナス{s:self_bonus}%を得る。"
+		"dac_ability_ogre_magi_bloodlust_Lore"									"マギは請求額の2倍の価値がある。運よく、マギは愚か者でもある。— <i>オニア、特売品狙い</i>"
+
+		// MAGNUS
+		"dac_ability_magnataur_empower"											"エンパワー"
+		"dac_ability_magnataur_empower_Description"								"マグナスは味方ユニット1体を激昂させ、{s:duration}秒間、{s:bonus_damage_pct}%ダメージと{s:cleave_damage_pct}%クリーブを付与する。"
+		"dac_ability_magnataur_empower_Lore"									"アネシックスにはエンノを欺けると思わせておけばいい。踏みつけられて死ぬ間際に、自分がどれだけ間違っていたかに気付くだろうよ。－<i>稀な忍耐を見せるホブゲン</i>"
+
+		//TREANT PROTECTOR
+		"dac_ability_treant_leech_seed"											"リーチシード"
+		"dac_ability_treant_leech_seed_Description"								"トレントプロテクターは敵ユニットの中に生命力を徐々に奪う種を埋め込み、{s:damage_interval}秒ごとに{s:leech_damage}ヘルスを流出させ、同時に攻撃速度と移動速度を{s:movement_slow}%低下させる。<br><br>埋め込んだ種は、対象の周囲{s:radius}マス以内の味方ユニットを回復する。効果は{s:duration}秒間持続する。対象が死亡すると{s:radius}マス以内の新しい対象へジャンプする。"
+		"dac_ability_treant_leech_seed_Lore"									"正直、エンノが木に助けてもらうなんて思いもしなかったぜ。— <i>酒を酌み交わすジュルとアネシックス</i>"
+
+		//KEEPER OF THE LIGHT
+		"dac_ability_keeper_of_the_light_illuminate"							"イルミネート"
+		"dac_ability_keeper_of_the_light_illuminate_Description"				"光の守護者は光のエネルギーを呼び出す。 詠唱時間が長いほど、エネルギーが蓄えられる。放出された波は、詠唱した秒数につき{s:damage_per_second}ダメージを与えながら進む。"
+		"dac_ability_keeper_of_the_light_illuminate_Lore"						"守護者は見かけよりずっと強力だ。放っておけば私たち全員に破滅をもたらすだろう。— <i>トゥラス、光の破壊者</i>"
+
+		// MEDUSA
+		"dac_ability_medusa_stone_gaze"											"石化光線"
+		"dac_ability_medusa_stone_gaze_Description"								"メドゥーサの{s:radius}マス以内でメドゥーサを見ている敵ユニットの移動速度と攻撃速度が{s:slow}%低下する。<br><br>メドゥーサを{s:face_duration}秒間見つめたユニットは石に変わる。<br><br>石化したユニットはスタンを受け、{s:bonus_physical_damage}%のボーナス物理ダメージを受ける。"
+		"dac_ability_medusa_stone_gaze_Lore"									"好みのタイプだが、俺にはミレスカしかいないんでね。 — <i>ホブゲン、恋する犯罪者</i>"
+
+		"dac_ability_medusa_split_shot"											"分裂ショット"
+		"dac_ability_medusa_split_shot_Description"								"パッシブ：メドゥーサは魔力で最大{s:extra_shots}本の追加の矢を放ち、標的の{s:range}マス以内にいる対象を追加攻撃する。追加の矢は最初の矢の{s:damage_modifier}%のダメージを与える。"
+		"dac_ability_medusa_split_shot_Lore"									"あのレディが矢を射るところを見たかい？あんたがまだそうやって息をしてるってことは、おそらくまだだな。— <i>最近雇ったヒーローについて自慢げに語るグレック</i>"
+
+		// TROLL WARLORD
+		"dac_ability_troll_warlord_fervor"										"熱狂"
+		"dac_ability_troll_warlord_fervor_Description"							"パッシブ：トロールウォーロードは同一対象を連続で攻撃すると、スタックごとに{s:attack_speed}%ボーナス攻撃速度を得る。<br><br>標的を変更すると、スタックはゼロになる。<br><br>この効果は最大{s:max_stacks}回までスタック可能。"
+		"dac_ability_troll_warlord_fervor_Lore"									"効率的で容赦ない。私と同じだ。— <i>無駄な努力はしないクワイエット</i>"
+
+
+		// SHADOW_DEMON
+		"dac_ability_shadow_demon_demonic_purge"								"デモニックパージ"
+		"dac_ability_shadow_demon_demonic_purge_Description"					"対象の敵ユニットを繰り返しパージし、有益なバフを取り除き、ブレイク状態にし、{s:duration}秒間減速を与える。効果が切れるまでにユニットは移動／攻撃速度を徐々に回復し、効果が切れた瞬間に{s:damage}ダメージを受ける。"
+		"dac_ability_shadow_demon_demonic_purge_Lore"							"よく聞け、野蛮なネズミ野郎。アネシックスと組めると思ってるようだが、彼女に仲間がいるところを見たことがあるかい？－<i>悪魔とエンノのファンではないホブゲン</i>"
+
+		// SVEN
+		"dac_ability_sven_cleave"												"斬撃波"
+		"dac_ability_sven_cleave_Description"									"パッシブ：このユニットの近接攻撃は近隣の敵に{s:cleave_damage_pct}%のダメージを与える。"
+		"dac_ability_sven_cleave_Lore"											"ヴィジルの騎士の仕事を見たことがあるかい？そりゃ見事なものだ。－<i>グレック、戦闘の目利き</i>"
+
+		"dac_ability_sven_gods_strength"										"神の力"
+		"dac_ability_sven_gods_strength_Description"							"スヴェンは激昂し、{s:duration}秒間、{s:bonus_damage_from_cast}%のダメージを得る。"
+		"dac_ability_sven_gods_strength_Lore"									"復讐に燃える男ほど愛しい者はない。－<i>スヴェンを評価するアネシックス</i>"
+
+		// SHREDDER
+		"dac_ability_timbersaw_whirling_death"									"死の回転ノコギリ"
+		"dac_ability_timbersaw_whirling_death_Description"						"鋭い刃を持つティンバーソーのアーマーが回転し、{s:radius}マス以内の敵に{s:damage}ダメージを与える。"
+		"dac_ability_timbersaw_whirling_death_Lore"								"エンノが森の仲間を全員呼び集めてるだろうと思ってね…俺も俺なりの行動に出たわけさ。— <i>問題を解決するホブゲン</i>"
+
+		//TUSK
+		"dac_ability_tusk_walrus_punch"											"セイウチパンチ！"
+		"dac_ability_tusk_walrus_punch_Description"								"タスクは強力なセイウチパンチを繰り出し、クリティカルヒットで{s:critical_damage}%ダメージを与え、犠牲者を空中に打ち上げる。\n\n犠牲者は着地時に{s:slow_duration}秒間、{s:move_slow}%の減速を受ける。パンチの間、タスクを倒すことはできない。"
+		"dac_ability_tusk_walrus_punch_Lore"									"あいつとは仲間だったこともあった。俺を助けに来たのか、ぶちのめしに来たのか…すぐにわかるだろう。— <i>若いころに思いを馳せるジュル</i>"
+		
+		
+		//ABADDON
+		"dac_ability_abaddon_aphotic_shield"									"無光の盾"
+		"dac_ability_abaddon_aphotic_shield_Description"						"アバドンは{s:duration}秒間、{s:damage_absorb}ダメージを吸収するシールドで味方ユニットを守る。<br><br>シールドが破壊されると爆発し、{s:radius}マス以内の敵に{s:damage_absorb}ダメージを与える。<br><br>キャスト時に特定の種類のネガティブバフやスタンを取り除く。"
+		"dac_ability_abaddon_aphotic_shield_Lore"								"アヴァーナス家のことは尊敬してるわ。— <i>取り入ろうとするオニア</i>"
+
+		// TERRORBLADE
+		"dac_ability_terrorblade_metamorph"										"メタモルフォーゼ"
+		"dac_ability_terrorblade_metamorph_Description"							"テラーブレードは{s:bonus_attack_range}マスの遠距離攻撃を繰り出す強力な悪魔に姿を変え、ダメージ{s:bonus_attack_damage}と攻撃速度{s:bonus_attack_speed}のボーナスを得る。また、このアビリティ開始時に別の味方とヘルス値を交換する。"
+		"dac_ability_terrorblade_metamorph_Lore"								"あいつがアネシックスと話しているのを見たら、マズいことが起ころうとしてるってのがわかる。— <i>人間観察者、ジュル</i>"
+
+		// TECHIES
+		"dac_ability_techies_bomb" 												"遠隔地雷"
+		"dac_ability_techies_bomb_Description"									"3人組が仕掛ける爆薬は、{s:explode_time}秒後に爆発し、{s:range}マス以内にいる標的に{s:damage}ダメージを与える。<br><br>最大距離の半分の位置にいる敵には半分のダメージを与える。"
+		"dac_ability_techies_bomb_Lore"											"あんたが何と言おうと、キーンは面白いやつらだよ。— <i>破壊工作を見守るホブゲン</i>"
+
+		//DISRUPTOR
+		"dac_ability_disruptor_static_storm"									"帯電ストーム"
+		"dac_ability_disruptor_static_storm_Description"						"ディスラプターは帯電した嵐を生み出し、その中心から{s:radius}マス内にいるすべての敵ユニットは{s:duration}秒間、サイレンス状態になる。<br><br>嵐によるダメージは徐々に増加する。総ダメージは{s:damage_total}。"
+		"dac_ability_disruptor_static_storm_Lore"								"彼が私を助けるためにここにいるのか、アックスを見張っていたいだけなのかよくわからない。— <i>レン、寄せ集め集団のキャプテン</i>"
+
+		//OMNIKNIGHT
+		"dac_ability_omniknight_purification"									"清め"
+		"dac_ability_omniknight_purification_Description"						"オムニナイトは味方ユニットを瞬時に{s:heal}回復し、その周囲{s:radius}マス以内にいるすべての敵ユニットにダメージを与える。"
+		"dac_ability_omniknight_purification_Lore"								"彼は信仰を武器のように振りかざす…私と同じように。— <i>トゥラス、妄想にとりつかれた救い主</i>"
+		
+		//PUDGE
+		"dac_ability_pudge_meathook"											"ミートフック"
+		"dac_ability_pudge_meathook_Description"								"パッジは一番離れた敵に向けて血塗られたフックを発射する。フックは犠牲者をパッジのもとへ引きずり、{s:damage}ダメージを与える。<br><br>パッジとその周囲1マス以内の味方はその犠牲者が死ぬまで攻撃を集中させる。"
+		"dac_ability_pudge_meathook_Lore"										"パッジ？あぁ、いいヤツだよ。俺が死体の皮をなめしている時、いつも声をかけてくれる。— <i>カール、アンデッドの仕立屋</i>"
+		
+		//WARLOCK
+		"dac_ability_warlock_shadow_word"										"シャドウワード"
+		"dac_ability_warlock_shadow_word_Description"							"ウォーロックは呪文を囁く。対象が味方ユニットの場合、即時にヘルスを{s:burst_tooltip}回復させた後、{s:duration}秒間毎秒{s:hot_tooltip}回復させる。敵ユニットの場合、{s:duration}秒間毎秒{s:damage_tick}ダメージを与える。"
+		"dac_ability_warlock_shadow_word_Lore"									"守られるべき秘密というものがある…デムノックは分別のなさの代償を払うことになるだろう。— <i>チャンスを伺うアネシックス</i>"
+		
+		//BLOODSEEKER
+		"dac_ability_bloodseeker_blood_rage"									"ブラッドレイジ"
+		"dac_ability_bloodseeker_blood_rage_Description"						"パッシブ：ブラッドシーカーは毎秒、その最大ヘルスの{s:self_dmg_pct}%に等しいダメージを受ける。<br><br>ヘルスが失われるごとに攻撃速度が増す（最大は{s:min_health_pct}%のヘルスで{s:attack_speed_bonus_max}）。<br><br>近接する敵が死ぬと、最大ヘルスの{s:heal_pct}%を回復する。"
+		"dac_ability_bloodseeker_blood_rage_Lore"								"この商売から学んだことがあるとすれば…人は血を見るのが好きだってことだ。この男を雇え。— <i>グレック、決断力ある興行主</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double"									"電磁波分身"
+		"dac_ability_arc_warden_tempest_double_Description"						"アークウォーデンは、自身の現在のヘルスと同じ複製を作り出す。<br><br>複製はアークウォーデンの現在のアイテムをすべて使用でき、同じ敵への攻撃を試みる。クローンはクローンを作成できず、与ダメージが{s:clone_dmg_reduction}%削減される。"
+		"dac_ability_arc_warden_tempest_double_Lore"							"彼は創造の神秘をもたらす。— <i>トゥラス、謎めいた預言者</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double_no_items"						"電磁波分身"
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"アークウォーデンは自身の現在のヘルスを持つ複製を作り出す。"
+		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"彼は創造の神秘をもたらす。— <i>トゥラス、謎めいた預言者</i>"
+
+		//MIRANA
+		"dac_ability_mirana_arrow"												"聖なる矢"
+		"dac_ability_mirana_arrow_Description"									"ミラナは恐るべき精密さで長距離の矢を放ち、対象を{s:duration}秒間スタンさせ、{s:damage}ダメージを与える。"
+		"dac_ability_mirana_arrow_Lore"											"狂信者レンのことは絶対に信頼するな…その価値はない。— <i>親身な忠告を与えるジュル</i>"
+		
+		//SLARK
+		"dac_ability_slark_essence_shift"										"エッセンスシフト"
+		"dac_ability_slark_essence_shift_description"							"パッシブ：スラークは攻撃するたびにダメージが{s:stolen_dmg}増加し、攻撃速度も{s:stolen_aspd}増加する。"
+		"dac_ability_slark_essence_shift_lore"									"スラークは俺らの製品の運び屋としてダークリーフに欠かせない。 — <i>ジュル、 自力で出世した男</i>"
+
+		"dac_ability_slark_pounce"												"パウンス"
+		"dac_ability_slark_pounce_description"									"パッシブ：跳躍から着地後、スラークは敵を{s:disarm_duration}秒間武装解除する。"
+		"dac_ability_slark_pounce_lore"											"またしても奴に出し抜かれたのか？－<i>頭に血の上ったホブゲン</i>"
+
+		//BLACK DRAGON
+		"dac_ability_black_dragon_splash_attack"								"スプラッシュアタック"
+		"dac_ability_black_dragon_splash_attack_description"					"パッシブ：ブラックドラゴンの長距離攻撃は、ドラゴンの標的の1マス以内にいるユニットにスプラッシュダメージを与える。"
+		"dac_ability_black_dragon_splash_attack_lore"							" "
+
+		//"SVEN GREAT CLEAVE - used for YEAR BEAST and ROSHAN"
+		"dac_ability_sven_great_cleave"											"斬撃波"
+		"dac_ability_sven_great_cleave_description"								"パッシブ：このユニットの周囲の敵に近接攻撃を与える。"
+		"dac_ability_sven_great_cleave_lore"									" "
+
+		//"ROSHAN SPELL IMMUNE"
+		"dac_ability_roshan_spell_immune"										"スペル無効"
+		"dac_ability_roshan_spell_immune_description"							"アクティブ：ロシャンは{s:duration}秒間のスペル無効を得る。"
+		"dac_ability_roshan_spell_immune_lore"									" "
+
+		// Lone Druid Bear
+		"dac_ability_lone_druid_spirit_bear_entangle"							"からみつく爪"
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"スピリットベアの攻撃は対象にからみつき、スタンを与える可能性がある。"
+		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
+
+		// THUNDER LIZARD BLOODLUST
+		"dac_ability_thunder_lizard_bloodlust"									"ブラッドラスト"
+		"dac_ability_thunder_lizard_bloodlust_Description"						"この生物は味方ユニットの熱狂を扇動し、移動速度を{s:bonus_movement_speed}%、攻撃速度を{s:bonus_attack_speed}%上昇させる。自身にキャストした場合は攻撃速度ボーナス{s:self_bonus}%を得る。"
+		"dac_ability_thunder_lizard_bloodlust_Lore"								" "
+
+		// HEALING WARD PLACEABLE
+		"dac_ability_healing_ward_healing_aura"											"癒やしのオーラ"
+		"dac_ability_healing_ward_healing_aura_description"								"{s:heal_range}マス以内の味方ユニットのヘルスを毎秒{s:health_regen}回復する。"
+		"dac_ability_healing_ward_healing_aura_lore"									""
+
+		// TOMBSTONE PLACEABLE
+		"dac_ability_tombstone_raise_zombies"										"ゾンビ召喚"
+		"dac_ability_tombstone_raise_zombies_description"							"{s:range}マス以内で死んだユニットはゾンビを召喚する。"
+		"dac_ability_tombstone_raise_zombies_lore"									""
+
+		// BARRICADE PLACEABLE
+		"dac_ability_barricade_aura"										"バリケード"
+		"dac_ability_barricade_aura_description"							"バリケードは近隣のユニットを守りスペルを無効にする。"
+		"dac_ability_barricade_aura_lore"									""
+
+		// TARGET DUMMY PLACEABLE
+		"dac_ability_target_dummy_taunt"										"挑発"
+		"dac_ability_target_dummy_taunt_description"							"ターゲットバディが挑発する。"
+		"dac_ability_target_dummy_taunt_lore"									""
+
+		// CINDERWALL TALENT
+		"dac_ability_cinderwall_aura"										"シンダーウォール"
+		"dac_ability_cinderwall_aura_description"							"シンダーウォールは近隣のユニットを守り、スペルを無効にする。近隣のユニットを炎上させる。"
+		"dac_ability_cinderwall_aura_lore"									""
+
+		// FACELESS VOID
+		"dac_ability_faceless_void_chronocube"										"クロノキューブ"
+		"dac_ability_faceless_void_chronocube_description"							"時空停止空間を作り出し、中心から{s:radius}マス以内のすべてのユニットを{s:stun_duration}秒間スタン状態にする。フェイスレスヴォイドはキューブ内を高速で移動し、{s:bonus_attack_speed}攻撃速度を得る。自身だけが時空停止の影響を受けない。フェイスレスヴォイドはキャスト時に、すべての味方の暗殺者をキューブからテレポートさせようとする。"
+		"dac_ability_faceless_void_chronocube_lore"									"クラスズレームが干渉してくる。こいつは厄介だ。－<i>時間を止められないことに気付いたジュル</i>"
+
+		"dac_ability_faceless_void_time_walk"										"タイムウォーク"
+		"dac_ability_faceless_void_time_walk_description"							"パッシブ：フェイスレスヴォイドは次の対象へと突進し、過去2秒間に受けたすべてのダメージを回復する。"
+		"dac_ability_faceless_void_time_walk_lore"									"そのくだらない砂時計には触らないからな。ピアポイントにこの辺りを詮索されたいとでも言うのか？－<i>思慮深い狂人、ホブゲン</i>"
+
+		// LEGION COMMANDER
+		"dac_ability_legion_commander_duel"											"デュエル"
+		"dac_ability_legion_commander_duel_description"								"レギオンコマンダーは、1マス以内のヘルスが最小の敵を攻撃し、{s:stun_duration}秒間、1対1の対決を強制する。どちらのヒーローもアビリティを使用できない。対決中にどちらかのヒーローが死ぬと、デュエルに勝利したヒーローは永続的に{s:winner_bonus_damage}ボーナスダメージを得る。（ノックアウトモードのボーナスダメージ[20/32/48]）"
+		"dac_ability_legion_commander_duel_lore"									"そう構える必要はない、トレスディン。リックスは私が見つける。－<i>プレッシャーに強いアネシックス</i>"
+
+		"dac_ability_legion_commander_will_of_the_bullsnake"						"牛蛇の意思"
+		"dac_ability_legion_commander_will_of_the_bullsnake_description"			"<i>ドラゴンアライアンスでアンロック</i><br>パッシブ： レギオンコマンダーがデュエルに勝利すると、瞬時に最大ヘルスの{s:heal_percentage}%回復する。"
+		"dac_ability_legion_commander_will_of_the_bullsnake_lore"					"コマンダー、あなたのようなタイプが最も危険なのよ。信奉者がね。－<i>世界の生徒、レン</i>"
+
+		"dac_ability_legion_commander_element"										"エレメンタルチャージ"
+		"dac_ability_legion_commander_element_description"							"パッシブ：レギオンコマンダーがスピリットアライアンスの一部としてデルタスラムを実行すると、与えるダメージが2倍になる。"
+		"dac_ability_legion_commander_element_lore"									"ほとんどの兵士が精霊にとりつかれている…それを率いているのが彼女だ。－<i>とりつかれた者を一目で見分けるジュル</i>"
+
+		// NYX ASSASSIN
+		"dac_ability_nyx_assassin_spiked_carapace"									"スパイクカラペイス"
+		"dac_ability_nyx_assassin_spiked_carapace_description"						"ニクスアサシンは甲殻からトゲを出し、受けるダメージの{s:damage_taken_reflect_percentage}%を敵に跳ね返し（各攻撃元につき最大1回）、攻撃を仕掛けたユニットに{s:stun_duration}秒間のスタンを与える。"
+		"dac_ability_nyx_assassin_spiked_carapace_lore"								"正しくは節足動物だ。－<i>細部まで目を光らせるクワイエット</i>"
+
+		"dac_ability_nyx_assassin_vendetta"											"ヴェンデッタ"
+		"dac_ability_nyx_assassin_vendetta_description"								"パッシブ：ニクスアサシンはユニットを攻撃するためにテレポート後、次の攻撃対象に{s:bonus_damage}ボーナスダメージを与え、{s:break_duration}秒間、敵をブレイク状態にして、全パッシブ効果を無効にする。"
+		"dac_ability_nyx_assassin_vendetta_lore"									"昆虫。節足動物。どっちでも同じだ。とにかく彼に今すぐ殺してもらいたい奴がいる。彼を捕えることができるのか？－<i>正されることが嫌いなオニア</i>"
+
+		// WEAVER
+		"dac_ability_weaver_shukuchi"												"シュクチ"
+		"dac_ability_weaver_shukuchi_description"									"ウィーバーは不可視状態となり、標的にできない状態で最大{s:distance_cells}マス離れた対象の間を移動し、通過したそれぞれの敵に{s:damage}ダメージを与える。"
+		"dac_ability_weaver_shukuchi_lore"											"ウィーバーよ。ともに世界を作り直そう。－<i>本気でやる気の狂ったトゥラス</i>"
+
+		// BROODMOTHER
+		"dac_ability_broodmother_spawn_spiderlings"									"スポーンスパイダリング"
+		"dac_ability_broodmother_spawn_spiderlings_description"						"ブルードマザーは敵ユニットに子供を注入し、{s:damage}ダメージを与える。対象が死ぬと、{s:num_spiderlings}匹のスパイダリングが生まれる。スパイダリングのヘルスは1、与ダメージは低く、対象にできない。"
+		"dac_ability_broodmother_spawn_spiderlings_lore"							"俺は人を生きたまま燃やすことはあるが、少なくとも、他人の中で卵をかえしたりはしないぞ…－<i>言葉を濁すホブゲン"
+
+		"dac_ability_broodmother_spin_web"											"スピンウェブ"
+		"dac_ability_broodmother_spin_web_description"								"ブルードマザーは敵ユニット上に{s:radius}マス四方の巣を張る。巣に捕らわれた敵は攻撃速度が{s:debuff_attack_speed}、移動速度が{s:debuff_speed}%、キャスト速度が{s:debuff_casting_speed}%低下する。"
+		"dac_ability_broodmother_spin_web_lore"										"お前の子供たちに絹を紡いでもらおうかな。間違いなくクモは児童労働法の適用外だからな。－<i>カール、倫理的な仕立屋</i>"
+
+		// WISP
+		"dac_ability_wisp_tether"													"テザー"
+		"dac_ability_wisp_tether_description"										"アイオーは最も近い味方のヒーローとつながり、その地点に自身を引き寄せる。アイオーとつながったヒーローは攻撃速度{s:bonus_attack_speed}と{s:damage_reduction}%のダメージ削減を得る。アイオーが{s:tether_break_distance}マス以上離れるとテザーは解除される。"
+		"dac_ability_wisp_tether_lore"												"<i>アイオーを熱心に見つめるエンノ</i>"
+
+		"dac_ability_wisp_relocate"													"リロケート"
+		"dac_ability_wisp_relocate_description"										"アイオーは{s:relocate_time_away}秒間、離れた場所にテレポートし、死んだヒーローを復活させる。そのユニットとアイオーのヘルスは完全に回復し、負の効果も浄化される。"
+		"dac_ability_wisp_relocate_lore"											"<i>見つめ返すアイオー</i>"
+
+		// BRISTLEBACK	
+		"dac_ability_bristleback_quill_spray"										"クイルスプレー"
+		"dac_ability_bristleback_quill_spray_description"							"ブリストルバックは背中の針毛を飛ばし、{s:radius}マス以内のすべての敵にダメージを与える。敵は{s:quill_base_damage}ダメージとスタックごとの追加{s:quill_stack_damage}ダメージを受ける。クイルスプレーはこのラウンドの間、最高{s:max_stacks}回までスタックする"
+		"dac_ability_bristleback_quill_spray_lore"									"はっきりさせておこう。今夜、お前とタスクに俺のバーを滅茶苦茶にはさせない。－<i>やり手のジュル</i>"
+
+		// LIFESTEALER
+		"dac_ability_life_stealer_feast"											"フィースト"
+		"dac_ability_life_stealer_feast_description"								"パッシブ：ライフスティーラーの攻撃は敵にダメージを与え、対象の最大ヘルスの{s:lifesteal_percentage}%を吸収し自身を回復する。"
+		"dac_ability_life_stealer_feast_lore"										"俺の状態を見て、ライフスティーラーの居場所が俺にすぐわかると思われても迷惑なだけだ。－<i>よく判断ミスをするカール</i>"
+
+		// DAZZLE
+		"dac_ability_dazzle_shadow_wave"											"シャドウウェーブ"
+		"dac_ability_dazzle_shadow_wave_description"								"ダズルは{s:bounce_radius}マス内の最大{s:max_targets}体の味方の間を通電する稲妻を放ち、各味方を{s:damage}回復すると同時に、{s:damage_radius}マス以内の敵ユニットに{s:damage}ダメージを与える。ダズルはシャドウウェーブによって常に回復する。"
+		"dac_ability_dazzle_shadow_wave_lore"										"お前のサービスを受けるにはいくら必要だ？私は死なないことに強い関心がある。－<i>暗闇で刺すオニア</i>"
+
+		// STORM SPIRIT
+		"dac_ability_storm_spirit_ball_lightning"									"ボールライトニング"
+		"dac_ability_storm_spirit_ball_lightning_description"						"ストームスピリットは戦場を走る不安定な電気となり、通過した各ユニットに{s:damage}ダメージを与える。さらに、通過したマスにつき{s:damage_per_cell}ダメージを与える。"
+		"dac_ability_storm_spirit_ball_lightning_lore"								"うぬぼれの強い者は、頭ではなく心で動く。罠にかけるのが一番簡単なやつらだ。－<i>策略を練るトゥラス</i>"
+
+		"dac_ability_storm_spirit_element"											"ストームエレメンタル"
+		"dac_ability_storm_spirit_element_description"								"パッシブ：ストームスピリットがデルタスラムを発動すると、影響を受けた敵ユニットは3秒間武装解除される。"
+		"dac_ability_storm_spirit_element_lore"										"クワイエットのことは心配しなくていい。嵐には近寄らないから。<i>すべての角度から検討するアネシックス</i>"
+
+		// EMBER SPIRIT
+		"dac_ability_ember_spirit_sleight_of_fist"									"スライトオブフィスト"
+		"dac_ability_ember_spirit_sleight_of_fist_description"						"エンバースピリットは超高速で移動し、{s:cells}マス以内のすべての敵を攻撃してから開始点に戻る。攻撃は{s:bonus_damage}ボーナスダメージを与える。"
+		"dac_ability_ember_spirit_sleight_of_fist_lore"								"戦い方は悪魔のようだが、信義を重んじるやつだ。やつの言葉なら信じるね。<i>信義のある泥棒、ジュル</i>"
+
+		"dac_ability_ember_spirit_element"											"ファイアエレメンタル"
+		"dac_ability_ember_spirit_element_description"								"パッシブ：エンバースピリットがデルタスラムを発動すると、影響を受けた敵ユニットは3秒間炎上する。"
+		"dac_ability_ember_spirit_element_lore"										"こいつは是非雇いたい。－<i>実力のある者を見抜く力を持つ、ホブゲン</i>"
+
+		// EARTH SPIRIT
+		"dac_ability_earth_spirit_geomagnetic_grip"									"ジオマグネティックグリップ"
+		"dac_ability_earth_spirit_geomagnetic_grip_description"						"アーススピリットは、マップの外からストーンレムナントを召喚し、現在の対象に引き寄せる。召喚されたストーンレムナントによって攻撃された敵は{s:silence_duration}秒間サイレンス状態になり、{s:damage}ダメージを受ける。"
+		"dac_ability_earth_spirit_geomagnetic_grip_lore"							"カオリンが街に来ると嬉しいね。いつも最高に面白いものを掘り出してくれるんだ。<i>物資を探すカール</i>"
+
+		"dac_ability_earth_spirit_element"											"アースエレメンタル"
+		"dac_ability_earth_spirit_element_description"								"パッシブ：アーススピリットがデルタスラムを発動すると、影響を受けた敵ユニットは3秒間サイレンス状態になる。"
+		"dac_ability_earth_spirit_element_lore"										"孫悟空がリング上であの男を相手に戦うところを観られるなら、いくらだって払うぞ…<i>グレック、夢を見る交渉担当者</i>"
+
+		// VOID SPIRIT
+		"dac_ability_void_spirit_dissimilate"										"ディシミレート"
+		"dac_ability_void_spirit_dissimilate_description"							"ヴォイドスピリットはエーテルに入り、姿を消して3つのポータルを作成する。{s:disappear_duration}秒後にポータルの1つから現れ、{s:damage_distance}マス以内の敵に{s:bonus_damage}ダメージを与え、{s:armor_reduction_duration}秒間、防御力を{s:armor_reduction}%削減する。"
+		"dac_ability_void_spirit_dissimilate_lore"									"理由もなく隠れ場所から姿を現すはずがない。あいつがなぜここにいるのか調べるのだ。－<i>秘密を探すアネシックス</i>"
+
+		"dac_ability_void_spirit_element"											"ヴォイドエレメンタル"
+		"dac_ability_void_spirit_element_description"								"パッシブ：ヴォイドスピリットがデルタスラムを発動すると、影響を受けた敵ユニットは3秒間ブレイク状態になる。"
+		"dac_ability_void_spirit_element_lore"										"あいつの周囲では注意深く動くんだぞ、スラーク。－<i>友人としての忠告を与えるジュル<i>"
+
+		// GRANNY LIZARD
+		"dac_ability_granny_lizard_shotgun_blast"									"オールドスキャターブラスト"
+		"dac_ability_granny_lizard_shotgun_blast_description"						"スナップファイアは、4回の基本攻撃の後ショットガンを構え、近接する敵に円錐状に{s:blast_damage}ダメージを与え、影響を受けたユニットの攻撃速度を{s:blast_bonus_attack_speed}%削減する。"
+		"dac_ability_granny_lizard_shotgun_blast_lore"								"キーンは戦争に関しては驚くほど画期的な考えの持ち主だ。戦争は私の得意な分野でもあるから…ビジネスのチャンスかもしれない。－<i>寛大な投資家、クワイエット</i>"
+
+		"dac_ability_granny_lizard_bazooka"											"モーティマーのキス"
+		"dac_ability_granny_lizard_bazooka_description"								"<i>ドラゴンアライアンスでアンロック</i>：モーティマーは最大{s:cast_range}マス離れた敵に向けて{s:projectile_count}個の火の玉を吐き出す。それぞれの玉は、投下地点の{s:impact_radius}マス以内のすべての敵に{s:damage}ダメージを与え、{s:burn_duration}秒間炎上させる。"
+		"dac_ability_granny_lizard_bazooka_lore"									"あれがドラゴンじゃないって、あのご婦人に言いたいのか？－<i>本物に対するこだわりのないグレック</i>"
+
+		// MANGO TREE
+		"dac_ability_mango_tree_mango_throw"										"マンゴースロー"
+		"dac_ability_mango_tree_mango_throw_description"							"マンゴーツリーは、戦闘開始時およびその後{s:mango_production_interval}秒ごとに、最大{s:radius}マスまでマンゴーを投げる。マンゴーに触れたすべてのユニットはマンゴーを食べ、50マナと100ヘルスを得る。"
+		"dac_ability_mango_tree_mango_throw_lore"									"そんな目で見るな。ただの果物だ。－<i>必死にステレオタイプと戦うアネシックス</i>"
+
+		// UNDERLORDS
+
+		"dac_ability_underlord_scales"												"アンダーロードに合わせて調整"
+
+		"dac_ability_anessix_summon_companions"										"アネシックスのデーモンパル"
+		"dac_ability_anessix_summon_companions_description"							"アネシックスは悪魔の兵隊を召喚する。両方の悪魔が死ぬと、新たに召喚する。"
+		"dac_ability_anessix_summon_companions_lore"								"持つべきものはコネだ。－<i>地下の情報網を持つアネシックス</i>"
+
+		"dac_ability_anessix_summon_golem"											"デーモンゴーレム召喚"
+		"dac_ability_anessix_summon_golem_description"								"アネシックスはデーモンゴーレムを召喚する。ゴーレムは敵陣に進撃し、2マス以内のすべての敵を2秒間スタンさせる。"
+		"dac_ability_anessix_summon_golem_lore"										"待ってちょうだい、お前を殺したりはしないよ…そのために助けを呼んだんだ。－<i>怪しげな倫理観を持つアネシックス</i>"
+
+		"dac_ability_anessix_passive"												"パッシブアビリティ"
+		"dac_ability_anessix_passive_description"									"アネシックスは味方となって戦う仲間を召喚する。"
+
+		"dac_ability_anessix_companion_archer_passive"								"クリティカルストライク"
+		"dac_ability_anessix_companion_archer_passive_description"					"パッシブ：悪魔アーチャーは、{s:chance}%の確率で、敵への各攻撃に対して{s:bonus}%のクリティカルストライクを加える。"
+		"dac_ability_anessix_companion_archer_passive_lore"							"<i>私には、不愉快な思いをさせるのが得意な知り合いがいる。－<i>ビロードの手袋の下に鉄の拳を秘めた悪魔、アネシックス</i>"
+
+		"dac_ability_anessix_pure_pain"												"ピュアペイン"
+		"dac_ability_anessix_pure_pain_description"									"アネシックスはランダムな敵を対象に、{s:duration}秒間、毎秒{s:damage}ピュアダメージを与える。"
+		"dac_ability_anessix_pure_pain_description_perlevel"						"アネシックスはランダムな敵を対象に、{s:duration}秒間、毎秒{s:damage}ピュアダメージを与える。"
+		"dac_ability_anessix_pure_pain_lore"										"お前は私が知りたいことを話すことになる。－<i>人の扱いに長けたアネシックス</i>"
+
+		"dac_ability_anessix_martyrs_boon"											"殉教者の恩恵"
+		"dac_ability_anessix_martyrs_boon_description"								"アネシックスは最大ヘルスの{s:selfdmg}%と同等のダメージを受ける。全味方ユニットは次の{s:duration}秒間、毎秒{s:regen}ヒットポイントの自然回復を得る。"
+		"dac_ability_anessix_martyrs_boon_description_perlevel"						"アネシックスは最大ヘルスの{s:selfdmg}%と同等のダメージを受ける。全味方ユニットは次の{s:duration}秒間、毎秒{s:regen}ヒットポイントの自然回復を得る。"
+		"dac_ability_anessix_martyrs_boon_lore"										"私の優しさは、私の残酷さに匹敵する。－<i>慈悲深い雇用主、アネシックス</i>"
+
+		"dac_ability_anessix_enthrall"												"エンスロール"
+		"dac_ability_anessix_enthrall_description"									"アネシックスは対象に印を付け、{s:target_duration}秒間、防御力を{s:armor_reduction}下げ、味方部隊に攻撃させる。対象は死ぬと悪魔になり、アネシックスのために戦う。"
+		"dac_ability_anessix_enthrall_description_lore"								"お前はもう、私のものだ。－<i>強制的に乗っ取るアネシックス</i>"
+
+		"dac_ability_demon_warrior_bash"											"ウォーリアーバッシュ"
+		"dac_ability_demon_warrior_bash_description"								"アネシックスの仲間は{s:bash_chance}%の確率で、対象に{s:bash_duration}秒間のスタンを与え、追加で{s:bonus_chance_damage}ダメージを与える。"
+		"dac_ability_demon_warrior_bash_lore"										"アネシックスに会いたいなら、まずは俺が相手になってやる。－<i>悪魔的な奴隷、ブリル</i>"
+
+		"dac_ability_hobgen_passive"												"パッシブアビリティ"
+		"dac_ability_hobgen_passive_description"									"ホブゲンの攻撃は敵に3秒間火を付ける。"
+
+		"dac_ability_hobgen_explosivo"												"エクスプロシーボ！"
+		"dac_ability_hobgen_explosivo_description"									"ホブゲンは対象にファイアボールを投げつけ、近隣のすべての対象に{s:damage_base}ダメージを均等に分配して与え、炎上させる。"
+		"dac_ability_hobgen_explosivo_description_perlevel"							"ホブゲンは対象にファイアボールを投げつけ、近隣のすべての対象に{s:damage_base}ダメージを均等に分配して与え、炎上させる。"
+		"dac_ability_hobgen_explosivo_description_lore"								"とにかく爆発させようぜ。－<I>アマチュア解体屋、ホブゲン</i>"
+
+		"dac_ability_hobgen_supercharged"											"スーパーチャージ"
+		"dac_ability_hobgen_supercharged_description"								"ホブゲンは最も近くにいる味方ユニットをスーパーチャージ状態にし、火が付いた味方は{s:aspd}攻撃速度を得る。"
+		"dac_ability_hobgen_supercharged_description_perlevel"						"ホブゲンは最も近くにいる味方ユニットをスーパーチャージ状態にし、火が付いた味方は{s:aspd}攻撃速度を得る。"
+		"dac_ability_hobgen_supercharged_description_lore"							"必要なのは、小さなやる気を燃やすことさ。－<i>比喩でも火を付けたがるホブゲン</i>"
+
+		"dac_ability_hobgen_airstrike"												"フレンドリーファイア"
+		"dac_ability_hobgen_airstrike_description"									"ホブゲンの仲間が戦場に{s:strikes}発の爆弾を投げ込み、当たった敵に{s:damage}ダメージを与える。爆発の範囲内の敵は半分のダメージを受ける"
+		"dac_ability_hobgen_airstrike_description_lore"								"全部焼き払え！－<i>狂気の放火魔、ホブゲン</i>"
+
+		"dac_ability_hobgen_letsgocrazy"											"レッツゴークレイジー"
+		"dac_ability_hobgen_letsgocrazy_description"								"ホブゲンの攻撃は戦場全体に渡り、味方の全部隊は{s:aspd}攻撃速度を得る。ホブゲンは火の付いていないユニット間で対象を切り替え続ける。"
+		"dac_ability_hobgen_letsgocrazy_description_perlevel"						"ホブゲンの攻撃は戦場全体に渡り、味方の全部隊は{s:aspd}攻撃速度を得る。ホブゲンは火の付いていないユニット間で対象を切り替え続ける。"
+		"dac_ability_hobgen_letsgocrazy_description_lore"							"俺に…悪者になれってか？やってやるよ。－<i>エンノとの取引で貧乏くじを引くホブゲン</i>"
+
+		"dac_ability_demon_warrior_protect"											"ウォーリアープロテクト"
+		"dac_ability_demon_warrior_protect_description"								"悪魔がアネシックスを防御し、遠距離攻撃をブロックする。"
+		"dac_ability_demon_warrior_protect_description_lore"						"私の側を離れるんじゃないよ... ここは物騒だからね。－<i>ホワイトスパイアを散歩するアネシックス</i>"
+
+		"dac_ability_jull_passive"													"パッシブアビリティ"
+		"dac_ability_jull_passive_description"										"ジュルは近接する敵または味方1ユニットにつき{s:armor_per_enemy}防御力を得る。"
+
+		"dac_ability_jull_beeftron"													"払拭"
+		"dac_ability_jull_beeftron_description"										"ジュルは受ける近接ダメージの{s:melee_reflect_pct}%を、すべての隣接する敵ユニットに跳ね返し、過去{s:melee_reflect_window}秒間に受けた近接ダメージの{s:melee_heal_pct}%と遠距離ダメージの{s:ranged_heal_pct}%を回復する。"
+		"dac_ability_jull_beeftron_lore"											"俺は！決して！屈しない！－<i>拷問にも不屈の精神を見せるジュル</i>"
+
+		"dac_ability_jull_punchtron"												"ウォロップ"
+		"dac_ability_jull_punchtron_description"									"ジュルは現在の敵にパンチし、{s:punch_damage}ダメージを与え、{s:punch_distance}マス突き飛ばす。進路上の敵は{s:stun_duration}秒間スタン状態となり移動させられる。ボードの端にぶつかった敵は、再びダメージを受ける。"
+		"dac_ability_jull_punchtron_lore"											"よぉ、タスク、久しぶりだな。－<i>長年の恨みを晴らそうとする旧友同士</i>"
+
+		"dac_ability_jull_barrelsoffun"												"愉楽の酒樽"
+		"dac_ability_jull_barrelsoffun_description"									"ジュルはボードの端から酒樽を繰り出す。酒樽に当たった味方は{s:attack_speed_buff_pct}攻撃速度を得る。酒樽に当たった敵は{s:barrel_dmg}物理ダメージを受け、残りの戦闘中に受ける魔法ダメージおよび物理ダメージが{s:damage_taken_debuff_pct}%増加する。"
+		"dac_ability_jull_barrelsoffun_lore"										"自分の作ったものを壊すのは辛いが、時には犠牲も必要だ。－<i>即興を決めるジュル</i>"
+
+		"dac_ability_jull_happyhour"												"ハッピーアワー"
+		"dac_ability_jull_happyhour_description"									"ジュルはすべての味方に酒をふるまう。受けるダメージの{s:damage_distributed_pct}%を即時に受け、残りを{s:damage_distributed_duration}秒間かけて受ける。"
+		"dac_ability_jull_happyhour_lore"											"野郎ども！今夜は俺の奢りだ！－<i>ジュル、サンダードムーンの親玉</i>"
+
+		"dac_ability_enno_poison_spin"												"毒のスピン"
+		"dac_ability_enno_poison_spin_description"									"エンノは宙に飛び上がり、{s:range}マス以内の最大{s:target_count}体の敵に毒矢を飛ばしてスタックする毒効果を適用し、スタックごとに{s:damage}の物理ダメージを与える。"
+		"dac_ability_enno_poison_spin_lore"											"小さいからといって甘く見るな… エンノはヤバいぞ。－<i>裏通りへ出向く準備をするジュル</i>"
+
+		"dac_ability_enno_escape_artist"											"脱出の達人"
+		"dac_ability_enno_escape_artist_description"								"エンノは自分のヘルスが初めて {s:escape_health_pct_1}/{s:escape_health_pct_2}/{s:escape_health_pct_3}%以下になった時に、煙に隠れ、すべての負の効果を浄化後、ボード上のどこかに現れる。エンノが着地した時に近接する敵は{s:stun_duration}秒間スタン状態になる。"
+		"dac_ability_enno_escape_artist_lore"										"誰か、そのチビを捕まえて殺せ！－<i>ひどくイラついたホブゲン</i>"
+
+		"dac_ability_enno_steal"													"ヨインク！"
+		"dac_ability_enno_steal_description"										"エンノは戦闘開始時に、敵の部隊からティアーが一番低いアイテムを盗む。さらに強力なアイテムを装備した敵が死ぬと、そのアイテムを略奪する。すべてのアイテムは、戦闘終了時に元の持ち主に返される。"
+		"dac_ability_enno_steal_lore"												"私は秘密の女王。奇跡を起こす者ではない。エンノに奪われたものは、あいつが飽きるまで取り返すのは無理だな。－<i>財布は決して離さないアネシックス</i>"
+
+		"dac_ability_enno_airbrawl"													"総攻撃！"
+		"dac_ability_enno_airbrawl_description"										"エンノはすべての敵に対して総攻撃をかけ、{s:stacks}回スタックする毒効果を適用し、{s:fight_damage}の物理ダメージを与え、{s:land_stun_duration}秒間スタン状態にする。"
+		"dac_ability_enno_airbrawl_lore"											"この野蛮なネズミ野郎を近付けないでくれ！－<i>痛い目に遭ったホブゲン</i>"
+	}
+}

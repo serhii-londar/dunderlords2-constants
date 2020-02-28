@@ -1,0 +1,663 @@
+﻿"lang"
+{ 
+	"Language" "hungarian" 
+	"Tokens" 
+	{
+		"dac_ability_autoattack"												"Automatikus támadás"
+		"dac_ability_regen"														"Regenerálódás"
+
+		// ANTIMAGE
+		"dac_ability_antimage_mana_break"										"Manamegtörés"
+		"dac_ability_antimage_mana_break_Description"							"PASSZÍV: Antimágus minden támadásával eléget {s:mana_per_hit} pontot az ellenfél manájából, az elégetett mana 50%-át okozva sebzésként a célpontnak. Bandavezéreket támadva {s:hype_per_hit} hírnevet éget el."
+		"dac_ability_antimage_mana_break_Lore"									"Antimágus eljött értem... és én készen fogom várni. - <i>Turath, Tyler-birtoki szökevény</i>"
+
+		//QUEEN OF PAIN
+		"dac_ability_queenofpain_scream_of_pain"								"Fájdalomsikoly"
+		"dac_ability_queenofpain_scream_of_pain_Description"					"A Fájdalom Királynője éles sikolyt hallat, {s:damage} sebzést okozva {s:radius} mezőn belül minden ellenségnek."
+		"dac_ability_queenofpain_scream_of_pain_Lore"							"Akasha ugyan nem közeli barátom, de örömmel fog segíteni, ha úgy gondolja, később majd basáskodhat fölöttem. - <i>Annesix, a pragmatikus démon</i>"
+
+		//LINA
+		"dac_ability_lina_laguna_blade"											"Laguna kardja"
+		"dac_ability_lina_laguna_blade_Description"								"Lina villámcsapást idéz meg, {s:damage} sebzést okozva egyetlen egységnek, és {s:fire_duration} másodpercre lángra lobbantva azt."
+		"dac_ability_lina_laguna_blade_Lore"									"Nem volt nehéz Linát Fehér Toronyba csábítani; mindketten nagy rajongói vagyunk egymás munkájának. - <i>Hobgen, hivatásos gyújtogató</i>"
+
+		//FURION
+		"dac_ability_natures_prophet_summon_tree"								"A természet hívása"
+		"dac_ability_natures_prophet_summon_tree_Description"					"A Természet Prófétája megidéz egy treantot. Ez a treant druidának számít."
+		"dac_ability_natures_prophet_summon_tree_Lore"							"Enno kapcsolatba lépett kis erdei barátaival... Ez problémát jelenthet. - <i>O'nia, száműzött revteli kereskedő</i>"
+
+		"dac_ability_natures_prophet_wrath_of_nature"							"A természet haragja"
+		"dac_ability_natures_prophet_wrath_of_nature_Description"				"A Természet Prófétája megrázza a célpontot, {s:damage} sebzést okozva. Az energia {s:jumps} alkalommal ugrik át ellenségek között a táblán, miközben ugrásonként {s:increase_pct}%-kal nő a sebzése."
+		"dac_ability_natures_prophet_wrath_of_nature_Lore"						"Az a helyzet, hogy én ide már nem kellek. Nem kell fegyver, hogy megölj valakit, csak türelem, kivárni, hogy a természet tegye a dolgát. - <i>Csöndes, a számító óraműves</i>"
+
+		//WINDRUNNER
+		"dac_ability_windrunner_powershot"										"Átlövés"
+		"dac_ability_windrunner_powershot_Description"							"Szélvész legfeljebb {s:castPoint} másodpercig felhúzva tartja íját egyetlen erőteljes lövéshez, amely legfeljebb {s:powershot_damage} pontot sebez. Az Átlövés sebzése minden egyes eltalált ellenséggel {s:damage_reduction}%-ot csökken."
+		"dac_ability_windrunner_powershot_Lore"									"Sok barátot szereztem utazásaim során, és nem félek behajtani a tartozásokat. - <i>Wren, világutazó</i>"
+
+		//WITCHDOCTOR
+		"dac_ability_witch_doctor_paralyzing_cask"								"Bénító szelence"
+		"dac_ability_witch_doctor_paralyzing_cask_Description"					"Kuruzsló eldob egy bénító poros szelencét, ami {s:bounces} alkalommal pattan meg ellenséges egységek között, bénítva és {s:damage} ponttal sebezve azokat, amelyeket eltalál."
+		"dac_ability_witch_doctor_paralyzing_cask_Lore"							"Imádom nézni, amikor dolgozik, doki... - <i>Hobgen, tündér bajkeverő</i>"
+
+		//JUGGERNAUT
+		"dac_ability_juggernaut_blade_fury"										"Kardforgatag"
+		"dac_ability_juggernaut_blade_fury_Description"							"Fékezhetetlen pörögni kezd a kardjával, ami immunissá teszi a mágiával szemben, és {s:duration} másodpercig {s:radius} mezőn belül másodpercenként {s:damage} sebzést okoz az ellenséges egységeknek. Fékezhetetlen mágikus sebzés elkerüléséhez is pörögni kezdhet."
+		"dac_ability_juggernaut_blade_fury_Lore"								"Yurnero nem csak egy harcos. Ő egy Fékezhetetlen. Ha a mi oldalunkra állítjuk, hamarosan hegyekben fognak állni a holttestek. - <i>Grek, minden szempontot figyelembe véve</i>"
+
+		//SANDKING
+		"dac_ability_sandking_burrowstrike"										"Csapdaásás"
+		"dac_ability_sandking_burrowstrike_Description"							"Homokkirály a földbe ássa magát és egy vájatban halad előre, {s:damage} ponttal sebezve és {s:stun_duration} másodpercre megbénítva az ellenségeket.<br>Egy példány Csípős végszót alkalmaz minden eltalált ellenségen."
+		"dac_ability_sandking_burrowstrike_Lore"								"Sok munkát fektettünk az alagúthálózatunk kialakításába, nem hagyhatjuk, hogy a Homokkirály romba döntse, amit építettünk. - <i>Jull, alkoholbáró</i>"
+
+		"dac_ability_sandking_caustic_finale"									"Csípős végszó"
+		"dac_ability_sandking_caustic_finale_Description"						"PASSZÍV: Valahányszor Homokkirály ellenséget talál el, {s:apply_duration} másodpercre megmérgezi azt. Az idő lejártával a méreg kirobban, {s:damage_aoe} sebzést okozva és {s:slow_duration} másodpercre {s:attack_slow} értékkel lassítva minden szomszédos ellenség támadási sebességét. A sebzés feleződik, ha a célpont még él."
+		"dac_ability_sandking_caustic_finale_Lore"								"Olyan nehéz lenne leteríteni valami ponyvát? - <i>Anessix, tisztaságszerető infernalista</i>"
+
+		//SHADOW FRIEND
+		"dac_ability_shadow_fiend_requiem"										"Lélekrekviem"
+		"dac_ability_shadow_fiend_requiem_Description"							"Árnybestia kibocsátja az elkárhozottak lelkeit, démoni energiát szabadítva el maga körül, {s:damage} sebzést okozva bárkinek, akit a kitörés eltalál."
+		"dac_ability_shadow_fiend_requiem_Lore"									"A ristuli udvar és köztem van egy... megállapodás. - <i>Anessix, földre szállt démon</i>"
+
+		//PHANTOM ASSASSIN
+		"dac_ability_phantom_assassin_coup_de_grace"							"Kegyelemdöfés"
+		"dac_ability_phantom_assassin_coup_de_grace_Description"				"PASSZÍV: Fantom Orgyilkosnak {s:crit_chance}% esélye van pusztító, {s:crit_bonus}%-os kritikus találatot okozni ellenséges egységeken."
+		"dac_ability_phantom_assassin_coup_de_grace_Lore"						"Kwerthiast is ő ölte meg, miért ne feltételezzem, hogy engem is meg akar? - <i>O'nia, paranoiás kereskedő</i>"
+
+		//DROW RANGER
+		"dac_ability_drow_ranger_trueshot_aura"									"Pontosság aura"
+		"dac_ability_drow_ranger_trueshot_aura_Description"						"PASSZÍV: Drow Vadász {s:bonus}% támadási sebességbónuszt ad {s:range} mezőn belül minden szövetségesnek."
+		"dac_ability_drow_ranger_trueshot_aura_Lore"							"Traxex, hidd el, hogy mi ketten együtt be fogunk futni. - <i>Grek, a behízelgő modorú</i>"
+
+		//MORPHLING
+		"dac_ability_morphling_waveform"										"Hullámalak"
+		"dac_ability_morphling_waveform_Description"							"Formálódó folyadékká alakul és előreáramlik, {s:damage} sebzést okozva az útjába eső ellenséges egységeknek.<br><br>Formálódó a Hullámalak során sebezhetetlen."
+		"dac_ability_morphling_waveform_Lore"									"Turath képessége az olyanok kegyébe férkőzésre, mint Formálódó... aggasztó. - <i>Csöndes, óraműves összeesküvő</i>"
+
+		//AXE
+		"dac_ability_axe_berserkers_call"										"Dühöngő kihívás"
+		"dac_ability_axe_berserkers_call_Description"							"Fejszés kigúnyolja a(z) {s:radius} mezőn belüli ellenséges egységeket, {s:duration} másodpercig az ő támadására sarkallva azokat. Amíg a Dühöngő kihívás aktív, Fejszés {s:bonus_armor} páncélbónuszt kap."
+		"dac_ability_axe_berserkers_call_Lore"									"Fejszés segítségét könnyű megszerezni... Csak egy sörbe, meg annak ígéretébe kerül, hogy mesélhet majd róla egy jó sztorit. - <i>Wren, újsütetű lázadó</i>" 
+
+		"dac_ability_axe_culling_blade"											"Ritkítófejsze"
+		"dac_ability_axe_culling_blade_Description"								"Ha a célpontnak {s:target_percent_health_threshold}%-nál kevesebb az életereje, Fejszés azonnal megöli. A fejszéjével."
+		"dac_ability_axe_culling_blade_Lore"									"Fejszés NAGYON jó emberek félbehasításában. - <i>Jólelkű, Fejszés bárdja</i>" 
+
+		"dac_ability_axe_counter_helix"											"Körkörös válaszcsapás"
+		"dac_ability_axe_counter_helix_Description"								"Fejszésnek az őt ért támadáskor {s:spin_chance}% esélye van körkörös ellentámadás végrehajtására, {s:spin_damage} tiszta sebzést okozva az egy mezőn belüli összes ellenségnek."
+		"dac_ability_axe_counter_helix_Lore"									"Egyszer beengedtem a Meghasadt Holdba... és a kocsmai bunyó után az egész átokverte helyet újra kellett építtetnem. - <i>Jull arról, miért nem engedi vissza Fejszést a kocsmájába</i>" 
+
+		//RAZOR
+		"dac_ability_razor_plasma_field"										"Plazmamező"
+		"dac_ability_razor_plasma_field_Description"							"Metsző plazmagyűrűt bocsát ki, ami terjeszkedve egyre erősebbé válik, de visszahúzódáskor is hat, {s:radius} mezőn belül lassítva és legfeljebb {s:damage_max} ponttal sebezve az ellenséges egységeket.<br><br>A sebzés és a lassítás a Metszőtől mért távolsággal növekszik.<br><br>A Plazmamező minden egységet kétszer talál el, mindkét irányban egyszer."
+		"dac_ability_razor_plasma_field_Lore"									"Ha azt hiszed, hogy Fehér Torony utcáin rémisztő látvány, látnod kéne, amit a Keskeny Útvesztőben művel. - <i>Anessix, sportrajongó</i>"
+
+		//CRYSTAL MAIDEN
+		"dac_ability_crystal_maiden_brilliance_aura"							"Misztikus aura"
+		"dac_ability_crystal_maiden_brilliance_aura_Description"				"PASSZÍV: Kristályhajadon {s:interval} másodpercenként {s:mana_regen} manát ad minden baráti egységnek."
+		"dac_ability_crystal_maiden_brilliance_aura_Lore"						"Derítsétek ki, hogy értem, vagy Turath-ért jött-e ide! - <i>Jull, jégtönki csempész</i>"
+
+		"dac_ability_crystal_maiden_frostbite"									"Átfagyás"
+		"dac_ability_crystal_maiden_frostbite_Description"						"Jégbe zár egy ellenséges egységet, megakadályozva mozgását és támadását, és közben {s:duration} másodpercig másodpercenként {s:damage} sebzést okoz. Az Átfagyás hatása alatti célpontok nem gyógyíthatók."
+		"dac_ability_crystal_maiden_frostbite_Lore"								"Sok minden történik Fehér Toronyban, könnyű néha lemaradni dolgokról. Például, a jégtönki Kristályhajadon régebben csak segítette az embereket, de a jelek szerint mostanában meg fagyasztgatja őket, ami nekem újdonság volt. - <i>Carl, aki utolsónak tudja meg</i>"
+
+		//KUNKKA
+		"dac_ability_kunkka_ghostship"											"Kísértethajó"
+		"dac_ability_kunkka_ghostship_Description"								"Kunkka kísértethajót idéz meg, amely keresztülhajózik a csatán, mielőtt szétzúzódna, {s:ability_damage} sebzést okozva, és a roncstól {s:ghostship_crash_cells} mezőn belül levőket {s:stun_duration} másodpercre megbénítva."
+		"dac_ability_kunkka_ghostship_Lore"										"Eeb mamának sok barátja volt... Kunkka ugyanannyira válaszokat akar, mint én. - <i>Wren, bosszúszomjas leány</i>"
+
+		//TINY
+		"dac_ability_tiny_toss"													"Hajítás"
+		"dac_ability_tiny_toss_Description"										"Pici véletlenszerűen felkap egy szomszédos ellenséget, és a legtávolabbi ellenséges cél felé hajítja.<br><br>Az elhajított egység becsapódáskor {s:damage} sebzést okoz minden ellenségnek {s:damage_radius} mezőn belül, és {s:stun_duration} másodpercre megbénítja őket."
+		"dac_ability_tiny_toss_Lore"											"Úgy látszik, Enno talált magának valami verőembert. - <i>Grek, nagy problémába ütközve</i>"
+
+		//PUCK
+		"dac_ability_puck_illusory_orb"											"Csalóka gömb"
+		"dac_ability_puck_illusory_orb_Description"								"Puck elindít egy mágikus gömböt, ami egyenes vonal mentén lebegve {s:damage} sebzést okoz az útvonalán levő ellenséges egységeknek."
+		"dac_ability_puck_illusory_orb_Lore"									"Ne hagyjátok, hogy a kinézete megtévesszen. Puck egy igazi szemétláda. - <i>Hobgen bölcs szavai</i>"
+
+		"dac_ability_puck_phase_shift"											"Fázisváltás"
+		"dac_ability_puck_phase_shift_Description"								"<i>A SÁRKÁNY SZÖVETSÉGGEL FELOLDVA</i><br>PASSZÍV: Mielőtt sebzést szenvedne, Puck rövid időre egy másik dimenzióba ugrik, ahol {s:shift_duration} másodpercig immunis a sebzéssel szemben."
+		"dac_ability_puck_phase_shift_Lore"										"A kis semmirekellő mindig eltűnik, amikor szükség lenne rá. - <i>Hobgen, türelmetlen bandavezér</i>"
+
+		//CLOCKWERK
+		"dac_ability_clockwerk_battery_assault"									"Tüzérségi támadás"
+		"dac_ability_clockwerk_battery_assault_Description"						"Óraműves {s:damage_tick} másodpercenként nagy erejű repeszeket lövell {s:radius_in_cells} mezőn belüli véletlenszerű ellenséges egységek felé {s:duration} másodpercen át, {s:damage} mágikus sebzést és minibénítást okozva nekik."
+		"dac_ability_clockwerk_battery_assault_Lore"							"A Bronz Hírnök förtelmesnek nevezne, de szerintem igen okos vagy, kicsi buzgó. - <i>Csöndes, eretnek gépezet</i>"
+
+		//LICH
+		"dac_ability_lich_chain_frost"											"Láncfagyasztás"
+		"dac_ability_lich_chain_frost_Description"								"Holtmágus fagygömböt indít el, ami legfeljebb {s:jumps} alkalommal megpattan a közeli ellenséges egységek között, {s:slow_duration} másodpercre {s:slow_value}%-kal csökkentve támadási és mozgási sebességüket, és minden találattal {s:damage} sebzést okozva."
+		"dac_ability_lich_chain_frost_Lore"										"Segítségére lehetünk egymásnak, Holtmágus. - <I>Turath, fausti alkut kötve</i>"
+
+		//TIDEHUNTER
+		"dac_ability_tidehunter_ravage"											"Dúlás"
+		"dac_ability_tidehunter_ravage_Description"								"Dagályvadász a földre csap, amitől csápok törnek elő minden irányban, {s:cells} mezőn belül {s:damage} sebzést okozva és {s:duration} másodpercre megbénítva minden ellenséges egységet."
+		"dac_ability_tidehunter_ravage_Lore"									"Kunkka, jobban kedveltelek, amikor még nem vadászott rád egy leviatán. - <i>Wren, az érdekbarát</i>"
+
+		//SHADOWSHAMAN
+		"dac_ability_shadow_shaman_voodoo"										"Átok"
+		"dac_ability_shadow_shaman_voodoo_Description"							"Árnysámán ártalmatlan lénnyé változtat egy ellenséges egységet, ami {s:duration} másodpercig nem tud támadni és képességet használni."
+		"dac_ability_shadow_shaman_voodoo_Lore"									"Na, ez a fickó tudja, milyen egy rendes műsor! - <i>Grek, kollegiális udvariasságot mutatva</i>"
+
+		"dac_ability_shadow_shaman_mass_serpent_ward"							"Kígyóstrázsatömeg"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Árnysámán négy Kígyóstrázsa megidézésével csapdába ejt egy ellenséges egységet."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"At least he's not turning people into chickens anymore - <i>O'nia, Fowl Mood</i>"
+
+		//ENIGMA
+		"dac_ability_enigma_midnight_pulse"										"A semmi lüktetése"
+		"dac_ability_enigma_midnight_pulse_Description"							"Talány sötét rezonanciával árasztja el a legnagyobb maximális életerejű egység alatti területet, {s:duration} másodpercig maximális életerejük {s:damage_percent}%-ával sebezve a célzott helytől {s:radius} mezőn belül levő összes ellenséges egységet és {s:slow_percent}%-kal lassítva őket."
+		"dac_ability_enigma_midnight_pulse_Lore"								"Van néhány olyan dolog ezen a világon, amit nem lehet uralni. - <i>Turath, őrült mágus</i>"
+
+		//TINKER
+		"dac_ability_tinker_heat_seeking_missile"								"Hőkövető rakéta"
+		"dac_ability_tinker_heat_seeking_missile_Description"					"Bütykölő rakétasorozatot lő ki {s:targets} véletlenszerű ellenségre, találatonként {s:damage_per_missile} sebzést okozva."
+		"dac_ability_tinker_heat_seeking_missile_Lore"							"A Hasonlóképp Gondolkodó Buzgónépek Társasága gondot fog okozni, ha nem nézünk a körmükre. - <i>O'nia, megpróbálva egységes fellépést elérni</i>"
+
+		//SNIPER
+		"dac_ability_sniper_assassinate"										"Orgyilkosság"
+		"dac_ability_sniper_assassinate_Description"							"Mesterlövész {s:castPoint} másodperc alatt célba vesz egy ellenséges egységet, majd pusztító lövést ad le, ami {s:damage} sebzést és minibénítást okot a célponton. Bandavezéreket nem vesz célba."
+		"dac_ability_sniper_assassinate_Lore"									"T'od, régebben egy buzgó számmal nyitottam a műsoromat. Közönségvonzónak remek volt, felelősségbiztosítási téren már nem annyira. - <i>Grek, a könyvelési egyenlegre koncentrálva</i>"
+
+		//NECROLYTE
+		"dac_ability_necrophos_death_pulse"										"Halálhullám"
+		"dac_ability_necrophos_death_pulse_Description"							"Sorvasztó halálhullámot bocsát ki maga körül, ami {s:radius} mezőn belül ellenséges és baráti egységekre is hat.<br><br>Az ellenségeknek {s:damage} sebzést okoz, a szövetségeseket {s:heal} ponttal gyógyítja."
+		"dac_ability_necrophos_death_pulse_Lore"								"Ne már, Sorvasztó, biztos van valami, amire vágysz... - <i>Anessix, ékesszóló ördög</i>"
+
+		//SLARDAR
+		"dac_ability_slardar_amplify_damage"									"Maró pára"
+		"dac_ability_slardar_amplify_damage_Description"						"Slardar {s:duration} másodpercre {s:armor_reduction} ponttal módosítja az ellenség páncélját."
+		"dac_ability_slardar_amplify_damage_Lore"								"Slarkkal tudtam üzletelni, biztos, hogy veled is meg tudok alkudni. - <i>Jull, börtönbor-kedvelő</i>"
+
+		//BEASTMASTER
+		"dac_ability_beastmaster_wild_axes"										"Fejszeröpte"
+		"dac_ability_beastmaster_wild_axes_Description"							"A Vadak Ura elhajítja fejszéit, majd visszahívja azokat, amelyek {s:axe_damage} sebzést okozva vágnak utat az ellenség közt.<br><br>Mindegyik fejsze egyszer találhat el egy ellenséget, és {s:damage_amp}%-kal erősíti a Vadak Urától ezt követően elszenvedett sebzést."
+		"dac_ability_beastmaster_wild_axes_Lore"								"Hány ilyen faölelgető áll még be talpnyalónak a kis nyavalyáshoz? - <i>Grek, Ennóra panaszkodva</i>"
+
+		//VENOMANCER
+		"dac_ability_venomancer_plague_ward"									"Pestisstrázsa"
+		"dac_ability_venomancer_plague_ward_Description"						"Méregszövő {s:num_wards} Pestisstrázsát idéz meg, hogy mellette harcoljanak. A Pestisstrázsák összeadódó mérgezést alkalmaznak célpontjukon."
+		"dac_ability_venomancer_plague_ward_Lore"								"Csodálatos látványt nyújtanak a teremtményei. Hadd segítsek gondozni a kertjét... - <i>Turath, ráeszmélve, hogy hízelgéssel mindent el lehet érni</i>"
+
+		"dac_ability_venomancer_venomous_gale"									"Mérgező fuvallat"
+		"dac_ability_venomancer_venomous_gale_Description"						"Méreggömböt indít egy vonalban. Az ellenségek {s:projectile_damage} mágikus sebzést szenvednek és megmérgeződnek. A hatás alatt álló egységek {s:tick_duration} másodpercre {s:movement_slow}% mozgási sebességet és {s:attack_slow} támadási sebességet veszítenek."
+		"dac_ability_venomancer_venomous_gale_Lore"								"Nem, nem, nem. Ha beküldjük ezt a fickót, a közönség fele holtan végzi. Találj valaki mást. - <i>Grek, megfelelő harcost mérlegelve Szun Vukung helyére</i>"
+
+		"dac_ability_venomancer_poison_sting"									"Méregfullánk"
+		"dac_ability_venomancer_poison_sting_Description"						"PASSZÍV: Minden támadás egy összeadódásnyi Mérget alkalmaz a célponton."
+		"dac_ability_venomancer_poison_sting_Lore"								"Keep that thing away from Enno, more poison is the last thing the little runt needs... - <i>Hobgen, Not A Fan Of Being Poisoned</i>"
+
+		//TEMPLAR ASSASSIN
+		"dac_ability_templar_assassin_refraction"								"Fénytörés"
+		"dac_ability_templar_assassin_refraction_Description"					"Templomos Orgyilkos megközelíthetetlenné válik, elkerülve a sebződést és +{s:bonus_damage} támadási sebzésre téve szert.<br><br>A sebzés és az elkerülés különálló hatások, és mindkettőnek {s:instances} példánya van."
+		"dac_ability_templar_assassin_refraction_Lore"							"Ha segítesz nekem, törleszted az adósságod. - <i>Wren, minden elérhető segítséget összeszedve</i>"
+
+		"dac_ability_templar_assassin_meld"										"Beolvadás"
+		"dac_ability_templar_assassin_meld_Description"							"PASSZÍV: Célpontjához teleportálás után Templomos Orgyilkos {s:damage} többletsebzést okoz első támadásával, és {s:armor_debuff_duration} másodpercre {s:armor_debuff} ponttal csökkenti célpontja páncélját."
+		"dac_ability_templar_assassin_meld_Lore"								"Adottságaid páratlanul alkalmassá tesznek arra, amit elterveztem. - <i>Anessix, állásajánlatot téve</i>"
+		
+		//VIPER
+		"dac_ability_viper_viper_strike"										"Viperamarás"
+		"dac_ability_viper_viper_strike_Description"							"Vipera savas mérge {s:bonus_attack_speed}%-kal csökkenti egy ellenséges egység mozgási és támadási sebességét, és közben időarányosan {s:damage} méregsebzést is okoz.<br><br>A lassító hatás a méreg időtartama alatt gyengül."
+		"dac_ability_viper_viper_strike_Lore"									"Nem különbözünk annyira. Én is tudom, milyen rabszolgának lenni. - <i>Csöndes, cselszövő gépezet</i>"
+
+		"dac_ability_viper_nethertoxin"											"Alvilági méreg"
+		"dac_ability_viper_nethertoxin_Description"								"Vipera megmérgez egy mezőt, másodpercenként {s:damage} sebzést okozva az ott levő bármilyen ellenséges egységnek, legyökereztetve azt és megtörést alkalmazva rá."
+		"dac_ability_viper_nethertoxin_Lore"									"Vigyázz magadra, Slark... Nem lesz jó vége, ha megpróbálsz engem kirabolni. - <i>O'nia, felfedve a zsoldjában álló erőket</i>"
+
+		"dac_ability_viper_corrosive_skin"										"Maró bőr"
+		"dac_ability_viper_corrosive_skin_Description"							"<i>UNLOCKED BY THE DRAGON ALLIANCE</i><br>PASSIVE: Viper exudes an infectious toxin that applies a stack of Poison and slows the attack speed by {s:attack_slow} of any enemy that damages it for {s:dot_duration} seconds. The acid exudate also increases Viper's magic resistance by {s:magic_resistance}."
+		"dac_ability_viper_corrosive_skin_Lore"									"Jó lenne kitalálni, hogyan készíthetnék belőle kabátot... - <i>Carl, nagy álmokat szőve</i>"
+
+		//LUNA
+		"dac_ability_luna_moon_glaive"											"Holdsarlók"
+		"dac_ability_luna_moon_glaive_Description"								"PASSZÍV: Luna sarlói {s:bounces} alkalommal megpattannak {s:range} mezőn belüli ellenséges egységek között.<br><br>A sarlók minden pattanás után {s:damage_reduction_percent}%-kal kevesebbet sebeznek."
+		"dac_ability_luna_moon_glaive_Lore"										"Annak, amit mondasz, a felét se értem, de az tetszik, ahogy azokat az izéket hajigálod. - <i>Grek, az emberbarát</i>"
+
+		//DRAGON KNIGHT
+		"dac_ability_dragon_knight_breathe_fire"								"Tüzes lehelet"
+		"dac_ability_dragon_knight_breathe_fire_Description"					"Tüzes leheletet enged szabadjára Sárkánylovag előtt, ami {s:damage} sebzéssel égeti az ellenségeket, és {s:attack_reduction}%-kal csökkenti támadásaik sebzését {s:duration} másodpercig."
+		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davion, olyasvalakire fecsérled a tehetséged, aki nem értékeli annak szépségét, amit csinálsz. - <i>Hobgen, megpróbálva elcsábítani más harcosát</i>"
+
+		"dac_ability_dragon_knight_elder_dragon_form"							"Őssárkány alak"
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>A SÁRKÁNY SZÖVETSÉGGEL FELOLDVA</i><br>PASSZÍV: A harc kezdetén Sárkánylovag felveszi három nagy erejű őssárkány egyikének alakját, ami {s:bonus_movement_speed}%-kal növeli mozgási sebességét, {s:bonus_attack_damage} ponttal támadási sebzését, és új képességeket ad neki.<br><br>Zöld sárkány:\nA támadások {s:corrosive_breath_duration} másodpercen át másodpercenként {s:corrosive_breath_damage} méregsebzést okoznak.<br><br>Vörös sárkány:\nAz ellenségek megmérgezése mellett a támadások a célpont körüli {s:splash_radius} mezőn belül minden ellenséges egységet {s:splash_damage_percent}% sebzéssel sebeznek.<br><br>Kék sárkány:\nAz ellenségek megmérgezése mellett a célponttól {s:frost_aoe} mezőn belüli ellenséges egységek mozgási sebességét {s:frost_bonus_movement_speed}%-kal, támadási sebességét pedig {s:frost_bonus_attack_speed}%-kal csökkenti {s:frost_duration} másodpercig."
+		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"Kaden elismerően beszélt rólad, reméljük, méltó vagy a dicséretére. - <i>Wren, Sárkányvára barátja</i>"
+
+		//ENCHANTRESS
+		"dac_ability_enchantress_natures_attendants"							"A természet segítői"
+		"dac_ability_enchantress_natures_attendants_Description"				"Bűbájos {s:wisp_count} apró lélekből álló felhőt idéz meg, amelyek {s:radius} mezőn belül gyógyítják az összes szövetségest.<br><br>A szövetségesek {s:duration} másodpercen át {s:heal_interval} másodpercenként {s:heal} pontot gyógyulnak."
+		"dac_ability_enchantress_natures_attendants_Lore"						"Egy napig se fogja húzni Fehér Toronyban. Egyetlen napig se. - <i>Hobgen, alábecsülve ellenfelét</i>"
+
+		//BOUNTY HUNTER
+		"dac_ability_bounty_hunter_shuriken_toss"								"Surikendobás"
+		"dac_ability_bounty_hunter_shuriken_toss_Description"					"Fejvadász halálos surikent dob egy ellenség felé, {s:damage} sebzést és minibénítást okozva a célpontnak."
+		"dac_ability_bounty_hunter_shuriken_toss_Lore"							"Amíg van rá pénzed, mindig olyanokban bízz, akiknek a hűségét meg lehet venni. - <i>O'nia kétes bölcsessége</i>"
+
+		//BATRIDER
+		"dac_ability_batrider_sticky_napalm"									"Ragacsos napalm"
+		"dac_ability_batrider_sticky_napalm_Description"						"Denevérlovas ragacsos olajat dob el, beborítva a földet a becsapódás helyétől {s:radius} mezőn belül. Az olaj összeadódásonként {s:damage} sebzést ad Denevérlovas támadásaihoz, az ellenség mozgási és támadási sebességét pedig {s:movement_speed_pct}%-kal csökkenti.<br><br>A Ragacsos napalm újabb varázslásai tovább növelik a sebzést és a lassítási százalékokat, legfeljebb {s:max_stacks} összeadódásig."
+		"dac_ability_batrider_sticky_napalm_Lore"								"Imádom ezt a fickót. IMÁDOM! - <i>Hobgen, piromániás</i>"
+
+		//DOOM BRINGER
+		"dac_ability_doom_bringer_doom"											"Doom"
+		"dac_ability_doom_bringer_doom_Description"								"Végzet nagy erejű átokkal meggátol egy ellenséget a varázslásban és megtöri azt, közben másodpercenként {s:damage} sebzést is okozva neki.<br><br>{s:duration} másodpercig tart."
+		"dac_ability_doom_bringer_doom_Lore"									"Én jobb szeretek metaforikus ördögökkel alkudozni... - <i>O'nia, Anessix szövetségeseit véleményezve</i>"
+
+		//GYROCOPTER
+		"dac_ability_gyrocopter_call_down"										"Légicsapás"
+		"dac_ability_gyrocopter_call_down_Description"							"Girokopteres rakétatámadást hajt végre, a becsapódás helyétől {s:radius} mezőn belül minden ellenséget sebezve.<br><br>Két rakéta érkezik egymás után, az első {s:damage_first} sebzést és {s:slow_duration_first} másodpercre {s:slow_first}% lassítást, a második pedig {s:damage_second} sebzést és {s:slow_duration_second} másodpercre {s:slow_second}% lassítást okoz."
+		"dac_ability_gyrocopter_call_down_Lore"									"Gondolj bele, mennyi árut tudnánk megmozgatni a segítségével. - <i>Jull, távlatokban gondolkodva</i>"
+
+		//ALCHEMIST
+		"dac_ability_alchemist_acid_spray"										"Savzuhany"
+		"dac_ability_alchemist_acid_spray_Description"							"Alkimista nagy nyomású savat permetez, ami a célponttól {s:radius} mezőn belüli összes ellenségre hat.<br><br>A szennyezett területre lépő ellenséges egységek másodpercenként {s:damage} sebzést szenvednek, páncéljuk pedig {s:armor_reduction} ponttal csökken."
+		"dac_ability_alchemist_acid_spray_Lore"									"Te emberek arcát szereted leégetni, én meg emberek otthonát szeretem felégetni... Egymásnak teremtettünk. - <i>Hobgen, áthidalva egy kulturális szakadékot</i>"
+
+		// Lycan
+		"dac_ability_lycan_wolf_spawn_shift"									"Alakváltás"
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Likantróp megidéz két farkast, majd átalakul, maximális életereje {s:hp_per}%-ot nő, mozgási sebessége {s:speed} lesz, és {s:crit_chance}% esélyt kap {s:crit_bonus}% sebzésű kritikus találatra."
+		"dac_ability_lycan_wolf_spawn_shift_Lore"								"Kérlek, Likantróp, segíts bosszút állnom. - <i>Wren, Likantróp emberségére apellálva</i>"
+		
+		// LONE DRUID
+		"dac_ability_lone_druid_summon_bear"									"Lélekmedve idézése"
+		"dac_ability_lone_druid_summon_bear_Description"						"Megidéz egy erős lélekmedve társat."
+		"dac_ability_lone_druid_summon_bear_Lore"								"Csak tartsd tőlem távol a medvét, jó? Medvékkel nem kezdek. - <i>Grek, a medveiszonyos</i>"
+		
+
+		//CHAOS KNIGHT
+		"dac_ability_chaos_knight_chaos_bolt"									"Káoszlövedék"
+		"dac_ability_chaos_knight_chaos_bolt_Description"						"Káoszlovag misztikus energialövedéket lő ki, amely {s:damage_min}-{s:damage_max} sebzést és {s:stun_min}-{s:stun_max} másodperces bénítást okoz."
+		"dac_ability_chaos_knight_chaos_bolt_Lore"								"Ráférne Fehér Toronyra egy kis káosz. - <i>Hobgen, a káosz ügynöke</i>"
+
+		//OGRE MAGI
+		"dac_ability_ogre_magi_bloodlust"										"Vérszomj"
+		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Mágus dühöngésre késztet egy baráti egységet, {s:bonus_movement_speed}%-kal növelve mozgási, és {s:bonus_attack_speed}%-kal támadási sebességét. Ha Ogre Mágus magára varázsolja, a támadási sebességbónusz {s:self_bonus}% lesz."
+		"dac_ability_ogre_magi_bloodlust_Lore"									"A Mágus kétszer annyit megér, mint amennyit felszámít. Ugyanakkor, a Mágus szerencsére egy idióta. - <i>O'ina, a potyaleső</i>"
+
+		// MAGNUS
+		"dac_ability_magnataur_empower"											"Buzdítás"
+		"dac_ability_magnataur_empower_Description"								"Magnus felbőszít egy baráti egységet, {s:bonus_damage_pct}% többletsebzést és {s:cleave_damage_pct}% területi támadást adva neki {s:duration} másodpercre."
+		"dac_ability_magnataur_empower_Lore"									"Hadd higgye Anessix, hogy rászedheti Ennót. Majd rájön, mekkorát tévedett, néhány másodperccel azelőtt, hogy agyontapossák. - <i>Hobgen, egy szokatlanul türelmes pillanatában</i>"
+
+		//TREANT PROTECTOR
+		"dac_ability_treant_leech_seed"											"Szipolyozó mag"
+		"dac_ability_treant_leech_seed_Description"								"Védelmező Treant életcsapoló magot ültet egy ellenséges egységbe, amely {s:damage_interval} másodpercenként {s:leech_damage} életerejét szívja el, miközben {s:movement_slow}%-kal csökkenti támadási és mozgási sebességét is.<br><br>A mag gyógyítja a célpont körül {s:radius} mezőn belüli baráti egységeket. {s:duration} másodpercig tart. Ha a jelenlegi célpont meghal, egy {s:radius} mezőn belüli új célpontra ugrik át."
+		"dac_ability_treant_leech_seed_Lore"									"Nem fogok hazudni; nem számítottam rá, hogy Enno egy fától fog segítséget kapni. - <i>Jull és Anessix egy ital fölött</i>"
+
+		//KEEPER OF THE LIGHT
+		"dac_ability_keeper_of_the_light_illuminate"							"Megvilágosulás"
+		"dac_ability_keeper_of_the_light_illuminate_Description"				"A Fény Őrzője energiát gyűjt, ami annál erősebb lesz, minél tovább van fenntartva. Kibocsátáskor energiahullám indul el, amely a fenntartási idő minden másodperce után {s:damage_per_second} sebzést okoz."
+		"dac_ability_keeper_of_the_light_illuminate_Lore"						"Az Őrző erősebb, mint amilyennek mutatja magát; ha nem tartjuk kordában, ő lesz mindannyiunk veszte. - <i>Turath, a Fénypusztító</i>"
+
+		// MEDUSA
+		"dac_ability_medusa_stone_gaze"											"Kővé dermesztő tekintet"
+		"dac_ability_medusa_stone_gaze_Description"								"A Meduszától {s:radius} mezőn belül levő bármely rá néző ellenséges egység mozgási és támadási sebessége {s:slow}%-kal csökken.<br><br>Ha összesen {s:face_duration} másodpercen át nézett Meduszára, az egység kővé válik.<br><br>A kővé vált egységek megbénulnak, és {s:bonus_physical_damage}% fizikai többletsebzést szenvednek."
+		"dac_ability_medusa_stone_gaze_Lore"									"Kedvemre való hölgy, de az én szívem csak Mireskáért repes. - <i>Hobgen, a szerelmes bűnöző</i>"
+
+		"dac_ability_medusa_split_shot"											"Széthasított nyíl"
+		"dac_ability_medusa_split_shot_Description"								"PASSZÍV: Medusza legfeljebb további {s:extra_shots} mágikus nyilat lő ki, további célpontokat találva el elsődleges célpontjától {s:range} mezőn belül. A plusz nyilak az elsődleges nyíl sebzésének {s:damage_modifier}%-át okozzák."
+		"dac_ability_medusa_split_shot_Lore"									"Láttad már ezt a hölgyet íjjal lőni? Mivel még élsz, valószínűleg nem... - <i>Grek, legújabb toborzását magasztalva</i>"
+
+		// TROLL WARLORD
+		"dac_ability_troll_warlord_fervor"										"Buzgalom"
+		"dac_ability_troll_warlord_fervor_Description"							"PASSZÍV: Troll Hadúr csapásai csak úgy záporoznak, minden összeadódással {s:attack_speed}% támadási sebességbónuszt kapva.<br><br>Ha Troll Hadúr célpontot vált, az összeadódások száma nullázódik.<br><br>A hatás legfeljebb {s:max_stacks} alkalommal adódhat össze."
+		"dac_ability_troll_warlord_fervor_Lore"									"Hatékony és könyörtelen... Akár csak én. - <i>Csöndes, a hathatós</i>"
+
+
+		// SHADOW_DEMON
+		"dac_ability_shadow_demon_demonic_purge"								"Démoni megtisztítás"
+		"dac_ability_shadow_demon_demonic_purge_Description"					"Ismétlődően megtisztítja a célzott ellenséges egységet, eltávolítva erősítéseit, megtörést alkalmazva rajta és {s:duration} másodpercen át lassítva azt. Az egység lassan visszanyeri mozgási és támadási sebességét a hatás végéig, amikor {s:damage} sebzést szenved."
+		"dac_ability_shadow_demon_demonic_purge_Lore"							"Na ide hallgass, te szőrös rohadék, tudom, azt hiszed, összedolgozhatsz Anessixszel, de láttad már, miféle alakokkal szűri össze a levet? - <i>Hobgen, aki nem rajong a démonokért (se Ennóért)</i>"
+
+		// SVEN
+		"dac_ability_sven_cleave"												"Nagy suhintás"
+		"dac_ability_sven_cleave_Description"									"PASSZÍV: ennek az egységnek a közelharci támadásai {s:cleave_damage_pct}%-os sebzéssel eltalálják a közeli ellenségeket."
+		"dac_ability_sven_cleave_Lore"											"Láttál már belelendült Virrasztó Lovagot? Gyönyörű. - <i>Grek, a csataínyenc</i>"
+
+		"dac_ability_sven_gods_strength"										"Isten ereje"
+		"dac_ability_sven_gods_strength_Description"							"Sven felbőszül és {s:duration} másodpercre {s:bonus_damage_from_cast}% sebzést kap."
+		"dac_ability_sven_gods_strength_Lore"									"Semmit sem szeretek jobban egy bosszúra éhes embernél. - <i>Anessix, végigmérve Svent</i>"
+
+		// SHREDDER
+		"dac_ability_timbersaw_whirling_death"									"Örvénylő halál"
+		"dac_ability_timbersaw_whirling_death_Description"						"Fanyüvő páncélöltözékének éles fogai felpörögnek, {s:radius} mezőn belül {s:damage} sebzést okozva az ellenségeknek."
+		"dac_ability_timbersaw_whirling_death_Lore"								"Ha már Enno bevonta minden erdei barátját, én is szóltam néhánynak az enyémek közül. - <i>Hobgen, problémamegoldásba kezdve</i>"
+
+		//TUSK
+		"dac_ability_tusk_walrus_punch"											"Rozmár ÜTÉS!"
+		"dac_ability_tusk_walrus_punch_Description"								"Agyaras beviszi nagy erejű rozmárütését, egy kritikus találatot, amely {s:critical_damage}% sebzést okoz és {s:air_time} másodpercre a levegőbe repíti az áldozatát. Földet érve az áldozat {s:slow_duration} másodperc időtartamra {s:move_slow}%-kal lassul. Ütés közben Agyarast nem lehet megölni."
+		"dac_ability_tusk_walrus_punch_Lore"									"Valaha a barátom volt. Hamarosan meglátjuk, segíteni jött-e, vagy azért, hogy lecsapjon. - <i>Jull, az ifjúkorán töprengve</i>"
+		
+		
+		//ABADDON
+		"dac_ability_abaddon_aphotic_shield"									"Fénytelen pajzs"
+		"dac_ability_abaddon_aphotic_shield_Description"						"Abaddon olyan pajzzsal véd egy baráti egységet, amely {s:duration} másodpercen át elnyel {s:damage_absorb} sebzést.<br><br>Amikor a pajzs megsemmisül, energiakitörést okozva {s:radius} mezőn belül {s:damage_absorb} sebzést okoz az ellenségeknek.<br><br>Varázsláskor eltávolít bizonyos fajta gyengítéseket és bénításokat."
+		"dac_ability_abaddon_aphotic_shield_Lore"								"Nagy tisztelettel adózom az Avernus-háznak. - <i>O'nia, szívességért kuncsorogva</i>"
+
+		// TERRORBLADE
+		"dac_ability_terrorblade_metamorph"										"Metamorfózis"
+		"dac_ability_terrorblade_metamorph_Description"							"Rémpenge erős démonná változik, {s:bonus_attack_range} mező harctávú távolsági támadást, valamint {s:bonus_attack_damage} többletsebzést és {s:bonus_attack_speed} támadási sebességbónuszt kapva. Ezen felül Rémpenge e képesség kezdetén elcseréli életerő-értékét egy szövetségesével."
+		"dac_ability_terrorblade_metamorph_Lore"								"Amikor Anessixszel látod beszélgetni azt az alakot, tudod, hogy valami rossz fog történni. - <i>Jull, a jó megfigyelő</i>"
+
+		// TECHIES
+		"dac_ability_techies_bomb" 												"Távvezérelt akna"
+		"dac_ability_techies_bomb_Description"									"A csapat robbanóanyagot telepít, amely {s:explode_time} másodperc után felrobbanva {s:range} mező nagyságú területen {s:damage} sebzést okoz.<br><br>A maximális távolság felére levő ellenségeken fele annyit sebez."
+		"dac_ability_techies_bomb_Lore"											"Mondhatsz a buzgókról, amit akarsz, de mindig megnevettetik az embert. - <i>Hobgen, egy robbantási bemutatót nézve</i>"
+
+		//DISRUPTOR
+		"dac_ability_disruptor_static_storm"									"Elektrosztatikus vihar"
+		"dac_ability_disruptor_static_storm_Description"						"Megbontó sebzést okozó elektromos vihart hoz létre, amely a középpontjától {s:radius} mezőn belül {s:duration} másodpercre elhallgattat minden ellenséges egységet.<br><br>A sebzés kezdetben gyenge, de a vihar időtartama alatt erősödik, összesen {s:damage_total} sebzést okozva a vihar időtartama alatt."
+		"dac_ability_disruptor_static_storm_Lore"								"Nem vagyok biztos benne, tényleg nekem segíteni jött-e, vagy csak Fejszést akarja szemmel tartani. - <i>Wren, egy díszes kompánia vezére</i>"
+
+		//OMNIKNIGHT
+		"dac_ability_omniknight_purification"									"Megtisztítás"
+		"dac_ability_omniknight_purification_Description"						"A Mindenség Lovagja azonnal {s:heal} ponttal gyógyít egy baráti egységet, és {s:radius} mezőn belül ugyanannyival sebez minden ellenséges egységet."
+		"dac_ability_omniknight_purification_Lore"								"A hitet forgatja fegyverként... Ahogy én is. - <i>Turath, a téveszmés megváltó</i>"
+		
+		//PUDGE
+		"dac_ability_pudge_meathook"											"Húskampó"
+		"dac_ability_pudge_meathook_Description"								"Puhos egy véres kampót hajít legtávolabbi ellensége felé, magához húzva az áldozatot és {s:damage} sebzést okozva.<br><br>Puhos és az 1 mezőn belüli szövetségesei ezt az áldozatot fogják támadni, míg az meg nem hal."
+		"dac_ability_pudge_meathook_Lore"										"Puhos? Ó, remek fickó az. Mindig beköszön, amikor épp hullákat barnítok. - <i>Carl, élőholt szabó</i>"
+		
+		//WARLOCK
+		"dac_ability_warlock_shadow_word"										"Árnyszó"
+		"dac_ability_warlock_shadow_word_Description"							"Átokkovács ráolvasást suttogva azonnal helyreállt {s:burst_tooltip} életerőt egy baráti egységen, majd {s:duration} másodpercen át másodpercenként további {s:hot_tooltip} életerőt, vagy másodpercenként {s:damage_tick} sebzést okoz egy ellenséges egységnek {s:duration} másodpercen át."
+		"dac_ability_warlock_shadow_word_Lore"									"Bizonyos titkokat nem szokás kifecsegni. Demnok fizetni fog az indiszkréciójáért. - <i>Anessix, az időt húzva</i>"
+		
+		//BLOODSEEKER
+		"dac_ability_bloodseeker_blood_rage"									"Vérdüh"
+		"dac_ability_bloodseeker_blood_rage_Description"						"PASSZÍV: Vérkopó minden másodpercben maximális életerejének {s:self_dmg_pct}%-át szenvedi el sebzésként.<br><br>Ahogy veszít életerejéből, úgy nyer támadási sebességet, maximum {s:attack_speed_bonus_max} értékig {s:min_health_pct}% életerőnél.<br><br>Valahányszor egy szomszédos ellensége meghal, visszanyeri maximális életerejének {s:heal_pct}%-át."
+		"dac_ability_bloodseeker_blood_rage_Lore"								"Ha bármit is tanultam pályafutásom során, az az, hogy a népek szeretik a vért. Vegyétek fel ezt az alakot. - <i>Grek, a határozott szponzor</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double"									"Viharmás"
+		"dac_ability_arc_warden_tempest_double_Description"						"Égi Börtönőr másolatot hoz létre magából, annyi életerővel, amennyivel éppen rendelkezik.<br><br>A másolat használni tudja Égi Börtönőr összes jelenlegi tárgyát, és megpróbálja ugyanazt az ellenséget támadni, mint megidézője. A klónok nem tudnak klónokat létrehozni, és {s:clone_dmg_reduction}%-kal kevesebbet sebeznek."
+		"dac_ability_arc_warden_tempest_double_Lore"							"A teremtés rejtelmeit hozza magával. - <i>Turath, a titokzatos próféta</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double_no_items"						"Viharmás"
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Égi Börtönőr másolatot hoz létre magából, annyi életerővel, amennyivel éppen rendelkezik."
+		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"A teremtés rejtelmeit hozza magával. - <i>Turath, a titokzatos próféta</i>"
+
+		//MIRANA
+		"dac_ability_mirana_arrow"												"Szent nyíl"
+		"dac_ability_mirana_arrow_Description"									"Mirana halálos pontossággal kilő egy nagy távolságra repülő nyilat, {s:duration} másodpercre megbénítva célpontját és {s:damage} sebzést okozva."
+		"dac_ability_mirana_arrow_Lore"											"Sose bízz egy fanatikusban, Wren. Nem éri meg. - <i>Jull, baráti tanácsot adva</i>"
+		
+		//SLARK
+		"dac_ability_slark_essence_shift"										"Esszenciacsere"
+		"dac_ability_slark_essence_shift_description"							"PASSZÍV: Slark minden támadással {s:stolen_dmg} ponttal növeli sebzést és {s:stolen_aspd} ponttal támadási sebességét."
+		"dac_ability_slark_essence_shift_lore"									"Slarknak alapvető szerepe van az árunk ki- és bejuttatásában Sötét Zátonyra. - <i>Jull, maffiózó</i>"
+
+		"dac_ability_slark_pounce"												"Lerántás"
+		"dac_ability_slark_pounce_description"									"PASSZÍV: egy ugrás után földet érve Slark {s:disarm_duration} másodpercre lefegyverzi a célpontját."
+		"dac_ability_slark_pounce_lore"											"Hogy sikerült megint meglepnie minket?! - <i>Hobgen, a heves vérmérsékletű</i>"
+
+		//BLACK DRAGON
+		"dac_ability_black_dragon_splash_attack"								"Szétterülő támadás"
+		"dac_ability_black_dragon_splash_attack_description"					"PASSZÍV: a fekete sárkány távolsági támadása szétterülő sebzést okoz a sárkány célpontjától 1 mezőn belül levő egységeken."
+		"dac_ability_black_dragon_splash_attack_lore"							" "
+
+		//"SVEN GREAT CLEAVE - used for YEAR BEAST and ROSHAN"
+		"dac_ability_sven_great_cleave"											"Nagy suhintás"
+		"dac_ability_sven_great_cleave_description"								"PASSZÍV: ennek az egységnek a közelharci támadásai minden közeli ellenséget eltalálnak."
+		"dac_ability_sven_great_cleave_lore"									" "
+
+		//"ROSHAN SPELL IMMUNE"
+		"dac_ability_roshan_spell_immune"										"Varázsimmunis"
+		"dac_ability_roshan_spell_immune_description"							"AKTÍV: Roshan {s:duration} másodpercre varázsimmunissá válik."
+		"dac_ability_roshan_spell_immune_lore"									" "
+
+		// Lone Druid Bear
+		"dac_ability_lone_druid_spirit_bear_entangle"							"Béklyózó karmok"
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"A Lélekmedve támadásainak esélye van megbéklyózással megbénítani a célpontot."
+		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
+
+		// THUNDER LIZARD BLOODLUST
+		"dac_ability_thunder_lizard_bloodlust"									"Vérszomj"
+		"dac_ability_thunder_lizard_bloodlust_Description"						"A teremtmény dühöngésre késztet egy baráti egységet, {s:bonus_movement_speed}%-kal növelve mozgási, és {s:bonus_attack_speed}%-kal támadási sebességét. Ha magára varázsolja, a támadási sebességbónusz {s:self_bonus}% lesz."
+		"dac_ability_thunder_lizard_bloodlust_Lore"								" "
+
+		// HEALING WARD PLACEABLE
+		"dac_ability_healing_ward_healing_aura"											"Gyógyító aura"
+		"dac_ability_healing_ward_healing_aura_description"								"Másodpercenként {s:health_regen} ÉP-vel gyógyítja a baráti egységeket {s:heal_range} mezőn belül."
+		"dac_ability_healing_ward_healing_aura_lore"									""
+
+		// TOMBSTONE PLACEABLE
+		"dac_ability_tombstone_raise_zombies"										"Zombiidézés"
+		"dac_ability_tombstone_raise_zombies_description"							"A(z) {s:range} mezőn belül meghaló egységekből zombi születik."
+		"dac_ability_tombstone_raise_zombies_lore"									""
+
+		// BARRICADE PLACEABLE
+		"dac_ability_barricade_aura"										"Barikád"
+		"dac_ability_barricade_aura_description"							"Egy, a közeli egységeket védő barikád, ami varázsimmunis."
+		"dac_ability_barricade_aura_lore"									""
+
+		// TARGET DUMMY PLACEABLE
+		"dac_ability_target_dummy_taunt"										"Gúnyolódás"
+		"dac_ability_target_dummy_taunt_description"							"Célpont pajtás gúnyolódik."
+		"dac_ability_target_dummy_taunt_lore"									""
+
+		// CINDERWALL TALENT
+		"dac_ability_cinderwall_aura"										"Zsarátnokfal"
+		"dac_ability_cinderwall_aura_description"							"A zsarátnokfal védi a közeli baráti egységeket, és mágiaimmunis. A közeli ellenséges egységeket felgyújtja."
+		"dac_ability_cinderwall_aura_lore"									""
+
+		// FACELESS VOID
+		"dac_ability_faceless_void_chronocube"										"Kronokocka"
+		"dac_ability_faceless_void_chronocube_description"							"Egy hólyagot hoz létre a téridőben, a kocka közepétől számított {s:radius} mezőn belül {s:stun_duration} másodpercre megbénítva minden egységet. Arctalan Üresség a kockán belül nagyon gyorsan mozog és {s:bonus_attack_speed} támadási sebességet kap. Csak Arctalan Ürességre nem hat. Varázsláskor Arctalan Üresség megpróbálja az összes szövetséges orgyilkost kiteleportálni a kockából."
+		"dac_ability_faceless_void_chronocube_lore"									"Claszureme be fog avatkozni. Ez problémát okozhat. - <i>Jull, felismerve, hogy az időnek nem tud behúzni egyet</i>"
+
+		"dac_ability_faceless_void_time_walk"										"Időugrás"
+		"dac_ability_faceless_void_time_walk_description"							"PASSZÍV: Arctalan Üresség a következő célpontjához siet, közben meggyógyítva az elmúlt 2 másodpercben kapott összes sebződést."
+		"dac_ability_faceless_void_time_walk_lore"									"Én nem piszkálnám azokat az átkozott homokórákat, szerinted kell az nekem, hogy Pierpont itt szimatoljon? - <i>Hobgen, az észszerű mániákus</i>"
+
+		// LEGION COMMANDER
+		"dac_ability_legion_commander_duel"											"Párbaj"
+		"dac_ability_legion_commander_duel_description"								"Légióparancsnok célba veszi az 1 mezőn belüli legalacsonyabb életerejű ellenséget, és {s:stun_duration} másodpercig egymás ellen kényszerülnek harcolni. Egyik hős sem használhat képességeket. Ha az egyik hős meghal az időtartam alatt, a párbajt nyerő hős {s:winner_bonus_damage} maradandó többletsebzést kap. (Kiütésben 20/32/48 többletsebzés)."
+		"dac_ability_legion_commander_duel_lore"									"Nem szükséges ez a hozzáállás, Tresdin... Segíthetek megtalálnod Rixet. - <i>Anessix, feszült helyzetben is higgadtan</i>"
+
+		"dac_ability_legion_commander_will_of_the_bullsnake"						"A Bikakígyó akarata"
+		"dac_ability_legion_commander_will_of_the_bullsnake_description"			"<i>A SÁRKÁNY SZÖVETSÉGGEL FELOLDVA.</i><br>PASSZÍV: amikor Légióparancsnok párbajt nyer, azonnal maximális életereje {s:heal_percentage}%-ával gyógyul."
+		"dac_ability_legion_commander_will_of_the_bullsnake_lore"					"Ismerem a fajtáját, parancsnok; maga a legveszedelmesebb teremtmények egyike. Hívő. - <i>Wren, a világi dolgokban járatos</i>"
+
+		"dac_ability_legion_commander_element"										"Elementáris roham"
+		"dac_ability_legion_commander_element_description"							"PASSZÍV: Amikor Légióparancsnok Háromszögcsapást hajt végre a Lélek szövetség részeként, dupla sebzést okoz."
+		"dac_ability_legion_commander_element_lore"									"A katonák többségét kísértik az elesettek lelkei... Ő viszont vezeti őket. - <i>Jull, jól ismerve a semmibe révedő tekintetet</i>"
+
+		// NYX ASSASSIN
+		"dac_ability_nyx_assassin_spiked_carapace"									"Tüskés kültakaró"
+		"dac_ability_nyx_assassin_spiked_carapace_description"						"Nyx Orgyilkos tüskéket bocsát ki páncéljából, visszaverve és közömbösítve az okozott sebzés {s:damage_taken_reflect_percentage}%-át (forrásonként maximum egyszer), valamint {s:stun_duration} másodpercre megbénítva a sebzés forrását."
+		"dac_ability_nyx_assassin_spiked_carapace_lore"								"A helyes megnevezés: ízeltlábú. - <i>Csöndes, a részletekre ügyelő</i>"
+
+		"dac_ability_nyx_assassin_vendetta"											"Vérbosszú"
+		"dac_ability_nyx_assassin_vendetta_description"								"PASSZÍV: Egy egységhez teleportálás után Nyx Orgyilkos {s:bonus_damage} többletsebzést okoz következő támadásával, és {s:break_duration} másodperces Megtörést alkalmaz az ellenségen, kikapcsolva annak minden passzív hatását."
+		"dac_ability_nyx_assassin_vendetta_lore"									"Rovar, ízeltlábú... Kit érdekel, a lényeg, hogy meg kell ölnie nekem valakit, szóval... meg tudod szerezni, vagy nem? - <i>O'nia, aki nem kedveli, ha kijavítják</i>"
+
+		// WEAVER
+		"dac_ability_weaver_shukuchi"												"Sukucsi"
+		"dac_ability_weaver_shukuchi_description"									"Takács láthatatlanná válik, célozhatatlan lesz, és gyorsan áthalad a legfeljebb {s:distance_cells} mezőre levő célpontokon. Takács {s:damage} sebzést okoz minden ellenségnek, melyen áthalad."
+		"dac_ability_weaver_shukuchi_lore"											"Takács... Együtt újraszőjük a világot. - <i>Turath, aki elég bolond, hogy megtegye</i>"
+
+		// BROODMOTHER
+		"dac_ability_broodmother_spawn_spiderlings"									"Pókifjoncok szaporítása"
+		"dac_ability_broodmother_spawn_spiderlings_description"						"Pókanya egy ellenséges egységbe juttatja ivadékait, {s:damage} sebzést okozva. Ha a célpont meghal, {s:num_spiderlings} pókifjonc kel ki. A pókifjoncok célozhatatlan egységek, amelyek kis sebzést okoznak és 1 életerejük van."
+		"dac_ability_broodmother_spawn_spiderlings_lore"							"Look I may burn people alive, but at least I'm not hatching eggs in people... - <i>In which Hobgen equivocates"
+
+		"dac_ability_broodmother_spin_web"											"Hálószövés"
+		"dac_ability_broodmother_spin_web_description"								"Pókanya {s:radius} mező széles hálót sző egy ellenséges egységre. A hálóban levő ellenségek {s:debuff_attack_speed} támadási-, {s:debuff_speed}% mozgási- és {s:debuff_casting_speed}% varázslási sebességet veszítenek."
+		"dac_ability_broodmother_spin_web_lore"										"Nem bérelhetném fel esetleg a porontyaidat, hogy fonjanak nekem egy kis selymet? Szinte biztos vagyok benne, hogy pókokra nem vonatkoznak a gyermekmunka-törvények. - <i>Carl, az etikus szabó</i>"
+
+		// WISP
+		"dac_ability_wisp_tether"													"Összefonódás"
+		"dac_ability_wisp_tether_description"										"Ió összeköti magát a legközelebbi szövetséges hőssel, és feléje húzza magát. Ió és az összekötött hős {s:bonus_attack_speed} támadási sebességet és {s:damage_reduction}% sebződéscsökkentést kap. A kötelék megszakad, ha Ió {s:tether_break_distance} mezőnél messzebbre kerül."
+		"dac_ability_wisp_tether_lore"												"<i>Enno, meredten Ióra bámulva</i>"
+
+		"dac_ability_wisp_relocate"													"Áthelyeződés"
+		"dac_ability_wisp_relocate_description"										"Ió {s:relocate_time_away} másodpercre elteleportál, hogy felélesszen egy halott hőst. A két egység teljes életerővel, minden negatív hatástól megtisztítva tér vissza."
+		"dac_ability_wisp_relocate_lore"											"<i>Ió, visszabámulva</i>"
+
+		// BRISTLEBACK	
+		"dac_ability_bristleback_quill_spray"										"Tüskezápor"
+		"dac_ability_bristleback_quill_spray_description"							"Tüskéshátú tüskéket lövell ki a hátából, {s:radius} mezőn belül minden ellenséget sebezve. Az ellenségek {s:quill_base_damage} sebzést szenvednek, valamint további {s:quill_stack_damage} sebzést minden alkalom után, ahányszor Tüskezápor találta el őket ebben a körben, maximum {s:max_stacks} alkalomig."
+		"dac_ability_bristleback_quill_spray_lore"									"Hadd tegyek valamit fájdalmasan világossá. Te és Agyaras ma éjjel nem veritek szét a kocsmámat. - <i>Jull, kidobó</i>"
+
+		// LIFESTEALER
+		"dac_ability_life_stealer_feast"											"Lakmározás"
+		"dac_ability_life_stealer_feast_description"								"PASSZÍV: Életlopó támadásai sebzik az ellenséget, őt pedig célpontja maximális életerejének {s:lifesteal_percentage}%-ával gyógyítják."
+		"dac_ability_life_stealer_feast_lore"										"Nem tetszik az a feltételezésed, hogy az állapotom okán nyilván tudomásom kell legyen Életlopó hollétéről. - <i>Carl, a gyakran félreismert</i>"
+
+		// DAZZLE
+		"dac_ability_dazzle_shadow_wave"											"Árnyhullám"
+		"dac_ability_dazzle_shadow_wave_description"								"Káprázat energiakisülést bocsát ki, ami átível legfeljebb {s:max_targets}, egymástól {s:bounce_radius} mezőn belüli szövetséges között, {s:damage} ponttal gyógyítva mindegyiküket, és közben {s:damage} ponttal sebezve bármilyen {s:damage_radius} mezőn belüli ellenséges egységet. Az Árnyhullám Káprázatot mindig gyógyítja."
+		"dac_ability_dazzle_shadow_wave_lore"										"És mennyiért állnál az alkalmazásomba? Erős érdekem fűződik az életben maradásomhoz. - <i>O'nia, árnyékra vetődve</i>"
+
+		// STORM SPIRIT
+		"dac_ability_storm_spirit_ball_lightning"									"Gömbvillám"
+		"dac_ability_storm_spirit_ball_lightning_description"						"Viharlélek illékony elektromossággá változik, keresztülhasítva a csatatéren és {s:damage} sebzést okozva minden egységnek, amelyen áthalad, plusz {s:damage_per_cell} sebzést minden megtett mező után."
+		"dac_ability_storm_spirit_ball_lightning_lore"								"Az egoistát a szíve motiválja, nem az esze. Ezért őt a legkönnyebb csapdába ejteni. - <i>Turath, csapdát állítva</i>"
+
+		"dac_ability_storm_spirit_element"											"Viharelementál"
+		"dac_ability_storm_spirit_element_description"								"PASSZÍV: Amikor Viharlélek Háromszögcsapást hajt végre, 3 másodpercre lefegyverzi a hatás alá került ellenséges egységeket."
+		"dac_ability_storm_spirit_element_lore"										"Csöndes miatt nem kell aggódnunk, dehogy akar ő a vihar közelében lenni. - <i>Anessix, minden szempontot figyelembe véve</i>"
+
+		// EMBER SPIRIT
+		"dac_ability_ember_spirit_sleight_of_fist"									"Öklössorozat"
+		"dac_ability_ember_spirit_sleight_of_fist_description"						"Parázslélek tüzesen ide-oda cikázik, minden ellenséget megtámadva {s:cells} mezőn belül, majd visszatér kiindulási helyére. A támadások {s:bonus_damage} többletsebzést okoznak."
+		"dac_ability_ember_spirit_sleight_of_fist_lore"								"Lehet, hogy úgy harcol, akár egy démon, de becsületes teremtmény. Megbízom az adott szavában. - <i>Jull, a becsületes betyár</i>"
+
+		"dac_ability_ember_spirit_element"											"Tűzelementál"
+		"dac_ability_ember_spirit_element_description"								"PASSZÍV: Amikor Parázslélek Háromszögcsapást hajt végre, 3 másodpercre felgyújtja a hatás alá került ellenséges egységeket."
+		"dac_ability_ember_spirit_element_lore"										"Akarom, hogy nekem dolgozzon ez a fickó. - <i>Hobgen, felismerve a rokon lelket</i>"
+
+		// EARTH SPIRIT
+		"dac_ability_earth_spirit_geomagnetic_grip"									"Geomágneses vonzás"
+		"dac_ability_earth_spirit_geomagnetic_grip_description"						"Földlélek Kőmaradványt idéz meg a pálya széléről, és jelenlegi célpontja felé húzza azt. A Kőmaradvány által eltalált ellenségek {s:silence_duration} másodpercre el lesznek hallgattatva és {s:damage} sebzést szenvednek."
+		"dac_ability_earth_spirit_geomagnetic_grip_lore"							"Imádom, amikor Kaolin a városba jön. A legérdekesebb dolgokat ássa elő. - <i>Carl, alapanyagokat keresve</i>"
+
+		"dac_ability_earth_spirit_element"											"Földelementál"
+		"dac_ability_earth_spirit_element_description"								"PASSZÍV: Amikor Földlélek Háromszögcsapást hajt végre, 3 másodpercre elhallgattatja a hatás alá került ellenséges egységeket."
+		"dac_ability_earth_spirit_element_lore"										"Mit nem adnék, hogy lássam Vukungot ez ellen a fickó ellen küzdeni a ringben... - <i>Grek, fantázia-bukméker</i>"
+
+		// VOID SPIRIT
+		"dac_ability_void_spirit_dissimilate"										"Szétoszlás"
+		"dac_ability_void_spirit_dissimilate_description"							"Semmilélek éterivé válva eltűnik, és három portált hoz létre. {s:disappear_duration} másodperc múlva kilép az egyik portálból és {s:bonus_damage} sebzést okoz az ellenségeknek {s:damage_distance} mezőn belül, valamint {s:armor_reduction_duration} másodpercre {s:armor_reduction} ponttal csökkenti a páncéljukat."
+		"dac_ability_void_spirit_dissimilate_lore"									"Aki bujkál, az jó ok nélkül nem fedi fel magát. Derítsétek ki, miért van itt. - <i>Anessix, titkok után kutatva</i>"
+
+		"dac_ability_void_spirit_element"											"Semmielementál"
+		"dac_ability_void_spirit_element_description"								"PASSZÍV: Amikor Semmiélek Háromszögcsapást hajt végre, 3 másodpercre megtöri a hatás alá került ellenséges egységeket."
+		"dac_ability_void_spirit_element_lore"										"Annak a közelében csak vigyázz, Slark. - <i>Jull, némi baráti tanácsot adva</i>"
+
+		// GRANNY LIZARD
+		"dac_ability_granny_lizard_shotgun_blast"									"Vén Sörétszóró"
+		"dac_ability_granny_lizard_shotgun_blast_description"						"4 alap támadás után Durrbele előkészíti sörétes puskáját, és rálő egy közeli ellenségre, kúp alakú területen {s:blast_damage} sebzést okozva és {s:blast_bonus_attack_speed}%-kal csökkenti az eltalált egységek támadási sebességét."
+		"dac_ability_granny_lizard_shotgun_blast_lore"								"A buzgók mindig is jól értettek a hadviseléshez, márpedig a hadviselés az én üzleti területem. Talán lehet itt valamit üzletelni. - <i>Csöndes, üzleti angyal</i>"
+
+		"dac_ability_granny_lizard_bazooka"											"Mortimer csókjai"
+		"dac_ability_granny_lizard_bazooka_description"								"<i>A SÁRKÁNY SZÖVETSÉGGEL FELOLDVA</i>: Mortimer {s:projectile_count} tűzgolyót köp {s:cast_range} mezőn belül az ellenségekre. Mindegyik tűzgolyó {s:damage} sebzést okoz minden, a becsapódási helytől {s:impact_radius} mezőn belüli ellenségnek, és {s:burn_duration} másodpercre felgyújtja őket."
+		"dac_ability_granny_lizard_bazooka_lore"									"Mi van, te akarod megmondani a hölgynek, hogy az az izé nem sárkány...? - <i>Grek, akit nem izgat a hitelesség</i>"
+
+		// MANGO TREE
+		"dac_ability_mango_tree_mango_throw"										"Mangódobás"
+		"dac_ability_mango_tree_mango_throw_description"							"A csata kezdetén, majd azután {s:mango_production_interval} másodpercenként a mangófa legfeljebb {s:radius} mező távolságra egy mangót dob. Ha bármely egység megérint egy mangót, megeszi azt és 50 manát és 100 életerőt kap."
+		"dac_ability_mango_tree_mango_throw_lore"									"Ne bámulj már így rám, csak gyümölcs. - <i>Anessix, kétségbeesetten küzdve a beskatulyázás ellen</i>"
+
+		// UNDERLORDS
+
+		"dac_ability_underlord_scales"												"A bandavezér szintjével nő."
+
+		"dac_ability_anessix_summon_companions"										"Anessix démonpajtásai"
+		"dac_ability_anessix_summon_companions_description"							"Anessix megidézi démoncsapatát. Ha mindkét démon meghal, újra megidézi őket."
+		"dac_ability_anessix_summon_companions_lore"								"Nem árt az ismeretség... <i>Anessix, az alvilági kapcsolatokról</i>"
+
+		"dac_ability_anessix_summon_golem"											"Démoni gólem idézése"
+		"dac_ability_anessix_summon_golem_description"								"Anessix megidéz egy démoni gólemet, amely az ellenséges vonalak mögé ront, és 2 másodpercre megbénítja a 2 mezőn belüli összes ellenséget."
+		"dac_ability_anessix_summon_golem_lore"										"Ugyan, én soha nem ölnélek meg... Arra való a segítség. - <i>Anessix, a kétes erkölcsű</i>"
+
+		"dac_ability_anessix_passive"												"Passzív képesség"
+		"dac_ability_anessix_passive_description"									"Anessix megidéz egy társat, hogy az oldalán harcoljon."
+
+		"dac_ability_anessix_companion_archer_passive"								"Kritikus találat"
+		"dac_ability_anessix_companion_archer_passive_description"					"PASSZÍV: a démoníjásznak minden támadáskor {s:chance}% esélye van {s:bonus}%-os kritikus találat okozására célpontján."
+		"dac_ability_anessix_companion_archer_passive_lore"							"A társaim tudják, hogyan okozzanak kellemetlenséget. - <i>Anessix, a bársonykesztyűs vasököl</i>"
+
+		"dac_ability_anessix_pure_pain"												"Tiszta fájdalom"
+		"dac_ability_anessix_pure_pain_description"									"Anessix célba vesz egy véletlenszerű ellenséget, {s:damage} tiszta sebzést okozva másodpercenként, {s:duration} másodpercen át."
+		"dac_ability_anessix_pure_pain_description_perlevel"						"Anessix célba vesz egy véletlenszerű ellenséget, {s:damage} tiszta sebzést okozva másodpercenként, {s:duration} másodpercen át."
+		"dac_ability_anessix_pure_pain_lore"										"El fogod mondani, amit tudni akarok... - <i>Anessix, a barátságos figura</i>"
+
+		"dac_ability_anessix_martyrs_boon"											"A mártír adománya"
+		"dac_ability_anessix_martyrs_boon_description"								"Anessix maximális életerejének {s:selfdmg}%-ával megegyező sebzést szenved. Minden szövetséges egység {s:regen} ÉP-t gyógyul másodpercenként a következő {s:duration} másodpercben."
+		"dac_ability_anessix_martyrs_boon_description_perlevel"						"Anessix maximális életerejének {s:selfdmg}%-ával megegyező sebzést szenved. Minden szövetséges egység {s:regen} ÉP-t gyógyul másodpercenként a következő {s:duration} másodpercben."
+		"dac_ability_anessix_martyrs_boon_lore"										"A kedvességem a kegyetlenségemhez mérhető. - <i>Anessix, a szívélyes munkaadó</i>"
+
+		"dac_ability_anessix_enthrall"												"Elbűvölés"
+		"dac_ability_anessix_enthrall_description"									"Anessix {s:target_duration} másodpercre célpontot jelöl ki, {s:armor_reduction} ponttal csökkentve annak páncélját, és a célpont támadására kényszerítve seregedet. Ha a célpont meghal, Anessix démonként visszahozza, hogy az mellette harcoljon."
+		"dac_ability_anessix_enthrall_description_lore"								"Mostantól az enyém vagy. - <i>Anessix, ellenséges elbirtoklást foganatosítva</i>"
+
+		"dac_ability_demon_warrior_bash"											"A harcos csapása"
+		"dac_ability_demon_warrior_bash_description"								"Anessix társának {s:bash_chance}% esélye van célpontja {s:bash_duration} másodperces bénítására és további {s:bonus_chance_damage} sebzés okozására."
+		"dac_ability_demon_warrior_bash_lore"										"Ha Anessixszel akarsz találkozni, át kell jutnod rajtam... - <i>Zúzós, démonszolga</i>"
+
+		"dac_ability_hobgen_passive"												"Passzív képesség"
+		"dac_ability_hobgen_passive_description"									"Hobgen támadása 3 másodpercre felgyújtja az ellenségeket."
+
+		"dac_ability_hobgen_explosivo"												"Explosivo!"
+		"dac_ability_hobgen_explosivo_description"									"Hobgen tűzgolyót lő egy célpontra, amely {s:damage_base} sebzést okoz egyenlően megosztva a szomszédos célpontok között, és felgyújtja azokat."
+		"dac_ability_hobgen_explosivo_description_perlevel"							"Hobgen tűzgolyót lő egy célpontra, amely {s:damage_base} sebzést okoz egyenlően megosztva a szomszédos célpontok között, és felgyújtja azokat."
+		"dac_ability_hobgen_explosivo_description_lore"								"Robbantsunk fel valamit! - <I>Hobgen, amatőr bontási vállalkozó</i>"
+
+		"dac_ability_hobgen_supercharged"											"Felpörgetés"
+		"dac_ability_hobgen_supercharged_description"								"Hobgen felpörgeti a legközelebbi baráti egységet, felgyújtva azt és {s:aspd} támadási sebességet adva neki."
+		"dac_ability_hobgen_supercharged_description_perlevel"						"Hobgen felpörgeti a legközelebbi baráti egységet, felgyújtva azt és {s:aspd} támadási sebességet adva neki."
+		"dac_ability_hobgen_supercharged_description_lore"							"Az embernek néha csak egy kis motiváció kell. - <i>Hobgen, képletesen és szó szerint feltüzelve valakit</i>"
+
+		"dac_ability_hobgen_airstrike"												"Baráti tűz"
+		"dac_ability_hobgen_airstrike_description"									"Hobgen haverjai {s:strikes} bombát dobnak a csatatérre, amelyek {s:damage} sebzést okoznak a közvetlenül eltalált ellenségeknek. A robbanási hatósugárban lévő ellenségek a sebzés felét szenvedik el."
+		"dac_ability_hobgen_airstrike_description_lore"								"Égjen mind! - <i>Hobgen, őrült piromániás</i>"
+
+		"dac_ability_hobgen_letsgocrazy"											"Vaduljunk"
+		"dac_ability_hobgen_letsgocrazy_description"								"Hobgen támadásai mostantól elérik az egész csatateret, és teljes bandád {s:aspd} támadási sebességet kap. Hobgen folyamatosan célpontot vált olyan egységekre, amelyek nem égnek."
+		"dac_ability_hobgen_letsgocrazy_description_perlevel"						"Hobgen támadásai mostantól elérik az egész csatateret, és teljes bandád {s:aspd} támadási sebességet kap. Hobgen folyamatosan célpontot vált olyan egységekre, amelyek nem égnek."
+		"dac_ability_hobgen_letsgocrazy_description_lore"							"Szóval... azt akarod, hogy én legyek a rosszfiú, mi? Az menni fog. - <i>Hobgen tárgyalása Ennóval rossz irányt vesz</i>"
+
+		"dac_ability_demon_warrior_protect"											"Harcos, védelmezz!"
+		"dac_ability_demon_warrior_protect_description"								"A démon védelmezi Anessixet, blokkolva az ellene intézett távolsági támadásokat."
+		"dac_ability_demon_warrior_protect_description_lore"						"Maradj mellettem, kedvesem... Sok erre a kellemetlen alak. - <i>Anessix, sétára indulva Fehér Toronyban</i>"
+
+		"dac_ability_jull_passive"													"Passzív képesség"
+		"dac_ability_jull_passive_description"										"Jull {s:armor_per_enemy} páncélt kap szomszédos egységenként, legyen az baráti vagy ellenséges."
+
+		"dac_ability_jull_beeftron"													"Szedd össze magad"
+		"dac_ability_jull_beeftron_description"										"Jull a kapott közelharci sebzés {s:melee_reflect_pct}%-át visszaveri az összes szomszédos ellenséges egységre, és az elmúlt {s:melee_reflect_window} másodpercben kapott közelharci sebzés {s:melee_heal_pct}%-ával, valamint a távolsági sebzés {s:ranged_heal_pct}%-ával gyógyul."
+		"dac_ability_jull_beeftron_lore"											"Nem. Fogok. Megtörni! - <i>Jull, kínzással szembesülve is akaraterőt mutatva</i>"
+
+		"dac_ability_jull_punchtron"												"Nyakleves"
+		"dac_ability_jull_punchtron_description"									"Jull megüti jelenlegi ellenségét, {s:punch_damage} sebzést okozva és {s:punch_distance} mezővel odébb lökve azt pozíciójából. Az útban levő ellenségek {s:stun_duration} másodpercre megbénulnak és odébb lökődnek. Ha az ellenség eléri a tábla szélét, újból sebződik."
+		"dac_ability_jull_punchtron_lore"											"Gyerünk, Agyaras! Itt volt az ideje. - <i>Régi barátok egy régi adósságot rendezve</i>"
+
+		"dac_ability_jull_barrelsoffun"												"Hordónyi móka"
+		"dac_ability_jull_barrelsoffun_description"									"Jull hordókat hív be a tábla széléről. Ha szövetségest találnak el, azok {s:attack_speed_buff_pct} támadási sebességet kapnak. Ha ellenséget találnak el, azok {s:barrel_dmg} fizikai sebzést szenvednek, valamint {s:damage_taken_debuff_pct}%-kal több mágikus és fizikai sebzést szenvednek el a harc további részében."
+		"dac_ability_jull_barrelsoffun_lore"										"Nem lelem örömöm a saját termékem elpusztításában, de néha áldozatot kell hozni. - <i>Jull, az improvizálás mellett döntve</i>"
+
+		"dac_ability_jull_happyhour"												"Koktélóra"
+		"dac_ability_jull_happyhour_description"									"Jull bandád minden tagjának fizet egy kört. Sebződéskor annak {s:damage_distributed_pct}%-át azonnal elszenvedik, a többit pedig {s:damage_distributed_duration} másodperc alatt."
+		"dac_ability_jull_happyhour_lore"											"Barátaim! Ma este én állom az italokat! - <i>Jull, a Meghasadt Hold tulajdonosa</i>"
+
+		"dac_ability_enno_poison_spin"												"Méregforgás"
+		"dac_ability_enno_poison_spin_description"									"Enno a magasba ugrik és méregnyilat lő ki {s:target_count}, {s:range} mezőn belüli ellenségre, egy összeadódásnyi Mérget alkalmazva, és összeadódásonként {s:damage} fizikai sebzést okozva."
+		"dac_ability_enno_poison_spin_lore"											"Ne tévesszen meg a mérete… Enno veszélyesebb, mint amilyennek mutatja magát. – <i>Jull, látogatásra készülve a Gettóba</i>"
+
+		"dac_ability_enno_escape_artist"											"Szabadulóművész"
+		"dac_ability_enno_escape_artist_description"								"Az első alkalommal, amikor életereje {s:escape_health_pct_1}/{s:escape_health_pct_2}/{s:escape_health_pct_3}% alá esik, Enno füstfelhőbe burkolózva elmenekül, megtisztítja magát minden negatív hatástól, majd újra megjelenik máshol a táblán. Újra megjelenéskor {s:stun_duration} másodpercre megbénítja a szomszédos ellenségeket."
+		"dac_ability_enno_escape_artist_lore"										"Valaki kapja el, és ölje meg azt a nyavalyást! – <i>Hobgen, szörnyen zaklatottan</i>"
+
+		"dac_ability_enno_steal"													"Enyim!"
+		"dac_ability_enno_steal_description"										"Enno a harc kezdetekor ellopja a legalacsonyabb szintű tárgyat az ellenséges bandától. Valahányszor egy ellenség meghal, kifosztja azt, ha az övénél jobb tárgya van felszerelve. A harc végén minden tárgy visszakerül eredeti tulajdonosához."
+		"dac_ability_enno_steal_lore"												"Nézd, én a Titkok úrnője vagyok, nem csodatevő. Ha Enno elvett tőled valamit, nem fogod visszakapni, amíg rá nem un. – <i>Anessix, kezét mindig az erszényén tartva</i>"
+
+		"dac_ability_enno_airbrawl"													"Totális támadás!"
+		"dac_ability_enno_airbrawl_description"										"Enno totális támadást indít minden ellenség ellen, {s:stacks} összeadódásnyi Mérget alkalmazva, {s:fight_damage} fizikai sebzést okozva és {s:land_stun_duration} másodpercre megbénítva őket."
+		"dac_ability_enno_airbrawl_lore"											"VIGYÉTEK INNEN EZT A SZŐRÖS ROHADÉKOT! – <i>Hobgen, leckét kapva alázatból</i>"
+	}
+}

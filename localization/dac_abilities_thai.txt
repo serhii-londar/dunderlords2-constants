@@ -1,0 +1,663 @@
+﻿"lang"
+{ 
+	"Language" "thai" 
+	"Tokens" 
+	{
+		"dac_ability_autoattack"												"โจมตีอัตโนมัติ"
+		"dac_ability_regen"														"ฟื้นฟู"
+
+		// ANTIMAGE
+		"dac_ability_antimage_mana_break"										"ผลาญมานา"
+		"dac_ability_antimage_mana_break_Description"							"ติดตัว: แอนติเมจเผาผลาญมานาของศัตรู {s:mana_per_hit} หน่วยในการโจมตีแต่ละครั้ง และสร้างความเสียหายแก่เป้าหมาย 50% ของมานาที่เผาผลาญ เขาจะเผาผลาญ {s:hype_per_hit} ไฮป์เมื่อโจมตีอันเดอร์ลอร์ด"
+		"dac_ability_antimage_mana_break_Lore"									"แอนติเมจกำลังตามมาหาข้า... และข้าก็จะพร้อมรับมือ - <i>ทูราธ ผู้หลบหนีจากคฤหาสน์ไทเลอร์</i>"
+
+		//QUEEN OF PAIN
+		"dac_ability_queenofpain_scream_of_pain"								"เสียงร้องแห่งความเจ็บปวด"
+		"dac_ability_queenofpain_scream_of_pain_Description"					"ควีนออฟเพนปลดปล่อยเสียงกรีดร้องจนแสบแก้วหูรอบ ๆ ตัว สร้างความเสียหาย {s:damage} หน่วยแก่ศัตรูที่อยู่ในระยะ {s:radius} ช่อง"
+		"dac_ability_queenofpain_scream_of_pain_Lore"							"อาคาชาอาจไม่ใช่เพื่อนสนิท แต่นางก็ยินดีช่วยเหลือข้า ถ้าหากนางคิดว่าสามารถใช้คุยข่มข้าได้ในภายหลัง - <i>อเนสซิกซ์ ปีศาจปฏิบัตินิยม</i>"
+
+		//LINA
+		"dac_ability_lina_laguna_blade"											"ดาบลากูน่า"
+		"dac_ability_lina_laguna_blade_Description"								"ลีนายิงสายฟ้าพิฆาต สร้างความเสียหาย {s:damage} หน่วยแก่หนึ่งยูนิต และทำให้ยูนิตดังกล่าวติดไฟเป็นเวลา {s:fire_duration} วินาที"
+		"dac_ability_lina_laguna_blade_Lore"									"มันไม่ยากเลยที่จะเชื้อเชิญลีนามายังไวท์สไปร์ เราทั้งสองก็ต่างชื่นชมงานของกันและกันอยู่แล้ว - <i>ฮอบเกน นักวางเพลิงมืออาชีพ</i>"
+
+		//FURION
+		"dac_ability_natures_prophet_summon_tree"								"ธรรมชาติเพรียกหา"
+		"dac_ability_natures_prophet_summon_tree_Description"					"เนเจอร์สพรอเฟตอัญเชิญเทรียนต์ เทรียนต์นี้จะถือว่าเป็นดรูอิด"
+		"dac_ability_natures_prophet_summon_tree_Lore"							"เอ็นโนได้ติดต่อเพื่อนป่าตัวน้อยของเขา... นี่อาจเป็นปัญหาได้ - <i>โอเนีย แม่ค้าแห่งเรฟเทลที่ถูกเนรเทศ</i>"
+
+		"dac_ability_natures_prophet_wrath_of_nature"							"ธรรมชาติพิโรธ"
+		"dac_ability_natures_prophet_wrath_of_nature_Description"				"เนเจอร์สพรอเฟตปล่อยพลังงานใส่เป้าหมายด้วยความเสียหาย {s:damage} หน่วย ซึ่งจะชิ่ง {s:jumps} ครั้งท่ามกลางศัตรูในกระดาน เพิ่มความเสียหาย {s:increase_pct}% ต่อการชิ่งแต่ละครั้ง"
+		"dac_ability_natures_prophet_wrath_of_nature_Lore"						"แท้จริงแล้วจุดประสงค์ของข้านั้นเกินความจำเป็น เจ้าไม่จำเป็นต้องใช้อาวุธเพื่อฆ่าคน ทุกอย่างที่เจ้าต้องการคือแค่ความอดทนรอให้ธรรมชาติจัดการเอง - <i>ไควเอท เครื่องกลคนคำนวณ</i>"
+
+		//WINDRUNNER
+		"dac_ability_windrunner_powershot"										"ลูกยิงแห่งพลัง"
+		"dac_ability_windrunner_powershot_Description"							"วินด์เรนเจอร์ชาร์จพลังนานสูงสุด {s:castPoint} วินาทีเพื่อยิงธนูอันทรงพลังออกไป สร้างความเสียหายได้ถึง {s:powershot_damage} หน่วย ความเสียหายของลูกยิงแห่งพลังจะลดลง {s:damage_reduction}% เมื่อโดนศัตรูตัวต่อ ๆ ไป"
+		"dac_ability_windrunner_powershot_Lore"									"ข้าสร้างเพื่อนเป็นจำนวนมากในระหว่างการท่องเที่ยวของข้า และข้าไม่กลัวที่จะทวงบุญคุณ - <i>เร็น นักท่องโลก</i>"
+
+		//WITCHDOCTOR
+		"dac_ability_witch_doctor_paralyzing_cask"								"กล่องอัมพาต"
+		"dac_ability_witch_doctor_paralyzing_cask_Description"					"วิตช์ดอกเตอร์โยนกล่องที่บรรจุด้วยผงที่ทำให้เป็นอัมพาตซึ่งจะชิ่งไปมาระหว่างศัตรู {s:bounces} ครั้ง สตันและสร้างความเสียหาย {s:damage} หน่วยในแต่ละครั้งที่โดน"
+		"dac_ability_witch_doctor_paralyzing_cask_Lore"							"ข้าชอบมองท่านทำงานนะ คุณหมอ... - <i>ฮอบเกน ภูตจอมโกลาหล</i>"
+
+		//JUGGERNAUT
+		"dac_ability_juggernaut_blade_fury"										"ดาบเดือดดาล"
+		"dac_ability_juggernaut_blade_fury_Description"							"จักเกอร์น็อตปั่นใบมีดของเขา ทำให้อยู่ในสภาพต้านทานต่อเวทมนตร์ทุกชนิด และสร้างความเสียหาย {s:damage} หน่วยต่อวินาทีแก่ศัตรูที่อยู่ในระยะ {s:radius} ช่อง มีผล {s:duration} วินาที จักเกอร์น็อตอาจเริ่มปั่นใบมีดของเขาไปด้วยเพื่อหลบหลีกการโจมตีทางเวทมนตร์"
+		"dac_ability_juggernaut_blade_fury_Lore"								"เยอร์เนโรไม่ใช่เป็นเพียงแค่นักรบ เขาคือจักเกอร์น็อต หากทำให้เขามาอยู่ฝั่งเราได้ เราจะได้นับศพกันไม่ทันเป็นแน่แท้ - <i>เมื่อเกร็กดูจากทุกองศา</i>"
+
+		//SANDKING
+		"dac_ability_sandking_burrowstrike"										"มุดพุ่งจู่โจม"
+		"dac_ability_sandking_burrowstrike_Description"							"แซนด์คิงมุดตัวลงไปใต้ดินและขุดตรงไปข้างหน้า สร้างความเสียหาย {s:damage} หน่วยและสตันศัตรูในเส้นทางเป็นเวลา {s:stun_duration} วินาที<br>ทำให้ศัตรูทุกตัวที่โดนติดพิษกัดกร่อนพิฆาต"
+		"dac_ability_sandking_burrowstrike_Lore"								"เราใช้ทรัพยากรและแรงงานไปมากมายในการสร้างโครงข่ายอุโมงค์ เราจะให้แซนด์คิงมาทำลายสิ่งที่เราสร้างไม่ได้ - <i>จุล นักธุรกิจน้ำเมาเจ้าใหญ่</i>"
+
+		"dac_ability_sandking_caustic_finale"									"พิษกัดกร่อนพิฆาต"
+		"dac_ability_sandking_caustic_finale_Description"						"ติดตัว: เมื่อแซนด์คิงโจมตีศัตรู เป้าหมายจะติดพิษเป็นเวลา {s:apply_duration} วินาที เมื่อพิษหมดเวลา มันจะระเบิดสร้างความเสียหาย {s:damage_aoe} หน่วยและลดความเร็วในการโจมตีของศัตรูทั้งหมดที่อยู่ติดกับเป้าหมาย {s:attack_slow} หน่วยเป็นเวลา {s:slow_duration} วินาที ความเสียหายจะมีค่าแค่ครึ่งเดียวหากเป้าหมายยังมีชีวิตอยู่"
+		"dac_ability_sandking_caustic_finale_Lore"								"ใช้ผ้าใบรองไว้กันเปื้อนกันไม่เป็นหรือไง? - <i>อเนสซิกซ์ ปีศาจนรกแสนสะอาด</i>"
+
+		//SHADOW FRIEND
+		"dac_ability_shadow_fiend_requiem"										"สวดส่งวิญญาณ"
+		"dac_ability_shadow_fiend_requiem_Description"							"แชโดว์ฟีนด์ร่ายรวบรวมวิญญาณต้องสาปและปลดปล่อยพลังงานแห่งปีศาจรอบตัวเขา สร้างความเสียหาย {s:damage} หน่วยแก่ใครก็ตามที่โดนระเบิดนี้"
+		"dac_ability_shadow_fiend_requiem_Lore"									"ราชสำนักแห่งริสทูลกับข้านั้นมี... ข้อตกลงกันไว้ - <i>อเนสซิกซ์ ปีศาจเดินดิน</i>"
+
+		//PHANTOM ASSASSIN
+		"dac_ability_phantom_assassin_coup_de_grace"							"ปลิดชีพ"
+		"dac_ability_phantom_assassin_coup_de_grace_Description"				"ติดตัว: แฟนท่อมแอสซาสซินมีโอกาส {s:crit_chance}% ที่จะโจมตีศัตรูอย่างรุนแรงด้วยการโจมตีคริติคอล {s:crit_bonus}%"
+		"dac_ability_phantom_assassin_coup_de_grace_Lore"						"เธอเป็นคนลอบสังหารเควอร์เธียส แล้วเหตุใดข้าถึงไม่ควรคิดว่าเธอจะมาหาข้าเช่นกัน - <i>โอเนีย แม่ค้าผู้หวาดระแวง</i>"
+
+		//DROW RANGER
+		"dac_ability_drow_ranger_trueshot_aura"									"ออรานำวิถี"
+		"dac_ability_drow_ranger_trueshot_aura_Description"						"ติดตัว: ดราวเรนเจอร์เพิ่มโบนัสความเร็วในการโจมตี {s:bonus}% แก่ฝ่ายเดียวกันทั้งหมดที่อยู่ในระยะ {s:range} ช่อง"
+		"dac_ability_drow_ranger_trueshot_aura_Lore"							"แทร็กซิกส์ เจ้ากับข้าจะต้องไปถึงจุดสูงสุดเป็นแน่แท้ เชื่อข้าเถิด - <i>เกร็ก พ่อค้าน้ำมันจิ้งเหลน</i>"
+
+		//MORPHLING
+		"dac_ability_morphling_waveform"										"ร่างคลื่น"
+		"dac_ability_morphling_waveform_Description"							"มอร์ฟลิงเปลี่ยนรูปกลายเป็นของเหลวแล้วพุ่งไปข้างหน้า สร้างความเสียหาย {s:damage} หน่วยแก่ยูนิตศัตรูที่ในเส้นทาง<br><br>มอร์ฟลิงจะเป็นอมตะระหว่างที่ใช้ร่างคลื่น"
+		"dac_ability_morphling_waveform_Lore"									"ความสามารถของทูราธในการวอนขอสิ่งต่าง ๆ กับเหล่าประเภทมอร์ฟลิงนั้นมัน...เป็นปัญหา - <i>ไควเอท เครื่องจักรนักสมรู้ร่วมคิด</i>"
+
+		//AXE
+		"dac_ability_axe_berserkers_call"										"เสียงเรียกนักรบคลั่ง"
+		"dac_ability_axe_berserkers_call_Description"							"แอกซ์ยั่วให้ศัตรูที่อยู่ในระยะ {s:radius} ช่องเข้ามาโจมตีเป็นเวลา {s:duration} วินาที  ในขณะที่สกิลเสียงเรียกนักรบคลั่งกำลังทำงาน แอกซ์จะได้เกราะป้องกันเพิ่มขึ้น {s:bonus_armor} หน่วย"
+		"dac_ability_axe_berserkers_call_Lore"									"การขอความช่วยเหลือจากแอกซ์นั้นง่ายนิดเดียว... สิ่งที่เจ้าต้องมีทั้งหมดคือเบียร์และคำสัญญาว่าจะเกิดเรื่องราวดี ๆ ที่เขาจะไปคุยโม้ได้ - <i>เร็น กบฎผู้ปลุกขวัญ</i>" 
+
+		"dac_ability_axe_culling_blade"											"คมขวานเด็ดชีพ"
+		"dac_ability_axe_culling_blade_Description"								"ถ้าเป้าหมายของแอกซ์มีพลังชีวิตต่ำกว่า {s:target_percent_health_threshold}% แอกซ์จะสังหารเป้าหมายได้ทันที ด้วยขวานของเขา"
+		"dac_ability_axe_culling_blade_Lore"									"Axe is REALLY good at cutting people in half - <i>Goodkind, Axe's Bard</i>" 
+
+		"dac_ability_axe_counter_helix"											"พลังเกลียวหมุนโต้กลับ"
+		"dac_ability_axe_counter_helix_Description"								"When attacked, Axe has a {s:spin_chance}% chance to perform a helix counter attack, dealing {s:spin_damage} pure damage to all enemies within 1 cell."
+		"dac_ability_axe_counter_helix_Lore"									"I let him in the Sundered Moon once... after the bar fight I had to remodel the whole damn place. - <i>In which Jull talks about why Axe isn't allowed back in his bar</i>" 
+
+		//RAZOR
+		"dac_ability_razor_plasma_field"										"สนามพลาสมา"
+		"dac_ability_razor_plasma_field_Description"							"เรเซอร์ปล่อยวงแหวนพลาสมาออกมาโดยมีพลังมากขึ้นเมื่อขยายตัว และปล่อยพลังช่วงที่หดกลับเข้ามาเช่นกัน ลดความเร็วและสร้างความเสียหายสูงสุด {s:damage_max} หน่วยแก่ศัตรูที่อยู่ในระยะ {s:radius} ช่อง<br><br>ความเสียหายและอัตราช้าลงจะเพิ่มมากขึ้นตามระยะห่างจากตัวเรเซอร์<br><br>สนามพลาสมาสามารถโดนยูนิตแต่ละตัวได้สองครั้ง ขณะขยายตัวและขณะหดกลับทิศทางละครั้ง"
+		"dac_ability_razor_plasma_field_Lore"									"หากเจ้าคิดว่าเขาน่ากลัวแม้แต่ตามถนนในไวท์สไปร์แล้วละก็ เจ้าควรจะได้เห็นสิ่งที่เขาทำในแนร์โรว์เมซ - <i>อเนสซิกซ์ ผู้ชื่นชอบกีฬา</i>"
+
+		//CRYSTAL MAIDEN
+		"dac_ability_crystal_maiden_brilliance_aura"							"ออราพลังลี้ลับ"
+		"dac_ability_crystal_maiden_brilliance_aura_Description"				"ติดตัว: ในทุก {s:interval} วินาที คริสตัลเมเดนเพิ่มมานา {s:mana_regen} หน่วยให้กับยูนิตฝ่ายเดียวกันทั้งหมด"
+		"dac_ability_crystal_maiden_brilliance_aura_Lore"						"ไปสืบมาสิว่านางมาหาข้าหรือทูราธ - <i>จุล คนขนของเถื่อนแห่งไอซ์แร็ก</i>"
+
+		"dac_ability_crystal_maiden_frostbite"									"เคลือบน้ำแข็ง"
+		"dac_ability_crystal_maiden_frostbite_Description"						"ขังยูนิตศัตรูไว้ในก้อนน้ำแข็ง ทำให้เคลื่อนที่หรือโจมตีไม่ได้ พร้อมทั้งได้รับความเสียหาย {s:damage} หน่วยต่อวินาทีเป็นเวลา {s:duration} วินาที เป้าหมายที่ได้รับผลกระทบโดยเคลือบน้ำแข็งจะไม่สามารถรักษาพลังชีวิตได้"
+		"dac_ability_crystal_maiden_frostbite_Lore"								"มีหลายสิ่งหลายอย่างเกิดขึ้นในไวท์สไปร์ บางครั้งมันก็ง่ายที่พลาดบางอย่างไป ตัวอย่างก็คือนี่ไง คริสตัลเมเดนแห่งไอซ์แร็กเคยแค่เพียงช่วยเหลือเหล่าพี่น้องเพื่อนฝูง แต่อย่างที่เห็นได้ชัดในทุกวันนี้ เธอไล่แช่แข็งผู้คนเป็นจริงเป็นจังซึ่งข้าก็ไม่เคยเห็นมาก่อน - <i>คาร์ล คนตกข่าว</i>"
+
+		//KUNKKA
+		"dac_ability_kunkka_ghostship"											"เรือภูตผี"
+		"dac_ability_kunkka_ghostship_Description"								"กังค์ก้าอัญเชิญเรือผีสิงออกมาพุ่งฝ่าเข้าไปในสนามรบก่อนที่จะชนกับพื้นที่เป้าหมาย สร้างความเสียหาย {s:ability_damage} หน่วยและสตันศัตรูที่อยู่ในระยะ {s:ghostship_crash_cells} ช่องจากตำแหน่งซากเรือเป็นเวลา {s:stun_duration} วินาที"
+		"dac_ability_kunkka_ghostship_Lore"										"หม่าม้าอีบมีเพื่อนมากมาย... กังค์ก้าต้องการคำตอบอย่างยิ่งเช่นเดียวกับข้า - <i>เร็น ลูกสาวผู้ล้างแค้น</i>"
+
+		//TINY
+		"dac_ability_tiny_toss"													"โยน"
+		"dac_ability_tiny_toss_Description"										"ไทนีจับยูนิตสุ่มที่อยู่ติดกับเขา แล้วโยนไปยังศัตรูเป้าหมายที่อยู่ไกลที่สุด<br><br>เมื่อลงถึงพื้น เป้าหมายจะสร้างความเสียหาย {s:damage} หน่วยแก่ศัตรูทั้งหมดที่อยู่ในระยะ {s:damage_radius} ช่อง และสตันพวกมันเป็นเวลา {s:stun_duration} วินาที"
+		"dac_ability_tiny_toss_Lore"											"เหมือนว่าเอ็นโนได้กล้ามเนื้อมาเป็นพวกซะแล้ว - <i>เมื่อเกร็กพบกับปัญหาใหญ่</i>"
+
+		//PUCK
+		"dac_ability_puck_illusory_orb"											"ลูกแก้วลวง"
+		"dac_ability_puck_illusory_orb_Description"								"พั๊กปล่อยลูกแก้วเวทมนตร์ลอยตรงไปข้างหน้า และสร้างความเสียหาย {s:damage} หน่วยไปตลอดทาง"
+		"dac_ability_puck_illusory_orb_Lore"									"อย่าให้รูปร่างภายนอกหลอกเจ้าได้ พั๊กมันเป็นพวกสารเลว - <i>เมื่อฮอบเกนแบ่งปันปัญญาเล็กน้อย</i>"
+
+		"dac_ability_puck_phase_shift"											"ผลัดรูป"
+		"dac_ability_puck_phase_shift_Description"								"<i>ปลดล็อคโดยพลังผสานมังกร</i><br>ติดตัว: ชั่วครู่หนึ่งก่อนจะได้รับความเสียหาย พั๊กย้ายไปยังมิติอื่นชั่วขณะ ซึ่งจะได้รับการป้องกันจากอันตรายต่าง ๆ เป็นเวลา {s:shift_duration} วินาที"
+		"dac_ability_puck_phase_shift_Lore"										"เจ้าตัวจ้อยบ้านี้ไม่เคยอยู่เมื่อมีคนต้องการตัวมันเลย - <i>ฮอบเกน อันเดอร์ลอร์ดใจร้อน</i>"
+
+		//CLOCKWERK
+		"dac_ability_clockwerk_battery_assault"									"แบตเตอรี่จู่โจม"
+		"dac_ability_clockwerk_battery_assault_Description"						"คล็อกเวิร์กปลดปล่อยเศษกระสุนพลังสูงแก่ศัตรูใกล้เคียงแบบสุ่มที่อยู่ในระยะ {s:radius_in_cells} ช่องทุก ๆ {s:damage_tick} วินาที ต่อ {s:duration} วินาที สร้างความเสียหายเวทมนตร์ {s:damage} หน่วยและมินิสตัน"
+		"dac_ability_clockwerk_battery_assault_Lore"							"บราซเฮรัลด์คงคิดว่าเจ้าน่าขยะแขยง แต่ข้าคิดว่าเจ้าค่อนข้างฉลาดเลยทีเดียว เจ้าคีนตัวน้อย - <i>ไควเอท มนุษย์กลนอกรีต</i>"
+
+		//LICH
+		"dac_ability_lich_chain_frost"											"น้ำแข็งชิ่งตรวน"
+		"dac_ability_lich_chain_frost_Description"								"ลิชปล่อยลูกพลังน้ำแข็งที่สามารถชิ่งไปมาระหว่างศัตรูที่อยู่ใกล้เคียงได้ถึง {s:jumps} ครั้ง ลดความเร็วในการเคลื่อนที่และโจมตีของศัตรูที่โดน {s:slow_value}% เป็นเวลา {s:slow_duration} วินาที และสร้างความเสียหาย {s:damage} หน่วยในแต่ละครั้ง"
+		"dac_ability_lich_chain_frost_Lore"										"เราสามารถช่วยเหลือกันได้ ลิช - <I>เมื่อทูราธทำสัญญามาร</i>"
+
+		//TIDEHUNTER
+		"dac_ability_tidehunter_ravage"											"หนวดผุดวิปโยค"
+		"dac_ability_tidehunter_ravage_Description"								"ไทด์ฮันเตอร์ทุบพื้น ทำให้เกิดหนวดขนาดยักษ์จำนวนมากพุ่งขึ้นมาทุกทิศทาง สร้างความเสียหาย {s:damage} หน่วยและสตันศัตรูทั้งหมดที่อยู่ในระยะ {s:cells} ช่องเป็นเวลา {s:duration} วินาที"
+		"dac_ability_tidehunter_ravage_Lore"									"กังค์ก้า ข้าชอบเจ้าตอนที่ยังไม่ได้โดนเลวีอาธานไล่ล่ามากกว่านะ - <i>เร็น เพื่อนกินที่หาง่าย</i>"
+
+		//SHADOWSHAMAN
+		"dac_ability_shadow_shaman_voodoo"										"เฮกซ์"
+		"dac_ability_shadow_shaman_voodoo_Description"							"แชโดว์ชาแมนสาปศัตรูให้กลายเป็นสัตว์ไร้พิษสง ทำให้ไม่สามารถโจมตีและใช้สกิลได้เป็นเวลา {s:duration} วินาที"
+		"dac_ability_shadow_shaman_voodoo_Lore"									"คนนี้นี่แหละที่รู้วิธีการแสดงโชว์จนเห็นชัด! - <i>เมื่อเกร็กแสดงมารยาทอย่างมืออาชีพ</i>"
+
+		"dac_ability_shadow_shaman_mass_serpent_ward"							"Mass Serpent Ward"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Shadow Shaman traps an enemy unit by summoning up to 4 Serpent Wards."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"At least he's not turning people into chickens anymore - <i>O'nia, Fowl Mood</i>"
+
+		//ENIGMA
+		"dac_ability_enigma_midnight_pulse"										"สนามชีพจรยามค่ำคืน"
+		"dac_ability_enigma_midnight_pulse_Description"							"Enigma steeps an area underneath the enemy with the highest max health in dark resonance, dealing {s:damage_percent}% of an enemy's max health for {s:duration} seconds to all enemy units up to {s:radius} cell away from the target and slowing them by {s:slow_percent}%."
+		"dac_ability_enigma_midnight_pulse_Lore"								"มีบางสิ่งในโลกนี้ที่เจ้าไม่สามารถควบคุมได้ - <i>ทูราธ นักเวทคลั่ง</i>"
+
+		//TINKER
+		"dac_ability_tinker_heat_seeking_missile"								"มิสไซล์ตรวจจับความร้อน"
+		"dac_ability_tinker_heat_seeking_missile_Description"					"ทิงเกอร์ระดมยิงจรวดใส่ศัตรูสุ่ม {s:targets} ตัว สร้างความเสียหาย {s:damage_per_missile} หน่วยเมื่อโดน"
+		"dac_ability_tinker_heat_seeking_missile_Lore"							"สมาคมคีนโฟล์กผู้ร่วมความคิดจิตใจจะเป็นปัญหาแน่หากพวกมันไม่ถูกขัดขวาง - <i>เมื่อโอเนียพยายามสร้างแนวร่วม</i>"
+
+		//SNIPER
+		"dac_ability_sniper_assassinate"										"ลอบสังหาร"
+		"dac_ability_sniper_assassinate_Description"							"สไนเปอร์เล็งไปที่ยูนิตศัตรูหนึ่งตัวเป็นเวลา {s:castPoint} วินาที จากนั้นยิงกระสุนอันรุนแรงที่สามารถสร้างความเสียหาย {s:damage} หน่วยและมินิสตันเป้าหมาย อันเดอร์ลอร์ดจะไม่ตกเป็นเป้า"
+		"dac_ability_sniper_assassinate_Lore"									"คือข้าก็เคยเอาคีนมาเล่นการแสดงเปิดนะ ดีต่อผู้ชมเลย แต่ไม่ดีต่อการประกันภัยความรับผิดน่ะสิ - <i>เกร็ก มุ่งเน้นที่ผลลัพธ์</i>"
+
+		//NECROLYTE
+		"dac_ability_necrophos_death_pulse"										"คลื่นแห่งความตาย"
+		"dac_ability_necrophos_death_pulse_Description"							"เนโครโฟสปล่อยคลื่นพลังมรณะไปรอบ ๆ ตัว ส่งผลต่อยูนิตศัตรูและฝ่ายเดียวกันที่อยู่ในระยะ {s:radius} ช่อง<br><br>คลื่นแห่งความตายสร้างความเสียหาย {s:damage} หน่วยให้กับศัตรู และรักษาพลังชีวิตให้กับฝ่ายเดียวกัน {s:heal} หน่วย"
+		"dac_ability_necrophos_death_pulse_Lore"								"โปรดเถิด เนโครโฟส มันต้องมีอะไรสักอย่างที่เจ้าต้องการสิ... - <i>อเนสซิกซ์ อสูรลิ้นทอง</i>"
+
+		//SLARDAR
+		"dac_ability_slardar_amplify_damage"									"หมอกกัดกร่อน"
+		"dac_ability_slardar_amplify_damage_Description"						"สลาร์ดาร์เปลี่ยนแปลงเกราะป้องกันศัตรู {s:armor_reduction} หน่วยเป็นเวลา {s:duration} วินาที"
+		"dac_ability_slardar_amplify_damage_Lore"								"ข้ากับสลาร์กเคยทำธุรกิจกันมาแล้ว ข้ามั่นใจว่าสุดท้ายแล้วเราจะสามารถตกลงได้เช่นกัน - <i>จุล ผู้คลั่งไคล้ไวน์พรูโน่</i>"
+
+		//BEASTMASTER
+		"dac_ability_beastmaster_wild_axes"										"ขวานป่า"
+		"dac_ability_beastmaster_wild_axes_Description"							"บีสต์มาสเตอร์ขว้างขวานคู่ออกไปเหมือนบูมเมอแรง สร้างความเสียหายกับศัตรูตามแนวที่ขวานผ่านเป็นจำนวน {s:axe_damage} หน่วย<br><br>ขวานแต่ละเล่มสร้างความเสียหายได้ 1 ครั้งต่อศัตรู 1 ตัว และทำให้ศัตรูที่โดนได้รับความเสียหายตามมาจากบีสต์มาสเตอร์เพิ่มขึ้น {s:damage_amp}%"
+		"dac_ability_beastmaster_wild_axes_Lore"								"จะมีพวกบ้าธรรมชาติยอมช่วยเหลือเจ้าแคระนั่นอีกสักกี่คน? - <i>เมื่อเกร็กบ่นเกี่ยวกับเอ็นโน</i>"
+
+		//VENOMANCER
+		"dac_ability_venomancer_plague_ward"									"วอร์ดกาฬโรค"
+		"dac_ability_venomancer_plague_ward_Description"						"Venomancer summons {s:num_wards} Plague Ward to fight alongside him. Plague Wards apply Poison stacks to their target."
+		"dac_ability_venomancer_plague_ward_Lore"								"งานสรรค์สร้างของท่านช่างสวยงามน่าดูชม ให้ข้าช่วยเพาะปลูกสวนของท่านเถิด... - <i>เมื่อทูราธเรียนรู้ว่าคำเยินยอนั้นช่วยเหลือได้ทุกอย่าง</i>"
+
+		"dac_ability_venomancer_venomous_gale"									"ลมพิษ"
+		"dac_ability_venomancer_venomous_gale_Description"						"ปล่อยลูกบอลพิษออกไปเป็นแนวเส้นตรง ยูนิตศัตรูที่โดนจะรับความเสียหายเวทมนตร์ {s:projectile_damage} หน่วยและติดพิษ ยูนิตที่ได้รับผลจะเคลื่อนที่ช้าลง {s:movement_slow}% และโจมตีช้าลง {s:attack_slow} หน่วยเป็นเวลา {s:tick_duration} วินาที"
+		"dac_ability_venomancer_venomous_gale_Lore"								"ไม่ไม่ไม่ ถ้าเราจัดเจ้านั่นไว้ในเวทีกลางแล้วผู้ชมกว่าครึ่งก็คงล้มตายกันวายวอด หาคนอื่นดีกว่า - <i>เมื่อเกร็กไตร่ตรองหาผู้ที่เหมาะสมมาแทนซุนหงอคง</i>"
+
+		"dac_ability_venomancer_poison_sting"									"Poison Sting"
+		"dac_ability_venomancer_poison_sting_Description"						"PASSIVE: Each attack applies a stack of Poison to the target."
+		"dac_ability_venomancer_poison_sting_Lore"								"Keep that thing away from Enno, more poison is the last thing the little runt needs... - <i>Hobgen, Not A Fan Of Being Poisoned</i>"
+
+		//TEMPLAR ASSASSIN
+		"dac_ability_templar_assassin_refraction"								"เกราะหักเห"
+		"dac_ability_templar_assassin_refraction_Description"					"เทมพลาร์แอสซาสซินแปรเปลี่ยนไปจนยากที่จะอธิบาย หลีกเลี่ยงความเสียหายและเพิ่มพลังโจมตี +{s:bonus_damage} ให้แก่ตัวเธอเอง<br><br>พลังโจมตีและผลการหลีกเลียงความเสียหายจะนับแยกกัน แต่ละอย่างจะแสดงผลได้ {s:instances} ครั้ง"
+		"dac_ability_templar_assassin_refraction_Lore"							"หากเจ้าช่วยเหลือข้า หนี้สินบุญคุณของเราจะถือว่าเสมอกัน - <i>เมื่อเร็นตามหาความช่วยเหลือเท่าที่เธอทำได้</i>"
+
+		"dac_ability_templar_assassin_meld"										"พรางตัว"
+		"dac_ability_templar_assassin_meld_Description"							"ติดตัว: หลังจากเทเลพอร์ตไปยังเป้าหมายของเธอ เทมพลาร์แอสซาสซินสร้างความเสียหายเพิ่มเติม {s:damage} หน่วยในการโจมตีครั้งแรกของเธอ และลดเกราะป้องกันของเป้าหมายของเธอ {s:armor_debuff} หน่วยเป็นเวลา {s:armor_debuff_duration} วินาที"
+		"dac_ability_templar_assassin_meld_Lore"								"พรสวรรค์ของเจ้าทำให้เจ้านั้นเหมาะเจาะอย่างเฉพาะพิเศษกับสิ่งที่ข้ามีอยู่ในใจเลยล่ะ - <i>เมื่ออเนสซิกซ์มอบข้อเสนองาน</i>"
+		
+		//VIPER
+		"dac_ability_viper_viper_strike"										"ไวเปอร์พ่นพิษ"
+		"dac_ability_viper_viper_strike_Description"							"พิษกรดของไวเปอร์สามารถทำให้ศัตรูเคลื่อนที่และโจมตีได้ช้าลง {s:bonus_attack_speed}% พร้อมทั้งรับความเสียหายพิษต่อเนื่อง {s:damage} หน่วย<br><br>ผลที่ทำให้ช้าจะค่อย ๆ น้อยลงเมื่อเวลาผ่านไป"
+		"dac_ability_viper_viper_strike_Lore"									"เราไม่ได้ต่างกันมาก... ข้าก็รู้เช่นกันว่าการเป็นทาสมันเป็นอย่างไร - <i>ไควเอท มนุษย์กลจอมอุบาย</i>"
+
+		"dac_ability_viper_nethertoxin"											"พิษแห่งอเวจี"
+		"dac_ability_viper_nethertoxin_Description"								"ไวเปอร์พ่นพิษใส่หนึ่งช่อง สร้างความเสียหาย {s:damage} หน่วยต่อวินาทีแก่ยูนิตศัตรูใดก็ตามในช่องดังกล่าว ทำให้ยูนิตนั้นติดราก และปิดการทำงานของโบนัสติดตัว"
+		"dac_ability_viper_nethertoxin_Lore"									"ระวังตัวไว้สลาร์ก หากลองดีมาปล้นข้า เจ้าจะได้จบไม่สวยแน่ - <i>เมื่อโอเนียเปิดเผยตัวนักกล้ามรับจ้างของเธอ</i> "
+
+		"dac_ability_viper_corrosive_skin"										"หนังพิษกัดกร่อน"
+		"dac_ability_viper_corrosive_skin_Description"							"<i>UNLOCKED BY THE DRAGON ALLIANCE</i><br>PASSIVE: Viper exudes an infectious toxin that applies a stack of Poison and slows the attack speed by {s:attack_slow} of any enemy that damages it for {s:dot_duration} seconds. The acid exudate also increases Viper's magic resistance by {s:magic_resistance}."
+		"dac_ability_viper_corrosive_skin_Lore"									"คงจะดีหากข้ามีโอกาสคิดค้นวิธีทำเสื้อโค้ทจากเจ้านี่... - <i>คาร์ล ผู้มีความฝันยิ่งใหญ่</i>"
+
+		//LUNA
+		"dac_ability_luna_moon_glaive"											"กงจักรแห่งจันทรา"
+		"dac_ability_luna_moon_glaive_Description"								"ติดตัว: กงจักรของลูนาชิ่งไปมา {s:bounces} ครั้ง ระหว่างศัตรูหลายตัวที่อยู่ในระยะ {s:range} ช่อง<br><br>กงจักรจะสร้างความเสียหายน้อยลง {s:damage_reduction_percent}% ในการชิ่งแต่ละครั้ง"
+		"dac_ability_luna_moon_glaive_Lore"										"ข้าเข้าใจในสิ่งที่เจ้าพูดแค่ประมาณครึ่งนึงได้ แต่ข้าชอบวิธีที่เจ้าโยนอาวุธพวกนั้น - <i>เกร็ก คนค้นคน</i>"
+
+		//DRAGON KNIGHT
+		"dac_ability_dragon_knight_breathe_fire"								"พ่นเพลิง"
+		"dac_ability_dragon_knight_breathe_fire_Description"					"พ่นไฟโจมตีศัตรูที่อยู่ด้านหน้าของดราก้อนไนต์ เผาผลาญศัตรูด้วยความเสียหาย {s:damage} หน่วยและลดพลังโจมตีของพวกเขา {s:attack_reduction}% เป็นเวลา {s:duration} วินาที"
+		"dac_ability_dragon_knight_breathe_fire_Lore"							"เดเวียน พรสวรรค์ของเจ้ากำลังสูญเสียไปกับคนที่ไม่แม้แต่ชื่นชมความงดงามของสิ่งที่เจ้าทำ - <i>เมื่อฮอบเกนพยายามดึงตัวนักรบสู่ทีม</i>"
+
+		"dac_ability_dragon_knight_elder_dragon_form"							"ร่างมังกรอาวุโส"
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>ปลดล็อคโดยพลังผสานมังกร</i><br>ติดตัว: เมื่อเริ่มการต่อสู้ ดราก้อนไนต์แปลงร่างเป็นหนึ่งในสามมังกรเฒ่าทรงพลัง เพิ่มความเร็วในการเคลื่อนที่ {s:bonus_movement_speed}% และพลังโจมตี {s:bonus_attack_damage} หน่วย รวมทั้งให้ความสามารถใหม่แก่เขา<br><br>มังกรเขียว:\nการโจมตีสร้างความเสียหายพิษ {s:corrosive_breath_damage} หน่วยต่อวินาทีเป็นเวลา {s:corrosive_breath_duration} วินาที<br><br>มังกรแดง:\nนอกจากความเสียหายพิษแล้ว การโจมตีสร้างความเสียหายแก่ยูนิตศัตรูทั้งหมดที่อยู่ในระยะ {s:splash_radius} ช่องจากเป้าหมายเป็นจำนวน {s:splash_damage_percent}%<br><br>มังกรน้ำเงิน:\nนอกจากความเสียหายพิษแล้ว การโจมตีลดความเร็วการเคลื่อนที่ {s:frost_bonus_movement_speed}% และความเร็วการโจมตี {s:frost_bonus_attack_speed}% แก่ยูนิตศัตรูที่อยู่ในระยะ {s:frost_aoe} ช่องจากเป้าหมายเป็นเวลา {s:frost_duration} วินาที"
+		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"คาเดนพูดเกี่ยวกับเจ้าไว้อย่างดี หวังว่าคำชมเชยของเขานั้นสมน้ำสมเนื้อ - <i>เร็น เพื่อนมังกร</i>"
+
+		//ENCHANTRESS
+		"dac_ability_enchantress_natures_attendants"							"ภูตแสงแห่งพฤกษา"
+		"dac_ability_enchantress_natures_attendants_Description"				"เอนแชนเทรสเรียกกลุ่มภูตแห่งแสงออกมา {s:wisp_count} ตัว ช่วยรักษาพลังชีวิตให้ฝ่ายเดียวกันทั้งหมดที่อยู่ในระยะ {s:radius} ช่อง<br><br>ฝ่ายเดียวกันได้รับการรักษาพลังชีวิต {s:heal} หน่วยในทุก {s:heal_interval} วินาที มีผล {s:duration} วินาที"
+		"dac_ability_enchantress_natures_attendants_Lore"						"นางคงอยู่ในไวท์สไปร์ไม่รอดแม้แต่วันเดียวหรอก แม้-แต่-วัน-เดียว - <i>เมื่อฮอบเกนประเมินคู่ต่อสู้ของเขาต่ำเกินไป</i>"
+
+		//BOUNTY HUNTER
+		"dac_ability_bounty_hunter_shuriken_toss"								"ปาดาวกระจาย"
+		"dac_ability_bounty_hunter_shuriken_toss_Description"					"เบาน์ตี้ฮันเตอร์ขว้างดาวกระจายอันแสนรุนแรงไปที่ยูนิตศัตรู สร้างความเสียหาย {s:damage} หน่วยและทำให้เป้าหมายติดมินิสตัน"
+		"dac_ability_bounty_hunter_shuriken_toss_Lore"							"ตราบใดที่เจ้ามีเงิน จงเชื่อในคนที่ขายความซื่อสัตย์เสมอ - <i>โอเนีย มาพร้อมกับคติอันน่าสงสัย</i>"
+
+		//BATRIDER
+		"dac_ability_batrider_sticky_napalm"									"นาปาล์มเหนียวหนืด"
+		"dac_ability_batrider_sticky_napalm_Description"						"แบตไรเดอร์ปาน้ำมันเหนียวหนืด ชโลมพื้นที่ในระยะ {s:radius} ช่องจากจุดตกกระทบ น้ำมันจะเพิ่มความเสียหายที่เกิดจากการโจมตีของแบตไรเดอร์ {s:damage} หน่วยในแต่ละครั้ง พร้อมทั้งลดความเร็วการเคลื่อนที่และโจมตีของศัตรู {s:movement_speed_pct}%<br><br>การร่ายสกิลนาปาล์มเหนียวหนืดเพิ่ม สามารถเพิ่มความเสียหายและเปอร์เซ็นต์การลดความเร็วบวกทับกันต่อไปได้ ซ้อนทับกันได้สูงสุด {s:max_stacks} ครั้ง"
+		"dac_ability_batrider_sticky_napalm_Lore"								"ข้ารักคนนี้มาก ข้ารักเค้าาาาา - <i>ฮอบเกน ผู้บ้าคลั่งเรื่องเพลิง</i>"
+
+		//DOOM BRINGER
+		"dac_ability_doom_bringer_doom"											"พิพากษา"
+		"dac_ability_doom_bringer_doom_Description"								"ดูมเรียกคาถาสาปอันทรงพลังซึ่งทำให้ศัตรูไม่สามารถร่ายสกิลและปิดการทำงานของโบนัสติดตัวได้ พร้อมทั้งทำให้ได้รับความเสียหาย {s:damage} หน่วยต่อวินาที<br><br>มีผล {s:duration} วินาที"
+		"dac_ability_doom_bringer_doom_Lore"									"ข้าชอบติดต่อธุระกับปีศาจเชิงอุปมาอุปไมยมากกว่า... - <i>เมื่อโอเนียให้ความเห็นเกี่ยวกับพันธมิตรของอเนสซิกซ์</i>"
+
+		//GYROCOPTER
+		"dac_ability_gyrocopter_call_down"										"เรียกกระสุน"
+		"dac_ability_gyrocopter_call_down_Description"							"ไจโรคอปเตอร์ยิงจรวดมิสไซล์ออกมา โจมตีศัตรูทั้งหมดที่อยู่ในระยะ {s:radius} ช่องจากจุดตกกระทบ<br><br>มิสไซล์จะถูกส่งออกมาสองลูกในเวลาใกล้เคียงกัน ลูกแรกจะสร้างความเสียหาย {s:damage_first} หน่วยและลดความเร็ว {s:slow_first}% เป็นเวลา {s:slow_duration_first} วินาที ส่วนลูกที่สองจะสร้างความเสียหาย {s:damage_second} หน่วยและลดความเร็ว {s:slow_second}% เป็นเวลา {s:slow_duration_second} วินาที"
+		"dac_ability_gyrocopter_call_down_Lore"									"ลองคิดดูสิว่าเราจะขนถ่ายสินค้าได้มากขนาดไหนด้วยความช่วยเหลือจากเขา - <i>เมื่อจุลคิดถึงภาพรวม</i>"
+
+		//ALCHEMIST
+		"dac_ability_alchemist_acid_spray"										"พ่นกรด"
+		"dac_ability_alchemist_acid_spray_Description"							"อัลเคมิสต์พ่นน้ำกรดความดันสูง ส่งผลต่อศัตรูที่อยู่ในระยะ {s:radius} ช่องจากเป้าหมาย<br><br>ยูนิตศัตรูที่เข้าสู่พื้นที่ปนเปี้อนนี้จะได้รับความเสียหาย {s:damage} หน่วยต่อวินาที และถูกลดเกราะป้องกันลง {s:armor_reduction} หน่วย"
+		"dac_ability_alchemist_acid_spray_Lore"									"เจ้าชอบเผาหน้าผู้คน ส่วนข้าชอบเผาบ้านเรือนคนอื่น... นี่มันเหมือนกับว่าเราเป็นเนื้อคู่กันเลยทีเดียว - <i>เมื่อฮอบเกนพยายามเชื่อมต่อช่องว่างระหว่างวัฒนธรรม</i>"
+
+		// Lycan
+		"dac_ability_lycan_wolf_spawn_shift"									"แปลงรูปเปลี่ยนร่าง"
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan summons two wolves and transforms and gains {s:hp_per}% to his max health, his move speed is boosted to {s:speed} and gains {s:crit_chance}% chance to Critical Hit for {s:crit_bonus}% Damage."
+		"dac_ability_lycan_wolf_spawn_shift_Lore"								"ได้โปรด ไลแคน ช่วยข้าล้างแค้นทีเถิด - <i>ในขณะที่เร็นวิงวอนร้องขอต่อมนุษยธรรมของไลแคน</i>"
+		
+		// LONE DRUID
+		"dac_ability_lone_druid_summon_bear"									"อัญเชิญหมีวิญญาณ"
+		"dac_ability_lone_druid_summon_bear_Description"						"อัญเชิญหมีวิญญาณคู่หูอันทรงพลัง"
+		"dac_ability_lone_druid_summon_bear_Lore"								"แค่เอาหมีให้อยู่ห่าง ๆ ข้าไว้ โอเคไหม? ข้าไม่เล่นกับหมีนะ - <i>เกร็ก ผู้เป็นโรคกลัวหมี</i>"
+		
+
+		//CHAOS KNIGHT
+		"dac_ability_chaos_knight_chaos_bolt"									"กระสุนโกลาหล"
+		"dac_ability_chaos_knight_chaos_bolt_Description"						"เคออสไนต์ปล่อยพลังมนตราลึกลับ ซึ่งสร้างความเสียหาย {s:damage_min}-{s:damage_max} หน่วยและสตันเป็นเวลา {s:stun_min}-{s:stun_max} วินาที"
+		"dac_ability_chaos_knight_chaos_bolt_Lore"								"ไวท์สไปร์อาจเป็นสถานที่ดีขึ้นหากมีความโกลาหลสักเล็กน้อย - <i>ฮอบเกน ตัวแทนแห่งความโกลาหล</i>"
+
+		//OGRE MAGI
+		"dac_ability_ogre_magi_bloodlust"										"ตัณหาโลหิต"
+		"dac_ability_ogre_magi_bloodlust_Description"							"โอเกอร์เมไจกระตุ้นความบ้าคลั่งของยูนิตฝ่ายเดียวกัน เพิ่มความเร็วในการเคลื่อนที่ {s:bonus_movement_speed}% และความเร็วในการโจมตี {s:bonus_attack_speed}% หากร่ายใส่โอเกอร์เมไจเอง ความเร็วในการโจมตีจะเพิ่ม {s:self_bonus}% แทน"
+		"dac_ability_ogre_magi_bloodlust_Lore"									"เมไจนี้มีมูลค่าสองเท่าของที่เขาคิด และเป็นเรื่องโชคดีที่เมไจนี้โง่เง่าด้วยเช่นกัน - <i>โอเนีย นักล่าจอมต่อรอง</i>"
+
+		// MAGNUS
+		"dac_ability_magnataur_empower"											"เสริมพลัง"
+		"dac_ability_magnataur_empower_Description"								"แมกนัสทำให้ยูนิตเพื่อนร่วมทีมเกรี้ยวกราด เพิ่มพลังโจมตี +{s:bonus_damage_pct}% และกระจายความเสียหาย {s:cleave_damage_pct}% เป็นเวลา {s:duration} วินาที"
+		"dac_ability_magnataur_empower_Lore"									"ปล่อยให้อเนสซิกซ์คิดว่าเธอสามารถเล่นเอ็นโนได้ต่อไปเถอะ เธอจะรู้ในภายหลังว่าเธอคิดผิดพลาดขนาดไหนในไม่กี่วินาทีก่อนที่จะถูกกระทืบตาย - <i>เมื่อฮอบเกนแสดงความอดทนเล็กน้อยอันหายาก</i>"
+
+		//TREANT PROTECTOR
+		"dac_ability_treant_leech_seed"											"เมล็ดสูบชีวิต"
+		"dac_ability_treant_leech_seed_Description"								"เทรียนต์โพรเทกเตอร์ฝังเมล็ดสูบชีวิตลงในตัวศัตรู ซึ่งจะสูบพลังชีวิต {s:leech_damage} หน่วยในทุก {s:damage_interval} วินาที พร้อมทำให้เป้าหมายเคลื่อนที่และโจมตีช้าลง {s:movement_slow}%<br><br>เมล็ดพันธุ์จะรักษายูนิตฝ่ายเดียวกันที่อยู่ในระยะ {s:radius} ช่องจากเป้าหมาย มีผล {s:duration} วินาที กระโดดไปหาเป้าหมายใหม่ที่อยู่ภายใน {s:radius} ช่องหากเป้าหมายปัจจุบันตาย"
+		"dac_ability_treant_leech_seed_Lore"									"ข้าบอกความจริงเลยนะ ข้าไม่คิดว่าเอ็นโนจะขอความช่วยเหลือจากต้นไม้ - <i>ในขณะที่จุลและอเนสซิกซ์ดื่มร่วมกัน</i>"
+
+		//KEEPER OF THE LIGHT
+		"dac_ability_keeper_of_the_light_illuminate"							"ส่องสว่าง"
+		"dac_ability_keeper_of_the_light_illuminate_Description"				"คีปเปอร์ออฟเดอะไลต์ยืนร่ายมนต์ สร้างพลังงานแสงซึ่งจะมีพลังมากขึ้นตามระยะเวลาที่ใช้ยืนร่าย เมื่อปล่อยออกไป คลื่นแสงจะสร้างความเสียหาย {s:damage_per_second} หน่วยต่อวินาทีที่ยืนร่าย"
+		"dac_ability_keeper_of_the_light_illuminate_Lore"						"คีปเปอร์ครอบครองอำนาจมากเกินกว่าที่ควร หากไม่ขัดขวาง มันจะทำให้เราทุกคนจบสิ้นได้ - <i>ทูราธ ผู้ทำลายแสง</i> "
+
+		// MEDUSA
+		"dac_ability_medusa_stone_gaze"											"เหลือบศิลา"
+		"dac_ability_medusa_stone_gaze_Description"								"ยูนิตศัตรูใดก็ตามที่อยู่ในระยะ {s:radius} ช่องซึ่งจ้องมองเมดูซาจะถูกลดความเร็วในการเคลื่อนที่และการโจมตี {s:slow}%<br><br>ถ้าจ้องมองเมดูซาจนเวลาสะสมครบ {s:face_duration} วินาทีแล้ว ยูนิตดังกล่าวจะถูกสาปกลายเป็นหิน<br><br>ยูนิตที่เป็นหินจะถูกสตัน และได้รับความเสียหายกายภาพเพิ่มขึ้น {s:bonus_physical_damage}%"
+		"dac_ability_medusa_stone_gaze_Lore"									"นางเป็นสาวตรงตามสเปกข้าเลย แต่ข้าก็มีใจให้มีเรสกาเท่านั้น - <i>ฮอบเกน จอมโจรใจง่าย</i>"
+
+		"dac_ability_medusa_split_shot"											"มนตร์แยกลูกศร"
+		"dac_ability_medusa_split_shot_Description"								"ติดตัว: เมดูซาใช้เวทมนตร์ยิงลูกศรเพิ่มเติม {s:extra_shots} ดอก โจมตีเป้าหมายเพิ่มเติมที่อยู่ในระยะ {s:range} ช่องจากเป้าหมายหลักของเธอ ลูกศรเพิ่มเติมเหล่านี้จะสร้างความเสียหาย {s:damage_modifier} เปอร์เซ็นต์ของความเสียหายลูกศรหลักของเธอ"
+		"dac_ability_medusa_split_shot_Lore"									"เจ้าเคยเห็นนางคนนั้นยิงธนูไหม? คือ ถ้าเจ้ายังหายใจอยู่ ก็คงยังไม่เคย... - <i>เมื่อเกร็กคุยยกยอนักรบรับจ้างคนล่าสุดของเขา</i>"
+
+		// TROLL WARLORD
+		"dac_ability_troll_warlord_fervor"										"รุ่มร้อน"
+		"dac_ability_troll_warlord_fervor_Description"							"ติดตัว: โทรลวอร์ลอร์ดระดมปาขวานแล้วขวานเล่า ได้รับความเร็วในการโจมตีเพิ่มขึ้น {s:attack_speed}% ในแต่ละครั้งที่โจมตีซึ่งจะบวกทับขึ้นไปเรื่อย ๆ<br><br>หากโทรลเปลี่ยนเป้าหมาย การบวกทับจะกลับเป็นศูนย์<br><br>ผลของสกิลนี้สามารถบวกทับได้สูงสุด {s:max_stacks} ครั้งเท่านั้น"
+		"dac_ability_troll_warlord_fervor_Lore"									"ไร้ปรานีและมีประสิทธิภาพ เหมือนกับข้า - <i>ไควเอท ความพยายามไม่สูญเปล่า</i>"
+
+
+		// SHADOW_DEMON
+		"dac_ability_shadow_demon_demonic_purge"								"พลังลบล้างปีศาจ"
+		"dac_ability_shadow_demon_demonic_purge_Description"					"ชำระล้างยูนิตศัตรูเป้าหมายอย่างต่อเนื่อง ลบบัฟด้านดีของศัตรู ปิดการทำงานของโบนัสติดตัว และทำให้เป้าหมายช้าลงเป็นเวลา {s:duration} วินาที ยูนิตจะค่อย ๆ ได้รับความเร็วในการเคลื่อนที่/โจมตีคืนมาอย่างช้า ๆ จนกระทั่งระยะเวลาของสกิลสิ้นสุด จากนั้นสร้างความเสียหาย {s:damage} หน่วย"
+		"dac_ability_shadow_demon_demonic_purge_Lore"							"ฟังนะเจ้าตัวขนปุยนรก ข้ารู้ว่าเจ้าคิดว่าเจ้าเหมาะกับอเนสซิกซ์ แต่เจ้าเคยเห็นพวกสิ่งมีชีวิตที่เธอหลั่นล้าด้วยไหม? - <i>ฮอบเกน ไม่ใช่แฟนคลับปีศาจ (หรือเอ็นโน)</i>"
+
+		// SVEN
+		"dac_ability_sven_cleave"												"ยอดพลังกวาด "
+		"dac_ability_sven_cleave_Description"									"ติดตัว: การโจมตีระยะประชิดของยูนิตนี้จะกระจายไปยังศัตรูใกล้เคียงเป็นจำนวน {s:cleave_damage_pct}%"
+		"dac_ability_sven_cleave_Lore"											"เจ้าเคยเห็นอัศวินแห่งวิจิลทำตามหน้าที่ไหม? มันงดงามมากเลยน่ะ - <i>เกร็ก ผู้ชำนาญการสู้รบ</i>"
+
+		"dac_ability_sven_gods_strength"										"เทพานุภาพ"
+		"dac_ability_sven_gods_strength_Description"							"สเวนคลุ้มคลั่งและได้รับพลังโจมตี {s:bonus_damage_from_cast}% เป็นเวลา {s:duration} วินาที"
+		"dac_ability_sven_gods_strength_Lore"									"ไม่มีอะไรที่ข้ารักไปมากกว่าชายผู้จองล้างจองผลาญที่ทำการล้างแค้นอีกแล้ว - <i>เมื่ออเนสซิกซ์พิเคราะห์สเวน</i>"
+
+		// SHREDDER
+		"dac_ability_timbersaw_whirling_death"									"มีดหมุนมรณะ"
+		"dac_ability_timbersaw_whirling_death_Description"						"ใบมีดอันคมกริบของชุดเกราะทิมเบอร์ซอว์ทำการปั่นรอบตัว สร้างความเสียหาย {s:damage} หน่วยแก่ศัตรูที่อยู่ในระยะ {s:radius} ช่อง"
+		"dac_ability_timbersaw_whirling_death_Lore"								"ข้ารู้ว่าเอ็นโนต้องเรียกขอความช่วยเหลือจากเพื่อนแห่งพงไพรของเขาทั้งหมด ข้าก็เลยเรียกของข้าบ้าง - <i>เมื่อฮอบเกนพยายามแก้ไขปัญหา</i>"
+
+		//TUSK
+		"dac_ability_tusk_walrus_punch"											"หมัดวอลรัส!"
+		"dac_ability_tusk_walrus_punch_Description"								"ทัสก์ชกหมัดวอลรัสอันทรงพลังของเขา การชกจะติดคริติคอลสร้างความเสียหาย {s:critical_damage}% และส่งเหยื่อขึ้นสู่อากาศเป็นเวลา {s:air_time} วินาที เมื่อตกสู่พื้น เหยื่อจะถูกลดความเร็ว {s:move_slow}% เป็นเวลา {s:slow_duration} วินาที ขณะชก ทัสก์จะไม่สามารถถูกสังหารได้"
+		"dac_ability_tusk_walrus_punch_Lore"									"เขาเคยเป็นเพื่อนข้ามาก่อน เราจะได้รู้ว่าเขามาเพื่อช่วยข้าหรือต่อยข้าในไม่ช้านี้ - <i>จุลหวนคิดถึงวัยเยาว์ของเขา</i>"
+		
+		
+		//ABADDON
+		"dac_ability_abaddon_aphotic_shield"									"โล่ไร้แสง"
+		"dac_ability_abaddon_aphotic_shield_Description"						"อาบัดโดนปกป้องยูนิตฝ่ายเดียวกันด้วยโล่ป้องกันที่ดูดซับความเสียหาย {s:damage_absorb} หน่วยเป็นเวลา {s:duration} วินาที<br><br>เมื่อโล่ถูกทำลาย มันจะระเบิดและสร้างความเสียหาย {s:damage_absorb} หน่วยแก่ศัตรูที่อยู่ในระยะ {s:radius} ช่อง<br><br>ชำระล้างบัฟด้านลบและอาการสตันบางชนิดให้กับยูนิตที่ถูกร่ายใส่"
+		"dac_ability_abaddon_aphotic_shield_Lore"								"ข้ามีความเคารพต่อตระกูลอเวอร์นัสเป็นอย่างยิ่ง - <i>เมื่อโอเนียทำการอ้อนวอน</i>"
+
+		// TERRORBLADE
+		"dac_ability_terrorblade_metamorph"										"เมตามอร์โฟซิส"
+		"dac_ability_terrorblade_metamorph_Description"							"เทเรอร์เบลดแปลงร่างเป็นปีศาจที่ทรงพลังโดยสามารถโจมตีระยะไกลได้ {s:bonus_attack_range} ช่องพร้อมกับเพิ่มพลังโจมตี {s:bonus_attack_damage} หน่วยและความเร็วในการโจมตี {s:bonus_attack_speed} หน่วย นอกจากนี้ เทเรอร์เบลดแลกเปลี่ยนค่าพลังชีวิตกับฝ่ายเดียวกันตัวอื่นเมื่อเริ่มใช้สกิลนี้"
+		"dac_ability_terrorblade_metamorph_Lore"								"เมื่อเห็นเจ้านั่นคุยกับอเนสซิกซ์แล้วละก็ รู้ได้เลยว่าจะต้องมีเรื่องแย่ ๆ เกิดขึ้น - <i>จุล ผู้จับตามองคน</i>"
+
+		// TECHIES
+		"dac_ability_techies_bomb" 												"ระเบิดรีโมต"
+		"dac_ability_techies_bomb_Description"									"ชาวแก๊งวางระเบิดซึ่งจะระเบิดหลังจากผ่านไป {s:explode_time} วินาที และสร้างความเสียหาย {s:damage} หน่วยแก่เป้าหมายที่อยู่ในระยะ {s:range} ช่อง<br><br>สร้างความเสียหายครึ่งเดียวแก่ศัตรูที่อยู่ห่างออกไปครึ่งหนึ่งของระยะทางสูงสุด"
+		"dac_ability_techies_bomb_Lore"											"เจ้าจะบ่นอะไรเกี่ยวกับคีนก็บ่นไป แต่พวกมันทำให้หัวเราะได้เสมอ - <i>เมื่อฮอบเกนชมการแสดงระเบิดทำลาย</i>"
+
+		//DISRUPTOR
+		"dac_ability_disruptor_static_storm"									"มรสุมสถิต"
+		"dac_ability_disruptor_static_storm_Description"						"ดิสรัปเตอร์สร้างพายุอัสนีออกมาสร้างความเสียหาย ซึ่งจะทำให้ยูนิตศัตรูทุกตัวที่อยู่ในระยะ {s:radius} ช่องจากจุดศูนย์กลางเป็นใบ้ ในระยะเวลา {s:duration} วินาที<br><br>ความเสียหายจะเริ่มจากเบา ๆ แต่จะรุนแรงขึ้นเรื่อย ๆ สร้างความเสียหายรวมทั้งหมด {s:damage_total} หน่วยตลอดระยะเวลาของพายุ"
+		"dac_ability_disruptor_static_storm_Lore"								"ข้าไม่แน่ใจว่าเขามาที่นี่เพื่อมาช่วยข้าจริง ๆ หรือแค่จะมาจับตามองแอกซ์กันแน่ - <i>เร็น กัปตันแห่งพลมอตลีย์</i>"
+
+		//OMNIKNIGHT
+		"dac_ability_omniknight_purification"									"ล้างบาป"
+		"dac_ability_omniknight_purification_Description"						"ออมนิไนต์รักษาพลังชีวิตให้กับยูนิตฝ่ายเดียวกัน {s:heal} หน่วยในทันที และสร้างความเสียหายกับศัตรูทั้งหมดที่อยู่ในระยะ {s:radius} ช่อง"
+		"dac_ability_omniknight_purification_Lore"								"เขาถือความศรัทธาเป็นอาวุธ... เช่นเดียวกันข้า - <i>ทูราธ ผู้ไถ่บาปหลงผิด</i>"
+		
+		//PUDGE
+		"dac_ability_pudge_meathook"											"ตะขอเกี่ยวเนื้อ"
+		"dac_ability_pudge_meathook_Description"								"พัดจ์เขวี้ยงตะขอโชกเลือดไปทางศัตรูที่อยู่ไกลที่สุดจากเขา ลากเหยื่อมาหาและสร้างความเสียหาย {s:damage} หน่วย<br><br>พัดจ์และฝ่ายเดียวกันที่อยู่ในระยะ 1 ช่องจะรุมโจมตีเหยื่อจนกว่ามันจะตาย"
+		"dac_ability_pudge_meathook_Lore"										"พัดจ์น่ะเหรอ? อ๋อ เขาก็แค่บวมนิดหน่อยน่ะ เจอก็ทักทายกันเสมอโดยเฉพาะตอนข้าอาบแดด - <i>คาร์ล ช่างตัดเสื้อผีดิบ</i>"
+		
+		//WARLOCK
+		"dac_ability_warlock_shadow_word"										"คาถาแห่งเงา"
+		"dac_ability_warlock_shadow_word_Description"							"วอร์ล็อกร่ายคาถาที่ฟื้นฟูพลังชีวิตให้กับยูนิตฝ่ายเดียวกัน {s:burst_tooltip} หน่วยในทันทีและ {s:hot_tooltip} หน่วยต่อวินาทีตลอดช่วงเวลา {s:duration} วินาที หรือสร้างความเสียหายให้กับยูนิตศัตรู {s:damage_tick} หน่วยในแต่ละวินาทีเป็นเวลา {s:duration} วินาที"
+		"dac_ability_warlock_shadow_word_Lore"									"ความลับบางอย่างควรคงรักษาไว้... เดมน็อกจะต้องชดใช้ให้กับความไร้ดุลยพินิจของเขา - <i>อเนสซิกซ์ เฝ้ารอเวลา</i>"
+		
+		//BLOODSEEKER
+		"dac_ability_bloodseeker_blood_rage"									"คลั่งโลหิต"
+		"dac_ability_bloodseeker_blood_rage_Description"						"ติดตัว: ในแต่ละวินาที บลัดซีกเกอร์ได้รับความเสียหายเท่ากับ {s:self_dmg_pct}% ของพลังชีวิตสูงสุดของเขา<br><br>ในขณะที่เขาสูญเสียพลังชีวิต เขาจะได้รับความเร็วในการโจมตีเพิ่มขึ้น สูงสุด {s:attack_speed_bonus_max} หน่วยที่พลังชีวิต {s:min_health_pct}%<br><br>เมื่อใดก็ตามที่ศัตรูที่อยู่ใกล้เคียงตายลง เขาจะได้รับ {s:heal_pct}% ของพลังชีวิตสูงสุดกลับคืน"
+		"dac_ability_bloodseeker_blood_rage_Lore"								"ถ้าจะให้บอกสิ่งหนึ่งที่ข้าเรียนรู้จากอาชีพของข้า ก็บอกได้เลยว่าผู้คนชอบเลือดสาด จ้างคนนี้เถอะ  - <i>เกร็ก โปรโมเตอร์อันเฉียบขาด</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double"									"ร่างมรสุมคู่"
+		"dac_ability_arc_warden_tempest_double_Description"						"อาร์กวอร์เดนสร้างร่างโคลนสมบูรณ์แบบของเขาเองโดยมีพลังชีวิตเท่าเดิมที่มีอยู่ตอนนี้<br><br>ร่างโคลนสามารถใช้ไอเท็มปัจจุบันของอาร์กวอร์เดนได้ทั้งหมด และจะพยายามโจมตีศัตรูตัวเดียวกันกับผู้อัญเชิญ ร่างโคลนจะไม่สามารถสร้างร่างโคลนได้ และสร้างความเสียหายได้น้อยลง {s:clone_dmg_reduction}%"
+		"dac_ability_arc_warden_tempest_double_Lore"							"ที่เขานำพามาคือความลึกลับของการสรรค์สร้าง - <i>ทูราธ นักพยากรณ์วลีซ้อนเร้น</i>"
+		
+		//ARC WARDEN
+		"dac_ability_arc_warden_tempest_double_no_items"						"ร่างมรสุมคู่"
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Arc Warden creates a copy of himself with the same health he currently has."
+		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"ที่เขานำพามาคือความลึกลับของการสรรค์สร้าง - <i>ทูราธ นักพยากรณ์วลีซ้อนเร้น</i>"
+
+		//MIRANA
+		"dac_ability_mirana_arrow"												"ลูกศรศักดิ์สิทธิ์"
+		"dac_ability_mirana_arrow_Description"									"มิรานายิงลูกศรระยะไกลออกไปเป็นเส้นตรงด้วยความแม่นยำอย่างเต็มที่ สตันเป้าหมายของเธอเป็นเวลา {s:duration} วินาทีและสร้างความเสียหาย {s:damage} หน่วย"
+		"dac_ability_mirana_arrow_Lore"											"อย่าเชื่อมั่นในเจ้าเร็นจอมคลั่งนั่น มันไม่คุ้มหรอก - <i>ขณะที่จุลให้คำแนะนำอันเป็นมิตร</i>"
+		
+		//SLARK
+		"dac_ability_slark_essence_shift"										"ถ่ายแก่นสาร"
+		"dac_ability_slark_essence_shift_description"							"ติดตัว: พลังโจมตีของสลาร์กจะเพิ่มขึ้น {s:stolen_dmg} หน่วย ความเร็วในการโจมตีของเขาจะเพิ่มขึ้น {s:stolen_aspd} หน่วยในการโจมตีแต่ละครั้ง"
+		"dac_ability_slark_essence_shift_lore"									"สลาร์กคือหัวใจสำคัญในการขนถ่ายสินค้าของเราเข้าและออกจากดาร์กรีฟ - <i>จุล ผู้สร้างเนื้อสร้างตัวด้วยตนเอง</i>"
+
+		"dac_ability_slark_pounce"												"ตะครุบ"
+		"dac_ability_slark_pounce_description"									"ติดตัว: หลังจากที่กระโดดลงสู่ช่อง สลาร์กปลดอาวุธเป้าหมายของเขาเป็นเวลา {s:disarm_duration} วินาที"
+		"dac_ability_slark_pounce_lore"											"มันได้เปรียบพวกเราอีกครั้งได้อย่างไรกัน? - <i>ฮอบเกน จอมหัวร้อน</i>"
+
+		//BLACK DRAGON
+		"dac_ability_black_dragon_splash_attack"								"โจมตีกระจาย"
+		"dac_ability_black_dragon_splash_attack_description"					"ติดตัว: การโจมตีระยะไกลของมังกรดำจะสร้างความเสียหายกระจายแก่ยูนิตในระยะ 1 ช่องของเป้าหมายมังกร"
+		"dac_ability_black_dragon_splash_attack_lore"							" "
+
+		//"SVEN GREAT CLEAVE - used for YEAR BEAST and ROSHAN"
+		"dac_ability_sven_great_cleave"											"ยอดพลังกวาด "
+		"dac_ability_sven_great_cleave_description"								"ติดตัว: การโจมตีระยะประชิดของยูนิตนี้จะกระจายไปยังศัตรูใกล้เคียง"
+		"dac_ability_sven_great_cleave_lore"									" "
+
+		//"ROSHAN SPELL IMMUNE"
+		"dac_ability_roshan_spell_immune"										"ป้องกันเวทโดยสมบูรณ์"
+		"dac_ability_roshan_spell_immune_description"							"เรียกใช้: โรชานป้องกันเวทโดยสมบูรณ์เป็นเวลา {s:duration} วินาที"
+		"dac_ability_roshan_spell_immune_lore"									" "
+
+		// Lone Druid Bear
+		"dac_ability_lone_druid_spirit_bear_entangle"							"กรงเล็บเกี่ยวพัน"
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"การโจมตีของหมีวิญญาณมีโอกาสที่จะทำให้เป้าหมายชะงักงัน เพราะจะสตันเป้าหมาย"
+		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
+
+		// THUNDER LIZARD BLOODLUST
+		"dac_ability_thunder_lizard_bloodlust"									"ตัณหาโลหิต"
+		"dac_ability_thunder_lizard_bloodlust_Description"						"สิ่งมีชีวิตกระตุ้นความบ้าคลั่งของยูนิตฝ่ายเดียวกัน เพิ่มความเร็วในการเคลื่อนที่ {s:bonus_movement_speed}% และความเร็วในการโจมตี {s:bonus_attack_speed}% หากร่ายใส่ตัวมันเอง ความเร็วในการโจมตีจะเพิ่ม {s:self_bonus}% แทน"
+		"dac_ability_thunder_lizard_bloodlust_Lore"								" "
+
+		// HEALING WARD PLACEABLE
+		"dac_ability_healing_ward_healing_aura"											"ออรารักษา"
+		"dac_ability_healing_ward_healing_aura_description"								"รักษาพลังชีวิตยูนิตฝ่ายเดียวกันภายในระยะ {s:heal_range} ช่องเป็นจำนวน {s:health_regen} หน่วย/วินาที"
+		"dac_ability_healing_ward_healing_aura_lore"									""
+
+		// TOMBSTONE PLACEABLE
+		"dac_ability_tombstone_raise_zombies"										"ปลุกซอมบี้"
+		"dac_ability_tombstone_raise_zombies_description"							"ยูนิตที่ตายในระยะ {s:range} ช่องจะอัญเชิญซอมบี้"
+		"dac_ability_tombstone_raise_zombies_lore"									""
+
+		// BARRICADE PLACEABLE
+		"dac_ability_barricade_aura"										"รั้วกั้น"
+		"dac_ability_barricade_aura_description"							"รั้วกั้นปกป้องยูนิตใกล้เคียง และต้านทานต่อเวทมนตร์ทุกชนิด"
+		"dac_ability_barricade_aura_lore"									""
+
+		// TARGET DUMMY PLACEABLE
+		"dac_ability_target_dummy_taunt"										"ยั่วยุ"
+		"dac_ability_target_dummy_taunt_description"							"สหายล่อเป้ายั่วยุศัตรู"
+		"dac_ability_target_dummy_taunt_lore"									""
+
+		// CINDERWALL TALENT
+		"dac_ability_cinderwall_aura"										"กำแพงเพลิง"
+		"dac_ability_cinderwall_aura_description"							"กำแพงเพลิงปกป้องยูนิตใกล้เคียง ต้านทานต่อเวทมนตร์ทุกชนิด และทำให้ยูนิตใกล้เคียงติดไฟ"
+		"dac_ability_cinderwall_aura_lore"									""
+
+		// FACELESS VOID
+		"dac_ability_faceless_void_chronocube"										"ลูกบาศก์แห่งกาลเวลา"
+		"dac_ability_faceless_void_chronocube_description"							"สร้างห้วงบิดเบือนในกาลอวกาศขึ้นมา สตันยูนิตทุกตัวที่ติดอยู่ข้างใน {s:radius} ช่องจากจุดศูนย์กลางลูกบาศก์เป็นเวลา {s:stun_duration} วินาที เฟซเลสวอยด์เคลื่อนที่ได้เร็วขึ้นอย่างมากเมื่ออยู่ด้านในลูกบาศก์ และได้รับความเร็วในการโจมตี {s:bonus_attack_speed} หน่วย โดยจะมีเพียงเฟซเลสวอยด์เท่านั้นที่จะไม่ได้รับผลกระทบ เมื่อร่าย เฟซเลสวอยด์จะพยายามเทเลพอร์ตนักลอบสังหารฝ่ายเดียวกันทั้งหมดออกจากลูกบาศก์"
+		"dac_ability_faceless_void_chronocube_lore"									"คลาสซูรีมจะเข้ามาขัดขวางเป็นแน่ นี่อาจเป็นปัญหาได้ - <i>เมื่อจุลตระหนักว่าเขาไม่สามารถปล่อยหมัดใส่เวลาได้</i>"
+
+		"dac_ability_faceless_void_time_walk"										"ย่างก้าวแห่งกาล"
+		"dac_ability_faceless_void_time_walk_description"							"ติดตัว: เฟซเลสวอยด์พุ่งตัวไปยังเป้าหมายถัดไปของเขา รักษาพลังชีวิตจากความเสียหายที่ได้รับทั้งหมดในช่วง 2 วินาทีที่ผ่านมา"
+		"dac_ability_faceless_void_time_walk_lore"									"โปรดเถอะ ข้าจะไม่แตะไอ้นาฬิกาทรายพวกนี้แม้แต่อันเดียว เจ้าคิดว่าข้าอยากให้เพียร์พอนต์มาเพ่นพ่านแถวนี้งั้นหรือ? - <i>ฮอบเกน คนคลั่งที่ยังมีเหตุผล</i>"
+
+		// LEGION COMMANDER
+		"dac_ability_legion_commander_duel"											"ดวลศึก"
+		"dac_ability_legion_commander_duel_description"								"ลีเจียนคอมมานเดอร์เลือกเป้าหมายศัตรูที่มีพลังชีวิตน้อยที่สุดในระยะ 1 ช่อง และทั้งสองจะถูกบังคับให้โจมตีกันเป็นเวลา {s:stun_duration} วินาที ฮีโร่ทั้งสองฝ่ายจะไม่สามารถใช้สกิลต่าง ๆ ได้ ถ้าฮีโร่ฝ่ายใดฝ่ายหนึ่งตายภายในช่วงเวลาของสกิล ฮีโร่ที่เป็นฝ่ายชนะการดวลศึกจะได้รับโบนัสค่าพลังโจมตี {s:winner_bonus_damage} หน่วยอย่างถาวร (โบนัสพลังโจมตี [20/32/48] ในโหมดน็อกเอาต์)"
+		"dac_ability_legion_commander_duel_lore"									"ไม่ต้องมาทำท่าทางหรอก เทรสดิน...ข้าช่วยเจ้าหาริกซ์ได้ - <i>อเนสซิกซ์ ไม่หวั่นแม้ความกดดันมามาก</i>"
+
+		"dac_ability_legion_commander_will_of_the_bullsnake"						"ความมุ่งมั่นแห่งบูลสเน็ก"
+		"dac_ability_legion_commander_will_of_the_bullsnake_description"			"<i>ปลดล็อคโดยพลังผสานมังกร</i><br>ติดตัว: เมื่อลีเจียนคอมมานเดอร์ชนะการดวลศึก เธอจะได้รับการรักษา {s:heal_percentage}% ของพลังชีวิตสูงสุดของเธอในทันที"
+		"dac_ability_legion_commander_will_of_the_bullsnake_lore"					"ข้ารู้จักพวกของเจ้าดี คอมมานเดอร์ และเจ้าคือสิ่งมีชีวิตที่อันตรายที่สุด นั่นคือผู้นับถือในศรัทธา - <i>เร็น นักเรียนแห่งโลก</i>"
+
+		"dac_ability_legion_commander_element"										"พลังธาตุจู่โจม"
+		"dac_ability_legion_commander_element_description"							"ติดตัว: เมื่อลีเจียนคอมมานเดอร์กระทำเดลตาสแลม เป็นส่วนหนึ่งของพลังผสานวิญญาณ เธอจะสร้างความเสียหายสองเท่า"
+		"dac_ability_legion_commander_element_lore"									"เหล่าทหารส่วนใหญ่ถูกหลอกหลอนด้วยวิญญาณ... แต่เธอเป็นผู้นำทัพวิญญาณ - <i>จุล รู้ทันทีเมื่อได้เห็นสายตาจ้องมองอันไร้วิญญาณ</i>"
+
+		// NYX ASSASSIN
+		"dac_ability_nyx_assassin_spiked_carapace"									"กระดองหนาม"
+		"dac_ability_nyx_assassin_spiked_carapace_description"						"นิกซ์แอสซาสซินปล่อยหนามออกจากกระดองของเขา ลบล้างและสะท้อนความเสียหายที่จะเกิด {s:damage_taken_reflect_percentage}% (มากที่สุดหนึ่งครั้งต่อคน) พร้อมทั้งสตันผู้สร้างความเสียหายเป็นเวลา {s:stun_duration} วินาที"
+		"dac_ability_nyx_assassin_spiked_carapace_lore"								"คำเรียกที่ถูกต้องคือสัตว์ขาปล้อง - <i>ไควเอท ใส่ใจในรายละเอียด</i>"
+
+		"dac_ability_nyx_assassin_vendetta"											"พยาบาท"
+		"dac_ability_nyx_assassin_vendetta_description"								"ติดตัว:หลังจากเทเลพอร์ตเพื่อโจมตียูนิต นิกซ์แอสซาสซินสร้างความเสียหายเพิ่มเติม {s:bonus_damage} หน่วยในการโจมตีครั้งถัดไปของเขา และทำให้ศัตรูถูกปิดการทำงานของโบนัสติดตัวเป็นเวลา {s:break_duration} วินาที ทำให้เอฟเฟกต์ติดตัวทั้งหมดไม่สามารถทำงานได้"
+		"dac_ability_nyx_assassin_vendetta_lore"									"จะแมลง แมง หรือสัตว์ขาปล้องอะไรใครจะไปสน ประเด็นคือข้าต้องการให้มันไปฆ่าคนนึงเดี๋ยวนี้... ตกลงเจ้าจะติดต่อมันให้ได้มั้ย? - <i>โอเนีย ไม่ค่อยชอบโดนคนอื่นแก้</i>"
+
+		// WEAVER
+		"dac_ability_weaver_shukuchi"												"ชูกูชิ"
+		"dac_ability_weaver_shukuchi_description"									"วีเวอร์เลือนหายไปจากสายตา ทำให้ไม่สามารถเลือกเป็นเป้าหมายได้ และเคลื่อนที่อย่างรวดเร็วผ่านเป้าหมายที่อยู่ในระยะสูงสุด {s:distance_cells} ช่อง วีเวอร์สร้างความเสียหาย {s:damage} หน่วยแก่ศัตรูแต่ละตัวที่เคลื่อนที่ผ่าน"
+		"dac_ability_weaver_shukuchi_lore"											"วีเวอร์ ด้วยกันแล้วเราจะสร้างโลกใบนี้ขึ้นมาใหม่ - <i>ทูราธ บ้าจริงทำจริง</i>"
+
+		// BROODMOTHER
+		"dac_ability_broodmother_spawn_spiderlings"									"วางไข่ลูกแมงมุม"
+		"dac_ability_broodmother_spawn_spiderlings_description"						"บรูดมาเธอร์ฝังไข่ลูก ๆ เข้าไปในร่างยูนิตศัตรู สร้างความเสียหาย {s:damage} หน่วย หากเป้าหมายถูกฆ่า ลูกแมงมุม {s:num_spiderlings} ตัวจะฟักตัวออกมา ลูกแมงมุมเป็นยูนิตที่ไม่สามารถเลือกเป็นเป้าหมายได้ สร้างความเสียหายต่ำ และมีพลังชีวิต 1 หน่วย"
+		"dac_ability_broodmother_spawn_spiderlings_lore"							"Look I may burn people alive, but at least I'm not hatching eggs in people... - <i>In which Hobgen equivocates"
+
+		"dac_ability_broodmother_spin_web"											"ปั่นใย"
+		"dac_ability_broodmother_spin_web_description"								"บรูดมาเธอร์ปั่นใยแมงมุมกว้าง {s:radius} ช่องลงบนยูนิตศัตรู ศัตรูที่อยู่ในใยจะสูญเสียความเร็วในการโจมตี {s:debuff_attack_speed} หน่วย ความเร็วในการเคลื่อนที่ {s:debuff_speed}% และความเร็วในการร่าย {s:debuff_casting_speed}%"
+		"dac_ability_broodmother_spin_web_lore"										"เป็นไปได้มั้ยถ้าข้าจะจ้างลูกแมงมุมน้อยของเจ้ามาปั่นใยให้ข้าสักหน่อย? ข้าค่อนข้างมั่นใจว่าแมงมุมไม่ถือว่ารวมอยู่ในกฎหมายคุ้มครองแรงงานเด็กนะ - <i>คาร์ล ช่างตัดเสื้อมีจรรยาบรรณ</i>"
+
+		// WISP
+		"dac_ability_wisp_tether"													"เชื่อมสายใย"
+		"dac_ability_wisp_tether_description"										"ไอโอผูกโยงเข้ากับฮีโร่ฝ่ายเดียวกันที่อยู่ใกล้ที่สุดและดึงตัวเข้าไปหา ไอโอและฮีโร่ที่โยงได้รับความเร็วในการโจมตี {s:bonus_attack_speed} หน่วย และการลดความเสียหาย {s:damage_reduction}% สายเชื่อมโยงจะขาดหากไอโออยู่ห่างออกไปมากกว่า {s:tether_break_distance} ช่อง"
+		"dac_ability_wisp_tether_lore"												"<i>เมื่อเอ็นโนจ้องไปยังไอโออย่างใจจดใจจ่อ</i>"
+
+		"dac_ability_wisp_relocate"													"เปลี่ยนตำแหน่ง"
+		"dac_ability_wisp_relocate_description"										"ไอโอเทเลพอร์ตออกจากกระดานเป็นเวลา {s:relocate_time_away} วินาทีเพื่อฟื้นคืนชีวิตฮีโร่ที่ตาย ยูนิตทั้งสองจะกลับมาพร้อมพลังชีวิตเต็ม และถูกชำระล้างเอฟเฟกต์ด้านลบออก"
+		"dac_ability_wisp_relocate_lore"											"<i>เมื่อไอโอจ้องกลับ</i>"
+
+		// BRISTLEBACK	
+		"dac_ability_bristleback_quill_spray"										"พ่นขนหนาม"
+		"dac_ability_bristleback_quill_spray_description"							"บริสเซิลแบ็กสะบัดขนจากหลังของเขา สร้างความเสียหายแก่ยูนิตศัตรูทั้งหมดที่อยู่ในระยะ {s:radius} ช่อง ศัตรูจะได้รับความเสียหาย {s:quill_base_damage} หน่วย พร้อมกับเพิ่มอีก {s:quill_stack_damage} หน่วยสำหรับการบวกทับของพ่นขนหนามแต่ละในแต่ละครั้งที่โดนพ่นขนใส่ในรอบนี้จนถึงการบวกทับสูงสุด {s:max_stacks} ครั้ง"
+		"dac_ability_bristleback_quill_spray_lore"									"ข้าจะบอกให้ชัดเจนแจ่มแจ้งสุด ๆ เลยนะ เจ้าและทัสก์จะไม่มาทำลายข้าวของในบาร์ของข้าคืนนี้ - <i>จุล ผู้ดับชนวน</i>"
+
+		// LIFESTEALER
+		"dac_ability_life_stealer_feast"											"เฉือนเลือดกินเนื้อ"
+		"dac_ability_life_stealer_feast_description"								"ติดตัว: การโจมตีของไลฟ์สตีลเลอร์สร้างความเสียหายแก่ศัตรู และรักษาตัวเขาเองเป็นจำนวน {s:lifesteal_percentage}% ของพลังชีวิตสูงสุดของเป้าหมาย"
+		"dac_ability_life_stealer_feast_lore"										"ข้าไม่ชอบเลยนะที่เจ้ามาทึกทักเอาว่าจากสภาพของข้า ข้าจะรู้ถึงตำแหน่งของไลฟ์สตีลเลอร์ได้ในทันที - <i>คาร์ล ถูกประเมินผิดอยู่เป็นนิจ</i>"
+
+		// DAZZLE
+		"dac_ability_dazzle_shadow_wave"											"คลื่นแห่งเงา"
+		"dac_ability_dazzle_shadow_wave_description"								"แดซเซิลปล่อยพลังการรักษาซึ่งชิ่งระหว่างฝ่ายเดียวกันที่อยู่ในระยะ {s:bounce_radius} ช่องจากกัน สูงสุด {s:max_targets} ตัว รักษาฝ่ายเดียวกันแต่ละตัวเป็นจำนวน {s:damage} หน่วย และสร้างความเสียหายแก่ยูนิตศัตรูใดก็ตามที่อยู่ในระยะ {s:damage_radius} ช่องเป็นจำนวน {s:damage} หน่วย แดซเซิลจะได้รับการรักษาทุกครั้งเมื่อใช้คลื่นแห่งเงา"
+		"dac_ability_dazzle_shadow_wave_lore"										"ข้าจะต้องจ่ายเท่าไหร่ถึงจะคงรักษาบริการของเจ้าไว้ได้? ข้าค่อนข้างสนใจในเรื่องการไม่ตายเป็นพิเศษน่ะ - <i>โอเนีย ทิ่มแทงเงา</i>"
+
+		// STORM SPIRIT
+		"dac_ability_storm_spirit_ball_lightning"									"ลูกบอลสายฟ้า"
+		"dac_ability_storm_spirit_ball_lightning_description"						"สตอร์มสปิริตกลายร่างเป็นกระแสไฟฟ้าและพุ่งผ่านสนามรบ สร้างความเสียหาย {s:damage} หน่วยแก่แต่ละยูนิตที่เขาผ่าน บวกกับความเสียหาย {s:damage_per_cell} หน่วยต่อช่องที่เขาเดินทาง"
+		"dac_ability_storm_spirit_ball_lightning_lore"								"คนอวดดีย่อมได้รับแรงผลักดันจากหัวใจ ไม่ใช่สมอง มันจะเป็นคนติดกับดักได้ง่ายที่สุด - <i>เมื่อทูราธคิดสร้างวางอุบาย</i>"
+
+		"dac_ability_storm_spirit_element"											"ธาตุลม"
+		"dac_ability_storm_spirit_element_description"								"ติดตัว: เมื่อสตอร์มสปิริตกระทำเดลตาสแลม เขาจะปลดอาวุธศัตรูที่ได้รับผลเป็นเวลา 3 วินาที"
+		"dac_ability_storm_spirit_element_lore"										"เราไม่ต้องกังวลเกี่ยวกับไควเอทหรอก เธอไม่อยากมาเข้าใกล้พายุอยู่แล้ว - <i>เมื่ออเนสซิกซ์พิจารณาจากทุกมุมมอง</i>"
+
+		// EMBER SPIRIT
+		"dac_ability_ember_spirit_sleight_of_fist"									"หัตถวิชา"
+		"dac_ability_ember_spirit_sleight_of_fist_description"						"เอมเบอร์สปิริตพุ่งไปรอบ ๆ ด้วยความรวดเร็วดั่งเปลวไฟ โจมตีศัตรูทั้งหมดที่อยู่ภายใน {s:cells} ช่อง จากนั้นจะกลับไปยังพื้นที่ที่เขาเริ่มต้น การโจมตีสร้างความเสียหายเพิ่มเติม {s:bonus_damage} หน่วย"
+		"dac_ability_ember_spirit_sleight_of_fist_lore"								"เขาอาจสู้ดั่งปีศาจ แต่เขาก็เป็นสิ่งมีชีวิตที่มีเกียรติ คำพูดของเขาดีเพียงพอสำหรับข้า - <i>จุล ผู้มีสัจจะในหมู่โจร</i>"
+
+		"dac_ability_ember_spirit_element"											"ธาตุไฟ"
+		"dac_ability_ember_spirit_element_description"								"ติดตัว: เมื่อเอมเบอร์สปิริตกระทำเดลตาสแลม เขาจะจุดไฟศัตรูที่ได้รับผลเป็นเวลา 3 วินาที"
+		"dac_ability_ember_spirit_element_lore"										"ข้าอยากได้เจ้านี่มาเป็นลูกจ้างของข้า - <i>ฮอบเกน หงส์ย่อมเข้าฝูงหงส์</i>"
+
+		// EARTH SPIRIT
+		"dac_ability_earth_spirit_geomagnetic_grip"									"สัมผัสธรณีแม่เหล็ก"
+		"dac_ability_earth_spirit_geomagnetic_grip_description"						"เอิร์ธสปิริตอัญเชิญร่างเศษส่วนหินจากนอกแผนที่ และดึงมันเข้ามายังเป้าหมายปัจจุบันของเขา ศัตรูที่โดนร่างเศษส่วนหินที่ถูกดึงเข้ามาจะถูกใบ้เป็นเวลา {s:silence_duration} วินาที และได้รับความเสียหาย {s:damage} หน่วย"
+		"dac_ability_earth_spirit_geomagnetic_grip_lore"							"ข้าล่ะชอบเหลือเกินเมื่อเกาลินเข้ามาในเมือง เขามักขุดค้นพบสิ่งที่น่าหลงใหลเป็นที่สุด - <i>คาร์ล มองหาวัสดุใช้งาน</i>"
+
+		"dac_ability_earth_spirit_element"											"ธาตุดิน"
+		"dac_ability_earth_spirit_element_description"								"ติดตัว: เมื่อเอิร์ธสปิริตกระทำเดลตาสแลม เขาจะใบ้ศัตรูที่ได้รับผลเป็นเวลา 3 วินาที"
+		"dac_ability_earth_spirit_element_lore"										"ข้ายอมแลกทุกอย่างเพื่อได้เห็นหงอคงสู้กับเจ้านั่นในสังเวียน... - <i>เกร็ก ตัวแทนจ้างแสนเพ้อฝัน</i>"
+
+		// VOID SPIRIT
+		"dac_ability_void_spirit_dissimilate"										"สลับมิติ"
+		"dac_ability_void_spirit_dissimilate_description"							"วอยด์สปิริตก้าวย่างเข้าสู่มิติลี้ลับ หายตัวและสร้างประตูมิติ 3 ตำแหน่ง หลังจาก {s:disappear_duration} วินาที เขาจะออกจากหนึ่งในประตูมิติและสร้างความเสียหาย {s:bonus_damage} หน่วยแก่ศัตรูที่อยู่ในระยะ {s:damage_distance} ช่อง ลดเกราะป้องกันพวกมัน {s:armor_reduction} หน่วย เป็นเวลา {s:armor_reduction_duration} วินาที"
+		"dac_ability_void_spirit_dissimilate_lore"									"ไม่มีใครยอมออกมาจากที่หลบซ่อนหากไม่มีเหตุผลที่ดีหรอก ไปสืบมาว่าทำไมเขาถึงมาที่นี่ - <i>อเนสซิกซ์ ค้นหาความลับ</i>"
+
+		"dac_ability_void_spirit_element"											"ธาตุมิติ"
+		"dac_ability_void_spirit_element_description"								"ติดตัว: เมื่อวอยด์สปิริตกระทำเดลตาสแลม เขาจะปิดการทำงานของโบนัสติดตัวศัตรูที่ได้รับผลเป็นเวลา 3 วินาที"
+		"dac_ability_void_spirit_element_lore"										"ระวังเวลาย่างก้าวแถวเจ้านั่นไว้นะ สลาร์ก - <i>เมื่อจุลให้คำแนะนำอันเป็นมิตร</i>"
+
+		// GRANNY LIZARD
+		"dac_ability_granny_lizard_shotgun_blast"									"ระเบิดกระจายเจ้าเก่า"
+		"dac_ability_granny_lizard_shotgun_blast_description"						"หลังจากการโจมตีพื้นฐาน 4 ครั้ง สแนปไฟร์เตรียมพร้อมปืนลูกซองของเธอ ระเบิดศัตรูที่อยู่ใกล้เคียงด้วยความเสียหาย {s:blast_damage} หน่วยเป็นทรงกรวย และลดความเร็วในการโจมตีของยูนิตที่ได้รับผล {s:blast_bonus_attack_speed}%"
+		"dac_ability_granny_lizard_shotgun_blast_lore"								"เหล่าคีนมีมันสมองสำหรับศึกสงครามอันน่าหลงใหลอยู่เสมอ และสงครามคือวิถีอาชีพของข้า ดูเหมือนว่าคงต้องมีธุรกิจแลกเปลี่ยนกันสักหน่อย - <i>ไควเอท นักลงทุนนางฟ้า</i>"
+
+		"dac_ability_granny_lizard_bazooka"											"จุมพิตมอร์ติเมอร์"
+		"dac_ability_granny_lizard_bazooka_description"								"<i>ปลดล็อคโดยพลังผสานมังกร</i>: มอร์ติเมอร์พ่นก้อนกลม {s:projectile_count} ก้อนไปยังศัตรูที่อยู่ในระยะ {s:cast_range} ช่อง แต่ละก้อนสร้างความเสียหาย {s:damage} หน่วยแก่ศัตรูทั้งหมดที่อยู่ภายใน {s:impact_radius} ช่องของจุดตกกระทบ และจุดไฟศัตรูดังกล่าวเป็นเวลา {s:burn_duration} วินาที"
+		"dac_ability_granny_lizard_bazooka_lore"									"อะไรนะ เจ้าอยากบอกเจ้ายายนั่นว่าตัวนั้นไม่ใช่มังกรงั้นหรือ? - <i>เกร็ก ไม่ค่อยใส่ใจในความเป็นของแท้สักเท่าไหร่</i>"
+
+		// MANGO TREE
+		"dac_ability_mango_tree_mango_throw"										"ต้นมะม่วงขว้างลูก"
+		"dac_ability_mango_tree_mango_throw_description"							"เมื่อเริ่มต้นการต่อสู้แล้ว ทุก {s:mango_production_interval} วินาทีหลังจากนั้น ต้นมะม่วงจะขว้างลูกมะม่วงออกไปสูงสุด {s:radius} ช่องจากต้น ยูนิตใดก็ตามที่กินลูกมะม่วงจะได้รับมานา 50 หน่วยและพลังชีวิต 100 หน่วย"
+		"dac_ability_mango_tree_mango_throw_lore"									"อย่ามองฉันด้วยสายตาอย่างนั้นสิ มันแค่ผลไม้เอง - <i>อเนสซิกซ์ไม่มีวันยอมให้คนอื่นเหมารวมตัวเองในทางลบง่าย ๆ หรอก</i>"
+
+		// UNDERLORDS
+
+		"dac_ability_underlord_scales"												"เพิ่มขึ้นตามอันเดอร์ลอร์ด"
+
+		"dac_ability_anessix_summon_companions"										"สหายปีศาจของอเนสซิกซ์"
+		"dac_ability_anessix_summon_companions_description"							"อเนสซิกซ์อัญเชิญกองกำลังปีศาจของเธอขึ้นมา หากปีศาจทั้งสองตาย เธอจะอัญเชิญพวกมันขึ้นมาใหม่อีกครั้ง"
+		"dac_ability_anessix_summon_companions_lore"								"มีเส้นสายดี ๆ ชีวิตก็ง่ายแบบนี้แหละ... - <i>อเนสซิกซ์ กับเส้นสายใต้ดินของเธอ</i>"
+
+		"dac_ability_anessix_summon_golem"											"อัญเชิญโกเลมปีศาจ"
+		"dac_ability_anessix_summon_golem_description"								"อเนสซิกซ์อัญเชิญโกเลมปีศาจ กระแทกตัวลงมาสู่ด้านหลังแนวศัตรู และสตันศัตรูทุกตัวที่อยู่ในระยะ 2 ช่องเป็นเวลา 2 วินาที"
+		"dac_ability_anessix_summon_golem_lore"										"เอาน่า ข้าไม่เคยคิดจะสังหารเจ้าหรอก... และนั่นคือความกรุณาที่มอบให้ - <i>อเนสซิกซ์ กับศีลธรรมที่ดูน่าพิศวง</i>"
+
+		"dac_ability_anessix_passive"												"สกิลติดตัว"
+		"dac_ability_anessix_passive_description"									"อเนสซิกซ์อัญเชิญปีศาจคู่หูเพื่อมาต่อสู้เคียงข้างเธอ"
+
+		"dac_ability_anessix_companion_archer_passive"								"โจมตีคริติคอล"
+		"dac_ability_anessix_companion_archer_passive_description"					"ติดตัว: นักธนูปีศาจมีโอกาส {s:chance}% ในการโจมตีแต่ละครั้งที่จะสร้างความเสียหายคริติคอล {s:bonus}% แก่ศัตรู"
+		"dac_ability_anessix_companion_archer_passive_lore"							"<i>พรรคพวกของข้าเชี่ยวชาญในการป่วนสถานการณ์อยู่แล้ว - <i>อเนสซิกซ์ กำปั้นเหล็กพรางในถุงมือกำมะหยี่</i>"
+
+		"dac_ability_anessix_pure_pain"												"ทุกขารมณ์ทะลุจิต"
+		"dac_ability_anessix_pure_pain_description"									"อเนสซิกซ์เลือกเป้าหมายศัตรูสุ่มหนึ่งตัว สร้างความเสียหายโดยตรง {s:damage} หน่วยในทุกวินาที เป็นเวลา {s:duration} วินาที"
+		"dac_ability_anessix_pure_pain_description_perlevel"						"อเนสซิกซ์เลือกเป้าหมายศัตรูสุ่มหนึ่งตัว สร้างความเสียหายโดยตรง {s:damage} หน่วยในทุกวินาที เป็นเวลา {s:duration} วินาที"
+		"dac_ability_anessix_pure_pain_lore"										"เจ้าควรจะบอกในสิ่งที่ข้าควรรู้มาซะดี ๆ... - <i>อเนสซิกซ์ ผู้มีอัธยาศัยดีต่อผู้คน</i>"
+
+		"dac_ability_anessix_martyrs_boon"											"พรผู้พลีชีวา"
+		"dac_ability_anessix_martyrs_boon_description"								"อเนสซิกซ์ได้รับความเสียหายเท่ากับ {s:selfdmg}% ของพลังชีวิตสูงสุดของเธอ ยูนิตฝ่ายเดียวกันทั้งหมดจะได้รับการรักษาพลังชีวิต {s:regen} หน่วยต่อวินาทีในช่วง {s:duration} วินาทีถัดไป"
+		"dac_ability_anessix_martyrs_boon_description_perlevel"						"อเนสซิกซ์ได้รับความเสียหายเท่ากับ {s:selfdmg}% ของพลังชีวิตสูงสุดของเธอ ยูนิตฝ่ายเดียวกันทั้งหมดจะได้รับการรักษาพลังชีวิต {s:regen} หน่วยต่อวินาทีในช่วง {s:duration} วินาทีถัดไป"
+		"dac_ability_anessix_martyrs_boon_lore"										"ความปรานีของข้ามีค่าเท่าเทียมกับความอำมหิต  - <i>อเนสซิกซ์ นายจ้างผู้มีเมตตาธรรม</i>"
+
+		"dac_ability_anessix_enthrall"												"หว่านเสน่ห์"
+		"dac_ability_anessix_enthrall_description"									"อเนสซิกซ์เล็งเป้าหมายเป็นเวลา {s:target_duration} วินาที เพื่อลดเกราะป้องกันของเป้าหมายลง {s:armor_reduction} และบังคับให้กองทัพของคุณโจมตีเป้าหมายดังกล่าว หากเป้าหมายตาย อเนสซิกซ์จะชุบชีวิตมันกลับมาเป็นปีศาจที่จะต่อสู้ให้เธอ"
+		"dac_ability_anessix_enthrall_description_lore"								"เจ้ากลายเป็นของข้าแล้วตอนนี้ - <i>ในขณะที่อเนสซิกซ์ก่อการยึดครองอย่างโหดร้าย</i>"
+
+		"dac_ability_demon_warrior_bash"											"พลังแบชแห่งนักรบ"
+		"dac_ability_demon_warrior_bash_description"								"คู่หูของอเนสซิกซ์มีโอกาส {s:bash_chance}% ที่จะสตันเป้าหมายเป็นเวลา {s:bash_duration} วินาที และสร้างความเสียหายเพิ่มเติม {s:bonus_chance_damage} หน่วย"
+		"dac_ability_demon_warrior_bash_lore"										"เจ้าต้องผ่านข้าไปก่อน หากเจ้าต้องการพบกับอเนสซิกซ์... - <i>บริล ทาสรับใช้ปีศาจ</i>"
+
+		"dac_ability_hobgen_passive"												"สกิลติดตัว"
+		"dac_ability_hobgen_passive_description"									"การโจมตีของฮอบเกนจะติดไฟศัตรูเป็นเวลา 3 วินาที"
+
+		"dac_ability_hobgen_explosivo"												"ขว้างระเบิดไปแล้ว!"
+		"dac_ability_hobgen_explosivo_description"									"ฮอบเกนยิงลูกไฟไปยังเป้าหมาย สร้างความเสียหาย {s:damage_base} หน่วย โดยแบ่งเท่า ๆ กันระหว่างเป้าหมายที่อยู่ติดกันทั้งหมด และทำให้เหล่ายูนิตดังกล่าวติดไฟทุกตัว"
+		"dac_ability_hobgen_explosivo_description_perlevel"							"ฮอบเกนยิงลูกไฟไปยังเป้าหมาย สร้างความเสียหาย {s:damage_base} หน่วย โดยแบ่งเท่า ๆ กันระหว่างเป้าหมายที่อยู่ติดกันทั้งหมด และทำให้เหล่ายูนิตดังกล่าวติดไฟทุกตัว"
+		"dac_ability_hobgen_explosivo_description_lore"								"มาระเบิดอะไรเล่น ๆ กันดีกว่า - <I>ฮอบเกน มือระเบิดสมัครเล่น</i>"
+
+		"dac_ability_hobgen_supercharged"											"เดือดเกินพิกัด"
+		"dac_ability_hobgen_supercharged_description"								"ฮอบเกนชาร์จพลังยูนิตฝ่ายเดียวกันที่อยู่ใกล้ที่สุดให้มีสถานะเดือดเกินพิกัด ทำให้ติดไฟและได้รับความเร็วในการโจมตี {s:aspd} หน่วย"
+		"dac_ability_hobgen_supercharged_description_perlevel"						"ฮอบเกนชาร์จพลังยูนิตฝ่ายเดียวกันที่อยู่ใกล้ที่สุดให้มีสถานะเดือดเกินพิกัด ทำให้ติดไฟและได้รับความเร็วในการโจมตี {s:aspd}"
+		"dac_ability_hobgen_supercharged_description_lore"							"บางครั้งสิ่งที่คนเราต้องการก็เพียงแค่แรงบันดาลใจเล็กน้อยเท่านั้นแหละ - <i>ฮอบเกนรำพึงถึงการจุดไฟแบบอุปมาอุปไมยและทำการจุดไฟจริง ๆ</i>"
+
+		"dac_ability_hobgen_airstrike"												"ระเบิดไม่เลือกหน้า"
+		"dac_ability_hobgen_airstrike_description"									"เหล่าสหายของฮอบเกนทิ้งระเบิด {s:strikes} ลูกลงในสมรภูมิ สร้างความเสียหาย {s:damage} หน่วยแก่ศัตรูที่โดนโดยตรง ส่วนศัตรูที่อยู่ในพื้นที่ระเบิดได้รับความเสียหายครึ่งเดียว"
+		"dac_ability_hobgen_airstrike_description_lore"								"เผามันให้ราบคาบ! - <i>ฮอบเกน นักวางเพลิงผู้บ้าคลั่ง</i>"
+
+		"dac_ability_hobgen_letsgocrazy"											"บ้ากันให้สุด"
+		"dac_ability_hobgen_letsgocrazy_description"								"การโจมตีของฮอบเกนต่อจากนี้ครอบคลุมถึงทั่วทั้งสมรภูมิ และกองทัพของคุณทั้งหมดจะได้รับความเร็วในการโจมตี {s:aspd} หน่วย ฮอบเกนจะเปลี่ยนเป้าหมายไปหา ยูนิตที่ยังไม่ติดไฟอย่างต่อเนื่อง"
+		"dac_ability_hobgen_letsgocrazy_description_perlevel"						"การโจมตีของฮอบเกนต่อจากนี้ครอบคลุมถึงทั่วทั้งสมรภูมิ และกองทัพของคุณทั้งหมดจะได้รับความเร็วในการโจมตี {s:aspd} หน่วย ฮอบเกนจะเปลี่ยนเป้าหมายไปหา ยูนิตที่ยังไม่ติดไฟอย่างต่อเนื่อง"
+		"dac_ability_hobgen_letsgocrazy_description_lore"							"อ๋อ... เจ้าอยากให้ข้าเป็นผู้ร้ายงั้นเหรอ? ได้เลย - <i>เมื่อการเจรจาต่อรองระหว่างฮอบเกนกับเอ็นโนไม่ได้ผล</i>"
+
+		"dac_ability_demon_warrior_protect"											"พลังปกป้องแห่งนักรบ"
+		"dac_ability_demon_warrior_protect_description"								"ปีศาจจะคอยปกป้องคุ้มครองอเนสซิกซ์ บล็อคการโจมตีระยะไกลที่กระทำต่อเธอ"
+		"dac_ability_demon_warrior_protect_description_lore"						"ยืนอยู่ข้าง ๆ ฉันสิที่รัก... มีบางสิ่งไม่น่าพิศมัยเท่าไรนัก - <i>เมื่ออเนสซิกซ์เดินเล่นในไวท์สไปร์</i>"
+
+		"dac_ability_jull_passive"													"สกิลติดตัว"
+		"dac_ability_jull_passive_description"										"จุลได้รับเกราะ {s:armor_per_enemy} หน่วยต่อยูนิตที่อยู่ติดกัน ไม่ว่าจะเป็นยูนิตฝ่ายเดียวกันหรือยูนิตศัตรู"
+
+		"dac_ability_jull_beeftron"													"ศรีทนได้"
+		"dac_ability_jull_beeftron_description"										"จุลสะท้อนความเสียหายระยะประชิด {s:melee_reflect_pct}% กลับไปยังยูนิตศัตรูใกล้เคียงทั้งหมด และรักษาความเสียหายระยะประชิด {s:melee_heal_pct}% และความเสียหายระยะไกล {s:ranged_heal_pct}% ภายในช่วงสุดท้าย {s:melee_reflect_window} วินาที"
+		"dac_ability_jull_beeftron_lore"											"ข้า จะไม่  แหลกสลาย! - <i>เมื่อจุลแสดงความมุ่งมั่นขณะโดนทรมาน</i>"
+
+		"dac_ability_jull_punchtron"												"หมัดพิฆาต"
+		"dac_ability_jull_punchtron_description"									"จุลต่อยศัตรูปัจจุบัน สร้างความเสียหาย {s:punch_damage} หน่วยและผลักยูนิตศัตรูไป {s:punch_distance} ช่องจากตำแหน่งของศัตรู ศัตรูที่ขวางทางจะถูกสตันเป็นระยะเวลา {s:stun_duration} วินาทีและกระเด็นออก หากศัตรูชนขอบกระดาน พวกมันจะได้รับความเสียหายอีกรอบ"
+		"dac_ability_jull_punchtron_lore"											"เข้ามาเลยทัสก์ เวลาได้ผันผ่านนานเกินไปแล้ว - <i>เมื่อเพื่อนเก่าจะเอาคืน</i>"
+
+		"dac_ability_jull_barrelsoffun"												"สนุกสุดเหวี่ยง"
+		"dac_ability_jull_barrelsoffun_description"									"จุลเรียกถังจำนวนหนึ่งจากขอบกระดาน หากถังชนกับเพื่อนร่วมทีม พวกเขาจะได้รับความเร็วในการโจมตี {s:attack_speed_buff_pct} หากชนกับศัตรู พวกมันจะได้รับความเสียหายทางกายภาพ {s:barrel_dmg} และได้รับ ความเสียหายกายภาพและเวทมนตร์มากขึ้น {s:damage_taken_debuff_pct}% ตลอดช่วงการต่อสู้ที่เหลืออยู่"
+		"dac_ability_jull_barrelsoffun_lore"										"ข้าไม่ได้ชื่นชอบในการทำลายสิ่งที่ข้าประดิษฐ์ออกมาหรอกนะ แต่บางครั้งก็ต้องยอมเสียสละ - <i>เมื่อจุลตัดสินใจปรับเปลี่ยนไปตามเพลง</i>"
+
+		"dac_ability_jull_happyhour"												"เวลาฉลอง"
+		"dac_ability_jull_happyhour_description"									"จุลเลี้ยงเครื่องดื่มหนึ่งยกให้กับสมาชิกทีมของคุณทุกตัว เมื่อรับความเสียหาย {s:damage_distributed_pct}% ของความเสียหายที่ได้รับจะเกิดผลทันที ส่วนที่เหลือจะได้รับภายในช่วง {s:damage_distributed_duration} วินาที"
+		"dac_ability_jull_happyhour_lore"											"สหาย!  ข้าขอเลี้ยงทุกคนในคืนนี้! - <i>จุล เจ้าของจันทราแตกร้าว</i>"
+
+		"dac_ability_enno_poison_spin"												"ลูกศรพิษมรณะ"
+		"dac_ability_enno_poison_spin_description"									"เอ็นโนกระโดดลอยตัวกลางอากาศและยิงลูกศรพิษใส่ศัตรูได้ถึง {s:target_count} ตัวที่อยู่ภายในระยะ {s:range} ช่อง ส่งผลให้เกิดการบวกทับพิษและสร้างความเสียหายกายภาพ {s:damage} หน่วยต่อการบวกทับแต่ละครั้ง"
+		"dac_ability_enno_poison_spin_lore"											"อย่าให้ขนาดของมันมาหลอกเจ้าได้… เอ็นโนนั้นอันตรายกว่าที่คนคาดถึง – <i>เมื่อจุลตระเตรียมเยี่ยมหลุมโพรง</i>"
+
+		"dac_ability_enno_escape_artist"											"ศิลปินแห่งการหลบหนี"
+		"dac_ability_enno_escape_artist_description"								"The first time Enno drops below {s:escape_health_pct_1}/{s:escape_health_pct_2}/{s:escape_health_pct_3}% health, he escapes in a cloud of smoke, purging all negative effects on him and reappearing elsewhere on the board. Enemies adjacent to Enno when he lands are stunned for {s:stun_duration} seconds."
+		"dac_ability_enno_escape_artist_lore"										"ใครก็ได้จับเจ้าแคระนั่นและฆ่ามันที! – <i>ฮอบเกน หัวร้อนสุดขีด</i>"
+
+		"dac_ability_enno_steal"													"ขอนะ!"
+		"dac_ability_enno_steal_description"										"เอ็นโนขโมยไอเท็มระดับต่ำสุดจากทีมศัตรูเมื่อเริ่มต้นการต่อสู้ ทุกครั้งที่ศัตรูตาย เอ็นโนจะลักขโมยจากศัตรูหากฝ่ายนั้นสวมใส่ไอเท็มที่ดีกว่า ทุกไอเท็มจะกลับคืนไปยังเจ้าของดั้งเดิมเมื่อการต่อสู้จบลง"
+		"dac_ability_enno_steal_lore"												"ฟังนะ ข้าเป็นนายหญิงแห่งความลับ ไม่ใช่นักสร้างปาฏิหาริย์: ถ้าเอ็นโนขโมยสิ่งของไปจากเจ้าแล้วล่ะก็ ความหวังจะได้คืนคงยาก และเจ้าคงต้องรอจนกว่าเจ้างั่งนั่นจะเบื่อกับสิ่งนั้น – <i>อเนสซิกซ์ กุมกระเป๋าเงินของเธอไว้ตลอดเวลา</i>"
+
+		"dac_ability_enno_airbrawl"													"โจมตีเต็มกำลัง!"
+		"dac_ability_enno_airbrawl_description"										"Enno launches an All Out Attack against all enemies, adding {s:stacks} stacks of Poison, dealing {s:fight_damage} physical damage and stunning them for {s:land_stun_duration} seconds."
+		"dac_ability_enno_airbrawl_lore"											"เอาเจ้าตัวขนปุยนรกนี้ออกไปห่าง ๆ ข้า! – <i>เมื่อฮอบเกนได้บทเรียนแห่งความอับอาย</i>"
+	}
+}
