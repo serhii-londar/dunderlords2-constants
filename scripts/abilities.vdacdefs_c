@@ -263,14 +263,14 @@
 			end_radius = 250
 			range = 3
 			speed = 1050
-			duration = 6
+			duration = 4
 			cooldown = 
 			[
-				10,
-				8,
+				7,
 				6,
+				5,
 			]
-			manaCost = 100
+			manaCost = 50
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 
 			[
@@ -924,12 +924,12 @@
 			manaCost = 100
 			slow_duration = 2.500000
 			slow_value = -65
-			jump_range = 2
+			jump_range = 3
 			jumps = 
 			[
-				6,
-				9,
-				12,
+				7,
+				10,
+				13,
 			]
 			animationlength = 1.500000
 			damage = 
@@ -2235,13 +2235,8 @@
 			maxLevel = 3
 			self_dmg_pct = 7
 			heal_pct = 35
-			min_health_pct = 
-			[
-				25,
-				30,
-				35,
-			]
-			attack_speed_bonus_max = 500
+			min_health_pct = 30
+			attack_speed_bonus_max = 300
 			precache = 
 			[
 				"particles/units/heroes/hero_bloodseeker/bloodseeker_bloodrage.vpcf",
@@ -3239,12 +3234,7 @@
 			castPoint = 0.200000
 			castAnimation = "ACT_DOTA_CAST_ABILITY_3"
 			animationlength = 1.000000
-			cooldown = 
-			[
-				20,
-				18,
-				16,
-			]
+			cooldown = 8
 			manaCost = 100
 			speed = 1000
 			width = 128
@@ -3669,8 +3659,8 @@
 			maxLevel = 3
 			castPoint = 0.130000
 			castAnimation = "ACT_DOTA_CAST_ABILITY_3"
-			cooldown = 60
-			manaCost = 100
+			cooldown = 20
+			manaCost = 70
 			animationlength = 0.730000
 			summonID = 126
 			ward_magic_resist = 50

@@ -1970,7 +1970,7 @@
 			]
 			keywords = "troll summoner"
 			magicResist = 0
-			maxmana = 100
+			maxmana = 70
 			model = "models/heroes/shadowshaman/shadowshaman.vmdl"
 			model_scale = 0.650000
 			texturename = "shadow_shaman"
@@ -3284,6 +3284,7 @@
 			powerLevel = 3
 			healthBarOffset = -40
 			texturename = "lone_druid_bear"
+			player_dmg_override = 0
 		}
 		lycan_wolf_spawns = 
 		{
@@ -5127,7 +5128,7 @@
 			[
 				"bristleback_quill_spray",
 			]
-			armor = 10
+			armor = 5
 			attackAnimationPoint = 0.300000
 			attackRange = 1
 			attackRate = 1.700000
@@ -6239,9 +6240,9 @@
 			goldCost = 0
 			health = 
 			[
-				300,
-				400,
-				500,
+				360,
+				480,
+				600,
 			]
 			model_scale = 1.200000
 			id = 126

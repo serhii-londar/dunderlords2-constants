@@ -258,7 +258,7 @@
 			aiPrefAttackSpeed = true
 			displayName = "#dac_item_stonehall_pike"
 			description = "#dac_item_stonehall_pike_desc"
-			damage_per_kill = 3
+			damage_per_kill = 4
 			offensive_damage_per_kill = 1
 			defensive_heal_each_kill = 250
 			support_kill_threshold = 70
@@ -699,7 +699,7 @@
 			displayName = "#dac_item_aegis_new"
 			description = "#dac_item_aegis_new_desc"
 			resurrect_health_percent = 50
-			resurrect_delay = 5
+			resurrect_delay = 3
 			offensive_revenge_damage_percent = 200
 			defensive_resurrect_health_percent = 100
 			support_fear_range = 1

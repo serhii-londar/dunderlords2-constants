@@ -993,7 +993,7 @@
 				{
 					id = 20066
 					unitcount = 4
-					affects_all_allied_summons_of_keyword_and_allied_heroes = true
+					affects_all_allies_with_keyword_and_all_summons = true
 				},
 				
 				{
@@ -1004,8 +1004,8 @@
 			]
 			bonus_damage_per_attack = 
 			[
-				6,
-				8,
+				5,
+				7,
 				10,
 			]
 			alliance_eligible = 
@@ -1237,6 +1237,7 @@
 				"#DAC_Synergy_Tooltip_Vigilant_1",
 			]
 			color = "95 151 208"
+			damage_percent = 50
 			precache = 
 			[
 				"particles/gameplay/synergy/vigilant/vigilant_crosshair.vpcf",
@@ -1257,6 +1258,7 @@
 			]
 			proc_chance = 40
 			pure_damage_percent = 5
+			cooldown = 0.500000
 			color = "105 93 106"
 			precache = 
 			[
