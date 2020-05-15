@@ -1,4 +1,4 @@
-"lang"
+﻿"lang"
 { 
 	"Language" "English" 
 	"Tokens" 
@@ -23,7 +23,7 @@
 
 		//FURION
 		"dac_ability_natures_prophet_summon_tree"								"Nature's Call"
-		"dac_ability_natures_prophet_summon_tree_Description"					"Nature's Prophet summons a Treant. This Treant is considered a druid."
+		"dac_ability_natures_prophet_summon_tree_Description"					"Nature's Prophet summons a Treant. This Treant is considered a druid. At 3 stars, the Treant spawns on the enemy's side of the board."
 		"dac_ability_natures_prophet_summon_tree_Lore"							"Enno has reached out to his little forest friends... this could be a problem. - <i>O'nia, Banished Merchant of Revtel</i>"
 
 		"dac_ability_natures_prophet_wrath_of_nature"							"Wrath of Nature"
@@ -141,8 +141,8 @@
 		"dac_ability_shadow_shaman_voodoo_Lore"									"Now that guy knows how to put on a show! - <i>In which Grek shows professional courtesy</i>"
 
 		"dac_ability_shadow_shaman_mass_serpent_ward"							"Mass Serpent Ward"
-		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Shadow Shaman traps an enemy unit by summoning up to 4 Serpent Wards."
-		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"At least he's not turning people into chickens anymore - <i>O'nia, Fowl Mood</i>"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Shadow Shaman traps an enemy unit by summoning up to 4 Serpent Wards. At 3 stars, Shadow Shaman also Hexes the enemy unit for {s:duration} seconds."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"Good news boys, chicken's back on the menu! - <i>Hobgen, Short Order Crook</i>"
 
 		//ENIGMA
 		"dac_ability_enigma_midnight_pulse"										"Midnight Pulse"
@@ -166,7 +166,7 @@
 
 		//SLARDAR
 		"dac_ability_slardar_amplify_damage"									"Corrosive Haze"
-		"dac_ability_slardar_amplify_damage_Description"						"Slardar modifies enemy armor by {s:armor_reduction} for {s:duration} seconds."
+		"dac_ability_slardar_amplify_damage_Description"						"Slardar modifies enemy armor by {s:armor_reduction} for {s:duration} seconds. At 3 stars, Slardar also bashes the target, dealing {s:bash_damage} Physical damage and stunning for {s:bash_duration} seconds."
 		"dac_ability_slardar_amplify_damage_Lore"								"Slark and I were able to do business, surely we can reach an agreement as well. - <i>Jull, Pruno Aficionado</i>"
 
 		//BEASTMASTER
@@ -176,7 +176,7 @@
 
 		//VENOMANCER
 		"dac_ability_venomancer_plague_ward"									"Plague Ward"
-		"dac_ability_venomancer_plague_ward_Description"						"Venomancer summons {s:num_wards} Plague Ward to fight alongside him. Plague Wards apply Poison stacks to their target."
+		"dac_ability_venomancer_plague_ward_Description"						"Venomancer summons {s:num_wards} Plague Ward to fight alongside him. Plague Wards apply Poison stacks to their target and have {s:ward_magic_resist}% Magic Resistance."
 		"dac_ability_venomancer_plague_ward_Lore"								"Your creations are beautiful to behold. Let me help you cultivate your garden... - <i>In which Turath learns that flattery gets you everywhere</i>"
 
 		"dac_ability_venomancer_venomous_gale"									"Venomous Gale"
@@ -220,7 +220,7 @@
 		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davion, your talents are being wasted on someone who doesn't appreciate the beauty of what you do. - <i>In which Hobgen tries to poach talent</i>"
 
 		"dac_ability_dragon_knight_elder_dragon_form"							"Elder Dragon Form"
-		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>UNLOCKED BY THE DRAGON ALLIANCE</i><br>PASSIVE: At the beginning of combat Dragon Knight takes the form of one of three powerful elder dragons, increasing his movement speed by {s:bonus_movement_speed}% and attack damage by {s:bonus_attack_damage} and granting him new powers.<br><br>Green Dragon:\nAttacks deal {s:corrosive_breath_damage} poison damage per second for {s:corrosive_breath_duration} seconds.<br><br>Red Dragon:\nIn addition to poisoning enemies, attacks damage all enemy units {s:splash_radius} cell away from the target for {s:splash_damage_percent}% damage.<br><br>Blue Dragon:\nIn addition to poisoning enemies, attacks slow movement speed by {s:frost_bonus_movement_speed}% and attack speed by {s:frost_bonus_attack_speed}% to enemy units {s:frost_aoe} cell away from the target for {s:frost_duration} seconds."
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>UNLOCKED BY THE DRAGON ALLIANCE</i><br>PASSIVE: At the beginning of combat Dragon Knight takes the form of one of three powerful elder dragons, increasing his movement speed by {s:bonus_movement_speed}% and attack damage by {s:bonus_attack_damage} and granting him new powers.<br><br>Green Dragon:\nAttacks deal {s:corrosive_breath_damage} damage per second for {s:corrosive_breath_duration} seconds and Poison the target.<br><br>Red Dragon:\nIn addition to poisoning enemies, attacks damage all enemy units {s:splash_radius} cell away from the target for {s:splash_damage_percent}% damage.<br><br>Blue Dragon:\nIn addition to poisoning enemies, attacks slow movement speed by {s:frost_bonus_movement_speed}% and attack speed by {s:frost_bonus_attack_speed}% to enemy units {s:frost_aoe} cell away from the target for {s:frost_duration} seconds."
 		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"Kaden spoke highly of you, let's hope his praise was well earned. - <i>Wren, Friend to Dragon Hold</i>"
 
 		//ENCHANTRESS
@@ -235,7 +235,7 @@
 
 		//BATRIDER
 		"dac_ability_batrider_sticky_napalm"									"Sticky Napalm"
-		"dac_ability_batrider_sticky_napalm_Description"						"Batrider throws sticky oil, coating the ground {s:radius} cells away from point of impact.  The oil adds {s:damage} damage per stack to Batrider's attacks, and slows the movement and attack speed of enemies by {s:movement_speed_pct}%.<br><br>Additional casts of Sticky Napalm continue to increase damage and slow percentages, up to {s:max_stacks} stacks."
+		"dac_ability_batrider_sticky_napalm_Description"						"Batrider throws flaming sticky oil, coating the ground {s:radius} cells away from point of impact. The oil adds {s:damage} damage per stack to Batrider's attacks, and slows the movement and attack speed of enemies by {s:movement_speed_pct}%. At 3 stars, Batrider also sets these enemies on fire for {s:fire_duration} seconds.<br><br>Additional casts of Sticky Napalm continue to increase damage and slow percentages, up to {s:max_stacks} stacks."
 		"dac_ability_batrider_sticky_napalm_Lore"								"I love this guy.  LOVE HIM.  - <i>Hobgen, Pyromaniac</i>"
 
 		//DOOM BRINGER
@@ -255,7 +255,7 @@
 
 		// Lycan
 		"dac_ability_lycan_wolf_spawn_shift"									"Shapeshift"
-		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan summons two wolves and transforms and gains {s:hp_per}% to his max health, his move speed is boosted to {s:speed} and gains {s:crit_chance}% chance to Critical Hit for {s:crit_bonus}% Damage."
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan summons {s:summon_count} wolves and transforms and gains {s:hp_per}% to his max health, his move speed is boosted to {s:speed} and gains {s:crit_chance}% chance to Critical Hit for {s:crit_bonus}% Damage."
 		"dac_ability_lycan_wolf_spawn_shift_Lore"								"Please Lycan, help me get revenge. - <i>In which Wren appeals to Lycan's humanity</i>"
 		
 		// LONE DRUID
@@ -271,7 +271,7 @@
 
 		//OGRE MAGI
 		"dac_ability_ogre_magi_bloodlust"										"Bloodlust"
-		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Magi incites a frenzy in a friendly unit, increasing its movement speed by {s:bonus_movement_speed}% and attack speed by {s:bonus_attack_speed}%. If cast on Ogre Magi himself, the attack speed bonus is {s:self_bonus}% instead."
+		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Magi incites a frenzy in a friendly unit, increasing its movement speed by {s:bonus_movement_speed}% and attack speed by {s:bonus_attack_speed}%. If cast on Ogre Magi himself, the attack speed bonus is {s:self_bonus}% instead. Ogre Magi has a {s:multicast_chance}% chance to Multicast this ability to 2 targets."
 		"dac_ability_ogre_magi_bloodlust_Lore"									"The Magi is worth twice what he charges.  Fortunately the Magi is also an idiot. - <i>O'nia, Bargain Hunter</i>"
 
 		// MAGNUS
@@ -325,7 +325,7 @@
 
 		//TUSK
 		"dac_ability_tusk_walrus_punch"											"Walrus PUNCH!"
-		"dac_ability_tusk_walrus_punch_Description"								"Tusk connects with his mighty Walrus Punch, a critical strike that deals {s:critical_damage}% damage and launches its victim into the air for {s:air_time} second. Upon landing, the victim is slowed by {s:move_slow}% for {s:slow_duration} seconds. Tusk cannot be killed while punching."
+		"dac_ability_tusk_walrus_punch_Description"								"Tusk connects with his mighty Walrus Punch, a critical strike that deals {s:critical_damage}% damage and launches its victim into the air for {s:air_time} second(s). Upon landing, the victim is slowed by {s:move_slow}% for {s:slow_duration} seconds and loses {s:attack_slow} Attack Speed. Tusk cannot be killed while punching."
 		"dac_ability_tusk_walrus_punch_Lore"									"He was my friend once.  We'll see if he's here to help me or punch me soon enough. - <i>In which Jull reflects on his youth</i>"
 		
 		
@@ -366,7 +366,7 @@
 		
 		//BLOODSEEKER
 		"dac_ability_bloodseeker_blood_rage"									"Bloodrage"
-		"dac_ability_bloodseeker_blood_rage_Description"						"PASSIVE: Every second Bloodseeker takes damage equal to {s:self_dmg_pct}% of his max health.<br><br>As he loses health, he gains attack speed, up to a maximum of {s:attack_speed_bonus_max} at {s:min_health_pct}% health.<br><br>Whenever an adjacent enemy dies, he regains {s:heal_pct}% of his max health."
+		"dac_ability_bloodseeker_blood_rage_Description"						"PASSIVE: As Bloodseeker's enemy's health drops, he gains attack speed, up to a maximum of {s:attack_speed_bonus_max} at {s:min_health_pct}% health.<br><br>Whenever Bloodseeker kills a target, he regains {s:heal_pct}% of their max health."
 		"dac_ability_bloodseeker_blood_rage_Lore"								"If I've learned one thing in my career, it's that folks love blood.  Hire this man.  - <i>Grek, Decisive Promoter</i>"
 		
 		//ARC WARDEN
@@ -376,7 +376,7 @@
 		
 		//ARC WARDEN
 		"dac_ability_arc_warden_tempest_double_no_items"						"Tempest Double"
-		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Arc Warden creates a copy of himself with the same health he currently has."
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Arc Warden creates a copy of himself with the same health he currently has. Clones do {s:clone_dmg_reduction}% less damage."
 		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"He brings with him the mysteries of creation. - <i>Turath, Cryptic Prophet</i>"
 
 		//MIRANA
@@ -410,7 +410,7 @@
 
 		// Lone Druid Bear
 		"dac_ability_lone_druid_spirit_bear_entangle"							"Entangling Claws"
-		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Spirit Bear's attacks have a chance to entangle the target, stunning them."
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Spirit Bear's attacks have a chance to entangle the target, rooting and disarming them."
 		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
 
 		// THUNDER LIZARD BLOODLUST
@@ -454,7 +454,7 @@
 
 		// LEGION COMMANDER
 		"dac_ability_legion_commander_duel"											"Duel"
-		"dac_ability_legion_commander_duel_description"								"Legion Commander targets the lowest health enemy 1 cell away and they are forced to attack each other for {s:stun_duration}s. Neither hero can use abilities. If either hero dies during the duration, the hero winning the Duel gains permanent {s:winner_bonus_damage} bonus damage. ([20/32/48] bonus damage in Knockout)"
+		"dac_ability_legion_commander_duel_description"								"Legion Commander targets the lowest health enemy 1 cell away and they are forced to attack each other for {s:stun_duration}s. Neither hero can use abilities nor be healed. If either hero dies during the duration, the hero winning the Duel gains permanent {s:winner_bonus_damage} bonus damage. ([20/32/48] bonus damage in Knockout)"
 		"dac_ability_legion_commander_duel_lore"									"There's no need to posture, Tresdin...I can help you find Rix. - <i>Anessix, Cool Under Pressure</i>"
 
 		"dac_ability_legion_commander_will_of_the_bullsnake"						"Will of the Bullsnake"
@@ -476,7 +476,7 @@
 
 		// WEAVER
 		"dac_ability_weaver_shukuchi"												"Shukuchi"
-		"dac_ability_weaver_shukuchi_description"									"Weaver shifts out of visibility, becoming untargetable and quickly moving through a target up to {s:distance_cells} cells away. Weaver deals {s:damage} damage to each enemy it passes through."
+		"dac_ability_weaver_shukuchi_description"									"Weaver shifts out of visibility, becoming untargetable and quickly moving through a target up to {s:distance_cells} cells away. Weaver deals {s:damage} damage to each enemy it passes through. For {s:mana_break_duration} seconds afterwards, Weaver's attacks burn {s:mana_per_hit} Mana doing {s:damage_per_burn} damage per Mana burnt."
 		"dac_ability_weaver_shukuchi_lore"											"Weaver.  Together we will remake the world. - <i>Turath, Crazy Enough to do It</i>"
 
 		// BROODMOTHER
@@ -494,7 +494,7 @@
 		"dac_ability_wisp_tether_lore"												"<i>In which Enno stares at Io intently</i>"
 
 		"dac_ability_wisp_relocate"													"Relocate"
-		"dac_ability_wisp_relocate_description"										"Io teleports away for {s:relocate_time_away} seconds to revive a dead hero. The two units return with full health and are purged of negative effects."
+		"dac_ability_wisp_relocate_description"										"Io teleports away for {s:relocate_time_away} seconds to revive a dead hero. The two units return with full health and are purged of negative effects. At 3 stars, Io also resets the dead hero's cooldowns."
 		"dac_ability_wisp_relocate_lore"											"<i>In which Io stares back</i>"
 
 		// BRISTLEBACK	
@@ -613,7 +613,7 @@
 		"dac_ability_hobgen_supercharged_description_lore"							"Sometimes all people need is a little bit of motivation - <i>In which Hobgen lights a literal and metaphorical fire</i>"
 
 		"dac_ability_hobgen_airstrike"												"Friendly Fire"
-		"dac_ability_hobgen_airstrike_description"									"Hobgen's buddies throw {s:strikes} bombs in the battle field dealing {s:damage} damage to enemies directly hit. Enemies caught in the explosion AoE take half damage."
+		"dac_ability_hobgen_airstrike_description"									"Hobgen's buddies throw {s:strikes} bombs in the battle field dealing {s:damage} damage to enemies caught in the blast."
 		"dac_ability_hobgen_airstrike_description_lore"								"Burn it all! - <i>Hobgen, Crazed Pyromaniac</i>"
 
 		"dac_ability_hobgen_letsgocrazy"											"Let's Go Crazy"
@@ -659,5 +659,17 @@
 		"dac_ability_enno_airbrawl"													"All Out Attack!"
 		"dac_ability_enno_airbrawl_description"										"Enno launches an All Out Attack against all enemies, adding {s:stacks} stacks of Poison, dealing {s:fight_damage} physical damage and stunning them for {s:land_stun_duration} seconds."
 		"dac_ability_enno_airbrawl_lore"											"GET THIS FURRY BASTARD AWAY FROM ME! – <i>In Which Hobgen Learns a Lesson In Humility</i>"
+
+		// 3star abilities
+		"dac_ability_3star"															"Three Star Effect"
+
+		"dac_ability_warlock_3star"													"Warlock 3 Star Effect"
+		"dac_ability_warlock_3star_Description"										"At three stars, Warlock prevents friendly Demons from silencing each other when casting abilities."
+
+		"dac_ability_razor_3star"													"Razor 3 Star Effect"
+		"dac_ability_razor_3star_Description"										"At three stars, each time Razor attacks an enemy, he steals {s:stolen_dmg} Attack Damage, up to {s:max_stacks} times. This is reset for Razor, but not the enemy, when changing targets."
+
+		"dac_ability_chaos_knight_3star"													"Chaos Knight 3 Star Effect"
+		"dac_ability_chaos_knight_3star_Description"								"At three stars, Chaos Knight's allied Knights always count as adjacent to a friendly Knight."
 	}
 }

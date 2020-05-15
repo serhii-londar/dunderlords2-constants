@@ -1,4 +1,4 @@
-"lang"
+﻿"lang"
 { 
 	"Language" "tchinese" 
 	"Tokens" 
@@ -23,7 +23,7 @@
 
 		//FURION
 		"dac_ability_natures_prophet_summon_tree"								"自然呼喚"
-		"dac_ability_natures_prophet_summon_tree_Description"					"自然先知召喚一隻樹精。此樹精被視為德魯伊。"
+		"dac_ability_natures_prophet_summon_tree_Description"					"自然先知召喚一隻樹精。此樹精被視為德魯伊。達到 3 星時，樹精會從敵方那邊的棋盤上出現。"
 		"dac_ability_natures_prophet_summon_tree_Lore"							"恩諾已向他樹林裡的小幫手求援……這可能會是個問題。- <i>被流放的瑞文泰爾商人歐尼亞</i>"
 
 		"dac_ability_natures_prophet_wrath_of_nature"							"自然之怒"
@@ -141,8 +141,8 @@
 		"dac_ability_shadow_shaman_voodoo_Lore"									"這傢伙很會表演！- <i>格瑞克展現專業素養</i>"
 
 		"dac_ability_shadow_shaman_mass_serpent_ward"							"群蛇守衛"
-		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"暗影薩滿召喚出最多 4 個群蛇守衛來困住一個敵方單位。"
-		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"至少他不再把人變成雞了。- <i>情緒惡劣的歐尼亞</i>"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"暗影薩滿召喚最多 4 個群蛇守衛，困住一個敵方單位。達到 3 星時，暗影薩滿還會對敵方單位施展巫術，持續 {s:duration} 秒。"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"有好消息啊，兄弟們，菜單上又有雞了！- <i>快手快腳的騙子哈伯根</i>"
 
 		//ENIGMA
 		"dac_ability_enigma_midnight_pulse"										"午夜凋零"
@@ -166,7 +166,7 @@
 
 		//SLARDAR
 		"dac_ability_slardar_amplify_damage"									"蝕甲陰霾"
-		"dac_ability_slardar_amplify_damage_Description"						"斯拉達修改敵方單位 {s:armor_reduction} 護甲，持續 {s:duration} 秒。"
+		"dac_ability_slardar_amplify_damage_Description"						"斯拉達修改敵方護甲使其降低 {s:armor_reduction}，持續 {s:duration} 秒。達到 3 星時，斯拉達更會重擊目標，造成 {s:bash_damage} 物理傷害，並使其暈眩 {s:bash_duration} 秒。"
 		"dac_ability_slardar_amplify_damage_Lore"								"斯拉克和我既然能在生意上合作，我們當然也可以達成共識。- <i>監獄私釀酒老饕賈爾</i>"
 
 		//BEASTMASTER
@@ -176,7 +176,7 @@
 
 		//VENOMANCER
 		"dac_ability_venomancer_plague_ward"									"瘟疫守衛"
-		"dac_ability_venomancer_plague_ward_Description"						"劇毒術士召喚 {s:num_wards} 名瘟疫守衛和他並肩作戰。瘟疫守衛將對目標疊加毒液。"
+		"dac_ability_venomancer_plague_ward_Description"						"劇毒術士召喚 {s:num_wards} 名瘟疫守衛和他並肩作戰。瘟疫守衛將對目標疊加毒液，並有 {s:ward_magic_resist}% 魔法抗性。"
 		"dac_ability_venomancer_plague_ward_Lore"								"你的作品真是太美了，讓我來幫你照料你的花園吧……- <i>塔拉什學到諂媚能打通所有關卡</i>"
 
 		"dac_ability_venomancer_venomous_gale"									"烈毒瘴氣"
@@ -220,7 +220,7 @@
 		"dac_ability_dragon_knight_breathe_fire_Lore"							"達維安，你的才華都浪費在不懂你做事精髓的人身上了。- <i>試著挖角人才的哈伯根</i>"
 
 		"dac_ability_dragon_knight_elder_dragon_form"							"真龍形態"
-		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>由龍族特性解鎖</i><br>被動：戰鬥開始時，龍騎士能夠變身成為三種不同的真龍形態之一，隨著化身為龍，移動速度會提升 {s:bonus_movement_speed}%、攻擊傷害提升 {s:bonus_attack_damage}，並獲得新能力。<br><br>腐蝕龍息：\n攻擊每秒造成 {s:corrosive_breath_damage} 毒素傷害，持續 {s:corrosive_breath_duration} 秒。<br><br>濺燒龍息：\n除了對敵方單位造成毒性傷害以外，攻擊時對目標周圍 {s:splash_radius} 格內的敵方單位造成 {s:splash_damage_percent}% 傷害。<br><br>寒霜龍息：\n除了對敵方單位造成毒性傷害以外，使目標周圍 {s:frost_aoe} 格內的敵方單位的移動速度降低 {s:frost_bonus_movement_speed}% 且攻擊速度降低 {s:frost_bonus_attack_speed}%，持續 {s:frost_duration} 秒。"
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>由龍族特性解鎖</i><br>被動：戰鬥開始時，龍騎士能夠變身成為三種不同的真龍形態之一，隨著化身為龍，移動速度會提升 {s:bonus_movement_speed}%、攻擊傷害提升 {s:bonus_attack_damage}，並獲得新能力。<br><br>腐蝕龍息：\n攻擊每秒造成 {s:corrosive_breath_damage} 傷害，持續 {s:corrosive_breath_duration} 秒，並使目標中毒。<br><br>濺燒龍息：\n除了對敵方單位造成毒性傷害以外，攻擊時對目標周圍 {s:splash_radius} 格內的敵方單位造成 {s:splash_damage_percent}% 傷害。<br><br>寒霜龍息：\n除了對敵方單位造成毒性傷害以外，使目標周圍 {s:frost_aoe} 格內的敵方單位的移動速度降低 {s:frost_bonus_movement_speed}% 且攻擊速度降低 {s:frost_bonus_attack_speed}%，持續 {s:frost_duration} 秒。"
 		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"卡登對你讚譽有加，希望你不是徒有虛名。- <i>龍牢之友阿任</i>"
 
 		//ENCHANTRESS
@@ -235,7 +235,7 @@
 
 		//BATRIDER
 		"dac_ability_batrider_sticky_napalm"									"黏性燃油"
-		"dac_ability_batrider_sticky_napalm_Description"						"蝙蝠騎士潑灑黏性燃油，浸透以衝擊點為中心的周圍 {s:radius} 格區域。每次疊加會使蝙蝠騎士的攻擊造成 {s:damage} 額外傷害，並使敵方單位的移動和攻擊速度降低 {s:movement_speed_pct}%。<br><br>黏性燃油可重複施放，傷害與減速百分比依疊加次數提升，最多可疊加 {s:max_stacks} 次。"
+		"dac_ability_batrider_sticky_napalm_Description"						"蝙蝠騎士潑灑點燃的黏性燃油，灑滿衝擊點中心周圍 {s:radius} 格的地面。每次疊加會使蝙蝠騎士的攻擊造成 {s:damage} 額外傷害，並使敵方單位的移動和攻擊速度降低 {s:movement_speed_pct}%。達到 3 星時，蝙蝠騎士還會使這些敵方單位著火 {s:fire_duration} 秒。<br><br>黏性燃油可重複施放，傷害與減速百分比依疊加次數提升，最多可疊加 {s:max_stacks} 次。"
 		"dac_ability_batrider_sticky_napalm_Lore"								"我愛死這傢伙了。超愛他。- <i>縱火狂哈伯根</i>"
 
 		//DOOM BRINGER
@@ -255,7 +255,7 @@
 
 		// Lycan
 		"dac_ability_lycan_wolf_spawn_shift"									"變形"
-		"dac_ability_lycan_wolf_spawn_shift_Description"						"狼人召喚兩匹狼並變身，最大生命增加 {s:hp_per}%，移動速度增至 {s:speed}，且有 {s:crit_chance}% 機率打出暴擊，造成 {s:crit_bonus}% 傷害。"
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"狼人召喚 {s:summon_count} 匹狼並變身，最大生命增加 {s:hp_per}%，移動速度增至 {s:speed}，且有 {s:crit_chance}% 機率打出暴擊，造成 {s:crit_bonus}% 傷害。"
 		"dac_ability_lycan_wolf_spawn_shift_Lore"								"狼人，拜託，幫我復仇吧。- <i>阿任訴諸狼人的人性面</i>"
 		
 		// LONE DRUID
@@ -271,7 +271,7 @@
 
 		//OGRE MAGI
 		"dac_ability_ogre_magi_bloodlust"										"嗜血術"
-		"dac_ability_ogre_magi_bloodlust_Description"							"食人魔法師讓一個友方單位陷入狂暴，使其移動速度增加 {s:bonus_movement_speed}%，攻擊速度增加 {s:bonus_attack_speed}%。如果對食人魔法師本人施加，攻擊速度加成則為 {s:self_bonus}%。"
+		"dac_ability_ogre_magi_bloodlust_Description"							"食人魔法師讓一個友方單位陷入狂暴，使其移動速度增加 {s:bonus_movement_speed}%，攻擊速度增加 {s:bonus_attack_speed}%。如果對食人魔法師本人施加，攻擊速度加成則為 {s:self_bonus}%。食人魔法師有 {s:multicast_chance}% 機率使用此技能對 2 個目標多重施法。"
 		"dac_ability_ogre_magi_bloodlust_Lore"									"魔法師值他要價的兩倍，還好他是個白癡。- <i>投機商歐尼亞</i>"
 
 		// MAGNUS
@@ -325,7 +325,7 @@
 
 		//TUSK
 		"dac_ability_tusk_walrus_punch"											"海象重擊！"
-		"dac_ability_tusk_walrus_punch_Description"								"圖斯克握緊他那強而有力的海象之拳，打出 {s:critical_damage}% 暴擊傷害將敵人打飛到空中 {s:air_time} 秒。目標落地後移動速度會降低 {s:move_slow}%，持續 {s:slow_duration}} 秒。圖斯克出拳時無法被擊殺。"
+		"dac_ability_tusk_walrus_punch_Description"								"圖斯克揮舞他那強而有力的海象重擊，打出 {s:critical_damage}% 暴擊傷害將敵人打飛到空中 {s:air_time} 秒。目標落地後移動速度會降低 {s:move_slow}%，持續 {s:slow_duration} 秒，且攻擊速度降低 {s:attack_slow}。圖斯克出拳時無法被擊殺。"
 		"dac_ability_tusk_walrus_punch_Lore"									"我們曾經是朋友。很快就會知道他是來助陣還是來揍我的。- <i>賈爾回憶他的年少時期</i>"
 		
 		
@@ -366,7 +366,7 @@
 		
 		//BLOODSEEKER
 		"dac_ability_bloodseeker_blood_rage"									"噬血狂暴"
-		"dac_ability_bloodseeker_blood_rage_Description"						"被動：血魔每秒承受相當於自身最大生命 {s:self_dmg_pct}% 的傷害。<br><br>損失生命將獲得攻擊速度，最高能在剩餘 {s:min_health_pct}% 生命時獲得 {s:attack_speed_bonus_max} 攻擊速度加成。<br><br>每有一個鄰近敵方單位死亡，便恢復 {s:heal_pct}% 最大生命。"
+		"dac_ability_bloodseeker_blood_rage_Description"						"被動：敵人損失生命時，血魔將獲得攻擊速度加成，最高在剩餘 {s:min_health_pct}% 生命時獲得 {s:attack_speed_bonus_max} 攻擊速度加成。<br><br>每當血魔擊殺某個目標，便恢復 {s:heal_pct}% 最大生命。"
 		"dac_ability_bloodseeker_blood_rage_Lore"								"要說我在這一行學到了什麼，那就是人人都嗜血。雇用這傢伙吧。- <i>果斷的煽動者格瑞克</i>"
 		
 		//ARC WARDEN
@@ -376,7 +376,7 @@
 		
 		//ARC WARDEN
 		"dac_ability_arc_warden_tempest_double_no_items"						"盪穹異己"
-		"dac_ability_arc_warden_tempest_double_no_items_Description"			"天穹守望者複製自己，分身擁有本尊當下的生命。"
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"天穹守望者複製自己，分身擁有本尊當下的生命。分身造成的傷害比本尊少 {s:clone_dmg_reduction}%。"
 		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"他捎來創世的奧秘。- <i>隱密的預言家塔拉什</i>"
 
 		//MIRANA
@@ -410,7 +410,7 @@
 
 		// Lone Druid Bear
 		"dac_ability_lone_druid_spirit_bear_entangle"							"纏繞之爪"
-		"dac_ability_lone_druid_spirit_bear_entangle_description"				"靈熊在攻擊時有機會纏繞住目標，使其暈眩。"
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"靈熊在攻擊時有機會纏繞住目標，使其無法動彈並繳械。"
 		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
 
 		// THUNDER LIZARD BLOODLUST
@@ -454,7 +454,7 @@
 
 		// LEGION COMMANDER
 		"dac_ability_legion_commander_duel"											"決鬥"
-		"dac_ability_legion_commander_duel_description"								"軍團指揮官以 1 格內生命最低的敵方單位為目標，強制互相攻擊，持續 {s:stun_duration} 秒。雙方英雄均不得使用技能。如果一方在決鬥期間死亡，獲勝的英雄將獲得 {s:winner_bonus_damage} 永久攻擊加成（在死鬥模式中的攻擊加成則為 [20/32/48]）。"
+		"dac_ability_legion_commander_duel_description"								"軍團指揮官以 1 格內生命最低的敵方單位為目標，強制互相攻擊，持續 {s:stun_duration} 秒。雙方英雄均不得使用技能或接受治療。如果一方在決鬥期間死亡，獲勝的英雄將獲得 {s:winner_bonus_damage} 永久攻擊加成（在死鬥模式中的攻擊加成則為 [20/32/48]）。"
 		"dac_ability_legion_commander_duel_lore"									"沒必要裝腔作勢，特蕾絲汀……我可以幫妳找到瑞克斯。- <i>臨危不亂的安納西克斯</i>"
 
 		"dac_ability_legion_commander_will_of_the_bullsnake"						"牛頭蛇的意志"
@@ -476,7 +476,7 @@
 
 		// WEAVER
 		"dac_ability_weaver_shukuchi"												"縮地"
-		"dac_ability_weaver_shukuchi_description"									"編織者進入隱形狀態，無法成為目標，並快速穿越 {s:distance_cells} 格內的目標。編織者對任何接觸到的敵方單位造成 {s:damage} 傷害。"
+		"dac_ability_weaver_shukuchi_description"									"編織者進入隱形狀態，無法成為目標，並快速穿越 {s:distance_cells} 格內的目標。編織者對任何接觸到的敵方單位造成 {s:damage} 傷害。隨後的 {s:mana_break_duration} 秒內，編織者的攻擊燃燒 {s:mana_per_hit} 魔力，每燃燒 1 魔力造成 {s:damage_per_burn} 傷害。"
 		"dac_ability_weaver_shukuchi_lore"											"編織者，只要同心，我們就能改造世界。- <i>膽大妄為的塔拉什</i>"
 
 		// BROODMOTHER
@@ -494,7 +494,7 @@
 		"dac_ability_wisp_tether_lore"												"<i>恩諾目不轉睛地瞪著艾歐</i>"
 
 		"dac_ability_wisp_relocate"													"守衛降臨"
-		"dac_ability_wisp_relocate_description"										"艾歐傳送消失 {s:relocate_time_away} 秒，復活一名死亡的英雄。兩個單位都將以滿血且不帶負面效果的狀態返回場上。"
+		"dac_ability_wisp_relocate_description"										"艾歐傳送消失 {s:relocate_time_away} 秒，復活一名死亡的英雄。兩個單位都將以滿血且不帶負面效果的狀態返回場上。達到 3 星時，艾歐還會重置死亡英雄的冷卻時間。"
 		"dac_ability_wisp_relocate_lore"											"<i>艾歐回瞪</i>"
 
 		// BRISTLEBACK	
@@ -613,7 +613,7 @@
 		"dac_ability_hobgen_supercharged_description_lore"							"有時人們需要的，只是一丁點動機。 - <i>哈伯根點燃了比喻兼實質的火焰</i>"
 
 		"dac_ability_hobgen_airstrike"												"誤傷友軍"
-		"dac_ability_hobgen_airstrike_description"									"哈伯根好兄弟向戰場投擲 {s:strikes} 枚炸彈，對直接擊中的敵方單位造成 {s:damage} 傷害，在爆炸範圍內的敵方單位則遭受一半傷害。"
+		"dac_ability_hobgen_airstrike_description"									"哈伯根好兄弟向戰場投擲 {s:strikes} 枚炸彈，對遭轟炸波及的敵方單位造成 {s:damage} 傷害。"
 		"dac_ability_hobgen_airstrike_description_lore"								"燒個精光！ - <i>縱火狂哈伯根</i>"
 
 		"dac_ability_hobgen_letsgocrazy"											"盡情瘋狂吧"
@@ -659,5 +659,17 @@
 		"dac_ability_enno_airbrawl"													"全方位進攻！"
 		"dac_ability_enno_airbrawl_description"										"恩諾對所有敵方單位發動「全方位進攻」，施加 {s:stacks} 層毒液，造成 {s:fight_damage} 物理傷害，並使其暈眩 {s:land_stun_duration} 秒。"
 		"dac_ability_enno_airbrawl_lore"											"讓這個毛茸茸的王八蛋離我越遠越好！- <i>哈伯根學到了何謂謙虛</i>"
+
+		// 3star abilities
+		"dac_ability_3star"															"三星特效"
+
+		"dac_ability_warlock_3star"													"術士 3 星特效"
+		"dac_ability_warlock_3star_Description"										"達到 3 星時，術士會防止友方惡魔在施放技能時使彼此沉默。"
+
+		"dac_ability_razor_3star"													"剃刀 3 星特效"
+		"dac_ability_razor_3star_Description"										"達到 3 星時，剃刀每次攻擊敵方單位，都會偷竊 {s:stolen_dmg} 攻擊傷害，最多 {s:max_stacks} 次。目標變更時，次數之於剃刀會重置，於敵方單位卻不會。"
+
+		"dac_ability_chaos_knight_3star"													"混沌騎士 3 星特效"
+		"dac_ability_chaos_knight_3star_Description"								"達到 3 星時，混沌騎士的友方騎士不論何時都被視為鄰近其他友方騎士。"
 	}
 }

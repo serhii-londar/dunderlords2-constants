@@ -1,4 +1,4 @@
-"lang"
+﻿"lang"
 { 
 	"Language" "bulgarian" 
 	"Tokens" 
@@ -23,7 +23,7 @@
 
 		//FURION
 		"dac_ability_natures_prophet_summon_tree"								"Природният зов"
-		"dac_ability_natures_prophet_summon_tree_Description"					"Природният пророк призовава дървесен ент. Този дървесен ент се счита за друид."
+		"dac_ability_natures_prophet_summon_tree_Description"					"Nature's Prophet summons a Treant. This Treant is considered a druid. At 3 stars, the Treant spawns on the enemy's side of the board."
 		"dac_ability_natures_prophet_summon_tree_Lore"							"Енно протегна ръка към своите малки горски приятели… това може да се окаже проблем. — <i>О'ния, прокудена търговка от Ревтел</i>"
 
 		"dac_ability_natures_prophet_wrath_of_nature"							"Природният гняв"
@@ -141,8 +141,8 @@
 		"dac_ability_shadow_shaman_voodoo_Lore"									"Ето този тип знае как да направи представление! — <i>Грек показва професионална учтивост</i>"
 
 		"dac_ability_shadow_shaman_mass_serpent_ward"							"Mass Serpent Ward"
-		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Shadow Shaman traps an enemy unit by summoning up to 4 Serpent Wards."
-		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"At least he's not turning people into chickens anymore - <i>O'nia, Fowl Mood</i>"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Shadow Shaman traps an enemy unit by summoning up to 4 Serpent Wards. At 3 stars, Shadow Shaman also Hexes the enemy unit for {s:duration} seconds."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"Good news boys, chicken's back on the menu! - <i>Hobgen, Short Order Crook</i>"
 
 		//ENIGMA
 		"dac_ability_enigma_midnight_pulse"										"Среднощен пулс"
@@ -166,7 +166,7 @@
 
 		//SLARDAR
 		"dac_ability_slardar_amplify_damage"									"Корозивна мъглявина"
-		"dac_ability_slardar_amplify_damage_Description"						"Слардар модифицира вражеската броня с {s:armor_reduction} за {s:duration} секунди."
+		"dac_ability_slardar_amplify_damage_Description"						"Slardar modifies enemy armor by {s:armor_reduction} for {s:duration} seconds. At 3 stars, Slardar also bashes the target, dealing {s:bash_damage} Physical damage and stunning for {s:bash_duration} seconds."
 		"dac_ability_slardar_amplify_damage_Lore"								"Сларк и аз бяхме способни да въртим бизнес. Със сигурност можем да достигнем и спогодба. — <i>Джул, познавач на пандизчийска пиячка</i>"
 
 		//BEASTMASTER
@@ -176,7 +176,7 @@
 
 		//VENOMANCER
 		"dac_ability_venomancer_plague_ward"									"Чумен страж"
-		"dac_ability_venomancer_plague_ward_Description"						"Venomancer summons {s:num_wards} Plague Ward to fight alongside him. Plague Wards apply Poison stacks to their target."
+		"dac_ability_venomancer_plague_ward_Description"						"Venomancer summons {s:num_wards} Plague Ward to fight alongside him. Plague Wards apply Poison stacks to their target and have {s:ward_magic_resist}% Magic Resistance."
 		"dac_ability_venomancer_plague_ward_Lore"								"Творенията ти са красиви за взора. Нека ти помогна да култивираш своята градина… — <i>Турат научава, че ласкателството Ви отвежда навсякъде</i>"
 
 		"dac_ability_venomancer_venomous_gale"									"Жлъчният изблик"
@@ -220,7 +220,7 @@
 		"dac_ability_dragon_knight_breathe_fire_Lore"							"Давион, талантите ти отиват нахалост връз някой, който не оценява прелестта на туй, що правиш. — <i>Хобген, опитва да улови талант</i>"
 
 		"dac_ability_dragon_knight_elder_dragon_form"							"Elder Dragon Form"
-		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>UNLOCKED BY THE DRAGON ALLIANCE</i><br>PASSIVE: At the beginning of combat Dragon Knight takes the form of one of three powerful elder dragons, increasing his movement speed by {s:bonus_movement_speed}% and attack damage by {s:bonus_attack_damage} and granting him new powers.<br><br>Green Dragon:\nAttacks deal {s:corrosive_breath_damage} poison damage per second for {s:corrosive_breath_duration} seconds.<br><br>Red Dragon:\nIn addition to poisoning enemies, attacks damage all enemy units {s:splash_radius} cell away from the target for {s:splash_damage_percent}% damage.<br><br>Blue Dragon:\nIn addition to poisoning enemies, attacks slow movement speed by {s:frost_bonus_movement_speed}% and attack speed by {s:frost_bonus_attack_speed}% to enemy units {s:frost_aoe} cell away from the target for {s:frost_duration} seconds."
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>UNLOCKED BY THE DRAGON ALLIANCE</i><br>PASSIVE: At the beginning of combat Dragon Knight takes the form of one of three powerful elder dragons, increasing his movement speed by {s:bonus_movement_speed}% and attack damage by {s:bonus_attack_damage} and granting him new powers.<br><br>Green Dragon:\nAttacks deal {s:corrosive_breath_damage} damage per second for {s:corrosive_breath_duration} seconds and Poison the target.<br><br>Red Dragon:\nIn addition to poisoning enemies, attacks damage all enemy units {s:splash_radius} cell away from the target for {s:splash_damage_percent}% damage.<br><br>Blue Dragon:\nIn addition to poisoning enemies, attacks slow movement speed by {s:frost_bonus_movement_speed}% and attack speed by {s:frost_bonus_attack_speed}% to enemy units {s:frost_aoe} cell away from the target for {s:frost_duration} seconds."
 		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"Каден говореше благосклонно за теб, да се надяваме, че хвалбите му са били заслужени. — <i>Врен, приятел на драконовата крепост</i>"
 
 		//ENCHANTRESS
@@ -235,7 +235,7 @@
 
 		//BATRIDER
 		"dac_ability_batrider_sticky_napalm"									"Лепкав напалм"
-		"dac_ability_batrider_sticky_napalm_Description"						"Прилеповият ездач хвърля лепкаво гориво, наслоявайки земята на разстояние {s:radius} клетки от точката на стълкновение. Горивото добавя {s:damage} щети за натрупване към атаките на Прилеповия ездач, забавяйки скоростта за движение и атака на враговете с {s:movement_speed_pct}%.<br><br>Допълнителни изпълнявания на „Лепкав напалм“ продължават да увеличават процентите за щети и забавяне до {s:max_stacks} натрупвания."
+		"dac_ability_batrider_sticky_napalm_Description"						"Batrider throws flaming sticky oil, coating the ground {s:radius} cells away from point of impact. The oil adds {s:damage} damage per stack to Batrider's attacks, and slows the movement and attack speed of enemies by {s:movement_speed_pct}%. At 3 stars, Batrider also sets these enemies on fire for {s:fire_duration} seconds.<br><br>Additional casts of Sticky Napalm continue to increase damage and slow percentages, up to {s:max_stacks} stacks."
 		"dac_ability_batrider_sticky_napalm_Lore"								"Обичам този тип. ОБИЧАМ ГО. — <i>Хобген, пироманиак</i>"
 
 		//DOOM BRINGER
@@ -255,7 +255,7 @@
 
 		// Lycan
 		"dac_ability_lycan_wolf_spawn_shift"									"Shapeshift"
-		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan summons two wolves and transforms and gains {s:hp_per}% to his max health, his move speed is boosted to {s:speed} and gains {s:crit_chance}% chance to Critical Hit for {s:crit_bonus}% Damage."
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan summons {s:summon_count} wolves and transforms and gains {s:hp_per}% to his max health, his move speed is boosted to {s:speed} and gains {s:crit_chance}% chance to Critical Hit for {s:crit_bonus}% Damage."
 		"dac_ability_lycan_wolf_spawn_shift_Lore"								"Моля те, Ликантропе, помогни ми да си отмъстя. — <i>Врен опитва да умилостиви човещината на Ликантропа</i>"
 		
 		// LONE DRUID
@@ -271,7 +271,7 @@
 
 		//OGRE MAGI
 		"dac_ability_ogre_magi_bloodlust"										"Кръвожадност"
-		"dac_ability_ogre_magi_bloodlust_Description"							"Огре маг подбужда яростта на съюзническа единица, увеличавайки скоростта ѝ на движение с {s:bonus_movement_speed}%, а тази на атаката с {s:bonus_attack_speed}%. Ако се изпълни върху самия Огре маг, вместо това бонус скоростта на атаката е {s:self_bonus}%."
+		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Magi incites a frenzy in a friendly unit, increasing its movement speed by {s:bonus_movement_speed}% and attack speed by {s:bonus_attack_speed}%. If cast on Ogre Magi himself, the attack speed bonus is {s:self_bonus}% instead. Ogre Magi has a {s:multicast_chance}% chance to Multicast this ability to 2 targets."
 		"dac_ability_ogre_magi_bloodlust_Lore"									"Магът струват дваж по-скъпо от туй, що таксува. За щастие, магът също тъй е идиот. — <i>О'ния, пазаряща се за най-изгодната цена</i>"
 
 		// MAGNUS
@@ -325,7 +325,7 @@
 
 		//TUSK
 		"dac_ability_tusk_walrus_punch"											"Моржов УДАР С ЮМРУК!"
-		"dac_ability_tusk_walrus_punch_Description"								"Бивникът се свързва със своя могъщ „Моржов удар с юмрук“. Критичен удар, който нанася {s:critical_damage}% и е толкова силен, че подхвърля жертвата му във въздуха за {s:air_time} секунда. При приземяването жертвата е забавена с {s:move_slow}% за {s:slow_duration} секунди. Докато нанася удара, Бивникът ме може да бъде убит."
+		"dac_ability_tusk_walrus_punch_Description"								"Tusk connects with his mighty Walrus Punch, a critical strike that deals {s:critical_damage}% damage and launches its victim into the air for {s:air_time} second(s). Upon landing, the victim is slowed by {s:move_slow}% for {s:slow_duration} seconds and loses {s:attack_slow} Attack Speed. Tusk cannot be killed while punching."
 		"dac_ability_tusk_walrus_punch_Lore"									"Беше ми приятел някога. Съвсем скоро ще разберем дали е тук да ми помогне или да ме фрасне с юмрук. — <i>А Джул размишлява над своята младост</i>"
 		
 		
@@ -366,7 +366,7 @@
 		
 		//BLOODSEEKER
 		"dac_ability_bloodseeker_blood_rage"									"Кървава ярост"
-		"dac_ability_bloodseeker_blood_rage_Description"						"PASSIVE: Every second Bloodseeker takes damage equal to {s:self_dmg_pct}% of his max health.<br><br>As he loses health, he gains attack speed, up to a maximum of {s:attack_speed_bonus_max} at {s:min_health_pct}% health.<br><br>Whenever an adjacent enemy dies, he regains {s:heal_pct}% of his max health."
+		"dac_ability_bloodseeker_blood_rage_Description"						"PASSIVE: As Bloodseeker's enemy's health drops, he gains attack speed, up to a maximum of {s:attack_speed_bonus_max} at {s:min_health_pct}% health.<br><br>Whenever Bloodseeker kills a target, he regains {s:heal_pct}% of their max health."
 		"dac_ability_bloodseeker_blood_rage_Lore"								"Ако съм научил едно нещо през кариерата си, то е, че хорицата обичат кръв. Намете този човек. — <i>Грек, решителен поощрител</i>"
 		
 		//ARC WARDEN
@@ -376,7 +376,7 @@
 		
 		//ARC WARDEN
 		"dac_ability_arc_warden_tempest_double_no_items"						"Tempest Double"
-		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Arc Warden creates a copy of himself with the same health he currently has."
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Arc Warden creates a copy of himself with the same health he currently has. Clones do {s:clone_dmg_reduction}% less damage."
 		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"He brings with him the mysteries of creation. - <i>Turath, Cryptic Prophet</i>"
 
 		//MIRANA
@@ -410,7 +410,7 @@
 
 		// Lone Druid Bear
 		"dac_ability_lone_druid_spirit_bear_entangle"							"Вплитащи нокти"
-		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Атаките на духовната мечка разполагат с шанс да оплетат целта, като я зашеметят."
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Spirit Bear's attacks have a chance to entangle the target, rooting and disarming them."
 		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
 
 		// THUNDER LIZARD BLOODLUST
@@ -454,7 +454,7 @@
 
 		// LEGION COMMANDER
 		"dac_ability_legion_commander_duel"											"Дуел"
-		"dac_ability_legion_commander_duel_description"								"Legion Commander targets the lowest health enemy 1 cell away and they are forced to attack each other for {s:stun_duration}s. Neither hero can use abilities. If either hero dies during the duration, the hero winning the Duel gains permanent {s:winner_bonus_damage} bonus damage. ([20/32/48] bonus damage in Knockout)"
+		"dac_ability_legion_commander_duel_description"								"Legion Commander targets the lowest health enemy 1 cell away and they are forced to attack each other for {s:stun_duration}s. Neither hero can use abilities nor be healed. If either hero dies during the duration, the hero winning the Duel gains permanent {s:winner_bonus_damage} bonus damage. ([20/32/48] bonus damage in Knockout)"
 		"dac_ability_legion_commander_duel_lore"									"Няма нужда от стойки и чалъми, Тресдин… Мога да ти помогна да намериш Рикс. — <i>Анессикс, хладнокръвна под напрежение</i>"
 
 		"dac_ability_legion_commander_will_of_the_bullsnake"						"Волята на биковата змия"
@@ -476,7 +476,7 @@
 
 		// WEAVER
 		"dac_ability_weaver_shukuchi"												"Шукучи"
-		"dac_ability_weaver_shukuchi_description"									"Тъкачът изчезва от поглед, ставайки неподлежащ на прицелване. Това му позволява да се придвижва бързо през цел на разстояние до {s:distance_cells}. Тъкачът нанася {s:damage} щети на всеки враг, през когото премине."
+		"dac_ability_weaver_shukuchi_description"									"Weaver shifts out of visibility, becoming untargetable and quickly moving through a target up to {s:distance_cells} cells away. Weaver deals {s:damage} damage to each enemy it passes through. For {s:mana_break_duration} seconds afterwards, Weaver's attacks burn {s:mana_per_hit} Mana doing {s:damage_per_burn} damage per Mana burnt."
 		"dac_ability_weaver_shukuchi_lore"											"Тъкач. Заедно ще преобразим света. — <i>Турат, достатъчно луд да го стори</i>"
 
 		// BROODMOTHER
@@ -494,7 +494,7 @@
 		"dac_ability_wisp_tether_lore"												"<i>In which Enno stares at Io intently</i>"
 
 		"dac_ability_wisp_relocate"													"Преместване"
-		"dac_ability_wisp_relocate_description"										"Йо се телепортира надалеч за {s:relocate_time_away} секунди, така че да съживи мъртъв герой. След това двете единици се връщат с пълно здраве и прочистени от отрицателни ефекти."
+		"dac_ability_wisp_relocate_description"										"Io teleports away for {s:relocate_time_away} seconds to revive a dead hero. The two units return with full health and are purged of negative effects. At 3 stars, Io also resets the dead hero's cooldowns."
 		"dac_ability_wisp_relocate_lore"											"<i>А Йо отвръща на взирането</i>"
 
 		// BRISTLEBACK	
@@ -613,7 +613,7 @@
 		"dac_ability_hobgen_supercharged_description_lore"							"Sometimes all people need is a little bit of motivation - <i>In which Hobgen lights a literal and metaphorical fire</i>"
 
 		"dac_ability_hobgen_airstrike"												"Приятелски огън"
-		"dac_ability_hobgen_airstrike_description"									"Дружките на Хобген хвърлят {s:strikes} бомби по бойното поле, нанасяйки {s:damage} щети върху вражески единици при директно попадение. Враговете попаднали в площта за ефекта на експлозията поемат преполовени щети."
+		"dac_ability_hobgen_airstrike_description"									"Hobgen's buddies throw {s:strikes} bombs in the battle field dealing {s:damage} damage to enemies caught in the blast."
 		"dac_ability_hobgen_airstrike_description_lore"								"Burn it all! - <i>Hobgen, Crazed Pyromaniac</i>"
 
 		"dac_ability_hobgen_letsgocrazy"											"Нека да пощуреем"
@@ -659,5 +659,17 @@
 		"dac_ability_enno_airbrawl"													"All Out Attack!"
 		"dac_ability_enno_airbrawl_description"										"Enno launches an All Out Attack against all enemies, adding {s:stacks} stacks of Poison, dealing {s:fight_damage} physical damage and stunning them for {s:land_stun_duration} seconds."
 		"dac_ability_enno_airbrawl_lore"											"GET THIS FURRY BASTARD AWAY FROM ME! – <i>In Which Hobgen Learns a Lesson In Humility</i>"
+
+		// 3star abilities
+		"dac_ability_3star"															"Three Star Effect"
+
+		"dac_ability_warlock_3star"													"Warlock 3 Star Effect"
+		"dac_ability_warlock_3star_Description"										"At three stars, Warlock prevents friendly Demons from silencing each other when casting abilities."
+
+		"dac_ability_razor_3star"													"Razor 3 Star Effect"
+		"dac_ability_razor_3star_Description"										"At three stars, each time Razor attacks an enemy, he steals {s:stolen_dmg} Attack Damage, up to {s:max_stacks} times. This is reset for Razor, but not the enemy, when changing targets."
+
+		"dac_ability_chaos_knight_3star"													"Chaos Knight 3 Star Effect"
+		"dac_ability_chaos_knight_3star_Description"								"At three stars, Chaos Knight's allied Knights always count as adjacent to a friendly Knight."
 	}
 }

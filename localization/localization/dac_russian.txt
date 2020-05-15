@@ -763,10 +763,10 @@
 	"dac_item_shivas_guard_new_desc"					"+{d:bonus_armor} к броне. Выпускает морозную волну, которая наносит {d:blast_damage} урона врагам в радиусе 3 и замедляет их передвижение и атаку на {d:blast_debuff_move_speed} (один раз за бой). Замедление действует {s:blast_debuff_duration} сек."
 	"dac_item_shivas_guard_new_lore"					"«Не спрашивай, почему он не в хранилище Сапфирового Собрания». <i>(Зенок, торгаш из Белого Шпиля)</i>"
 	"dac_item_stonehall_pike"							"Пика Стоунхолла"
-	"dac_item_stonehall_pike_desc"						"Владелец получает +{d:damage_per_kill} к урону за каждое убитое существо (+12 к урону в «Вышибалах»)."
+	"dac_item_stonehall_pike_desc"						"+{d:attack_damage} к урону от атак. Владелец получает ещё +{d:damage_per_kill} к урону (+12 в «Вышибалах») за каждое убитое существо, но не более, чем +{d:max_damage}."
 	"dac_item_stonehall_pike_lore"						"«Легионы Стоунхолла внушают страх не без причины». <i>(Зенок, торгаш из Белого Шпиля)</i>"
 	"dac_item_stonehall_cloak"							"Плащ Стоунхолла"
-	"dac_item_stonehall_cloak_desc"						"Владелец получает +{d:hp_per_kill} к здоровью за каждое убитое существо (+200 к здоровью в «Вышибалах»)."
+	"dac_item_stonehall_cloak_desc"						"Владелец получает +{d:hp_per_kill} к здоровью (+200 в «Вышибалах») за каждое убитое существо."
 	"dac_item_stonehall_cloak_lore"						"«Для кого-то это символ гордости, для кого-то — напоминание о том, что прошлое лучше забыть». <i>(Зенок, торгаш из Белого Шпиля)</i>"
 	"dac_item_silver_edge"								"Серебряное лезвие"
 	"dac_item_silver_edge_desc"							"+{d:attack_speed} к скорости атаки. +{d:bonus_health} к максимальному здоровью. Атаки владельца на {d:break_duration} сек. накладывают на жертву истощение. Перезарядка: {d:cooldown} сек."
@@ -862,7 +862,7 @@
 	"dac_hero_hint_jumping_movement"					"Напрыгивает на врагов"
 	"dac_hero_hint_teleport_movement"					"Телепортируется к врагам"
 	"dac_hero_hint_high_single_target_damage"			"Наносит высокий урон одной цели"
-	"dac_hero_hint_high_group_damage"					"Наносит высокий урон нескольким целям"
+	"dac_hero_hint_high_group_damage"					"Наносит высокий урон по группе целей"
 	"dac_hero_hint_aoe_ministun"						"Ненадолго оглушает врагов рядом"
 	"dac_hero_hint_freezes_enemies"						"Замораживает врагов"
 	"dac_hero_hint_aoe_silence"							"Безмолвие по большой области"
@@ -1237,7 +1237,7 @@
 	"dac_item_gold_on_last_hit_hat_lore"				"«Пускай тебе повезёт больше, чем кентавру, на теле которого я нашёл этот нож». <i>(Зенок, торгаш из Белого Шпиля)</i>"
 
 	"dac_item_final_flash_hat"							"Наручи отчаяния"
-	"dac_item_final_flash_hat_desc"						"Когда у владельца становится меньше {d:health_percent_trigger}% здоровья, перезарядка его способностей сбрасывается, и он получает полную ману. Сопротивление магии у цели атаки уменьшается на {d:target_magic_resistance}%."
+	"dac_item_final_flash_hat_desc"						"Когда у владельца становится меньше {d:health_percent_trigger}% здоровья, перезарядка его способностей обнуляется, и он получает полную ману. Сопротивление магии у цели атаки уменьшается на {d:target_magic_resistance}%."
 	"dac_item_final_flash_hat_lore"						"«Никогда не знаешь, на что ты способен, пока тебя не припрут к стенке». <i>(Зенок, торгаш из Белого Шпиля)</i>"
 
 	"dac_item_hype_breaker"								"Вуаль убийцы"
@@ -1404,6 +1404,361 @@
 	"dac_item_target_dummy_lore"						"«К несчастью, бывают союзники похуже, чем этот мешок соломы». <i>(Зенок, торгаш из Белого Шпиля)</i>"
 
 
+	"dac_item_chainmail_1"		"Блестящий кольчужный доспех"
+	"dac_item_chainmail_2"		"Прочный кольчужный доспех"
+	"dac_item_chainmail_3"		"Мастерский кольчужный доспех"
+	"dac_item_chainmail_4"		"Зачарованный кольчужный доспех"
+	"dac_item_chainmail_5"		"Защитный кольчужный доспех"
+
+	"dac_item_claymore_1"		"Точёный клеймор"
+	"dac_item_claymore_2"		"Кровавый клеймор"
+	"dac_item_claymore_3"		"Клеймор палача"
+	"dac_item_claymore_4"		"Губительный клеймор"
+	"dac_item_claymore_5"		"Вострый клеймор"
+
+
+	"dac_item_gloves_of_haste_1"		"Отменные перчатки спешки"
+	"dac_item_gloves_of_haste_2"		"Мастерские перчатки спешки"
+	"dac_item_gloves_of_haste_3"		"Зачарованные перчатки спешки"
+	"dac_item_gloves_of_haste_4"		"Заворожённые перчатки спешки"
+	"dac_item_gloves_of_haste_5"		"Перчатки спешки и рвения"
+
+
+	"dac_item_headdress_1"		"Поношенная головница"
+	"dac_item_headdress_2"		"Модная головница"
+	"dac_item_headdress_3"		"Солидная головница"
+	"dac_item_headdress_4"		"Церемониальная головница"
+	"dac_item_headdress_5"		"Благословенная головница"
+
+
+	"dac_item_hood_of_defiance_1"		"Изысканный капюшон непокорности"
+	"dac_item_hood_of_defiance_2"		"Прелестный капюшон непокорности"
+	"dac_item_hood_of_defiance_3"		"Капюшон непокорности и славы"
+	"dac_item_hood_of_defiance_4"		"Капюшон непокорности и свободы"
+	"dac_item_hood_of_defiance_5"		"Капюшон непокорности Рикса"
+
+
+	"dac_item_kaya_1"		"Кайя зачарованности"
+	"dac_item_kaya_2"		"Кайя волшебницы"
+	"dac_item_kaya_3"		"Таинственная Кайя"
+	"dac_item_kaya_4"		"Прославленная Кайя"
+	"dac_item_kaya_5"		"Легендарная Кайя"
+
+
+	"dac_item_mask_of_death_1"		"Чрезвычайно жуткая маска"
+	"dac_item_mask_of_death_2"		"Костяная жуткая маска"
+	"dac_item_mask_of_death_3"		"Гниющая жуткая маска"
+	"dac_item_mask_of_death_4"		"Осквернённая жуткая маска"
+	"dac_item_mask_of_death_5"		"Жуткая маска Рамаска"
+
+
+	"dac_item_talisman_of_evasion_1"		"Бронзовый талисман уклонения"
+	"dac_item_talisman_of_evasion_2"		"Сверкающий талисман уклонения"
+	"dac_item_talisman_of_evasion_3"		"Талисман уклонения и удачи"
+	"dac_item_talisman_of_evasion_4"		"Талисман уклонения и проворства"
+	"dac_item_talisman_of_evasion_5"		"Талисман уклонения Лорлина"
+
+
+	"dac_item_vitality_booster_1"		"Крепкая сущность жизни"
+	"dac_item_vitality_booster_2"		"Стойкая сущность жизни"
+	"dac_item_vitality_booster_3"		"Улучшенная сущность жизни"
+	"dac_item_vitality_booster_4"		"Святая сущность жизни"
+	"dac_item_vitality_booster_5"		"Животворная сущность жизни"
+
+
+	"dac_item_void_stone_1"		"Отменный камень пустоты"
+	"dac_item_void_stone_2"		"Всемощный камень пустоты"
+	"dac_item_void_stone_3"		"Таинственный камень пустоты"
+	"dac_item_void_stone_4"		"Полный маны камень пустоты"
+	"dac_item_void_stone_5"		"Небесный камень пустоты"
+
+	"dac_item_arcane_boots_1"		"Айсрекские чародейские сапоги"
+	"dac_item_arcane_boots_2"		"Чародейские сапоги знания"
+	"dac_item_arcane_boots_3"		"Чародейские сапоги Собрания"
+	"dac_item_arcane_boots_4"		"Чародейские сапоги Рилай"
+	"dac_item_arcane_boots_5"		"Чародейские сапоги Аганима"
+
+
+	"dac_item_armlet_1"		"Латунный наруч Мордиггиана"
+	"dac_item_armlet_2"		"Орихалковый наруч Мордиггиана"
+	"dac_item_armlet_3"		"Проклятый наруч Мордиггиана"
+	"dac_item_armlet_4"		"Гнусный наруч Мордиггиана"
+	"dac_item_armlet_5"		"Запретный наруч Мордиггиана"
+
+
+	"dac_item_barricade_1"		"Крепкая баррикада"
+	"dac_item_barricade_2"		"Усиленная баррикада"
+	"dac_item_barricade_3"		"Стойкая баррикада"
+	"dac_item_barricade_4"		"Почти непробиваемая баррикада"
+	"dac_item_barricade_5"		"Мастерская баррикада"
+
+
+	"dac_item_blink_dagger_1"		"Улучшенный кинжал скачка"
+	"dac_item_blink_dagger_2"		"Странный кинжал скачка"
+	"dac_item_blink_dagger_3"		"Кинжал скачка мастера исчезновения"
+	"dac_item_blink_dagger_4"		"Зазубренный кинжал скачка"
+	"dac_item_blink_dagger_5"		"Кинжал скачка Пиффа"
+
+
+	"dac_item_crystalis_1"		"Благородный Кристалис"
+	"dac_item_crystalis_2"		"Мастерский Кристалис"
+	"dac_item_crystalis_3"		"Праведный Кристалис"
+	"dac_item_crystalis_4"		"Кристалис крестоносца"
+	"dac_item_crystalis_5"		"Рунический Кристалис"
+
+
+	"dac_item_desolator_1"		"Секущий Опустошитель"
+	"dac_item_desolator_2"		"Рвущий Опустошитель"
+	"dac_item_desolator_3"		"Кровавый Опустошитель"
+	"dac_item_desolator_4"		"Порочный Опустошитель"
+	"dac_item_desolator_5"		"Нечестивый Опустошитель"
+
+
+	"dac_item_dragon_lance_1"		"Дважды закалённое драконье копьё"
+	"dac_item_dragon_lance_2"		"Праведное драконье копьё"
+	"dac_item_dragon_lance_3"		"Драконье копьё Брама"
+	"dac_item_dragon_lance_4"		"Драконье копьё Дэйвиона"
+	"dac_item_dragon_lance_5"		"Драконье копьё Кейдена"
+
+
+	"dac_item_force_staff_1"		"Отталкивающий посох воздействия"
+	"dac_item_force_staff_2"		"Отражающий посох воздействия"
+	"dac_item_force_staff_3"		"Могучий посох воздействия"
+	"dac_item_force_staff_4"		"Посох воздействия разума"
+	"dac_item_force_staff_5"		"Посох воздействия и изгнания"
+	
+
+	"dac_item_orb_of_venom_1"		"Утончённая сфера яда"
+	"dac_item_orb_of_venom_2"		"Нестабильная сфера яда"
+	"dac_item_orb_of_venom_3"		"Яшмовая сфера яда"
+	"dac_item_orb_of_venom_4"		"Алхимическая сфера яда"
+	"dac_item_orb_of_venom_5"		"Сфера яда Лисайла"
+
+
+	"dac_item_quelling_blade_1"		"Острый топорик пресечения"
+	"dac_item_quelling_blade_2"		"Заворожённый топорик пресечения"
+	"dac_item_quelling_blade_3"		"Мясницкий топорик пресечения"
+	"dac_item_quelling_blade_4"		"Гнетущий топорик пресечения"
+	"dac_item_quelling_blade_5"		"Топорик пресечения Грека"
+
+	"dac_item_target_dummy_1"		"Качественная мишень"
+	"dac_item_target_dummy_2"		"Отвлекающая мишень"
+	"dac_item_target_dummy_3"		"Полезная мишень"
+	"dac_item_target_dummy_4"		"Милая мишень"
+	"dac_item_target_dummy_5"		"Укреплённая мишень"
+
+
+	"dac_item_vanguard_1"		"Усиленный Авангард"
+	"dac_item_vanguard_2"		"Превосходный Авангард"
+	"dac_item_vanguard_3"		"Зачарованный Авангард"
+	"dac_item_vanguard_4"		"Защитный Авангард"
+	"dac_item_vanguard_5"		"Стойкий Авангард"
+
+
+	"dac_item_battle_fury_1"		"Отточенная Ярость битвы"
+	"dac_item_battle_fury_2"		"Всемощная Ярость битвы"
+	"dac_item_battle_fury_3"		"Бешеная Ярость битвы"
+	"dac_item_battle_fury_4"		"Праведная Ярость битвы"
+	"dac_item_battle_fury_5"		"Неустанная Ярость битвы"
+
+
+	"dac_item_blade_mail_1"		"Заострённый лезвийный доспех"
+	"dac_item_blade_mail_2"		"Заточенный лезвийный доспех"
+	"dac_item_blade_mail_3"		"Смертоносный лезвийный доспех"
+	"dac_item_blade_mail_4"		"Порочный лезвийный доспех"
+	"dac_item_blade_mail_5"		"Лезвийный доспех Ороку"
+
+
+	"dac_item_eul_1"		"Чародейский скипетр Еула"
+	"dac_item_eul_2"		"Мистический скипетр Еула"
+	"dac_item_eul_3"		"Великий скипетр Еула"
+	"dac_item_eul_4"		"Легендарный скипетр Еула"
+	"dac_item_eul_5"		"Властный скипетр Еула"
+
+
+	"dac_item_hand_of_midas_1"		"Золотая длань Мидаса"
+	"dac_item_hand_of_midas_2"		"Алчная длань Мидаса"
+	"dac_item_hand_of_midas_3"		"Великая длань Мидаса"
+	"dac_item_hand_of_midas_4"		"Роковая длань Мидаса"
+	"dac_item_hand_of_midas_5"		"Тираническая длань Мидаса"
+
+
+	"dac_item_maelstrom_1"		"Могучий молот гроз"
+	"dac_item_maelstrom_2"		"Великий молот гроз"
+	"dac_item_maelstrom_3"		"Солидный молот гроз"
+	"dac_item_maelstrom_4"		"Громоносный молот гроз"
+	"dac_item_maelstrom_5"		"Разрушительный молот гроз"
+
+
+	"dac_item_mask_of_madness_1"		"Разлагающая маска безумия"
+	"dac_item_mask_of_madness_2"		"Порочная маска безумия"
+	"dac_item_mask_of_madness_3"		"Маска безумия и убийства"
+	"dac_item_mask_of_madness_4"		"Маска безумия и жестокости"
+	"dac_item_mask_of_madness_5"		"Маска безумия Крилла"
+
+
+	"dac_item_octarine_essence_1"		"Переполненная октариновая эссенция"
+	"dac_item_octarine_essence_2"		"Животворная октариновая эссенция"
+	"dac_item_octarine_essence_3"		"Закалённая в бою октариновая эссенция"
+	"dac_item_octarine_essence_4"		"Геройская октариновая эссенция"
+	"dac_item_octarine_essence_5"		"Октариновая эссенция быстроты"
+
+
+	"dac_item_pipe_of_insight_1"		"Курительная трубка озарения"
+	"dac_item_pipe_of_insight_2"		"Торжественная трубка озарения"
+	"dac_item_pipe_of_insight_3"		"Трубка озарения мыслителя"
+	"dac_item_pipe_of_insight_4"		"Трубка озарения и сознания"
+	"dac_item_pipe_of_insight_5"		"Трубка озарения Механика"
+
+
+	"dac_item_silver_edge_1"		"Блестящее серебряное лезвие"
+	"dac_item_silver_edge_2"		"Заточенное серебряное лезвие"
+	"dac_item_silver_edge_3"		"Зазубренное серебряное лезвие"
+	"dac_item_silver_edge_4"		"Сверкающее серебряное лезвие"
+	"dac_item_silver_edge_5"		"Вострое серебряное лезвие"
+
+
+	"dac_item_basher_1"		"Тяжёлый крушитель черепов"
+	"dac_item_basher_2"		"Крушитель черепов троллей"
+	"dac_item_basher_3"		"Крушитель черепов гигантов"
+	"dac_item_basher_4"		"Головоломный крушитель черепов"
+	"dac_item_basher_5"		"Гибельный крушитель черепов"
+
+
+	"dac_item_black_king_bar_1"		"Блокирующий магию посох чёрного короля"
+	"dac_item_black_king_bar_2"		"Стойкий посох чёрного короля"
+	"dac_item_black_king_bar_3"		"Господствующий посох чёрного короля"
+	"dac_item_black_king_bar_4"		"Посох чёрного короля из Плачущей розы"
+	"dac_item_black_king_bar_5"		"Посох чёрного короля из поместья Тайлер"
+
+
+	"dac_item_butterfly_1"		"Шустрая Бабочка"
+	"dac_item_butterfly_2"		"Элегантная Бабочка"
+	"dac_item_butterfly_3"		"Прекрасная Бабочка"
+	"dac_item_butterfly_4"		"Изящная Бабочка"
+	"dac_item_butterfly_5"		"Смертоносная Бабочка"
+
+
+	"dac_item_dagon_1"		"Улучшенный Дагон"
+	"dac_item_dagon_2"		"Всемощный Дагон"
+	"dac_item_dagon_3"		"Смертельный Дагон"
+	"dac_item_dagon_4"		"Бьющий в сердце Дагон"
+	"dac_item_dagon_5"		"Дагон истребительницы"
+
+
+	"dac_item_diffusal_blade_1"		"Рвущий плоть клинок рассеяния"
+	"dac_item_diffusal_blade_2"		"Серебряный клинок рассеяния"
+	"dac_item_diffusal_blade_3"		"Клинок рассеяния из поместья Тайлер"
+	"dac_item_diffusal_blade_4"		"Клинок рассеяния Адепта молчания"
+	"dac_item_diffusal_blade_5"		"Клинок рассеяния Антимага"
+
+
+	"dac_item_skadi_1"		"Животворное око Скади"
+	"dac_item_skadi_2"		"Зловещее око Скади"
+	"dac_item_skadi_3"		"Бдительное око Скади"
+	"dac_item_skadi_4"		"Неутомимое око Скади"
+	"dac_item_skadi_5"		"Всеведущее око Скади"
+
+
+	"dac_item_tank_buster_1"		"Всемощный клинок Кейдена"
+	"dac_item_tank_buster_2"		"Возвращённый клинок Кейдена"
+	"dac_item_tank_buster_3"		"Почтенный клинок Кейдена"
+	"dac_item_tank_buster_4"		"Разящий драконов клинок Кейдена"
+	"dac_item_tank_buster_5"		"Легендарный клинок Кейдена"
+
+
+	"dac_item_mekansm_1"		"Таинственный Меканизм"
+	"dac_item_mekansm_2"		"Целебный Меканизм"
+	"dac_item_mekansm_3"		"Воскрешающий Меканизм"
+	"dac_item_mekansm_4"		"Докторский Меканизм"
+	"dac_item_mekansm_5"		"Рамасский Меканизм"
+
+
+	"dac_item_moon_shard_1"		"Тёмный осколок луны"
+	"dac_item_moon_shard_2"		"Светлый осколок луны"
+	"dac_item_moon_shard_3"		"Осколок луны Фимрина"
+	"dac_item_moon_shard_4"		"Осколок луны Селемине"
+	"dac_item_moon_shard_5"		"Осколок Безумной луны"
+
+
+	"dac_item_refresher_orb_1"		"Могучая обновляющая сфера"
+	"dac_item_refresher_orb_2"		"Обновляющая сфера бодрости"
+	"dac_item_refresher_orb_3"		"Полная маны обновляющая сфера"
+	"dac_item_refresher_orb_4"		"Животворная обновляющая сфера"
+	"dac_item_refresher_orb_5"		"Обновляющая сфера смышлёнцев"
+
+
+	"dac_item_sheepstick_1"		"Рвущая коса культа Вайз"
+	"dac_item_sheepstick_2"		"Смертоносная коса культа Вайз"
+	"dac_item_sheepstick_3"		"Жестокая коса культа Вайз"
+	"dac_item_sheepstick_4"		"Порочная коса культа Вайз"
+	"dac_item_sheepstick_5"		"Коса культа Вайз Ротунд'йера"
+
+
+	"dac_item_vladmirs_offering_1"		"Всемощная Дань Владмира"
+	"dac_item_vladmirs_offering_2"		"Дань Владмира Ристулу"
+	"dac_item_vladmirs_offering_3"		"Дань Владмира Мэльрону"
+	"dac_item_vladmirs_offering_4"		"Дань Владмира Семелине"
+	"dac_item_vladmirs_offering_5"		"Дань Владмира святой Крелле"
+
+
+	"dac_item_aegis_new_1"		"Нетленная эгида бессмертия"
+	"dac_item_aegis_new_2"		"Возвращённая эгида бессмертия"
+	"dac_item_aegis_new_3"		"Заворожённая эгида бессмертия"
+	"dac_item_aegis_new_4"		"Эгида бессмертия душ"
+	"dac_item_aegis_new_5"		"Эгида бессмертия Рошана"
+
+
+	"dac_item_bloodthorn_1"		"Жаждущий Кровавый шип"
+	"dac_item_bloodthorn_2"		"Пронзающий Кровавый шип"
+	"dac_item_bloodthorn_3"		"Кровавый шип графа"
+	"dac_item_bloodthorn_4"		"Кровавый шип суккуба"
+	"dac_item_bloodthorn_5"		"Кровавый шип Ветреного"
+
+
+	"dac_item_heart_of_tarrasque_new_1"		"Бьющееся сердце Тарраска"
+	"dac_item_heart_of_tarrasque_new_2"		"Кровавое сердце Тарраска"
+	"dac_item_heart_of_tarrasque_new_3"		"Омерзительное сердце Тарраска"
+	"dac_item_heart_of_tarrasque_new_4"		"Животворное сердце Тарраска"
+	"dac_item_heart_of_tarrasque_new_5"		"Бессмертное сердце Тарраска"
+
+
+	"dac_item_horn_of_the_alpha_1"		"Громогласный рог вожака"
+	"dac_item_horn_of_the_alpha_2"		"Трофейный рог вожака"
+	"dac_item_horn_of_the_alpha_3"		"Рог вожака из клана костогромов"
+	"dac_item_horn_of_the_alpha_4"		"Рог вожака из Розолиста"
+	"dac_item_horn_of_the_alpha_5"		"Рог вожака Брэдводена"
+
+
+	"dac_item_radiance_new_1"		"Пылающее Сияние"
+	"dac_item_radiance_new_2"		"Очищающее Сияние"
+	"dac_item_radiance_new_3"		"Всепожирающее Сияние"
+	"dac_item_radiance_new_4"		"Жгучее Сияние"
+	"dac_item_radiance_new_5"		"Святое Сияние"
+
+
+	"dac_item_satanic_1"		"Всемощный Сатаник"
+	"dac_item_satanic_2"		"Нечестивый Сатаник"
+	"dac_item_satanic_3"		"Порочный Сатаник"
+	"dac_item_satanic_4"		"Проклятый Сатаник"
+	"dac_item_satanic_5"		"Запретный Сатаник"
+
+
+	"dac_item_shivas_guard_new_1"		"Благородный наплечник Шивы"
+	"dac_item_shivas_guard_new_2"		"Леденящий наплечник Шивы"
+	"dac_item_shivas_guard_new_3"		"Скованный льдом наплечник Шивы"
+	"dac_item_shivas_guard_new_4"		"Наплечник Шивы для стражницы"
+	"dac_item_shivas_guard_new_5"		"Айсрекский наплечник Шивы"
+
+
+	"dac_item_vesture_of_the_tyrant_1"		"Солидное одеяние тирана"
+	"dac_item_vesture_of_the_tyrant_2"		"Непреклонное одеяние тирана"
+	"dac_item_vesture_of_the_tyrant_3"		"Мистическое одеяние тирана"
+	"dac_item_vesture_of_the_tyrant_4"		"Одеяние тирана Стоунхолла"
+	"dac_item_vesture_of_the_tyrant_5"		"Одеяние тирана Галания"
+
+
+
 	"dac_bp1_bronze_border"								"Бронзовая рамка"
 	"dac_bp1_pose_chest"								"Сундук с позами"
 	"dac_bp1_avatar_chest"								"Сундук с аватарами"
@@ -1567,7 +1922,7 @@
 	"DAC_InGame_UnitDPS_Query"							"Урон в секунду: <span class=\"Count\">{i:attack_dps}</span>"
 	"DAC_InGame_UnitHP_Query"							"Здоровье: <span class=\"Count\">{i:selectedUnitHP}</span>"
 	"DAC_InGame_UnitArmor_Query"						"Броня: <span class=\"Count\">{i:selectedUnitArmor}{s:selectedUnitBonusArmor}</span>"
-	"DAC_InGame_KillCount_Query"						"Убийств: <span class=\"Count\">{d:kill_count}</span>"
+	"DAC_InGame_KillCount_Query"						"Убийств: <span class=\"Count\">{f:kill_count}</span>"
 	"DAC_InGame_KillStreak_Query"						"Серия убийств: <span class=\"Count\">{d:kill_streak}</span>"
 	"DAC_InGame_DuelBonusDamage_Query"					"Доп. урон от дуэлей: <span class=\"Count\">{d:duel_bonus_damage}</span>"
 	"DAC_InGame_BrawnyKillCount_Query"						"Убийств альянсом крепких: <span class=\"Count\">{f:brawny_kills}</span>"
@@ -1925,7 +2280,7 @@
 	"DAC_EndGame_Anessix_does_bad_with_trolls"			"Тролли отказываются работать на Анессикс"
 	"DAC_EndGame_Anessix_does_bad_with_void"			"Анессикс смотрит в пустоту... и на этом её успехи заканчиваются"
 	"DAC_EndGame_Anessix_does_bad_with_vigilant"		"Анессикс пытается быть зоркой, но ничего не выходит"
-	"DAC_EndGame_Anessix_does_bad_with_warlock"			"Чернокнижники восстают против Анессикс и отказываются ему помогать"
+	"DAC_EndGame_Anessix_does_bad_with_warlock"			"Чернокнижники восстают против Анессикс и отказываются ей помогать"
 	"DAC_EndGame_Anessix_does_bad_with_warrior"			"Анессикс нанимает воинов, которым не очень-то и хочется побеждать"
 	"DAC_EndGame_Anessix_does_bad_with_summoners"		"Никчёмные наёмники Анессикс нанимают никудышных нулей"
 	
@@ -2204,8 +2559,8 @@
 	"DAC_Battlepass_PurchasePriceWithCurrency"			"{i:credits_price} монет ({g:dac_item_price:purchase_offer_item_id})"
 	"DAC_Battlepass_PurchaseItemStorePrice"				"{g:dac_item_price:purchase_offer_item_id}"
 	"DAC_Battlepass_YouWillUnlockTheseRewards"			"Вы получите следующие награды"
-	"DAC_Battlepass_LockedRewardsDescription"			"Вы уже заработали несколько наград (а именно {i:num_rewards}). Купите боевой пропуск, чтобы получить их."
-	"DAC_Battlepass_LockedRewardsDescription1Reward"	"Вы уже заработали 1 награду. Купите боевой пропуск, чтобы получить её."	
+	"DAC_Battlepass_LockedRewardsDescription"			"Заработано наград: {i:num_rewards}. Чтобы получить их, купите боевой пропуск."
+	"DAC_Battlepass_LockedRewardsDescription1Reward"	"Заработано наград: 1. Чтобы получить её, купите боевой пропуск."	
 	"DAC_Battlepass_UnlockDescriptionNoRewards"			"Получите доступ ко всем испытаниям городского рейда и наградам боевого пропуска, включая новые поля, объекты для украшения поля, мишени, реакции и многое другое."
 	"DAC_Battlepass_IncludesLevels"					"Включает 5 уровней"
 	"DAC_Battlepass_LevelUpBuy2"						"2 уровня"
@@ -2216,6 +2571,20 @@
 	"DAC_Battlepass_YouHaveOneLockedReward"				"Неполученных наград: 1"
 	"DAC_Battlepass_YouHaveLockedRewards"				"Неполученных наград: {i:num_locked_rewards}"
 	"DAC_Purchase"										"Купить"
+	"DAC_Battlepass_ItemOdds"							"Шансы получения предметов"
+	
+	"DAC_ItemOdds_Title"								"Получение случайных предметов"
+	"DAC_ItemOdds_BoardPropHeader"						"Шансы у предметов для поля"
+	"DAC_ItemOdds_BoardPropDescription"					"В боевом пропуске можно получить 20 случайных предметов для поля. Каждый из них отбирается из 20 возможных предметов так, чтобы они не повторялись. Пользователи, которые приобретут боевой пропуск и достигнут 100 уровня, получат все предметы для поля. 4 случайных предмета можно получить бесплатно при достижении соответствующего уровня боевого пропуска (как и другие бесплатные награды). Предметы для поля — это украшения, не влияющие на игровой процесс."
+	"DAC_ItemOdds_StreetFightItemsHeader"				"Шансы у предметов уличного боя"
+	"DAC_ItemOdds_StreetFightItemsDescription"			"В боевом пропуске можно получить 8 случайных предметов уличного боя, а ещё 40 выдаются в городском рейде. Каждый лорд получит по 12 не повторяющихся предметов. Предметы одного разряда имеют одинаковый шанс получения. Эти предметы не влияют на игру в сетевых режимах. Их можно использовать только в уличных боях городского рейда, проходящих в одиночном режиме.
+
+Список возможных предметов одинаков для каждого лорда и не содержит повторяющихся предметов, но разным лордам может достаться один и тот же предмет. Например, получить два «Клеймора» для Энно невозможно, зато можно получить один «Клеймор» для Энно, а другой — для Анессикс."
+	"DAC_ItemOdds_StreetFightItemsHeaderTier1"			"Предметы 1 разряда: 1 предмет для каждого лорда"
+	"DAC_ItemOdds_StreetFightItemsHeaderTier2"			"Предметы 2 разряда: 3 предмета для каждого лорда"
+	"DAC_ItemOdds_StreetFightItemsHeaderTier3"			"Предметы 3 разряда: 5 предметов для каждого лорда"
+	"DAC_ItemOdds_StreetFightItemsHeaderTier4"			"Предметы 4 разряда: 2 предмета для каждого лорда"
+	"DAC_ItemOdds_StreetFightItemsHeaderTier5"			"Предметы 5 разряда: 1 предмет для каждого лорда"
 
 	"GenericConfirmText_Label"							"Подтвердить"
 	"DAC_PurchaseError_Title"		"Не удалось совершить покупку"
@@ -2256,13 +2625,13 @@
 	"DAC_Profile"										"Профиль"
 	"DAC_EarlyAccess"                                   "Превью"
 	"DAC_OpenBeta"                                   	"Открытая бета"	
-	"DAC_Shared_Pool_Description"						"Игроки нанимают героев из общего пула, который состоит из 45 копий каждого героя 1 разряда, 30 копий каждого героя 2 разряда, 25 копий каждого героя 3 разряда, 20 копий каждого героя 4 разряда и 10 копий каждого героя 5 разряда. Когда игрок выбывает из игры, все его герои возвращаются в пул."
+	"DAC_Shared_Pool_Description"						"Игроки нанимают героев из общего пула, который состоит из 30 копий каждого героя 1 разряда, 20 копий каждого героя 2 разряда, 15 копий каждого героя 3 разряда, 12 копий каждого героя 4 разряда и 10 копий каждого героя 5 разряда. Когда игрок выбывает из игры, все его герои возвращаются в пул."
 	"DAC_Zoo"											"Зоопарк"
 	"DAC_CityCrawlButton"								"Открыть городской рейд"
 	"DAC_ChallengeWorldMapPage"							"Городской рейд"
 	"DAC_CityCrawlObjectives"							"Задания городского рейда"
-	"DAC_ChallengeWorldMapPage_Challenges"				"Доступных заданий: {d:city_crawl_challenges_available}"
-	"DAC_ChallengeWorldMapPage_ClaimableChallenges"		"Пройденных заданий: {d:city_crawl_challenges_claimable}"
+	"DAC_ChallengeWorldMapPage_Challenges"				"Доступных испытаний: {d:city_crawl_challenges_available}"
+	"DAC_ChallengeWorldMapPage_ClaimableChallenges"		"Неполученных наград: {d:city_crawl_challenges_claimable}"
 	"DAC_CityCrawlButtonNeedsSteam"						"Требуется войти в Steam"
 
 	"DAC_Zoo_PostGame_GameMode"							"Режим игры"
@@ -2447,7 +2816,7 @@
 	"DAC_Synergy_Tooltip_Vigilant_1"	"все союзные существа"
 
 	"DAC_Synergy_Tooltip_Savage_0"				"Союзные дикари"
-	"DAC_Synergy_Tooltip_Savage_1"				"все союзные герои"
+	"DAC_Synergy_Tooltip_Savage_1"				"союзные дикари и союзные призванные существа"
 	"DAC_Synergy_Tooltip_Savage_2"				"все союзные существа"
 	
 	"DAC_Synergy_MegaWarrior"		"Мегавоины"
@@ -2479,11 +2848,11 @@
 
 	"DAC_Synergy_Desc_Naga"		"Союзники получают +{s:magic_resist}% к сопротивлению магии"
 
-	"DAC_Synergy_Desc_Ogre"		"Когда умирает существо одной крови, другие такие существа получают +{s:enrage_bonus} к урону от атак."
+	"DAC_Synergy_Desc_Ogre"		"Когда умирает существо одной крови, другие такие существа (кроме Командира легиона) получают +{s:enrage_bonus} к урону от атак."
 
 	"DAC_Synergy_Desc_Orc"		"Все крепкие существа получают +{s:hp_bonus} к максимальному здоровью"
 
-	"DAC_Synergy_Desc_Brawny"		"Крепкие существа получают +{s:hp_bonus} к максимальному здоровью за каждое убийство, совершённое крепкими (+[60/120] к максимальному здоровью в «Вышибалах»). Убийство призванного существа считается за четверть обычного убийства."
+	"DAC_Synergy_Desc_Brawny"		"Крепкие существа получают +{s:hp_bonus} к максимальному здоровью (+[60/120] в «Вышибалах») за каждое убийство, совершённое крепкими. Убийство призванного существа считается за четверть обычного убийства."
 	"DAC_Synergy_Desc_Brawny_ExtraData" "Убийств альянсом крепких: {f:brawny_kills}<br/>Доп. здоровье крепких: {d:brawny_bonus_health}"
 
 	"DAC_Synergy_Desc_Troll"		"Тролли получают +{s:attack_speed_bonus_trolls} к скорости атаки, остальные союзники получают +{s:attack_speed_bonus_others} к скорости атаки"
@@ -2526,9 +2895,9 @@
 
 	"DAC_Synergy_Desc_Summoner"			"Призванные союзниками существа получают +{s:damage_percent}% к урону от атак."
 	
-	"DAC_Synergy_Desc_Vigilant"			"Когда враг применяет способность, {s:alliance_eligible} нападают на него, если он в радиусе атаки."
+	"DAC_Synergy_Desc_Vigilant"			"Когда враг применяет способность, {s:alliance_eligible} нападают на него, если он в радиусе атаки, нанося первым ударом на {s:damage_percent}% больше урона."
 	
-	"DAC_Synergy_Desc_Void"				"Атаки всех союзных героев с шансом в {s:proc_chance}% наносят дополнительный чистый урон в размере {s:pure_damage_percent}% от максимального здоровья цели."
+	"DAC_Synergy_Desc_Void"				"Атаки всех союзных героев с шансом в {s:proc_chance}% наносят дополнительный чистый урон в размере {s:pure_damage_percent}% от максимального здоровья цели. Этот эффект применяется не чаще, чем раз в {s:cooldown} сек."
 
 	"DAC_Synergy_Desc_MegaWarrior"		"Союзные мегавоины получают +{s:armor_bonus} к броне"
 	"DAC_Synergy_Desc_MegaWarlock"		"Применив способность, мегачернокнижник на 3 сек. образует связь с наименее здоровым союзником. Связанные герои восстанавливают здоровье, равное {s:lifesteal_pct}% от наносимого ими урона."
@@ -2664,14 +3033,14 @@
 	"DAC_BotDifficulty_Title"	"ОДИНОЧНАЯ ИГРА"
 	"DAC_PartyBotDifficulty_Title"	"ЗАКРЫТОЕ ЛОББИ"
 	"DAC_BotDifficulty_Desc"    "Сложность"
-	"DAC_BattlePassRewardInfo"	"Заработайте очки боевого пропуска"
+	"DAC_BattlePassRewardInfo"	"Заработайте опыт пропуска"
 	"DAC_BotDifficultyNameUnknown" ""
 	"DAC_BotDifficultyName0"	"Лёгкая"
 	"DAC_BotDifficultyName1"	"Средняя"
 	"DAC_BotDifficultyName2"	"Сложная"
 	"DAC_BotDifficultyName3"	"Нечестная"
 	"DAC_BotDifficultyName4"	"Только люди"
-	"DAC_BotDifficultyName5"	"Нечестная (опыт)"
+	"DAC_BotDifficultyName5"	"Нечестная"
 	"DAC_BotDifficultyName6"    "Мамаша Иб [RIP]"
 	"DAC_BotDifficultyDesc0"	"Подходят для обучения основам и лёгкой игры."
 	"DAC_BotDifficultyDesc1"	"Боты расчётливо относятся к героям и золоту."
@@ -3429,6 +3798,9 @@
 	"DAC_Reward_Claim_Button"						"Получить"
 	"DAC_Reward_Claim_Challenge_Title"			"Ежедневное испытание выполнено"
 	"DAC_Postgame_ChallengeComplete"			"Испытание выполнено"
+	"DAC_Weekly_Challenge_Challenge_Header"		"Испытание"
+	"DAC_Weekly_RewardCalloutHeader"			"На этой неделе"
+	"DAC_Weekly_RewardCalloutDesc"				"Пройдите уличный бой, задание и загадку, чтобы получить награду: {s:reward_type}."
 
 	"DAC_LookingForMatch_Desc"					"Поиск: {s:game_mode} ({s:match_mode})"
 	"DAC_LookingForMatch_Loading"				"Загрузка..."
@@ -3520,7 +3892,7 @@
 	"dac_hotkey_scroll_camera_up_desc" 				"Поднять камеру выше"
 	"dac_hotkey_scroll_camera_down_desc" 			"Опустить камеру ниже"
 	"dac_hotkey_tilt_camera_modifier_desc" 			"Удерживайте, чтобы переместить камеру. Нажмите, чтобы сбросить."
-
+	"dac_hotkey_board_spray_desc"					"Нарисовать граффити в месте расположения курсора"
 	"dac_hotkey_alliances_tab"						"Просмотреть вкладку альянсов"
 	"dac_hotkey_dps_tab"							"Просмотреть вкладку урона в секунду"
 	"dac_hotkey_items_tab"							"Просмотреть вкладку предметов"
@@ -3561,6 +3933,10 @@
 
 	"DAC_Ability_Panel_Cooldown"					"Перезарядка: {s:ability_cooldown}"
 
+	"DAC_Poster_BP_Badge_Level"						"Уровень"
+	"DAC_Poster_Prestige_Level"						"x{i:prestige_level}"
+
+	
 	"dac_player_dollar_value"						"${s:reward_value}"
 
 	"dac_player_wanted_subtitle_1"					"САМА ОПАСНОСТЬ"
@@ -3608,14 +3984,14 @@
 	"DAC_Hero_Odds_Tier2"							"Герои 2 разряда: {s:odds_tier_2}%"
 	"DAC_Hero_Odds_Tier3"							"Герои 3 разряда: {s:odds_tier_3}%"
 	"DAC_Hero_Odds_Tier4"							"Герои 4 разряда: {s:odds_tier_4}%"
-	"DAC_Hero_Odds_Tier5"							"Главари: {s:odds_tier_5}%"
+	"DAC_Hero_Odds_Tier5"							"Герои 5 разряда: {s:odds_tier_5}%"
 
 	"DAC_Hero_Odds_Next_Level"						"Следующий уровень"
 	"DAC_Hero_Odds_Tier1_Next"						"Герои 1 разряда: {s:odds_tier_1_next}%"
 	"DAC_Hero_Odds_Tier2_Next"						"Герои 2 разряда: {s:odds_tier_2_next}%"
 	"DAC_Hero_Odds_Tier3_Next"						"Герои 3 разряда: {s:odds_tier_3_next}%"
 	"DAC_Hero_Odds_Tier4_Next"						"Герои 4 разряда: {s:odds_tier_4_next}%"
-	"DAC_Hero_Odds_Tier5_Next"						"Главари: {s:odds_tier_5_next}%"
+	"DAC_Hero_Odds_Tier5_Next"						"Герои 5 разряда: {s:odds_tier_5_next}%"
 
 	"DAC_Hero_Odds_Tier1_Short"							"{s:odds_tier_1}%"
 	"DAC_Hero_Odds_Tier2_Short"							"{s:odds_tier_2}%"
@@ -3642,7 +4018,8 @@
 	"DAC_CityCrawl_MostRecent"						"Недавнее"
 	"DAC_CityCrawl_RecommendedHeader"				"Недавнее:<br/><span class='RecommendedChallengeDesc'>{s:recommended_challenge}</span>"
 	"DAC_ChallengeGameModeRequirementsNotMet"		"Выберите другой режим игры, чтобы выполнить задание городского рейда."
-	"DAC_ChallengeDifficultyRequirementsNotMet"		"Выберите нечестных ботов, чтобы выполнить задание городского рейда."
+	"DAC_ChallengeDifficultyRequirementsNotMet"		"Выберите нечестных ботов (за опыт) или сыграйте с другими игроками, чтобы заработать очки боевого пропуска."
+	"DAC_ChallengePrivateGameNotFull"				"Чтобы заработать очки боевого пропуска, требуется заполненная группа."
 
 	"DAC_Challenge_DodgeAttacks_Desc"				"Уклонитесь от {s:threshold} атак."
 	"DAC_Challenge_CritAttacks_Desc"				"Нанесите {s:threshold} критических атак."
@@ -3662,16 +4039,16 @@
 	"DAC_Challenge_RerollAt"						"До нового испытания {t:d:time_to_reroll}"
 	"DAC_Challenge_RerollAvailableAt"				"Новое испытание"
 	"DAC_Challenge_Claimable"						"Получить"
-	"DAC_Challenge_ChallengeComplete"				"Пройдено"
+	"DAC_Challenge_ChallengeComplete"				"Получено"
 	"DAC_Challenge_Number"							"Испытание {d:challenge_slot}"
 	"DAC_Challenge_HobgenCombine2Stars_Desc"		"Создайте {s:threshold} ★★ существ"
-	"DAC_Challenge_HobgenHireKnightWarrior_Desc"	"Потратьте {s:threshold} золота на <span class='AllianceHighlight'>рыцарей<img class='InlineSynergyIcon ChallengeSynergyKnights'/></span> или <span class='AllianceHighlight'>воинов<img class='InlineSynergyIcon ChallengeSynergyWarriors'/></span>"
+	"DAC_Challenge_HobgenHireKnightWarrior_Desc"	"Потратьте {s:threshold} золота на рыцарей или воинов"
 	"DAC_Challenge_HobgenKillGoldWorth_Desc"				"Убейте врагов общей стоимостью в {s:threshold} золота"
 	"DAC_Challenge_HobgenWinKORounds_Desc"				"Победите в {s:threshold} раундах в режиме «Вышибалы»"
 	"DAC_Challenge_HobgenCompleteWinStreak_Desc"			"Завершите полную серию побед {s:threshold} раз"
 	"DAC_Challenge_HobgenPhysicalDamageReduced_Desc"		"Заблокируйте бронёй {s:threshold} физического урона"
 	"DAC_Challenge_HobgenWinRoundAtFullInterest_Desc"		"Победите в {s:threshold} раундах стандартного режима, имея полный бонус за накопления"
-	"DAC_Challenge_HobgenWinRoundWithTrollAlliance_Desc"	"Победите в {s:threshold} раундах с активным бонусом <span class='AllianceHighlight'>троллей<img class='InlineSynergyIcon ChallengeSynergyTroll'/></span>"
+	"DAC_Challenge_HobgenWinRoundWithTrollAlliance_Desc"	"Победите в {s:threshold} раундах с активным бонусом троллей"
 	"DAC_Challenge_HobgenEliminatePlayersKO_Desc"			"Выбейте {s:threshold} игроков в режиме «Вышибалы»"
 	"DAC_Challenge_HobgenKillUnderlords_Desc"				"Убейте {s:threshold} лордов"
 	"DAC_Challenge_HobgenFireDamageDealt_Desc"		"Нанесите {s:threshold} урона огнём"
@@ -3681,26 +4058,26 @@
 	"DAC_Challenge_JullDealDamage_Desc"				"Играя за Джула, нанесите лордом {s:threshold} урона"
 	"DAC_Challenge_JullEquipItems_Desc"				"Используйте {s:threshold} предметов"
 	"DAC_Challenge_JullHireTier5Units_Desc"			"Наймите {s:threshold} существ 5 разряда"  
-	"DAC_Challenge_JullHireScaled_Desc"				"Потратьте {s:threshold} золота на <span class='AllianceHighlight'>чешуйчатых<img class='InlineSynergyIcon ChallengeSynergyScaled'/></span> существ"	
-	"DAC_Challenge_JullWinWithVigilant_Desc"		"Победите в {s:threshold} раундах с активным бонусом <span class='AllianceHighlight'>зорких<img class='InlineSynergyIcon ChallengeSynergyVigilant'/></span>"
-	"DAC_Challenge_JullKnightsAbsorb_Desc"			"Поглотите {s:threshold} урона <span class='AllianceHighlight'>рыцарями<img class='InlineSynergyIcon ChellengeSynergyKnights'/></span>"
+	"DAC_Challenge_JullHireScaled_Desc"				"Потратьте {s:threshold} золота на чешуйчатых существ"	
+	"DAC_Challenge_JullWinWithVigilant_Desc"		"Выиграйте в {s:threshold} раундах с активным бонусом зорких"
+	"DAC_Challenge_JullKnightsAbsorb_Desc"			"Поглотите {s:threshold} урона рыцарями"
 	"DAC_Challenge_JullPlayWithTusk_Desc"			"Проведите {s:threshold} раундов с Бивнем на поле"
 	"DAC_Challenge_JullRerolls_Desc"				"Потратьте {s:threshold} золота на замены"
-	"DAC_Challenge_JullBrawnyKills_Desc"			"Убейте {s:threshold} врагов <span class='AllianceHighlight'>крепкими<img class='InlineSynergyIcon ChallengeSynergyBrawny'/></span>"
-	"DAC_Challenge_JullWinWithBrute_Desc"			"Победите в {s:threshold} раундах с активным бонусом <span class='AllianceHighlight'>громил<img class='InlineSynergyIcon ChallengeSynergyBrutal'/></span>"
+	"DAC_Challenge_JullBrawnyKills_Desc"			"Убейте {s:threshold} врагов крепкими существами"
+	"DAC_Challenge_JullWinWithBrute_Desc"			"Победите в {s:threshold} раундах с активным бонусом громил"
 	"DAC_Challenge_JullPlayWithBristleback_Desc"	"Проведите {s:threshold} раундов с Иглогривом на поле"
 	"DAC_Challenge_JullKillTier5_Desc"				"Убейте {s:threshold} существ 5 разряда"
 	"DAC_Challenge_AnessixSendGoldToDuo_Desc"		"Отправьте {s:threshold} золота партнёру по парному режиму"
-	"DAC_Challenge_AnessixSavageDamage_Desc"		"Наберите {s:threshold} бонусного урона от атаки у <span class='AllianceHighlight'>дикарей<img class='InlineSynergyIcon ChallengeSynergySavage'/></span>"
+	"DAC_Challenge_AnessixSavageDamage_Desc"		"Наберите {s:threshold} бонусного урона от атаки у дикарей"
 	"DAC_Challenge_AnessixSummonUnits_Desc"			"Призовите {s:threshold} существ"
-	"DAC_Challenge_AnessixDemonKills_Desc"			"Убейте {s:threshold} врагов <span class='AllianceHighlight'>демонами<img class='InlineSynergyIcon ChallengeSynergyDemons'/></span>"
+	"DAC_Challenge_AnessixDemonKills_Desc"			"Убейте {s:threshold} врагов демонами"
 	"DAC_Challenge_AnessixHealUnits_Desc"			"Восстановите существам {s:threshold} здоровья"
 	"DAC_Challenge_AnessixVoidDamage_Desc"			"Нанесите {s:threshold} урона существами пустоты"
 	"DAC_Challenge_AnessixKillWithSummons_Desc"		"Убейте {s:threshold} врагов призванными существами"
-	"DAC_Challenge_AnessixCombine3StarDemon_Desc"	"Создайте {s:threshold} ★★★ <span class='AllianceHighlight'>демонов<img class='InlineSynergyIcon ChallengeSynergyDemons'/></span>"
-	"DAC_Challenge_AnessixWinWithHumans_Desc"		"Победите в {s:threshold} раундах с активным бонусом <span class='AllianceHighlight'>людей<img class='InlineSynergyIcon ChallengeSynergyHuman'/></span>"
-	"DAC_Challenge_AnessixSummonEidolons_Desc"		"Призовите {s:threshold} эйдолонов с помощью альянса <span class='AllianceHighlight'>первородных<img class='InlineSynergyIcon ChallengeSynergyPrimordial'/></span>"
-	"DAC_Challenge_AnessixBuyDemons_Desc"			"Потратьте {s:threshold} золота на <span class='AllianceHighlight'>демонов<img class='InlineSynergyIcon ChallengeSynergyDemons'/></span>"
+	"DAC_Challenge_AnessixCombine3StarDemon_Desc"	"Создайте {s:threshold} ★★★ демонов"
+	"DAC_Challenge_AnessixWinWithHumans_Desc"		"Победите в {s:threshold} раундах с активным бонусом людей"
+	"DAC_Challenge_AnessixSummonEidolons_Desc"		"Призовите {s:threshold} эйдолонов при помощи бонуса первородных"
+	"DAC_Challenge_AnessixBuyDemons_Desc"			"Потратьте {s:threshold} золота на демонов"
 	"DAC_Challenge_AnessixDealCritDamage_Desc"		"Нанесите {s:threshold} урона критическими атаками"
 	"DAC_Challenge_AnessixKillDemons_Desc"			"Убейте {s:threshold} демонов"
 	
@@ -3748,7 +4125,7 @@
 	"DAC_Achievement_master_of_none_desc"				 "Победите в раунде, имея бонусы 11 альянсов одновременно"
 	"DAC_Achievement_lord_of_whitespire_desc"			 "Достигните ранга «Лорд Белого Шпиля»"
 	"DAC_Achievement_stonehall_savior_desc"				 "Сделайте из Командира легиона рейд-босса"
-	"DAC_Achievement_pied_piper_desc"					 "Призовите 50 существ за один раунд"
+	"DAC_Achievement_pied_piper_desc"					 "Призовите 20 существ за один раунд"
 		
 	
 	"DAC_Challenge_Mode_Requires_Turbo"				"Испытание только для режима «Вышибалы»"
@@ -3769,6 +4146,10 @@
 	"DAC_Achievement_WinWith5ActiveSynergies_Desc"	"Победите в {d:challengeMaxProgress} раундах с хотя бы 5 активными альянсами."
 	"DAC_Achievement_WinWithA6Synergy_Desc"			"Победите в {d:challengeMaxProgress} раундах с активным альянсом из 6 или более героев."
 	"DAC_Achievement_DailyChallengesCompleted"		"Ежедневные испытания выполнены"
+	"DAC_Achievement_WeeklyChallengesCompleted"		"Еженедельных испытаний выполнено"	
+	"DAC_Achievement_WeeklyStreetFightCompleted"	"Еженедельных уличных боёв пройдено"		
+	"DAC_Achievement_WeeklyPuzzleCompleted"			"Еженедельных загадок пройдено"		
+	"DAC_Achievement_WeeklyChallengeCompleted"		"Еженедельное испытание выполнено"		
 
 	"DAC_Popup_ChallengeReroll_Title"				"Заменить испытание?"
 	"DAC_Popup_ChallengeReroll_TitleWithProgress"	"Заменить испытание?"
@@ -3790,10 +4171,11 @@
 	"DAC_LoadoutUnderlords"							"Снаряжение: лорды"
 	"DAC_LoadoutGame"								"Снаряжение: игра"
 	"DAC_LoadoutPlayer"								"Снаряжение: игрок"
-	"DAC_LoadoutMapPropEditor"						"Снаряжение: предметы на поле"
+	"DAC_LoadoutMapPropEditor"						"Снаряжение: редактор предметов на поле"
 
 	"DAC_LoadoutEquip"								"Использовать"
 	"DAC_LoadoutEquipped"							"Выбрано"
+	"DAC_EditBoardProps"							"Изменить предметы на поле"
 	"DAC_LoadoutEquip_Popup_Close"					"Закрыть"
 	"DAC_LoadoutEquip_Failed_Title"					"Не удалось использовать"
 	"DAC_LoadoutEquip_Failed_Body"					"Сейчас этот предмет нельзя использовать. Повторите попытку позже."
@@ -3823,6 +4205,7 @@
 	"DAC_Loadout_PosterPreview"						"Предпросмотр"
 	"DAC_Loadout_UnderlordSkin"						"Костюм"
 	"DAC_Loadout_UnderlordVictoryDance"				"Победный танец"
+	"DAC_Loadout_Generic"							"Награда"
 
 
 	"DAC_Loadout_PopupTitle_Boards"					"Выберите поле боя"
@@ -3951,8 +4334,9 @@
 	"dac_zoo_page2"			"Текст и кнопки"
 	"dac_zoo_page3"			"Альянсы"
 	"dac_zoo_page4"			"Уведомления"
-	"dac_zoo_page5"			"Карта испытаний"
+	"dac_zoo_page5"			"Уличные бои"
 	"dac_zoo_page6"			"Игра завершена"
+	"dac_zoo_page7"			"Песочница"
 	"dac_zoo_page_divider"	"/"
 
 	"dac_zoo_show_post_game"	"Показать завершение игры"
@@ -3975,7 +4359,15 @@
 	"s1_play_trailer"			"Смотреть трейлер"
 	"s1_ricky_beta_message"		"Псс! Эй, спасибо за участие в бете. Я решил поздравить тебя с возвращением и набрал кое-какого добра: поля бета-сезона, титул для плаката и статую для поля!"
 
-
+	"DAC_MainMenu_Weekly_Challenge_Header"	"Новость недели:\n{s:weekly_challenge_headline}"
+	"popup_weekly_challenge_title" "Ранняя пташка"
+	"popup_weekly_challenge_subtitle" "Лучшая (и единственная) газета Белого Шпиля!"
+	"popup_weekly_challenge_battlepass_title" "Для доступа к еженедельной «Ранней пташке» необходим боевой пропуск."
+	"popup_weekly_challenge_description" "Каждую неделю мы публикуем новый выпуск «Ранней пташки» с последними новостями из Белого Шпиля, новыми испытаниями и многим другим. Проходите еженедельные загадки, уличные бои и задания, чтобы получать награду каждую неделю!"
+	"popup_weekly_challenge_description_2_locked" "Поскольку у вас есть боевой пропуск, вы получаете подписку на нашу газету."
+	"popup_weekly_challenge_description_2_unlocked" "Еженедельный выпуск «Ранней пташки» доступен только владельцам боевого пропуска."
+	"popup_weekly_challenge_ok_button" "Выпуск этой недели"	
+	"popup_weekly_challenge_getbp_button" "Получить боевой пропуск"
 	"dac_tutorial_popup_pre_title"			"Добро пожаловать в"
 	"dac_tutorial_popup_title"				"Dota Underlords"
 	"dac_play_tutorial_popup_desc"			"Краткое введение"
@@ -4055,8 +4447,13 @@
 	"dac_challenge_map_toggle_claim_mode"			"Мгновенное прохождение"
 	"dac_challenge_map_dev_buildings"			"Постройки разработчика"
 	"dac_challenge_map_reset"					"Сброс"
+	"dac_challenge_map_zone_anim"					"Анимация зоны"
 	"dac_challenge_map_dev_key"					"Дать ключ"
+	"dac_challenge_map_dev_zone"				"Награда зоны"
+	"dac_challenge_map_dev_prestige"			"Престиж"
+	"dac_challenge_map_dev_complete"				"Выполнить всё"
 	"dac_challenge_map_intro_popup"				"Вступление"
+	"dac_challenge_map_prestige"				"Престиж"
 
 	"dac_challenge_map_claim_challenge"		"Получить"
 	"dac_challenge_map_claim_node"			"Выполнить испытание"
@@ -4066,6 +4463,12 @@
 	"dac_challenge_map_claim_locked_blurb"	"Это место открыто только участникам Тайного общества. Посетите Тайное общество, чтобы узнать подробности."
 	"dac_challenge_map_claim_locked_reward"	"Награда:"
 	"dac_challenge_map_claim_xp"			"+ {u:claim_xp} очк. боевого пропуска"
+
+	"DAC_challenge_map_prestige_label"		"Престиж городского рейда"
+	"DAC_challenge_map_prestige_title"		"Захватите город снова!"
+	"DAC_challenge_map_prestige_intro"		"Вы уже захватили Белый Шпиль, но по силам ли вам сделать это снова?"
+	"DAC_challenge_map_prestige_desc"		"Начните поход за престижем и пройдите городской рейд на более высоком уровне сложности. Ваш лорд получит новый наряд в игре, а вы — престижный значок городского рейда на плакате о вашем розыске, который увидят все."
+	"DAC_challenge_map_prestige_node"		"Вы сохраните все косметические награды и очки боевого пропуска за предыдущее прохождение. Все предметы уличного боя будут потеряны и больше не будут выдаваться в боевом пропуске, зато за прохождение городского рейда вы будете получать их усиленные версии."
 
 	"dac_challenge_map_claim_100_name"		"Резаная тропа"
 	"dac_challenge_map_premium_claim_locked"		"Закрыто"
@@ -4106,6 +4509,7 @@
 	"DAC_Challenge_Popup_2_Valid_Modes"		"Подходящие режимы: {s:game_mode_1}, {s:game_mode_2}"
 	"DAC_Challenge_Popup_1_Valid_Mode"		"Подходящие режимы: {s:game_mode_1}"
 	"DAC_challenge_map_city_key_count"		"{d:city_keys}"
+	"DAC_challenge_map_objectives_count"	"{d:city_objectives}"
 
 	"DAC_Area_Inventory_Title"				"Рюкзак:"
 	"DAC_Area_Inventory_Description"		"Предметами для лорда, полученными в уличных боях и в боевом пропуске, можно будет улучшать вашу команду в будущих уличных боях."
@@ -4136,6 +4540,8 @@
 	"dac_legendary_void_spirit_desc" "Атаки заряженных <span class='SpiritBrother'>духов</span> <img class='InlineSynergyIcon SynergySpiritBrother'/> наносят на 100% больше урона. <br><br>+15% к шансу найти в лавке, если у вас собран альянс <span class='SpiritBrother'>духов</span> <img class='InlineSynergyIcon SynergySpiritBrother'/> хотя бы первого уровня."
 
 	"DAC_MainNav_SeasonInfo"	"Правила"
+	"DAC_MainNav_EarlyBird"		"Ранняя пташка"
+	"DAC_EarlyBird_ButtonDesc"	"Еженедельная газета"
 	"DAC_MainNav_Achievements"	"ДОСТИЖЕНИЯ"
 	"DAC_MainNav_Battlepass"	"ПРОБНЫЙ ПРОПУСК"
 	"DAC_MainNav_SecretSociety"	"ТАЙНОЕ ОБЩЕСТВО"
@@ -4361,6 +4767,10 @@
 	"dac_launch_puzzle"			"Запустить загадку"
 	"dac_launch_street_fight"	"В бой!"
 	"dac_claim_challenge"		"Получить"
+	"dac_claim_district"		"Получить награды"
+	"dac_claim_prestige"		"Получить престиж"
+	"dac_claim_prestige_level"	"Уровень {d:prestige_level}"
+	"dac_claim_prestige_body"	"Уведомление о получении престижа"
 	"dac_challenge_street_fight_extra_info"		"Победите, чтобы захватить область.<br>Противник: <span class=\"BotName\">{s:bot_name}</span>."
 
 	"dac_set_as_active_challenge"	"Выбрать активным испытанием"
@@ -4535,6 +4945,32 @@
 	"DAC_DevRandomBot"			"[DEV] Убить 1 бота"
 	"DAC_DevKillSelf"			"[DEV] Убить себя"
 
+	"DAC_Weekly_Headline"						"Смешной заголовок!"
+	"DAC_Weekly_SubHeadline"					"Ёмкий подзаголовок, который развивает шутку из заголовка и всех смешит"
+	"DAC_Weekly_NoActiveChallengeHeader"		"Возвращайтесь на следующей неделе!"
+	"DAC_Weekly_ChallengesComplete"				"Испытаний выполнено: {i:weeklyChallengesCompleted} из {i:weeklyChallengesRequired}"
+	"DAC_Weekly_Claim"							"Получить"
+	"DAC_Weekly_WeeklyChallenges"				"Еженедельные испытания"
+	"DAC_Weekly_TimeRemaining"					"Осталось {i:days_left} д. {i:hours_left} ч. {i:minutes_left} м."
+	"DAC_Weekly_TimeRemainingDays"				"Ещё {i:days_left} дн."
+	"DAC_Weekly_TimeRemainingHours"				"Ещё {i:hours_left} ч."
+	"DAC_Weekly_TimeRemainingMinutes"			"Ещё {i:minutes_left} мин."
+	"DAC_Weekly_Puzzle_Desc"					"Очень крутая формулировка хитроумной загадки по теме истории недели."
+	"DAC_Weekly_StreetFight_Desc"				"Ещё пара метких фраз, задающих тон этому ожесточенному уличному бою — в контексте истории, конечно же."
+	"DAC_Weekly_Fight"							"В бой!"
+	"DAC_Weekly_StreetFight"					"Уличный бой!"
+	"DAC_Weekly_Objective"						"Задание!"
+	"DAC_Weekly_Puzzle"							"Загадка!"
+	"DAC_Weekly_Arcade"							"Старая добрая аркада"
+	"DAC_Weekly_NonogramTitle"					"Головоломка недели"
+	"DAC_Weekly_NonogramDesc"					"Ваша цель — понять, где находятся заполненные и пустые клетки. Рядом с каждым рядом и колонкой есть числа. Они указывают, сколько заполненных подряд клеток находятся в этом ряду или колонке. К примеру, «7 2» означает непрерывную линию из семи клеток, за которой следует одна или несколько пустых клеток, за которыми, в свою очередь, следуют две заполненные клетки.\n\nЧтобы заполнить клетку, нажмите на неё. Второе нажатие отметит её как пустую, а третье очистит её."
+	"DAC_Weekly_CourierStatsTitle"				"Результаты курьерских бегов"
+
+	"DAC_Start_Courier_PlaceBet"				"Делайте ставки!"
+	"DAC_Start_Courier_StartRace"				"Начать бега!"
+	"DAC_Start_Courier_NewRace"					"Вы выиграли <img class='goldcoin'/> {i:last_payout}!  Ещё раз?"
+	"DAC_Start_Courier_Race_InProgress"			"Гонка началась!"
+
 	"DAC_CC_Bounty_Title"						"Награда:"
 	"DAC_CC_MostWanted_Title"					"Разыскивается"
 	"DAC_CC_Challenge_Progress"					"Прогресс задания"
@@ -4549,6 +4985,21 @@
 	"DAC_CC_Locked_Content_Title"				"Испытание закрыто"
 	"DAC_CC_Locked_Content_Desc"				"Разблокируйте боевой пропуск первого сезона, чтобы получить доступ ко всему городскому рейду, а также более чем 100 премиум-наградам боевого пропуска."
 	"DAC_CC_TakeOverWhiteSpire"					"Захватите Белый Шпиль"
+	"DAC_CC_BeginPrestige"						"Захватить город снова"
+	"DAC_CC_DistrictCompleted"					"Район пройден"
+	"DAC_CC_Prestige_Title"						"Престиж {d:prestige_level} уровня"
+	"DAC_CC_Prestige_Description"				"Ваши существа будут наносить на {s:dmg_reduction}% меньше урона"
+	"DAC_CC_Prestige_DamageReduction_1"			"25"
+	"DAC_CC_Prestige_DamageReduction_2"			"35"
+	"DAC_CC_Prestige_DamageReduction_3"			"45"
+	"DAC_CC_Prestige_DamageReduction_4"			"55"
+	"DAC_CC_Prestige_DamageReduction_5"			"65"
+
+	"DAC_citycrawl_complete_district_name_anessix"	"Малый Ревтел"
+	"DAC_citycrawl_complete_district_name_hobgen"	"Новомрак"
+	"DAC_citycrawl_complete_district_name_enno"		"Трущобы"
+	"DAC_citycrawl_complete_district_name_jull"		"Порт Скольтень"
+
 
 	"DAC_CC_Confirm_Key_Title"					"Ключ от города"
 	"DAC_CC_Confirm_Key_Desc"					"Вы потратите ключ, зато выполните это испытание и получите его награду.<br>Использовать ключ?"
@@ -4597,6 +5048,7 @@
 	"DAC_Play_No_Challenge_Selected"				"Задание не выбрано"
 
 	"DAC_Play_City_Challenges_Available"			"Доступно: {d:city_objectives_available}"
+	"DAC_Play_CityChallenges_Avauilable_Button"		"Доступных заданий: {d:city_objectives_available}"
 	"DAC_Play_City_Challenges_OneAvailable"			"Доступно: {d:city_objectives_available}"
 	"DAC_Play_City_Challenges_None_Available"		"Доступно: 0"
 	"DAC_Play_City_Crawl_Invalid_Challenge"			"Выбранное задание не подходит для указанного режима игры"
@@ -4718,8 +5170,8 @@
 	"DAC_Challenge_Streetfight_scaled_slark_BotDesc"		"неиспользуемое описание про кладбищенских троллей"
 	"DAC_Challenge_Streetfight_scaled_slark_Lore"			"Сларк и его приятели из Тёмного рифа решили вторгнуться в Новомрак. Если не разобраться с ними поскорее, они прочно здесь обоснуются."
 	"DAC_Challenge_Streetfight_scaled_slark_Quote"			"«Не знаю, пришёл ли Сларк сам или по приказу Джула, но эта чешуйчатая сволочь не отнимет ни клочка моей земли». <i>(Хобген реагирует на новую угрозу)</i>"
-	"DAC_Challenge_Streetfight_scaled_slark_Win"			"Хобген проворачивает авантюру, возможен политический скандал с Ревтелом"
-	"DAC_Challenge_Streetfight_scaled_slark_Lose"			"Хобген теряет репутацию у лорда Ветреного и не приобретает её у Мирески"
+	"DAC_Challenge_Streetfight_scaled_slark_Win"			"Хобген непреднамеренно защищает правопорядок, убивая сбежавших заключённых"
+	"DAC_Challenge_Streetfight_scaled_slark_Lose"			"Беглецы из Тёмного рифа поквитались с Хобгеном"
 	
 	
 	
@@ -4736,8 +5188,8 @@
 	"DAC_Challenge_Streetfight_thunderhides_BotDesc"			"Is it broken here?"
 	"DAC_Challenge_Streetfight_thunderhides_Lore"				"Крупные зверинцы делают шоу Грэка поистине захватывающими. И смертоносными, если кто-то вырвется из загона."
 	"DAC_Challenge_Streetfight_thunderhides_Quote"				"«Проклятые громозавры Грэка снова сбежали. Надо согнать их обратно, прежде чем они сровняют с землёй весь Новомрак». <i>(Хобген, начинающий дрессировщик)</i>"
-	"DAC_Challenge_Streetfight_thunderhides_Win"				"Хобген наконец-таки сумел решить вопрос мирно. Шутка, он снова всех убил."
-	"DAC_Challenge_Streetfight_thunderhides_Lose"				"С экотеррористом расправились без суда и следствия"	
+	"DAC_Challenge_Streetfight_thunderhides_Win"				"Хобген усмирил сбежавших громозавров и подумывает, не открыть ли собственный зверинец"
+	"DAC_Challenge_Streetfight_thunderhides_Lose"				"Хобген увидел громозавра. А громозавр увидел его."	
 	
 	"DAC_Challenge_Streetfight_foresters_title"				"Пожарный дозор"
 	"DAC_Challenge_Streetfight_foresters_Bot"				"Защитники деревьев"
@@ -5099,7 +5551,7 @@
 
 	"DAC_Challenge_Puzzle_s1_jull3_title"	"Туманные замыслы"
 	"DAC_Challenge_Puzzle_s1_jull3_quote"	"«В \"Осколок луны\" приходят за не виданной нигде выпивкой. Каждый ли переживёт мой коктейль на основе чумных тотемов? Нет. Но выжившие в восторге от такого приключения». <i>(Джул, смертоносный бармен)</i>"
-	"DAC_Challenge_Puzzle_s1_jull3_lore"	"Добавив яд Чумного тотема в коктейль, Джул завоевал себе место среди Белых орхидей, хотя вкус весьма специфи"cocktail" is generous... its basically just venom and Icewrack white."
+	"DAC_Challenge_Puzzle_s1_jull3_lore"	"Добавив яд Чумного тотема в коктейль, Джул завоевал себе место среди Белых орхидей, хотя называть это коктейлем чересчур щедро... это просто яд и беленькая из Айсрека."
 
 	"DAC_Challenge_Puzzle_s1_jull4_title"	"Мимо Свена не пройдёшь"
 	"DAC_Challenge_Puzzle_s1_jull4_quote"	"«Я найду способ разобраться с этой проблемой...» <i>(Джул устраняет препятствия)</i>"
@@ -5249,8 +5701,8 @@
 	"DAC_Challenge_Streetfight_sf_and_golems_BotDesc"		"botdesc"
 	"DAC_Challenge_Streetfight_sf_and_golems_Lore"		"Невермору надоело восхождение Анессикс ко власти, и он хочет поставить её на место"
 	"DAC_Challenge_Streetfight_sf_and_golems_Quote"		"«Мне по горло хватало Энно, Джула и Хобгена... но теперь Невермор пытается изгнать меня из Ристульского двора. Здесь нужно действовать лично». <i>(Над Анессикс сгущаются тучи)</i>"
-	"DAC_Challenge_Streetfight_sf_and_golems_Win"		"sf_and_golems Win"
-	"DAC_Challenge_Streetfight_sf_and_golems_Lose"		"sf_and_golems Lose"
+	"DAC_Challenge_Streetfight_sf_and_golems_Win"		"Демонический переворот провалился, а демоны — те ещё гады"
+	"DAC_Challenge_Streetfight_sf_and_golems_Lose"		"Анессикс изгнана из Ристульского двора"
 
 
 	"DAC_Challenge_Streetfight_axe_and_friends_Title"		"Месть Красного тумана"
@@ -5355,7 +5807,7 @@
 
 	"DAC_Challenge_Puzzle_s1_anessix2_title"	"С тобой связаться хотят…"
 	"DAC_Challenge_Puzzle_s1_anessix2_quote"	"«Братья-духи надеются сдержать меня... Я уважаю их самоотверженность, но не выношу их стремление познать тщетность». <i>(Анессикс, бич духов)</i>"
-	"DAC_Challenge_Puzzle_s1_anessix2_lore"		"Многие силы с тревогой следили за восхождением Анессикс к власти... но не братья-духи."
+	"DAC_Challenge_Puzzle_s1_anessix2_lore"		"Многие силы с тревогой следили за восхождением Анессикс к власти... но братья-духи решили всерьёз заняться ею."
 
 	"DAC_Challenge_Puzzle_s1_anessix3_title"	"Служители Бескожих близнецов"
 	"DAC_Challenge_Puzzle_s1_anessix3_quote"	"«Сопротивление моему господству, хоть и ожидаемо, всегда разочаровывает». (Ристульский двор не в ладах с Бескожими близнецами)"
@@ -5367,7 +5819,7 @@
 
 	
 	// Enno S1 Objectives
-	"DAC_Challenge_EnnoWinWithHunters_Desc"			"Победите в {s:threshold} раундах с активным бонусом <span class='Hunter'>охотников</span> <img class='InlineSynergyIcon SynergyHunters'/>"
+	"DAC_Challenge_EnnoWinWithHunters_Desc"			"Победите в {s:threshold} раундах с активным бонусом <span class='Hunter'>охотников</span>"
 	"DAC_Challenge_EnnoWinWithHunters_title"		"Скитания по улицам"
 	"DAC_Challenge_EnnoWinWithHunters_lore"			"Энно не любит сидеть без дела, так что в свободное время он патрулирует Трущобы, разыскивая незваных гостей."
 	"DAC_Challenge_EnnoWinWithHunters_quote"		"Энно в мучительных подробностях объясняет, что он сделает с нарушителями."
@@ -5398,7 +5850,7 @@
 	"DAC_Challenge_EnnoStunUnits_lore"				"Давайте начистоту: Энно — ещё какой ублюдок, и ему хочется, чтобы весь мир об этом узнал."
 	"DAC_Challenge_EnnoStunUnits_quote"				"Энно приготовляется разобрать противников на кусочки."
 	
-	"DAC_Challenge_EnnoBruteDebuff_Desc"			"Наложите отрицательный эффект альянса <span class='Brute'>громил</span><img class='InlineSynergyIcon SynergyBrutal'/>на {s:threshold} существ"
+	"DAC_Challenge_EnnoBruteDebuff_Desc"			"Наложите отрицательный эффект альянса <span class='Brute'>громил</span> на {s:threshold} существ"
 	"DAC_Challenge_EnnoBruteDebuff_title"			"Пяткокусательство"
 	"DAC_Challenge_EnnoBruteDebuff_lore"			"Энно понимает, что именно страх удерживает людей за пределами Трущоб, и делает всё возможное, чтобы подпитать его."
 	"DAC_Challenge_EnnoBruteDebuff_quote"			"Энно объявляет, что никому на этих улицах не будет покоя."
@@ -5408,7 +5860,7 @@
 	"DAC_Challenge_EnnoTop4_lore"	"Не секрет, что из четырёх восходящих лордов именно Энно считается тёмной лошадкой. У него нет торговых предприятий. Нет союзников-демонов. Не стоял он по правую руку Мамаши Иб. Ему есть что доказать — и это не преувеличение."
 	"DAC_Challenge_EnnoTop4_quote"  "Энно выражает свою любовь к блестящим штукам."
 	
-	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"Нанесите {s:threshold} урона существами <span class='Ogre'>одной крови</span><img class='InlineSynergyIcon SynergyOgre'/>"
+	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"Нанесите {s:threshold} урона существами <span class='Ogre'>одной крови</span>"
 	"DAC_Challenge_EnnoDealDamageBloodbound_title"	"Болеем за малого"
 	"DAC_Challenge_EnnoDealDamageBloodbound_lore"	"Энно постоянно хочет доказать, что размер не имеет значения."
 	"DAC_Challenge_EnnoDealDamageBloodbound_quote"	"Энно объявляет, что ничто не доставляет столько удовольствия, как убийство недооценивавших его."
@@ -5514,13 +5966,6 @@
 	"DAC_Challenge_Streetfight_bloodbounds_and_warlocks_Win"		"Таинственные исчезновения в Трущобах прекращаются, когда Энно выдворяет чернокнижников"
 	"DAC_Challenge_Streetfight_bloodbounds_and_warlocks_Lose"		"Свежий слух! По Трущобам разгуливают гигантские големы из плоти"
 	
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Title"		"Экспериментальный рост"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Bot"		"Чернокнижники одной крови"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_BotDesc"		"bloodbounds_and_warlock Desc"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Lore"		"Чернокнижникам вполне свойственно искать «добровольцев» для своих экспериментов в Трущобах."
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Quote"		"Энно объявляет, что, хоть жизнь в Белом Шпиле и стоит дёшево, его люди не продаются."
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Win"		"Таинственные исчезновения в Трущобах прекращаются, когда Энно выдворяет чернокнижников"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Lose"		"Свежий слух! По Трущобам разгуливают гигантские големы из плоти"
 	
 
 
@@ -5632,8 +6077,275 @@
 	"DAC_Challenge_Puzzle_s1_enno4_quote"	"Энно намеревается разобраться с тёмной магией, зарождающейся в Трущобах."
 	"DAC_Challenge_Puzzle_s1_enno4_lore"	"В Трущобах восстают мёртвые... и лишь у Энно хватит смелости это остановить."
 
-	
 
+	// Weekly challenge	#1
+	"DAC_Challenge_weekly_challenge_0_Headline"						"СКОРО!"
+
+	"DAC_Challenge_weekly_challenge_1_Headline"						"РАЗВАЛ РЕПНОГО РЫНКА!"
+	"DAC_Challenge_weekly_challenge_1_SubHeadline"					"По базару Белого Шпиля разлетаются репа и брызги крови"
+
+	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Title"		"Акс и Дисраптор буянят на базаре"
+	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Lore"		"Белый Шпиль не удивишь сомнительными товарами и услугами, но даже по меркам нашего города продавать рубахи из кожи оглоди — дело нежитейское \n(стр. 2\n)"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Title"			"Портной привычки продал"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Lore"			"После сокрушительного провала на базаре портной Карл решил отойти от модных тенденций Квойджа в угоду более традиционным моделям. На вопрос о причинах такой перемены он ответил: «Я — труп простой, мне нравится радовать людей. Если для этого придётся платить за убийство волков, а не оглоди, то я и не против!» (стр. 6)"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_win"			"Карл решает сшить сюртук без использования человеческой плоти"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_lose"			"Охотников, нанятых Карлом, растерзали за стенами Белого Шпиля"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Bot"			"Неубитая добыча"
+
+	"DAC_Challenge_Challenge_weekly_challenge_1_Title"				"Будьте добрее с Карлом"
+	"DAC_Challenge_Challenge_weekly_challenge_1_Lore"				"«Портной Карл — жертва предрассудков против нежити в Белом Шпиле, и добрые жители Квойджа не намерены это терпеть. Знайте: мы наградим каждого, кто поддержит неживые отношения в Белом Шпиле».\n\n(Реджинальд III Беспечный, представитель сообщества кадавров)"
+	"DAC_Challenge_Challenge_weekly_challenge_1_Instructions"		"Бессердечные: убить 300 существ"
+	
+	// Weekly challenge	#2
+	"DAC_Challenge_weekly_challenge_2_Headline"						"АКСЛИЧНЫЙ ДЕНЁК В БЕЛОМ ШПИЛЕ"
+	"DAC_Challenge_weekly_challenge_2_SubHeadline"					"Местные власти приписывают растущее число убийств отдыху Акса в Белом Шпиле"
+
+	"DAC_Challenge_Puzzle_brutal_book_signing_Title"		"Неудача следует за «Неудачливым оглоди»"
+	"DAC_Challenge_Puzzle_brutal_book_signing_Lore"		"Раздача автографов для книги Милы «Неудачливый оглоди» приняла особенно жестокий поворот, когда кто-то предположил, что книжный Акс куда опаснее настоящего (стр. 2)."
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Title"		"Акс выпивает в «Осколке луны». Результат — насилие"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Lore"		"Прошлой ночью выпивки и крови пролилось больше обычного. Прибыв в Белый Шпиль, Акс привлёк внимание парней, мнящих себя крутыми и стремящихся что-то доказать... и, к сожалению Джула, эти дебоширы заявились в «Осколок луны» (стр. 6)."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_win"				"Джул зарывает топор войны с Аксом и бьёт людей от его имени"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_lose"				"Бардак в «Осколке луны»: бар Джула пострадал в ходе потасовки"
+
+	"DAC_Challenge_Challenge_weekly_challenge_2_Title"		"Разыскиваются жертвы для Акса"
+	"DAC_Challenge_Challenge_weekly_challenge_2_Lore"		"«Глупцы говорили Аксу, что Акс не годится на убийства, а вот Мила хороша в преувеличениях. Акс докажет, что и то, и то — правда». Акс.\n\nP. S. Купите мою книгу."
+	
+	// Weekly challenge	#3
+	"DAC_Challenge_weekly_challenge_3_Headline"						"Дамский вечер!"
+	"DAC_Challenge_weekly_challenge_3_SubHeadline"					"Женщины Белого Шпиля окрашивают город в багровые тона"
+
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Title"					"Анессикс и Акаша"
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Lore"						"Назвать взаимоотношения Акаши и Анессикс дружбой было бы чересчур щедро... но когда две демонессы объединяются ради общего блага, они способны на поразительные дела."
+
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Title"		"Не проси её улыбаться"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Bot"		"Приставалы"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Lore"		"В Белом Шпиле хватает хамоватых мужчин, и Анессикс рада с ними разобраться."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_win"				"Неандертальцы посвистывают вслед Анессикс и немедленно сожалеют об этом"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_lose"				"Анессикс отступает и втихую замышляет отомстить"
+
+	"DAC_Challenge_Challenge_weekly_challenge_3_Title"		"Женская особь"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Lore"		"Нельзя недооценивать женщин Белого Шпиля"
+
+	// Weekly challenge	#4
+	"DAC_Challenge_weekly_challenge_4_Headline"						"Чужие кровавые деньги"
+	"DAC_Challenge_weekly_challenge_4_SubHeadline"					"Купеческое королевство Ревтела продолжает финансировать бандитские разборки в Белом Шпиле"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Title"					"Пустой кошель"
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Lore"						"О'ния подпускает тех, с кем она дружит, к ревтельским богатствам. Но если впасть в её немилость, с деньгами может стать туговато."
+
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Title"		"Коллекторы из Ревтела"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Bot"		"Ревтельские костоломы"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Lore"		"Взять заём у банков Ревтела проще простого... а вот остаться здоровым, не вернув им долг, — уже посложнее."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_win"				"Хобген отбивается от банды наёмников и размышляет о выплате долгов"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_lose"				"Ревтел нанимает костоломов, чтобы покалечить Хобгена"
+
+	"DAC_Challenge_Challenge_weekly_challenge_4_Title"		"Ревтельские долги"
+	"DAC_Challenge_Challenge_weekly_challenge_4_Lore"		"В борьбе с другими ревтельскими бандами Хобген по большей части полагался на финансы О'нии... и пришло его время платить по счетам."
+	
+	// Weekly challenge	#5
+	"DAC_Challenge_weekly_challenge_5_Headline"						"Мертвецы гуляют по Белому Шпилю"
+	"DAC_Challenge_weekly_challenge_5_SubHeadline"					"Восставшие из мёртвых жертвы Энно наводнили Трущобы и жаждут мести"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Title"					"Король Трущоб"
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Lore"						"Для Энно важно, чтобы город помнил о его власти в Трущобах... и чтобы там никто не чувствовал себя в безопасности — даже воскресшие и крайне жестокие твари."
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Title"		"ВОФФТАНЬТЕ ИЗ МОГИЛ!"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Bot"		"Бывшие трупы"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Lore"		"Улицы Трущоб усыпаны телами бедолаг, свернувших не в тот переулок. Но вот что-то тёмное и зловещее пробудило мертвецов от вечного сна."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_win"				"Энно расправляется с зомби и возвращает Трущобы к привычному уровню смертности"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_lose"				"Мёртвые туристы мстят Энно"
+
+	"DAC_Challenge_Challenge_weekly_challenge_5_Title"		"Игра на устрашение"
+	"DAC_Challenge_Challenge_weekly_challenge_5_Lore"		"Некоторые считают, что восстание мертвецов ослабило позиции Энно. Он же стремится доказать обратное."
+	
+	// Weekly challenge	#6
+	"DAC_Challenge_weekly_challenge_6_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_6_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_6_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Lore"		"PH"
+
+	// Weekly challenge	#7
+	"DAC_Challenge_weekly_challenge_7_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_7_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_7_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_7_Lore"		"PH"
+
+	// Weekly challenge	#8
+	"DAC_Challenge_weekly_challenge_8_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_8_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_8_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Lore"		"PH"
+
+
+	// Weekly challenge	#9
+	"DAC_Challenge_weekly_challenge_9_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_9_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_9_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Lore"		"PH"
+
+	// Weekly challenge	#10
+	"DAC_Challenge_weekly_challenge_10_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_10_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_10_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Lore"		"PH"
+
+
+	// Weekly challenge	#11
+	"DAC_Challenge_weekly_challenge_11_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_11_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_11_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Lore"		"PH"
+
+	// Weekly challenge	#12
+	"DAC_Challenge_weekly_challenge_12_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_12_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_12_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Lore"		"PH"
+
+	// Weekly challenge	#13
+	"DAC_Challenge_weekly_challenge_13_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_13_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_13_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_13_Lore"		"PH"
+
+	// Weekly challenge	#14
+	"DAC_Challenge_weekly_challenge_14_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_14_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_14_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_14_Lore"		"PH"
+
+	// Weekly challenge courier race names
+	"DAC_Challenge_Courier_Race_0"							"Только мы с конём"
+	"DAC_Challenge_Courier_Race_1"							"Горячка"
+	"DAC_Challenge_Courier_Race_2"							"Кровавые деньги"
+	"DAC_Challenge_Courier_Race_3"							"Злосчастие афериста"
+	"DAC_Challenge_Courier_Race_4"							"Напрасный риск"
+	"DAC_Challenge_Courier_Race_5"							"Ненапрасный риск"
+	"DAC_Challenge_Courier_Race_6"							"Зазубренный клинок"
+	"DAC_Challenge_Courier_Race_7"							"Последний поцелуй"
+	"DAC_Challenge_Courier_Race_8"							"Грустное прощание"
+	"DAC_Challenge_Courier_Race_9"							"Сигма-Д"
+	"DAC_Challenge_Courier_Race_10"							"Проклятия и подковы"
+	"DAC_Challenge_Courier_Race_11"							"Колдун"
+	"DAC_Challenge_Courier_Race_12"							"Суровая хозяйка"
+	"DAC_Challenge_Courier_Race_13"							"Дьявольский танцор"
+	"DAC_Challenge_Courier_Race_14"							"Счислитель "
+	"DAC_Challenge_Courier_Race_15"							"Жидкое мужество"
+	"DAC_Challenge_Courier_Race_16"							"Грустная панда"
+	"DAC_Challenge_Courier_Race_17"							"Смяволы и гряволы"
+	"DAC_Challenge_Courier_Race_18"							"Страх Ристула"
+	"DAC_Challenge_Courier_Race_19"							"Невезучий Чарли"
+	"DAC_Challenge_Courier_Race_20"							"Счастливый случай"
+	"DAC_Challenge_Courier_Race_21"							"На здоровье"
+	"DAC_Weekly_CourierTitle" 								"Финишная прямая: результаты курьерских бегов"	
+	"DAC_Weekly_CourierHeader_Courier"						"Курьер"
+	"DAC_Weekly_CourierHeader_Bet"							"Ставка"
+	"DAC_Weekly_CourierHeader_Wt"							"Вес"
+	"DAC_Weekly_CourierHeader_PP"							"ПП"
+	"DAC_Weekly_CourierHeader_Quarter"						"1/4"
+	"DAC_Weekly_CourierHeader_Half"							"1/2"
+	"DAC_Weekly_CourierHeader_ThreeQuarter"					"3/4"
+	"DAC_Weekly_CourierHeader_Mile"							"Миля"
+	"DAC_Weekly_CourierHeader_Finish"						"Место"
+	"DAC_Weekly_CourierHeader_Odds"							"Шансы"
+	"DAC_Weekly_CourierEntry_CurrentBet"					"<img class='goldcoin'/> {i:current_bet}"
+	"DAC_Weekly_CourierEntry_Prize"							"{i:gold_prize} : 1"
+	"DAC_Weekly_CourierCurrent_Gold"						"Сейчас: <img class='goldcoin'/> {i:current_gold}"
+	
+	
 	// City Crawl Tutorial
 	"DAC_Challenge_Streetfight_tutorial_creeps_Title"		"Добро пожаловать в Белый Шпиль"
 	"DAC_Challenge_Streetfight_tutorial_creeps_Bot"			"Ваши первые жертвы"
@@ -5647,6 +6359,16 @@
 	"DAC_Challenge_Puzzle_intro_quote"			"Хобген, Анессикс, Джул и Энно решили начать свою делёжку с захвата самых опасных территорий. Хобген положил глаз на Новомрак, излюбленное место прогулок Мамаши Иб. Джул направился в порт Скольтень, чтобы взять под контроль импорт и экспорт товаров. Анессикс взялась за Малый Ревтел, где крутится много денег и секретов. А Энно... Ну, Энно остался самим собой и продолжил заправлять Трущобами."
 	"DAC_Challenge_Puzzle_intro_lore"			"Многие испытания ждут тех, кто желает занять место Мамаши Иб. Размахиванием кулаков дело не кончится: некоторые трудности и задачки не могут себе представить даже закоренелые преступники."
 
+	// City Crawl Complete
 	
+	"DAC_citycrawl_complete_hobgen"				"Установив контроль над Новомраком, Хобген создал ценный плацдарм в Белом Шпиле. Пока что фея торжествует... и не подозревает, какие тяжёлые решения ему придётся принять в ближайшие месяцы."
+	"DAC_citycrawl_complete_jull"				"Джул отпраздновал своё владычество в порту Скольтень самым что ни на есть джулячеством: он напился как морж в «Осколке луны» и так безудержно праздновал, что даже разрешил Аксу снова появиться в баре. Ходят слухи, что Мила уже начала работать над книгой о том ночном дебоше."
+	"DAC_citycrawl_complete_enno"				"Перед уже неоспоримым Королём Трущоб Энно стоит непростой вопрос... довольствоваться ли положением суверена нищих? Или замахнуться на расширение своих владений... только время покажет."
+	"DAC_citycrawl_complete_anessix"			"Посланники Анессикс сплели в Малом Ревтеле мощную паутину секретов и доверенных лиц. Но приземлённая демонесса не нашла удовлетворения… она играла в опасную игру с Ристульским двором, и, если бы её намерения раскрыли, все её старания пошли бы прахом."
+	"DAC_citycrawl_complete_all"				"Границы проложены, но история Белого Шпиля только начинается.  Город нижайших наслаждений имеет столько же врагов, сколько секретов… а когда они выйдут на свет — лишь вопрос времени."
+
+
 }
+	
+	
 

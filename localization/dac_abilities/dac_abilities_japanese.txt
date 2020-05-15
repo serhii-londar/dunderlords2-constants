@@ -1,4 +1,4 @@
-"lang"
+﻿"lang"
 { 
 	"Language" "japanese" 
 	"Tokens" 
@@ -23,7 +23,7 @@
 
 		//FURION
 		"dac_ability_natures_prophet_summon_tree"								"自然の呼び声"
-		"dac_ability_natures_prophet_summon_tree_Description"					"ネイチャーズ・プロフェットはトレントを召喚する。このトレントはドルイドと見なされる。"
+		"dac_ability_natures_prophet_summon_tree_Description"					"ネイチャーズ・プロフェットはトレントを召喚する。このトレントはドルイドと見なされる。3つ星では、トレントはボードの敵側にスポーンする。"
 		"dac_ability_natures_prophet_summon_tree_Lore"							"エンノは森の仲間たちに助けを求めた…これはヤバいことになるかもしれない。— <i>オニア、追放されたレヴテルの商人</i>"
 
 		"dac_ability_natures_prophet_wrath_of_nature"							"自然の怒り"
@@ -141,8 +141,8 @@
 		"dac_ability_shadow_shaman_voodoo_Lore"									"ショーマンとはああいう男のことを言うんだ！— <i>プロらしい礼儀を見せるグレック</i>"
 
 		"dac_ability_shadow_shaman_mass_serpent_ward"							"マスサーペントワード"
-		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"シャドウシャーマンは最大4体のサーペントワードを召喚し、敵ユニットを囲む。"
-		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"少なくとも、あいつが人をニワトリに変えることはなくなった。－<i>オニア、トリつく島もない</i>"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"シャドウシャーマンは最大4体のサーペントワードを召喚し、敵ユニットを囲む。3つ星の場合、シャドウシャーマンは敵ユニットを{s:duration}秒間、ヘックス状態にする。"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"みんな、朗報だ。チキンがメニューに戻ったぞ！－<i>ホブゲン、手早い犯罪者</i>"
 
 		//ENIGMA
 		"dac_ability_enigma_midnight_pulse"										"真夜中の波動"
@@ -166,7 +166,7 @@
 
 		//SLARDAR
 		"dac_ability_slardar_amplify_damage"									"腐食性煙霧"
-		"dac_ability_slardar_amplify_damage_Description"						"スラーダーは{s:duration}秒間、敵の防御力を{s:armor_reduction}下げる。"
+		"dac_ability_slardar_amplify_damage_Description"						"スラーダーは{s:duration}秒間、敵の防御力を{s:armor_reduction}下げる。3つ星の場合、スラーダーはバッシュを発動し、対象に{s:bash_damage}物理ダメージを与え、{s:bash_duration}秒間スタン状態にする。"
 		"dac_ability_slardar_amplify_damage_Lore"								"俺はスラークとだって取引できたんだぜ。スラーダーとだって合意できるに決まってる。— <i>ジュル、刑務所ワイン愛好家</i>"
 
 		//BEASTMASTER
@@ -176,7 +176,7 @@
 
 		//VENOMANCER
 		"dac_ability_venomancer_plague_ward"									"疫病ワード"
-		"dac_ability_venomancer_plague_ward_Description"						"ヴェノマンサーは援軍として{s:num_wards}体の疫病ワードを呼び出す。疫病ワードは対象にスタックする毒効果を適用する。"
+		"dac_ability_venomancer_plague_ward_Description"						"ヴェノマンサーは援軍として{s:num_wards}体の疫病ワードを呼び出す。疫病ワードは対象にスタックする毒効果を適用する。疫病ワードは{s:ward_magic_resist}%魔法耐性を持つ。"
 		"dac_ability_venomancer_plague_ward_Lore"								"あなたが作り出したものはなんと美しいことか…あなたの庭の世話をこの私に手伝わせてください…— <i>おべっかで欲しいものが手に入ることに気付いたトゥラス</i>"
 
 		"dac_ability_venomancer_venomous_gale"									"ヴェノマスゲール"
@@ -220,7 +220,7 @@
 		"dac_ability_dragon_knight_breathe_fire_Lore"							"ダヴィオン、お前の才能を理解しないやつらと一緒にいても宝の持ち腐れだ。— <i>才能を盗み取ろうとするホブゲン</i>"
 
 		"dac_ability_dragon_knight_elder_dragon_form"							"エルダードラゴンの姿"
-		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>ドラゴンアライアンスによってアンロック</i><br>パッシブ：戦闘開始時に、ドラゴンナイトは3種類の強力なエルダードラゴンの一つに変化し、移動速度が{s:bonus_movement_speed}%上昇し、{s:bonus_attack_damage}攻撃ダメージボーナスと、新たな能力を得る。<br><br>グリーンドラゴン：\n{s:corrosive_breath_duration}秒間、毎秒{s:corrosive_breath_damage}の毒ダメージを通常攻撃に追加。<br><br>レッドドラゴン：\n敵への毒攻撃に加え、標的の{s:splash_radius}マス以内にいるすべての敵ユニットに{s:splash_damage_percent}%のダメージを与える。<br><br>ブルードラゴン：\n敵への毒攻撃に加え、{s:frost_duration}秒間、{s:frost_aoe}マス以内の敵ユニットの移動速度を{s:frost_bonus_movement_speed}%、攻撃速度を{s:frost_bonus_attack_speed}%下げる。"
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>ドラゴンアライアンスによってアンロック</i><br>パッシブ：戦闘開始時に、ドラゴンナイトは3種類の強力なエルダードラゴンの姿に変化し、移動速度が{s:bonus_movement_speed}%上昇し、{s:bonus_attack_damage}攻撃ダメージボーナスと、新たな能力を得る。<br><br>グリーンドラゴン：\n{s:corrosive_breath_duration}秒間、毎秒{s:corrosive_breath_damage}のダメージを通常攻撃に追加し、対象に毒効果を適用する。<br><br>レッドドラゴン：\n敵への毒効果適用に加え、標的の{s:splash_radius}マス以内にいるすべての敵ユニットに{s:splash_damage_percent}%のダメージを与える。<br><br>ブルードラゴン：\n敵への毒効果適用に加え、{s:frost_duration}秒間、{s:frost_aoe}マス以内の敵ユニットの移動速度を{s:frost_bonus_movement_speed}%、攻撃速度を{s:frost_bonus_attack_speed}%下げる。"
 		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"ケイデンがあなたのことを褒めていたけど、彼の称賛に値することを祈るわ。— <i>レン、ドラゴンホールドの友</i>"
 
 		//ENCHANTRESS
@@ -235,7 +235,7 @@
 
 		//BATRIDER
 		"dac_ability_batrider_sticky_napalm"									"粘着ナパーム"
-		"dac_ability_batrider_sticky_napalm_Description"						"バットライダーは粘着性の油を投げつけ、投下地点の{s:radius}マス以内の範囲を油で覆う。油はスタックごとに{s:damage}ダメージを通常攻撃に追加し、範囲内の敵ユニットの移動速度と攻撃速度を{s:movement_speed_pct}%低下させる。<br><br>粘着ナパームによるボーナスダメージと減速は最高{s:max_stacks}回まで増加する。"
+		"dac_ability_batrider_sticky_napalm_Description"						"バットライダーは火の付いた粘着性の油を投げつけ、投下地点の{s:radius}マス以内の範囲を油で覆う。油はスタックごとに{s:damage}ダメージを通常攻撃に追加し、範囲内の敵ユニットの移動速度と攻撃速度を{s:movement_speed_pct}%低下させる。さらに、3つ星では敵を{s:fire_duration}秒間炎上させる。<br><br>粘着ナパームによるボーナスダメージと減速は最高{s:max_stacks}回まで増加する。"
 		"dac_ability_batrider_sticky_napalm_Lore"								"こいつは最高だ。最高だよ！— <i>ホブゲン、放火魔</i>"
 
 		//DOOM BRINGER
@@ -255,7 +255,7 @@
 
 		// Lycan
 		"dac_ability_lycan_wolf_spawn_shift"									"変身"
-		"dac_ability_lycan_wolf_spawn_shift_Description"						"ライカンは2匹の狼を召喚し、最大ヘルスが{s:hp_per}%、移動速度が{s:speed}まで増加し、さらに{s:crit_chance}%の確率で{s:crit_bonus}%ダメージのクリティカルヒットを与える。"
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"ライカンは{s:summon_count}匹の狼を召喚し、最大ヘルスが{s:hp_per}%、移動速度が{s:speed}まで増加し、さらに{s:crit_chance}%の確率で{s:crit_bonus}%ダメージのクリティカルヒットを与える。"
 		"dac_ability_lycan_wolf_spawn_shift_Lore"								"お願い、ライカン。復讐に手を貸して。— <i>ライカンの慈悲の心に語りかけるレン</i>"
 		
 		// LONE DRUID
@@ -271,7 +271,7 @@
 
 		//OGRE MAGI
 		"dac_ability_ogre_magi_bloodlust"										"ブラッドラスト"
-		"dac_ability_ogre_magi_bloodlust_Description"							"オーガマギは味方ユニットの熱狂を扇動し、移動速度を{s:bonus_movement_speed}%、攻撃速度を{s:bonus_attack_speed}%上昇させる。自身にキャストした場合は攻撃速度ボーナス{s:self_bonus}%を得る。"
+		"dac_ability_ogre_magi_bloodlust_Description"							"オーガマギは味方ユニットの熱狂を扇動し、移動速度を{s:bonus_movement_speed}%、攻撃速度を{s:bonus_attack_speed}%上昇させる。自身にキャストした場合は攻撃速度ボーナス{s:self_bonus}%を得る。オーガマギは{s:multicast_chance}%の確率で、対象2体にこのアビリティをマルチキャストする。"
 		"dac_ability_ogre_magi_bloodlust_Lore"									"マギは請求額の2倍の価値がある。運よく、マギは愚か者でもある。— <i>オニア、特売品狙い</i>"
 
 		// MAGNUS
@@ -325,7 +325,7 @@
 
 		//TUSK
 		"dac_ability_tusk_walrus_punch"											"セイウチパンチ！"
-		"dac_ability_tusk_walrus_punch_Description"								"タスクは強力なセイウチパンチを繰り出し、クリティカルヒットで{s:critical_damage}%ダメージを与え、犠牲者を空中に打ち上げる。\n\n犠牲者は着地時に{s:slow_duration}秒間、{s:move_slow}%の減速を受ける。パンチの間、タスクを倒すことはできない。"
+		"dac_ability_tusk_walrus_punch_Description"								"タスクは強力なセイウチパンチを繰り出し、クリティカルヒットで{s:critical_damage}%ダメージを与え、犠牲者を{s:air_time}秒間空中に打ち上げる。\n\n犠牲者は着地時に{s:slow_duration}秒間、移動速度が{s:move_slow}%遅くなり、攻撃速度が{s:attack_slow}下がる。パンチの間、タスクを倒すことはできない。"
 		"dac_ability_tusk_walrus_punch_Lore"									"あいつとは仲間だったこともあった。俺を助けに来たのか、ぶちのめしに来たのか…すぐにわかるだろう。— <i>若いころに思いを馳せるジュル</i>"
 		
 		
@@ -366,7 +366,7 @@
 		
 		//BLOODSEEKER
 		"dac_ability_bloodseeker_blood_rage"									"ブラッドレイジ"
-		"dac_ability_bloodseeker_blood_rage_Description"						"パッシブ：ブラッドシーカーは毎秒、その最大ヘルスの{s:self_dmg_pct}%に等しいダメージを受ける。<br><br>ヘルスが失われるごとに攻撃速度が増す（最大は{s:min_health_pct}%のヘルスで{s:attack_speed_bonus_max}）。<br><br>近接する敵が死ぬと、最大ヘルスの{s:heal_pct}%を回復する。"
+		"dac_ability_bloodseeker_blood_rage_Description"						"パッシブ：ブラッドシーカーは敵のヘルスが下がると、ヘルスの{s:min_health_pct}%、最大{s:attack_speed_bonus_max}の攻撃速度を得る。<br><br>ブラッドシーカーが対象を倒すと、最大ヘルスの{s:heal_pct}%を回復する。"
 		"dac_ability_bloodseeker_blood_rage_Lore"								"この商売から学んだことがあるとすれば…人は血を見るのが好きだってことだ。この男を雇え。— <i>グレック、決断力ある興行主</i>"
 		
 		//ARC WARDEN
@@ -376,7 +376,7 @@
 		
 		//ARC WARDEN
 		"dac_ability_arc_warden_tempest_double_no_items"						"電磁波分身"
-		"dac_ability_arc_warden_tempest_double_no_items_Description"			"アークウォーデンは自身の現在のヘルスを持つ複製を作り出す。"
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"アークウォーデンは自身の現在のヘルスと同じ複製を作り出す。クローンの与ダメージは{s:clone_dmg_reduction}%削減される。"
 		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"彼は創造の神秘をもたらす。— <i>トゥラス、謎めいた預言者</i>"
 
 		//MIRANA
@@ -410,7 +410,7 @@
 
 		// Lone Druid Bear
 		"dac_ability_lone_druid_spirit_bear_entangle"							"からみつく爪"
-		"dac_ability_lone_druid_spirit_bear_entangle_description"				"スピリットベアの攻撃は対象にからみつき、スタンを与える可能性がある。"
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"スピリットベアの攻撃は対象にからみつき、ルート状態にし武装解除する。"
 		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
 
 		// THUNDER LIZARD BLOODLUST
@@ -454,7 +454,7 @@
 
 		// LEGION COMMANDER
 		"dac_ability_legion_commander_duel"											"デュエル"
-		"dac_ability_legion_commander_duel_description"								"レギオンコマンダーは、1マス以内のヘルスが最小の敵を攻撃し、{s:stun_duration}秒間、1対1の対決を強制する。どちらのヒーローもアビリティを使用できない。対決中にどちらかのヒーローが死ぬと、デュエルに勝利したヒーローは永続的に{s:winner_bonus_damage}ボーナスダメージを得る。（ノックアウトモードのボーナスダメージ[20/32/48]）"
+		"dac_ability_legion_commander_duel_description"								"レギオンコマンダーは、1マス以内のヘルスが最小の敵を攻撃し、{s:stun_duration}秒間、1対1の対決を強制する。どちらのヒーローもアビリティの使用も回復もできない。対決中にどちらかのヒーローが死ぬと、デュエルに勝利したヒーローは永続的に{s:winner_bonus_damage}ボーナスダメージを得る。（ノックアウトモードのボーナスダメージ[20/32/48]）"
 		"dac_ability_legion_commander_duel_lore"									"そう構える必要はない、トレスディン。リックスは私が見つける。－<i>プレッシャーに強いアネシックス</i>"
 
 		"dac_ability_legion_commander_will_of_the_bullsnake"						"牛蛇の意思"
@@ -476,7 +476,7 @@
 
 		// WEAVER
 		"dac_ability_weaver_shukuchi"												"シュクチ"
-		"dac_ability_weaver_shukuchi_description"									"ウィーバーは不可視状態となり、標的にできない状態で最大{s:distance_cells}マス離れた対象の間を移動し、通過したそれぞれの敵に{s:damage}ダメージを与える。"
+		"dac_ability_weaver_shukuchi_description"									"ウィーバーは不可視状態となり、標的にできない状態で最大{s:distance_cells}マス離れた対象の間を移動し、通過したそれぞれの敵に{s:damage}ダメージを与える。その後{s:mana_break_duration}秒間、ウィーバーの攻撃は{s:mana_per_hit}マナを燃やし、1マナあたり{s:damage_per_burn}ダメージを与える。"
 		"dac_ability_weaver_shukuchi_lore"											"ウィーバーよ。ともに世界を作り直そう。－<i>本気でやる気の狂ったトゥラス</i>"
 
 		// BROODMOTHER
@@ -494,12 +494,12 @@
 		"dac_ability_wisp_tether_lore"												"<i>アイオーを熱心に見つめるエンノ</i>"
 
 		"dac_ability_wisp_relocate"													"リロケート"
-		"dac_ability_wisp_relocate_description"										"アイオーは{s:relocate_time_away}秒間、離れた場所にテレポートし、死んだヒーローを復活させる。そのユニットとアイオーのヘルスは完全に回復し、負の効果も浄化される。"
+		"dac_ability_wisp_relocate_description"										"アイオーは{s:relocate_time_away}秒間、離れた場所にテレポートし、死んだヒーローを復活させる。そのユニットとアイオーのヘルスは完全に回復し、負の効果も浄化される。3つ星の場合、アイオーは死んだヒーローのクールダウンもリセットする。"
 		"dac_ability_wisp_relocate_lore"											"<i>見つめ返すアイオー</i>"
 
 		// BRISTLEBACK	
 		"dac_ability_bristleback_quill_spray"										"クイルスプレー"
-		"dac_ability_bristleback_quill_spray_description"							"ブリストルバックは背中の針毛を飛ばし、{s:radius}マス以内のすべての敵にダメージを与える。敵は{s:quill_base_damage}ダメージとスタックごとの追加{s:quill_stack_damage}ダメージを受ける。クイルスプレーはこのラウンドの間、最高{s:max_stacks}回までスタックする"
+		"dac_ability_bristleback_quill_spray_description"							"ブリストルバックは背中の針毛を飛ばし、{s:radius}マス以内のすべての敵にダメージを与える。敵は{s:quill_base_damage}ダメージとスタックごとの追加{s:quill_stack_damage}ダメージを受ける。クイルスプレーはこのラウンドの間、最高{s:max_stacks}回までスタックする。"
 		"dac_ability_bristleback_quill_spray_lore"									"はっきりさせておこう。今夜、お前とタスクに俺のバーを滅茶苦茶にはさせない。－<i>やり手のジュル</i>"
 
 		// LIFESTEALER
@@ -559,7 +559,7 @@
 
 		// MANGO TREE
 		"dac_ability_mango_tree_mango_throw"										"マンゴースロー"
-		"dac_ability_mango_tree_mango_throw_description"							"マンゴーツリーは、戦闘開始時およびその後{s:mango_production_interval}秒ごとに、最大{s:radius}マスまでマンゴーを投げる。マンゴーに触れたすべてのユニットはマンゴーを食べ、50マナと100ヘルスを得る。"
+		"dac_ability_mango_tree_mango_throw_description"							"マンゴーツリーは、戦闘開始時およびその後{s:mango_production_interval}秒ごとに、最大{s:radius}マスまでマンゴーを投げる。マンゴーに触れたすべてのユニットはマンゴーを食べ、50マナと100ヘルスを得る"
 		"dac_ability_mango_tree_mango_throw_lore"									"そんな目で見るな。ただの果物だ。－<i>必死にステレオタイプと戦うアネシックス</i>"
 
 		// UNDERLORDS
@@ -613,7 +613,7 @@
 		"dac_ability_hobgen_supercharged_description_lore"							"必要なのは、小さなやる気を燃やすことさ。－<i>比喩でも火を付けたがるホブゲン</i>"
 
 		"dac_ability_hobgen_airstrike"												"フレンドリーファイア"
-		"dac_ability_hobgen_airstrike_description"									"ホブゲンの仲間が戦場に{s:strikes}発の爆弾を投げ込み、当たった敵に{s:damage}ダメージを与える。爆発の範囲内の敵は半分のダメージを受ける"
+		"dac_ability_hobgen_airstrike_description"									"ホブゲンの仲間たちが戦場に{s:strikes}発の爆弾を投げ込み、爆発に巻き込まれた敵に{s:damage}ダメージを与える。"
 		"dac_ability_hobgen_airstrike_description_lore"								"全部焼き払え！－<i>狂気の放火魔、ホブゲン</i>"
 
 		"dac_ability_hobgen_letsgocrazy"											"レッツゴークレイジー"
@@ -659,5 +659,17 @@
 		"dac_ability_enno_airbrawl"													"総攻撃！"
 		"dac_ability_enno_airbrawl_description"										"エンノはすべての敵に対して総攻撃をかけ、{s:stacks}回スタックする毒効果を適用し、{s:fight_damage}の物理ダメージを与え、{s:land_stun_duration}秒間スタン状態にする。"
 		"dac_ability_enno_airbrawl_lore"											"この野蛮なネズミ野郎を近付けないでくれ！－<i>痛い目に遭ったホブゲン</i>"
+
+		// 3star abilities
+		"dac_ability_3star"															"3つ星効果"
+
+		"dac_ability_warlock_3star"													"ウォーロック3つ星効果"
+		"dac_ability_warlock_3star_Description"										"3つ星の場合、ウォーロックは味方の悪魔がアビリティをキャストした時に、お互いがサイレンス状態になるのを防ぐ。"
+
+		"dac_ability_razor_3star"													"レイザー3つ星効果"
+		"dac_ability_razor_3star_Description"										"3つ星の場合、レイザーは敵を攻撃するたびに、最大{s:max_stacks}回まで{s:stolen_dmg}攻撃ダメージを奪う。対象が変わるとレイザーはリセットされるが、敵はリセットされない。"
+
+		"dac_ability_chaos_knight_3star"													"カオスナイト3つ星効果"
+		"dac_ability_chaos_knight_3star_Description"								"3つ星の場合、カオスナイトの味方の騎士は、常に味方の騎士と近接していると見なされる。"
 	}
 }

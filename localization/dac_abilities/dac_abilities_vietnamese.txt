@@ -1,4 +1,4 @@
-"lang"
+﻿"lang"
 { 
 	"Language" "vietnamese" 
 	"Tokens" 
@@ -23,7 +23,7 @@
 
 		//FURION
 		"dac_ability_natures_prophet_summon_tree"								"Triệu Gọi Ma Cây"
-		"dac_ability_natures_prophet_summon_tree_Description"					"Tiên Tri Rừng Xanh triệu hồi một Ma Cây. Ma Cây này được coi là một đơn vị hệ Ẩn Sĩ."
+		"dac_ability_natures_prophet_summon_tree_Description"					"Tiên Tri Rừng Xanh triệu hồi một Ma Cây. Ma Cây này được coi là một đơn vị hệ Ẩn Sĩ. Khi đạt 3 sao, Ma Cây nhân giống trên phần sân đối phương."
 		"dac_ability_natures_prophet_summon_tree_Lore"							"Enno đã liên lạc với những người bạn rừng tí hon của gã... Có thể là vấn đề đây. - <i>O'nia, Thương gia bị trục xuất của Revtel</i>"
 
 		"dac_ability_natures_prophet_wrath_of_nature"							"Thiên Nhiên Thịnh Nộ"
@@ -84,7 +84,7 @@
 		"dac_ability_axe_culling_blade_Lore"									"Chiến Phủ RẤT giỏi trong việc cắt đôi người khác - <i>Goodkind, nhà thơ của Chiến Phủ</i>" 
 
 		"dac_ability_axe_counter_helix"											"Vũ Điệu Phản Đòn"
-		"dac_ability_axe_counter_helix_Description"								"When attacked, Axe has a {s:spin_chance}% chance to perform a helix counter attack, dealing {s:spin_damage} pure damage to all enemies within 1 cell."
+		"dac_ability_axe_counter_helix_Description"								"Khi bị tấn công, Chiến Phủ có {s:spin_chance}% cơ hội phản đòn bằng cách xoay lưỡi rìu, gây {s:spin_damage} sát thương thuần lên tất cả kẻ địch trong phạm vi 1 ô."
 		"dac_ability_axe_counter_helix_Lore"									"Có lần ta cho gã vào Trăng Lưỡi Liềm... sau trận ẩu đả, ta phải sửa lại hết toàn bộ quán - <i>Jull giải thích lý do tại sao hắn sẽ không bao giờ để Axe bước vào tửu quán của mình</i>" 
 
 		//RAZOR
@@ -141,8 +141,8 @@
 		"dac_ability_shadow_shaman_voodoo_Lore"									"Gã này biết làm trò ra phết đấy chứ! - <i>Grek thể hiện tác phong lịch sự chuyên nghiệp</i>"
 
 		"dac_ability_shadow_shaman_mass_serpent_ward"							"Cọc Rắn Bủa Vây"
-		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Hầu Đồng Tà Sư dùng 4 Cọc Rắn để nhốt một quân địch bên trong."
-		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"Ít ra hắn không còn hóa thiên hạ thành gà nữa - <i>O'nia, tâm trạng thấy \"ô kê\"</i>"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Hầu Đồng Tà Sư đặt bẫy một đơn vị địch bằng cách triệu hồi 4 Cọc Rắn. Khi đạt 3 sao, Hầu Đồng Tà Sư cũng sẽ hóa thú đơn vị địch trong {s:duration} giây."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"Tin tốt nè các chàng trai, món gà đã trở lại thực đơn rồi! - <i>Hobgen, đầu bếp thức ăn nhanh rởm</i>"
 
 		//ENIGMA
 		"dac_ability_enigma_midnight_pulse"										"Xung Lực Hắc Ám"
@@ -166,7 +166,7 @@
 
 		//SLARDAR
 		"dac_ability_slardar_amplify_damage"									"Sương Mù Mòn Rữa"
-		"dac_ability_slardar_amplify_damage_Description"						"Hộ Vệ Biển Sâu khiến giáp kẻ địch {s:armor_reduction} trong {s:duration} giây."
+		"dac_ability_slardar_amplify_damage_Description"						"Slardar modifies enemy armor by {s:armor_reduction} for {s:duration} seconds. At 3 stars, Slardar also bashes the target, dealing {s:bash_damage} Physical damage and stunning for {s:bash_duration} seconds."
 		"dac_ability_slardar_amplify_damage_Lore"								"Slark và ta đây từng làm ăn với nhau, thì chúng ta có thể tìm điểm chung đồng thuận chứ nhỉ. - <i>Jull, cuồng rượu Pruno</i>"
 
 		//BEASTMASTER
@@ -176,7 +176,7 @@
 
 		//VENOMANCER
 		"dac_ability_venomancer_plague_ward"									"Cọc Dịch Bệnh"
-		"dac_ability_venomancer_plague_ward_Description"						"Tà Độc Xà tạo {s:num_wards} Cọc Dịch Bệnh để cùng chiến đấu. Cọc Dịch Bệnh gây điểm độc cộng dồn lên mục tiêu."
+		"dac_ability_venomancer_plague_ward_Description"						"Tà Độc Xà tạo {s:num_wards} Cọc Dịch Bệnh để cùng chiến đấu. Cọc Dịch Bệnh gây điểm độc cộng dồn lên mục tiêu và có {s:ward_magic_resist}% kháng phép."
 		"dac_ability_venomancer_plague_ward_Lore"								"Tạo tác của ngài thật tuyệt mĩ. Hãy để tôi đây giúp khu vườn này thêm phần lộng lẫy... - <i>Turath biết được rằng nịnh bợ giúp đạt được mọi thứ</i>"
 
 		"dac_ability_venomancer_venomous_gale"									"Phun Nọc"
@@ -220,7 +220,7 @@
 		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davion, anh đang lãng phí tài năng vào kẻ chẳng biết thế nào là tốt xấu. - <i>Hobgen đang cố gắng chiêu dụ anh tài</i>"
 
 		"dac_ability_dragon_knight_elder_dragon_form"							"Hóa Rồng"
-		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>MỞ KHÓA BẰNG LIÊN MINH RỒNG</i><br>NỘI TẠI: Ngay khi giao chiến, Hiệp Sĩ Rồng biến thành một trong ba con rồng hùng mạnh, giúp tăng {s:bonus_movement_speed}% tốc độ di chuyển & {s:bonus_attack_damage} sát thương, và có thêm sức mạnh mới.<br><br>Rồng Lục:\nĐòn đánh gây thêm {s:corrosive_breath_damage} sát thương độc mỗi giây trong vòng {s:corrosive_breath_duration} giây.<br><br>Rồng Đỏ:\nNgoài việc tẩm độc, đòn đánh gây {s:splash_damage_percent}% sát thương lên mọi kẻ địch trong phạm vi {s:splash_radius} ô tính quanh mục tiêu chính.<br><br>Rồng Lam:\nNgoài việc tẩm độc, giảm {s:frost_bonus_movement_speed}% tốc độ di chuyển và {s:frost_bonus_attack_speed}% tốc độ đánh kẻ địch trong phạm vi {s:frost_aoe} ô trong {s:frost_duration} giây."
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>MỞ KHÓA BẰNG LIÊN MINH RỒNG</i><br>NỘI TẠI: Ngay khi giao chiến, Hiệp Sĩ Rồng biến thành một trong ba con rồng hùng mạnh, giúp tăng {s:bonus_movement_speed}% tốc độ di chuyển & {s:bonus_attack_damage} sát thương, và có thêm sức mạnh mới.<br><br>Rồng Lục:\nĐòn đánh gây {s:corrosive_breath_damage} sát thương mỗi giây trong vòng {s:corrosive_breath_duration} giây và hạ độc mục tiêu.<br><br>Rồng Đỏ:\nNgoài việc tẩm độc, đòn đánh gây {s:splash_damage_percent}% sát thương lên mọi kẻ địch trong phạm vi {s:splash_radius} ô tính quanh mục tiêu chính.<br><br>Rồng Lam:\nNgoài việc tẩm độc, giảm {s:frost_bonus_movement_speed}% tốc độ di chuyển và {s:frost_bonus_attack_speed}% tốc độ đánh kẻ địch trong phạm vi {s:frost_aoe} ô trong {s:frost_duration} giây."
 		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"Kaden ca ngợi anh không ngớt, hy vọng đó không phải là hư danh. - <i>Wren, bạn của Thành Rồng Dragon Hold</i>"
 
 		//ENCHANTRESS
@@ -235,7 +235,7 @@
 
 		//BATRIDER
 		"dac_ability_batrider_sticky_napalm"									"Chất Nhầy Bắt Lửa"
-		"dac_ability_batrider_sticky_napalm_Description"						"Dơi Kỵ Sĩ ném chất nhầy, phủ lên mặt đất trong phạm vi {s:radius} ô tính từ điểm mục tiêu. Với mỗi lần bị tẩm dầu, nạn nhân nhận thêm {s:damage} sát thương từ đòn đánh thường của Dơi Kỵ Sĩ, đồng thời bị làm chậm tốc độ chạy và tấn công đi {s:movement_speed_pct}%.<br><br>Những lần dính Chất Nhầy kế tiếp sẽ dồn thêm sát thương đánh thường và mức làm chậm, tối đa {s:max_stacks} lần cộng dồn."
+		"dac_ability_batrider_sticky_napalm_Description"						"Dơi Kỵ Sĩ ném chất nhầy bắt lửa, phủ lên mặt đất trong phạm vi {s:radius} ô tính từ điểm mục tiêu. Với mỗi lần bị tẩm dầu, nạn nhân nhận thêm {s:damage} sát thương từ đòn đánh thường của Dơi Kỵ Sĩ, đồng thời bị làm chậm tốc độ chạy và tấn công đi {s:movement_speed_pct}%. Khi đạt 3 sao, Dơi Kỵ Sĩ cũng đốt cháy kẻ địch trong {s:fire_duration} giây.<br><br>Những lần dính Chất Nhầy Bắt Lửa kế tiếp sẽ dồn thêm sát thương đánh thường và mức làm chậm, tối đa {s:max_stacks} lần cộng dồn."
 		"dac_ability_batrider_sticky_napalm_Lore"								"Ta yêu hắn. YÊU LẮM Ý. - <i>Hobgen, Kẻ phóng hỏa</i>"
 
 		//DOOM BRINGER
@@ -255,7 +255,7 @@
 
 		// Lycan
 		"dac_ability_lycan_wolf_spawn_shift"									"Biến hình"
-		"dac_ability_lycan_wolf_spawn_shift_Description"						"Ma Sói triệu hồi 2 con sói, biến hình và tăng {s:hp_per}% máu tối đa, tốc độ di chuyển lên mức {s:speed} và có {s:crit_chance}% cơ hội đánh chí mạng gây {s:crit_bonus}% sát thương."
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan summons {s:summon_count} wolves and transforms and gains {s:hp_per}% to his max health, his move speed is boosted to {s:speed} and gains {s:crit_chance}% chance to Critical Hit for {s:crit_bonus}% Damage."
 		"dac_ability_lycan_wolf_spawn_shift_Lore"								"Hỡi ngài Ma Sói, hãy giúp con báo thù. - <i>Wren tìm cách thôi thúc nhân tính của Ma Sói</i>"
 		
 		// LONE DRUID
@@ -271,7 +271,7 @@
 
 		//OGRE MAGI
 		"dac_ability_ogre_magi_bloodlust"										"Cuồng Huyết"
-		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Pháp Sư khiến một đơn vị đồng minh trở nên điên dại, tăng tốc độ chạy lên {s:bonus_movement_speed}% và tốc độ tấn công lên {s:bonus_attack_speed}%. Nếu dùng lên chính Orge Pháp Sư, tốc độ tấn công tăng sẽ là {s:self_bonus}%."
+		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Pháp Sư khiến một đơn vị đồng minh trở nên điên dại, tăng tốc độ chạy lên {s:bonus_movement_speed}% và tốc độ tấn công lên {s:bonus_attack_speed}%. Nếu dùng lên chính Orge Pháp Sư, tốc độ tấn công tăng sẽ là {s:self_bonus}%. Ogre Pháp Sư có {s:multicast_chance} cơ hội tung phép liên hồi lên 2 mục tiêu."
 		"dac_ability_ogre_magi_bloodlust_Lore"									"Ogre Pháp Sư đáng giá gấp đôi cái phí nó đòi. Cũng may là thứ Pháp Sư này cũng thuộc hàng dốt đặc. - <i>O'nia, thích săn hàng giá hời</i>"
 
 		// MAGNUS
@@ -325,7 +325,7 @@
 
 		//TUSK
 		"dac_ability_tusk_walrus_punch"											"Hải Mã QUYỀN!"
-		"dac_ability_tusk_walrus_punch_Description"								"Hải Mã Đấu Sĩ tung cú đấm trứ danh của mình, mạnh đến mức gây {s:critical_damage}% sát thương và hất văng mục tiêu lên trời trong {s:air_time} giây. Khi rơi xuống đất, nạn nhân sẽ bị giảm {s:move_slow}% tốc độ chạy trong {s:slow_duration} giây. Hải Mã Đấu Sĩ không thể bị giết khi tung quyền."
+		"dac_ability_tusk_walrus_punch_Description"								"Hải Mã Đấu Sĩ tung cú đấm trứ danh của mình, mạnh đến mức gây {s:critical_damage}% sát thương và hất văng mục tiêu lên trời trong {s:air_time} giây. Khi rơi xuống đất, nạn nhân sẽ bị giảm {s:move_slow}% tốc độ chạy trong {s:slow_duration} giây và mất {s:attack_slow} tốc độ đánh. Hải Mã Đấu Sĩ không thể bị giết khi tung quyền."
 		"dac_ability_tusk_walrus_punch_Lore"									"Gã từng là bằng hữu của ta.  Chúng ta sẽ biết sớm thôi nếu hắn ở đây để giúp hay đấm ta. - <i>Jull hoài tưởng lại về tuổi trẻ</i>"
 		
 		
@@ -366,7 +366,7 @@
 		
 		//BLOODSEEKER
 		"dac_ability_bloodseeker_blood_rage"									"Nộ Huyết Xung Thiên"
-		"dac_ability_bloodseeker_blood_rage_Description"						"NỘI TẠI: Mỗi giây, Kẻ Săn Máu nhận sát thương tương đương {s:self_dmg_pct}% máu tối đa.<br><br>Khi bị mất máu, có thêm tốc độ đánh, tối đa đến {s:attack_speed_bonus_max} tại {s:min_health_pct}% máu.<br><br>Mỗi khi một kẻ địch lân cận chết, hồi {s:heal_pct}% máu tối đa."
+		"dac_ability_bloodseeker_blood_rage_Description"						"NỘI TẠI: Mỗi khi kẻ thù của Kẻ Săn Máu giảm máu, hắn có thêm tốc độ đánh, tối đa đến {s:attack_speed_bonus_max} tại {s:min_health_pct}% máu.<br><br>Mỗi khi Kẻ Săn Máu giết một mục tiêu, hắn hồi {s:heal_pct}% lượng máu tối đa của đối thủ."
 		"dac_ability_bloodseeker_blood_rage_Lore"								"Nếu có một điều tui học được trong sự nghiệp của mình, thì đó là quần chúng thích đầu rơi máu chảy.  Thuê anh này mau và ngay. - <i>Grek, ông bầu quả quyết</i>"
 		
 		//ARC WARDEN
@@ -376,8 +376,8 @@
 		
 		//ARC WARDEN
 		"dac_ability_arc_warden_tempest_double_no_items"						"Phân Thân Bão Tố"
-		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Cai Ngục Trăng Điên tạo một phân thân với cùng lượng máu mà hắn hiện có."
-		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"Hắn mang trong mình bí ẩn của tạo hóa. - <i>Turath, nhà tiên tri huyền bí</i>"
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Cai Ngục Trăng Điên tạo phân thân với cùng lượng máu mà hắn hiện có. Những bản sao gây sát thương ít hơn {s:clone_dmg_reduction}%."
+		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"Ẩn trong hắn là bí mật của tạo hóa. - <i>Turath, nhà tiên tri huyền bí</i>"
 
 		//MIRANA
 		"dac_ability_mirana_arrow"												"Mũi Tên Thiêng"
@@ -410,7 +410,7 @@
 
 		// Lone Druid Bear
 		"dac_ability_lone_druid_spirit_bear_entangle"							"Móng Vuốt Trói Chân"
-		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Đòn tấn công của Gấu Tinh có cơ hội trói lấy mục tiêu, làm choáng chúng."
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Đòn tấn công của Gấu Tinh có cơ hội trói lấy mục tiêu, cầm chân chúng lại và ngăn chúng ra đòn."
 		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
 
 		// THUNDER LIZARD BLOODLUST
@@ -454,7 +454,7 @@
 
 		// LEGION COMMANDER
 		"dac_ability_legion_commander_duel"											"Thách Đấu"
-		"dac_ability_legion_commander_duel_description"								"Chỉ Huy Quân Đoàn chọn mục tiêu ít máu nhất cách đó 1 ô, buộc cả hai giao đấu với nhau trong {s:stun_duration} giây. Cả hai tướng đều không thể dùng kỹ năng chủ động. Nếu một tướng chết trong thời gian giao đấu, người thắng cuộc sẽ được nhận vĩnh viễn {s:winner_bonus_damage} sát thương thưởng thêm. ([20/32/48] sát thương thưởng thêm trong chế độ Nốc Ao)"
+		"dac_ability_legion_commander_duel_description"								"Chỉ Huy Quân Đoàn chọn mục tiêu ít máu nhất cách đó 1 ô, buộc cả hai giao đấu với nhau trong {s:stun_duration} giây. Cả hai tướng đều không thể dùng kỹ năng chủ động hoặc được hồi máu. Nếu một tướng chết trong thời gian giao đấu, người thắng cuộc sẽ được nhận vĩnh viễn {s:winner_bonus_damage} sát thương thưởng thêm. ([20/32/48] sát thương thưởng thêm trong chế độ Nốc Ao)"
 		"dac_ability_legion_commander_duel_lore"									"Không cần phải dọa dẫm, Tresdin...Ta có thể giúp cô tìm Rix - <i>Anessix, giữ cái đầu lạnh dưới áp lực</i>"
 
 		"dac_ability_legion_commander_will_of_the_bullsnake"						"Ý Chí Rắn Trâu"
@@ -476,13 +476,13 @@
 
 		// WEAVER
 		"dac_ability_weaver_shukuchi"												"Vô Ảnh Bộ"
-		"dac_ability_weaver_shukuchi_description"									"Dệt Vận tàng hình, không thể bị chọn làm mục tiêu, di chuyển cực nhanh qua một đơn vị cách đó tới {s:distance_cells} ô. Dệt Vận gây {s:damage} sát thương lên mỗi quân địch đi xuyên qua."
+		"dac_ability_weaver_shukuchi_description"									"Dệt Vận tàng hình, không thể bị chọn làm mục tiêu, di chuyển cực nhanh qua một đơn vị cách đó tới {s:distance_cells} ô. Dệt Vận gây {s:damage} sát thương lên mỗi quân địch đi xuyên qua. Trong {s:mana_break_duration} giây sau đó, đòn tấn công của Dệt Vận đốt {s:mana_per_hit} mana, gây {s:damage_per_burn} sát thương cho mỗi mana bị đốt cháy."
 		"dac_ability_weaver_shukuchi_lore"											"Dệt Vận.  Cùng nhau, chúng ta sẽ tạo lập lại thế giới này. - <i>Turath, đủ điên để làm điều đó</i>"
 
 		// BROODMOTHER
 		"dac_ability_broodmother_spawn_spiderlings"									"Đẻ Nhện Con"
 		"dac_ability_broodmother_spawn_spiderlings_description"						"Nhện Mẹ đưa trứng của mình ký sinh vào một đơn vị địch, gây {s:damage} sát thương. Nếu mục tiêu bị chết, {s:num_spiderlings} trứng sẽ nở ra nhện con. Nhện con là các đơn vị không thể bị chọn làm mục tiêu, gây ít sát thương, và có 1 máu."
-		"dac_ability_broodmother_spawn_spiderlings_lore"							"Look I may burn people alive, but at least I'm not hatching eggs in people... - <i>In which Hobgen equivocates"
+		"dac_ability_broodmother_spawn_spiderlings_lore"							"Nghe này, tui có thể thiêu sống người ta, nhưng ít ra thì đây không có đẻ trứng trong cơ thể họ... <i>Hobgen phân minh</i>"
 
 		"dac_ability_broodmother_spin_web"											"Giăng Tơ"
 		"dac_ability_broodmother_spin_web_description"								"Nhện Mẹ giăng lưới rộng {s:radius} ô phủ lên đơn vị địch. Kẻ địch trong mạng nhện mất {s:debuff_attack_speed} tốc độ đánh, {s:debuff_speed}% tốc độ di chuyển và {s:debuff_casting_speed}% tốc độ vận phép."
@@ -494,7 +494,7 @@
 		"dac_ability_wisp_tether_lore"												"<i>Tại đó, Enno cố tình nhìn Io chằm chằm</i>"
 
 		"dac_ability_wisp_relocate"													"Vật Đổi Sao Dời"
-		"dac_ability_wisp_relocate_description"										"Io dịch chuyển khỏi bàn đấu trong {s:relocate_time_away} giây để hồi sinh tướng đã chết. Cả hai trở lại với đầy máu và hóa giải các hiệu ứng bất lợi."
+		"dac_ability_wisp_relocate_description"										"Io teleports away for {s:relocate_time_away} seconds to revive a dead hero. The two units return with full health and are purged of negative effects. At 3 stars, Io also resets the dead hero's cooldowns."
 		"dac_ability_wisp_relocate_lore"											"<i>Ấy thế, Io nhìn chằm chằm đáp trả</i>"
 
 		// BRISTLEBACK	
@@ -613,7 +613,7 @@
 		"dac_ability_hobgen_supercharged_description_lore"							"Đôi khi người ta chỉ cần một chút ngọn lửa nhiệt huyết - <i>Hobgen châm ngòi theo cả nghĩa đen và nghĩa bóng</i>"
 
 		"dac_ability_hobgen_airstrike"												"Hỏa Lực Đồng Minh"
-		"dac_ability_hobgen_airstrike_description"									"Đồng đội của Hobgen ném {s:strikes} quả bom vào trận chiến gây {s:damage} sát thương lên kẻ địch bị trúng trực tiếp. Kẻ địch trong vùng phát nổ nhận một nửa sát thương lan."
+		"dac_ability_hobgen_airstrike_description"									"Đồng đội của Hobgen ném {s:strikes} quả bom vào trận chiến gây {s:damage} sát thương lên kẻ địch trong vùng phát nổ."
 		"dac_ability_hobgen_airstrike_description_lore"								"Cho nhà nó sáng nhất đêm nay! - <i>Hobgen, Kẻ phóng hỏa man rợ</i>"
 
 		"dac_ability_hobgen_letsgocrazy"											"Quẩy Lên Nào"
@@ -659,5 +659,17 @@
 		"dac_ability_enno_airbrawl"													"Tổng Tấn Công!"
 		"dac_ability_enno_airbrawl_description"										"Enno phát động Tổng Tấn Công lên toàn bộ đối phương, tẩm độc cộng dồn {s:stacks} lần, gây {s:fight_damage} sát thương vật lý và làm chúng bị choáng trong {s:land_stun_duration} giây."
 		"dac_ability_enno_airbrawl_lore"											"THẰNG LÔNG LÁ KIA TRÁNH XA TAO RA! - <i>Nhờ đó mà Hobgen biết chút xíu lễ độ</i>"
+
+		// 3star abilities
+		"dac_ability_3star"															"Three Star Effect"
+
+		"dac_ability_warlock_3star"													"Warlock 3 Star Effect"
+		"dac_ability_warlock_3star_Description"										"At three stars, Warlock prevents friendly Demons from silencing each other when casting abilities."
+
+		"dac_ability_razor_3star"													"Razor 3 Star Effect"
+		"dac_ability_razor_3star_Description"										"At three stars, each time Razor attacks an enemy, he steals {s:stolen_dmg} Attack Damage, up to {s:max_stacks} times. This is reset for Razor, but not the enemy, when changing targets."
+
+		"dac_ability_chaos_knight_3star"													"Chaos Knight 3 Star Effect"
+		"dac_ability_chaos_knight_3star_Description"								"At three stars, Chaos Knight's allied Knights always count as adjacent to a friendly Knight."
 	}
 }

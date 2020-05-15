@@ -1,4 +1,4 @@
-"lang"
+﻿"lang"
 { 
 	"Language" "spanish" 
 	"Tokens" 
@@ -23,7 +23,7 @@
 
 		//FURION
 		"dac_ability_natures_prophet_summon_tree"								"Llamada de la Naturaleza"
-		"dac_ability_natures_prophet_summon_tree_Description"					"Nature's Prophet invoca a un Ent, que actúa como un druida."
+		"dac_ability_natures_prophet_summon_tree_Description"					"Nature's Prophet invoca a un Ent. Este Ent se considera un druida. Al alcanzar 3 estrellas, el Ent aparecerá en la zona enemiga del tablero."
 		"dac_ability_natures_prophet_summon_tree_Lore"							"Enno ha pedido ayuda a sus amiguitos del bosque... Esto podría ser un problema. <i>&#8213;O'nia, mercader desterrada de Revtel</i>"
 
 		"dac_ability_natures_prophet_wrath_of_nature"							"Ira de la Naturaleza"
@@ -141,8 +141,8 @@
 		"dac_ability_shadow_shaman_voodoo_Lore"									"¡Ese si es un tío que sabe dar un espectáculo! <i>&#8213;Grek, mostrando cortesía profesional</i>"
 
 		"dac_ability_shadow_shaman_mass_serpent_ward"							"Guardianes Serpiente en Masa"
-		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Shadow Shaman atrapa a una unidad enemiga al invocar hasta 4 Guardianes Serpiente."
-		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"Al menos ya no está convirtiendo a las personas en pollos. <i>&#8213;O'nia, de mal humor</i>"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Shadow Shaman atrapa a una unidad enemiga al invocar hasta 4 Guardianes Serpiente. Con 3 estrellas, Shadow Shaman también maldice a la unidad enemiga durante {s:duration} segundos."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"Buenas noticias, chicos, ¡el pollo ha vuelto al menú! <i>&#8213;Hobgen, criminal y parrillero</i>"
 
 		//ENIGMA
 		"dac_ability_enigma_midnight_pulse"										"Pulso de Medianoche"
@@ -166,7 +166,7 @@
 
 		//SLARDAR
 		"dac_ability_slardar_amplify_damage"									"Neblina Corrosiva"
-		"dac_ability_slardar_amplify_damage_Description"						"Slardar modifica la armadura del enemigo en {s:armor_reduction} durante {s:duration} s."
+		"dac_ability_slardar_amplify_damage_Description"						"Slardar reduce la armadura del enemigo en {s:armor_reduction} durante {s:duration} segundos. Con 3 estrellas, Slardar también golpea al objetivo, infligiéndole {s:bash_damage} de daño físico, y lo aturde durante {s:bash_duration} segundos."
 		"dac_ability_slardar_amplify_damage_Lore"								"Slark y yo pudimos hacer negocios; seguramente nosotros también podamos llegar a un acuerdo. <i>&#8213;Jull, aficionado al pruno</i>"
 
 		//BEASTMASTER
@@ -176,7 +176,7 @@
 
 		//VENOMANCER
 		"dac_ability_venomancer_plague_ward"									"Guardián de la Plaga"
-		"dac_ability_venomancer_plague_ward_Description"						"Venomancer invoca a {s:num_wards} Guardián de la Plaga para que luche a su lado. Los Guardianes de la Plaga aplican acumulaciones de veneno a su objetivo."
+		"dac_ability_venomancer_plague_ward_Description"						"Venomancer invoca a {s:num_wards} Guardián de la Plaga para que luche a su lado. Los Guardianes de la Plaga aplican acumulaciones de veneno a su objetivo, y tienen un {s:ward_magic_resist}% de resistencia mágica."
 		"dac_ability_venomancer_plague_ward_Lore"								"Tus creaciones son algo hermoso digno de admirar. Déjame ayudarte a cuidar tu jardín... <i>&#8213;Turath, dándose cuenta de que los alardes abren puertas</i>"
 
 		"dac_ability_venomancer_venomous_gale"									"Vendaval Venenoso"
@@ -220,7 +220,7 @@
 		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davion, estás desperdiciando tus habilidades con alguien que no aprecia la belleza de lo que haces. <i>&#8213;Hobgen, tratando de robar talento</i>"
 
 		"dac_ability_dragon_knight_elder_dragon_form"							"Forma de Dragón Ancestral"
-		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>DESBLOQUEADA POR LA ALIANZA DE DRAGONES</i><br>PASIVA: Al principio del combate, Dragon Knight adopta la forma de uno de tres poderosos dragones ancestrales, lo que aumenta su velocidad de movimiento un {s:bonus_movement_speed}% y el daño de ataque en {s:bonus_attack_damage}, otorgándoles nuevos poderes.<br><br>Dragón verde:\nLos ataques infligen {s:corrosive_breath_damage} de daño venenoso por segundo durante {s:corrosive_breath_duration} segundos.<br><br>Dragón rojo:\nAdemás de envenenar a los enemigos, sus ataques infligen un {s:splash_damage_percent}% de daño a todas las unidades enemigas en un radio de {s:splash_radius} casilla(s) alrededor del objetivo.<br><br>Dragón azul:\nAdemás de envenenarlos, sus ataques afectan a los enemigos al ralentizar su velocidad de movimiento un {s:frost_bonus_movement_speed}% y su velocidad de ataque un {s:frost_bonus_attack_speed}%, en un radio de {s:frost_aoe} casilla(s) en torno al objetivo, durante {s:frost_duration} segundos."
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>DESBLOQUEADA POR LA ALIANZA DE DRAGONES</i><br>PASIVA: Al principio del combate, Dragon Knight adopta la forma de uno de tres poderosos dragones ancestrales, lo que aumenta su velocidad de movimiento un {s:bonus_movement_speed}%, su daño de ataque en {s:bonus_attack_damage} y le otorga nuevos poderes.<br><br>Dragón verde:\nLos ataques infligen {s:corrosive_breath_damage} de daño por segundo durante {s:corrosive_breath_duration} segundos y envenenan al objetivo.<br><br>Dragón rojo:\nAdemás de envenenar, sus ataques infligen un {s:splash_damage_percent}% de daño a todas las unidades enemigas a {s:splash_radius} casilla de distancia del objetivo.<br><br>Dragón azul:\nAdemás de envenenar, sus ataques ralentizan un {s:frost_bonus_movement_speed}% la velocidad de movimiento y un {s:frost_bonus_attack_speed}% la velocidad de ataque de las unidades enemigas a {s:frost_aoe} casilla de distancia del objetivo durante {s:frost_duration} segundos."
 		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"Kaden me habló muy bien de ti; esperemos que sus elogios fueran bien merecidos. <i>&#8213;Wren, amiga de la Fortaleza del Dragón</i>"
 
 		//ENCHANTRESS
@@ -235,7 +235,7 @@
 
 		//BATRIDER
 		"dac_ability_batrider_sticky_napalm"									"Napalm Pegajoso"
-		"dac_ability_batrider_sticky_napalm_Description"						"Batrider lanza un aceite pegajoso que cubre el suelo en un radio de {s:radius} casillas del punto de impacto. El aceite añade {s:damage} de daño por acumulación a los ataques de Batrider y ralentiza el movimiento y el ataque de sus enemigos un {s:movement_speed_pct}%.<br><br>Los lanzamientos adicionales de Napalm Pegajoso siguen aumentando los porcentajes de daño y ralentización, hasta {s:max_stacks} acumulaciones."
+		"dac_ability_batrider_sticky_napalm_Description"						"Batrider arroja un aceite pegajoso en llamas que cubre el suelo en un radio de {s:radius} casilla alrededor del punto de impacto. El aceite añade {s:damage} de daño por acumulación a los ataques de Batrider y ralentiza las velocidades de movimiento y ataque de sus enemigos un {s:movement_speed_pct}%. Con 3 estrellas, Batrider también prende fuego a estos enemigos durante {s:fire_duration} segundos.<br><br>Los lanzamientos adicionales de Napalm Pegajoso siguen aumentando los porcentajes de daño y ralentización, hasta un máximo de {s:max_stacks} acumulaciones."
 		"dac_ability_batrider_sticky_napalm_Lore"								"Adoro a este tipo. LO ADORO. <i>&#8213;Hobgen, pirómano</i>"
 
 		//DOOM BRINGER
@@ -255,7 +255,7 @@
 
 		// Lycan
 		"dac_ability_lycan_wolf_spawn_shift"									"Cambio de Forma"
-		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan invoca dos lobo y se transforma y obtiene un {s:hp_per}% de su máximo de vida, su velocidad de movimiento aumenta a {s:speed} y gana un {s:crit_chance}% de probabilidad de obtener ataque crítico con un {s:crit_bonus}% de daño."
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan invoca {s:summon_count} lobos, se transforma y obtiene un {s:hp_per}% de su máximo de vida, su velocidad de movimiento aumenta a {s:speed} y gana un {s:crit_chance}% de probabilidad de obtener ataque crítico con un {s:crit_bonus}% de daño."
 		"dac_ability_lycan_wolf_spawn_shift_Lore"								"Por favor Lycan, ayúdame a vengarme. <i>&#8213;Wren, apelando a la humanidad de Lycan</i>"
 		
 		// LONE DRUID
@@ -271,7 +271,7 @@
 
 		//OGRE MAGI
 		"dac_ability_ogre_magi_bloodlust"										"Sed de Sangre"
-		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Magi incita al frenesí en una unidad aliada, aumentando su velocidad de movimiento un {s:bonus_movement_speed}% y su velocidad de ataque un {s:bonus_attack_speed}%. Si se lanza en Ogre Magi, en vez de lo anterior, su velocidad de ataque aumenta un {s:self_bonus}% adicional."
+		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Magi incita al frenesí en una unidad aliada, aumentando su velocidad de movimiento un {s:bonus_movement_speed}% y su velocidad de ataque un {s:bonus_attack_speed}%. Si se lanza en Ogre Magi, su velocidad de ataque aumenta un {s:self_bonus}% adicional. Ogre Magi tiene una probabilidad del {s:multicast_chance}% de lanzar esta habilidad a 2 objetivos."
 		"dac_ability_ogre_magi_bloodlust_Lore"									"Magi vale el doble de lo que cobra. Afortunadamente Magi es también un idiota. <i>&#8213;O'nia, cazadora de gangas</i>"
 
 		// MAGNUS
@@ -325,7 +325,7 @@
 
 		//TUSK
 		"dac_ability_tusk_walrus_punch"											"¡PUÑETAZO de Morsa!"
-		"dac_ability_tusk_walrus_punch_Description"								"Tusk conecta con su poderoso Puñetazo de Morsa, un fuerte impacto crítico que inflige un {s:critical_damage}% de daño y lanza a la víctima por los aires durante {s:air_time} s. La víctima quedará ralentizada un {s:move_slow}% al caer durante {s:slow_duration} s. Tusk no puede morir mientras ejecuta el puñetazo."
+		"dac_ability_tusk_walrus_punch_Description"								"Tusk conecta con su poderoso Puñetazo de Morsa, un fuerte impacto crítico que inflige un {s:critical_damage}% de daño y lanza a la víctima por los aires durante {s:air_time} s. La víctima quedará ralentizada un {s:move_slow}% al caer durante {s:slow_duration} segundos y pierde {s:attack_slow} de velocidad de ataque. Tusk no puede morir mientras ejecuta el puñetazo."
 		"dac_ability_tusk_walrus_punch_Lore"									"Él fue mi amigo una vez. Veremos si está aquí para ayudarme o darme un puñetazo tan pronto como pueda. <i>&#8213;Jull, reflexionando sobre su juventud</i>"
 		
 		
@@ -366,7 +366,7 @@
 		
 		//BLOODSEEKER
 		"dac_ability_bloodseeker_blood_rage"									"Furia Sangrienta"
-		"dac_ability_bloodseeker_blood_rage_Description"						"PASIVA: Cada segundo Bloodseeker recibe una cantidad de daño igual al {s:self_dmg_pct}% de su vida máxima.<br><br>A medida que pierde vida, obtiene velocidad de ataque hasta un máximo de {s:attack_speed_bonus_max} del {s:min_health_pct}% de su vida.<br><br>Cuando mata, recupera el {s:heal_pct}% de su vida máxima."
+		"dac_ability_bloodseeker_blood_rage_Description"						"PASIVA: A medida que baja la vida del enemigo de Bloodseeker, él mejora la velocidad de ataque, hasta un máximo de {s:attack_speed_bonus_max} a un {s:min_health_pct}% de vida.<br><br>Cuando Bloodseeker mata un objetivo, recupera un {s:heal_pct}% de la vida máxima del objetivo."
 		"dac_ability_bloodseeker_blood_rage_Lore"								"Si algo he aprendido en mi carrera es que a la gente le encanta la sangre. Contrata a este hombre.  <i>&#8213;Grek, promotor decisivo</i>"
 		
 		//ARC WARDEN
@@ -376,7 +376,7 @@
 		
 		//ARC WARDEN
 		"dac_ability_arc_warden_tempest_double_no_items"						"Duplicado de la Tempestad"
-		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Arc Warden crea una copia de sí mismo con la misma vida que tiene en ese momento."
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Arc Warden crea una copia de sí mismo con la misma vida que tiene en ese momento. Los clones producen un {s:clone_dmg_reduction}% menos de daño."
 		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"Trae consigo los misterios de la creación. <i>&#8213;Turath, profeta críptico</i>"
 
 		//MIRANA
@@ -410,7 +410,7 @@
 
 		// Lone Druid Bear
 		"dac_ability_lone_druid_spirit_bear_entangle"							"Garras Enredadoras"
-		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Los ataques de Espíritu Oso tienen la posibilidad de enredar al objetivo, aturdiéndolos."
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Los ataques de Espíritu Oso tienen la posibilidad de enredar al objetivo, atrapándolo y desarmándolo."
 		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
 
 		// THUNDER LIZARD BLOODLUST
@@ -454,7 +454,7 @@
 
 		// LEGION COMMANDER
 		"dac_ability_legion_commander_duel"											"Duelo"
-		"dac_ability_legion_commander_duel_description"								"Legion Commander ataca al objetivo con menos vida a 1 casilla de distancia, ambos están obligados a atacarse durante {s:stun_duration} s. Ninguno de los héroes puede usar habilidades. Si uno de los héroes muere durante ese periodo, el héroe que gana el Duelo obtiene una bonificación permanente de {s:winner_bonus_damage} de daño. ([20/32/48] de daño adicional con Fuera de combate)."
+		"dac_ability_legion_commander_duel_description"								"Legion Commander selecciona al enemigo con menos vida a 1 casilla de distancia y ambos se ven forzados a atacarse durante {s:stun_duration} segundos. Ninguno de los dos puede usar habilidades ni ser curado. Si uno de ellos muere durante el efecto, el héroe que gana el Duelo obtiene {s:winner_bonus_damage} de daño adicional permanente ([20/32/48] de daño adicional en Fuera de combate)."
 		"dac_ability_legion_commander_duel_lore"									"Tresdin, no hay necesidad de adoptar esa actitud... Te puedo ayudar a encontrar a Rix. <i>&#8213;Anessix, calmada bajo presión</i>"
 
 		"dac_ability_legion_commander_will_of_the_bullsnake"						"Voluntad de la Serpiente Toro"
@@ -476,13 +476,13 @@
 
 		// WEAVER
 		"dac_ability_weaver_shukuchi"												"Shukuchi"
-		"dac_ability_weaver_shukuchi_description"									"Weaver deja de ser visible, convirtiéndose en no atacable y se mueve rápidamente entre el objetivo alejándose hasta {s:distance_cells} casillas de distancia. Weaver inflige {s:damage} de daño a cada uno de los enemigos que atraviesa."
+		"dac_ability_weaver_shukuchi_description"									"Weaver se hace invisible, no puede ser atacado y se mueve rápidamente entre los objetivos alejándose hasta {s:distance_cells} casillas de distancia. Weaver inflige {s:damage} de daño a cada uno de los enemigos que atraviesa. A continuación, durante {s:mana_break_duration} segundos, los ataques de Weaver queman {s:mana_per_hit} de maná e infligen {s:damage_per_burn} de daño por maná quemado."
 		"dac_ability_weaver_shukuchi_lore"											"Weaver. Juntos vamos a rehacer el mundo. <i>&#8213;Turath, suficientemente loco para hacerlo</i>"
 
 		// BROODMOTHER
 		"dac_ability_broodmother_spawn_spiderlings"									"Engendrar Crías"
 		"dac_ability_broodmother_spawn_spiderlings_description"						"Broodmother inyecta a sus crías en una unidad enemiga, infligiendo {s:damage} de daño. Si el objetivo muere, nacerán {s:num_spiderlings} crías de araña. Las crías de araña son unidades no atacables que infligen poco daño y tienen 1 de vida."
-		"dac_ability_broodmother_spawn_spiderlings_lore"							"Mira, puedo quemar personas vivas, pero al menos no estoy incubando huevos en las personas... <i>&#8213;Hobgen, hablando de forma ambigua</i>"
+		"dac_ability_broodmother_spawn_spiderlings_lore"							"Mira, yo puedo quemar vivas a las personas, pero al menos no incubo huevos dentro de ellas... <i>&#8213;Hobgen, tergiversando</i>"
 
 		"dac_ability_broodmother_spin_web"											"Tejer Telaraña"
 		"dac_ability_broodmother_spin_web_description"								"Broodmother teje una telaraña de {s:radius} casillas de ancho encima de una unidad enemiga. Los enemigos dentro de la telaraña pierden {s:debuff_attack_speed} de velocidad de ataque, un {s:debuff_speed}% de velocidad de movimiento y un {s:debuff_casting_speed}% de velocidad de lanzamiento."
@@ -490,11 +490,11 @@
 
 		// WISP
 		"dac_ability_wisp_tether"													"Vínculo"
-		"dac_ability_wisp_tether_description"										"Io se ata al héroe aliado más cercano y tira de si mismo hacia él. Io y el héroe enlazado ganan {s:bonus_attack_speed} de velocidad de ataque y un {s:damage_reduction}% de reducción de daño. El enlace se rompe si Io está a más de {s:tether_break_distance} casillas de distancia."
+		"dac_ability_wisp_tether_description"										"Io se ata al héroe aliado más cercano y tira de sí mismo hacia él. Io y el héroe vinculado ganan {s:bonus_attack_speed} de velocidad de ataque y un {s:damage_reduction}% de reducción de daño. El vínculo se rompe si Io está a más de {s:tether_break_distance} casillas de distancia."
 		"dac_ability_wisp_tether_lore"												"<i>Enno mirando a Io fijamente</i>"
 
 		"dac_ability_wisp_relocate"													"Traslado"
-		"dac_ability_wisp_relocate_description"										"Io se teletransporta alejándose por {s:relocate_time_away} segundos para revivir a un héroe muerto. Las dos unidades volverán con su vida al máximo y con todos los efectos negativos purgados."
+		"dac_ability_wisp_relocate_description"										"Io se teletransporta a otro lugar durante {s:relocate_time_away} segundos para revivir a un héroe muerto. Las dos unidades vuelven con su vida al máximo y con los efectos negativos purgados. Con 3 estrellas, Io también restablece los tiempos de recarga del héroe muerto."
 		"dac_ability_wisp_relocate_lore"											"<i>Io devolviéndole la mirada</i>"
 
 		// BRISTLEBACK	
@@ -509,7 +509,7 @@
 
 		// DAZZLE
 		"dac_ability_dazzle_shadow_wave"											"Onda Sombría"
-		"dac_ability_dazzle_shadow_wave_description"								"Dazzle lanza una descarga de relámpagos que forma un arco sobre un máximo de {s:max_targets} aliados que estén a {s:bounce_radius} casillas de distancia, curando a cada aliado {s:damage} de daño, a la vez que inflige {s:damage} de daño a cualquier unidad enemiga a {s:damage_radius} casillas de distancia. Onda Sombría siempre cura a Dazzle."
+		"dac_ability_dazzle_shadow_wave_description"								"Dazzle lanza un rayo de energía que salta entre un máximo de {s:max_targets} aliados en un radio de {s:bounce_radius} casillas. Con esto cura {s:damage} de vida a cada aliado e inflige {s:damage} de daño a cualquier unidad enemiga situada a {s:damage_radius} casilla de distancia. Onda Sombría siempre cura a Dazzle."
 		"dac_ability_dazzle_shadow_wave_lore"										"¿Y cuánto van a costar tus servicios? Tengo gran interés en no morir. <i>&#8213;O'nia, apuñalando sombras</i>"
 
 		// STORM SPIRIT
@@ -613,7 +613,7 @@
 		"dac_ability_hobgen_supercharged_description_lore"							"A veces, todo lo que la gente necesita es un poco de motivación. <i>&#8213;Hobgen, encendiendo un fuego literal y metafóricamente</i>"
 
 		"dac_ability_hobgen_airstrike"												"Fuego Amigo"
-		"dac_ability_hobgen_airstrike_description"									"Los compañeros de Hobgen lanzan {s:strikes} bombas al campo de batalla, que infligen {s:damage} de daño a los enemigos alcanzados directamente. Los enemigos que estén en el área de la explosión reciben la mitad del daño."
+		"dac_ability_hobgen_airstrike_description"									"Los compañeros de Hobgen lanzan {s:strikes} bombas al campo de batalla que infligen {s:damage} de daño a los enemigos afectados por la explosión."
 		"dac_ability_hobgen_airstrike_description_lore"								"¡Quémalo todo! <i>&#8213;Hobgen, piromaníaco enloquecido</i>"
 
 		"dac_ability_hobgen_letsgocrazy"											"Hagamos Locuras"
@@ -659,5 +659,17 @@
 		"dac_ability_enno_airbrawl"													"¡Ataque Total!"
 		"dac_ability_enno_airbrawl_description"										"Enno lanza un Ataque Total contra todos los enemigos, aplicando {s:stacks} acumulaciones de veneno, que infligen {s:fight_damage} de daño físico y los aturde durante {s:land_stun_duration} segundos."
 		"dac_ability_enno_airbrawl_lore"											"¡ALEJA A ESTE BASTARDO PELUDO DE MÍ! <i>&#8213;Hobgen, aprendiendo una lección de humildad</i>"
+
+		// 3star abilities
+		"dac_ability_3star"															"Efecto de 3 estrellas"
+
+		"dac_ability_warlock_3star"													"Efecto de 3 estrellas de Warlock"
+		"dac_ability_warlock_3star_Description"										"Con 3 estrellas, Warlock impide que los demonios aliados se silencien entre ellos cuando lanzan sus habilidades."
+
+		"dac_ability_razor_3star"													"Efecto de 3 estrellas de Razor"
+		"dac_ability_razor_3star_Description"										"Con 3 estrellas, cada vez que Razor ataca a un enemigo le roba {s:stolen_dmg} de daño de ataque, hasta {s:max_stacks} veces. Esto se restablece en el caso de Razor cuando cambia de objetivo, pero no se restablece en el caso del enemigo."
+
+		"dac_ability_chaos_knight_3star"													"Efecto de 3 estrellas de Chaos Knight"
+		"dac_ability_chaos_knight_3star_Description"								"Con 3 estrellas, los caballeros aliados de Chaos Knight siempre cuentan como adyacentes a un caballero aliado."
 	}
 }

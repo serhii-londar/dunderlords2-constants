@@ -763,7 +763,7 @@
 	"dac_item_shivas_guard_new_desc"					"+{d:bonus_armor} 护甲值。发出一道极寒之波，对周围 3 格内的敌人造成 {d:blast_damage} 伤害并使其移动和攻击速度降低 {d:blast_debuff_move_speed} ，持续 {s:blast_debuff_duration} 秒（一场战斗一次）。"
 	"dac_item_shivas_guard_new_lore"					"不要打听这是怎么从蓝宝石教团的宝库中流出来的。- <i>白色尖塔销赃人泽诺克</i>"
 	"dac_item_stonehall_pike"							"石堂城长枪"
-	"dac_item_stonehall_pike_desc"						"装备此物品的英雄每击杀一个单位，就造成 +{d:damage_per_kill} 伤害（在快速淘汰中则为 +12 伤害）。"
+	"dac_item_stonehall_pike_desc"						"装备此物品的英雄造成 +{d:attack_damage} 伤害，而且每击杀一个单位，再造成 +{d:damage_per_kill} 伤害，最多可达 +{d:max_damage} 伤害（在快速淘汰中则为每次击杀 +12 伤害）。"
 	"dac_item_stonehall_pike_lore"						"石堂城的军团让人闻风丧胆不是没有原因的。- <i>白色尖塔销赃人泽诺克</i>"
 	"dac_item_stonehall_cloak"							"石堂城斗篷"
 	"dac_item_stonehall_cloak_desc"						"装备此物品的英雄每击杀一个单位，就获得 +{d:hp_per_kill} 生命值（在快速淘汰中则为 +200 生命值）。"
@@ -862,7 +862,7 @@
 	"dac_hero_hint_jumping_movement"					"跳向敌人"
 	"dac_hero_hint_teleport_movement"					"传送至敌人跟前"
 	"dac_hero_hint_high_single_target_damage"			"对单个目标造成大量伤害"
-	"dac_hero_hint_high_group_damage"					"对多个目标造成大量伤害"
+	"dac_hero_hint_high_group_damage"					"高群体伤害"
 	"dac_hero_hint_aoe_ministun"						"短暂眩晕附近的敌人"
 	"dac_hero_hint_freezes_enemies"						"冻结敌人"
 	"dac_hero_hint_aoe_silence"							"大范围沉默"
@@ -1404,6 +1404,361 @@
 	"dac_item_target_dummy_lore"						"可悲的是，我以前有些队友比这堆草包还烂。- <i>白色尖塔销赃人泽诺克</i>"
 
 
+	"dac_item_chainmail_1"		"闪亮锁子甲"
+	"dac_item_chainmail_2"		"耐用锁子甲"
+	"dac_item_chainmail_3"		"匠心精制锁子甲"
+	"dac_item_chainmail_4"		"附魔锁子甲"
+	"dac_item_chainmail_5"		"守护锁子甲"
+
+	"dac_item_claymore_1"		"锋利大剑"
+	"dac_item_claymore_2"		"血腥大剑"
+	"dac_item_claymore_3"		"刽子手的大剑"
+	"dac_item_claymore_4"		"掠夺大剑"
+	"dac_item_claymore_5"		"斩首大剑"
+
+
+	"dac_item_gloves_of_haste_1"		"绝赞加速手套"
+	"dac_item_gloves_of_haste_2"		"匠心精制加速手套"
+	"dac_item_gloves_of_haste_3"		"附魔加速手套"
+	"dac_item_gloves_of_haste_4"		"迷咒加速手套"
+	"dac_item_gloves_of_haste_5"		"加速和欢欣手套"
+
+
+	"dac_item_headdress_1"		"老旧恢复头巾"
+	"dac_item_headdress_2"		"华丽恢复头巾"
+	"dac_item_headdress_3"		"威风恢复头巾"
+	"dac_item_headdress_4"		"端庄恢复头巾"
+	"dac_item_headdress_5"		"神佑恢复头巾"
+
+
+	"dac_item_hood_of_defiance_1"		"精致挑战头巾"
+	"dac_item_hood_of_defiance_2"		"精巧挑战头巾"
+	"dac_item_hood_of_defiance_3"		"挑战和荣耀头巾"
+	"dac_item_hood_of_defiance_4"		"挑战和自由头巾"
+	"dac_item_hood_of_defiance_5"		"瑞克斯的挑战头巾"
+
+
+	"dac_item_kaya_1"		"魔力慧光"
+	"dac_item_kaya_2"		"女巫师的慧光"
+	"dac_item_kaya_3"		"神秘慧光"
+	"dac_item_kaya_4"		"知名慧光"
+	"dac_item_kaya_5"		"传奇慧光"
+
+
+	"dac_item_mask_of_death_1"		"超级吸血面具"
+	"dac_item_mask_of_death_2"		"骨雕吸血面具"
+	"dac_item_mask_of_death_3"		"腐朽吸血面具"
+	"dac_item_mask_of_death_4"		"遭亵渎的吸血面具"
+	"dac_item_mask_of_death_5"		"鲁姆斯克的吸血面具"
+
+
+	"dac_item_talisman_of_evasion_1"		"青铜闪避护符"
+	"dac_item_talisman_of_evasion_2"		"辉银闪避护符"
+	"dac_item_talisman_of_evasion_3"		"闪避和好运护符"
+	"dac_item_talisman_of_evasion_4"		"闪避和敏捷护符"
+	"dac_item_talisman_of_evasion_5"		"罗林的闪避护符"
+
+
+	"dac_item_vitality_booster_1"		"坚实活力之球"
+	"dac_item_vitality_booster_2"		"坚韧活力之球"
+	"dac_item_vitality_booster_3"		"强化活力之球"
+	"dac_item_vitality_booster_4"		"神圣活力之球"
+	"dac_item_vitality_booster_5"		"焕能活力之球"
+
+
+	"dac_item_void_stone_1"		"绝赞虚无宝石"
+	"dac_item_void_stone_2"		"神赋虚无宝石"
+	"dac_item_void_stone_3"		"神秘虚无宝石"
+	"dac_item_void_stone_4"		"魔法值充能的虚无宝石"
+	"dac_item_void_stone_5"		"天神虚无宝石"
+
+	"dac_item_arcane_boots_1"		"冰川残骸奥术鞋"
+	"dac_item_arcane_boots_2"		"知识奥术鞋"
+	"dac_item_arcane_boots_3"		"教团的奥术鞋"
+	"dac_item_arcane_boots_4"		"莉莱的奥术鞋"
+	"dac_item_arcane_boots_5"		"阿哈利姆的奥术鞋"
+
+
+	"dac_item_armlet_1"		"黄铜莫尔迪基安的臂章"
+	"dac_item_armlet_2"		"奥利哈康莫尔迪基安的臂章"
+	"dac_item_armlet_3"		"受诅咒的莫尔迪基安的臂章"
+	"dac_item_armlet_4"		"劣等莫尔迪基安的臂章"
+	"dac_item_armlet_5"		"禁忌莫尔迪基安的臂章"
+
+
+	"dac_item_barricade_1"		"坚实隔墙"
+	"dac_item_barricade_2"		"加固隔墙"
+	"dac_item_barricade_3"		"坚韧隔墙"
+	"dac_item_barricade_4"		"（几乎）坚不可破的隔墙"
+	"dac_item_barricade_5"		"匠心精制隔墙"
+
+
+	"dac_item_blink_dagger_1"		"强化闪烁匕首"
+	"dac_item_blink_dagger_2"		"怪异闪烁匕首"
+	"dac_item_blink_dagger_3"		"金蝉脱壳的闪烁匕首"
+	"dac_item_blink_dagger_4"		"锯齿闪烁匕首"
+	"dac_item_blink_dagger_5"		"Piff 的闪烁匕首"
+
+
+	"dac_item_crystalis_1"		"高贵水晶剑"
+	"dac_item_crystalis_2"		"鬼斧神工水晶剑"
+	"dac_item_crystalis_3"		"正义水晶剑"
+	"dac_item_crystalis_4"		"远征军的水晶剑"
+	"dac_item_crystalis_5"		"刻符水晶剑"
+
+
+	"dac_item_desolator_1"		"削铁如泥黯灭"
+	"dac_item_desolator_2"		"撕裂黯灭"
+	"dac_item_desolator_3"		"血腥黯灭"
+	"dac_item_desolator_4"		"阴险黯灭"
+	"dac_item_desolator_5"		"不洁黯灭"
+
+
+	"dac_item_dragon_lance_1"		"二次煅造魔龙枪"
+	"dac_item_dragon_lance_2"		"正义魔龙枪"
+	"dac_item_dragon_lance_3"		"Bram 的魔龙枪"
+	"dac_item_dragon_lance_4"		"达维安的魔龙枪"
+	"dac_item_dragon_lance_5"		"卡登的魔龙枪"
+
+
+	"dac_item_force_staff_1"		"退敌原力法杖"
+	"dac_item_force_staff_2"		"御敌原力法杖"
+	"dac_item_force_staff_3"		"强力原力法杖"
+	"dac_item_force_staff_4"		"意念原力法杖"
+	"dac_item_force_staff_5"		"放逐原力法杖"
+	
+
+	"dac_item_orb_of_venom_1"		"低调淬毒之珠"
+	"dac_item_orb_of_venom_2"		"易变淬毒之珠"
+	"dac_item_orb_of_venom_3"		"碧玉淬毒之珠"
+	"dac_item_orb_of_venom_4"		"炼金淬毒之珠"
+	"dac_item_orb_of_venom_5"		"里瑟尔的淬毒之珠"
+
+
+	"dac_item_quelling_blade_1"		"锐利压制之刃"
+	"dac_item_quelling_blade_2"		"迷咒压制之刃"
+	"dac_item_quelling_blade_3"		"屠夫的压制之刃"
+	"dac_item_quelling_blade_4"		"镇压者的压制之刃"
+	"dac_item_quelling_blade_5"		"格瑞克的压制之刃"
+
+	"dac_item_target_dummy_1"		"制作精良的小怪目标"
+	"dac_item_target_dummy_2"		"分散精力的小怪目标"
+	"dac_item_target_dummy_3"		"有用的小怪目标"
+	"dac_item_target_dummy_4"		"可爱的小怪目标"
+	"dac_item_target_dummy_5"		"增强小怪目标"
+
+
+	"dac_item_vanguard_1"		"加固先锋盾"
+	"dac_item_vanguard_2"		"顶级先锋盾"
+	"dac_item_vanguard_3"		"附魔先锋盾"
+	"dac_item_vanguard_4"		"守护先锋盾"
+	"dac_item_vanguard_5"		"坚韧先锋盾"
+
+
+	"dac_item_battle_fury_1"		"改良狂战斧"
+	"dac_item_battle_fury_2"		"神赋狂战斧"
+	"dac_item_battle_fury_3"		"暴怒狂战斧"
+	"dac_item_battle_fury_4"		"正义狂战斧"
+	"dac_item_battle_fury_5"		"无情狂战斧"
+
+
+	"dac_item_blade_mail_1"		"锋刺刃甲"
+	"dac_item_blade_mail_2"		"锐利刃甲"
+	"dac_item_blade_mail_3"		"致命刃甲"
+	"dac_item_blade_mail_4"		"阴险刃甲"
+	"dac_item_blade_mail_5"		"Oroku 的刃甲"
+
+
+	"dac_item_eul_1"		"奥术 Eul 的神圣法杖"
+	"dac_item_eul_2"		"奥秘 Eul 的神圣法杖"
+	"dac_item_eul_3"		"强大 Eul 的神圣法杖"
+	"dac_item_eul_4"		"传奇 Eul 的神圣法杖"
+	"dac_item_eul_5"		"Eul 的强力神圣法杖"
+
+
+	"dac_item_hand_of_midas_1"		"黄金迈达斯之手"
+	"dac_item_hand_of_midas_2"		"贪婪迈达斯之手"
+	"dac_item_hand_of_midas_3"		"强大迈达斯之手"
+	"dac_item_hand_of_midas_4"		"天命在握的迈达斯之手"
+	"dac_item_hand_of_midas_5"		"残暴迈达斯之手"
+
+
+	"dac_item_maelstrom_1"		"强力漩涡"
+	"dac_item_maelstrom_2"		"强大漩涡"
+	"dac_item_maelstrom_3"		"威风漩涡"
+	"dac_item_maelstrom_4"		"雷击漩涡"
+	"dac_item_maelstrom_5"		"破坏漩涡"
+
+
+	"dac_item_mask_of_madness_1"		"堕落疯狂面具"
+	"dac_item_mask_of_madness_2"		"阴险疯狂面具"
+	"dac_item_mask_of_madness_3"		"疯狂和谋杀面具"
+	"dac_item_mask_of_madness_4"		"疯狂和残酷面具"
+	"dac_item_mask_of_madness_5"		"Krill 的疯狂面具"
+
+
+	"dac_item_octarine_essence_1"		"满溢玲珑精华"
+	"dac_item_octarine_essence_2"		"焕能玲珑精华"
+	"dac_item_octarine_essence_3"		"百战煅造玲珑精华"
+	"dac_item_octarine_essence_4"		"英勇玲珑精华"
+	"dac_item_octarine_essence_5"		"迅捷玲珑精华"
+
+
+	"dac_item_pipe_of_insight_1"		"烟雾缭绕洞察烟斗"
+	"dac_item_pipe_of_insight_2"		"庄重洞察烟斗"
+	"dac_item_pipe_of_insight_3"		"沉思者的洞察烟斗"
+	"dac_item_pipe_of_insight_4"		"洞察和智慧烟斗"
+	"dac_item_pipe_of_insight_5"		"修补匠的洞察烟斗"
+
+
+	"dac_item_silver_edge_1"		"闪亮白银之锋"
+	"dac_item_silver_edge_2"		"锐利白银之锋"
+	"dac_item_silver_edge_3"		"锯齿白银之锋"
+	"dac_item_silver_edge_4"		"辉银白银之锋"
+	"dac_item_silver_edge_5"		"斩首白银之锋"
+
+
+	"dac_item_basher_1"		"沉重碎颅锤"
+	"dac_item_basher_2"		"巨魔碎颅锤"
+	"dac_item_basher_3"		"巨型碎颅锤"
+	"dac_item_basher_4"		"晕头转向碎颅锤"
+	"dac_item_basher_5"		"毁灭碎颅锤"
+
+
+	"dac_item_black_king_bar_1"		"魔法抗性黑皇杖"
+	"dac_item_black_king_bar_2"		"坚韧黑皇杖"
+	"dac_item_black_king_bar_3"		"支配黑皇杖"
+	"dac_item_black_king_bar_4"		"悲玫城黑皇杖"
+	"dac_item_black_king_bar_5"		"泰勒庄园黑皇杖"
+
+
+	"dac_item_butterfly_1"		"机敏蝴蝶"
+	"dac_item_butterfly_2"		"高雅蝴蝶"
+	"dac_item_butterfly_3"		"美丽蝴蝶"
+	"dac_item_butterfly_4"		"优美蝴蝶"
+	"dac_item_butterfly_5"		"致命蝴蝶"
+
+
+	"dac_item_dagon_1"		"强化达贡之神力"
+	"dac_item_dagon_2"		"神赋达贡之神力"
+	"dac_item_dagon_3"		"致死达贡之神力"
+	"dac_item_dagon_4"		"寻心达贡之神力"
+	"dac_item_dagon_5"		"魔导士的达贡之神力"
+
+
+	"dac_item_diffusal_blade_1"		"凌迟净魂之刃"
+	"dac_item_diffusal_blade_2"		"白银净魂之刃"
+	"dac_item_diffusal_blade_3"		"泰勒庄园净魂之刃"
+	"dac_item_diffusal_blade_4"		"沉默术士的净魂之刃"
+	"dac_item_diffusal_blade_5"		"敌法师的净魂之刃"
+
+
+	"dac_item_skadi_1"		"焕能斯嘉蒂之眼"
+	"dac_item_skadi_2"		"恶意斯嘉蒂之眼"
+	"dac_item_skadi_3"		"警觉斯嘉蒂之眼"
+	"dac_item_skadi_4"		"无眠斯嘉蒂之眼"
+	"dac_item_skadi_5"		"全知斯嘉蒂之眼"
+
+
+	"dac_item_tank_buster_1"		"神赋卡登之刃"
+	"dac_item_tank_buster_2"		"失而复得卡登之刃"
+	"dac_item_tank_buster_3"		"崇敬卡登之刃"
+	"dac_item_tank_buster_4"		"屠龙卡登之刃"
+	"dac_item_tank_buster_5"		"传奇卡登之刃"
+
+
+	"dac_item_mekansm_1"		"神秘梅肯斯姆"
+	"dac_item_mekansm_2"		"回春梅肯斯姆"
+	"dac_item_mekansm_3"		"复苏梅肯斯姆"
+	"dac_item_mekansm_4"		"医生的梅肯斯姆"
+	"dac_item_mekansm_5"		"鲁姆斯克梅肯斯姆"
+
+
+	"dac_item_moon_shard_1"		"夜魇凝魂银月之晶"
+	"dac_item_moon_shard_2"		"天辉凝魂银月之晶"
+	"dac_item_moon_shard_3"		"Fymryn 的银月之晶"
+	"dac_item_moon_shard_4"		"赛莉蒙妮的银月之晶"
+	"dac_item_moon_shard_5"		"疯狂银月之晶"
+
+
+	"dac_item_refresher_orb_1"		"强力刷新球"
+	"dac_item_refresher_orb_2"		"活力四射刷新球"
+	"dac_item_refresher_orb_3"		"魔法值充能的刷新球"
+	"dac_item_refresher_orb_4"		"焕能刷新球"
+	"dac_item_refresher_orb_5"		"基恩刷新球"
+
+
+	"dac_item_sheepstick_1"		"撕裂邪恶镰刀"
+	"dac_item_sheepstick_2"		"致命邪恶镰刀"
+	"dac_item_sheepstick_3"		"恶毒邪恶镰刀"
+	"dac_item_sheepstick_4"		"阴险邪恶镰刀"
+	"dac_item_sheepstick_5"		"罗坦德吉利的邪恶镰刀"
+
+
+	"dac_item_vladmirs_offering_1"		"神赋弗拉迪米尔的祭品"
+	"dac_item_vladmirs_offering_2"		"献给瑞斯托的弗拉迪米尔的祭品"
+	"dac_item_vladmirs_offering_3"		"献给麦尔朗恩的弗拉迪米尔的祭品"
+	"dac_item_vladmirs_offering_4"		"献给赛莉蒙妮的弗拉迪米尔的祭品"
+	"dac_item_vladmirs_offering_5"		"献给圣克莱拉的弗拉迪米尔的祭品"
+
+
+	"dac_item_aegis_new_1"		"不死的不朽之守护"
+	"dac_item_aegis_new_2"		"失而复得不朽之守护"
+	"dac_item_aegis_new_3"		"迷咒不朽之守护"
+	"dac_item_aegis_new_4"		"魂魄煅造的不朽之守护"
+	"dac_item_aegis_new_5"		"肉山的不朽之守护"
+
+
+	"dac_item_bloodthorn_1"		"嗜血血棘"
+	"dac_item_bloodthorn_2"		"透甲血棘"
+	"dac_item_bloodthorn_3"		"伯爵的血棘"
+	"dac_item_bloodthorn_4"		"魅魔的血棘"
+	"dac_item_bloodthorn_5"		"晴风的血棘"
+
+
+	"dac_item_heart_of_tarrasque_new_1"		"跳动的恐鳌之心"
+	"dac_item_heart_of_tarrasque_new_2"		"血腥恐鳌之心"
+	"dac_item_heart_of_tarrasque_new_3"		"怪诞恐鳌之心"
+	"dac_item_heart_of_tarrasque_new_4"		"焕能恐鳌之心"
+	"dac_item_heart_of_tarrasque_new_5"		"不朽恐鳌之心"
+
+
+	"dac_item_horn_of_the_alpha_1"		"怒吼的领袖号角"
+	"dac_item_horn_of_the_alpha_2"		"彰显风光领袖号角"
+	"dac_item_horn_of_the_alpha_3"		"断骨领袖号角"
+	"dac_item_horn_of_the_alpha_4"		"玫叶领袖号角"
+	"dac_item_horn_of_the_alpha_5"		"布兰德瓦登的领袖号角"
+
+
+	"dac_item_radiance_new_1"		"炽烈辉耀"
+	"dac_item_radiance_new_2"		"净化辉耀"
+	"dac_item_radiance_new_3"		"献祭辉耀"
+	"dac_item_radiance_new_4"		"燃烧辉耀"
+	"dac_item_radiance_new_5"		"神圣辉耀"
+
+
+	"dac_item_satanic_1"		"神赋撒旦之邪力"
+	"dac_item_satanic_2"		"不洁撒旦之邪力"
+	"dac_item_satanic_3"		"阴险撒旦之邪力"
+	"dac_item_satanic_4"		"受诅咒的撒旦之邪力"
+	"dac_item_satanic_5"		"禁忌撒旦之邪力"
+
+
+	"dac_item_shivas_guard_new_1"		"高贵希瓦的守护"
+	"dac_item_shivas_guard_new_2"		"寒气逼人希瓦的守护"
+	"dac_item_shivas_guard_new_3"		"冰封禁制希瓦的守护"
+	"dac_item_shivas_guard_new_4"		"守望者的希瓦的守护"
+	"dac_item_shivas_guard_new_5"		"冰川残骸的希瓦的守护"
+
+
+	"dac_item_vesture_of_the_tyrant_1"		"威风暴君王袍"
+	"dac_item_vesture_of_the_tyrant_2"		"不屈暴君王袍"
+	"dac_item_vesture_of_the_tyrant_3"		"奥秘暴君王袍"
+	"dac_item_vesture_of_the_tyrant_4"		"石堂城的暴君王袍"
+	"dac_item_vesture_of_the_tyrant_5"		"加拉尼乌斯的暴君王袍"
+
+
+
 	"dac_bp1_bronze_border"								"青铜边框"
 	"dac_bp1_pose_chest"								"姿势宝箱"
 	"dac_bp1_avatar_chest"								"化身宝箱"
@@ -1567,7 +1922,7 @@
 	"DAC_InGame_UnitDPS_Query"							"每秒伤害：<span class=\"Count\">{i:attack_dps}</span>"
 	"DAC_InGame_UnitHP_Query"							"生命值：<span class=\"Count\">{i:selectedUnitHP}</span>"
 	"DAC_InGame_UnitArmor_Query"						"护甲值：<span class=\"Count\">{i:selectedUnitArmor}{s:selectedUnitBonusArmor}</span>"
-	"DAC_InGame_KillCount_Query"						"击杀数：<span class=\"Count\">{d:kill_count}</span>"
+	"DAC_InGame_KillCount_Query"						"击杀数：<span class=\"Count\">{f:kill_count}</span>"
 	"DAC_InGame_KillStreak_Query"						"连杀数：<span class=\"Count\">{d:kill_streak}</span>"
 	"DAC_InGame_DuelBonusDamage_Query"					"决斗伤害加成：<span class=\"Count\">{d:duel_bonus_damage}</span>"
 	"DAC_InGame_BrawnyKillCount_Query"						"悍将击杀总数：<span class=\"Count\">{f:brawny_kills}</span>"
@@ -1947,7 +2302,7 @@
 	"DAC_EndGame_Jull_win_with_insects"					"白色尖塔遭遇虫害，贾尔狂笑不已。"
 	"DAC_EndGame_Jull_win_with_inventor"				"基恩人与贾尔联手，赢得决定性胜利。"
 	"DAC_EndGame_Jull_win_with_knights"					"骑士抛却荣誉至上的伪装，让贾尔获得胜利。"
-	"DAC_EndGame_Jull_win_with_mages"					"法师联手纵火狂精灵统治白色尖塔。"
+	"DAC_EndGame_Jull_win_with_mages"					"法师联手贾尔统治白色尖塔。"
 	"DAC_EndGame_Jull_win_with_primordial"				"贾尔与太古势力达成协议，摧毁敌人。"
 	"DAC_EndGame_Jull_win_with_savage"					"贾尔的野兽将对手四分五裂。"
 	"DAC_EndGame_Jull_win_with_scaled"					"贾尔带领可怖鱼人取得胜利。"
@@ -2063,7 +2418,7 @@
 	"DAC_EndGame_Enno_win_with_insects"					"白色尖塔遭遇虫害，恩诺狂笑不已。"
 	"DAC_EndGame_Enno_win_with_inventor"				"基恩人与恩诺联手，赢得决定性胜利。"
 	"DAC_EndGame_Enno_win_with_knights"					"骑士抛却荣誉至上的伪装，让恩诺获得胜利。"
-	"DAC_EndGame_Enno_win_with_mages"					"法师联手纵火狂精灵统治白色尖塔。"
+	"DAC_EndGame_Enno_win_with_mages"					"法师联手恩诺统治白色尖塔。"
 	"DAC_EndGame_Enno_win_with_primordial"				"恩诺与太古势力达成协议，摧毁敌人。"
 	"DAC_EndGame_Enno_win_with_savage"					"恩诺的野兽将对手四分五裂。"
 	"DAC_EndGame_Enno_win_with_scaled"					"恩诺带领可怖鱼人取得胜利。"
@@ -2216,6 +2571,20 @@
 	"DAC_Battlepass_YouHaveOneLockedReward"				"你有 1 个锁定奖励"
 	"DAC_Battlepass_YouHaveLockedRewards"				"你有 {i:num_locked_rewards} 个锁定奖励"
 	"DAC_Purchase"										"购买"
+	"DAC_Battlepass_ItemOdds"							"物品几率"
+	
+	"DAC_ItemOdds_Title"								"随机珍藏几率"
+	"DAC_ItemOdds_BoardPropHeader"						"棋盘道具几率"
+	"DAC_ItemOdds_BoardPropDescription"					"勇士令状中共有 20 个随机棋盘道具。这些道具从共有 20 个棋盘道具的列表中抽取，并且不会重复掉落。购买了勇士令状并达到 100 级的玩家会解锁所有棋盘道具。4 个随机棋盘道具为免费，只要玩家达到相应勇士令状等级即可解锁（其他所有免费奖励也可解锁）。棋盘道具仅为饰品，并不影响游戏玩法。"
+	"DAC_ItemOdds_StreetFightItemsHeader"				"街头混战物品几率"
+	"DAC_ItemOdds_StreetFightItemsDescription"			"勇士令状共有 8 个随机街头混战物品，而街头闯荡中奖励 40 个随机街头混战物品——每名霸主 12 个。这些物品从每名霸主的不重复列表中抽取，相同梯队获得物品的几率一致。这些物品只可用于街头闯荡的街头混战（单人玩家内容），并不影响玩家对战的游戏玩法。
+
+每名霸主的物品均从相同的列表中抽取，而每个列表内的物品不重复，但不同的霸主可以抽取相同的物品。因此，虽然你不会为恩诺抽取两把大剑，但为恩诺和安纳西克斯各抽取一把大剑是有可能的。"
+	"DAC_ItemOdds_StreetFightItemsHeaderTier1"			"第 1 梯队物品：每名霸主掉落 1 次"
+	"DAC_ItemOdds_StreetFightItemsHeaderTier2"			"第 2 梯队物品：每名霸主掉落 3 次"
+	"DAC_ItemOdds_StreetFightItemsHeaderTier3"			"第 3 梯队物品：每名霸主掉落 5 次"
+	"DAC_ItemOdds_StreetFightItemsHeaderTier4"			"第 4 梯队物品：每名霸主掉落 2 次"
+	"DAC_ItemOdds_StreetFightItemsHeaderTier5"			"第 5 梯队物品：每名霸主掉落 1 次"
 
 	"GenericConfirmText_Label"							"确认"
 	"DAC_PurchaseError_Title"		"无法购买"
@@ -2256,13 +2625,13 @@
 	"DAC_Profile"										"个人资料"
 	"DAC_EarlyAccess"                                   "预览版"
 	"DAC_OpenBeta"                                   	"公测"	
-	"DAC_Shared_Pool_Description"						"在刀塔霸业比赛中，玩家从一个共享的英雄池中进行选择，组建阵容。在英雄池中，第 1 梯队中的每名英雄有 45 个复本，第 2 梯队中的每名英雄有 30 个复本 ，第 3 梯队中的每名英雄有 25 个复本，第 4 梯队中的每名英雄有 20 个复本，第 5 梯队中的每名英雄有 10 个复本。一名玩家从比赛中淘汰后，该玩家雇用的所有单位将返回共享池。"
+	"DAC_Shared_Pool_Description"						"在刀塔霸业比赛中，玩家从一个共享的英雄池中进行选择，组建阵容。在英雄池中，第 1 梯队中的每名英雄有 30 个复本，第 2 梯队中的每名英雄有 20 个复本 ，第 3 梯队中的每名英雄有 15 个复本，第 4 梯队中的每名英雄有 12 个复本，第 5 梯队中的每名英雄有 10 个复本。一名玩家从比赛中淘汰后，该玩家雇用的所有单位将返回共享池。"
 	"DAC_Zoo"											"动物园"
 	"DAC_CityCrawlButton"								"前往街头闯荡"
 	"DAC_ChallengeWorldMapPage"							"街头闯荡"
 	"DAC_CityCrawlObjectives"							"街头闯荡目标"
-	"DAC_ChallengeWorldMapPage_Challenges"				"{d:city_crawl_challenges_available} 个有效目标"
-	"DAC_ChallengeWorldMapPage_ClaimableChallenges"		"{d:city_crawl_challenges_claimable} 个可领取目标"
+	"DAC_ChallengeWorldMapPage_Challenges"				"{d:city_crawl_challenges_available} 个有效挑战"
+	"DAC_ChallengeWorldMapPage_ClaimableChallenges"		"{d:city_crawl_challenges_claimable} 个可领取奖励"
 	"DAC_CityCrawlButtonNeedsSteam"						"需要登录 Steam"
 
 	"DAC_Zoo_PostGame_GameMode"							"游戏模式"
@@ -2447,7 +2816,7 @@
 	"DAC_Synergy_Tooltip_Vigilant_1"	"所有友方单位"
 
 	"DAC_Synergy_Tooltip_Savage_0"				"友方野人单位"
-	"DAC_Synergy_Tooltip_Savage_1"				"所有友方英雄"
+	"DAC_Synergy_Tooltip_Savage_1"				"友方野人单位及所有受到召唤的友方单位"
 	"DAC_Synergy_Tooltip_Savage_2"				"所有友方单位"
 	
 	"DAC_Synergy_MegaWarrior"		"超级勇士"
@@ -2479,7 +2848,7 @@
 
 	"DAC_Synergy_Desc_Naga"		"友军获得 +{s:magic_resist}% 魔法抗性。"
 
-	"DAC_Synergy_Desc_Ogre"		"一个血亲单位死亡后，所有血亲单位获得 +{s:enrage_bonus} 攻击伤害。"
+	"DAC_Synergy_Desc_Ogre"		"一个血亲单位死亡后，除军团指挥官之外，所有血亲单位获得 +{s:enrage_bonus} 攻击伤害。"
 
 	"DAC_Synergy_Desc_Orc"		"所有悍将单位的最大生命值增加 {s:hp_bonus}"
 
@@ -2512,7 +2881,7 @@
 
 	"DAC_Synergy_Desc_Warrior"		"所有勇士获得 +{s:armor_bonus} 护甲值"
 
-	"DAC_Synergy_Desc_Insect"			"蜘蛛幼虫不断地从棋盘边缘涌向敌人。蜘蛛幼虫无法成为目标，造成伤害低且受到伤害就会死亡 。被蜘蛛幼虫咬中的敌人有 {s:miss_chance}% 几率攻击落空，持续 {s:miss_chance_duration} 秒。蜘蛛幼虫死亡时会得到补充，最多 {s:num_insects} 只。"
+	"DAC_Synergy_Desc_Insect"			"蜘蛛幼虫不断地从棋盘边缘涌向敌人。蜘蛛幼虫无法成为目标，造成伤害低且受到伤害就会死亡 。被任何蜘蛛幼虫咬中的敌人有 {s:miss_chance}% 几率攻击落空，持续 {s:miss_chance_duration} 秒。蜘蛛幼虫死亡时会得到补充，最多 {s:num_insects} 只。"
 
 	"DAC_Synergy_Desc_Champion"		"统御者获得所有联盟加成。此外，每有一个有效联盟，就获得 {s:dmg_pct_per_alliance}% 额外伤害和 {s:hp_pct_per_alliance}% 最大生命值。"
 
@@ -2526,9 +2895,9 @@
 
 	"DAC_Synergy_Desc_Summoner"			"受到召唤的友方单位获得 +{s:damage_percent}% 伤害。"
 	
-	"DAC_Synergy_Desc_Vigilant"			"敌方单位施放法术时，如果该敌人在{s:alliance_eligible}的攻击范围内，则成为其目标。"
+	"DAC_Synergy_Desc_Vigilant"			"敌方单位施放法术时，如果在{s:alliance_eligible}的攻击范围内，则成为其目标。下一次对此目标攻击造成的伤害增加 {s:damage_percent}%。"
 	
-	"DAC_Synergy_Desc_Void"				"所有友方英雄有 {s:proc_chance}% 几率额外造成其目标最大生命值 {s:pure_damage_percent}% 的纯粹伤害。"
+	"DAC_Synergy_Desc_Void"				"所有友方英雄有 {s:proc_chance}% 几率额外造成其目标最大生命值 {s:pure_damage_percent}% 的纯粹伤害。此效果每 {s:cooldown} 秒仅可使用一次。"
 
 	"DAC_Synergy_Desc_MegaWarrior"		"友方超级勇士获得 +{s:armor_bonus} 护甲值。"
 	"DAC_Synergy_Desc_MegaWarlock"		"超级术士单位施放法术时，与生命值最低的友军形成联合，持续 3 秒。联合的一方单位造成伤害时，两个单位均可回复伤害值的 {s:lifesteal_pct}%。"
@@ -3429,6 +3798,9 @@
 	"DAC_Reward_Claim_Button"						"领取"
 	"DAC_Reward_Claim_Challenge_Title"			"完成每日挑战"
 	"DAC_Postgame_ChallengeComplete"			"挑战完成"
+	"DAC_Weekly_Challenge_Challenge_Header"		"挑战"
+	"DAC_Weekly_RewardCalloutHeader"			"每周挑战"
+	"DAC_Weekly_RewardCalloutDesc"				"完成每周街头混战、目标和谜题，获取此{s:reward_type}。"
 
 	"DAC_LookingForMatch_Desc"					"正在寻找{s:game_mode}{s:match_mode}"
 	"DAC_LookingForMatch_Loading"				"正在载入…"
@@ -3520,7 +3892,7 @@
 	"dac_hotkey_scroll_camera_up_desc" 				"上移视角"
 	"dac_hotkey_scroll_camera_down_desc" 			"下移视角"
 	"dac_hotkey_tilt_camera_modifier_desc" 			"按住以调整视角。轻击以重置。"
-
+	"dac_hotkey_board_spray_desc"					"在光标处放置棋盘喷雾。"
 	"dac_hotkey_alliances_tab"						"查看联盟栏。"
 	"dac_hotkey_dps_tab"							"查看每秒伤害栏。"
 	"dac_hotkey_items_tab"							"查看物品栏。"
@@ -3561,6 +3933,10 @@
 
 	"DAC_Ability_Panel_Cooldown"					"冷却时间：{s:ability_cooldown}"
 
+	"DAC_Poster_BP_Badge_Level"						"等级"
+	"DAC_Poster_Prestige_Level"						"x{i:prestige_level}"
+
+	
 	"dac_player_dollar_value"						"${s:reward_value}"
 
 	"dac_player_wanted_subtitle_1"					"危险人物"
@@ -3608,14 +3984,14 @@
 	"DAC_Hero_Odds_Tier2"							"第 2 梯队单位：{s:odds_tier_2}%"
 	"DAC_Hero_Odds_Tier3"							"第 3 梯队单位：{s:odds_tier_3}%"
 	"DAC_Hero_Odds_Tier4"							"第 4 梯队单位：{s:odds_tier_4}%"
-	"DAC_Hero_Odds_Tier5"							"王牌单位：{s:odds_tier_5}%"
+	"DAC_Hero_Odds_Tier5"							"第 5 梯队单位：{s:odds_tier_5}%"
 
 	"DAC_Hero_Odds_Next_Level"						"下一等级"
 	"DAC_Hero_Odds_Tier1_Next"						"第 1 梯队单位：{s:odds_tier_1_next}%"
 	"DAC_Hero_Odds_Tier2_Next"						"第 2 梯队单位：{s:odds_tier_2_next}%"
 	"DAC_Hero_Odds_Tier3_Next"						"第 3 梯队单位：{s:odds_tier_3_next}%"
 	"DAC_Hero_Odds_Tier4_Next"						"第 4 梯队单位：{s:odds_tier_4_next}%"
-	"DAC_Hero_Odds_Tier5_Next"						"王牌单位：{s:odds_tier_5_next}%"
+	"DAC_Hero_Odds_Tier5_Next"						"第 5 梯队单位：{s:odds_tier_5_next}%"
 
 	"DAC_Hero_Odds_Tier1_Short"							"{s:odds_tier_1}%"
 	"DAC_Hero_Odds_Tier2_Short"							"{s:odds_tier_2}%"
@@ -3642,7 +4018,8 @@
 	"DAC_CityCrawl_MostRecent"						"最近期"
 	"DAC_CityCrawl_RecommendedHeader"				"最近期：<br/><span class='RecommendedChallengeDesc'>{s:recommended_challenge}</span>"
 	"DAC_ChallengeGameModeRequirementsNotMet"		"选择另一种游戏模式来完成你的街头闯荡目标。"
-	"DAC_ChallengeDifficultyRequirementsNotMet"		"选择高手（经验值）难度来完成你的街头闯荡目标。"
+	"DAC_ChallengeDifficultyRequirementsNotMet"		"选择高手（经验值）机器人难度，或进行多人比赛以获得勇士令状进度。"
+	"DAC_ChallengePrivateGameNotFull"				"你的队伍必须满员才能获得勇士令状进度。"
 
 	"DAC_Challenge_DodgeAttacks_Desc"				"躲避 {s:threshold} 次攻击。"
 	"DAC_Challenge_CritAttacks_Desc"				"发动 {s:threshold} 次暴击。"
@@ -3662,16 +4039,16 @@
 	"DAC_Challenge_RerollAt"						"新挑战倒计时：{t:d:time_to_reroll}"
 	"DAC_Challenge_RerollAvailableAt"				"新挑战"
 	"DAC_Challenge_Claimable"						"领取奖励"
-	"DAC_Challenge_ChallengeComplete"				"已完成"
+	"DAC_Challenge_ChallengeComplete"				"已领取"
 	"DAC_Challenge_Number"							"挑战 {d:challenge_slot}"
 	"DAC_Challenge_HobgenCombine2Stars_Desc"		"创建 {s:threshold} 个 ★★ 星单位"
-	"DAC_Challenge_HobgenHireKnightWarrior_Desc"	"消耗 {s:threshold} 金钱雇用<span class='AllianceHighlight'>骑士 <img class='InlineSynergyIcon ChallengeSynergyKnights'/></span> 或<span class='AllianceHighlight'>勇士 <img class='InlineSynergyIcon ChallengeSynergyWarriors'/></span>"
+	"DAC_Challenge_HobgenHireKnightWarrior_Desc"	"消耗 {s:threshold} 金钱雇用骑士或勇士"
 	"DAC_Challenge_HobgenKillGoldWorth_Desc"				"击杀共值 {s:threshold} 金钱的敌人"
 	"DAC_Challenge_HobgenWinKORounds_Desc"				"在快速淘汰模式中获胜 {s:threshold} 回合"
 	"DAC_Challenge_HobgenCompleteWinStreak_Desc"			"达成完整连胜 {s:threshold} 次"
 	"DAC_Challenge_HobgenPhysicalDamageReduced_Desc"		"通过护甲减少 {s:threshold} 物理伤害"
 	"DAC_Challenge_HobgenWinRoundAtFullInterest_Desc"		"在标准模式中以全额利息获胜 {s:threshold} 回合"
-	"DAC_Challenge_HobgenWinRoundWithTrollAlliance_Desc"	"以一个有效的<span class='AllianceHighlight'>巨魔 <img class='InlineSynergyIcon ChallengeSynergyTroll'/></span> 联盟获胜 {s:threshold} 回合"
+	"DAC_Challenge_HobgenWinRoundWithTrollAlliance_Desc"	"以一个有效的巨魔联盟获胜 {s:threshold} 回合"
 	"DAC_Challenge_HobgenEliminatePlayersKO_Desc"			"在快速淘汰模式中淘汰 {s:threshold} 名玩家"
 	"DAC_Challenge_HobgenKillUnderlords_Desc"				"击杀 {s:threshold} 名霸主"
 	"DAC_Challenge_HobgenFireDamageDealt_Desc"		"造成 {s:threshold} 火焰伤害"
@@ -3681,26 +4058,26 @@
 	"DAC_Challenge_JullDealDamage_Desc"				"用贾尔造成 {s:threshold} 伤害"
 	"DAC_Challenge_JullEquipItems_Desc"				"装备 {s:threshold} 项物品"
 	"DAC_Challenge_JullHireTier5Units_Desc"			"雇用 {s:threshold} 个第 5 梯队单位"  
-	"DAC_Challenge_JullHireScaled_Desc"				"消耗 {s:threshold} 金钱雇用<span class='AllianceHighlight'>鳞甲 <img class='InlineSynergyIcon ChallengeSynergyScaled'/></span>"	
-	"DAC_Challenge_JullWinWithVigilant_Desc"		"以一个有效的<span class='AllianceHighlight'>警卫 <img class='InlineSynergyIcon ChallengeSynergyVigilant'/></span> 联盟获胜 {s:threshold} 回合"
-	"DAC_Challenge_JullKnightsAbsorb_Desc"			"用<span class='AllianceHighlight'>骑士 <img class='InlineSynergyIcon ChellengeSynergyKnights'/></span> 单位吸收 {s:threshold} 伤害"
+	"DAC_Challenge_JullHireScaled_Desc"				"消耗 {s:threshold} 金钱雇用鳞甲单位"	
+	"DAC_Challenge_JullWinWithVigilant_Desc"		"以一个有效的警卫联盟获胜 {s:threshold} 回合"
+	"DAC_Challenge_JullKnightsAbsorb_Desc"			"用骑士单位吸收 {s:threshold} 伤害"
 	"DAC_Challenge_JullPlayWithTusk_Desc"			"在棋盘中有巨牙海民的情况下进行 {s:threshold} 回合"
 	"DAC_Challenge_JullRerolls_Desc"				"花 {s:threshold} 金钱在商店中重新选择"
-	"DAC_Challenge_JullBrawnyKills_Desc"			"用<span class='AllianceHighlight'>悍将 <img class='InlineSynergyIcon ChallengeSynergyBrawny'/></span> 单位完成 {s:threshold} 击杀"
-	"DAC_Challenge_JullWinWithBrute_Desc"			"以一个有效的<span class='AllianceHighlight'>蛮族 <img class='InlineSynergyIcon ChallengeSynergyBrutal'/></span> 联盟获胜 {s:threshold} 回合"
+	"DAC_Challenge_JullBrawnyKills_Desc"			"用悍将单位完成 {s:threshold} 击杀"
+	"DAC_Challenge_JullWinWithBrute_Desc"			"以一个有效的蛮族联盟获胜 {s:threshold} 回合"
 	"DAC_Challenge_JullPlayWithBristleback_Desc"	"在棋盘中有钢背兽的情况下进行 {s:threshold} 回合"
 	"DAC_Challenge_JullKillTier5_Desc"				"击杀 {s:threshold} 个第 5 梯队单位"
 	"DAC_Challenge_AnessixSendGoldToDuo_Desc"		"向你的双打搭档送出 {s:threshold} 金钱"
-	"DAC_Challenge_AnessixSavageDamage_Desc"		"用<span class='AllianceHighlight'>野人 <img class='InlineSynergyIcon ChallengeSynergySavage'/></span> 单位获得 {s:threshold} 攻击伤害加成"
+	"DAC_Challenge_AnessixSavageDamage_Desc"		"用野人单位获得 {s:threshold} 攻击伤害加成"
 	"DAC_Challenge_AnessixSummonUnits_Desc"			"召唤 {s:threshold} 个单位"
-	"DAC_Challenge_AnessixDemonKills_Desc"			"用<span class='AllianceHighlight'>恶魔 <img class='InlineSynergyIcon ChallengeSynergyDemons'/></span> 单位完成 {s:threshold} 击杀"
+	"DAC_Challenge_AnessixDemonKills_Desc"			"用恶魔单位完成 {s:threshold} 击杀"
 	"DAC_Challenge_AnessixHealUnits_Desc"			"治疗你的单位 {s:threshold} 生命值"
 	"DAC_Challenge_AnessixVoidDamage_Desc"			"用虚空单位造成 {s:threshold} 伤害"
 	"DAC_Challenge_AnessixKillWithSummons_Desc"		"用召唤体击杀 {s:threshold} 个敌方单位。"
-	"DAC_Challenge_AnessixCombine3StarDemon_Desc"	"合成 ★★★ <span class='AllianceHighlight'>恶魔 <img class='InlineSynergyIcon ChallengeSynergyDemons'/></span> {s:threshold} 次"
-	"DAC_Challenge_AnessixWinWithHumans_Desc"		"以一个有效的<span class='AllianceHighlight'>人族 <img class='InlineSynergyIcon ChallengeSynergyHuman'/></span> 联盟获胜 {s:threshold} 回合"
-	"DAC_Challenge_AnessixSummonEidolons_Desc"		"通过<span class='AllianceHighlight'>太古 <img class='InlineSynergyIcon ChallengeSynergyPrimordial'/></span> 联盟召唤 {s:threshold} 个虚灵体"
-	"DAC_Challenge_AnessixBuyDemons_Desc"			"消耗 {s:threshold} 金钱雇用<span class='AllianceHighlight'>恶魔 <img class='InlineSynergyIcon ChallengeSynergyDemons'/></span>"
+	"DAC_Challenge_AnessixCombine3StarDemon_Desc"	"合成 ★★★ 恶魔 {s:threshold} 次"
+	"DAC_Challenge_AnessixWinWithHumans_Desc"		"以一个有效的人族联盟获胜 {s:threshold} 回合"
+	"DAC_Challenge_AnessixSummonEidolons_Desc"		"通过太古联盟召唤 {s:threshold} 个虚灵体"
+	"DAC_Challenge_AnessixBuyDemons_Desc"			"消耗 {s:threshold} 金钱雇用恶魔"
 	"DAC_Challenge_AnessixDealCritDamage_Desc"		"通过暴击造成 {s:threshold} 伤害"
 	"DAC_Challenge_AnessixKillDemons_Desc"			"击杀 {s:threshold} 名恶魔"
 	
@@ -3748,7 +4125,7 @@
 	"DAC_Achievement_master_of_none_desc"				 "在具有 11 个有效联盟的情况下获胜 1 回合"
 	"DAC_Achievement_lord_of_whitespire_desc"			 "成为白色尖塔领主"
 	"DAC_Achievement_stonehall_savior_desc"				 "创建一个军团指挥官团战 boss"
-	"DAC_Achievement_pied_piper_desc"					 "在 1 个回合中召唤 50 个单位"
+	"DAC_Achievement_pied_piper_desc"					 "在 1 回合中召唤 20 个单位"
 		
 	
 	"DAC_Challenge_Mode_Requires_Turbo"				"此挑战必须在快速淘汰比赛中完成"
@@ -3768,7 +4145,11 @@
 	"DAC_Achievement_WinWith4GlobalItems_Desc"		"在有 1 个或更多装置时获胜 {d:challengeMaxProgress} 个回合。"
 	"DAC_Achievement_WinWith5ActiveSynergies_Desc"	"以 5 个或更多有效联盟获胜 {d:challengeMaxProgress} 回合。"
 	"DAC_Achievement_WinWithA6Synergy_Desc"			"以一个包含 6 名或以上英雄的有效联盟获胜 {d:challengeMaxProgress} 回合。"
-	"DAC_Achievement_DailyChallengesCompleted"		"完成每日挑战"
+	"DAC_Achievement_DailyChallengesCompleted"		"每日挑战已完成"
+	"DAC_Achievement_WeeklyChallengesCompleted"		"每周挑战已完成"	
+	"DAC_Achievement_WeeklyStreetFightCompleted"	"每周街头混战已完成"		
+	"DAC_Achievement_WeeklyPuzzleCompleted"			"每周谜题已完成"		
+	"DAC_Achievement_WeeklyChallengeCompleted"		"每周挑战已完成"		
 
 	"DAC_Popup_ChallengeReroll_Title"				"重新选择挑战吗？"
 	"DAC_Popup_ChallengeReroll_TitleWithProgress"	"重新选择挑战吗？"
@@ -3790,10 +4171,11 @@
 	"DAC_LoadoutUnderlords"							"装备：霸主"
 	"DAC_LoadoutGame"								"装备：比赛"
 	"DAC_LoadoutPlayer"								"装备：玩家"
-	"DAC_LoadoutMapPropEditor"						"装备：地图道具编辑器"
+	"DAC_LoadoutMapPropEditor"						"装备：棋盘道具编辑器"
 
 	"DAC_LoadoutEquip"								"装备"
 	"DAC_LoadoutEquipped"							"已装备"
+	"DAC_EditBoardProps"							"编辑棋盘道具"
 	"DAC_LoadoutEquip_Popup_Close"					"关闭"
 	"DAC_LoadoutEquip_Failed_Title"					"无法装备物品"
 	"DAC_LoadoutEquip_Failed_Body"					"此物品目前无法装备。请稍后重试。"
@@ -3823,6 +4205,7 @@
 	"DAC_Loadout_PosterPreview"						"海报预览"
 	"DAC_Loadout_UnderlordSkin"						"服装"
 	"DAC_Loadout_UnderlordVictoryDance"				"胜利之舞"
+	"DAC_Loadout_Generic"							"奖励"
 
 
 	"DAC_Loadout_PopupTitle_Boards"					"选择你的战场"
@@ -3951,8 +4334,9 @@
 	"dac_zoo_page2"			"文字和按钮"
 	"dac_zoo_page3"			"联盟"
 	"dac_zoo_page4"			"弹出窗口"
-	"dac_zoo_page5"			"挑战地图"
+	"dac_zoo_page5"			"街头混战"
 	"dac_zoo_page6"			"赛后"
+	"dac_zoo_page7"			"沙盒"
 	"dac_zoo_page_divider"	"/"
 
 	"dac_zoo_show_post_game"	"显示赛后画面"
@@ -3975,7 +4359,15 @@
 	"s1_play_trailer"			"播放宣传片"
 	"s1_ricky_beta_message"		"注意啦！感谢畅玩测试版。我挑了一些好东西作为礼物欢迎大家再次光临：测试季棋盘、海报称号，还有你棋盘的雕塑！"
 
-
+	"DAC_MainMenu_Weekly_Challenge_Header"	"本周：\n{s:weekly_challenge_headline}"
+	"popup_weekly_challenge_title" "早鸟晨报"
+	"popup_weekly_challenge_subtitle" "白色尖塔最好（也是唯一）的报纸！"
+	"popup_weekly_challenge_battlepass_title" "必须解锁勇士令状才能打开每周早鸟晨报。"
+	"popup_weekly_challenge_description" "《早鸟晨报》每周一期，带来白色尖塔最新消息、待完成的全新挑战，以及更多精彩。完成每周谜题、街头混战和目标，即可解锁每周奖励！"
+	"popup_weekly_challenge_description_2_locked" "您已解锁勇士令状，因此已经可以访问该新闻简报。"
+	"popup_weekly_challenge_description_2_unlocked" "只有已解锁勇士令状的玩家可以获得每周早鸟晨报。"
+	"popup_weekly_challenge_ok_button" "查看本周《早鸟晨报》"	
+	"popup_weekly_challenge_getbp_button" "解锁勇士令状"
 	"dac_tutorial_popup_pre_title"			"欢迎来到"
 	"dac_tutorial_popup_title"				"刀塔霸业"
 	"dac_play_tutorial_popup_desc"			"快速入门"
@@ -4044,7 +4436,7 @@
 	"dac_challenge_map_progress_3"	"{d:region_3_complete} / {d:region_3_available} 项任务已完成"
 	"dac_challenge_map_progress_4"	"{d:region_4_complete} / {d:region_4_available} 项任务已完成"
 
-	"dac_challenge_map_challenge_count"	"[{d:active_region_challenges_complete}/{d:active_region_challenges_total}] 挑战已完成"
+	"dac_challenge_map_challenge_count"	"[{d:active_region_challenges_complete}/{d:active_region_challenges_total}] 项挑战已完成"
 
 	"dac_challenge_map_active_region"	"你选择的霸主"
 
@@ -4055,8 +4447,13 @@
 	"dac_challenge_map_toggle_claim_mode"			"领取模式"
 	"dac_challenge_map_dev_buildings"			"开发者生成版本"
 	"dac_challenge_map_reset"					"重置"
+	"dac_challenge_map_zone_anim"					"Zone Anim"
 	"dac_challenge_map_dev_key"					"提供钥匙"
+	"dac_challenge_map_dev_zone"				"区域奖励"
+	"dac_challenge_map_dev_prestige"			"再现声威"
+	"dac_challenge_map_dev_complete"				"全部完成"
 	"dac_challenge_map_intro_popup"				"介绍"
+	"dac_challenge_map_prestige"				"再现声威"
 
 	"dac_challenge_map_claim_challenge"		"领取"
 	"dac_challenge_map_claim_node"			"领取节点"
@@ -4066,6 +4463,12 @@
 	"dac_challenge_map_claim_locked_blurb"	"此区域禁止非秘密社团成员进入。访问超级秘密社团，了解更多。"
 	"dac_challenge_map_claim_locked_reward"	"奖励："
 	"dac_challenge_map_claim_xp"			"+ {u:claim_xp} 勇士令状点数"
+
+	"DAC_challenge_map_prestige_label"		"街头闯荡之再现声威"
+	"DAC_challenge_map_prestige_title"		"重夺白色尖塔！"
+	"DAC_challenge_map_prestige_intro"		"你曾占领白色尖塔，但你有再现往日辉煌的能耐吗？"
+	"DAC_challenge_map_prestige_desc"		"开启一局“再现声威”，在更高的难度下再次挑战街头闯荡。你的霸主将会得到全新游戏内外观，你的悬赏海报上也将会附上一枚街头闯荡之“再现声威”徽章，向所有玩家展示。"
+	"DAC_challenge_map_prestige_node"		"你在之前游戏中获得的所有饰品奖励和勇士令状点数将会保留，不过所有的街头混战物品都将被重置。更为强大的街头混战物品现在可以在街头闯荡中获得，而勇士令状街头混战物品则不会再出现于你的库存中。"
 
 	"dac_challenge_map_claim_100_name"		"刀光路"
 	"dac_challenge_map_premium_claim_locked"		"已锁定"
@@ -4106,6 +4509,7 @@
 	"DAC_Challenge_Popup_2_Valid_Modes"		"有效游戏模式：{s:game_mode_1}、{s:game_mode_2}"
 	"DAC_Challenge_Popup_1_Valid_Mode"		"有效游戏模式：{s:game_mode_1}"
 	"DAC_challenge_map_city_key_count"		"{d:city_keys}"
+	"DAC_challenge_map_objectives_count"	"{d:city_objectives}"
 
 	"DAC_Area_Inventory_Title"				"背包："
 	"DAC_Area_Inventory_Description"		"通过街头混战和勇士令状奖励解锁的{s:underlord_name}物品可用来在将来的街头混战中用来为你的阵容加成。"
@@ -4136,6 +4540,8 @@
 	"dac_legendary_void_spirit_desc" "<span class='SpiritBrother'>圣灵</span> <img class='InlineSynergyIcon SynergySpiritBrother'/> 充能后会造成 100% 额外伤害。<br><br>如果你实现了至少一个级别的<span class='SpiritBrother'>圣灵</span> <img class='InlineSynergyIcon SynergySpiritBrother'/> 联盟，则 +15% 的出现几率。"
 
 	"DAC_MainNav_SeasonInfo"	"规则说明"
+	"DAC_MainNav_EarlyBird"		"早鸟晨报"
+	"DAC_EarlyBird_ButtonDesc"	"每周新闻简报"
 	"DAC_MainNav_Achievements"	"成就"
 	"DAC_MainNav_Battlepass"	"初版令状"
 	"DAC_MainNav_SecretSociety"	"秘密社团"
@@ -4151,7 +4557,7 @@
 	"dac_challenge_map_dev_area_3"	"第 3 区"
 	"dac_challenge_map_dev_area_4"	"第 4 区"
 
-	"DAC_Map_Challenge_Combine_3Stars_title"	"向您请好了，先生！"
+	"DAC_Map_Challenge_Combine_3Stars_title"	"我都说过日安了，先生！"
 	"DAC_Map_Challenge_Combine_3Stars_desc"		"将 {g:dac_unit_name:unit_id} 升级为 ★★★。"
 	"DAC_Map_Challenge_Combine_3Stars_lore"		"在斧王卷入酒吧醉架的所有地方里，白色尖塔是他最喜欢的……- <i>斧王的私人助理小古</i>"
 
@@ -4361,6 +4767,10 @@
 	"dac_launch_puzzle"			"启动谜题"
 	"dac_launch_street_fight"	"开战！"
 	"dac_claim_challenge"		"领取"
+	"dac_claim_district"		"领取奖励"
+	"dac_claim_prestige"		"开始再现声威"
+	"dac_claim_prestige_level"	"第 {d:prestige_level} 级"
+	"dac_claim_prestige_body"	"这是“再现声威”的领取弹出窗口"
 	"dac_challenge_street_fight_extra_info"		"赢得对阵<span class=\"BotName\">{s:bot_name}</span>的比赛以获得此地盘的控制权。"
 
 	"dac_set_as_active_challenge"	"设为有效挑战"
@@ -4535,6 +4945,32 @@
 	"DAC_DevRandomBot"			"[DEV] 击杀 1 个机器人"
 	"DAC_DevKillSelf"			"[DEV] 自杀"
 
+	"DAC_Weekly_Headline"						"搞笑头条！"
+	"DAC_Weekly_SubHeadline"					"从头条笑话衍生而来，博众人一笑的精辟副标题"
+	"DAC_Weekly_NoActiveChallengeHeader"		"别忘了下周回来查看！"
+	"DAC_Weekly_ChallengesComplete"				"{i:weeklyChallengesCompleted}/{i:weeklyChallengesRequired} 项挑战已完成"
+	"DAC_Weekly_Claim"							"领取"
+	"DAC_Weekly_WeeklyChallenges"				"每周挑战"
+	"DAC_Weekly_TimeRemaining"					"{i:days_left} 天 {i:hours_left} 小时 {i:minutes_left} 分钟后失效"
+	"DAC_Weekly_TimeRemainingDays"				"剩余 {i:days_left} 天"
+	"DAC_Weekly_TimeRemainingHours"				"剩余 {i:hours_left} 小时"
+	"DAC_Weekly_TimeRemainingMinutes"			"剩余 {i:minutes_left} 分钟"
+	"DAC_Weekly_Puzzle_Desc"					"Some very cool words setting up this super sneaky puzzle involving the week's theme story."
+	"DAC_Weekly_StreetFight_Desc"				"Some more neato words setting up this really exciting streetfight, also themed around the week's story."
+	"DAC_Weekly_Fight"							"混战！"
+	"DAC_Weekly_StreetFight"					"街头混战！"
+	"DAC_Weekly_Objective"						"目标！"
+	"DAC_Weekly_Puzzle"							"谜题！"
+	"DAC_Weekly_Arcade"							"怀旧街机"
+	"DAC_Weekly_NonogramTitle"					"每周脑筋急转弯"
+	"DAC_Weekly_NonogramDesc"					"你在这道谜题中的目标是弄清楚哪些是应该填充的方格，哪些是应该空白的方格。网格的每一行和每一列旁边都列出了其中各段连续填充方格的长度。由这些数字可得知该行/列中有几段填充方格。因此，如果你看到“7 2”，这表示将会有一段正好为 7 个的填充方格，接着是一个或多个空白方格，再接着是 2 个填充方格。 \n\n点击方格即可进行填充，再次点击可将其标记为空白，第三次点击可清除。"
+	"DAC_Weekly_CourierStatsTitle"				"信使比赛结果"
+
+	"DAC_Start_Courier_PlaceBet"				"买定离手！"
+	"DAC_Start_Courier_StartRace"				"比赛开始！"
+	"DAC_Start_Courier_NewRace"					"赢得 {i:last_payout} <img class='goldcoin'/>！再比一次？"
+	"DAC_Start_Courier_Race_InProgress"			"选手出发了！"
+
 	"DAC_CC_Bounty_Title"						"赏金："
 	"DAC_CC_MostWanted_Title"					"头号通缉犯"
 	"DAC_CC_Challenge_Progress"					"目标进度"
@@ -4549,6 +4985,21 @@
 	"DAC_CC_Locked_Content_Title"				"挑战已锁定"
 	"DAC_CC_Locked_Content_Desc"				"解锁第 1 赛季勇士令状以访问整个街头闯荡，以及 100 多个勇士令状奖励路线的高级奖励。"
 	"DAC_CC_TakeOverWhiteSpire"					"掌管白色尖塔"
+	"DAC_CC_BeginPrestige"						"重夺白色尖塔！"
+	"DAC_CC_DistrictCompleted"					"整个地盘已完成"
+	"DAC_CC_Prestige_Title"						"再现声威等级 {d:prestige_level}"
+	"DAC_CC_Prestige_Description"				"你的单位造成的伤害将减少 {s:dmg_reduction}%"
+	"DAC_CC_Prestige_DamageReduction_1"			"25"
+	"DAC_CC_Prestige_DamageReduction_2"			"35"
+	"DAC_CC_Prestige_DamageReduction_3"			"45"
+	"DAC_CC_Prestige_DamageReduction_4"			"55"
+	"DAC_CC_Prestige_DamageReduction_5"			"65"
+
+	"DAC_citycrawl_complete_district_name_anessix"	"小瑞文泰尔"
+	"DAC_citycrawl_complete_district_name_hobgen"	"新暗巢"
+	"DAC_citycrawl_complete_district_name_enno"		"蛇鼠之窝"
+	"DAC_citycrawl_complete_district_name_jull"		"幽影港"
+
 
 	"DAC_CC_Confirm_Key_Title"					"城市之钥"
 	"DAC_CC_Confirm_Key_Desc"					"使用一把城市之钥将完成此挑战并解锁其奖励。<br>确定要使用钥匙吗？"
@@ -4597,6 +5048,7 @@
 	"DAC_Play_No_Challenge_Selected"				"未选择目标"
 
 	"DAC_Play_City_Challenges_Available"			"{d:city_objectives_available} 个有效"
+	"DAC_Play_CityChallenges_Avauilable_Button"		"{d:city_objectives_available} 个有效目标"
 	"DAC_Play_City_Challenges_OneAvailable"			"{d:city_objectives_available} 个有效"
 	"DAC_Play_City_Challenges_None_Available"		"0 个有效"
 	"DAC_Play_City_Crawl_Invalid_Challenge"			"所选目标在所选游戏模式中无效"
@@ -4609,7 +5061,7 @@
 	
 	"DAC_Challenge_Streetfight_assassins_title"		"发动首攻"
 	"DAC_Challenge_Streetfight_assassins_Bot"		"刺客"
-	"DAC_Challenge_Streetfight_assassins_BotDesc"	"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_assassins_BotDesc"	"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_assassins_Lore"		"在白色尖塔，很容易就能找到刺客，而且只要价码合适，他们什么人都杀。"
 	"DAC_Challenge_Streetfight_assassins_Quote"		"有刺客来杀你总是让人倍感荣幸……这意味着你在忙着做一些非凡的事。- <i>哈伯根乐观得让人惊讶</i>"
 	"DAC_Challenge_Streetfight_assassins_Win"		"哈伯根又逃过一次暗杀，整个城市都在为之哀悼。"
@@ -4617,7 +5069,7 @@
 	
 	"DAC_Challenge_Streetfight_peacekeepers_title"		"欢乐杀手"
 	"DAC_Challenge_Streetfight_peacekeepers_Bot"		"维和人士"
-	"DAC_Challenge_Streetfight_peacekeepers_BotDesc"	"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_peacekeepers_BotDesc"	"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_peacekeepers_Lore"		"虽说白色尖塔没有真正意义上的警察，却总是不缺愿意为钱而维护秩序的人。"
 	"DAC_Challenge_Streetfight_peacekeepers_Quote"		"纵火真是其乐无穷，直到他们派出维和人士来毁掉你美好的一天……- <i>哈伯根飞速跑路</i>"
 	"DAC_Challenge_Streetfight_peacekeepers_Win"		"哈伯根持续躲过抓捕，白色尖塔纵火现象猖獗。"
@@ -4625,7 +5077,7 @@
 	
 	"DAC_Challenge_Streetfight_golems_title"		"来自悲玫城的问候"
 	"DAC_Challenge_Streetfight_golems_Bot"		"傀儡闯祸者"
-	"DAC_Challenge_Streetfight_golems_BotDesc"	"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_golems_BotDesc"	"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_golems_Lore"		"悲玫城和白色尖塔之间的互不侵犯协议似乎已经随着艾布妈妈的死而失效。"
 	"DAC_Challenge_Streetfight_golems_Quote"	"艾布妈妈生前总是很善于让评议团不要插手自己的事务。似乎悲玫城没兴趣给我同样的礼遇……- <i>任重而道远的哈伯根</i>"
 	"DAC_Challenge_Streetfight_golems_Win"		"哈伯根向悲玫城发送讯息，白色尖塔等待评议团回应。"
@@ -4633,7 +5085,7 @@
 	
 	"DAC_Challenge_Streetfight_troll_grift_title"		"在白色尖塔捣乱"
 	"DAC_Challenge_Streetfight_troll_grift_Bot"			"胡闹鸡仔队"
-	"DAC_Challenge_Streetfight_troll_grift_BotDesc"		"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_troll_grift_BotDesc"		"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_troll_grift_Lore"		"暗影萨满在白色尖塔街道上积攒经验，他和一些朋友似乎正准备故技重施。"
 	"DAC_Challenge_Streetfight_troll_grift_Quote"		"巫医和暗影萨满觉得艾布妈妈不在了，他们怎么骗人都没事……我得管教管教他们。- <i>仿佛是新官上任要来上三把火的哈伯根</i>"
 	"DAC_Challenge_Streetfight_troll_grift_Win"			"哈伯根盯向街头混混，将他们招至麾下。"
@@ -4641,7 +5093,7 @@
 	
 	"DAC_Challenge_Streetfight_anessix_summons_title"		"黑道朋友"
 	"DAC_Challenge_Streetfight_anessix_summons_Bot"			"安纳西克斯的卒子"
-	"DAC_Challenge_Streetfight_anessix_summons_BotDesc"		"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_anessix_summons_BotDesc"		"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_anessix_summons_Lore"		"一般的杀手没能弄死哈伯根，因此安纳西克斯向地下世界的朋友求助。"
 	"DAC_Challenge_Streetfight_anessix_summons_Quote"		"安纳西克斯想要我的命，而且毫不掩饰。她会这么想，其实是一种赞美。- <i>命硬的哈伯根</i>"
 	"DAC_Challenge_Streetfight_anessix_summons_Win"			"哈伯根嘲笑恶魔攻击"
@@ -4649,7 +5101,7 @@
 	
 	"DAC_Challenge_Streetfight_insect_warlocks_title"		"我们这网真不赖"
 	"DAC_Challenge_Streetfight_insect_warlocks_Bot"			"蜘蛛窝"
-	"DAC_Challenge_Streetfight_insect_warlocks_BotDesc"		"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_insect_warlocks_BotDesc"		"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_insect_warlocks_Lore"		"建筑物烧毁的外墙是育母蜘蛛繁育小蜘蛛的沃土。"
 	"DAC_Challenge_Streetfight_insect_warlocks_Quote"		"新暗巢有虫害问题，我要一烧了之。- <i>哈伯根对蜘蛛不太友好</i>"
 	"DAC_Challenge_Streetfight_insect_warlocks_Win"			"哈伯根误把蛛形纲动物当作害虫，不分青红皂白都给杀了。"
@@ -4657,7 +5109,7 @@
 	
 	"DAC_Challenge_Streetfight_ogre_poker_title"			"食人魔扑克"
 	"DAC_Challenge_Streetfight_ogre_poker_Bot"			"牌桌老千"
-	"DAC_Challenge_Streetfight_ogre_poker_BotDesc"		"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_ogre_poker_BotDesc"		"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_ogre_poker_Lore"			"食人魔魔法师的一个脑袋在法师扑克赛中作弊被逮了个正着，比赛走势就此急转直下。一场能把新暗巢掀个底朝天的大战就此展开。"
 	"DAC_Challenge_Streetfight_ogre_poker_Quote"		"不知道哪个傻冒邀请食人魔魔法师参加牌局，结果他的一个脑袋开始作弊了……如果我不赶紧让他们收手，他们会把这地方掀翻的。- <i>没有受邀入局的哈伯根暗自感觉受到了冒犯</i>"
 	"DAC_Challenge_Streetfight_ogre_poker_Win"			"哈伯根使用死亡组合和熊熊火焰获胜。"
@@ -4665,7 +5117,7 @@
 	
 	"DAC_Challenge_Streetfight_peacekeepers-T3_title"		"鸡舍一游"
 	"DAC_Challenge_Streetfight_peacekeepers-T3_Bot"			"维和人士"
-	"DAC_Challenge_Streetfight_peacekeepers-T3_BotDesc"		"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_peacekeepers-T3_BotDesc"		"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_peacekeepers-T3_Lore"		"鸡舍一度是让人心生畏惧的牢狱之所……而如今要越狱可容易多了。"
 	"DAC_Challenge_Streetfight_peacekeepers-T3_Quote"		"我有些朋友正关在鸡舍里，我想是时候来场越狱了。- <i>哈伯根可没时间在烤蛋糕时把越狱用的锉刀藏进去</i>"
 	"DAC_Challenge_Streetfight_peacekeepers-T3_Win"			"哈伯根在鸡舍里耍的怪招将会在“勾财黑鸦瑞奇”特别版中得到纪念。"
@@ -4674,7 +5126,7 @@
 	
 	"DAC_Challenge_Streetfight_leg_breakers_title"			"招兵买马"
 	"DAC_Challenge_Streetfight_leg_breakers_Bot"			"格瑞克的打手"
-	"DAC_Challenge_Streetfight_leg_breakers_BotDesc"		"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_leg_breakers_BotDesc"		"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_leg_breakers_Lore"			"臭名昭著的战争煽动者格瑞克希望出人头地，试图除掉艾布所有的 4 名人选。"
 	"DAC_Challenge_Streetfight_leg_breakers_Quote"			"格瑞克觉得雇几名打手自己就成了霸主……我想我得提醒他，好帮手可没那么容易找。- <i>格瑞克对付新生势力</i>"
 	"DAC_Challenge_Streetfight_leg_breakers_Win"			"格瑞克的扩张行动出师不利。"
@@ -4682,7 +5134,7 @@
 	
 	"DAC_Challenge_Streetfight_street_healers_title"			"生命值问题"
 	"DAC_Challenge_Streetfight_street_healers_Bot"			"江湖郎中"
-	"DAC_Challenge_Streetfight_street_healers_BotDesc"		"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_street_healers_BotDesc"		"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_street_healers_Lore"			"江湖郎中在白色尖塔赚得盆满钵满。要是哈伯根能垄断这片市场，他不但会在竞争中占据优势，还会获得一笔可观的利润。"
 	"DAC_Challenge_Streetfight_street_healers_Quote"		"我得让其他霸主没法接触到医者……要是没人给他们包扎疗伤，说不定他们会在惹我前三思。- <i>仁慈杀手哈伯根</i>"
 	"DAC_Challenge_Streetfight_street_healers_Win"			"医生绝不伤人的誓言在街头混战中可没什么好处"
@@ -4690,7 +5142,7 @@
 	
 	"DAC_Challenge_Streetfight_meatsacks_title"			"皮囊"
 	"DAC_Challenge_Streetfight_meatsacks_Bot"			"皮囊"
-	"DAC_Challenge_Streetfight_meatsacks_BotDesc"		"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_meatsacks_BotDesc"		"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_meatsacks_Lore"			"江湖郎中在白色尖塔赚得盆满钵满。要是哈伯根能垄断这片市场，他不但会在竞争中占据优势，还会获得一笔可观的利润。"
 	"DAC_Challenge_Streetfight_meatsacks_Quote"			"卡尔花重金收购尸体用来制作帽子。是时候支持本地生意了。- <i>高级定制达人哈伯根</i>"
 	"DAC_Challenge_Streetfight_meatsacks_Win"			"饱受非议的男装店推出新品。"
@@ -4699,7 +5151,7 @@
 	
 	"DAC_Challenge_Streetfight_protection_title"			"隐名合伙人"
 	"DAC_Challenge_Streetfight_protection_Bot"				"保镖"
-	"DAC_Challenge_Streetfight_protection_BotDesc"			"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_protection_BotDesc"			"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_protection_Lore"				"交保护费是白色尖塔历史悠久的传统。但艾布妈妈死后，不是每个人都愿意按原来的规矩办事。"
 	"DAC_Challenge_Streetfight_protection_Quote"			"艾布妈妈死后，说到交保护费时，似乎大家都不当回事了……他们以为雇几个混混就能阻止我拿走属于我的东西……- <i>与商家亦敌亦友的哈伯根</i>"
 	"DAC_Challenge_Streetfight_protection_Win"				"哈伯根成为地方商界的中流砥柱"
@@ -4707,7 +5159,7 @@
 	
 	"DAC_Challenge_Streetfight_hunters_title"				"父亲之爱"
 	"DAC_Challenge_Streetfight_hunters_Bot"					"晴风的打手"
-	"DAC_Challenge_Streetfight_hunters_BotDesc"				"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_hunters_BotDesc"				"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_hunters_Lore"				"瑞文泰尔的商王之一晴风领主在不停寻找他不走寻常路的女儿。"
 	"DAC_Challenge_Streetfight_hunters_Quote"				"晴风领主不断派遣搜寻队伍进入白色尖塔试图寻找米瑞斯嘉……我会尽我所能拖住他们。- <i>哈伯根展示自己的忠诚</i>"
 	"DAC_Challenge_Streetfight_hunters_Win"					"哈伯根推动他自己的计划，危及与瑞文泰尔间的政治形势。"
@@ -4715,17 +5167,17 @@
 	
 	"DAC_Challenge_Streetfight_scaled_slark_title"			"我们需要一艘更大的船"
 	"DAC_Challenge_Streetfight_scaled_slark_Bot"			"暗礁使者"
-	"DAC_Challenge_Streetfight_scaled_slark_BotDesc"		"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_scaled_slark_BotDesc"		"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_scaled_slark_Lore"			"斯拉克和他暗礁的朋友已经开始涉足新暗巢了。如果不快点把他们收拾掉，他们就要在此立足了。"
 	"DAC_Challenge_Streetfight_scaled_slark_Quote"			"我不知道这是贾尔的命令，还是斯拉克擅自行事，但我绝不会向那个浑身长满鳞片的混蛋让出半分领地。- <i>哈伯根回应新威胁</i>"
-	"DAC_Challenge_Streetfight_scaled_slark_Win"			"哈伯根推动他自己的计划，危及与瑞文泰尔间的政治形势。"
-	"DAC_Challenge_Streetfight_scaled_slark_Lose"			"哈伯根在晴风领主那儿碰壁，在米瑞斯嘉那儿也毫无进展。"
+	"DAC_Challenge_Streetfight_scaled_slark_Win"			"哈伯根杀了在逃罪犯，无意中捍卫了法律与秩序。"
+	"DAC_Challenge_Streetfight_scaled_slark_Lose"			"暗礁逃犯把哈伯根打得灵魂出窍。"
 	
 	
 	
 	"DAC_Challenge_Streetfight_dark_trolls_and_tombstones_title"		"吉姆伊的男孩们"
 	"DAC_Challenge_Streetfight_dark_trolls_and_tombstones_Bot"		"游牧巨魔"
-	"DAC_Challenge_Streetfight_dark_trolls_and_tombstones_BotDesc"	"Is it broken here?"
+	"DAC_Challenge_Streetfight_dark_trolls_and_tombstones_BotDesc"	"出问题了吗？"
 	"DAC_Challenge_Streetfight_dark_trolls_and_tombstones_Lore"		"黑暗巨魔奉首领吉姆伊之命正在新暗巢挑起事端。"
 	"DAC_Challenge_Streetfight_dark_trolls_and_tombstones_Quote"	"不明白为什么吉姆伊要在那里开店，他应该带自己的人去悲玫城……- <i>哈伯根与黑暗巨魔针锋相对</i>"
 	"DAC_Challenge_Streetfight_dark_trolls_and_tombstones_Win"		"哈伯根将黑暗巨魔的街头帮派赶出了新暗巢，而吉姆伊快速让死者复活。"
@@ -4733,15 +5185,15 @@
 	
 	"DAC_Challenge_Streetfight_thunderhides_title"				"雷肤兽逃逸"
 	"DAC_Challenge_Streetfight_thunderhides_Bot"				"雷肤兽"
-	"DAC_Challenge_Streetfight_thunderhides_BotDesc"			"Is it broken here?"
+	"DAC_Challenge_Streetfight_thunderhides_BotDesc"			"出问题了吗？"
 	"DAC_Challenge_Streetfight_thunderhides_Lore"				"格瑞克为自己的演出养了一大群动物，那景象令人兴奋不已。不过要是围栏坏了，就有可能带来一场灾难。"
 	"DAC_Challenge_Streetfight_thunderhides_Quote"				"格瑞克的雷肤兽们遭到轰炸，逃出了围栏 。得趁整个新暗巢被踏平之前把他们关起来。- <i>业余驯兽师哈伯根</i>"
-	"DAC_Challenge_Streetfight_thunderhides_Win"				"哈伯根最终凭着三寸不烂之舌摆脱了麻烦。开玩笑啦——他杀光了所有人。"
-	"DAC_Challenge_Streetfight_thunderhides_Lose"				"多亏了民间执法者，生态恐怖主义者终被打败。"	
+	"DAC_Challenge_Streetfight_thunderhides_Win"				"哈伯根圈起逃脱的雷肤兽，盘算着打造自己的动物园。"
+	"DAC_Challenge_Streetfight_thunderhides_Lose"				"哈伯根和雷肤兽四目相对。"	
 	
 	"DAC_Challenge_Streetfight_foresters_title"				"火警监视"
 	"DAC_Challenge_Streetfight_foresters_Bot"				"环保主义者"
-	"DAC_Challenge_Streetfight_foresters_BotDesc"			"Is it broken here?"
+	"DAC_Challenge_Streetfight_foresters_BotDesc"			"出问题了吗？"
 	"DAC_Challenge_Streetfight_foresters_Lore"				"即便你是名霸主，做星球的守护者也是很重要的。如果你不做，德鲁伊会找你和你的家人算账。"
 	"DAC_Challenge_Streetfight_foresters_Quote"				"显然德鲁伊对你烧掉大片森林很不满意……- <i>不善于防止森林火灾的哈伯根</i>"
 	"DAC_Challenge_Streetfight_foresters_Win"				"哈伯根最终凭着三寸不烂之舌摆脱了麻烦。开玩笑啦——他杀光了所有人。"
@@ -4750,7 +5202,7 @@
 	
 	"DAC_Challenge_Streetfight_mage_warlocks_title"				"评议团密使"
 	"DAC_Challenge_Streetfight_mage_warlocks_Bot"				"评议团使者"
-	"DAC_Challenge_Streetfight_mage_warlocks_BotDesc"			"Is it broken here?"
+	"DAC_Challenge_Streetfight_mage_warlocks_BotDesc"			"出问题了吗？"
 	"DAC_Challenge_Streetfight_mage_warlocks_Lore"				"悲玫城评议团察觉到了哈伯根唯利是图的本性，向他表示友好……但即便是他们也不了解他的决心。"
 	"DAC_Challenge_Streetfight_mage_warlocks_Quote"				"只要我愿意卑躬屈膝、背叛艾布妈妈的遗愿，悲玫城评议团愿意给我很多好处……我想是时候让这些巫师明白，他们提的条件在我眼里所值几何了……- <i>别有用心的谈判专家哈伯根</i>"
 	"DAC_Challenge_Streetfight_mage_warlocks_Win"				"哈伯根捍卫了白色尖塔的主权状态"
@@ -4758,7 +5210,7 @@
 	
 	"DAC_Challenge_Streetfight_anessix_summons_battle_title"			"墓边礼数"
 	"DAC_Challenge_Streetfight_anessix_summons_battle_Bot"				"安纳西克斯打手"
-	"DAC_Challenge_Streetfight_anessix_summons_battle_BotDesc"			"Is it broken here?"
+	"DAC_Challenge_Streetfight_anessix_summons_battle_BotDesc"			"出问题了吗？"
 	"DAC_Challenge_Streetfight_anessix_summons_battle_Lore"				"即使在艾布妈妈死后，哈伯根仍旧对她忠心耿耿，每次一有机会就去给她上坟。"
 	"DAC_Challenge_Streetfight_anessix_summons_battle_Quote"			"我知道这把戏……我知道安纳西克斯会冲着我来……但在我向艾布妈妈致敬时攻击我，即使是对她而言也太下作了。- <i>哀悼中的恶棍哈伯根</i>"
 	"DAC_Challenge_Streetfight_anessix_summons_battle_Win"				"安纳西克斯过界了。全城静待哈伯根的报复。"
@@ -4854,7 +5306,7 @@
 	
 	"DAC_Challenge_Streetfight_eidolons_title"				"粘液伤害"
 	"DAC_Challenge_Streetfight_eidolons_Bot"				"虚灵体"
-	"DAC_Challenge_Streetfight_eidolons_BotDesc"			"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_eidolons_BotDesc"			"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_eidolons_Lore"				"虚灵体一直是社会公害，而贾尔喜欢让自己的地盘秩序井然。"
 	"DAC_Challenge_Streetfight_eidolons_Quote"				"那些卑鄙无耻的太古把整个幽影港弄得遍地狼藉……我可咽不下这口气。- <i>要清理门户的贾尔</i>"
 	"DAC_Challenge_Streetfight_eidolons_Win"				"贾尔清理了幽影港的虚灵秽物。"
@@ -4862,7 +5314,7 @@
 	
 	"DAC_Challenge_Streetfight_insects_title"				"抱歉夏洛特"
 	"DAC_Challenge_Streetfight_insects_Bot"				"事实上是蛛形纲动物"
-	"DAC_Challenge_Streetfight_insects_BotDesc"			"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_insects_BotDesc"			"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_insects_Lore"				"咱们现实点吧，没人喜欢在遍地蜘蛛的酒吧里喝酒"
 	"DAC_Challenge_Streetfight_insects_Quote"				"育母蜘蛛和小蜘蛛们不断地把顾客给赶跑了。得把她弄走，我的买卖才能赚钱。- <i>患蜘蛛恐惧症的贾尔</i>"
 	"DAC_Challenge_Streetfight_insects_Win"				"把蜘蛛赶出了幽影港"
@@ -4870,7 +5322,7 @@
 	
 	"DAC_Challenge_Streetfight_creeps_title"				"人潮汹涌"
 	"DAC_Challenge_Streetfight_creeps_Bot"					"格瑞克的小兵"
-	"DAC_Challenge_Streetfight_creeps_BotDesc"				"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_creeps_BotDesc"				"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_creeps_Lore"				"格瑞克知道自己如果单挑贾尔不会获胜，因此把打手派往幽影港的各个角落，试图让贾尔应接不暇。"
 	"DAC_Challenge_Streetfight_creeps_Quote"				"格瑞克越来越胆大包天了，派了一拨又一拨的喽啰想拖垮我。可是他犯了个致命错误……我不会被拖垮，只会被惹怒。- <i>生气时没人喜欢的贾尔<i>"
 	"DAC_Challenge_Streetfight_creeps_Win"					"贾尔打倒格瑞克的天辉狂热信徒。"
@@ -4878,7 +5330,7 @@
 
 	"DAC_Challenge_Streetfight_golems_jull_title"		"爆几块石头"
 	"DAC_Challenge_Streetfight_golems_jull_Bot"			"傀儡闯祸者"
-	"DAC_Challenge_Streetfight_golems_jull_BotDesc"		"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_golems_jull_BotDesc"		"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_golems_jull_Lore"		"通常傀儡的主人会把傀儡给看好……但如果放任不管，这些石头生物会把所有非石头生物砸个粉碎，并以此为乐。"
 	"DAC_Challenge_Streetfight_golems_jull_Quote"		"不管它们是安纳西克斯召唤出来的，还是悲玫城的巫师造出来的……我不会放任傀儡在我的城市里肆虐横行。- <i>击碎石头的贾尔</i>"
 	"DAC_Challenge_Streetfight_golems_jull_Win"			"贾尔把死去傀儡的手指做成了花哨的搅拌棒。"
@@ -4895,7 +5347,7 @@
 	
 	"DAC_Challenge_Streetfight_druids_title"				"给恩诺帮忙"
 	"DAC_Challenge_Streetfight_druids_Bot"					"德鲁伊"
-	"DAC_Challenge_Streetfight_druids_BotDesc"				"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_druids_BotDesc"				"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_druids_Lore"					"恩诺的爱好就是骚扰贾尔。他自己没法亲自动手时，朋友会出手帮忙。"
 	"DAC_Challenge_Streetfight_druids_Quote"				"恩诺以为自己可以让树林里的朋友帮忙阻止我……而这一切只是徒劳。- <i>贾尔决心下次看见恩诺时要给他一拳</i>"
 	"DAC_Challenge_Streetfight_druids_Win"					"德鲁伊抗议幽影港的扩张，很快就被打脸了"
@@ -4903,7 +5355,7 @@
 	
 	"DAC_Challenge_Streetfight_warriors_title"				"死人难再死"
 	"DAC_Challenge_Streetfight_warriors_Bot"				"勇士"
-	"DAC_Challenge_Streetfight_warriors_BotDesc"			"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_warriors_BotDesc"			"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_warriors_Lore"				"恩诺对贾尔的骚扰没完没了。今天的骚扰方式是雇用打手。"
 	"DAC_Challenge_Streetfight_warriors_Quote"				"在战场上，勇士只能杀死你一次；在零售行业，你每天都在一点点死去。- <i>内心已亡的贾尔</i>"
 	"DAC_Challenge_Streetfight_warriors_Win"				"贾尔在战斗途中大叫“我不会给你退钱的”时候，旁观者纳闷不已"
@@ -4911,7 +5363,7 @@
 	
 	"DAC_Challenge_Streetfight_warlocks_dark_trolls_title"				"外事和内政"
 	"DAC_Challenge_Streetfight_warlocks_dark_trolls_Bot"				"术士和巨魔"
-	"DAC_Challenge_Streetfight_warlocks_dark_trolls_BotDesc"			"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_warlocks_dark_trolls_BotDesc"			"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_warlocks_dark_trolls_Lore"				"吉姆伊为自己的人民向悲玫城寻求庇护……但他们要他帮着拿下白色尖塔才肯答应。"
 	"DAC_Challenge_Streetfight_warlocks_dark_trolls_Quote"				"我不知道为什么悲玫城评议团要插手白色尖塔的事，但我们绝不会成为另一座城市的附庸。- <i>力挺白色尖塔的贾尔</i>"
 	"DAC_Challenge_Streetfight_warlocks_dark_trolls_Win"				"悲玫城再次插手白色尖塔事务，莫非战事将临？"
@@ -4919,7 +5371,7 @@
 	
 	"DAC_Challenge_Streetfight_bot_with_items_title"			"以其人之道"
 	"DAC_Challenge_Streetfight_bot_with_items_Bot"				"武装打手"
-	"DAC_Challenge_Streetfight_bot_with_items_BotDesc"			"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_bot_with_items_BotDesc"			"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_bot_with_items_Lore"				"几周以来恩诺一直在悄悄在贾尔那儿行窃，用这名私酒老板的东西对付他自己。"
 	"DAC_Challenge_Streetfight_bot_with_items_Quote"			"那个丁点大的啮齿动物恩诺一直用从我这偷来的财产装备他的手下。是可忍，孰不可忍。- <i>忍无可忍的贾尔</i>"
 	"DAC_Challenge_Streetfight_bot_with_items_Win"				"小偷们尝到了白色尖塔的正义。"
@@ -4927,7 +5379,7 @@
 	
 	"DAC_Challenge_Streetfight_mage_warlocks_T3_title"				"鸡尾酒和冲突"
 	"DAC_Challenge_Streetfight_mage_warlocks_T3_Bot"				"千杯不醉法师"
-	"DAC_Challenge_Streetfight_mage_warlocks_T3_BotDesc"			"unused description about Graveyard Trolls"
+	"DAC_Challenge_Streetfight_mage_warlocks_T3_BotDesc"			"未使用的墓地巨魔描述"
 	"DAC_Challenge_Streetfight_mage_warlocks_T3_Lore"				"在贾尔向魔咒鸡尾酒吧的业主炫耀实力后，经常光顾那里的法师们决定也得给贾尔点颜色瞧瞧。"
 	"DAC_Challenge_Streetfight_mage_warlocks_T3_Quote"				"看起来我和“魔咒”之间的友好竞争变得不那么友好了。 - <i>贾尔思索着自己的生意对头</i>"
 	"DAC_Challenge_Streetfight_mage_warlocks_T3_Win"				"残月和魔咒之间的冲突持续升级。"
@@ -5099,7 +5551,7 @@
 
 	"DAC_Challenge_Puzzle_s1_jull3_title"	"混乱的目标"
 	"DAC_Challenge_Puzzle_s1_jull3_quote"	"人们光顾残月是因为他们在这能享受别处没有的仙酿。我那用瘟疫守卫作主料的鸡尾酒有没有喝死过人？喝死过。但那些没喝死的人对这酒的体验赞不绝口。- <i>夺命调酒师贾尔</i>"
-	"DAC_Challenge_Puzzle_s1_jull3_lore"	"贾尔凭着将瘟疫守卫的毒液调进鸡尾酒在白兰会赢得了一席之地，虽然把它叫做"cocktail" is generous... its basically just venom and Icewrack white."
+	"DAC_Challenge_Puzzle_s1_jull3_lore"	"贾尔凭着将瘟疫守卫的毒液调进鸡尾酒在白兰会赢得了一席之地，虽然把它叫做“鸡尾酒”也太抬举它了…… 那玩意儿就是毒液兑冰川残骸白酒。"
 
 	"DAC_Challenge_Puzzle_s1_jull4_title"	"斯温这关过不去"
 	"DAC_Challenge_Puzzle_s1_jull4_quote"	"我会找到法子解决这个问题……- <i>打破屏障的贾尔</i>"
@@ -5249,8 +5701,8 @@
 	"DAC_Challenge_Streetfight_sf_and_golems_BotDesc"		"botdesc"
 	"DAC_Challenge_Streetfight_sf_and_golems_Lore"		"安纳西克斯强势崛起，影魔感到极其厌烦，想要让她知道自己到底有几斤几两。"
 	"DAC_Challenge_Streetfight_sf_and_golems_Quote"		"要对付恩诺、贾尔和哈伯根已经够糟糕了……但现在奈文摩尔也试着要把我逐出瑞斯托王庭。这个情况我得亲自解决。- <i>各方势力都向安纳西克斯逼近</i>"
-	"DAC_Challenge_Streetfight_sf_and_golems_Win"		"sf_and_golems Win"
-	"DAC_Challenge_Streetfight_sf_and_golems_Lose"		"sf_and_golems Lose"
+	"DAC_Challenge_Streetfight_sf_and_golems_Win"		"恶魔政变失败。相关新闻报道中，恶魔都是蠢货。"
+	"DAC_Challenge_Streetfight_sf_and_golems_Lose"		"安纳西克斯被逐出了瑞斯托王庭。"
 
 
 	"DAC_Challenge_Streetfight_axe_and_friends_Title"		"红雾复仇"
@@ -5355,7 +5807,7 @@
 
 	"DAC_Challenge_Puzzle_s1_anessix2_title"	"出神入化…"
 	"DAC_Challenge_Puzzle_s1_anessix2_quote"	"圣灵兄弟试图压制我……我欣赏他们的投入，但憎恨他们执着于徒劳无功之事。- <i>圣灵之灾安纳西克斯</i>"
-	"DAC_Challenge_Puzzle_s1_anessix2_lore"		"多方势力都忧心忡忡地看着安纳西克斯强势崛起，但圣灵兄弟除外。"
+	"DAC_Challenge_Puzzle_s1_anessix2_lore"		"多方势力都忧心忡忡地看着安纳西克斯强势崛起，不过圣灵兄弟决定采取些真正的行动。"
 
 	"DAC_Challenge_Puzzle_s1_anessix3_title"	"剥皮双子的仆人"
 	"DAC_Challenge_Puzzle_s1_anessix3_quote"	"虽然我早预料到会有人反抗我的统治，但这总归是件让人失望的事。- 瑞斯托王庭与剥皮双子发生冲突"
@@ -5367,7 +5819,7 @@
 
 	
 	// Enno S1 Objectives
-	"DAC_Challenge_EnnoWinWithHunters_Desc"			"以一个有效的<span class='Hunter'>猎人</span><img class='InlineSynergyIcon SynergyHunters'/> 联盟获胜 {s:threshold} 回合"
+	"DAC_Challenge_EnnoWinWithHunters_Desc"			"以一个有效的<span class='Hunter'>猎人</span>联盟获胜 {s:threshold} 回合"
 	"DAC_Challenge_EnnoWinWithHunters_title"		"街头寻猎"
 	"DAC_Challenge_EnnoWinWithHunters_lore"			"恩诺并不是好吃懒做的人，闲暇时刻，他会在蛇鼠之窝巡逻，侦寻不速之客。"
 	"DAC_Challenge_EnnoWinWithHunters_quote"		"恩诺用详尽到令人发指的方式解释他会如何对待入侵者。"
@@ -5398,7 +5850,7 @@
 	"DAC_Challenge_EnnoStunUnits_lore"				"这事我们得讲清楚：恩诺是个十足的混蛋，他也希望全世界都知道这一点。"
 	"DAC_Challenge_EnnoStunUnits_quote"				"恩诺希望把敌人碎尸万段。"
 	
-	"DAC_Challenge_EnnoBruteDebuff_Desc"			"向 {s:threshold} 个单位施加<span class='Brute'>蛮族</span> <img class='InlineSynergyIcon SynergyBrutal'/> 负面效果"
+	"DAC_Challenge_EnnoBruteDebuff_Desc"			"向 {s:threshold} 个单位施加<span class='Brute'>蛮族</span>负面效果"
 	"DAC_Challenge_EnnoBruteDebuff_title"			"个小人狠"
 	"DAC_Challenge_EnnoBruteDebuff_lore"			"恩诺明白，人们因为恐惧而远离蛇鼠之窝，因此他不择手段地制造恐惧。"
 	"DAC_Challenge_EnnoBruteDebuff_quote"			"恩诺宣称在这儿的街头上晃荡很不安全。"
@@ -5408,7 +5860,7 @@
 	"DAC_Challenge_EnnoTop4_lore"	"大家都知道，在四名强势崛起的霸主中，恩诺是匹黑马。他不涉足商业，没有恶魔盟友，也从未做过艾布妈妈的左膀右臂。说恩诺觉得他需要证明自己已经是好听的了。"
 	"DAC_Challenge_EnnoTop4_quote"  "恩诺表达他对闪耀之物的喜爱。"
 	
-	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"用<span class='Ogre'>血亲</span> <img class='InlineSynergyIcon SynergyOgre'/> 单位造成 {s:threshold} 伤害"
+	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"用<span class='Ogre'>血亲</span>单位造成 {s:threshold} 伤害"
 	"DAC_Challenge_EnnoDealDamageBloodbound_title"	"为小个子加油"
 	"DAC_Challenge_EnnoDealDamageBloodbound_lore"	"恩诺总是想向人们证明个头无关紧要。"
 	"DAC_Challenge_EnnoDealDamageBloodbound_quote"	"恩诺宣称没有什么比杀掉小看自己的人更有满足感。"
@@ -5514,13 +5966,6 @@
 	"DAC_Challenge_Streetfight_bloodbounds_and_warlocks_Win"		"恩诺把术士赶走后，蛇鼠之窝人口神秘失踪之事就此告终。"
 	"DAC_Challenge_Streetfight_bloodbounds_and_warlocks_Lose"		"谣言！血肉嫁接而成的巨人在蛇鼠之窝潜行。"
 	
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Title"		"实验性生长"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Bot"		"血亲术士"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_BotDesc"		"bloodbounds_and_warlock Desc"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Lore"		"术士跑到蛇鼠之窝来寻找参与实验的“志愿者”毫不稀奇。"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Quote"		"恩诺宣称虽然人命在白色尖塔并不值钱，但他的人民不是好收买的。"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Win"		"恩诺把术士赶走后，蛇鼠之窝人口神秘失踪之事就此告终。"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Lose"		"谣言！血肉嫁接而成的巨人在蛇鼠之窝潜行。"
 	
 
 
@@ -5632,8 +6077,275 @@
 	"DAC_Challenge_Puzzle_s1_enno4_quote"	"恩诺决意要应对蛇鼠之窝愈演愈烈的黑魔法。"
 	"DAC_Challenge_Puzzle_s1_enno4_lore"	"死人正在蛇鼠之窝复生……只有恩诺才有胆量阻止这事。"
 
-	
 
+	// Weekly challenge	#1
+	"DAC_Challenge_weekly_challenge_0_Headline"						"即将推出！"
+
+	"DAC_Challenge_weekly_challenge_1_Headline"						"芜票市场大冲突！"
+	"DAC_Challenge_weekly_challenge_1_SubHeadline"					"白色尖塔农贸市场中芜菁与鲜血齐飞"
+
+	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Title"		"斧王和干扰者大闹市场"
+	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Lore"		"白色尖塔多的是可疑的商品和服务，但即便是按照我们城市的标准来看，售卖高地人皮肤制成的衬衣还是特别地变态。\n（下转第 2 版\n）"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Title"			"裁缝业传统"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Lore"			"裁缝卡尔想要在农贸市场打拼一番却业绩惨淡，于是他决定放弃囚尸岭的时尚潮流，转做更传统的衣饰。被问及为什么作出这样的改变时，卡尔说：“我只是一具单纯的尸体，喜欢让人们面露微笑。如果这意味着要雇人猎狼而不是高地人，我完全同意。”（下转第 6 版）"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_win"			"卡尔决定制作无需人类血肉的夹克。"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_lose"			"卡尔雇用的诱捕小队在白色尖塔外被打得屁滚尿流。"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Bot"			"生皮"
+
+	"DAC_Challenge_Challenge_weekly_challenge_1_Title"				"通缉令：为卡尔讨回公道"
+	"DAC_Challenge_Challenge_weekly_challenge_1_Lore"				"裁缝卡尔曾经深受白色尖塔对不死之人的偏见所害，囚尸岭的善良人民绝不能容忍。任何努力改善白色尖塔生死两界关系的人都会得到奖赏。特此声明。\n\n- 死尸兄弟会发言人雷金纳德 · 柏利兹三世"
+	"DAC_Challenge_Challenge_weekly_challenge_1_Instructions"		"用无情英雄击杀 300 个单位"
+	
+	// Weekly challenge	#2
+	"DAC_Challenge_weekly_challenge_2_Headline"						"白色尖塔兴奋挥斧日"
+	"DAC_Challenge_weekly_challenge_2_SubHeadline"					"地方当局将谋杀案的增多归结于斧王在白色尖塔度假。"
+
+	"DAC_Challenge_Puzzle_brutal_book_signing_Title"		"《倒霉的高地人》霉运连连"
+	"DAC_Challenge_Puzzle_brutal_book_signing_Lore"		"在小古的新书《倒霉的高地人》签售会上，有人提出斧王没有书中所描写的那么危险，现场情况由此演变成了暴力冲突。（下转第 2 版）"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Title"		"斧王在残月畅饮，暴力接踵而至"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Lore"		"昨夜斧王驾临白色尖塔，这让那些一心想成为恶棍又需要证明自己的家伙尤为关注，酒吧账单和尸体数量也随之增长……而贾尔却倒霉了，因为这些暴徒来到了残月。（下转第 6 版）"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_win"				"贾尔和斧王重归于好，并替他痛揍敌人。"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_lose"				"残月的酒吧醉战让贾尔的门店一片狼藉。"
+
+	"DAC_Challenge_Challenge_weekly_challenge_2_Title"		"通缉令：供斧王砍杀之人"
+	"DAC_Challenge_Challenge_weekly_challenge_2_Lore"		"有笨蛋告诉斧王，不是他擅长杀人，而是小古擅长捧人。斧王要证明这两点都没错。- 斧王\n\n附言：记得买我的书"
+	
+	// Weekly challenge	#3
+	"DAC_Challenge_weekly_challenge_3_Headline"						"淑女之夜！"
+	"DAC_Challenge_weekly_challenge_3_SubHeadline"					"白色尖塔的女性将城镇涂得红红火火"
+
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Title"					"安纳西克斯和阿卡莎"
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Lore"						"把阿卡莎和安纳西克斯的关系称为友谊那是说得太好听了……但这两个女魔头联起手来追求共同目标时，她们能成就一番大事。"
+
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Title"		"休想叫她微笑"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Bot"		"吹口哨骚扰者"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Lore"		"白色尖塔不缺安纳西克斯乐于收拾的粗鲁男性。"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_win"				"尼安德特人冲安纳西克斯吹口哨，马上就后悔不迭。"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_lose"				"安纳西克斯被击退，悄悄地密谋如何报复。"
+
+	"DAC_Challenge_Challenge_weekly_challenge_3_Title"		"雌性物种"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Lore"		"永远别低估白色尖塔的女性。"
+
+	// Weekly challenge	#4
+	"DAC_Challenge_weekly_challenge_4_Headline"						"外来血腥钱"
+	"DAC_Challenge_weekly_challenge_4_SubHeadline"					"瑞文泰尔商贾王国持续资助白色尖塔的帮派战争"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Title"					"吃紧的钱袋子"
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Lore"						"如果你和欧尼亚是朋友，她可以让你轻易地获得瑞文泰尔的财富。然而，如果你和她是对头，就有可能会发现手头比平时紧了许多。"
+
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Title"		"瑞文泰尔讨债团"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Bot"		"瑞文泰尔打手"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Lore"		"在瑞文泰尔的银行借钱超级容易……但如果你逾期不还，那可就危险了。"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_win"				"哈伯根击退雇佣军，考虑还债事宜。"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_lose"				"瑞文泰尔雇用打手对哈伯根一顿胖揍。"
+
+	"DAC_Challenge_Challenge_weekly_challenge_4_Title"		"瑞文泰尔之债"
+	"DAC_Challenge_Challenge_weekly_challenge_4_Lore"		"哈伯根一直非常依赖欧尼亚从瑞文泰尔获取资金来为自己的帮派战争融资……现在是时候偿还他欠下的债了。"
+	
+	// Weekly challenge	#5
+	"DAC_Challenge_weekly_challenge_5_Headline"						"白色尖塔死尸横行"
+	"DAC_Challenge_weekly_challenge_5_SubHeadline"					"死于恩诺之手的受害人前来寻仇，蛇鼠之窝亡灵肆虐"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Title"					"蛇鼠之王"
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Lore"						"对恩诺来说，重要的是这座城市知道蛇鼠之窝是他的地盘……而且任何未经他允许就闯入这里的人都会有性命之忧，哪怕他们是不死的杀戮机器。"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Title"		"墓中尸觉醒！"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Bot"		"尸变"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Lore"		"蛇鼠之窝的街道上散布着那些误闯错巷者的尸体。不过现在，一股黑暗而邪恶的力量将死者从长眠中唤醒。"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_win"				"恩诺杀了僵尸，让蛇鼠之窝的致命性重回基准。"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_lose"				"死亡的游客向恩诺讨回了血债。"
+
+	"DAC_Challenge_Challenge_weekly_challenge_5_Title"		"恫吓游戏"
+	"DAC_Challenge_Challenge_weekly_challenge_5_Lore"		"有些人认为亡灵肆虐削弱了恩诺的地位，而他要证明这些人大错特错。"
+	
+	// Weekly challenge	#6
+	"DAC_Challenge_weekly_challenge_6_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_6_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_6_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Lore"		"PH"
+
+	// Weekly challenge	#7
+	"DAC_Challenge_weekly_challenge_7_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_7_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_7_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_7_Lore"		"PH"
+
+	// Weekly challenge	#8
+	"DAC_Challenge_weekly_challenge_8_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_8_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_8_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Lore"		"PH"
+
+
+	// Weekly challenge	#9
+	"DAC_Challenge_weekly_challenge_9_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_9_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_9_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Lore"		"PH"
+
+	// Weekly challenge	#10
+	"DAC_Challenge_weekly_challenge_10_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_10_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_10_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Lore"		"PH"
+
+
+	// Weekly challenge	#11
+	"DAC_Challenge_weekly_challenge_11_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_11_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_11_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Lore"		"PH"
+
+	// Weekly challenge	#12
+	"DAC_Challenge_weekly_challenge_12_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_12_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_12_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Lore"		"PH"
+
+	// Weekly challenge	#13
+	"DAC_Challenge_weekly_challenge_13_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_13_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_13_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_13_Lore"		"PH"
+
+	// Weekly challenge	#14
+	"DAC_Challenge_weekly_challenge_14_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_14_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_14_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_14_Lore"		"PH"
+
+	// Weekly challenge courier race names
+	"DAC_Challenge_Courier_Race_0"							"缚魂消沉"
+	"DAC_Challenge_Courier_Race_1"							"退烧"
+	"DAC_Challenge_Courier_Race_2"							"血腥之钱"
+	"DAC_Challenge_Courier_Race_3"							"骗徒之财"
+	"DAC_Challenge_Courier_Race_4"							"风险损失"
+	"DAC_Challenge_Courier_Race_5"							"风险收益"
+	"DAC_Challenge_Courier_Race_6"							"锯齿之刃"
+	"DAC_Challenge_Courier_Race_7"							"最后一吻"
+	"DAC_Challenge_Courier_Race_8"							"哀伤告别"
+	"DAC_Challenge_Courier_Race_9"							"Sigma D"
+	"DAC_Challenge_Courier_Race_10"							"妖术和马蹄铁"
+	"DAC_Challenge_Courier_Race_11"							"魔咒"
+	"DAC_Challenge_Courier_Race_12"							"残忍大姐大"
+	"DAC_Challenge_Courier_Race_13"							"恶魔舞者"
+	"DAC_Challenge_Courier_Race_14"							"清算专家"
+	"DAC_Challenge_Courier_Race_15"							"酒壮怂人胆"
+	"DAC_Challenge_Courier_Race_16"							"伤心熊猫"
+	"DAC_Challenge_Courier_Race_17"							"打铁小魔和贪魔"
+	"DAC_Challenge_Courier_Race_18"							"瑞斯托之祸"
+	"DAC_Challenge_Courier_Race_19"							"倒霉查理"
+	"DAC_Challenge_Courier_Race_20"							"引人入胜的事件"
+	"DAC_Challenge_Courier_Race_21"							"日安哪，先生！"
+	"DAC_Weekly_CourierTitle" 								"终点线：信使比赛赔率和结果"	
+	"DAC_Weekly_CourierHeader_Courier"						"信使"
+	"DAC_Weekly_CourierHeader_Bet"							"赌注"
+	"DAC_Weekly_CourierHeader_Wt"							"重量"
+	"DAC_Weekly_CourierHeader_PP"							"杆位"
+	"DAC_Weekly_CourierHeader_Quarter"						"1/4"
+	"DAC_Weekly_CourierHeader_Half"							"1/2"
+	"DAC_Weekly_CourierHeader_ThreeQuarter"					"3/4"
+	"DAC_Weekly_CourierHeader_Mile"							"英里"
+	"DAC_Weekly_CourierHeader_Finish"						"最终排名"
+	"DAC_Weekly_CourierHeader_Odds"							"赔率"
+	"DAC_Weekly_CourierEntry_CurrentBet"					"<img class='goldcoin'/> {i:current_bet}"
+	"DAC_Weekly_CourierEntry_Prize"							"{i:gold_prize} : 1"
+	"DAC_Weekly_CourierCurrent_Gold"						"当前：<img class='goldcoin'/> {i:current_gold}"
+	
+	
 	// City Crawl Tutorial
 	"DAC_Challenge_Streetfight_tutorial_creeps_Title"		"欢迎来到白色尖塔"
 	"DAC_Challenge_Streetfight_tutorial_creeps_Bot"			"首个受害者"
@@ -5647,6 +6359,16 @@
 	"DAC_Challenge_Puzzle_intro_quote"			"哈伯根、安纳西克斯、贾尔和恩诺即将开始最为危险的地盘抢夺大战。哈伯根对新暗巢垂涎已久，那里是艾布妈妈生前最常出没的地方。贾尔盯上了幽影港，试图对进出口进行控制。安纳西克斯把目标转向小瑞文泰尔，还有那里藏着的所有金钱和秘密。而恩诺……这个嘛，恩诺还是自己的行事风格，希望成为蛇鼠之窝的君王。"
 	"DAC_Challenge_Puzzle_intro_lore"			"想要成为艾布妈妈的继任者，除了简单的街头暴力外，还要历经千难万险……可能产生的种种混乱情境，即使是久经沙场的罪犯也无法预见。"
 
+	// City Crawl Complete
 	
+	"DAC_citycrawl_complete_hobgen"				"新暗巢牢牢在握，哈伯根在白色尖塔站稳了脚跟。现在，纵火精灵正在欢庆……丝毫没有意识到他会在接下来的数月中面临怎样艰难的选择。"
+	"DAC_citycrawl_complete_jull"				"贾尔用最为贾尔的方式庆贺自己对幽影港的统治：在残月大醉特醉一场。他喝得天昏地暗，甚至允许斧王重进酒吧。有小道消息说，小古此时正在写一本关于这声色犬马之夜的新书。"
+	"DAC_citycrawl_complete_enno"				"恩诺现如今毫无争议地成为了蛇鼠之王，他面临着一个艰难抉择……他是会安于现状做贫民窟的统治者？还是会试图将爪牙伸向更远的地方……只有拭目以待。"
+	"DAC_citycrawl_complete_anessix"			"安纳西克斯的手下出没于整个小瑞文泰尔，打造了一个由秘密与亲信组成的强大网络。但这个俗世恶魔并不满足……她在和瑞斯托王庭玩一场危险的游戏，如果他们发现了她的企图，她精心打造的一切都会化为灰烬。"
+	"DAC_citycrawl_complete_all"				"各地盘界线已然划分，而白色尖塔的故事才刚刚开始。这座卑乐之城的敌人和它背后的秘密一样数量惊人……而这一切大白于天下只是时间问题。"
+
+
 }
+	
+	
 

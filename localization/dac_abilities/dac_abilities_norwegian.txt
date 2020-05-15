@@ -1,4 +1,4 @@
-"lang"
+﻿"lang"
 { 
 	"Language" "norwegian" 
 	"Tokens" 
@@ -23,7 +23,7 @@
 
 		//FURION
 		"dac_ability_natures_prophet_summon_tree"								"Naturens vegne"
-		"dac_ability_natures_prophet_summon_tree_Description"					"Naturens profet tilkaller en treant. Denne treanten regnes som en druide."
+		"dac_ability_natures_prophet_summon_tree_Description"					"Naturens profet tilkaller en treant. Denne treanten regnes som en druide. Når Naturens profet har 3 stjerner, skapes treanten på fiendens side av brettet."
 		"dac_ability_natures_prophet_summon_tree_Lore"							"Enno har kontaktet sine små skogsvenner... dette kan bli et problem. – <i>O'nia, forvist forhandler fra Revtel</i>"
 
 		"dac_ability_natures_prophet_wrath_of_nature"							"Naturens vrede"
@@ -81,11 +81,11 @@
 
 		"dac_ability_axe_culling_blade"											"Slakterøks"
 		"dac_ability_axe_culling_blade_Description"								"Hvis Øx' mål har under {s:target_percent_health_threshold}% helse, dreper han det umiddelbart."
-		"dac_ability_axe_culling_blade_Lore"									"Axe is REALLY good at cutting people in half - <i>Goodkind, Axe's Bard</i>" 
+		"dac_ability_axe_culling_blade_Lore"									"Øx er VELDIG god til å dele folk i to. – <i>Venmøy, Øx' dikter</i>" 
 
 		"dac_ability_axe_counter_helix"											"Kontraspinn"
 		"dac_ability_axe_counter_helix_Description"								"Når Øx angripes, har han {s:spin_chance}% sjanse til å utføre et motangrep, som gjør {s:spin_damage} ren skade til alle fiender innen 1 rute."
-		"dac_ability_axe_counter_helix_Lore"									"I let him in the Sundered Moon once... after the bar fight I had to remodel the whole damn place. - <i>In which Jull talks about why Axe isn't allowed back in his bar</i>" 
+		"dac_ability_axe_counter_helix_Lore"									"Jeg slapp ham inn på Måneskjær en gang ... men etter slåsskampen måtte jeg renovere hele stedet. – <i>Jull forklarer hvorfor Øx er utestengt fra baren</i>" 
 
 		//RAZOR
 		"dac_ability_razor_plasma_field"										"Plasmafelt"
@@ -141,8 +141,8 @@
 		"dac_ability_shadow_shaman_voodoo_Lore"									"Han der vet virkelig hvordan man lager show! – <i>Grek viser profesjonell høflighet</i>"
 
 		"dac_ability_shadow_shaman_mass_serpent_ward"							"Slangevardene"
-		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Skyggesjamanen fanger en fiendtlig enhet ved å tilkalle opptil 4 slangevarder."
-		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"At least he's not turning people into chickens anymore - <i>O'nia, Fowl Mood</i>"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Skyggesjamanen fanger en fiendtlig enhet ved å tilkalle opptil 4 slangevarder. Når Skyggesjamanen har 3 stjerner, forhekser han også den fiendtlige enheten i {s:duration} sekunder."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"Gode nyheter, karer. Kylling er tilbake på menyen! – <i>Grillmester Hobgen</i>"
 
 		//ENIGMA
 		"dac_ability_enigma_midnight_pulse"										"Nattepuls"
@@ -166,7 +166,7 @@
 
 		//SLARDAR
 		"dac_ability_slardar_amplify_damage"									"Etsende dis"
-		"dac_ability_slardar_amplify_damage_Description"						"Slardar modifiserer fiendens rustning med {s:armor_reduction} i {s:duration} sekunder."
+		"dac_ability_slardar_amplify_damage_Description"						"Slardar modifies enemy armor by {s:armor_reduction} for {s:duration} seconds. At 3 stars, Slardar also bashes the target, dealing {s:bash_damage} Physical damage and stunning for {s:bash_duration} seconds."
 		"dac_ability_slardar_amplify_damage_Lore"								"Slark og jeg kunne gjøre forretninger sammen, så vi skal da kunne komme til en enighet også. – <i>Jull, amatørvinkjenner</i>"
 
 		//BEASTMASTER
@@ -176,7 +176,7 @@
 
 		//VENOMANCER
 		"dac_ability_venomancer_plague_ward"									"Pestvarde"
-		"dac_ability_venomancer_plague_ward_Description"						"Eitermann tilkaller {s:num_wards} pestvarde som slåss ved hans side. Pestvarder påfører målet en stabel med gift."
+		"dac_ability_venomancer_plague_ward_Description"						"Eitermann tilkaller {s:num_wards} pestvarde som slåss ved hans side. Pestvarder påfører målet en stabel med gift og har {s:ward_magic_resist} % magiresistens."
 		"dac_ability_venomancer_plague_ward_Lore"								"Skapelsene dine er en vakker skue. La meg hjelpe deg med å dyrke hagen din... – <i>Turath lærer seg at man kommer langt med smiger</i>"
 
 		"dac_ability_venomancer_venomous_gale"									"Giftig kuling"
@@ -185,7 +185,7 @@
 
 		"dac_ability_venomancer_poison_sting"									"Giftig bitt"
 		"dac_ability_venomancer_poison_sting_Description"						"PASSIV: Hvert angrep påfører målet en stabel med gift."
-		"dac_ability_venomancer_poison_sting_Lore"								"Keep that thing away from Enno, more poison is the last thing the little runt needs... - <i>Hobgen, Not A Fan Of Being Poisoned</i>"
+		"dac_ability_venomancer_poison_sting_Lore"								"Hold den tingen unna Enno. Mer gift er det siste den knotten trenger. – <i>Hobgen er ikke så glad i å bli forgiftet</i>"
 
 		//TEMPLAR ASSASSIN
 		"dac_ability_templar_assassin_refraction"								"Refraksjon"
@@ -220,7 +220,7 @@
 		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davion, du kaster bort talentet ditt på noen som ikke setter pris på skjønnheten i det du gjør. – <i>Hobgen prøver å lokke til seg arbeidskraft</i>"
 
 		"dac_ability_dragon_knight_elder_dragon_form"							"Urdrageform"
-		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>LÅST OPP AV DRAGEALLIANSEN</i><br>PASSIV: I starten av striden skaper Drageridderen seg om til én av tre kraftige urdrager, noe som øker bevegelseshastigheten med {s:bonus_movement_speed}%, angrepsskaden med {s:bonus_attack_damage} og gir ham nye krefter.<br><br>Grønn drage:\nAngrep gjør {s:corrosive_breath_damage} giftskade per sekund i {s:corrosive_breath_duration} sekunder.<br><br>Rød drage:\nI tillegg til å forgifte fiender, skader angrep alle fiendtlige enheter {s:splash_radius} rute unna målet med {s:splash_damage_percent}% skade.<br><br>Blå drage:\nI tillegg til å forgifte fiender, sakker angrep bevegelseshastighet med {s:frost_bonus_movement_speed}% og angrepshastighet med {s:frost_bonus_attack_speed}% på fiendtlige enheter {s:frost_aoe} rute unna målet i {s:frost_duration} sekunder."
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>LÅST OPP AV DRAGEALLIANSEN</i><br>PASSIV: I starten av striden skaper Drageridderen seg om til én av tre kraftige urdrager, noe som øker bevegelseshastigheten med {s:bonus_movement_speed} %, angrepsskaden med {s:bonus_attack_damage} og gir ham nye krefter.<br><br>Grønn drage:\nAngrep gjør {s:corrosive_breath_damage} skade per sekund i {s:corrosive_breath_duration} sekunder og forgifter målet.<br><br>Rød drage:\nI tillegg til å forgifte fiender, skader angrep alle fiendtlige enheter {s:splash_radius} rute unna målet med {s:splash_damage_percent} % skade.<br><br>Blå drage:\nI tillegg til å forgifte fiender, sakker angrep bevegelseshastighet med {s:frost_bonus_movement_speed} % og angrepshastighet med {s:frost_bonus_attack_speed} % på fiendtlige enheter {s:frost_aoe} rute unna målet i {s:frost_duration} sekunder."
 		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"Kaden har sagt mye bra om deg, la oss håpe at rosen er velfortjent. – <i>Wren, dragevenn</i>"
 
 		//ENCHANTRESS
@@ -235,7 +235,7 @@
 
 		//BATRIDER
 		"dac_ability_batrider_sticky_napalm"									"Klebrig napalm"
-		"dac_ability_batrider_sticky_napalm_Description"						"Flygerytteren kaster ut klebrig olje, som dynker bakken opptil {s:radius} ruter unna treffpunktet. Oljen forsterker Flygerytterens angrep med {s:damage} skade per stabel, og sakker bevegelses- og angrepshastigheten til fiender med {s:movement_speed_pct}%.<br><br>Flere forekomster av Klebrig napalm fortsetter å øke skaden og sakkingsprosentene, opptil en stabel på {s:max_stacks}."
+		"dac_ability_batrider_sticky_napalm_Description"						"Flygerytteren kaster ut flammende, klebrig olje, som dynker bakken opptil {s:radius} ruter unna treffpunktet. Oljen forsterker Flygerytterens angrep med {s:damage} skade per stabel, og sakker bevegelses- og angrepshastigheten til fiender med {s:movement_speed_pct} %. Når Flygerytteren har 3 stjerner, setter han også fyr på disse fiendene i {s:fire_duration} sekunder.<br><br>Flere forekomster av Klebrig napalm fortsetter å øke skaden og sakkingsprosentene, opptil en stabel på {s:max_stacks}."
 		"dac_ability_batrider_sticky_napalm_Lore"								"Jeg elsker denne fyren. ELSKER HAM! – <i>Hobgen, pyroman</i>"
 
 		//DOOM BRINGER
@@ -255,7 +255,7 @@
 
 		// Lycan
 		"dac_ability_lycan_wolf_spawn_shift"									"Hamskifte"
-		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lykan tilkaller to ulver og forvandles så han får {s:hp_per}% ekstra maks helse, bevegelseshastigheten økes til {s:speed} og han får {s:crit_chance}% sjanse for kritiske angrep med {s:crit_bonus}% skade."
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan summons {s:summon_count} wolves and transforms and gains {s:hp_per}% to his max health, his move speed is boosted to {s:speed} and gains {s:crit_chance}% chance to Critical Hit for {s:crit_bonus}% Damage."
 		"dac_ability_lycan_wolf_spawn_shift_Lore"								"Hjelp meg, Lykan. Hjelp meg med å ta hevn. – <i>Wren appellerer til Lykans menneskelige side</i>"
 		
 		// LONE DRUID
@@ -271,7 +271,7 @@
 
 		//OGRE MAGI
 		"dac_ability_ogre_magi_bloodlust"										"Blodtørst"
-		"dac_ability_ogre_magi_bloodlust_Description"							"Lykketrollet vekker et raseri i en alliert enhet, noe som øker dens bevegelseshastighet med {s:bonus_movement_speed}% og angrepshastighet med {s:bonus_attack_speed}%. Hvis den brukes på Lykketrollet selv, er den ekstra angrepshastigheten {s:self_bonus}% i stedet."
+		"dac_ability_ogre_magi_bloodlust_Description"							"Lykketrollet vekker et raseri i en alliert enhet, noe som øker dens bevegelseshastighet med {s:bonus_movement_speed} % og angrepshastighet med {s:bonus_attack_speed} %. Hvis den brukes på Lykketrollet selv, er den ekstra angrepshastigheten {s:self_bonus} % i stedet. Lykketrollet har {s:multicast_chance} % sjanse til å bruke denne evnen på 2 mål."
 		"dac_ability_ogre_magi_bloodlust_Lore"									"Det trollet er verdt dobbelt så mye som han tar betalt. Heldigvis er han også en idiot. – <i>O'nia, tilbudsjeger</i>"
 
 		// MAGNUS
@@ -325,7 +325,7 @@
 
 		//TUSK
 		"dac_ability_tusk_walrus_punch"											"Hvalross-SLAG!"
-		"dac_ability_tusk_walrus_punch_Description"								"Tinden slår til med sitt mektige hvalrosslag, et kritisk slag som gjør {s:critical_damage}% skade og kaster målet opp i luften i {s:air_time} sekund. Når målet lander, sakkes det med {s:move_slow}% i {s:slow_duration} sekunder. Tinden kan ikke drepes mens han slår."
+		"dac_ability_tusk_walrus_punch_Description"								"Tinden slår til med sitt mektige hvalrosslag, et kritisk slag som gjør {s:critical_damage} % skade og kaster målet opp i luften i {s:air_time} sek. Når målet lander, sakkes det med {s:move_slow} % i {s:slow_duration} sekunder og mister {s:attack_slow} angrepshastighet. Tinden kan ikke drepes mens han slår."
 		"dac_ability_tusk_walrus_punch_Lore"									"Vi var venner en gang i tiden. Vi får snart se om han er her for å hjelpe meg eller denge meg. – <i>Jull tenker tilbake på sin ungdom</i>"
 		
 		
@@ -366,7 +366,7 @@
 		
 		//BLOODSEEKER
 		"dac_ability_bloodseeker_blood_rage"									"Blodtåke"
-		"dac_ability_bloodseeker_blood_rage_Description"						"PASSIV: Hvert sekund tar Blodstrupen like mye skade som {s:self_dmg_pct}% av maks helse.<br><br>Etter hvert som han mister helse, får han angrepshastighet, opptil maks {s:attack_speed_bonus_max} ved {s:min_health_pct}% helse.<br><br>Når en tilstøtende fiende dør, får han tilbake {s:heal_pct}% av maks helse."
+		"dac_ability_bloodseeker_blood_rage_Description"						"PASSIV: Blodstrupen får opptil {s:attack_speed_bonus_max} angrepshastighet etter hvert som fiendens helse faller til {s:min_health_pct}%.<br><br>Når Blodstrupen dreper et mål, får han tilbake {s:heal_pct}% av målets maks helse."
 		"dac_ability_bloodseeker_blood_rage_Lore"								"Hvis det er noe jeg har lært meg i løpet av karrieren, er det at folk elsker blod. – <i>Grek, overbevisende arrangør</i>"
 		
 		//ARC WARDEN
@@ -376,7 +376,7 @@
 		
 		//ARC WARDEN
 		"dac_ability_arc_warden_tempest_double_no_items"						"Dobbeltsyn"
-		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Bruvorden skaper en kopi av seg selv med samme helse som han har for øyeblikket."
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Bruvorden skaper en kopi av seg selv med samme helse som han har for øyeblikket. Kloner gjør {s:clone_dmg_reduction}% mindre skade."
 		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"Han bringer med seg skapelsens mysterier. – <i>Turath, kryptisk profet</i>"
 
 		//MIRANA
@@ -410,7 +410,7 @@
 
 		// Lone Druid Bear
 		"dac_ability_lone_druid_spirit_bear_entangle"							"Viklende klør"
-		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Åndebjørnens angrep har en sjanse til å vikle fast målet, noe som lammer det."
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Åndebjørnens angrep har en sjanse til å vikle fast målet, noe som rotfester og avvæpner det."
 		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
 
 		// THUNDER LIZARD BLOODLUST
@@ -454,7 +454,7 @@
 
 		// LEGION COMMANDER
 		"dac_ability_legion_commander_duel"											"Duell"
-		"dac_ability_legion_commander_duel_description"								"Legionkommandanten utfordrer fienden med lavest helse innen 1 rute, og de tvinges til å angripe hverandre i {s:stun_duration} sek. Ingen av heltene kan bruke evner. Hvis en av heltene dør i løpet av duellen, får den seirende helten permanent {s:winner_bonus_damage} ekstra skade. ([20/32/48] ekstra skade i knockout)"
+		"dac_ability_legion_commander_duel_description"								"Legionkommandanten utfordrer fienden med lavest helse innen 1 rute, og de tvinges til å angripe hverandre i {s:stun_duration} sek. Ingen av heltene kan bruke evner eller bli helbredet. Hvis en av heltene dør i løpet av duellen, får den seirende helten permanent {s:winner_bonus_damage} ekstra skade. ([20/32/48] ekstra skade i knockout)"
 		"dac_ability_legion_commander_duel_lore"									"Du trenger ikke ha den holdningen, Tresdin. Jeg kan hjelpe deg med å finne Rix. – <i>Anessix holder hodet kaldt under press</i>"
 
 		"dac_ability_legion_commander_will_of_the_bullsnake"						"Oksesnokens vilje"
@@ -476,13 +476,13 @@
 
 		// WEAVER
 		"dac_ability_weaver_shukuchi"												"Shukuchi"
-		"dac_ability_weaver_shukuchi_description"									"Veveren gjør seg usynlig, så den ikke kan angripes, og beveger seg raskt gjennom et mål opptil {s:distance_cells} ruter unna. Veveren gjør {s:damage} skade på hver fiende den beveger seg gjennom."
+		"dac_ability_weaver_shukuchi_description"									"Veveren gjør seg usynlig, så den ikke kan angripes, og beveger seg raskt gjennom et mål opptil {s:distance_cells} ruter unna. Veveren gjør {s:damage} skade på hver fiende den beveger seg gjennom. I {s:mana_break_duration} sekunder etterpå brenner Veverens angrep {s:mana_per_hit} mana og gjør {s:damage_per_burn} skade per brente mana."
 		"dac_ability_weaver_shukuchi_lore"											"Veveren, sammen skal vi gjenskape verden. – <i>Turath, sprø nok til å gjøre det</i>"
 
 		// BROODMOTHER
 		"dac_ability_broodmother_spawn_spiderlings"									"Utklekket plan"
 		"dac_ability_broodmother_spawn_spiderlings_description"						"Vevdronninga sprøyter inn ungene sine i en fiendtlig enhet, noe som gjør {s:damage} skade. Hvis målet dør, klekkes det {s:num_spiderlings} små edderkopper. De små edderkoppene kan ikke angripes, gjør lite skade og har 1 helse."
-		"dac_ability_broodmother_spawn_spiderlings_lore"							"Look I may burn people alive, but at least I'm not hatching eggs in people... - <i>In which Hobgen equivocates"
+		"dac_ability_broodmother_spawn_spiderlings_lore"							"Jeg brenner kanskje folk levende, men jeg legger i det minste ikke egg i folk. – <i>Hobgen kommer med unnskyldninger</i>"
 
 		"dac_ability_broodmother_spin_web"											"Spindelvev"
 		"dac_ability_broodmother_spin_web_description"								"Vevdronninga spinner et spindelvev over en fiendtlig enhet, som er {s:radius} ruter bredt. Fiender i spindelvevet mister {s:debuff_attack_speed} angrepshastighet, {s:debuff_speed}% bevegelseshastighet og {s:debuff_casting_speed}% brukshastighet."
@@ -494,7 +494,7 @@
 		"dac_ability_wisp_tether_lore"												"<i>Enno stirrer spent på Io</i>"
 
 		"dac_ability_wisp_relocate"													"Omplassering"
-		"dac_ability_wisp_relocate_description"										"Io teleporterer seg bort i {s:relocate_time_away} sekunder for å gjenopplive en død helt. De to heltene returnerer med full helse og renset for negative effekter."
+		"dac_ability_wisp_relocate_description"										"Io teleports away for {s:relocate_time_away} seconds to revive a dead hero. The two units return with full health and are purged of negative effects. At 3 stars, Io also resets the dead hero's cooldowns."
 		"dac_ability_wisp_relocate_lore"											"<i>Io stirrer tilbake</i>"
 
 		// BRISTLEBACK	
@@ -560,7 +560,7 @@
 		// MANGO TREE
 		"dac_ability_mango_tree_mango_throw"										"Mangosesong"
 		"dac_ability_mango_tree_mango_throw_description"							"I starten av striden og hvert {s:mango_production_interval}. sekund etterpå, kaster mangotreet en mango opptil {s:radius} ruter unna. Enheter som rører en mango, spiser den og får 50 mana og 100 helse."
-		"dac_ability_mango_tree_mango_throw_lore"									"Don't look at me like that, it's just fruit - <i>In which Anessix desperately fights against stereotypes</i>"
+		"dac_ability_mango_tree_mango_throw_lore"									"Ikke se sånn på meg, det er bare frukt. – <i>Anessix kjemper desperat mot stereotypier</i>"
 
 		// UNDERLORDS
 
@@ -613,7 +613,7 @@
 		"dac_ability_hobgen_supercharged_description_lore"							"Noen ganger trenger folk bare litt motivasjon. – <i>Hobgen oppildner mannskapet, både bokstavelig og billedlig</i>"
 
 		"dac_ability_hobgen_airstrike"												"Vennlig ild"
-		"dac_ability_hobgen_airstrike_description"									"Hobgens kompiser kaster {s:strikes} bomber ut på slagmarken, som gjør {s:damage} skade på fiendtlige enheter som treffes direkte. Fiender som rammes av eksplosjonene, tar halv skade."
+		"dac_ability_hobgen_airstrike_description"									"Hobgens kompiser kaster {s:strikes} bomber ut på slagmarken, som gjør {s:damage} skade på fiender som rammes av eksplosjonen."
 		"dac_ability_hobgen_airstrike_description_lore"								"Brenn alt! – <i>Hobgen, manisk pyroman</i>"
 
 		"dac_ability_hobgen_letsgocrazy"											"Fyr og flamme"
@@ -659,5 +659,17 @@
 		"dac_ability_enno_airbrawl"													"Fullt angrep"
 		"dac_ability_enno_airbrawl_description"										"Enno går til fullt angrep på alle fiender, noe som påfører {s:stacks} stabler med gift, gjør {s:fight_damage} fysisk skade og lammer dem i {s:land_stun_duration} sekunder."
 		"dac_ability_enno_airbrawl_lore"											"FÅ DENNE HÅRETE DRITTSEKKEN VEKK FRA MEG! – <i>Hobgen får en leksjon i ydmykhet</i>"
+
+		// 3star abilities
+		"dac_ability_3star"															"Three Star Effect"
+
+		"dac_ability_warlock_3star"													"Warlock 3 Star Effect"
+		"dac_ability_warlock_3star_Description"										"At three stars, Warlock prevents friendly Demons from silencing each other when casting abilities."
+
+		"dac_ability_razor_3star"													"Razor 3 Star Effect"
+		"dac_ability_razor_3star_Description"										"At three stars, each time Razor attacks an enemy, he steals {s:stolen_dmg} Attack Damage, up to {s:max_stacks} times. This is reset for Razor, but not the enemy, when changing targets."
+
+		"dac_ability_chaos_knight_3star"													"Chaos Knight 3 Star Effect"
+		"dac_ability_chaos_knight_3star_Description"								"At three stars, Chaos Knight's allied Knights always count as adjacent to a friendly Knight."
 	}
 }

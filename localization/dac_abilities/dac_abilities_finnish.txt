@@ -1,4 +1,4 @@
-"lang"
+﻿"lang"
 { 
 	"Language" "finnish" 
 	"Tokens" 
@@ -23,7 +23,7 @@
 
 		//FURION
 		"dac_ability_natures_prophet_summon_tree"								"Nature's Call"
-		"dac_ability_natures_prophet_summon_tree_Description"					"Nature's Prophet kutsuu treantin. Treantti on druidi."
+		"dac_ability_natures_prophet_summon_tree_Description"					"Nature's Prophet kutsuu treantin. Treantti on druidi. Kun Nature's Prophet on 3 tähden sankari, treantti syntyy vihollisen puolelle pelilautaa."
 		"dac_ability_natures_prophet_summon_tree_Lore"							"Enno on ottanut yhteyttä metsän eläimiin. Se voi tietää ongelmia. – <i>O'nia, Revtelin karkotettu kauppias</i>"
 
 		"dac_ability_natures_prophet_wrath_of_nature"							"Wrath of Nature"
@@ -94,7 +94,7 @@
 
 		//CRYSTAL MAIDEN
 		"dac_ability_crystal_maiden_brilliance_aura"							"Arcane Aura"
-		"dac_ability_crystal_maiden_brilliance_aura_Description"				"PASSIVIINEN: Crystal Maiden antaa kaikille liittolaisille {s:mana_regen} mananpalautumista joka {s:interval} sekunti."
+		"dac_ability_crystal_maiden_brilliance_aura_Description"				"PASSIIVINEN: Crystal Maiden antaa kaikille liittolaisille {s:mana_regen} mananpalautumista joka {s:interval} sekunti."
 		"dac_ability_crystal_maiden_brilliance_aura_Lore"						"Ota selvää, jahtaako se minua vai Turathia. – <i>Jull, Jääraunioiden trokari</i>"
 
 		"dac_ability_crystal_maiden_frostbite"									"Frostbite"
@@ -141,8 +141,8 @@
 		"dac_ability_shadow_shaman_voodoo_Lore"									"On siinä varsinainen showmies! – <i>Grek kehuu työkaveria</i>"
 
 		"dac_ability_shadow_shaman_mass_serpent_ward"							"Mass Serpent Ward"
-		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Shadow Shaman saartaa vihollisen kutsumalla jopa 4 käärmettä."
-		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"Ainakaan se ei enää muuta ketään kanaksi – <i>O'nia, kypsä kanoihin</i>"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Shadow Shaman saa vihollisen nalkkiin kutsumalla jopa 4 käärmettä. Kun Shadow Shaman on 3 tähden sankari, se myös kiroaa vihollisen {s:duration} sekunniksi."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"Hyviä uutisia, pojat! Kana on taas listalla! – <i>Hobgen, kelmi keittiössä</i>"
 
 		//ENIGMA
 		"dac_ability_enigma_midnight_pulse"										"Midnight Pulse"
@@ -166,7 +166,7 @@
 
 		//SLARDAR
 		"dac_ability_slardar_amplify_damage"									"Corrosive Haze"
-		"dac_ability_slardar_amplify_damage_Description"						"Slardar muuttaa {s:duration} sekunniksi vihollisen panssaria {s:armor_reduction}."
+		"dac_ability_slardar_amplify_damage_Description"						"Slardar muokkaa vihollisen panssaria {s:armor_reduction} yksiköllä {s:duration} sekunnin ajan. Kolmen tähden Slardar myös iskee kohteeseen ja jakaa {s:bash_damage} fyysistä vahinkoa sekä tainnuttaa {s:bash_duration} sekunniksi."
 		"dac_ability_slardar_amplify_damage_Lore"								"Yhteistyö sujui Slarkin kanssa hyvin, joten kyllä mekin sopimukseen pääsemme. – <i>Jull, kiljufani</i>"
 
 		//BEASTMASTER
@@ -176,7 +176,7 @@
 
 		//VENOMANCER
 		"dac_ability_venomancer_plague_ward"									"Plague Ward"
-		"dac_ability_venomancer_plague_ward_Description"						"Venomancer kutsuu {s:num_wards} ruttoluikeroa taistelemaan kanssaan. Ruttoluikerot käyttävät kohteeseen annoksen myrkkyä."
+		"dac_ability_venomancer_plague_ward_Description"						"Venomancer kutsuu {s:num_wards} ruttoluikeroa taistelemaan kanssaan. Ruttoluikerot käyttävät kohteeseen annoksen myrkkyä, ja niillä on {s:ward_magic_resist} % loitsunvastustusta."
 		"dac_ability_venomancer_plague_ward_Lore"								"Luomuksesi ovat kauniita. Autan sinua puutarhanhoidossa... – <i>Turath tajuaa, että mielistelyllä pääsee pitkälle</i>"
 
 		"dac_ability_venomancer_venomous_gale"									"Venomous Gale"
@@ -220,7 +220,7 @@
 		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davion, ei saa heittää helmiä sioille. – <i>Hobgen yrittää metsästää lahjakkuuksia</i>"
 
 		"dac_ability_dragon_knight_elder_dragon_form"							"Elder Dragon Form"
-		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>LOHIKÄÄRMEIDEN LIITTOUMAN AVAAMA</i><br>PASSIIVINEN: Dragon Knight ottaa taistelun aluksi yhden kolmesta vanhojen ja voimakkaiden lohikäärmeiden muodoista, mikä lisää sen liikenopeutta {s:bonus_movement_speed} % ja hyökkäysvahinkoa {s:bonus_attack_damage} ja antaa sille uusia voimia.<br><br>Vihreä lohikäärme:\nhyökkäykset tekevät {s:corrosive_breath_damage} myrkkyvahinkoa sekunnissa {s:corrosive_breath_duration} sekunnin ajan.<br><br>Punainen lohikäärme:\nvihollisten myrkyttämisen lisäksi se vahingoittaa kaikkia vihollisia {s:splash_radius} ruudun säteellä kohteesta ja tekee {s:splash_damage_percent} % vahinkoa.<br><br>Sininen lohikäärme:\n vihollisten myrkyttämisen lisäksi se hidastaa {s:frost_duration} sekunniksi {s:frost_aoe} ruudun säteellä olevien vihollisten liikenopeutta {s:frost_bonus_movement_speed} % ja hyökkäysnopeutta {s:frost_bonus_attack_speed} %."
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>LOHIKÄÄRMEIDEN LIITTOUMAN AVAAMA</i><br>PASSIIVINEN: Dragon Knight ottaa taistelun aluksi yhden kolmesta vanhojen ja voimakkaiden lohikäärmeiden muodoista, mikä lisää sen liikenopeutta {s:bonus_movement_speed} % ja hyökkäysvahinkoa {s:bonus_attack_damage} ja antaa sille uusia voimia.<br><br>Vihreä lohikäärme:\nhyökkäykset tekevät {s:corrosive_breath_damage} myrkkyvahinkoa sekunnissa {s:corrosive_breath_duration} sekunnin ajan ja myrkyttää kohteen.<br><br>Punainen lohikäärme:\nvihollisten myrkyttämisen lisäksi se vahingoittaa kaikkia vihollisia {s:splash_radius} ruudun säteellä kohteesta ja tekee {s:splash_damage_percent} % vahinkoa.<br><br>Sininen lohikäärme:\n vihollisten myrkyttämisen lisäksi se hidastaa {s:frost_duration} sekunniksi {s:frost_aoe} ruudun säteellä olevien vihollisten liikenopeutta {s:frost_bonus_movement_speed} % ja hyökkäysnopeutta {s:frost_bonus_attack_speed} %."
 		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"Kaden kehui sinua. Toivottavasti aiheesta. – <i>Wren, lohikäärmeiden ystävä</i>"
 
 		//ENCHANTRESS
@@ -235,7 +235,7 @@
 
 		//BATRIDER
 		"dac_ability_batrider_sticky_napalm"									"Sticky Napalm"
-		"dac_ability_batrider_sticky_napalm_Description"						"Batrider heittää tahmeaa öljyä, joka peittää maan {s:radius} ruudun säteellä osumakohdasta. Öljy lisää Batriderin iskuun {s:damage} vahinkoa kertaa kohti sekä hidastaa vihollisten liike- ja hyökkäysnopeutta {s:movement_speed_pct} %.<br><br>Sticky Napalmin seuraavat käyttökerrat lisäävät edelleen vahinkoa ja laskevat prosentteja enintään {s:max_stacks} kertaa."
+		"dac_ability_batrider_sticky_napalm_Description"						"Batrider heittää tahmeaa öljyä, joka peittää maan {s:radius} ruudun säteellä osumakohdasta. Öljy lisää Batriderin iskuun {s:damage} vahinkoa kertaa kohti sekä hidastaa vihollisten liike- ja hyökkäysnopeutta {s:movement_speed_pct} %.Kun Batrider on 3 tähden sankari, se myös sytyttää viholliset tuleen {s:fire_duration} sekunniksi.<br><br>Sticky Napalmin seuraavat käyttökerrat lisäävät edelleen vahinkoa ja hidastuksen määrää enintään {s:max_stacks} kertaa."
 		"dac_ability_batrider_sticky_napalm_Lore"								"Mahtava tyyppi. Kerrassaan mahtava. –<i>Hobgen, pyromaanikko</i>"
 
 		//DOOM BRINGER
@@ -255,7 +255,7 @@
 
 		// Lycan
 		"dac_ability_lycan_wolf_spawn_shift"									"Shapeshift"
-		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan kutsuu kaksi sutta, muuntautuu ja saa {s:hp_per} % lisää enimmäisterveyteen. Sen kasvanut liikenopeus on {s:speed}, ja sillä on {s:crit_chance} prosentin mahdollisuus kriittiseen osumaan {s:crit_bonus} % vahingolla."
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan kutsuu {s:summon_count} sutta, muuntautuu ja saa {s:hp_per} % lisää enimmäisterveyteensä. Sen kasvanut liikenopeus on {s:speed}, ja sillä on {s:crit_chance} prosentin mahdollisuus kriittiseen osumaan {s:crit_bonus} % vahingolla."
 		"dac_ability_lycan_wolf_spawn_shift_Lore"								"Auta minua kostamaan, Lycan. – <i>Wren vetoaa Lycanin inhimillisyyteen</i>"
 		
 		// LONE DRUID
@@ -271,7 +271,7 @@
 
 		//OGRE MAGI
 		"dac_ability_ogre_magi_bloodlust"										"Bloodlust"
-		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Magi yllyttää liittolaisen kiihkoon siten, että sen liikenopeus kasvaa {s:bonus_movement_speed} % ja hyökkäysnopeus lisääntyy {s:bonus_attack_speed} %. Jos loitsua käytetään Ogre Magiin, hyökkäysnopeus on sen sijaan {s:self_bonus} %."
+		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Magi yllyttää liittolaisen kiihkoon siten, että sen liikenopeus kasvaa {s:bonus_movement_speed} % ja hyökkäysnopeus lisääntyy {s:bonus_attack_speed} %. Jos loitsua käytetään Ogre Magiin, hyökkäysnopeus on sen sijaan {s:self_bonus} %. Ogre Magilla on {s:multicast_chance} % mahdollisuus langettaa Multicastin avulla kyky kahteen kohteeseen."
 		"dac_ability_ogre_magi_bloodlust_Lore"									"Velho on kaksi kertaa hintansa väärti. Onneksi se on myös idiootti. – <i>O'nia, tarjousten metsästäjä</i>"
 
 		// MAGNUS
@@ -325,7 +325,7 @@
 
 		//TUSK
 		"dac_ability_tusk_walrus_punch"											"Walrus PUNCH!"
-		"dac_ability_tusk_walrus_punch_Description"								"Tusk täräyttää mahtavan mursulyönnin. Se on niin voimakas, että se tekee {s:critical_damage} % vahinkoa ja lennättää uhrin ilmaan {s:air_time} sekunniksi. Uhri hidastuu {s:move_slow} % {s:slow_duration} sekunniksi, kun se putoaa maahan. Lyönnin aikaan Tuskia ei voi tappaa."
+		"dac_ability_tusk_walrus_punch_Description"								"Tusk täräyttää mahtavan mursulyönnin. Se on niin voimakas, että se tekee {s:critical_damage} % vahinkoa ja lennättää uhrin ilmaan {s:air_time} sekunniksi. Uhri hidastuu {s:move_slow} % {s:slow_duration} sekunniksi, kun se putoaa maahan ja menettää {s:attack_slow} hyökkäysnopeudestaan. Lyönnin aikaan Tuskia ei voi tappaa."
 		"dac_ability_tusk_walrus_punch_Lore"									"Olimme kerran kavereita. Kohta nähdään, tuliko hän auttamaan vai lyömään. – <i>Jull muistelee nuoruuttaan</i>"
 		
 		
@@ -366,7 +366,7 @@
 		
 		//BLOODSEEKER
 		"dac_ability_bloodseeker_blood_rage"									"Bloodrage"
-		"dac_ability_bloodseeker_blood_rage_Description"						"PASSIIVINEN: Bloodseeker ottaa vahinkoa joka sekunti joka vastaa {s:self_dmg_pct} % sen enimmäisterveydestä.<br><br>Menettäessään terveyttä se saa jopa {s:attack_speed_bonus_max} % lisähyökkäysnopeutta {s:min_health_pct} % terveydellä.<br><br>Kun viereinen vihollinen kuolee, se saa {s:heal_pct} % enimmäisterveydestään takaisin."
+		"dac_ability_bloodseeker_blood_rage_Description"						"PASSIIVINEN: Kun Bloodseekerin vihollinen menettää terveyttä, Bloodseeker saa jopa {s:attack_speed_bonus_max} hyökkäysnopeutta (enimmäismäärä) {s:min_health_pct} % terveydellä.<br><br>Kun Bloodseeker tappaa kohteen, se saa {s:heal_pct} % sen enimmäisterveydestä."
 		"dac_ability_bloodseeker_blood_rage_Lore"								"Jos minä jotain olen urallani oppinut, niin sen, että kansa janoaa verta. Palkkaa hänet. – <i>Grek, päättäväinen promoottori</i>"
 		
 		//ARC WARDEN
@@ -376,7 +376,7 @@
 		
 		//ARC WARDEN
 		"dac_ability_arc_warden_tempest_double_no_items"						"Tempest Double"
-		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Arc Warden luo kopion itsestään senhetkisellä terveydellä."
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Arc Warden luo kopion itsestään senhetkisellä terveydellä. Kloonit tekevät {s:clone_dmg_reduction} % vähemmän vahinkoa."
 		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"Hän tuo mukanaan luomisen ihmeet. – <i>Turath, kryptinen profeetta</i>"
 
 		//MIRANA
@@ -410,7 +410,7 @@
 
 		// Lone Druid Bear
 		"dac_ability_lone_druid_spirit_bear_entangle"							"Entangling Claws"
-		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Spirit Bearin hyökkäyksillä voi kietoa ja tainnuttaa kohteen."
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Spirit Bearin hyökkäyksillä on mahdollisuus kietoa ja juurruttaa kohde ja riisua se aseista."
 		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
 
 		// THUNDER LIZARD BLOODLUST
@@ -454,7 +454,7 @@
 
 		// LEGION COMMANDER
 		"dac_ability_legion_commander_duel"											"Duel"
-		"dac_ability_legion_commander_duel_description"								"Legion Commander kohdistaa hyökkäyksenä 1 ruudun päässä olevaan vähiten terveyttä omaavaan viholliseen, ja niiden pitää hyökätä toistensa kimppuun {s:stun_duration} sekunnin ajan. Kumpikaan sankareista ei voi käyttää kykyjä. Jos jompikumpi kuolee taistelun aikana, kaksinkamppailun voittava sankari saa {s:winner_bonus_damage} pysyvää lisävahinkoa. ([20/32/48] lisävahinkoa Tyrmäys-pelitilassa.)"
+		"dac_ability_legion_commander_duel_description"								"Legion Commander kohdistaa hyökkäyksenä 1 ruudun päässä olevaan vähiten terveyttä omaavaan viholliseen, ja niiden pitää hyökätä toistensa kimppuun {s:stun_duration} sekunnin ajan. Kumpikaan sankareista ei voi käyttää kykyjä, eikä parantua. Jos jompikumpi kuolee taistelun aikana, kaksinkamppailun voittava sankari saa {s:winner_bonus_damage} pysyvää lisävahinkoa. ([20/32/48] lisävahinkoa Tyrmäys-pelitilassa.)"
 		"dac_ability_legion_commander_duel_lore"									"Ei tarvitse seisoa asennossa, Tresdin... Voin auttaa sinua löytämään Rixin. – <i>Anessix, tyynenä paineen alla</i>"
 
 		"dac_ability_legion_commander_will_of_the_bullsnake"						"Will of the Bullsnake"
@@ -476,7 +476,7 @@
 
 		// WEAVER
 		"dac_ability_weaver_shukuchi"												"Shukuchi"
-		"dac_ability_weaver_shukuchi_description"									"Weaver häviää näkyvistä eikä sen kimppuun voi hyökätä. Se liikkuu nopeasti jopa {s:distance_cells} ruudun päässä olevan kohteen läpi tehden {s:damage} vahinkoa kaikkiin vihollisiin, joiden läpi se kulkee."
+		"dac_ability_weaver_shukuchi_description"									"Weaver häviää näkyvistä, eikä sen kimppuun voi hyökätä. Se liikkuu nopeasti jopa {s:distance_cells} ruudun päässä olevan kohteen läpi ja tekee {s:damage} vahinkoa kaikkiin vihollisiin, joiden läpi se kulkee. {s:mana_break_duration} sekuntia tämän jälkeen Weaverin hyökkäykset polttavat {s:mana_per_hit} manaa ja tekevät {s:damage_per_burn} vahinkoa poltettua manaa kohti."
 		"dac_ability_weaver_shukuchi_lore"											"Weaver, yhdessä teemme maailman uusiksi. –<i>Turath, tarpeeksi hullu tehdäkseen sen</i>"
 
 		// BROODMOTHER
@@ -486,7 +486,7 @@
 
 		"dac_ability_broodmother_spin_web"											"Spin Web"
 		"dac_ability_broodmother_spin_web_description"								"Broodmother kutoo {s:radius} ruudun kokoisen verkon vihollisen päälle. Verkossa olevat viholliset menettävät {s:debuff_attack_speed} hyökkäysnopeutta, {s:debuff_speed} % liikenopeutta ja {s:debuff_casting_speed} % langetusnopeutta."
-		"dac_ability_broodmother_spin_web_lore"										"En vissiin voi palkata jälkeläisiäsi kieputtamaan minulle vähän silkkiä? Olen melko varma, etteivät lapsityölait koske hämähäkkejä. – <i>Carl, eettinen räätäli</i>"
+		"dac_ability_broodmother_spin_web_lore"										"En vissiin voi palkata jälkeläisiäsi kieputtamaan minulle vähän silkkiä? Olen melko varma, etteivät lapsityölait koske hämähäkkejä. – <i>Carl, eettinen vaatturi</i>"
 
 		// WISP
 		"dac_ability_wisp_tether"													"Tether"
@@ -494,7 +494,7 @@
 		"dac_ability_wisp_tether_lore"												"<i>Enno tuijottaa Io:ta tarkkaavaisesti</i>"
 
 		"dac_ability_wisp_relocate"													"Relocate"
-		"dac_ability_wisp_relocate_description"										"Io teleporttaa pois {s:relocate_time_away} sekunniksi elvyttääkseen kuolleen sankarin. Nämä kaksi yksikköä palaavat täydellä terveydellä ja negatiivisista vaikutuksista puhdistettuna."
+		"dac_ability_wisp_relocate_description"										"Io teleporttaa pois {s:relocate_time_away} sekunniksi elvyttääkseen kuolleen sankarin. Nämä kaksi yksikköä palaavat täydellä terveydellä ja negatiivisista vaikutuksista puhdistettuina. Kolmen tähden Io myös nollaa kuolleen sankarin latausajat."
 		"dac_ability_wisp_relocate_lore"											"<i>Io tuijottaa takaisin</i>"
 
 		// BRISTLEBACK	
@@ -613,7 +613,7 @@
 		"dac_ability_hobgen_supercharged_description_lore"							"Joskus jengi tarvitsee vain vähän lisämotivaatiota. – <i>Hobgen sytyttää kirjaimellisen ja vertauskuvallisen roihun</i>"
 
 		"dac_ability_hobgen_airstrike"												"Friendly Fire"
-		"dac_ability_hobgen_airstrike_description"									"Hobgenin kaverit heittävät taistelukentälle {s:strikes} pommia, jotka tekevät {s:damage} vahinkoa vihollisille, joihin räjähdys osuu. Räjähdyksen vaikutusalueelle osuneet viholliset ottavat puolikkaan vahinkoa."
+		"dac_ability_hobgen_airstrike_description"									"Hobgenin kaverit heittävät taistelukentälle {s:strikes} pommia, jotka tekevät {s:damage} vahinkoa vihollisille, joihin räjähdysaalto osuu."
 		"dac_ability_hobgen_airstrike_description_lore"								"Poltetaan kaikki! – <i>Hobgen, pähkähullu pyromaani</i>"
 
 		"dac_ability_hobgen_letsgocrazy"											"Let's Go Crazy"
@@ -659,5 +659,17 @@
 		"dac_ability_enno_airbrawl"													"All Out Attack!"
 		"dac_ability_enno_airbrawl_description"										"Enno käynnistää All Out Attack -hyökkäyksen vihollisia kohti, lisää {s:stacks} annosta myrkkyä, jakaa {s:fight_damage} fyysistä vahinkoa ja tainnuttaa ne {s:land_stun_duration} sekunniksi."
 		"dac_ability_enno_airbrawl_lore"											"AJA KARVAINEN RYÖKÄLE POIS! – <i>Hobgen saa läksytyksen nöyryydestä</i>"
+
+		// 3star abilities
+		"dac_ability_3star"															"3 tähden tehoste"
+
+		"dac_ability_warlock_3star"													"Warlockin 3 tähden tehoste"
+		"dac_ability_warlock_3star_Description"										"Kolmen tähden Warlock estää liittolaisdemoneita hiljentämästä toisiaan, kun ne langettavat kykyjään."
+
+		"dac_ability_razor_3star"													"Razorin 3 tähden tehoste"
+		"dac_ability_razor_3star_Description"										"Joka kerta kun kolmen tähden Razor hyökkää vihollisen kimppuun, se varastaa {s:stolen_dmg} hyökkäysvahinkoa, jopa {s:max_stacks} kertaa. Kohdetta vaihtaessa tämä nollautuu Razorille, muttei viholliselle."
+
+		"dac_ability_chaos_knight_3star"													"Chaos Knightin 3 tähden tehoste"
+		"dac_ability_chaos_knight_3star_Description"								"Kolmen tähden Chaos Knightin liittolaisritarit lasketaan aina liittolaisritarin viereiseksi sankariksi."
 	}
 }

@@ -763,7 +763,7 @@
 	"dac_item_shivas_guard_new_desc"					"+{d:bonus_armor} d'armure. Émet une vague de froid qui inflige {d:blast_damage} points de dégâts aux ennemis dans un rayon de 3 cases et diminue leurs fréquences d'attaque et de déplacement de {d:blast_debuff_move_speed} pendant {s:blast_debuff_duration} secondes (une fois par manche)."
 	"dac_item_shivas_guard_new_lore"					"Ne me demandez pas comment ça a pu sortir de la chambre forte du Conclave de saphir. — <i>Zenok, receleur de Flèche blanche</i>"
 	"dac_item_stonehall_pike"							"Sabre de Pierrefort"
-	"dac_item_stonehall_pike_desc"						"Le héros équipé inflige +{d:damage_per_kill} de dégâts pour chaque unité qu'il a tuée (+12 de dégâts en mode K.O.)."
+	"dac_item_stonehall_pike_desc"						"Le héros équipé gagne {d:attack_damage} de dégâts d'attaque et inflige +{d:damage_per_kill} de dégâts pour chaque unité qu'il a tuée, jusqu'à un maximum de +{d:max_damage} de dégâts (+12 de dégâts par victime en mode K.O.)."
 	"dac_item_stonehall_pike_lore"						"Les légions de Pierrefort ne sont pas redoutées pour rien. — <i>Zenok, receleur de Flèche blanche</i>"
 	"dac_item_stonehall_cloak"							"Manteau de Pierrefort"
 	"dac_item_stonehall_cloak_desc"						"Le héros équipé gagne {d:hp_per_kill} PV pour chaque unité qu'il a tuée (+200 PV en mode K.O.)."
@@ -862,7 +862,7 @@
 	"dac_hero_hint_jumping_movement"					"Se jette sur les ennemis"
 	"dac_hero_hint_teleport_movement"					"Se téléporte jusqu'aux ennemis"
 	"dac_hero_hint_high_single_target_damage"			"Dégâts importants sur un seul ennemi"
-	"dac_hero_hint_high_group_damage"					"Dégâts importants sur plusieurs ennemis"
+	"dac_hero_hint_high_group_damage"					"Dégâts de zone importants"
 	"dac_hero_hint_aoe_ministun"						"Étourdit brièvement les ennemis à proximité"
 	"dac_hero_hint_freezes_enemies"						"Gèle les ennemis"
 	"dac_hero_hint_aoe_silence"							"Silence de zone"
@@ -1208,7 +1208,7 @@
 	"dac_item_vanguard_desc"							"+{d:health_bonus} PV. {d:block_chance} % de chances de bloquer {d:block_damage} points de dégâts quand le héros est attaqué."
 	"dac_item_vanguard_lore"							"En matière de protection, il n'y a pas mieux. — <i>Zenok, receleur de Flèche blanche</i>"
 	
-	"dac_item_basher"									"Brise crânes"
+	"dac_item_basher"									"Brise-crânes"
 	"dac_item_basher_desc"								"+{d:attack_damage} de dégâts d'attaque. {d:bash_chance} % de chances d'infliger {d:bonus_chance_damage} de dégâts supplémentaires et d'étourdir la cible pendant {s:bash_duration} secondes."
 	"dac_item_basher_lore"								"Un ennemi désorienté est un ennemi mort. — <i>Zenok, receleur de Flèche blanche</i>"
 	
@@ -1404,6 +1404,361 @@
 	"dac_item_target_dummy_lore"						"Malheureusement, j'ai connu des compagnons d'armes pires que ce sac de paille. — <i>Zenok, receleur de Flèche blanche</i>"
 
 
+	"dac_item_chainmail_1"		"Cotte de mailles brillante"
+	"dac_item_chainmail_2"		"Cotte de mailles durable"
+	"dac_item_chainmail_3"		"Cotte de mailles d'exception"
+	"dac_item_chainmail_4"		"Cotte de mailles enchantée"
+	"dac_item_chainmail_5"		"Cotte de mailles de protection"
+
+	"dac_item_claymore_1"		"Claymore aiguisée"
+	"dac_item_claymore_2"		"Claymore ensanglantée"
+	"dac_item_claymore_3"		"Claymore du bourreau"
+	"dac_item_claymore_4"		"Claymore de la spoliation"
+	"dac_item_claymore_5"		"Claymore vorpaline"
+
+
+	"dac_item_gloves_of_haste_1"		"Gants de vivacité prodigieux"
+	"dac_item_gloves_of_haste_2"		"Gants de vivacité d'exception"
+	"dac_item_gloves_of_haste_3"		"Gants de vivacité enchantés"
+	"dac_item_gloves_of_haste_4"		"Gants de vivacité ensorcelés"
+	"dac_item_gloves_of_haste_5"		"Gants de vivacité et de célérité"
+
+
+	"dac_item_headdress_1"		"Coiffe défraîchie"
+	"dac_item_headdress_2"		"Coiffe chic"
+	"dac_item_headdress_3"		"Coiffe imposante"
+	"dac_item_headdress_4"		"Coiffe de cérémonie"
+	"dac_item_headdress_5"		"Coiffe bénie"
+
+
+	"dac_item_hood_of_defiance_1"		"Capuche du défi sophistiquée"
+	"dac_item_hood_of_defiance_2"		"Capuche du défi magistrale"
+	"dac_item_hood_of_defiance_3"		"Capuche du défi et de la gloire"
+	"dac_item_hood_of_defiance_4"		"Capuche du défi et de la liberté"
+	"dac_item_hood_of_defiance_5"		"Capuche du défi de Rix"
+
+
+	"dac_item_kaya_1"		"Kaya enchantée"
+	"dac_item_kaya_2"		"Kaya de la sorcière"
+	"dac_item_kaya_3"		"Kaya mystérieuse"
+	"dac_item_kaya_4"		"Kaya mythique"
+	"dac_item_kaya_5"		"Kaya légendaire"
+
+
+	"dac_item_mask_of_death_1"		"Masque mortellement morbide"
+	"dac_item_mask_of_death_2"		"Masque morbide en os sculpté"
+	"dac_item_mask_of_death_3"		"Masque morbide putride"
+	"dac_item_mask_of_death_4"		"Masque morbide profane"
+	"dac_item_mask_of_death_5"		"Masque morbide rumusque"
+
+
+	"dac_item_talisman_of_evasion_1"		"Talisman d'évasion en bronze"
+	"dac_item_talisman_of_evasion_2"		"Talisman d'évasion en argent"
+	"dac_item_talisman_of_evasion_3"		"Talisman d'évasion et de chance"
+	"dac_item_talisman_of_evasion_4"		"Talisman d'évasion et de célérité"
+	"dac_item_talisman_of_evasion_5"		"Talisman d'évasion de Lorlin"
+
+
+	"dac_item_vitality_booster_1"		"Rubis de vitalité infrangible"
+	"dac_item_vitality_booster_2"		"Rubis de vitalité résistant"
+	"dac_item_vitality_booster_3"		"Rubis de vitalité amélioré"
+	"dac_item_vitality_booster_4"		"Rubis de vitalité divin"
+	"dac_item_vitality_booster_5"		"Rubis de vitalité revigorant"
+
+
+	"dac_item_void_stone_1"		"Pierre du néant prodigieuse"
+	"dac_item_void_stone_2"		"Pierre du néant fortifiée"
+	"dac_item_void_stone_3"		"Pierre du néant mystérieuse"
+	"dac_item_void_stone_4"		"Pierre du néant chargée en mana"
+	"dac_item_void_stone_5"		"Pierre du néant céleste"
+
+	"dac_item_arcane_boots_1"		"Bottes arcaniques des Landes de glace"
+	"dac_item_arcane_boots_2"		"Bottes arcaniques de la connaissance"
+	"dac_item_arcane_boots_3"		"Bottes arcaniques du Conclave"
+	"dac_item_arcane_boots_4"		"Bottes arcaniques de Rylai"
+	"dac_item_arcane_boots_5"		"Bottes arcaniques d'Aghanim"
+
+
+	"dac_item_armlet_1"		"Brassard de Mordiggian en laiton"
+	"dac_item_armlet_2"		"Brassard de Mordiggian en orichalque"
+	"dac_item_armlet_3"		"Brassard de Mordiggian maudit"
+	"dac_item_armlet_4"		"Brassard de Mordiggian lamentable"
+	"dac_item_armlet_5"		"Brassard de Mordiggian défendu"
+
+
+	"dac_item_barricade_1"		"Barricade infrangible"
+	"dac_item_barricade_2"		"Barricade blindée"
+	"dac_item_barricade_3"		"Barricade résistante"
+	"dac_item_barricade_4"		"Barricade (presque) infranchissable"
+	"dac_item_barricade_5"		"Barricade d'exception"
+
+
+	"dac_item_blink_dagger_1"		"Dague furtive améliorée"
+	"dac_item_blink_dagger_2"		"Dague furtive étrange"
+	"dac_item_blink_dagger_3"		"Dague furtive du maître de l'évasion"
+	"dac_item_blink_dagger_4"		"Dague furtive dentelée"
+	"dac_item_blink_dagger_5"		"Dague furtive de Piff"
+
+
+	"dac_item_crystalis_1"		"Crystalys majestueuse"
+	"dac_item_crystalis_2"		"Crystalys magistrale"
+	"dac_item_crystalis_3"		"Crystalys remarquable"
+	"dac_item_crystalis_4"		"Crystalys du croisé"
+	"dac_item_crystalis_5"		"Crystalys runique"
+
+
+	"dac_item_desolator_1"		"Désolateur tranchant"
+	"dac_item_desolator_2"		"Désolateur déchiqueteur"
+	"dac_item_desolator_3"		"Désolateur sanglant"
+	"dac_item_desolator_4"		"Désolateur maléfique"
+	"dac_item_desolator_5"		"Désolateur impie"
+
+
+	"dac_item_dragon_lance_1"		"Lance de dragon biforgée"
+	"dac_item_dragon_lance_2"		"Lance de dragon remarquable"
+	"dac_item_dragon_lance_3"		"Lance de dragon de Bram"
+	"dac_item_dragon_lance_4"		"Lance de dragon de Davion"
+	"dac_item_dragon_lance_5"		"Lance de dragon de Kaden"
+
+
+	"dac_item_force_staff_1"		"Bâton d'impulsion repoussant"
+	"dac_item_force_staff_2"		"Bâton d'impulsion répulsif"
+	"dac_item_force_staff_3"		"Bâton d'impulsion puissant"
+	"dac_item_force_staff_4"		"Bâton d'impulsion spirituel"
+	"dac_item_force_staff_5"		"Bâton d'impulsion de l'exil"
+	
+
+	"dac_item_orb_of_venom_1"		"Orbe de venin subtil"
+	"dac_item_orb_of_venom_2"		"Orbe de venin instable"
+	"dac_item_orb_of_venom_3"		"Orbe de venin jaspé"
+	"dac_item_orb_of_venom_4"		"Orbe de venin alchimique"
+	"dac_item_orb_of_venom_5"		"Orbe de venin de Mortifère"
+
+
+	"dac_item_quelling_blade_1"		"Hache de destruction affilée"
+	"dac_item_quelling_blade_2"		"Hache de destruction ensorcelée"
+	"dac_item_quelling_blade_3"		"Hache de destruction du boucher"
+	"dac_item_quelling_blade_4"		"Hache de destruction du persécuteur"
+	"dac_item_quelling_blade_5"		"Hache de destruction de Grek"
+
+	"dac_item_target_dummy_1"		"Cible d'entraînement robuste"
+	"dac_item_target_dummy_2"		"Cible d'entraînement troublant"
+	"dac_item_target_dummy_3"		"Cible d'entraînement serviable"
+	"dac_item_target_dummy_4"		"Cible d'entraînement adorable"
+	"dac_item_target_dummy_5"		"Cible d'entraînement endurcie"
+
+
+	"dac_item_vanguard_1"		"Écu renforcé"
+	"dac_item_vanguard_2"		"Écu exceptionnel"
+	"dac_item_vanguard_3"		"Écu enchanté"
+	"dac_item_vanguard_4"		"Écu de protection"
+	"dac_item_vanguard_5"		"Écu de résistance"
+
+
+	"dac_item_battle_fury_1"		"Furie de combat renforcée"
+	"dac_item_battle_fury_2"		"Furie de combat fortifiée"
+	"dac_item_battle_fury_3"		"Furie de combat enragée"
+	"dac_item_battle_fury_4"		"Furie de combat remarquable"
+	"dac_item_battle_fury_5"		"Furie de combat implacable"
+
+
+	"dac_item_blade_mail_1"		"Armure de lames pointues"
+	"dac_item_blade_mail_2"		"Armure de lames affilées"
+	"dac_item_blade_mail_3"		"Armure de lames mortelle"
+	"dac_item_blade_mail_4"		"Armure de lames maléfique"
+	"dac_item_blade_mail_5"		"Armure de lames d'Oroku"
+
+
+	"dac_item_eul_1"		"Sceptre d'Éole arcane"
+	"dac_item_eul_2"		"Sceptre d'Éole mystique"
+	"dac_item_eul_3"		"Sceptre d'Éole puissant"
+	"dac_item_eul_4"		"Sceptre d'Éole légendaire"
+	"dac_item_eul_5"		"Sceptre du pouvoir d'Éole"
+
+
+	"dac_item_hand_of_midas_1"		"Main de Midas dorée"
+	"dac_item_hand_of_midas_2"		"Main de Midas avide"
+	"dac_item_hand_of_midas_3"		"Main de Midas puissante"
+	"dac_item_hand_of_midas_4"		"Main de Midas fatidique"
+	"dac_item_hand_of_midas_5"		"Main de Midas tyrannique"
+
+
+	"dac_item_maelstrom_1"		"Maelström redoutable"
+	"dac_item_maelstrom_2"		"Maelström puissant"
+	"dac_item_maelstrom_3"		"Maelström imposant"
+	"dac_item_maelstrom_4"		"Maelström stupéfié"
+	"dac_item_maelstrom_5"		"Maelström destructeur"
+
+
+	"dac_item_mask_of_madness_1"		"Masque de folie corrupteur"
+	"dac_item_mask_of_madness_2"		"Masque de folie maléfique"
+	"dac_item_mask_of_madness_3"		"Masque de folie meurtrière"
+	"dac_item_mask_of_madness_4"		"Masque de folie et de brutalité"
+	"dac_item_mask_of_madness_5"		"Masque de folie de Krill"
+
+
+	"dac_item_octarine_essence_1"		"Fragment octarine inépuisable"
+	"dac_item_octarine_essence_2"		"Fragment octarine revigorant"
+	"dac_item_octarine_essence_3"		"Fragment octarine forgé par les batailles"
+	"dac_item_octarine_essence_4"		"Fragment octarine héroïque"
+	"dac_item_octarine_essence_5"		"Fragment octarine de rapidité"
+
+
+	"dac_item_pipe_of_insight_1"		"Pipe de perspicacité fumante"
+	"dac_item_pipe_of_insight_2"		"Pipe de perspicacité de cérémonie"
+	"dac_item_pipe_of_insight_3"		"Pipe de perspicacité du penseur"
+	"dac_item_pipe_of_insight_4"		"Pipe de perspicacité et d'intelligence"
+	"dac_item_pipe_of_insight_5"		"Pipe de perspicacité d'Ingénieur"
+
+
+	"dac_item_silver_edge_1"		"Lame d'argent brillante"
+	"dac_item_silver_edge_2"		"Lame d'argent affilée"
+	"dac_item_silver_edge_3"		"Lame d'argent dentelée"
+	"dac_item_silver_edge_4"		"Lame d'argent argentine"
+	"dac_item_silver_edge_5"		"Lame d'argent vorpaline"
+
+
+	"dac_item_basher_1"		"Brise-crânes pesant"
+	"dac_item_basher_2"		"Brise-crânes troll"
+	"dac_item_basher_3"		"Brise-crânes géant"
+	"dac_item_basher_4"		"Brise-crânes étourdissant"
+	"dac_item_basher_5"		"Brise-crânes dévastateur"
+
+
+	"dac_item_black_king_bar_1"		"Bâton du roi noir résistant à la magie"
+	"dac_item_black_king_bar_2"		"Bâton du roi noir résilient"
+	"dac_item_black_king_bar_3"		"Bâton du roi noir prépotent"
+	"dac_item_black_king_bar_4"		"Bâton du roi noir de la Rose éplorée"
+	"dac_item_black_king_bar_5"		"Bâton du roi noir du domaine de Tyler"
+
+
+	"dac_item_butterfly_1"		"Papillon vif"
+	"dac_item_butterfly_2"		"Papillon élégant"
+	"dac_item_butterfly_3"		"Papillon magnifique"
+	"dac_item_butterfly_4"		"Papillon gracieux"
+	"dac_item_butterfly_5"		"Papillon mortel"
+
+
+	"dac_item_dagon_1"		"Dagon amélioré"
+	"dac_item_dagon_2"		"Dagon fortifié"
+	"dac_item_dagon_3"		"Dagon létal"
+	"dac_item_dagon_4"		"Dagon ciblecœur"
+	"dac_item_dagon_5"		"Dagon de la pourfendeuse"
+
+
+	"dac_item_diffusal_blade_1"		"Lame diffuse écorcheuse"
+	"dac_item_diffusal_blade_2"		"Lame diffuse argentée"
+	"dac_item_diffusal_blade_3"		"Lame diffuse du domaine de Tyler"
+	"dac_item_diffusal_blade_4"		"Lame diffuse d'Étouffoir"
+	"dac_item_diffusal_blade_5"		"Lame diffuse d'Antimage"
+
+
+	"dac_item_skadi_1"		"Œil de Skaki revigorant"
+	"dac_item_skadi_2"		"Œil de Skadi torve"
+	"dac_item_skadi_3"		"Œil de Skadi vigilant"
+	"dac_item_skadi_4"		"Œil de Skadi insomniaque"
+	"dac_item_skadi_5"		"Œil de Skaki omniscient"
+
+
+	"dac_item_tank_buster_1"		"Lame de Kaden fortifiée"
+	"dac_item_tank_buster_2"		"Lame de Kaden régénérée"
+	"dac_item_tank_buster_3"		"Lame de Kaden vénérée"
+	"dac_item_tank_buster_4"		"Lame de Kaden dragonicide"
+	"dac_item_tank_buster_5"		"Lame de Kaden légendaire"
+
+
+	"dac_item_mekansm_1"		"Méka mystérieux"
+	"dac_item_mekansm_2"		"Méka vivifiant"
+	"dac_item_mekansm_3"		"Méka tonifiant"
+	"dac_item_mekansm_4"		"Méka du docteur"
+	"dac_item_mekansm_5"		"Méka rumusque"
+
+
+	"dac_item_moon_shard_1"		"Fragment sélène imprégné de l'Obscur"
+	"dac_item_moon_shard_2"		"Fragment sélène imprégné de l'Éclat"
+	"dac_item_moon_shard_3"		"Fragment sélène de Fymryn"
+	"dac_item_moon_shard_4"		"Fragment sélène de Sélémène"
+	"dac_item_moon_shard_5"		"Fragment sélène de la Lune démente"
+
+
+	"dac_item_refresher_orb_1"		"Orbe de régénération puissant"
+	"dac_item_refresher_orb_2"		"Orbe de régénération énergisant"
+	"dac_item_refresher_orb_3"		"Orbe de régénération chargé en mana"
+	"dac_item_refresher_orb_4"		"Orbe de régénération revigorant"
+	"dac_item_refresher_orb_5"		"Orbe de régénération keen"
+
+
+	"dac_item_sheepstick_1"		"Faux de Vyse déchiqueteuse"
+	"dac_item_sheepstick_2"		"Faux de Vyse mortelle"
+	"dac_item_sheepstick_3"		"Faux de Vyse féroce"
+	"dac_item_sheepstick_4"		"Faux de Vyse maléfique"
+	"dac_item_sheepstick_5"		"Faux de Vyse de Rotund’jere"
+
+
+	"dac_item_vladmirs_offering_1"		"Offrande de Vladmir fortifiée"
+	"dac_item_vladmirs_offering_2"		"Offrande de Vladmir à Ristul"
+	"dac_item_vladmirs_offering_3"		"Offrande de Vladmir à Maelrawn"
+	"dac_item_vladmirs_offering_4"		"Offrande de Vladmir à Sélémène"
+	"dac_item_vladmirs_offering_5"		"Offrande de Vladmir à Ste Crella"
+
+
+	"dac_item_aegis_new_1"		"Égide de l'immortalité éternelle"
+	"dac_item_aegis_new_2"		"Égide de l'immortalité régénérée"
+	"dac_item_aegis_new_3"		"Égide de l'immortalité ensorcelée"
+	"dac_item_aegis_new_4"		"Égide de l'immortalité façonnée par l'âme"
+	"dac_item_aegis_new_5"		"Égide de l'immortalité de Roshan"
+
+
+	"dac_item_bloodthorn_1"		"Lame sanguinaire assoiffée"
+	"dac_item_bloodthorn_2"		"Lame sanguinaire térébrante"
+	"dac_item_bloodthorn_3"		"Lame sanguinaire du comte"
+	"dac_item_bloodthorn_4"		"Lame sanguinaire de la succube"
+	"dac_item_bloodthorn_5"		"Lame sanguinaire de Soufflechaud"
+
+
+	"dac_item_heart_of_tarrasque_new_1"		"Cœur de Tarasque palpitant"
+	"dac_item_heart_of_tarrasque_new_2"		"Cœur de Tarasque sanglant"
+	"dac_item_heart_of_tarrasque_new_3"		"Cœur de Tarasque monstrueux"
+	"dac_item_heart_of_tarrasque_new_4"		"Cœur de Tarasque revigorant"
+	"dac_item_heart_of_tarrasque_new_5"		"Cœur de Tarasque immortel"
+
+
+	"dac_item_horn_of_the_alpha_1"		"Corne de l'alpha mugissante"
+	"dac_item_horn_of_the_alpha_2"		"Corne de l'alpha triomphale"
+	"dac_item_horn_of_the_alpha_3"		"Corne de l'alpha de Brise-moelle"
+	"dac_item_horn_of_the_alpha_4"		"Corne de l'alpha de Rosefoliole"
+	"dac_item_horn_of_the_alpha_5"		"Corne de l'alpha de Bradwarden"
+
+
+	"dac_item_radiance_new_1"		"Radiance ardente"
+	"dac_item_radiance_new_2"		"Radiance purifiante"
+	"dac_item_radiance_new_3"		"Radiance de l'immolation"
+	"dac_item_radiance_new_4"		"Radiance brûlante"
+	"dac_item_radiance_new_5"		"Radiance divine"
+
+
+	"dac_item_satanic_1"		"Satanisme fortifié"
+	"dac_item_satanic_2"		"Satanisme impie"
+	"dac_item_satanic_3"		"Satanisme maléfique"
+	"dac_item_satanic_4"		"Satanisme maudit"
+	"dac_item_satanic_5"		"Satanisme défendu"
+
+
+	"dac_item_shivas_guard_new_1"		"Épaulière de Shiva majestueuse"
+	"dac_item_shivas_guard_new_2"		"Épaulière de Shiva glaciale"
+	"dac_item_shivas_guard_new_3"		"Épaulière de Shiva gelée"
+	"dac_item_shivas_guard_new_4"		"Épaulière de Shiva de la gardienne"
+	"dac_item_shivas_guard_new_5"		"Épaulière de Shiva des Landes de glace"
+
+
+	"dac_item_vesture_of_the_tyrant_1"		"Habit du tyran imposant"
+	"dac_item_vesture_of_the_tyrant_2"		"Habit du tyran rigide"
+	"dac_item_vesture_of_the_tyrant_3"		"Habit du tyran mystique"
+	"dac_item_vesture_of_the_tyrant_4"		"Habit du tyran de Pierrefort"
+	"dac_item_vesture_of_the_tyrant_5"		"Habit du tyran de Galanius"
+
+
+
 	"dac_bp1_bronze_border"								"Bordure en bronze"
 	"dac_bp1_pose_chest"								"Coffre : pose"
 	"dac_bp1_avatar_chest"								"Coffre : avatar"
@@ -1567,7 +1922,7 @@
 	"DAC_InGame_UnitDPS_Query"							"DPS : <span class=\"Count\">{i:attack_dps}</span>"
 	"DAC_InGame_UnitHP_Query"							"PV : <span class=\"Count\">{i:selectedUnitHP}</span>"
 	"DAC_InGame_UnitArmor_Query"						"Armure : <span class=\"Count\">{i:selectedUnitArmor}{s:selectedUnitBonusArmor}</span>"
-	"DAC_InGame_KillCount_Query"						"Victimes : <span class=\"Count\">{d:kill_count}</span>"
+	"DAC_InGame_KillCount_Query"						"Victimes : <span class=\"Count\">{f:kill_count}</span>"
 	"DAC_InGame_KillStreak_Query"						"Série de victimes : <span class=\"Count\">{d:kill_streak}</span>"
 	"DAC_InGame_DuelBonusDamage_Query"					"Dégâts bonus apportés par les Duels : <span class=\"Count\">{d:duel_bonus_damage}</span>"
 	"DAC_InGame_BrawnyKillCount_Query"						"Total de victimes des unités robustes : <span class=\"Count\">{f:brawny_kills}</span>"
@@ -1947,7 +2302,7 @@
 	"DAC_EndGame_Jull_win_with_insects"					"L'infestation de Flèche blanche réjouit beaucoup Jull"
 	"DAC_EndGame_Jull_win_with_inventor"				"Le ralliement des Keens apporte à Jull une victoire décisive"
 	"DAC_EndGame_Jull_win_with_knights"					"Les chevaliers abandonnent tout faux-semblant d'honneur et offrent la victoire à Jull"
-	"DAC_EndGame_Jull_win_with_mages"					"Les mages se rallient au contrebandier des Landes de glace pour régner sur Flèche blanche"
+	"DAC_EndGame_Jull_win_with_mages"					"Les mages se rallient à Jull pour régner sur Flèche blanche"
 	"DAC_EndGame_Jull_win_with_primordial"				"Jull conclut un marché avec les forces primaires et écrase ses ennemis"
 	"DAC_EndGame_Jull_win_with_savage"					"Les bêtes de Jull éventrent l'opposition"
 	"DAC_EndGame_Jull_win_with_scaled"					"Jull mène les effrayants écailleux à la victoire"
@@ -2063,7 +2418,7 @@
 	"DAC_EndGame_Enno_win_with_insects"					"L'infestation de Flèche blanche réjouit beaucoup Enno"
 	"DAC_EndGame_Enno_win_with_inventor"				"Le ralliement des Keens apporte à Enno une victoire décisive"
 	"DAC_EndGame_Enno_win_with_knights"					"Les chevaliers abandonnent tout faux-semblant d'honneur et offrent la victoire à Enno"
-	"DAC_EndGame_Enno_win_with_mages"					"Les mages se rallient au rongeur poilu pour régner sur Flèche blanche"
+	"DAC_EndGame_Enno_win_with_mages"					"Les mages se rallient à Enno pour régner sur Flèche blanche"
 	"DAC_EndGame_Enno_win_with_primordial"				"Enno conclut un marché avec les forces primaires et écrase ses ennemis"
 	"DAC_EndGame_Enno_win_with_savage"					"Les bêtes d'Enno éventrent l'opposition"
 	"DAC_EndGame_Enno_win_with_scaled"					"Enno mène les effrayants écailleux à la victoire"
@@ -2216,6 +2571,20 @@
 	"DAC_Battlepass_YouHaveOneLockedReward"				"Vous avez 1 récompense verrouillée"
 	"DAC_Battlepass_YouHaveLockedRewards"				"Vous avez {i:num_locked_rewards} récompenses verrouillées"
 	"DAC_Purchase"										"Acheter"
+	"DAC_Battlepass_ItemOdds"							"Chances d'apparition des objets"
+	
+	"DAC_ItemOdds_Title"								"Chances d'apparition pour les trésors aléatoires"
+	"DAC_ItemOdds_BoardPropHeader"						"Chances d'apparition des décors du champ de bataille"
+	"DAC_ItemOdds_BoardPropDescription"					"Le passe de bataille contient 20 décors aléatoires du champ de bataille qui proviennent d'une liste de 20 décors du champ de bataille ne contenant aucun doublon. Les joueurs qui achètent le passe de bataille et atteignent le niveau 100 débloqueront tous les décors. Parmi ces décors aléatoires, quatre sont gratuits et peuvent être débloqués (en plus de toutes les autres récompenses gratuites) quand le joueur atteint le niveau du passe de bataille correspondant. Les décors du champ de bataille n'ont qu'une valeur esthétique et n'ont aucun impact sur le gameplay."
+	"DAC_ItemOdds_StreetFightItemsHeader"				"Chances d'apparition des objets de combat de rue"
+	"DAC_ItemOdds_StreetFightItemsDescription"			"Il y a 12 objets aléatoires de combat de rue pour chaque Underlord ; le passe de bataille en comprend 8, et les 40 autres sont obtenus comme récompenses dans Cavale en ville. Ces objets proviennent d'une liste sans doublons pour chaque Underlord, et les probabilités sont les mêmes pour chaque niveau. Ils peuvent uniquement être utilisés dans les combats de rue de Cavale en ville (contenu pour les parties en solo) et n'ont aucun impact sur le gameplay des parties contre d'autres joueurs.
+
+Les objets de chaque Underlord proviennent de listes identiques, et aucune des listes ne contient d'objet dupliqué. Cependant, le même objet peut être tiré pour plusieurs Underlords. Par exemple, vous ne recevrez jamais deux Claymores pour Enno, mais il est possible que vous receviez une Claymore pour Enno et une autre pour Anessix."
+	"DAC_ItemOdds_StreetFightItemsHeaderTier1"			"Objets de niveau 1 : 1 chance d'apparition par Underlord"
+	"DAC_ItemOdds_StreetFightItemsHeaderTier2"			"Objets de niveau 2 : 3 chances d'apparition par Underlord"
+	"DAC_ItemOdds_StreetFightItemsHeaderTier3"			"Objets de niveau 3 : 5 chances d'apparition par Underlord"
+	"DAC_ItemOdds_StreetFightItemsHeaderTier4"			"Objets de niveau 4 : 2 chances d'apparition par Underlord"
+	"DAC_ItemOdds_StreetFightItemsHeaderTier5"			"Objets de niveau 5 : 1 chance d'apparition par Underlord"
 
 	"GenericConfirmText_Label"							"Confirmer"
 	"DAC_PurchaseError_Title"		"Achat impossible"
@@ -2256,13 +2625,13 @@
 	"DAC_Profile"										"Profil"
 	"DAC_EarlyAccess"                                   "Avant-première"
 	"DAC_OpenBeta"                                   	"Bêta ouverte"	
-	"DAC_Shared_Pool_Description"						"Dans une partie de Dota Underlords, les joueurs composent leur équipe à partir d'un groupe de héros commun à tous les joueurs. Ce groupe comprend 45 exemplaires de chaque héros de niveau 1, 30 de chaque héros de niveau 2, 25 de chaque héros de niveau 3, 20 de chaque héros de niveau 4 et 10 de chaque héros de niveau 5. Quand un joueur est éliminé, toutes les unités qu'il a recrutées retournent dans le groupe commun."
+	"DAC_Shared_Pool_Description"						"Dans une partie de Dota Underlords, les joueurs composent leur équipe à partir d'un groupe de héros commun à tous les joueurs. Ce groupe comprend 30 exemplaires de chaque héros de niveau 1, 20 de chaque héros de niveau 2, 15 de chaque héros de niveau 3, 12 de chaque héros de niveau 4 et 10 de chaque héros de niveau 5. Quand un joueur est éliminé, toutes les unités qu'il a recrutées retournent dans le groupe commun."
 	"DAC_Zoo"											"Zoo"
 	"DAC_CityCrawlButton"								"Cavale en ville"
 	"DAC_ChallengeWorldMapPage"							"Cavale en ville"
 	"DAC_CityCrawlObjectives"							"Objectifs de Cavale en ville"
-	"DAC_ChallengeWorldMapPage_Challenges"				"{d:city_crawl_challenges_available} objectifs actifs"
-	"DAC_ChallengeWorldMapPage_ClaimableChallenges"		"{d:city_crawl_challenges_claimable} objectif(s) à récupérer"
+	"DAC_ChallengeWorldMapPage_Challenges"				"{d:city_crawl_challenges_available} défi(s) actif(s)"
+	"DAC_ChallengeWorldMapPage_ClaimableChallenges"		"{d:city_crawl_challenges_claimable} récompense(s) à récupérer"
 	"DAC_CityCrawlButtonNeedsSteam"						"Connexion à Steam requise"
 
 	"DAC_Zoo_PostGame_GameMode"							"Mode de jeu"
@@ -2447,7 +2816,7 @@
 	"DAC_Synergy_Tooltip_Vigilant_1"	"toutes les unités alliées"
 
 	"DAC_Synergy_Tooltip_Savage_0"				"Les unités sauvages alliées"
-	"DAC_Synergy_Tooltip_Savage_1"				"Tous les héros alliés"
+	"DAC_Synergy_Tooltip_Savage_1"				"Les unités sauvages alliées et toutes les unités alliées invoquées"
 	"DAC_Synergy_Tooltip_Savage_2"				"Toutes les unités alliées"
 	
 	"DAC_Synergy_MegaWarrior"		"Méga guerriers"
@@ -2479,7 +2848,7 @@
 
 	"DAC_Synergy_Desc_Naga"		"Les alliés gagnent {s:magic_resist} % de résistance à la magie."
 
-	"DAC_Synergy_Desc_Ogre"		"Quand une unité liée par le sang meurt, toutes les unités liées par le sang gagnent {s:enrage_bonus} de dégâts d'attaque."
+	"DAC_Synergy_Desc_Ogre"		"Quand une unité liée par le sang meurt, toutes les unités liées par le sang, à l'exception de Commandante de la Légion, gagnent {s:enrage_bonus} de dégâts d'attaque."
 
 	"DAC_Synergy_Desc_Orc"		"Les PV max. de toutes les unités robustes sont augmentés de {s:hp_bonus} points."
 
@@ -2512,7 +2881,7 @@
 
 	"DAC_Synergy_Desc_Warrior"		"Tous les guerriers gagnent {s:armor_bonus} d'armure."
 
-	"DAC_Synergy_Desc_Insect"			"De jeunes araignées déferlent sans cesse sur les unités ennemies depuis le bord du champ de bataille. Elles sont inattaquables, infligent des dégâts faibles et meurent dès qu'elles subissent le moindre dégât. Les ennemis attaqués ont {s:miss_chance} % de chances de manquer leurs attaques pendant {s:miss_chance_duration} secondes. Jusqu'à {s:num_insects} jeunes araignées peuvent réapparaître quand elles meurent."
+	"DAC_Synergy_Desc_Insect"			"De jeunes araignées déferlent sans cesse sur les unités ennemies depuis le bord du champ de bataille. Elles sont inattaquables, infligent des dégâts faibles et meurent dès qu'elles subissent le moindre dégât. Les ennemis attaqués ont {s:miss_chance} % de chances de manquer leurs attaques pendant {s:miss_chance_duration} secondes. Quand elles meurent, {s:num_insects} araignées maximum réapparaissent."
 
 	"DAC_Synergy_Desc_Champion"		"Les champions bénéficient des bonus de toutes les alliances. Ils obtiennent également {s:dmg_pct_per_alliance} % de dégâts en plus et {s:hp_pct_per_alliance} % de PV max. pour chaque alliance active."
 
@@ -2526,9 +2895,9 @@
 
 	"DAC_Synergy_Desc_Summoner"			"Les unités invoquées alliées gagnent {s:damage_percent} % de dégâts."
 	
-	"DAC_Synergy_Desc_Vigilant"			"Dès qu'une unité ennemie lance un sort, {s:alliance_eligible} ciblent cette unité si elle est à leur portée."
+	"DAC_Synergy_Desc_Vigilant"			"Dès qu'une unité ennemie lance un sort, {s:alliance_eligible} ciblent cette unité si elle est à leur portée. Les dégâts de leur prochaine attaque contre cette unité sont augmentés de {s:damage_percent} %."
 	
-	"DAC_Synergy_Desc_Void"				"Tous les héros alliés ont {s:proc_chance} % de chances de porter une attaque supplémentaire qui inflige {s:pure_damage_percent} % des PV de la cible sous forme de dégâts purs."
+	"DAC_Synergy_Desc_Void"				"Tous les héros alliés ont {s:proc_chance} % de chances d'infliger {s:pure_damage_percent} % des PV max. de leur cible sous forme de dégâts purs. Cet effet ne peut se produire qu'une fois toutes les {s:cooldown} seconde."
 
 	"DAC_Synergy_Desc_MegaWarrior"		"Les méga guerriers alliés gagnent {s:armor_bonus} d'armure."
 	"DAC_Synergy_Desc_MegaWarlock"		"À chaque fois qu'un méga démoniste lance un sort, il se lie avec l'allié qui a le moins de PV pendant 3 secondes. Quand l'une des unités liées inflige des dégâts, les deux unités sont soignées de {s:lifesteal_pct} % des dégâts qu'elle a infligés."
@@ -3429,6 +3798,9 @@
 	"DAC_Reward_Claim_Button"						"Récupérer"
 	"DAC_Reward_Claim_Challenge_Title"			"Défi quotidien accompli"
 	"DAC_Postgame_ChallengeComplete"			"Défi réussi"
+	"DAC_Weekly_Challenge_Challenge_Header"		"Défi"
+	"DAC_Weekly_RewardCalloutHeader"			"Défi hebdomadaire"
+	"DAC_Weekly_RewardCalloutDesc"				"Accomplissez le combat de rue, l'objectif et le casse-tête hebdomadaires pour remporter cette récompense : {s:reward_type}."
 
 	"DAC_LookingForMatch_Desc"					"Recherche : {s:match_mode} ({s:game_mode})"
 	"DAC_LookingForMatch_Loading"				"Chargement..."
@@ -3520,7 +3892,7 @@
 	"dac_hotkey_scroll_camera_up_desc" 				"Lever la caméra."
 	"dac_hotkey_scroll_camera_down_desc" 			"Baisser la caméra."
 	"dac_hotkey_tilt_camera_modifier_desc" 			"Maintenez la touche enfoncée pour ajuster la caméra. Faites un double appui pour réinitialiser."
-
+	"dac_hotkey_board_spray_desc"					"Taguer un graffiti à l'emplacement du curseur."
 	"dac_hotkey_alliances_tab"						"Voir l'onglet des alliances."
 	"dac_hotkey_dps_tab"							"Voir l'onglet des DPS."
 	"dac_hotkey_items_tab"							"Voir l'onglet des objets."
@@ -3561,6 +3933,10 @@
 
 	"DAC_Ability_Panel_Cooldown"					"Recharge : {s:ability_cooldown}"
 
+	"DAC_Poster_BP_Badge_Level"						"Niveau"
+	"DAC_Poster_Prestige_Level"						"x{i:prestige_level}"
+
+	
 	"dac_player_dollar_value"						"{s:reward_value} $"
 
 	"dac_player_wanted_subtitle_1"					"REDOUTABLE"
@@ -3608,14 +3984,14 @@
 	"DAC_Hero_Odds_Tier2"							"Unités de niveau 2 : {s:odds_tier_2} %"
 	"DAC_Hero_Odds_Tier3"							"Unités de niveau 3 : {s:odds_tier_3} %"
 	"DAC_Hero_Odds_Tier4"							"Unités de niveau 4 : {s:odds_tier_4} %"
-	"DAC_Hero_Odds_Tier5"							"Héros légendaires : {s:odds_tier_5} %"
+	"DAC_Hero_Odds_Tier5"							"Unités de niveau 5 : {s:odds_tier_5} %"
 
 	"DAC_Hero_Odds_Next_Level"						"au niveau suivant"
 	"DAC_Hero_Odds_Tier1_Next"						"Unités de niveau 1 : {s:odds_tier_1_next} %"
 	"DAC_Hero_Odds_Tier2_Next"						"Unités de niveau 2 : {s:odds_tier_2_next} %"
 	"DAC_Hero_Odds_Tier3_Next"						"Unités de niveau 3 : {s:odds_tier_3_next} %"
 	"DAC_Hero_Odds_Tier4_Next"						"Unités de niveau 4 : {s:odds_tier_4_next} %"
-	"DAC_Hero_Odds_Tier5_Next"						"Héros légendaires : {s:odds_tier_5_next} %"
+	"DAC_Hero_Odds_Tier5_Next"						"Unités de niveau 5 : {s:odds_tier_5_next} %"
 
 	"DAC_Hero_Odds_Tier1_Short"							"{s:odds_tier_1} %"
 	"DAC_Hero_Odds_Tier2_Short"							"{s:odds_tier_2} %"
@@ -3642,7 +4018,8 @@
 	"DAC_CityCrawl_MostRecent"						"Dernier objectif"
 	"DAC_CityCrawl_RecommendedHeader"				"Dernier objectif :<br/><span class='RecommendedChallengeDesc'>{s:recommended_challenge}</span>"
 	"DAC_ChallengeGameModeRequirementsNotMet"		"Sélectionnez un autre mode de jeu pour compléter votre objectif de Cavale en ville."
-	"DAC_ChallengeDifficultyRequirementsNotMet"		"Sélectionnez le niveau de difficulté extrême (XP) du passe de bataille pour terminer votre défi de Cavale en ville."
+	"DAC_ChallengeDifficultyRequirementsNotMet"		"Sélectionnez le niveau de difficulté extrême (XP) avec des bots ou participez à une partie multijoueur pour faire progresser votre passe de bataille."
+	"DAC_ChallengePrivateGameNotFull"				"Votre groupe doit être complet pour faire progresser votre passe de bataille."
 
 	"DAC_Challenge_DodgeAttacks_Desc"				"Esquivez {s:threshold} attaques."
 	"DAC_Challenge_CritAttacks_Desc"				"Portez {s:threshold} coups critiques."
@@ -3662,16 +4039,16 @@
 	"DAC_Challenge_RerollAt"						"Nouveau défi dans {t:d:time_to_reroll}"
 	"DAC_Challenge_RerollAvailableAt"				"Nouveau défi"
 	"DAC_Challenge_Claimable"						"Récupérer"
-	"DAC_Challenge_ChallengeComplete"				"Accompli"
+	"DAC_Challenge_ChallengeComplete"				"Récupéré(e)"
 	"DAC_Challenge_Number"							"Défi n° {d:challenge_slot}"
 	"DAC_Challenge_HobgenCombine2Stars_Desc"		"Créez {s:threshold} unités ★★."
-	"DAC_Challenge_HobgenHireKnightWarrior_Desc"	"Dépensez {s:threshold} pièces d'or en recrutant des <span class='AllianceHighlight'>chevaliers<img class='InlineSynergyIcon ChallengeSynergyKnights'/></span> ou des <span class='AllianceHighlight'>guerriers<img class='InlineSynergyIcon ChallengeSynergyWarriors'/></span>"
+	"DAC_Challenge_HobgenHireKnightWarrior_Desc"	"Dépensez {s:threshold} pièces d'or pour recruter des chevaliers ou des guerriers."
 	"DAC_Challenge_HobgenKillGoldWorth_Desc"				"Accumulez {s:threshold} pièces d'or en tuant des ennemis."
 	"DAC_Challenge_HobgenWinKORounds_Desc"				"Gagnez {s:threshold} manches en mode K.O."
 	"DAC_Challenge_HobgenCompleteWinStreak_Desc"			"Terminez {s:threshold} séries de victoire."
 	"DAC_Challenge_HobgenPhysicalDamageReduced_Desc"		"Bloquez {s:threshold} de dégâts physiques grâce à l'armure."
 	"DAC_Challenge_HobgenWinRoundAtFullInterest_Desc"		"Gagnez {s:threshold} manches avec le maximum d'intérêts en mode standard."
-	"DAC_Challenge_HobgenWinRoundWithTrollAlliance_Desc"	"Gagnez {s:threshold} manches avec une alliance de <span class='AllianceHighlight'>trolls<img class='InlineSynergyIcon ChallengeSynergyTroll'/></span> active"
+	"DAC_Challenge_HobgenWinRoundWithTrollAlliance_Desc"	"Gagnez {s:threshold} manches avec une alliance de trolls active."
 	"DAC_Challenge_HobgenEliminatePlayersKO_Desc"			"Éliminez {s:threshold} joueurs en mode K.O."
 	"DAC_Challenge_HobgenKillUnderlords_Desc"				"Tuez {s:threshold} Underlords."
 	"DAC_Challenge_HobgenFireDamageDealt_Desc"		"Infligez {s:threshold} de dégâts de feu."
@@ -3681,26 +4058,26 @@
 	"DAC_Challenge_JullDealDamage_Desc"				"Infligez {s:threshold} de dégâts avec Jull."
 	"DAC_Challenge_JullEquipItems_Desc"				"Équipez vos héros de {s:threshold} objets."
 	"DAC_Challenge_JullHireTier5Units_Desc"			"Recrutez {s:threshold} unités de niveau 5."  
-	"DAC_Challenge_JullHireScaled_Desc"				"Dépensez {s:threshold} pièces d'or en recrutant des <span class='AllianceHighlight'>écailleux<img class='InlineSynergyIcon ChallengeSynergyScaled'/></span>"	
-	"DAC_Challenge_JullWinWithVigilant_Desc"		"Gagnez {s:threshold} manches avec une alliance de <span class='AllianceHighlight'>gardiens<img class='InlineSynergyIcon ChallengeSynergyVigilant'/></span> active"
-	"DAC_Challenge_JullKnightsAbsorb_Desc"			"Faites en sorte que vos <span class='AllianceHighlight'>chevaliers<img class='InlineSynergyIcon ChellengeSynergyKnights'/></span> bloquent {s:threshold} de dégâts"
+	"DAC_Challenge_JullHireScaled_Desc"				"Dépensez {s:threshold} pièces d'or pour recruter des écailleux."	
+	"DAC_Challenge_JullWinWithVigilant_Desc"		"Gagnez {s:threshold} manches avec une alliance de gardiens active."
+	"DAC_Challenge_JullKnightsAbsorb_Desc"			"Faites en sorte que vos chevaliers bloquent {s:threshold} de dégâts."
 	"DAC_Challenge_JullPlayWithTusk_Desc"			"Disputez {s:threshold} manches avec Cornu."
 	"DAC_Challenge_JullRerolls_Desc"				"Dépensez {s:threshold} en renouvellements."
-	"DAC_Challenge_JullBrawnyKills_Desc"			"Faites en sorte que vos unités <span class='AllianceHighlight'>robustes<img class='InlineSynergyIcon ChallengeSynergyBrawny'/></span> tuent {s:threshold} unités ennemies"
-	"DAC_Challenge_JullWinWithBrute_Desc"			"Gagnez {s:threshold} manches avec une alliance de <span class='AllianceHighlight'>brutes<img class='InlineSynergyIcon ChallengeSynergyBrutal'/></span> active"
+	"DAC_Challenge_JullBrawnyKills_Desc"			"Faites en sorte que vos unités robustes tuent {s:threshold} unités ennemies."
+	"DAC_Challenge_JullWinWithBrute_Desc"			"Gagnez {s:threshold} manches avec une alliance de brutes active."
 	"DAC_Challenge_JullPlayWithBristleback_Desc"	"Disputez {s:threshold} manches avec Hystripic."
 	"DAC_Challenge_JullKillTier5_Desc"				"Tuez {s:threshold} unités de niveau 5."
 	"DAC_Challenge_AnessixSendGoldToDuo_Desc"		"Donnez {s:threshold} pièces d'or à votre coéquipier en mode duo."
-	"DAC_Challenge_AnessixSavageDamage_Desc"		"Accumulez {s:threshold} de dégâts d'attaque bonus avec des unités <span class='AllianceHighlight'>sauvages<img class='InlineSynergyIcon ChallengeSynergySavage'/></span>"
+	"DAC_Challenge_AnessixSavageDamage_Desc"		"Accumulez {s:threshold} de dégâts d'attaque bonus avec des unités sauvages."
 	"DAC_Challenge_AnessixSummonUnits_Desc"			"Invoquez {s:threshold} unités."
-	"DAC_Challenge_AnessixDemonKills_Desc"			"Faites en sorte que vos <span class='AllianceHighlight'>démons<img class='InlineSynergyIcon ChallengeSynergyDemons'/></span> tuent {s:threshold} unités ennemies"
+	"DAC_Challenge_AnessixDemonKills_Desc"			"Faites en sorte que vos démons tuent {s:threshold} unités ennemies."
 	"DAC_Challenge_AnessixHealUnits_Desc"			"Redonnez {s:threshold} PV à vos unités."
 	"DAC_Challenge_AnessixVoidDamage_Desc"			"Infligez {s:threshold} avec des anéantisseurs."
 	"DAC_Challenge_AnessixKillWithSummons_Desc"		"Tuez {s:threshold} unités ennemies avec des invocations."
-	"DAC_Challenge_AnessixCombine3StarDemon_Desc"	"Créez {s:threshold} <span class='AllianceHighlight'>démons<img class='InlineSynergyIcon ChallengeSynergyDemons'/></span> ★★★."
-	"DAC_Challenge_AnessixWinWithHumans_Desc"		"Gagnez {s:threshold} manches avec une alliance d'<span class='AllianceHighlight'>humains<img class='InlineSynergyIcon ChallengeSynergyHuman'/></span> active."
-	"DAC_Challenge_AnessixSummonEidolons_Desc"		"Faites en sorte que vos unités <span class='AllianceHighlight'>primaires<img class='InlineSynergyIcon ChallengeSynergyPrimordial'/></span> invoquent {s:threshold} eidolons."
-	"DAC_Challenge_AnessixBuyDemons_Desc"			"Dépensez {s:threshold} pièces d'or pour recruter des <span class='AllianceHighlight'>démons<img class='InlineSynergyIcon ChallengeSynergyDemons'/></span>."
+	"DAC_Challenge_AnessixCombine3StarDemon_Desc"	"Créez {s:threshold} démons ★★★."
+	"DAC_Challenge_AnessixWinWithHumans_Desc"		"Gagnez {s:threshold} manches avec une alliance d'humains active."
+	"DAC_Challenge_AnessixSummonEidolons_Desc"		"Faites invoquer {s:threshold} eidolons par vos unités primordiales."
+	"DAC_Challenge_AnessixBuyDemons_Desc"			"Dépensez {s:threshold} pièces d'or pour recruter des démons."
 	"DAC_Challenge_AnessixDealCritDamage_Desc"		"Infligez {s:threshold} de dégâts critiques."
 	"DAC_Challenge_AnessixKillDemons_Desc"			"Tuez {s:threshold} démons."
 	
@@ -3748,7 +4125,7 @@
 	"DAC_Achievement_master_of_none_desc"				 "Gagnez une manche avec 11 alliances différentes actives."
 	"DAC_Achievement_lord_of_whitespire_desc"			 "Devenez baron de Flèche blanche"
 	"DAC_Achievement_stonehall_savior_desc"				 "Créez une version ultime de Commandante de la Légion."
-	"DAC_Achievement_pied_piper_desc"					 "Invoquez 50 unités au cours d'une seule manche."
+	"DAC_Achievement_pied_piper_desc"					 "Invoquez 20 unités au cours d'une seule manche"
 		
 	
 	"DAC_Challenge_Mode_Requires_Turbo"				"Ce défi doit être accompli dans une partie en mode K.O."
@@ -3769,6 +4146,10 @@
 	"DAC_Achievement_WinWith5ActiveSynergies_Desc"	"Gagnez {d:challengeMaxProgress} manches avec 5 alliances actives ou plus."
 	"DAC_Achievement_WinWithA6Synergy_Desc"			"Gagnez {d:challengeMaxProgress} manches avec une alliance active de 6 héros ou plus."
 	"DAC_Achievement_DailyChallengesCompleted"		"Défis quotidiens accomplis"
+	"DAC_Achievement_WeeklyChallengesCompleted"		"Défis hebdomadaires accomplis"	
+	"DAC_Achievement_WeeklyStreetFightCompleted"	"Combat de rue hebdomadaire terminé"		
+	"DAC_Achievement_WeeklyPuzzleCompleted"			"Casse-tête hebdomadaire résolu"		
+	"DAC_Achievement_WeeklyChallengeCompleted"		"Défi hebdomadaire accompli"		
 
 	"DAC_Popup_ChallengeReroll_Title"				"Changer de défi ?"
 	"DAC_Popup_ChallengeReroll_TitleWithProgress"	"Changer de défi ?"
@@ -3790,10 +4171,11 @@
 	"DAC_LoadoutUnderlords"							"Équipement : Underlords"
 	"DAC_LoadoutGame"								"Équipement : jeu"
 	"DAC_LoadoutPlayer"								"Équipement : joueur"
-	"DAC_LoadoutMapPropEditor"						"Équipement : éditeur de décors de champs de bataille"
+	"DAC_LoadoutMapPropEditor"						"Équipement : éditeur de décors du champ de bataille"
 
 	"DAC_LoadoutEquip"								"Équiper"
-	"DAC_LoadoutEquipped"							"Sélectionné(e)"
+	"DAC_LoadoutEquipped"							"Choisi(e)"
+	"DAC_EditBoardProps"							"Modifier les décors du champ de bataille"
 	"DAC_LoadoutEquip_Popup_Close"					"Fermer"
 	"DAC_LoadoutEquip_Failed_Title"					"Sélection impossible"
 	"DAC_LoadoutEquip_Failed_Body"					"Impossible de sélectionner cet objet pour le moment. Veuillez réessayer plus tard."
@@ -3823,6 +4205,7 @@
 	"DAC_Loadout_PosterPreview"						"Aperçu de l'avis de recherche"
 	"DAC_Loadout_UnderlordSkin"						"Tenue"
 	"DAC_Loadout_UnderlordVictoryDance"				"Danse de la victoire"
+	"DAC_Loadout_Generic"							"Récompense"
 
 
 	"DAC_Loadout_PopupTitle_Boards"					"Choisissez votre champ de bataille"
@@ -3951,8 +4334,9 @@
 	"dac_zoo_page2"			"Texte et boutons"
 	"dac_zoo_page3"			"Alliances"
 	"dac_zoo_page4"			"Fenêtres"
-	"dac_zoo_page5"			"Carte du défi"
+	"dac_zoo_page5"			"Combats de rue"
 	"dac_zoo_page6"			"Après-match"
+	"dac_zoo_page7"			"Bac à sable"
 	"dac_zoo_page_divider"	"/"
 
 	"dac_zoo_show_post_game"	"Afficher le menu d'après-match"
@@ -3975,7 +4359,15 @@
 	"s1_play_trailer"			"Voir la bande-annonce"
 	"s1_ricky_beta_message"		"PSST ! Salut, merci d'avoir joué à la bêta. J'ai récupéré quelques cadeaux de bienvenue pour vous : les champs de bataille de la saison bêta, un titre d'avis de recherche et une statue pour votre champ de bataille !"
 
-
+	"DAC_MainMenu_Weekly_Challenge_Header"	"Cette semaine :\n{s:weekly_challenge_headline}"
+	"popup_weekly_challenge_title" "La Gazouillette"
+	"popup_weekly_challenge_subtitle" "Le meilleur (et l'unique) journal de Flèche blanche !"
+	"popup_weekly_challenge_battlepass_title" "Le passe de bataille doit être débloqué pour consulter la Gazouillette de la semaine."
+	"popup_weekly_challenge_description" "Chaque semaine paraît un nouveau numéro de La Gazouillette, avec les dernières infos de Flèche blanche, de nouveaux défis à relever, et plus encore. Terminez le casse-tête, le combat de rue et l'objectif hebdomadaires pour débloquer la récompense de la semaine !"
+	"popup_weekly_challenge_description_2_locked" "Vous avez déjà accès à cette parution, car vous avez débloqué le passe de bataille."
+	"popup_weekly_challenge_description_2_unlocked" "Seuls les joueurs qui ont débloqué le passe de bataille peuvent consulter la Gazouillette de la semaine."
+	"popup_weekly_challenge_ok_button" "Voir le numéro de cette semaine"	
+	"popup_weekly_challenge_getbp_button" "Déverrouiller le passe de bataille"
 	"dac_tutorial_popup_pre_title"			"Bienvenue dans"
 	"dac_tutorial_popup_title"				"Dota Underlords"
 	"dac_play_tutorial_popup_desc"			"Présentation rapide"
@@ -4055,8 +4447,13 @@
 	"dac_challenge_map_toggle_claim_mode"			"Mode récupération"
 	"dac_challenge_map_dev_buildings"			"Constructions (dév.)"
 	"dac_challenge_map_reset"					"Réinitialiser"
+	"dac_challenge_map_zone_anim"					"Animation de la zone"
 	"dac_challenge_map_dev_key"					"Donner une clé"
+	"dac_challenge_map_dev_zone"				"Récompense de zone"
+	"dac_challenge_map_dev_prestige"			"Prestige"
+	"dac_challenge_map_dev_complete"				"Tout accomplir"
 	"dac_challenge_map_intro_popup"				"Introduction"
+	"dac_challenge_map_prestige"				"Prestige"
 
 	"dac_challenge_map_claim_challenge"		"Récupérer"
 	"dac_challenge_map_claim_node"			"Nœud de récupération"
@@ -4066,6 +4463,12 @@
 	"dac_challenge_map_claim_locked_blurb"	"Cette zone est réservée aux membres de la société secrète. Consultez la Société super secrète pour en savoir plus."
 	"dac_challenge_map_claim_locked_reward"	"Récompense :"
 	"dac_challenge_map_claim_xp"			"+ {u:claim_xp} points du passe de bataille"
+
+	"DAC_challenge_map_prestige_label"		"Cavale en ville prestige"
+	"DAC_challenge_map_prestige_title"		"Reprenez le contrôle de la ville !"
+	"DAC_challenge_map_prestige_intro"		"Vous avez pris le contrôle de Flèche blanche, mais seriez-vous capable de le faire une seconde fois ?"
+	"DAC_challenge_map_prestige_desc"		"Commencez une partie prestige pour rejouer en mode Cavale en ville avec une difficulté supérieure. Votre Underlord obtiendra une nouvelle tenue en jeu, et vous recevrez un badge prestige de Cavale en ville affiché sur votre avis de recherche, visible de tous."
+	"DAC_challenge_map_prestige_node"		"Vous conserverez toutes vos récompenses cosmétiques et vos points de passe de bataille obtenus lors de votre partie précédente, mais perdrez tous les objets de combat de rue récupérés précédemment et les objets de combat de rue du passe de bataille ne seront plus accessibles. En contrepartie, vous débloquerez des objets de combat de rue plus puissants."
 
 	"dac_challenge_map_claim_100_name"		"Rue coupe-gorge"
 	"dac_challenge_map_premium_claim_locked"		"Verrouillé"
@@ -4106,6 +4509,7 @@
 	"DAC_Challenge_Popup_2_Valid_Modes"		"Modes de jeu valides : {s:game_mode_1}, {s:game_mode_2}"
 	"DAC_Challenge_Popup_1_Valid_Mode"		"Modes de jeu valides : {s:game_mode_1}"
 	"DAC_challenge_map_city_key_count"		"{d:city_keys}"
+	"DAC_challenge_map_objectives_count"	"{d:city_objectives}"
 
 	"DAC_Area_Inventory_Title"				"Sac à dos :"
 	"DAC_Area_Inventory_Description"		"Les objets que vous débloquez pour {s:underlord_name} grâce aux combats de rue et aux récompenses du passe de bataille peuvent être utilisés pour améliorer votre équipe lors des prochains combats de rue."
@@ -4136,6 +4540,8 @@
 	"dac_legendary_void_spirit_desc" "Les <span class='SpiritBrother'>esprits</span> <img class='InlineSynergyIcon SynergySpiritBrother'/> chargés infligent +100 % de dégâts.  <br><br>+15 % de chances d'apparaître dans l'échoppe si vous avez au moins atteint le niveau 1 de l'alliance des <span class='SpiritBrother'>esprits</span> <img class='InlineSynergyIcon SynergySpiritBrother'/>."
 
 	"DAC_MainNav_SeasonInfo"	"Règles"
+	"DAC_MainNav_EarlyBird"		"La Gazouillette"
+	"DAC_EarlyBird_ButtonDesc"	"Parution hebdomadaire"
 	"DAC_MainNav_Achievements"	"SUCCÈS"
 	"DAC_MainNav_Battlepass"	"PROTO-PASSE"
 	"DAC_MainNav_SecretSociety"	"SOCIÉTÉ SECRÈTE"
@@ -4361,6 +4767,10 @@
 	"dac_launch_puzzle"			"Démarrer le casse-tête"
 	"dac_launch_street_fight"	"Jouer"
 	"dac_claim_challenge"		"Récupérer"
+	"dac_claim_district"		"Récupérer les récompenses"
+	"dac_claim_prestige"		"Nouvelle partie prestige"
+	"dac_claim_prestige_level"	"Niveau {d:prestige_level}"
+	"dac_claim_prestige_body"	"Fenêtre pour récupérer les récompenses prestige"
 	"dac_challenge_street_fight_extra_info"		"Gagnez une partie contre <span class=\"BotName\">{s:bot_name}</span> pour prendre le contrôle du quartier."
 
 	"dac_set_as_active_challenge"	"Relever ce défi"
@@ -4535,6 +4945,32 @@
 	"DAC_DevRandomBot"			"[DEV] Tuer 1 bot"
 	"DAC_DevKillSelf"			"[DEV] Se tuer"
 
+	"DAC_Weekly_Headline"						"Titre amusant !"
+	"DAC_Weekly_SubHeadline"					"Sous-titre incisif qui fait rire tout le monde et développe le trait d'humour contenu dans le titre."
+	"DAC_Weekly_NoActiveChallengeHeader"		"Revenez la semaine prochaine !"
+	"DAC_Weekly_ChallengesComplete"				"Défi(s) accompli(s) : {i:weeklyChallengesCompleted} sur {i:weeklyChallengesRequired}"
+	"DAC_Weekly_Claim"							"Récupérer"
+	"DAC_Weekly_WeeklyChallenges"				"Défis hebdomadaires"
+	"DAC_Weekly_TimeRemaining"					"Expire dans {i:days_left} j, {i:hours_left} h et {i:minutes_left} min."
+	"DAC_Weekly_TimeRemainingDays"				"Expire dans {i:days_left} j"
+	"DAC_Weekly_TimeRemainingHours"				"Expire dans {i:hours_left} h"
+	"DAC_Weekly_TimeRemainingMinutes"			"Expire dans {i:minutes_left} min."
+	"DAC_Weekly_Puzzle_Desc"					"Des mots très intéressants composent ce très épineux casse-tête, qui met à l'honneur l'histoire thématique de la semaine."
+	"DAC_Weekly_StreetFight_Desc"				"Encore plus de mots super chouettes définissent ce combat de rue des plus palpitants, également thématisé autour de l'histoire de la semaine."
+	"DAC_Weekly_Fight"							"Partie standard"
+	"DAC_Weekly_StreetFight"					"Combat de rue"
+	"DAC_Weekly_Objective"						"Objectif"
+	"DAC_Weekly_Puzzle"							"Casse-tête"
+	"DAC_Weekly_Arcade"							"Jeu rétro"
+	"DAC_Weekly_NonogramTitle"					"Casse-tête hebdomadaire"
+	"DAC_Weekly_NonogramDesc"					"Dans ce casse-tête, votre but est de deviner quelles cases de la grille sont vides, et quelles cases sont remplies. À côté de chaque colonne et de chaque ligne, vous trouverez le nombre de cases remplies consécutives. Ces chiffres vous indiquent donc le nombre de cases à remplir dans une colonne ou une ligne. Ainsi, si vous voyez « 7 2 », cela signifie qu'une suite ininterrompue de 7 cases remplies est suivie d'une ou plusieurs cases vides, qui seront à leur tour suivies de 2 cases remplies.\n\nCliquez sur une case pour la remplir, cliquez à nouveau dessus pour indiquer qu'elle est vide, et cliquez une troisième fois dessus pour effacer le résultat."
+	"DAC_Weekly_CourierStatsTitle"				"Résultats de la course des coursiers"
+
+	"DAC_Start_Courier_PlaceBet"				"Faites vos paris !"
+	"DAC_Start_Courier_StartRace"				"Commencez la course !"
+	"DAC_Start_Courier_NewRace"					"Vous avez gagné {i:last_payout} <img class='goldcoin'/> ! Recommencer ?"
+	"DAC_Start_Courier_Race_InProgress"			"Et c'est parti !"
+
 	"DAC_CC_Bounty_Title"						"Prime :"
 	"DAC_CC_MostWanted_Title"					"Activement recherché(e)"
 	"DAC_CC_Challenge_Progress"					"Progression de l'objectif"
@@ -4549,6 +4985,21 @@
 	"DAC_CC_Locked_Content_Title"				"Objectif verrouillé"
 	"DAC_CC_Locked_Content_Desc"				"Débloquez le passe de bataille de la saison 1 pour avoir accès à l'entièreté de Cavale en ville ainsi qu'à plus de 100 récompenses spéciales disponibles sur la ligne de récompenses."
 	"DAC_CC_TakeOverWhiteSpire"					"Prenez le contrôle de Flèche blanche"
+	"DAC_CC_BeginPrestige"						"Reprenez le contrôle de la ville"
+	"DAC_CC_DistrictCompleted"					"Quartier terminé"
+	"DAC_CC_Prestige_Title"						"Niveau prestige {d:prestige_level}"
+	"DAC_CC_Prestige_Description"				"Vos unités infligeront {s:dmg_reduction} % de dégâts en moins"
+	"DAC_CC_Prestige_DamageReduction_1"			"25"
+	"DAC_CC_Prestige_DamageReduction_2"			"35"
+	"DAC_CC_Prestige_DamageReduction_3"			"45"
+	"DAC_CC_Prestige_DamageReduction_4"			"55"
+	"DAC_CC_Prestige_DamageReduction_5"			"65"
+
+	"DAC_citycrawl_complete_district_name_anessix"	"La petite Revtel"
+	"DAC_citycrawl_complete_district_name_hobgen"	"Novténèbres"
+	"DAC_citycrawl_complete_district_name_enno"		"Les Dédales"
+	"DAC_citycrawl_complete_district_name_jull"		"Port ombragé"
+
 
 	"DAC_CC_Confirm_Key_Title"					"Clé de la ville"
 	"DAC_CC_Confirm_Key_Desc"					"En utilisant une clé de la ville, ce défi sera automatiquement accompli et vous débloquerez la récompese associée<br>Voulez-vous vraiment utiliser une clé ?"
@@ -4597,6 +5048,7 @@
 	"DAC_Play_No_Challenge_Selected"				"Aucun objectif sélectionné"
 
 	"DAC_Play_City_Challenges_Available"			"{d:city_objectives_available} objectifs actifs"
+	"DAC_Play_CityChallenges_Avauilable_Button"		"{d:city_objectives_available} objectif(s) actif(s)"
 	"DAC_Play_City_Challenges_OneAvailable"			"{d:city_objectives_available} objectif actif"
 	"DAC_Play_City_Challenges_None_Available"		"0 objectif actif"
 	"DAC_Play_City_Crawl_Invalid_Challenge"			"L'objectif sélectionné est incompatible avec ce mode de jeu"
@@ -4718,8 +5170,8 @@
 	"DAC_Challenge_Streetfight_scaled_slark_BotDesc"		"unused description about Graveyard Trolls"
 	"DAC_Challenge_Streetfight_scaled_slark_Lore"			"Slark et ses amis du Récif sombre s'infiltrent peu à peu dans Novténèbres. Si on ne s'occupe pas d'eux rapidement, ils risquent de s'y implanter pour de bon."
 	"DAC_Challenge_Streetfight_scaled_slark_Quote"			"Je ne sais pas si Slack agit sous les ordres de Jull ou de son propre chef, mais je ne céderai pas le moindre bout de terrain à ce bâtard à écailles. — <i>Hobgen répond à une nouvelle menace.</i>"
-	"DAC_Challenge_Streetfight_scaled_slark_Win"			"Hobgen met à mal les relations politiques avec Revtel pour protéger ses intérêts"
-	"DAC_Challenge_Streetfight_scaled_slark_Lose"			"Hobgen descend dans l'estime du seigneur Souffle-chaud et ne s'accorde pas les faveurs de Mireska"
+	"DAC_Challenge_Streetfight_scaled_slark_Win"			"Hobgen maintient l'ordre public sans le vouloir en tuant des fugitifs"
+	"DAC_Challenge_Streetfight_scaled_slark_Lose"			"Les évadés du Récif sombre passent Hobgen à tabac"
 	
 	
 	
@@ -4736,8 +5188,8 @@
 	"DAC_Challenge_Streetfight_thunderhides_BotDesc"			"C'est cassé ici ?"
 	"DAC_Challenge_Streetfight_thunderhides_Lore"				"Grâce à l'impressionnante ménagerie de Grek, on peut admirer des créatures incroyables. Ça peut aussi tourner à la catastrophe si une des cages cède."
 	"DAC_Challenge_Streetfight_thunderhides_Quote"				"Grek a crié sur tous les toits que les mastodontes s'étaient échappés. Ils doivent vite être recapturés avant qu'ils n'aplatissent tout Novténèbres. — <i>Hobgen, berger à ses heures perdues</i>"
-	"DAC_Challenge_Streetfight_thunderhides_Win"				"Hobgen a enfin réussi à résoudre un problème en discutant. Je déconne, il a tué tout le monde."
-	"DAC_Challenge_Streetfight_thunderhides_Lose"				"Les écoterroristes ont été vaincus par des justiciers pas si justes"	
+	"DAC_Challenge_Streetfight_thunderhides_Win"				"Hobgen capture des mastodontes en cavale et songe à créer son propre zoo"
+	"DAC_Challenge_Streetfight_thunderhides_Lose"				"Hobgen a vu les mastodontes. Et les mastodontes ont vu Hobgen."	
 	
 	"DAC_Challenge_Streetfight_foresters_title"				"Surveillance incendie"
 	"DAC_Challenge_Streetfight_foresters_Bot"				"Les écolos"
@@ -5099,7 +5551,7 @@
 
 	"DAC_Challenge_Puzzle_s1_jull3_title"	"Objectifs confus"
 	"DAC_Challenge_Puzzle_s1_jull3_quote"	"Les gens viennent à la Lune scindée pour y faire des libations inédites. Est-ce que mon cocktail à base de vigile venimeuse a fait quelques victimes ? Oui. Mais pour ceux qui ont survécu, l'expérience est extatique. — <i>Jull, mixologue mortel</i>"
-	"DAC_Challenge_Puzzle_s1_jull3_lore"	"Si Jull siège aujourd'hui aux Orchidées blanches, c'est grâce à son idée de mélanger du venin de vigile venimeuse à un coktail... Bien que le titre de cocktail est..."cocktail" is generous... its basically just venom and Icewrack white."
+	"DAC_Challenge_Puzzle_s1_jull3_lore"	"Si Jull siège aujourd'hui aux Orchidées blanches, c'est grâce à son idée de mélanger du venin de vigile venimeuse à un cocktail... Le titre de « cocktail » est néanmoins quelque peu présomptueux... Il s'agit simplement de venin et de vin blanc des Landes de glace."
 
 	"DAC_Challenge_Puzzle_s1_jull4_title"	"Personne n'échappe à Sven"
 	"DAC_Challenge_Puzzle_s1_jull4_quote"	"Je vais trouver un moyen de résoudre ce problème... — <i>Jull, défonceur de barrières</i>"
@@ -5249,8 +5701,8 @@
 	"DAC_Challenge_Streetfight_sf_and_golems_BotDesc"		"botdesc"
 	"DAC_Challenge_Streetfight_sf_and_golems_Lore"		"Démon de l'ombre est lassé de la montée en puissance d'Anessix et cherche à la remettre à sa place"
 	"DAC_Challenge_Streetfight_sf_and_golems_Quote"		"Ce n'était déjà pas drôle de devoir s'occuper d'Enno, Jull et Hobgen... Mais maintenant, Ténébris essaye de m'évincer de la cour de Ristul. Il faut que je règle ce problème personnellement. — <i>Les murs se referment sur Anessix</i>"
-	"DAC_Challenge_Streetfight_sf_and_golems_Win"		"sf_and_golems Win"
-	"DAC_Challenge_Streetfight_sf_and_golems_Lose"		"sf_and_golems Lose"
+	"DAC_Challenge_Streetfight_sf_and_golems_Win"		"Échec de l'insurrection des démons, qui se couvrent de ridicule"
+	"DAC_Challenge_Streetfight_sf_and_golems_Lose"		"Anessix rejetée de la cour de Ristul"
 
 
 	"DAC_Challenge_Streetfight_axe_and_friends_Title"		"Vengeance de la Brume rouge"
@@ -5274,7 +5726,7 @@
 	"DAC_Challenge_Streetfight_dk_and_black_dragons_Title"		"La vengeance de Slyrak"
 	"DAC_Challenge_Streetfight_dk_and_black_dragons_Bot"		"Les dragons et dragons"
 	"DAC_Challenge_Streetfight_dk_and_black_dragons_BotDesc"		"dk_and_black_dragons Desc"
-	"DAC_Challenge_Streetfight_dk_and_black_dragons_Lore"		"Davion n'a pas aimé être réduit à l'esclavage par Anessix... Sous le nom de Slyrack et à la tête de ses alliés dragons, il cherche maintenant justice, et elle aura un goût de sang"
+	"DAC_Challenge_Streetfight_dk_and_black_dragons_Lore"		"Davion n'a pas aimé être réduit en esclavage par Anessix... Sous le nom de Slyrack et à la tête de ses alliés dragons, il cherche maintenant justice, et elle aura un goût de sang"
 	"DAC_Challenge_Streetfight_dk_and_black_dragons_Quote"		"Quand j'ai relâché mon emprise sur Davion, j'ai pensé qu'il comprendrait que c'était un acte de bonté... Lever sa lame contre moi en guise de rétribution sera sa dernière erreur. — <i>Anessix ne fait pas de bonnes actions</i>"
 	"DAC_Challenge_Streetfight_dk_and_black_dragons_Win"		"Anessix bat le célèbre Chevalier dragon... et en a maintenant après Kaden"
 	"DAC_Challenge_Streetfight_dk_and_black_dragons_Lose"		"Flash info : Davion surpris en grande conversation avec Mirana après avoir pris sa revanche sur Anessix"
@@ -5355,7 +5807,7 @@
 
 	"DAC_Challenge_Puzzle_s1_anessix2_title"	"Insaisissables…"
 	"DAC_Challenge_Puzzle_s1_anessix2_quote"	"Les frères esprits essaient de me museler… J'admire leur dévouement, mais je déteste leur façon d'adopter la futilité. — <i>Anessix, fléau des esprits</i>"
-	"DAC_Challenge_Puzzle_s1_anessix2_lore"		"De nombreuses forces voient l'ascension au pouvoir d'Anessix d'un mauvais œil. Mais pas les frères esprits."
+	"DAC_Challenge_Puzzle_s1_anessix2_lore"		"De nombreuses forces voyaient d'un mauvais œil l'ascension d'Anessix au pouvoir. Cependant, les frères esprits ont été les seuls à réagir."
 
 	"DAC_Challenge_Puzzle_s1_anessix3_title"	"Serviteurs des Jumeaux écorchés"
 	"DAC_Challenge_Puzzle_s1_anessix3_quote"	"L'opposition à mon règne, bien qu'attendue, est toujours une déception. — <i>La cour de Ristul en conflit avec Les Jumeaux écorchés</i>"
@@ -5367,7 +5819,7 @@
 
 	
 	// Enno S1 Objectives
-	"DAC_Challenge_EnnoWinWithHunters_Desc"			"Gagnez {s:threshold} manches avec une alliance de <span class='Hunter'>chasseurs</span> <img class='InlineSynergyIcon SynergyHunters'/> active."
+	"DAC_Challenge_EnnoWinWithHunters_Desc"			"Gagnez {s:threshold} manches avec une alliance de <span class='Hunter'>chasseurs</span> active."
 	"DAC_Challenge_EnnoWinWithHunters_title"		"Rôdeur des rues"
 	"DAC_Challenge_EnnoWinWithHunters_lore"			"Enno n'est pas du genre à se tourner les pouces. Pendant son temps libre, il patrouille dans les Dédales, à la recherche de visiteurs indésirables."
 	"DAC_Challenge_EnnoWinWithHunters_quote"		"Enno explique dans les moindres détails ce qu'il compte faire aux intrus."
@@ -5398,7 +5850,7 @@
 	"DAC_Challenge_EnnoStunUnits_lore"				"Que les choses soient bien claires : Enno est un petit bâtard, et il veut que ça se sache."
 	"DAC_Challenge_EnnoStunUnits_quote"				"Enno cherche à mettre ses rivaux en pièces."
 	
-	"DAC_Challenge_EnnoBruteDebuff_Desc"			"Appliquez l'effet négatif des <span class='Brute'>brutes</span> <img class='InlineSynergyIcon SynergyBrutal'/> à {s:threshold} unités."
+	"DAC_Challenge_EnnoBruteDebuff_Desc"			"Appliquez l'effet négatif des <span class='Brute'>brutes</span> à {s:threshold} unités."
 	"DAC_Challenge_EnnoBruteDebuff_title"			"Rase-moquette"
 	"DAC_Challenge_EnnoBruteDebuff_lore"			"Enno sait que la peur éloigne les gens des Dédales, il fait donc tout ce qu'il peut pour la cultiver."
 	"DAC_Challenge_EnnoBruteDebuff_quote"			"Enno affirme que personne n'est en sécurité dans ces rues."
@@ -5408,7 +5860,7 @@
 	"DAC_Challenge_EnnoTop4_lore"	"Tout le monde sait que, parmi les quatre Underlords en lice, Enno est l'outsider. Il ne possède aucun commerce et n'a aucun allié démoniaque. Il ne s'est jamais assis à la droite de Momma Eeb. Dire qu'Enno pense devoir prouver quelque chose n'est qu'un doux euphémisme."
 	"DAC_Challenge_EnnoTop4_quote"  "Enno s'entiche de son amour pour le luxe"
 	
-	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"Infligez {s:threshold} de dégâts avec vos unités <span class='Ogre'>liées par le sang</span><img class='InlineSynergyIcon SynergyOgre'/>"
+	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"Infligez {s:threshold} de dégâts avec vos unités <span class='Ogre'>liées par le sang</span>."
 	"DAC_Challenge_EnnoDealDamageBloodbound_title"	"Tous derrière le petit bonhomme !"
 	"DAC_Challenge_EnnoDealDamageBloodbound_lore"	"Enno cherche toujours à prouver que la taille n'a pas d'importance."
 	"DAC_Challenge_EnnoDealDamageBloodbound_quote"	"Enno prétend que rien n'est plus satisfaisant que de tuer ceux qui le sous-estiment."
@@ -5514,13 +5966,6 @@
 	"DAC_Challenge_Streetfight_bloodbounds_and_warlocks_Win"		"Enno chasse les démonistes et met fin aux mystérieuses disparitions dans les Dédales"
 	"DAC_Challenge_Streetfight_bloodbounds_and_warlocks_Lose"		"Rumeur : des géants greffés de chair rôderaient dans les Dédales"
 	
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Title"		"Croissance expérimentale"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Bot"		"Les démonistes liés par le sang"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_BotDesc"		"bloodbounds_and_warlock Desc"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Lore"		"Il n'est pas inhabituel de voir les démonistes se tourner vers les Dédales quand ils cherchent des « volontaires » pour leurs expériences."
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Quote"		"Enno réitère que, si la vie n'est pas chère à Flèche blanche, ce n'est pas pour autant que ses habitants sont à vendre"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Win"		"Enno chasse les démonistes et met fin aux mystérieuses disparitions dans les Dédales"
-	"DAC_Challenge_Streetfight_bloodbounds_and_warlock_Lose"		"Rumeur : des géants greffés de chair rôderaient dans les Dédales"
 	
 
 
@@ -5583,7 +6028,7 @@
 	"DAC_Challenge_Streetfight_scaled_slark_enno_BotDesc"		"scaled_slark_enno Desc"
 	"DAC_Challenge_Streetfight_scaled_slark_enno_Lore"		"Enno a deux passe-temps : agresser les touristes et faire de la vie de Jull un enfer."
 	"DAC_Challenge_Streetfight_scaled_slark_enno_Quote"		"Enno s'entiche de sa haine de Jull"
-	"DAC_Challenge_Streetfight_scaled_slark_enno_Win"		"Enno continue d'être une épine dans le pied pour Jull après avoir perturbé le trafic de contrebande au Récif sombre"
+	"DAC_Challenge_Streetfight_scaled_slark_enno_Win"		"Enno continue à contrarier Jull après avoir perturbé le trafic de contrebande au Récif sombre"
 	"DAC_Challenge_Streetfight_scaled_slark_enno_Lose"		"La frappe d'Enno sur Jull a fait un flop"
 
 
@@ -5632,11 +6077,278 @@
 	"DAC_Challenge_Puzzle_s1_enno4_quote"	"Enno décide de s'occuper de la magie noire qui imprègne les Dédales"
 	"DAC_Challenge_Puzzle_s1_enno4_lore"	"Les morts se réveillent dans les Dédales... Seul Enno est assez brave pour les arrêter."
 
-	
 
+	// Weekly challenge	#1
+	"DAC_Challenge_weekly_challenge_0_Headline"						"PROCHAINEMENT !"
+
+	"DAC_Challenge_weekly_challenge_1_Headline"						"KRACH PROLÉTAIRE !"
+	"DAC_Challenge_weekly_challenge_1_SubHeadline"					"Pluie de navets et de sang au marché fermier de Flèche blanche"
+
+	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Title"		"Hache et Disrupteur sèment le désordre au marché"
+	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Lore"		"Les marchandises et services douteux sont courants à Flèche blanche. Mais, même dans une ville aux mœurs discutables, la vente de chemises en cuir d'Oglodi reste des plus macabres\n(suite en page 2)."
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Title"			"Pratiques de haute couture"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Lore"			"Après un défilé de mode au marché fermier qui a tourné au vinaigre, Carl le couturier décide d'abandonner les tendances de Quoidge et de revenir aux vêtements plus traditionnels. Interrogé sur les raisons de ce changement, Carl a déclaré : « Je ne suis qu'un simple cadavre qui aime faire sourire les gens. Si cela veut dire que je dois recruter des chasseurs de loups plutôt que des chasseurs d'Oglodis, ça me va. » (Suite en page 6.)"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_win"			"Carl choisit de confectionner une veste sans utiliser de peau humaine"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_lose"			"L'escouade de trappeurs engagée par Carl se fait attaquer aux abords de Flèche blanche"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Bot"			"Fourrures brutes"
+
+	"DAC_Challenge_Challenge_weekly_challenge_1_Title"				"Avis de recherche : justice pour Carl"
+	"DAC_Challenge_Challenge_weekly_challenge_1_Lore"				"Carl le couturier a été victime de discrimination contre les morts-vivants à Flèche blanche, et les braves gens de Quoidge ne toléreront pas cet acte. Sachez que nous récompenserons ceux qui apaiseront les relations avec les morts-vivants de Flèche blanche.\n\n— Reginald Blithe III, porte-parole des hommes-cadavres."
+	"DAC_Challenge_Challenge_weekly_challenge_1_Instructions"		"Tuez 300 unités avec des héros impitoyables"
+	
+	// Weekly challenge	#2
+	"DAC_Challenge_weekly_challenge_2_Headline"						"UNE JOURNÉE HACHARNÉE À FLÈCHE BLANCHE"
+	"DAC_Challenge_weekly_challenge_2_SubHeadline"					"Les autorisés locales attribuent l'augmentation des meurtres aux vacances de Hache à Flèche blanche "
+
+	"DAC_Challenge_Puzzle_brutal_book_signing_Title"		"La malchance frappe après la sortie de « L'Oglodi malchanceux » "
+	"DAC_Challenge_Puzzle_brutal_book_signing_Lore"		"La séance de dédicace pour le nouveau roman de Belplume, « L'Oglodi malchanceux », a été le théâtre d'une violente altercation lorsque quelqu'un a émis l'opinion que Hache n'était pas aussi dangereux que le livre le prétendait. (Suite en page 2.)"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Title"		"Hache lève le coude à la Lune scindée, ce qui finit en bagarre"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Lore"		"Les corps et les additions salées s'accumulent suite à l'arrivée de Hache à Flèche blanche, qui a attiré l'attention des gros durs en devenir... Malheureusement pour Jull, ces voyous ont décidé de se retrouver à la Lune scindée. (Suite en page 6.)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_win"				"Jull enterre la hache de guerre avec Hache et frappe des gens en son nom"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_lose"				"Le saloon de Jull en ruine après une bagarre à la Lune scindée"
+
+	"DAC_Challenge_Challenge_weekly_challenge_2_Title"		"Avis de recherche : victimes, pour Hache"
+	"DAC_Challenge_Challenge_weekly_challenge_2_Lore"		"Des imbéciles sont venus dire à Hache qu'il n'était pas doué pour le carnage, et que Belplume avait largement enjolivé les faits. Hache prouvera que ces deux affirmations sont vraies. – Hache \n\nP.-S. : Achetez mon livre."
+	
+	// Weekly challenge	#3
+	"DAC_Challenge_weekly_challenge_3_Headline"						"Soirée entre filles !"
+	"DAC_Challenge_weekly_challenge_3_SubHeadline"					"Les femmes de Flèche blanche passent une soirée de débauche en ville"
+
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Title"					"Anessix et Akasha"
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Lore"						"Qualifier la relation entre Akasha et Anessix d'amicale, ce serait une hyperbole... Mais quand ces deux démons s'unissent sous le même drapeau, elles sont capables de réaliser des choses extraordinaires."
+
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Title"		"Ne lui demande pas de sourire"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Bot"		"Les chattemites"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Lore"		"Flèche blanche regorge d'hommes rustres, et Anessix n'hésite pas à les confronter."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_win"				"Les Néandertaliens sifflent Anessix... et le regrettent aussitôt"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_lose"				"Anessix est chassée et rumine sa revanche"
+
+	"DAC_Challenge_Challenge_weekly_challenge_3_Title"		"Caerulei oculi"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Lore"		"Ne sous-estimez jamais les femmes de Flèche blanche"
+
+	// Weekly challenge	#4
+	"DAC_Challenge_weekly_challenge_4_Headline"						"Argent sale venu d'ailleurs"
+	"DAC_Challenge_weekly_challenge_4_SubHeadline"					"Le royaume marchand de Revtel continue à financer la guerre des gangs à Flèche blanche"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Title"					"Revenu précaire"
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Lore"						"Si vous vous liez d'amitié avec O'nia, elle pourra vous offrir un accès facile aux finances de Revtel. Mais si vous perdez sa confiance, vous pourriez manquer d'argent."
+
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Title"		"Équipe de collecte de Revtel"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Bot"		"Les briseurs de genoux de Revtel"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Lore"		"Avec les banques de Revtel, emprunter de l'argent n'a jamais été aussi facile... ni aussi dangereux si vous n'êtes plus solvable..."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_win"				"Hobgen repousse une bande de mercenaires et songe à rembourser sa dette"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_lose"				"Revtel recrute des briseurs de genoux pour persécuter Hobgen"
+
+	"DAC_Challenge_Challenge_weekly_challenge_4_Title"		"Dettes de Revtel"
+	"DAC_Challenge_Challenge_weekly_challenge_4_Lore"		"Hobgen s'est largement reposé sur O'nia pour qu'elle obtienne de Revtel les fonds nécessaires pour financer sa guerre des gangs... Il lui faut maintenant s'acquitter de sa dette."
+	
+	// Weekly challenge	#5
+	"DAC_Challenge_weekly_challenge_5_Headline"						"Les morts errent à Flèche blanche"
+	"DAC_Challenge_weekly_challenge_5_SubHeadline"					"Les Dédales pullulent de morts-vivants tandis que les anciennes victimes d'Enno ont soif de vengeance"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Title"					"Le roi des Dédales"
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Lore"						"Il est important pour Enno que tous en ville sachent que les Dédales sont son territoire... et que quiconque s'y aventurant sans sa permission ne pourrait en ressortir vivant, même si cet aventurier était le plus sanguinaire des morts-vivants."
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Title"		"REVENEZ D'ENTRE LES MORTS !"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Bot"		"Les cadavres ressuscités"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Lore"		"Les corps de ceux qui se sont aventurés dans la mauvaise ruelle jonchent les rues des Dédales. Mais quelque chose de sombre et d'étrange tire les morts de leur sommeil."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_win"				"Enno tue des zombies et stabilise le taux de mortalité des Dédales"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_lose"				"Des touristes morts prennent leur revanche sur Enno"
+
+	"DAC_Challenge_Challenge_weekly_challenge_5_Title"		"Technique d'intimidation"
+	"DAC_Challenge_Challenge_weekly_challenge_5_Lore"		"Certains pensent que les invasions de morts-vivants ont affaibli la position d'Enno, et il compte bien leur prouver le contraire."
+	
+	// Weekly challenge	#6
+	"DAC_Challenge_weekly_challenge_6_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_6_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_6_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Lore"		"PH"
+
+	// Weekly challenge	#7
+	"DAC_Challenge_weekly_challenge_7_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_7_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_7_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_7_Lore"		"PH"
+
+	// Weekly challenge	#8
+	"DAC_Challenge_weekly_challenge_8_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_8_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_8_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Lore"		"PH"
+
+
+	// Weekly challenge	#9
+	"DAC_Challenge_weekly_challenge_9_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_9_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_9_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Lore"		"PH"
+
+	// Weekly challenge	#10
+	"DAC_Challenge_weekly_challenge_10_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_10_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_10_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Lore"		"PH"
+
+
+	// Weekly challenge	#11
+	"DAC_Challenge_weekly_challenge_11_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_11_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_11_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Lore"		"PH"
+
+	// Weekly challenge	#12
+	"DAC_Challenge_weekly_challenge_12_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_12_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_12_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Lore"		"PH"
+
+	// Weekly challenge	#13
+	"DAC_Challenge_weekly_challenge_13_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_13_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_13_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_13_Lore"		"PH"
+
+	// Weekly challenge	#14
+	"DAC_Challenge_weekly_challenge_14_Headline"						"PH"
+	"DAC_Challenge_weekly_challenge_14_SubHeadline"					"PH"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Title"					"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Lore"						"PH"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Title"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Bot"		"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Lore"		"PH"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_win"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_lose"				"PH"
+
+	"DAC_Challenge_Challenge_weekly_challenge_14_Title"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_14_Lore"		"PH"
+
+	// Weekly challenge courier race names
+	"DAC_Challenge_Courier_Race_0"							"Âme tourmentée"
+	"DAC_Challenge_Courier_Race_1"							"Tranquillos"
+	"DAC_Challenge_Courier_Race_2"							"Prix du sang"
+	"DAC_Challenge_Courier_Race_3"							"Fripouille"
+	"DAC_Challenge_Courier_Race_4"							"Flop"
+	"DAC_Challenge_Courier_Race_5"							"Top"
+	"DAC_Challenge_Courier_Race_6"							"Tranche-gorge"
+	"DAC_Challenge_Courier_Race_7"							"Dernier baiser"
+	"DAC_Challenge_Courier_Race_8"							"Tristes adieux"
+	"DAC_Challenge_Courier_Race_9"							"Sigma D"
+	"DAC_Challenge_Courier_Race_10"							"Déveine"
+	"DAC_Challenge_Courier_Race_11"							"Sortilège pétillant"
+	"DAC_Challenge_Courier_Race_12"							"Cruelle matrone"
+	"DAC_Challenge_Courier_Race_13"							"Danseur démoniaque"
+	"DAC_Challenge_Courier_Race_14"							"Calculateur"
+	"DAC_Challenge_Courier_Race_15"							"In vino valor"
+	"DAC_Challenge_Courier_Race_16"							"Panda triste"
+	"DAC_Challenge_Courier_Race_17"							"Artidémons et Avidémons"
+	"DAC_Challenge_Courier_Race_18"							"Fléau de Ristul"
+	"DAC_Challenge_Courier_Race_19"							"Charlie Pas-de-bol"
+	"DAC_Challenge_Courier_Race_20"							"Déclencheur"
+	"DAC_Challenge_Courier_Race_21"							"Coursieur"
+	"DAC_Weekly_CourierTitle" 								"Ligne d'arrivée : probabilités et résultats de la course des coursiers"	
+	"DAC_Weekly_CourierHeader_Courier"						"Coursier"
+	"DAC_Weekly_CourierHeader_Bet"							"Pari"
+	"DAC_Weekly_CourierHeader_Wt"							"Pds"
+	"DAC_Weekly_CourierHeader_PP"							"PP"
+	"DAC_Weekly_CourierHeader_Quarter"						"¼"
+	"DAC_Weekly_CourierHeader_Half"							"½"
+	"DAC_Weekly_CourierHeader_ThreeQuarter"					"¾"
+	"DAC_Weekly_CourierHeader_Mile"							"km"
+	"DAC_Weekly_CourierHeader_Finish"						"Rang"
+	"DAC_Weekly_CourierHeader_Odds"							"Prob."
+	"DAC_Weekly_CourierEntry_CurrentBet"					"{i:current_bet} <img class='goldcoin'/>"
+	"DAC_Weekly_CourierEntry_Prize"							"{i:gold_prize} : 1"
+	"DAC_Weekly_CourierCurrent_Gold"						"Or actuel : {i:current_gold} <img class='goldcoin'/>"
+	
+	
 	// City Crawl Tutorial
 	"DAC_Challenge_Streetfight_tutorial_creeps_Title"		"Bienvenue à Flèche blanche"
-	"DAC_Challenge_Streetfight_tutorial_creeps_Bot"			"Les premières d'une longue liste de victimes"
+	"DAC_Challenge_Streetfight_tutorial_creeps_Bot"			"Vos toutes premières victimes"
 	"DAC_Challenge_Streetfight_tutorial_creeps_BotDesc"		"tutorial_creeps Desc"
 	"DAC_Challenge_Streetfight_tutorial_creeps_Lore"		"Momma Eeb avait clairement établi ce qu'elle attendait de son successeur : un esprit rusé pour diriger la ville des Délices infâmes. Une personnalité charismatique qui inspirerait loyauté et honneur. Et la volonté d'être prêt à tout pour gagner."
 	"DAC_Challenge_Streetfight_tutorial_creeps_Quote"		"Momma Eeb savait que ce n'était qu'une question de temps avant que quelqu'un ne lui ôte la vie. Elle s'est donc assurée de laisser derrière elle une liste d'instructions destinée à ceux qui désirent prendre sa place."
@@ -5647,6 +6359,16 @@
 	"DAC_Challenge_Puzzle_intro_quote"			"Hobgen, Anessix, Jull et Enno s'apprêtaient à s'embarquer dans la conquête de territoires la plus dangereuse. Hobgen avait jeté son dévolu sur Novténèbres, les terres préférées de Momma Eeb. Jull convoitait Port ombragé dans l'espoir de contrôler les importations et les exportations. Anessix s'était tournée vers La petite Revtel et toutes les richesses et les secrets qu'elle dissimule. Et Enno... Eh bien, Enno est resté Enno, et il avait pour ambition de se proclamer souverain des Dédales."
 	"DAC_Challenge_Puzzle_intro_lore"			"De nombreuses épreuves attendaient ceux qui espéraient succéder à Eeb. En dehors de la violence urbaine habituelle, ils allaient être confrontés à des scénarios et des complications que même ces criminels endurcis ne pouvaient prévoir."
 
+	// City Crawl Complete
 	
+	"DAC_citycrawl_complete_hobgen"				"Grâce à sa mainmise sur Novténèbres, Hobgen s'est implanté durablement à Flèche blanche. Pour l'instant, l'heure est à la fête pour le féetaud… qui n'a aucune idée des décisions difficiles qui l'attendent dans les mois à venir."
+	"DAC_citycrawl_complete_jull"				"Jull a fêté son emprise sur Port ombragé tel Jull dans toute sa splendeur : il s'est pris une cuite à la Lune scindée. Il était d'une humeur tellement festive qu'il a même autorisé Hache à revenir dans le bar. Selon les rumeurs qui courent, Belplume travaillerait actuellement sur un livre contant les péripéties de cette nuit de débauches."
+	"DAC_citycrawl_complete_enno"				"Maintenant qu'il est le maître incontesté des Dédales, Enno doit faire face à un choix difficile… Se contentera-t-il d'être le roi des bas quartiers ? Ou cherchera-t-il à étendre son emprise… Seul l'avenir nous le dira."
+	"DAC_citycrawl_complete_anessix"			"En se frayant un chemin dans la petite Revtel, les agents d'Anessix ont tissé une puissante toile de secrets et de confidents. Mais la démone terre-à-terre n'est pas satisfaite… et elle joue un jeu dangereux avec la cour de Ristul. Si ses véritables intentions sont découvertes, tout ce qu'elle a construit sera réduit en cendres."
+	"DAC_citycrawl_complete_all"				"Les frontières ont été tracées, mais l'histoire de Flèche blanche n'en est qu'à ses balbutiements. La ville des Délices infâmes abrite autant d'ennemis que de secrets… et ce n'est qu'une question de temps avant qu'ils ne soient découverts."
+
+
 }
+	
+	
 

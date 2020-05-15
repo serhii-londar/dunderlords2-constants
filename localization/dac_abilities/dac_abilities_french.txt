@@ -1,4 +1,4 @@
-"lang"
+﻿"lang"
 { 
 	"Language" "french" 
 	"Tokens" 
@@ -23,7 +23,7 @@
 
 		//FURION
 		"dac_ability_natures_prophet_summon_tree"								"Appel de la nature"
-		"dac_ability_natures_prophet_summon_tree_Description"					"Prophète de la nature invoque un Tréant. Ce Tréant est un druide."
+		"dac_ability_natures_prophet_summon_tree_Description"					"Prophète de la nature invoque un tréant, qui est considéré comme un druide. Lorsque Prophète de la nature a 3 étoiles, le tréant invoqué apparaît du côté de l'adversaire sur le champ de bataille."
 		"dac_ability_natures_prophet_summon_tree_Lore"							"Enno a fait appel à ses amis de la forêt... Ça pourrait s'avérer problématique. — <i>O'nia, marchande bannie de Revtel</i>"
 
 		"dac_ability_natures_prophet_wrath_of_nature"							"Courroux de la nature"
@@ -108,7 +108,7 @@
 
 		//TINY
 		"dac_ability_tiny_toss"													"Jet"
-		"dac_ability_tiny_toss_Description"										"Minus attrape un ennemi à proximité au hasard et le lance sur l'ennemi le plus lointain<br><br>Lorsque l'ennemi atterrit, il inflige {s:damage} points de dégâts à tous les ennemis dans un rayon de {s:damage_radius} case et les étourdit pendant {s:stun_duration} secondes."
+		"dac_ability_tiny_toss_Description"										"Minus attrape un ennemi à proximité au hasard et le lance sur l'ennemi le plus lointain.<br><br>Lorsque l'ennemi atterrit, il inflige {s:damage} points de dégâts à tous les ennemis dans un rayon de {s:damage_radius} case et les étourdit pendant {s:stun_duration} secondes."
 		"dac_ability_tiny_toss_Lore"											"On dirait qu'Enno s'est trouvé du muscle. — <i>Grek tombe sur un gros problème</i>"
 
 		//PUCK
@@ -141,8 +141,8 @@
 		"dac_ability_shadow_shaman_voodoo_Lore"									"Ah ! ce gars sait mettre le feu ! — <i>Grek fait preuve de courtoisie professionnelle</i>"
 
 		"dac_ability_shadow_shaman_mass_serpent_ward"							"Nuée de vigiles ophidiens"
-		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Chamane des ténèbres piège une unité ennemie en invoquant jusqu'à 4 vigiles ophidiens."
-		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"Au moins, il ne transforme plus les autres en poulets. — <i>O'nia, d'humeur volatile</i>"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Chamane des ténèbres piège une unité ennemie en invoquant jusqu'à 4 vigiles ophidiens. Lorsqu'il a 3 étoiles, il transforme également l'unité ennemie pendant {s:duration} secondes."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"Bonne nouvelle, les gars : le poulet est à nouveau au menu ! – <i>Hobgen, spécialiste des grillades rapides</i>"
 
 		//ENIGMA
 		"dac_ability_enigma_midnight_pulse"										"Pulsation de minuit"
@@ -166,7 +166,7 @@
 
 		//SLARDAR
 		"dac_ability_slardar_amplify_damage"									"Brume corrosive"
-		"dac_ability_slardar_amplify_damage_Description"						"Slardar applique {s:armor_reduction} à l'armure de l'ennemi pendant {s:duration} secondes."
+		"dac_ability_slardar_amplify_damage_Description"						"Slardar réduit l'armure de la cible de {s:armor_reduction} pendant {s:duration} secondes. Lorsqu'il a 3 étoiles, Slardar étourdit sa cible pendant {s:bash_duration} secondes et lui inflige {s:bash_damage} de dégâts physiques."
 		"dac_ability_slardar_amplify_damage_Lore"								"Slark et moi on a bien réussi à faire affaire... Je suis sûr qu'on peut trouver un arrangement aussi. — <i>Jull, amateur de vin de prison</i>"
 
 		//BEASTMASTER
@@ -176,7 +176,7 @@
 
 		//VENOMANCER
 		"dac_ability_venomancer_plague_ward"									"Vigile venimeuse"
-		"dac_ability_venomancer_plague_ward_Description"						"Vénimancien invoque {s:num_wards} vigile(s) venimeuse(s) pour combattre à ses côtés. Les vigiles administrent des doses de poison à leur cible."
+		"dac_ability_venomancer_plague_ward_Description"						"Vénimancien invoque {s:num_wards} vigile(s) venimeuse(s) pour combattre à ses côtés. Les vigiles administrent des doses de poison à leur cible et leur résistance à la magie est de {s:ward_magic_resist} %."
 		"dac_ability_venomancer_plague_ward_Lore"								"Tes créations sont absolument splendides. Laisse-moi t'aider à cultiver ton jardin... — <i>Turath réalise que la flatterie ouvre toutes les portes</i>"
 
 		"dac_ability_venomancer_venomous_gale"									"Sphère venimeuse"
@@ -220,7 +220,7 @@
 		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davion, tu gâches tes talents avec quelqu'un qui n'apprécie pas la beauté de ce que tu fais. — <i>Hobgen, en chasse de talents</i>"
 
 		"dac_ability_dragon_knight_elder_dragon_form"							"Forme du dragon ancestral"
-		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>DÉBLOQUÉE PAR L'ALLIANCE DRAGON</i><br>CAPACITÉ PASSIVE : au début du combat, Chevalier dragon prend la forme de l'un de trois puissants dragons ancestraux. Cela augmente sa vitesse de déplacement de {s:bonus_movement_speed} % et ses dégâts d'attaque de {s:bonus_attack_damage} ; il obtient également de nouveaux pouvoirs.<br><br>Dragon vert :\nles attaques infligent {s:corrosive_breath_damage} points de dégâts de poison par seconde pendant {s:corrosive_breath_duration} secondes.<br><br>Dragon rouge :\nles attaques empoisonnent les ennemis et infligent {s:splash_damage_percent} % de dégâts à tous les ennemis dans un rayon de {s:splash_radius} case autour de la cible principale.<br><br>Dragon bleu :\nles attaques empoisonnent les ennemis et réduisent la vitesse de déplacement de {s:frost_bonus_movement_speed} % et la fréquence d'attaque de {s:frost_bonus_attack_speed} % pour les unités ennemies dans un rayon de {s:frost_aoe} case pendant {s:frost_duration} secondes."
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>DÉBLOQUÉE PAR L'ALLIANCE DRAGON</i><br>CAPACITÉ PASSIVE : au début du combat, Chevalier dragon prend la forme de l'un de trois puissants dragons ancestraux. Cela augmente sa vitesse de déplacement de {s:bonus_movement_speed} % et ses dégâts d'attaque de {s:bonus_attack_damage} ; il obtient également de nouveaux pouvoirs.<br><br>Dragon vert :\nles attaques infligent {s:corrosive_breath_damage} points de dégâts par seconde pendant {s:corrosive_breath_duration} secondes et empoisonnent la cible.<br><br>Dragon rouge :\nles attaques empoisonnent les ennemis et infligent {s:splash_damage_percent} % de dégâts à tous les ennemis dans un rayon de {s:splash_radius} case autour de la cible principale.<br><br>Dragon bleu :\nles attaques empoisonnent les ennemis et réduisent la vitesse de déplacement de {s:frost_bonus_movement_speed} % et la fréquence d'attaque de {s:frost_bonus_attack_speed} % pour les unités ennemies dans un rayon de {s:frost_aoe} case pendant {s:frost_duration} secondes."
 		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"Kaden a dit beaucoup de bien de toi, j'espère que ses éloges sont mérités. — <i>Wren, amie du Chevalier dragon</i>"
 
 		//ENCHANTRESS
@@ -235,7 +235,7 @@
 
 		//BATRIDER
 		"dac_ability_batrider_sticky_napalm"									"Napalm poisseux"
-		"dac_ability_batrider_sticky_napalm_Description"						"Cavalier chiroptère jette du pétrole collant sur sa cible et recouvre le sol sur un rayon de {s:radius} cases au-delà du point d'impact. Le pétrole ajoute {s:damage} points de dégâts aux dégâts infligés par Cavalier chiroptère à chaque fois qu'il lance cette attaque. Les fréquences d'attaque et de déplacement des ennemis sont réduites de {s:movement_speed_pct} %.<br><br>À chaque fois que Cavalier chiroptère lance son napalm poisseux, ces effets augmentent et peuvent être cumulés jusqu'à {s:max_stacks} fois."
+		"dac_ability_batrider_sticky_napalm_Description"						"Cavalier chiroptère jette du pétrole collant embrasé qui recouvre le sol sur un rayon de {s:radius} cases au-delà du point d'impact. Le pétrole ajoute {s:damage} points de dégâts aux dégâts infligés par Cavalier chiroptère à chacune de ses attaques. La fréquence d'attaque et la vitesse de déplacement des ennemis sont réduites de {s:movement_speed_pct} %. Lorsque Chevalier chiroptère a 3 étoiles, les ennemis dans la zone sont enflammés pendant {s:fire_duration} secondes.<br><br>À chaque fois que Cavalier chiroptère lance son napalm poisseux, les dégâts et les réductions de fréquence d'attaque et de vitesse de déplacement augmentent et peuvent être cumulés jusqu'à {s:max_stacks} fois."
 		"dac_ability_batrider_sticky_napalm_Lore"								"J'adore ce mec. JE L'ADORE.  — <i>Hobgen, pyromane</i>"
 
 		//DOOM BRINGER
@@ -255,7 +255,7 @@
 
 		// Lycan
 		"dac_ability_lycan_wolf_spawn_shift"									"Transmutation"
-		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycanthrope invoque deux loups, puis se transforme en loup et gagne {s:hp_per} % de ses PV max., augmente de {s:speed} sa vitesse de déplacement et a {s:crit_chance} % de chances de porter un coup critique qui inflige {s:crit_bonus} % de dégâts."
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycanthrope invoque {s:summon_count} loups, puis se transforme en loup et gagne {s:hp_per} % de ses PV max. Il augmente de {s:speed} sa vitesse de déplacement et a {s:crit_chance} % de chances de porter un coup critique qui inflige {s:crit_bonus} % de dégâts supplémentaires."
 		"dac_ability_lycan_wolf_spawn_shift_Lore"								"Je t'en supplie, Lycanthrope, aide-moi à me venger. — <i>Wren en appelle à l'humanité de Lycanthrope</i>"
 		
 		// LONE DRUID
@@ -271,7 +271,7 @@
 
 		//OGRE MAGI
 		"dac_ability_ogre_magi_bloodlust"										"Soif de sang"
-		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre mage provoque un accès de frénésie chez une unité alliée et augmente sa vitesse de déplacement de {s:bonus_movement_speed} % et sa fréquence d'attaque de {s:bonus_attack_speed} %. Si le sort est lancé sur Ogre mage, il gagne {s:self_bonus} % de fréquence d'attaque."
+		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre mage provoque un accès de frénésie chez une unité alliée et augmente sa vitesse de déplacement de {s:bonus_movement_speed} % et sa fréquence d'attaque de {s:bonus_attack_speed} %. Si le sort est lancé sur Ogre mage, il gagne {s:self_bonus} % de fréquence d'attaque. Ogre mage a {s:multicast_chance} % de chances de lancer cette capacité sur deux unités alliées."
 		"dac_ability_ogre_magi_bloodlust_Lore"									"L'Ogre mage vaut deux fois ce qu'il facture. Par chance, l'Ogre mage est aussi un idiot. — <i>O'nia, chasseuse de bonnes affaires</i>"
 
 		// MAGNUS
@@ -325,7 +325,7 @@
 
 		//TUSK
 		"dac_ability_tusk_walrus_punch"											"Coup de poing de morse"
-		"dac_ability_tusk_walrus_punch_Description"								"Cornu lance son puissant coup de poing de morse : un coup critique si violent qu'il propulse sa victime dans les airs pendant {s:air_time} seconde et inflige {s:critical_damage} % de dégâts critiques. Lorsqu'elle atterrit, la cible est ralentie de {s:move_slow} % pendant {s:slow_duration} secondes. Cornu ne peut pas être tué quand il donne le coup de poing."
+		"dac_ability_tusk_walrus_punch_Description"								"Cornu lance son puissant coup de poing de morse, un coup critique si violent qu'il propulse sa victime dans les airs pendant {s:air_time} seconde(s) et inflige {s:critical_damage} % de dégâts critiques. Lorsqu'elle atterrit, la cible est ralentie de {s:move_slow} % pendant {s:slow_duration} secondes et perd {s:attack_slow} de fréquence d'attaque. Cornu ne peut pas être tué quand il donne le coup de poing."
 		"dac_ability_tusk_walrus_punch_Lore"									"On était amis avant. On va savoir bien assez vite s'il est là pour m'aider ou pour me frapper. — <i>Jull repense à son enfance</i>"
 		
 		
@@ -366,7 +366,7 @@
 		
 		//BLOODSEEKER
 		"dac_ability_bloodseeker_blood_rage"									"Rage sanguinaire"
-		"dac_ability_bloodseeker_blood_rage_Description"						"CAPACITÉ PASSIVE : chaque seconde, Sanguinaire subit des dégâts équivalents à {s:self_dmg_pct} % de ses PV maximums.<br><br>Plus il perd de PV, plus sa fréquence d'attaque augmente, jusqu'à atteindre un maximum de {s:attack_speed_bonus_max} à {s:min_health_pct} % de ses PV.<br><br>Quand un ennemi meurt à proximité, il regagne {s:heal_pct} % de ses PV maximums."
+		"dac_ability_bloodseeker_blood_rage_Description"						"CAPACITÉ PASSIVE : plus les PV de ses ennemis diminuent, plus la fréquence d'attaque de Sanguinaire augmente, jusqu'à atteindre un maximum de {s:attack_speed_bonus_max} à {s:min_health_pct} % de ses PV.<br><br>Quand il achève un ennemi, il regagne {s:heal_pct} % des PV maximums de cet ennemi."
 		"dac_ability_bloodseeker_blood_rage_Lore"								"Si j'ai appris une chose dans ma carrière, c'est que les gens aiment le sang. Engage cet homme-là. — <i>Grek, instigateur décidé</i>"
 		
 		//ARC WARDEN
@@ -376,7 +376,7 @@
 		
 		//ARC WARDEN
 		"dac_ability_arc_warden_tempest_double_no_items"						"Ubiquité"
-		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Gardien de l'arc crée un double de lui-même. Les PV du double sont égaux à ceux de Gardien de l'arc."
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Gardien de l'arc crée un double de lui-même. Le clone possède le même nombre de PV que Gardien de l'arc, mais il inflige {s:clone_dmg_reduction} % de dégâts en moins."
 		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"Il apporte avec lui les mystères de la création. — <i>Turath, prophète énigmatique</i>"
 
 		//MIRANA
@@ -410,7 +410,7 @@
 
 		// Lone Druid Bear
 		"dac_ability_lone_druid_spirit_bear_entangle"							"Lianes immobilisantes"
-		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Les attaques de l'esprit ours ont une chance d'immobiliser la cible et de l'étourdir."
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Les attaques de l'esprit ours ont une chance d'immobiliser et de désarmer la cible."
 		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
 
 		// THUNDER LIZARD BLOODLUST
@@ -454,7 +454,7 @@
 
 		// LEGION COMMANDER
 		"dac_ability_legion_commander_duel"											"Duel"
-		"dac_ability_legion_commander_duel_description"								"Commandante de la Légion cible le héros ennemi dont les PV sont les plus bas dans un rayon d'une case. Les deux héros sont forcés de s'affronter pendant {s:stun_duration} secondes et ils ne peuvent pas utiliser leurs capacités. Si l'un des deux héros meurt au cours du duel, le vainqueur gagne un bonus permanent de {s:winner_bonus_damage} points de dégâts ([20/32/48] de dégâts en mode K.O.)."
+		"dac_ability_legion_commander_duel_description"								"Commandante de la Légion cible le héros ennemi dont les PV sont les plus bas dans un rayon d'une case. Les deux héros sont forcés de s'affronter pendant {s:stun_duration} secondes et ils ne peuvent ni utiliser leurs capacités ni être soignés. Si l'un des deux héros meurt au cours du duel, le vainqueur gagne un bonus permanent de {s:winner_bonus_damage} points de dégâts ([20/32/48] de dégâts en mode K.O.)."
 		"dac_ability_legion_commander_duel_lore"									"Pas la peine de prendre tes grands airs, Tresdin... Je peux t'aider à trouver Rix. — <i>Anessix garde la tête froide</i>"
 
 		"dac_ability_legion_commander_will_of_the_bullsnake"						"Volonté du serpent-taureau"
@@ -476,7 +476,7 @@
 
 		// WEAVER
 		"dac_ability_weaver_shukuchi"												"Shukuchi"
-		"dac_ability_weaver_shukuchi_description"									"Tisseur devient invisible et intouchable et traverse rapidement les cibles qui se trouvent dans un rayon maximum de {s:distance_cells} cases. Tisseur inflige {s:damage} points de dégâts à chaque ennemi qu'il traverse."
+		"dac_ability_weaver_shukuchi_description"									"Tisseur devient invisible et intouchable et traverse rapidement les cibles qui se trouvent dans un rayon maximum de {s:distance_cells} cases. Il inflige {s:damage} points de dégâts à chaque ennemi qu'il traverse. Quand il redevient visible, et pendant {s:mana_break_duration} secondes, les attaques de Tisseur font perdre {s:mana_per_hit} de mana à ses cibles et leur infligent {s:damage_per_burn} de dégâts par point de mana perdu."
 		"dac_ability_weaver_shukuchi_lore"											"Tisseur, ensemble, nous referons le monde. — <i>Turath, assez fou pour le faire</i>"
 
 		// BROODMOTHER
@@ -494,7 +494,7 @@
 		"dac_ability_wisp_tether_lore"												"<i>Enno regarde attentivement Io</i>"
 
 		"dac_ability_wisp_relocate"													"Relocalisation"
-		"dac_ability_wisp_relocate_description"										"Io se téléporte pendant {s:relocate_time_away} secondes pour ressusciter un héros. À leur retour, les deux héros sont guéris de tout effet négatif et leurs PV sont au maximum."
+		"dac_ability_wisp_relocate_description"										"Io se téléporte pendant {s:relocate_time_away} secondes pour ressusciter un héros. À leur retour, les deux héros sont guéris de tout effet négatif et leurs PV sont au maximum. Lorsqu'il a 3 étoiles, Io remet à zéro les temps de recharge des capacités et des objets du héros mort."
 		"dac_ability_wisp_relocate_lore"											"<i>Io lui rend son regard</i>"
 
 		// BRISTLEBACK	
@@ -613,7 +613,7 @@
 		"dac_ability_hobgen_supercharged_description_lore"							"Parfois, il suffit juste de motiver les troupes. — <i>Hobgen met le feu dans tous les sens du terme</i>"
 
 		"dac_ability_hobgen_airstrike"												"Feu allié"
-		"dac_ability_hobgen_airstrike_description"									"Les amis d'Hobgen lancent {s:strikes} bombes sur le champ de bataille et infligent {s:damage} points de dégâts aux ennemis touchés directement. Les unités ennemies prises dans la zone d'effet d'une explosion subissent la moitié des dégâts."
+		"dac_ability_hobgen_airstrike_description"									"Les amis d'Hobgen lancent {s:strikes} bombes sur le champ de bataille et infligent {s:damage} points de dégâts aux unités ennemies prises dans l'explosion."
 		"dac_ability_hobgen_airstrike_description_lore"								"Faites tout brûler ! — <i>Hobgen, pyromane déséquilibré</i>"
 
 		"dac_ability_hobgen_letsgocrazy"											"Soyons fous !"
@@ -659,5 +659,17 @@
 		"dac_ability_enno_airbrawl"													"Attaque extrême !"
 		"dac_ability_enno_airbrawl_description"										"Enno lance une Attaque extrême contre tous les ennemis. Cette attaque ajoute {s:stacks} doses de poison, inflige {s:fight_damage} dégâts physiques et étourdit les ennemis pendant {s:land_stun_duration} seconde."
 		"dac_ability_enno_airbrawl_lore"											"DÉBARRASSEZ-MOI DE CETTE ESPÈCE DE BÂTARD POILU ! — <i>Hobgen apprend l'humilité</i>"
+
+		// 3star abilities
+		"dac_ability_3star"															"Effet trois étoiles"
+
+		"dac_ability_warlock_3star"													"Effet trois étoiles de Démoniste"
+		"dac_ability_warlock_3star_Description"										"Lorsqu'il a trois étoiles, Démoniste empêche les démons alliés de se réduire mutuellement au silence quand ils lancent leurs capacités."
+
+		"dac_ability_razor_3star"													"Effet trois étoiles de Razor"
+		"dac_ability_razor_3star_Description"										"Lorsqu'il a trois étoiles, Razor vole {s:stolen_dmg} de dégâts d'attaque à sa cible à chaque fois qu'il l'attaque, et ce jusqu'à {s:max_stacks} fois. Lorsqu'il change de cible, Razor perd les dégâts volés, mais la cible ne récupère pas ceux qu'elle a perdus."
+
+		"dac_ability_chaos_knight_3star"													"Effet trois étoiles de Chevalier du chaos"
+		"dac_ability_chaos_knight_3star_Description"								"Lorsqu'il a trois étoiles, les chevaliers alliés de Chevalier du chaos bénéficient des effets de leur alliance, même quand ils ne sont pas à proximité l'un de l'autre."
 	}
 }

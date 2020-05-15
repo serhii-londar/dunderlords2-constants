@@ -1,4 +1,4 @@
-"lang"
+﻿"lang"
 { 
 	"Language" "russian" 
 	"Tokens" 
@@ -23,7 +23,7 @@
 
 		//FURION
 		"dac_ability_natures_prophet_summon_tree"								"Зов природы"
-		"dac_ability_natures_prophet_summon_tree_Description"					"Лесной пророк призывает энта, который считается друидом."
+		"dac_ability_natures_prophet_summon_tree_Description"					"Лесной пророк призывает энта, который считается друидом. Лесной пророк ★★★ призывает энта на вражеской половине поля."
 		"dac_ability_natures_prophet_summon_tree_Lore"							"«Энно вышел на связь со своими маленькими лесными друзьями... Это может обернуться неприятностями». <i>(О'ния, ревтельский торговец в изгнании)</i>"
 
 		"dac_ability_natures_prophet_wrath_of_nature"							"Гнев природы"
@@ -141,8 +141,8 @@
 		"dac_ability_shadow_shaman_voodoo_Lore"									"«А он знает, как устроить представление!» <i>(Грэк даёт профессиональную оценку)</i>"
 
 		"dac_ability_shadow_shaman_mass_serpent_ward"							"Змеиные тотемы"
-		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Шаман теней закрывает врага на месте, призвав до четырёх змеиных тотемов."
-		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"«Ну, зато он больше не превращает никого в кур». <i>(О'ния не желает жить на птичьих правах)</i>"
+		"dac_ability_shadow_shaman_mass_serpent_ward_Description"				"Шаман теней закрывает врага на месте, призывая вокруг него до четырёх змеиных тотемов. Шаман теней ★★★ также на {s:duration} сек. накладывает на жертву проклятие."
+		"dac_ability_shadow_shaman_mass_serpent_ward_Lore"						"«Хорошие новости, парни, курочка снова в меню!» <i>(Хобген, шаурмен-пройдоха)</i>"
 
 		//ENIGMA
 		"dac_ability_enigma_midnight_pulse"										"Биение тьмы"
@@ -166,7 +166,7 @@
 
 		//SLARDAR
 		"dac_ability_slardar_amplify_damage"									"Едкая муть"
-		"dac_ability_slardar_amplify_damage_Description"						"Слардар изменяет броню одного врага на {s:armor_reduction}. Длительность: {s:duration} сек."
+		"dac_ability_slardar_amplify_damage_Description"						"Слардар изменяет броню одного врага на {s:armor_reduction} на {s:duration} сек. Слардар ★★★ также оглушает цель атаки, нанося ей {s:bash_damage} физического урона и оглушая её на {s:bash_duration} сек."
 		"dac_ability_slardar_amplify_damage_Lore"								"«Мы со Сларком сумели сработаться. Наверняка и с тобой выйдет договориться». <i>(Джул, знаток браги)</i>"
 
 		//BEASTMASTER
@@ -176,7 +176,7 @@
 
 		//VENOMANCER
 		"dac_ability_venomancer_plague_ward"									"Чумной тотем"
-		"dac_ability_venomancer_plague_ward_Description"						"Веномант призывает на поле {s:num_wards} чумной тотем, помогающий в бою. Атаки тотемов накладывают на жертв 1 эффект яда."
+		"dac_ability_venomancer_plague_ward_Description"						"Веномант призывает на поле {s:num_wards} чумной тотем, помогающий в бою. Атаки тотемов накладывают на жертв 1 эффект яда. У тотемов {s:ward_magic_resist}% сопротивления магии."
 		"dac_ability_venomancer_plague_ward_Lore"								"«Твоими творениями я любовался бы вечно. Позволь, я помогу возделывать твой сад...» <i>(Турат узнаёт, что лесть открывает все двери)</i>"
 
 		"dac_ability_venomancer_venomous_gale"									"Ядовитый плевок"
@@ -220,7 +220,7 @@
 		"dac_ability_dragon_knight_breathe_fire_Lore"							"«Дэйвион, ты растрачиваешь свой талант на тех, кто совсем не ценит его красоту».<i>(Хобген заманивает к себе одарённого бойца)"
 
 		"dac_ability_dragon_knight_elder_dragon_form"							"Облик древнего дракона"
-		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>БОНУС АЛЬЯНСА ДРАКОНОВ</i><br>ПАССИВНАЯ: в начале боя рыцарь-дракон обращается в одного из трёх могучих древних драконов, отчего скорость его передвижения увеличивается на {s:bonus_movement_speed}%, а урон — на {s:bonus_attack_damage}. Он также получает особые эффекты атаки.<br><br>Зелёный дракон:\nатаки отравляют цель, нанося ей {s:corrosive_breath_damage} урона в секунду. Яд действует {s:corrosive_breath_duration} сек.<br><br>Красный дракон:\nатаки наносят {s:splash_damage_percent}% урона всем врагам в радиусе {s:splash_radius} от цели. Отравляет всех задетых врагов.<br><br>Синий дракон:\nатаки на {s:frost_duration} сек. замедляют всех врагов в радиусе {s:frost_aoe} от цели, замедляя их передвижение на {s:frost_bonus_movement_speed}%, а атаку — на {s:frost_bonus_attack_speed}%. Отравляет всех задетых врагов."
+		"dac_ability_dragon_knight_elder_dragon_form_Description"				"<i>БОНУС АЛЬЯНСА ДРАКОНОВ</i><br>ПАССИВНАЯ: в начале боя рыцарь-дракон обращается в одного из трёх могучих древних драконов, отчего скорость его передвижения увеличивается на {s:bonus_movement_speed}%, а урон — на {s:bonus_attack_damage}. Он также получает особые эффекты атаки.<br><br>Зелёный дракон:\nатаки {s:corrosive_breath_duration} сек. наносят {s:corrosive_breath_damage} урона в секунду и отравляют цель.<br><br>Красный дракон:\nатаки наносят {s:splash_damage_percent}% урона всем врагам в радиусе {s:splash_radius} от цели. Отравляет всех задетых врагов.<br><br>Синий дракон:\nатаки на {s:frost_duration} сек. замедляют всех врагов в радиусе {s:frost_aoe} от цели, замедляя их передвижение на {s:frost_bonus_movement_speed}%, а атаку — на {s:frost_bonus_attack_speed}%. Отравляет всех задетых врагов."
 		"dac_ability_dragon_knight_elder_dragon_form_Lore"						"«Кейден высокого мнения о тебе. Надеюсь, твоя репутация оправданна». <i>(Врен, подруга Драконьей крепости)</i>"
 
 		//ENCHANTRESS
@@ -235,7 +235,7 @@
 
 		//BATRIDER
 		"dac_ability_batrider_sticky_napalm"									"Липкий напалм"
-		"dac_ability_batrider_sticky_napalm_Description"						"Летучий всадник выплёскивает липкое масло, забрызгивая им врагов в радиусе {s:radius} от места попадания. Масло увеличивает урон от атак Летучего всадника на {s:damage}, а также замедляет атаку и передвижение на {s:movement_speed_pct}%.<br><br>Эффекты от масла складываются до {s:max_stacks} раз."
+		"dac_ability_batrider_sticky_napalm_Description"						"Летучий всадник выплёскивает липкое масло, забрызгивая им врагов в радиусе {s:radius} от места попадания. Масло увеличивает урон от атак Летучего всадника на {s:damage}, а также замедляет атаку и передвижение на {s:movement_speed_pct}%. Летучий всадник ★★★ также поджигает врагов на {s:fire_duration} сек.<br><br>Эффекты от масла складываются до {s:max_stacks} раз."
 		"dac_ability_batrider_sticky_napalm_Lore"								"«Я обожаю этого лихача. О-БО-ЖА-Ю». <i>(Хобген, пироманьяк)</i>"
 
 		//DOOM BRINGER
@@ -255,7 +255,7 @@
 
 		// Lycan
 		"dac_ability_lycan_wolf_spawn_shift"									"Волчий облик"
-		"dac_ability_lycan_wolf_spawn_shift_Description"						"Ликантроп призывает двух волков и сам обращается в волка, получая +{s:hp_per}% к максимальному здоровью, +{s:speed} к скорости передвижения и шанс в {s:crit_chance}% нанести критической атакой {s:crit_bonus}% урона."
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Ликантроп призывает {s:summon_count} волков и сам обращается в волка, получая +{s:hp_per}% к максимальному здоровью, +{s:speed} к скорости передвижения и шанс в {s:crit_chance}% нанести критической атакой {s:crit_bonus}% урона."
 		"dac_ability_lycan_wolf_spawn_shift_Lore"								"«Ликантроп, умоляю, помоги мне отомстить». <i>(Врен взывает к человечности оборотня)</i>"
 		
 		// LONE DRUID
@@ -271,7 +271,7 @@
 
 		//OGRE MAGI
 		"dac_ability_ogre_magi_bloodlust"										"Жажда крови"
-		"dac_ability_ogre_magi_bloodlust_Description"							"Огр-маг заставляет союзника впасть в бешенство, ускоряя его атаку на {s:bonus_attack_speed}%, а передвижение — на {s:bonus_movement_speed}%. Если Огр-маг применит способность на себя, то скорость атаки повысится на {s:self_bonus}%."
+		"dac_ability_ogre_magi_bloodlust_Description"							"Огр-маг заставляет союзника впасть в бешенство, ускоряя его атаку на {s:bonus_attack_speed}%, а передвижение — на {s:bonus_movement_speed}%. Если Огр-маг применит способность на себя, то скорость атаки повысится на {s:self_bonus}%. С вероятностью в {s:multicast_chance}% может сработать Многомагия, и тогда способность применится на две цели."
 		"dac_ability_ogre_magi_bloodlust_Lore"									"«Огр-маг стоит в два раза больше, чем он просит. К счастью, умом он не блещет». <i>(О'ния, охотница за дешевизной)</i>"
 
 		// MAGNUS
@@ -325,7 +325,7 @@
 
 		//TUSK
 		"dac_ability_tusk_walrus_punch"											"Моржовый УДАР!"
-		"dac_ability_tusk_walrus_punch_Description"								"Бивень совершает могучий моржовый удар — мощную атаку, наносящую {s:critical_damage}% критического урона и подбрасывающую жертву в воздух на {s:air_time} сек. После приземления жертва на {s:slow_duration} сек. замедляется на {s:move_slow}%. Во время удара Бивень не может умереть."
+		"dac_ability_tusk_walrus_punch_Description"								"Бивень совершает могучий моржовый удар — мощную атаку, наносящую {s:critical_damage}% критического урона и подбрасывающую жертву в воздух на {s:air_time} сек. После приземления жертва на {s:slow_duration} сек. замедляется на {s:move_slow}% и получает −{s:attack_slow} к скорости атаки. Во время удара Бивень не может умереть."
 		"dac_ability_tusk_walrus_punch_Lore"									"«Когда-то он был мне другом. Поможет он мне или врежет — скоро узнаем». <i>(Джул вспоминает молодость)</i>"
 		
 		
@@ -366,7 +366,7 @@
 		
 		//BLOODSEEKER
 		"dac_ability_bloodseeker_blood_rage"									"Кровавая ярость"
-		"dac_ability_bloodseeker_blood_rage_Description"						"ПАССИВНАЯ: каждую секунду Жрец крови теряет {s:self_dmg_pct}% от своего максимального запаса здоровья.<br><br>Каждый процент потерянного здоровья увеличивает скорость атаки, вплоть до {s:attack_speed_bonus_max} при {s:min_health_pct}% здоровья.<br><br>При смерти соседнего врага Жрец крови восстановит {s:heal_pct}% от своего максимального запаса здоровья."
+		"dac_ability_bloodseeker_blood_rage_Description"						"ПАССИВНАЯ: каждый процент потерянного здоровья врага увеличивает скорость атаки Жреца крови вплоть до {s:attack_speed_bonus_max} при {s:min_health_pct}% здоровья.<br><br>Убив врага, Жрец крови восстановит {s:heal_pct}% от своего максимального запаса здоровья."
 		"dac_ability_bloodseeker_blood_rage_Lore"								"«Если карьера меня чему и научила, публика обожает кровь. Так что наймите его». <i>(Грэк, убедительный импресарио)</i>"
 		
 		//ARC WARDEN
@@ -376,7 +376,7 @@
 		
 		//ARC WARDEN
 		"dac_ability_arc_warden_tempest_double_no_items"						"Дитя диссонанса"
-		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Расколотый страж создаёт свою копию с текущим уровнем здоровья."
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Расколотый страж создаёт свою копию с текущим уровнем здоровья. Клоны наносят на {s:clone_dmg_reduction}% меньше урона."
 		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"«В себе он несёт тайну создания». <i>(Турат, загадочный пророк)</i>"
 
 		//MIRANA
@@ -410,7 +410,7 @@
 
 		// Lone Druid Bear
 		"dac_ability_lone_druid_spirit_bear_entangle"							"Оплетающие когти"
-		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Дух-медведь может опутать и оглушить цель атаки."
+		"dac_ability_lone_druid_spirit_bear_entangle_description"				"Дух-медведь может опутать цель, наложив на неё оцепенение и бессилие."
 		"dac_ability_lone_druid_spirit_bear_entangle_lore"						" "
 
 		// THUNDER LIZARD BLOODLUST
@@ -454,7 +454,7 @@
 
 		// LEGION COMMANDER
 		"dac_ability_legion_commander_duel"											"Дуэль"
-		"dac_ability_legion_commander_duel_description"								"Командир легиона вызывает на дуэль противника, у которого меньше всего здоровья в радиусе 1. Оба героя {s:stun_duration} сек. атакуют только друг друга и не могут использовать способности. Если один из героев погибнет во время дуэли, выживший навсегда получит +{s:winner_bonus_damage} к урону от атак (+[20/32/48] к урону в «Вышибалах»)."
+		"dac_ability_legion_commander_duel_description"								"Командир легиона вызывает на дуэль противника, у которого меньше всего здоровья в радиусе 1. Оба героя {s:stun_duration} сек. атакуют только друг друга и не могут использовать способности и лечение. Если один из героев погибнет во время дуэли, выживший навсегда получит +{s:winner_bonus_damage} к урону от атак (+[20/32/48] в «Вышибалах»)."
 		"dac_ability_legion_commander_duel_lore"									"«Обойдёмся без церемоний, Тресдин... Я могу помочь с поисками Рикса». <i>(Анессикс сохраняет хладнокровие)</i>"
 
 		"dac_ability_legion_commander_will_of_the_bullsnake"						"Воля бычьей змеи"
@@ -476,7 +476,7 @@
 
 		// WEAVER
 		"dac_ability_weaver_shukuchi"												"Шукучи"
-		"dac_ability_weaver_shukuchi_description"									"Ткач становится невидимым, отчего его нельзя выбрать целью. Он находит жертву в радиусе {s:distance_cells} и пробегает сквозь неё и всех существ на пути, нанося каждому задетому врагу {s:damage} урона."
+		"dac_ability_weaver_shukuchi_description"									"Ткач становится невидимым, отчего его нельзя выбрать целью. Он находит жертву в радиусе {s:distance_cells} и пробегает сквозь неё и всех существ на пути, нанося каждому задетому врагу {s:damage} урона. После этого {s:mana_break_duration} сек. каждая атака Ткача будет сжигать {s:mana_per_hit} маны, нанося {s:damage_per_burn} за каждую единицу сожжённой маны."
 		"dac_ability_weaver_shukuchi_lore"											"«Ткач. Вместе мы сплетём новый мир». <i>(Турат, готовый на самые безумные затеи)</i>"
 
 		// BROODMOTHER
@@ -494,7 +494,7 @@
 		"dac_ability_wisp_tether_lore"												"<i>(Энно пристально смотрит на Ио)<i>"
 
 		"dac_ability_wisp_relocate"													"Перемещение"
-		"dac_ability_wisp_relocate_description"										"Ио телепортируется с поля на {s:relocate_time_away} сек., чтобы вернуть в бой павшего союзника. Оба героя вернутся с полным здоровьем и без каких-либо негативных эффектов."
+		"dac_ability_wisp_relocate_description"										"Ио телепортируется с поля на {s:relocate_time_away} сек., чтобы вернуть в бой павшего союзника. Оба героя вернутся с полным здоровьем и без каких-либо негативных эффектов. Ио ★★★ также обнуляет перезарядки воскрешённого героя."
 		"dac_ability_wisp_relocate_lore"											"<i>(Ио смотрит в ответ)</i>"
 
 		// BRISTLEBACK	
@@ -613,7 +613,7 @@
 		"dac_ability_hobgen_supercharged_description_lore"							"«Иногда кому-то не хватает капельки мотивации». <i>(Хобген толкает буквально пламенную речь)</i>"
 
 		"dac_ability_hobgen_airstrike"												"Дружественный огонь"
-		"dac_ability_hobgen_airstrike_description"									"Друзья Хобгена закидывают поле боя {s:strikes} бомбами. Каждая из них наносит {s:damage} урона вражеским существам в центре взрыва и вдвое меньше существам на соседних клетках."
+		"dac_ability_hobgen_airstrike_description"									"Друзья Хобгена закидывают поле боя {s:strikes} бомбами. Каждая из них наносит {s:damage} урона врагам, затронутым взрывом."
 		"dac_ability_hobgen_airstrike_description_lore"								"«Сжечь всё!» <i>(Хобген, ошалелый пироманьяк)</i>"
 
 		"dac_ability_hobgen_letsgocrazy"											"Гори, гори ясно"
@@ -659,5 +659,17 @@
 		"dac_ability_enno_airbrawl"													"Повальная атака!"
 		"dac_ability_enno_airbrawl_description"										"Энно совершает повальную атаку, отравляя всех врагов {s:stacks} эффектами яда, нанося им {s:fight_damage} физического урона и оглушая их на {s:land_stun_duration} сек."
 		"dac_ability_enno_airbrawl_lore"											"«УБЕРИТЕ ОТ МЕНЯ ЭТОГО МОХНАТОГО МЕРЗАВЦА!» <i>(Хобгена учат покорности)</i>"
+
+		// 3star abilities
+		"dac_ability_3star"															"Эффект ★★★"
+
+		"dac_ability_warlock_3star"													"Эффект Чернокнижника ★★★"
+		"dac_ability_warlock_3star_Description"										"Чернокнижник ★★★ не даёт союзным демонам накладывать друг на друга безмолвие при применении способностей."
+
+		"dac_ability_razor_3star"													"Эффект Рейзора ★★★"
+		"dac_ability_razor_3star_Description"										"За каждую нанесённую врагу атаку Рейзор ★★★ крадёт у того {s:stolen_dmg} урона от атак. Максимальное число эффектов: {s:max_stacks}. При смене цели эффекты сбрасываются для Рейзора, но не для врага."
+
+		"dac_ability_chaos_knight_3star"													"Эффект Рыцаря хаоса ★★★"
+		"dac_ability_chaos_knight_3star_Description"								"Союзные рыцари Рыцаря хаоса ★★★ всегда считаются соседними друг для друга."
 	}
 }
