@@ -5,7 +5,7 @@
 		{
 			round = 1
 			displayName = "#dac_creep_wave_1"
-			vsImageName = "file://{images}/hud/neutral_win_item_backing.png"
+			vsImageName = "file://{images}/hud/neutral_round1_vs.png"
 			introSoundEvent = "DAC_UI.CreepIntro_RadiantCreep_Rd1"
 			units = 
 			[
@@ -36,7 +36,7 @@
 			round = 2
 			displayName = "#dac_creep_wave_2"
 			introSoundEvent = "DAC_UI.CreepIntro_RadiantCreep_Rd2"
-			vsImageName = "file://{images}/hud/neutral_win_item_backing.png"
+			vsImageName = "file://{images}/hud/neutral_round2_vs.png"
 			units = 
 			[
 				
@@ -62,6 +62,14 @@
 			[
 				100,
 				0,
+				0,
+				0,
+				0,
+			]
+			rewardTiers_classic = 
+			[
+				80,
+				20,
 				0,
 				0,
 				0,
@@ -203,6 +211,14 @@
 				0,
 				0,
 			]
+			rewardTiers_classic = 
+			[
+				0,
+				70,
+				30,
+				0,
+				0,
+			]
 		}
 		furbolg_wave = 
 		{
@@ -259,6 +275,14 @@
 				0,
 				100,
 				0,
+				0,
+			]
+			rewardTiers_classic = 
+			[
+				0,
+				0,
+				70,
+				30,
 				0,
 			]
 		}

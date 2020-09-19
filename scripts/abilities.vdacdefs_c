@@ -84,12 +84,15 @@
 			duration = 5
 			max_slow = 200
 			min_slow = 50
+			health_pct = 30
+			radius = 0
 			animationlength = 0.830000
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 
 			[
 				"particles/units/heroes/hero_shadow_demon/shadow_demon_demonic_purge.vpcf",
 				"particles/units/heroes/hero_shadow_demon/shadow_demon_demonic_purge_cast.vpcf",
+				"particles/generic_gameplay/generic_break.vpcf",
 			]
 		}
 		troll_warlord_fervor = 
@@ -185,29 +188,21 @@
 				"particles/units/heroes/hero_terrorblade/terrorblade_metamorphosis_transform.vpcf",
 			]
 		}
-		slark_dark_pact = 
+		slark_3star = 
 		{
 			id = 9
 			maxLevel = 3
-			castPoint = 0.001000
-			castAnimation = "ACT_INVALID"
-			animationlength = 0.002000
-			cooldown = 
-			[
-				8,
-				7,
-				6,
-			]
+			three_star = true
+			castPoint = 0.010000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
+			animationlength = 0.020000
+			cooldown = 7
 			manaCost = 100
 			delay = 1.500000
-			radius = 1
-			total_damage = 
-			[
-				150,
-				230,
-				300,
-			]
+			radius = 2
+			total_damage = 300
 			total_pulses = 10
+			self_harm_pct = 50
 			pulse_interval = 0.100000
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 
@@ -331,6 +326,8 @@
 				"particles/units/heroes/hero_dragon_knight/dragon_knight_corrosion_debuff.vpcf",
 				"particles/generic_gameplay/generic_slowed_cold.vpcf",
 				"particles/status_fx/status_effect_frost.vpcf",
+				"particles/underlords/enno/enno_poison_stack.vpcf",
+				"particles/items2_fx/orb_of_venom.vpcf",
 			]
 		}
 		morphling_waveform = 
@@ -380,6 +377,8 @@
 			precache = 
 			[
 				"particles/units/heroes/hero_viper/viper_corrosive_debuff.vpcf",
+				"particles/underlords/enno/enno_poison_stack.vpcf",
+				"particles/items2_fx/orb_of_venom.vpcf",
 			]
 		}
 		viper_viper_strike = 
@@ -776,18 +775,8 @@
 				-45,
 			]
 			duration = 20
-			bash_damage = 
-			[
-				0,
-				0,
-				0,
-			]
-			bash_duration = 
-			[
-				0,
-				0,
-				0,
-			]
+			bash_damage = 0
+			bash_duration = 0
 			animationlength = 1
 			precache = 
 			[
@@ -1025,9 +1014,14 @@
 			delay = 0.300000
 			animationlength = 0.800000
 			damageType = "#DAC_InGame_DamageType_Magical"
+			damage_pct = 40
+			damage_per_sec = 20
+			health_interval = 4.000000
 			precache = 
 			[
 				"particles/units/heroes/hero_witchdoctor/witchdoctor_cask.vpcf",
+				"particles/status_fx/status_effect_maledict.vpcf",
+				"particles/units/heroes/hero_witchdoctor/witchdoctor_maledict.vpcf",
 			]
 		}
 		bounty_hunter_shuriken_toss = 
@@ -1135,12 +1129,7 @@
 				90,
 				130,
 			]
-			multicast_chance = 
-			[
-				0,
-				0,
-				0,
-			]
+			multicast_chance = 0
 			duration = 30
 			precache = 
 			[
@@ -1375,7 +1364,7 @@
 			damageType = "#DAC_InGame_DamageType_Pure"
 			precache = 
 			[
-				"particles/units/heroes/hero_enigma/enigma_midnight_pulse.vpcf",
+				"particles/units/heroes/hero_enigma/enigma_midnight_pulse_dac.vpcf",
 			]
 		}
 		medusa_stone_gaze = 
@@ -1443,13 +1432,15 @@
 				150,
 				200,
 			]
-			damage_interval = 1.500000
+			bonus_armor = 5
+			damage_interval = 1.000000
 			animationlength = 1
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 
 			[
 				"particles/units/heroes/hero_treant/treant_leech_seed.vpcf",
 				"particles/units/heroes/hero_treant/treant_leech_seed_damage_pulse.vpcf",
+				"particles/units/heroes/hero_treant/treant_livingarmor.vpcf",
 			]
 		}
 		razor_plasma_field = 
@@ -1528,6 +1519,7 @@
 				6,
 				12,
 			]
+			bonus_3star_damage = 0
 			precache = 
 			[
 				"particles/units/heroes/hero_antimage/antimage_blade_hit.vpcf",
@@ -1735,11 +1727,14 @@
 			]
 			animationlength = 2
 			damageType = "#DAC_InGame_DamageType_Magical"
+			evasion = 100
+			evasion_duration = 3.000000
 			precache = 
 			[
 				"particles/units/heroes/hero_windrunner/windrunner_spell_powershot_channel.vpcf",
 				"particles/units/heroes/hero_windrunner/windrunner_spell_powershot.vpcf",
 				"particles/units/heroes/hero_windrunner/windrunner_powershot_dmg.vpcf",
+				"particles/units/heroes/hero_windrunner/windrunner_windrun.vpcf",
 			]
 		}
 		crystal_maiden_brilliance_aura = 
@@ -1906,6 +1901,8 @@
 				"particles/units/heroes/hero_venomancer/venomancer_venomous_gale_mouth.vpcf",
 				"particles/units/heroes/hero_venomancer/venomancer_venomous_gale_impact.vpcf",
 				"particles/units/heroes/hero_venomancer/venomancer_gale_poison_debuff.vpcf",
+				"particles/underlords/enno/enno_poison_stack.vpcf",
+				"particles/items2_fx/orb_of_venom.vpcf",
 			]
 		}
 		lina_laguna_blade = 
@@ -2274,6 +2271,7 @@
 			heal_pct = 35
 			min_health_pct = 30
 			attack_speed_bonus_max = 300
+			radius = 1
 			precache = 
 			[
 				"particles/units/heroes/hero_bloodseeker/bloodseeker_bloodrage.vpcf",
@@ -2541,7 +2539,7 @@
 				4.750000,
 				5.500000,
 			]
-			winner_bonus_damage = 
+			winner_bonus_damage_kill_mult = 
 			[
 				5,
 				8,
@@ -2589,6 +2587,7 @@
 			maxLevel = 3
 			bonus_damage = 200
 			break_duration = 4
+			hits_to_trigger = 4
 			precache = 
 			[
 				"particles/units/heroes/hero_nyx_assassin/nyx_assassin_vendetta.vpcf",
@@ -2988,6 +2987,7 @@
 				"particles/status_fx/status_effect_anessix_enthrall.vpcf",
 			]
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 		}
 		anessix_summon_golem = 
@@ -3016,6 +3016,7 @@
 			stun_duration = 2.000000
 			range = 2
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 		}
 		hobgen_passive = 
@@ -3131,6 +3132,7 @@
 				"particles/underlords/hobgen/hobgen_kaboom.vpcf",
 			]
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 		}
 		hobgen_airstrike = 
@@ -3157,6 +3159,7 @@
 			delay = 0.400000
 			fire_duration = 3.000000
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 			precache = 
 			[
@@ -3257,6 +3260,7 @@
 			precache = 
 			[
 				"particles/units/heroes/hero_stormspirit/stormspirit_ball_lightning.vpcf",
+				"particles/units/heroes/hero_morphling/morphling_waveform_dmg.vpcf",
 			]
 		}
 		ember_spirit_sleight_of_fist = 
@@ -3309,6 +3313,7 @@
 				200,
 			]
 			silence_duration = 3
+			stun_duration = 1.500000
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 
 			[
@@ -3391,6 +3396,7 @@
 				-20,
 				-25,
 			]
+			blast_armor_loss = 0
 			damageType = "#DAC_InGame_DamageType_Physical"
 			precache = 
 			[
@@ -3408,13 +3414,6 @@
 			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
 			manaCost = 100
 			cooldown = 60
-			cast_range = 5
-			debuff_duration = 
-			[
-				1.000000,
-				2.000000,
-				3.000000,
-			]
 			animationlength = 0.800000
 			damage = 
 			[
@@ -3423,12 +3422,7 @@
 				200,
 			]
 			impact_radius = 1
-			burn_duration = 
-			[
-				1.000000,
-				2.000000,
-				3.000000,
-			]
+			burn_duration = 5
 			projectile_count = 
 			[
 				3,
@@ -3436,10 +3430,14 @@
 				5,
 			]
 			projectile_fire_rate = 0.800000
-			projectile_min_distance = 2
-			projectile_max_distance = 20
+			magma_duration = 3.000000
 			attack_slow = 20
-			attack_slow_duration = 5
+			attack_slow_duration = 
+			[
+				1.000000,
+				2.000000,
+				3.000000,
+			]
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 
 			[
@@ -3562,6 +3560,7 @@
 				800,
 			]
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 			precache = 
 			[
@@ -3588,6 +3587,7 @@
 			damage_distributed_ticks = 7
 			damage_increase_pct = 0
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 			precache = 
 			[
@@ -3638,6 +3638,7 @@
 				"particles/underlords/enno/enno_poison_spin.vpcf",
 				"particles/underlords/enno/enno_weird_medicine_heal_character.vpcf",
 				"particles/underlords/enno/enno_poison_stack.vpcf",
+				"particles/items2_fx/orb_of_venom.vpcf",
 			]
 		}
 		enno_escape_artist = 
@@ -3670,6 +3671,7 @@
 			manaCost = 0
 			hypeCost = 0
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 		}
 		enno_airbrawl = 
@@ -3691,6 +3693,7 @@
 			]
 			hypeCost = 100
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 			stacks = 2
 			precache = 
@@ -3709,6 +3712,7 @@
 			manaCost = 100
 			animationlength = 1.070000
 			clone_dmg_reduction = 50
+			clone_mana_pct_loss_per = 0
 			precache = 
 			[
 				"particles/units/heroes/hero_arc_warden/arc_warden_tempest_cast.vpcf",
@@ -3811,6 +3815,11 @@
 		{
 			id = 161
 			maxLevel = 3
+			precache = 
+			[
+				"particles/underlords/enno/enno_poison_stack.vpcf",
+				"particles/items2_fx/orb_of_venom.vpcf",
+			]
 		}
 		warlock_3star = 
 		{
@@ -3824,18 +3833,8 @@
 			id = 163
 			maxLevel = 3
 			three_star = true
-			stolen_dmg = 
-			[
-				0,
-				0,
-				7,
-			]
-			max_stacks = 
-			[
-				0,
-				0,
-				10,
-			]
+			stolen_dmg = 7
+			max_stacks = 10
 		}
 		chaos_knight_3star = 
 		{
@@ -3843,6 +3842,1074 @@
 			maxLevel = 3
 			three_star = true
 			stub = true
+		}
+		crystal_maiden_3star = 
+		{
+			id = 165
+			maxLevel = 3
+			three_star = true
+			cooldown_reduction = 20
+		}
+		terrorblade_3star = 
+		{
+			id = 166
+			maxLevel = 3
+			three_star = true
+			castPoint = 0.500000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_4"
+			animationlength = 0.770000
+			cooldown = 6
+			manaCost = 80
+			duration = 5
+			damage_bonus_pct = 125
+		}
+		luna_3star = 
+		{
+			id = 168
+			maxLevel = 3
+			three_star = true
+			castPoint = 0.600000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_4"
+			cooldown = 40
+			manaCost = 100
+			radius = 2
+			beams = 15
+			hit_count = 5
+			beam_interval = 0.300000
+			beam_stun = 0.500000
+			beam_damage = 150
+			animationlength = 0.800000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_luna/luna_eclipse_precast.vpcf",
+				"particles/units/heroes/hero_luna/luna_eclipse_cast.vpcf",
+				"particles/units/heroes/hero_luna/luna_eclipse_impact.vpcf",
+				"particles/units/heroes/hero_luna/luna_eclipse_impact_notarget.vpcf",
+			]
+		}
+		dazzle_3star = 
+		{
+			id = 169
+			maxLevel = 3
+			three_star = true
+			never_die_range = 1
+			never_die_duration = 5
+		}
+		broodmother_3star = 
+		{
+			id = 170
+			maxLevel = 3
+			three_star = true
+		}
+		pudge_3star = 
+		{
+			id = 171
+			maxLevel = 3
+			three_star = true
+			bonus_health_per_death = 500
+			magical_resistance = 10
+			radius = 1
+		}
+		viper_3star = 
+		{
+			id = 172
+			maxLevel = 3
+			three_star = true
+			num_attacks = 5
+			debuff_duration = 3.000000
+			damage = 250
+			bonus_movement_speed = 80
+			bonus_attack_speed = 80
+			projectile_speed = 1200
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_viper/viper_viper_strike_warmup.vpcf",
+				"particles/units/heroes/hero_viper/viper_viper_strike_beam.vpcf",
+				"particles/units/heroes/hero_viper/viper_viper_strike_debuff.vpcf",
+				"particles/status_fx/status_effect_poison_viper.vpcf",
+			]
+		}
+		beastmaster_3star = 
+		{
+			id = 173
+			maxLevel = 3
+			three_star = true
+			damage_reduction = 75
+		}
+		juggernaut_3star = 
+		{
+			id = 174
+			maxLevel = 3
+			three_star = true
+			bonus_health_pct = 15
+		}
+		queenofpain_3star = 
+		{
+			id = 175
+			maxLevel = 3
+			three_star = true
+			evasion = 25
+			radius = 2
+		}
+		drow_ranger_3star = 
+		{
+			id = 176
+			maxLevel = 3
+			three_star = true
+			move_speed_loss = 50
+			attack_speed_loss = 20
+			slow_duration = 2.000000
+			precache = 
+			[
+				"particles/units/heroes/hero_drow/drow_frost_arrow_debuff.vpcf",
+				"particles/status_fx/status_effect_drow_frost_arrow.vpcf",
+				"particles/units/heroes/hero_drow/drow_frost_arrow.vpcf",
+			]
+		}
+		abaddon_3star = 
+		{
+			id = 177
+			maxLevel = 3
+			three_star = true
+			attack_speed = 30
+			min_stacks = 3
+			silence_duration = 2.000000
+		}
+		bloodseeker_3star = 
+		{
+			id = 178
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		morphling_3star = 
+		{
+			id = 179
+			maxLevel = 3
+			three_star = true
+		}
+		shadow_fiend_3star = 
+		{
+			id = 180
+			maxLevel = 3
+			three_star = true
+			armor_reduction = 8
+			radius = 2
+		}
+		magnataur_3star = 
+		{
+			id = 181
+			maxLevel = 3
+			three_star = true
+			castPoint = 0.300000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_4"
+			cooldown = 40
+			manaCost = 100
+			animationlength = 1.600000
+			damage = 100
+			radius = 2
+			duration = 1.000000
+			precache = 
+			[
+				"particles/units/heroes/hero_magnataur/magnataur_reverse_polarity_pull.vpcf",
+				"particles/units/heroes/hero_magnataur/magnataur_reverse_polarity.vpcf",
+			]
+		}
+		arc_warden_3star = 
+		{
+			id = 182
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		bat_rider_3star = 
+		{
+			id = 183
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		nyx_assassin_3star = 
+		{
+			id = 184
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		shadow_demon_3star = 
+		{
+			id = 185
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		tusk_3star = 
+		{
+			id = 186
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		venomancer_3star = 
+		{
+			id = 187
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		weaver_3star = 
+		{
+			id = 188
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		bristleback_3star = 
+		{
+			id = 189
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		earth_spirit_3star = 
+		{
+			id = 190
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		natures_prophet_3star = 
+		{
+			id = 191
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		ogre_magi_3star = 
+		{
+			id = 192
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		slardar_3star = 
+		{
+			id = 193
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		windrunner_3star = 
+		{
+			id = 194
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		witch_doctor_3star = 
+		{
+			id = 195
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		ember_spirit_3star = 
+		{
+			id = 196
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		enigma_3star = 
+		{
+			id = 197
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		wisp_3star = 
+		{
+			id = 198
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		lycan_3star = 
+		{
+			id = 199
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		omniknight_3star = 
+		{
+			id = 300
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		shadow_shaman_3star = 
+		{
+			id = 301
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		treant_protector_3star = 
+		{
+			id = 302
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		legion_commander_3star = 
+		{
+			id = 303
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		storm_spirit_3star = 
+		{
+			id = 304
+			maxLevel = 3
+			three_star = true
+			damage = 150
+			attack_speed_loss = 50
+			slow_duration = 1.500000
+			charges = 1
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_stormspirit/stormspirit_overload_ambient.vpcf",
+				"particles/units/heroes/hero_stormspirit/stormspirit_overload_discharge.vpcf",
+			]
+		}
+		life_stealer_3star = 
+		{
+			id = 305
+			maxLevel = 3
+			three_star = true
+			castPoint = 0.010000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
+			cooldown = 18
+			manaCost = 75
+			animationlength = 0.010000
+			duration = 5.000000
+			bonus_movement_speed_pct = 50
+			bonus_attack_speed = 50
+			precache = 
+			[
+				"particles/status_fx/status_effect_life_stealer_rage.vpcf",
+				"particles/units/heroes/hero_life_stealer/life_stealer_rage.vpcf",
+			]
+		}
+		snapfire_3star = 
+		{
+			id = 306
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		pangolier_rolling_thunder = 
+		{
+			id = 307
+			maxLevel = 3
+			stub = true
+		}
+		vengefulspirit_wave_of_terror = 
+		{
+			id = 308
+			maxLevel = 3
+			castPoint = 0.300000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_2"
+			animationlength = 0.800000
+			cooldown = 
+			[
+				14,
+				12,
+				10,
+			]
+			manaCost = 60
+			projectile_damage = 
+			[
+				100,
+				175,
+				250,
+			]
+			armor_loss = 
+			[
+				3,
+				5,
+				7,
+			]
+			duration = 6.000000
+			ability_range = 5
+			projectile_width = 300
+			projectile_speed = 2000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_vengeful/vengeful_wave_of_terror.vpcf",
+				"particles/units/heroes/hero_vengeful/vengeful_wave_of_terror_recipient.vpcf",
+			]
+		}
+		vengefulspirit_3star = 
+		{
+			id = 309
+			maxLevel = 3
+			three_star = true
+			damage = 300
+			radius = 2
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_vengeful/vengeful_death.vpcf",
+				"particles/units/heroes/hero_vengeful/vengeful_death_embers.vpcf",
+			]
+		}
+		death_prophet_exorcism = 
+		{
+			id = 310
+			maxLevel = 3
+			castPoint = 0.500000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_2"
+			animationlength = 1.270000
+			cooldown = 
+			[
+				20,
+				15,
+				10,
+			]
+			manaCost = 100
+			radius = 3
+			max_radius = 4
+			number = 
+			[
+				6,
+				8,
+				10,
+			]
+			speed = 200
+			spawn_rate = 0.250000
+			duration = 8.000000
+			spirit_duration = 6.000000
+			hit_target_radius = 100
+			pull_amount = 0.300000
+			damage = 
+			[
+				83,
+				100,
+				110,
+			]
+			heal_percent = 25
+			spirit_unit_id = 144
+			damageType = "#DAC_InGame_DamageType_Physical"
+			precache = 
+			[
+				"particles/units/heroes/hero_death_prophet/death_prophet_exorcism_attack.vpcf",
+				"particles/units/heroes/hero_death_prophet/death_prophet_spirit_glow.vpcf",
+			]
+		}
+		spirit_breaker_charge_of_darkness = 
+		{
+			id = 311
+			maxLevel = 3
+			castPoint = 0.300000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
+			animationlength = 0.800000
+			cooldown = 15
+			manaCost = 100
+			speed = 350
+			stun_duration = 
+			[
+				1,
+				1.300000,
+				1.700000,
+			]
+			cell_radius = 1
+			radius = 125
+			use_cell_radius = 1
+			damage = 
+			[
+				100,
+				175,
+				250,
+			]
+			bash_bounce_duration = 0.800000
+			damageType = "#DAC_InGame_DamageType_Physical"
+			precache = 
+			[
+				"particles/units/heroes/hero_spirit_breaker/spirit_breaker_charge_start.vpcf",
+				"particles/units/heroes/hero_spirit_breaker/spirit_breaker_greater_bash.vpcf",
+				"particles/units/heroes/hero_spirit_breaker/spirit_breaker_charge.vpcf",
+				"particles/status_fx/status_effect_charge_of_darkness.vpcf",
+			]
+		}
+		spirit_breaker_3star = 
+		{
+			id = 312
+			maxLevel = 3
+			three_star = true
+			bash_chance = 25
+			bash_duration = 2.000000
+			damage = 150
+			precache = 
+			[
+				"particles/units/heroes/hero_spirit_breaker/spirit_breaker_greater_bash.vpcf",
+			]
+		}
+		meepo_poof = 
+		{
+			id = 313
+			maxLevel = 3
+			castPoint = 1.490000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_2"
+			animationlength = 1.500000
+			cooldown = 
+			[
+				15,
+				13,
+				11,
+			]
+			manaCost = 75
+			damage = 
+			[
+				150,
+				250,
+				350,
+			]
+			damage_radius = 1
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_meepo/meepo_poof_start.vpcf",
+				"particles/units/heroes/hero_meepo/meepo_poof_end.vpcf",
+			]
+		}
+		meepo_divided_we_stand = 
+		{
+			id = 314
+			maxLevel = 3
+			precache = 
+			[
+				"particles/units/heroes/hero_arc_warden/arc_warden_tempest_cast.vpcf",
+			]
+		}
+		meepo_3star = 
+		{
+			id = 315
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		spectre_spectral_dagger = 
+		{
+			id = 316
+			maxLevel = 3
+			castPoint = 0.300000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
+			animationlength = 0.670000
+			cooldown = 
+			[
+				15,
+				13,
+				11,
+			]
+			manaCost = 70
+			damage = 
+			[
+				300,
+				500,
+				700,
+			]
+			move_slow_pct = 50
+			attack_slow = 50
+			slow_duration = 1.000000
+			path_duration = 4.000000
+			path_radius = 150
+			path_speed = 1000
+			path_tick_interval = 0.500000
+			bonus_move_pct = 100
+			bonus_aspd = 200
+			speed_duration = 4.000000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_spectre/spectre_spectral_dagger.vpcf",
+				"particles/units/heroes/hero_spectre/spectre_shadow_path_owner.vpcf",
+			]
+		}
+		spectre_3star = 
+		{
+			id = 317
+			maxLevel = 3
+			three_star = true
+			delay_min = 0.050000
+			delay_max = 0.250000
+			damage = 200
+			attack_reduction = 0
+			start_radius = 150
+			end_radius = 250
+			range = 3
+			speed = 1050
+			fire_duration = 3.000000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_dragon_knight/dragon_knight_breathe_fire.vpcf",
+			]
+		}
+		pangolier_shield_crash = 
+		{
+			id = 318
+			maxLevel = 3
+			castPoint = 0.005000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_2"
+			animationlength = 0.010000
+			cooldown = 
+			[
+				15,
+				13,
+				11,
+			]
+			manaCost = 70
+			damage = 
+			[
+				150,
+				300,
+				450,
+			]
+			reduction_pct_per_enemy = 8
+			duration = 10.000000
+			radius = 2
+			jump_duration = 0.400000
+			jump_height = 250
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_pangolier/pangolier_tailthump_cast.vpcf",
+				"particles/units/heroes/hero_pangolier/pangolier_tailthump_buff.vpcf",
+				"particles/units/heroes/hero_pangolier/pangolier_tailthump_hero.vpcf",
+				"particles/units/heroes/hero_pangolier/pangolier_tailthump_shield_impact.vpcf",
+			]
+		}
+		rubick_fade_bolt = 
+		{
+			id = 319
+			maxLevel = 3
+			castPoint = 0.100000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
+			animationlength = 1.030000
+			cooldown = 
+			[
+				10,
+				8,
+				6,
+			]
+			manaCost = 100
+			damage = 
+			[
+				75,
+				125,
+				175,
+			]
+			jumps = 4
+			damage_reduction_pct = 20
+			duration = 5
+			jump_range = 4
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_rubick/rubick_fade_bolt_head.vpcf",
+				"particles/units/heroes/hero_rubick/rubick_fade_bolt.vpcf",
+				"particles/units/heroes/hero_rubick/rubick_fade_bolt_debuff.vpcf",
+			]
+		}
+		rubick_spell_steal = 
+		{
+			id = 320
+			maxLevel = 3
+			queue_duration = 2.000000
+			radius = 
+			[
+				1,
+				2,
+				3,
+			]
+		}
+		wraith_king_wraithfire_blast = 
+		{
+			id = 321
+			maxLevel = 3
+			castPoint = 0.350000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
+			animationlength = 0.850000
+			cooldown = 
+			[
+				6,
+				4,
+				2,
+			]
+			manaCost = 75
+			range = 2
+			fallback_range = 3
+			damage = 
+			[
+				100,
+				200,
+				300,
+			]
+			stun_duration = 2.000000
+			damage_duration = 5.000000
+			tick_interval = 0.250000
+			projectile_speed = 1000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_skeletonking/skeletonking_hellfireblast_warmup.vpcf",
+				"particles/units/heroes/hero_skeletonking/skeletonking_hellfireblast.vpcf",
+				"particles/units/heroes/hero_skeletonking/skeletonking_hellfireblast_debuff.vpcf",
+			]
+		}
+		wraith_king_raise_dead = 
+		{
+			id = 322
+			maxLevel = 3
+			range = 
+			[
+				1,
+				2,
+				3,
+			]
+			precache = 
+			[
+				"particles/items/tombstone/tombstone_zombie_spawn.vpcf",
+			]
+		}
+		antimage_3star = 
+		{
+			id = 323
+			maxLevel = 3
+			three_star = true
+			stub = true
+			bonus_damage = 200
+			damageType = "#DAC_InGame_DamageType_Magical"
+			notes = "The bonus_damage value is cosmetic only! To change damage, change the bonus_3star_damage value in antimage_mana_break"
+		}
+		enchantress_3star = 
+		{
+			id = 324
+			maxLevel = 3
+			three_star = true
+			slow = 80
+			chance = 50
+			precache = 
+			[
+				"particles/units/heroes/hero_enchantress/enchantress_untouchable.vpcf",
+				"particles/status_fx/status_effect_enchantress_untouchable.vpcf",
+			]
+		}
+		bounty_hunter_3star = 
+		{
+			id = 325
+			maxLevel = 3
+			three_star = true
+			gold = 1
+			chance = 100
+			precache = 
+			[
+				"particles/gameplay/gold/gold_gain.vpcf",
+			]
+		}
+		kunkka_3star = 
+		{
+			id = 326
+			maxLevel = 3
+			three_star = true
+			number = 4
+			damage = 150
+			cleave_pct = 75
+			damageType = "#DAC_InGame_DamageType_Physical"
+			precache = 
+			[
+				"particles/units/heroes/hero_kunkka/kunkka_weapon_tidebringer.vpcf",
+			]
+		}
+		alchemist_3star = 
+		{
+			id = 327
+			maxLevel = 3
+			three_star = true
+			attack_speed = 75
+			rage_duration = 5.000000
+			transform_time = 0.250000
+			precache = 
+			[
+				"particles/units/heroes/hero_alchemist/alchemist_chemical_rage.vpcf",
+				"particles/status_fx/status_effect_chemical_rage.vpcf",
+				"particles/units/heroes/hero_alchemist/alchemist_chemical_rage_hero_effect.vpcf",
+				"particles/units/heroes/hero_alchemist/alchemist_chemichalrage_effect.vpcf",
+			]
+		}
+		puck_3star = 
+		{
+			id = 328
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		phantom_assassin_3star = 
+		{
+			id = 329
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		lich_frost_shield = 
+		{
+			id = 330
+			maxLevel = 3
+			manaCost = 50
+			cooldown = 20
+			castPoint = 0.200000
+			animationlength = 1.130000
+			damage_resist_pct = 
+			[
+				10,
+				20,
+				30,
+			]
+			radius = 2
+			damage_per_second = 
+			[
+				20,
+				40,
+				60,
+			]
+			tick_interval = 0.250000
+			move_slow_pct = 50
+			attack_slow = 25
+			duration = 7.000000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_lich/lich_frost_armor.vpcf",
+				"particles/units/heroes/hero_lich/lich_ice_age.vpcf",
+				"particles/units/heroes/hero_lich/lich_ice_age_dmg.vpcf",
+				"particles/status_fx/status_effect_frost_armor.vpcf",
+				"particles/units/heroes/hero_lich/lich_ice_age_debuff.vpcf",
+				"particles/status_fx/status_effect_lich_ice_age.vpcf",
+			]
+		}
+		lich_3star = 
+		{
+			id = 331
+			maxLevel = 3
+			three_star = true
+			castPoint = 0.500000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_6"
+			cooldown = 30
+			manaCost = 100
+			slow_duration = 2.500000
+			slow_value = -65
+			jump_range = 3
+			jumps = 7
+			animationlength = 1.500000
+			damage = 200
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_lich/lich_chain_frost.vpcf",
+				"particles/units/heroes/hero_lich/lich_slowed_cold.vpcf",
+				"particles/status_fx/status_effect_frost_lich.vpcf",
+			]
+		}
+		barricade_aura_rot1 = 
+		{
+			id = 332
+			maxLevel = 1
+			range = 1
+			block_pct = 50
+		}
+		wild_alliance_crit = 
+		{
+			id = 333
+			maxLevel = 3
+			crit_chance = 20
+			crit_bonus = 200
+		}
+		wild_alliance_evasion = 
+		{
+			id = 334
+			maxLevel = 3
+			evasion_pct = 25
+		}
+		enchantress_wild_alliance_bonus = 
+		{
+			id = 335
+			maxLevel = 3
+			modifier_name = "modifier_wild_alliance_untouchable"
+			slow = 80
+			chance = 
+			[
+				10,
+				25,
+				40,
+			]
+			precache = 
+			[
+				"particles/units/heroes/hero_enchantress/enchantress_untouchable.vpcf",
+				"particles/status_fx/status_effect_enchantress_untouchable.vpcf",
+			]
+		}
+		magnus_wild_alliance_bonus = 
+		{
+			id = 336
+			maxLevel = 3
+			modifier_name = "modifier_wild_alliance_push"
+			chance = 
+			[
+				10,
+				20,
+				30,
+			]
+			speed = 1000
+			length = 6
+			precache = 
+			[
+				"particles/items_fx/force_staff.vpcf",
+				"particles/status_fx/status_effect_forcestaff.vpcf",
+			]
+		}
+		treant_protector_wild_alliance_bonus = 
+		{
+			id = 337
+			maxLevel = 3
+			modifier_name = "modifier_wild_alliance_inspire"
+			armor = 
+			[
+				2,
+				5,
+				12,
+			]
+			hp_regen = 
+			[
+				5,
+				10,
+				30,
+			]
+			radius = 1
+			precache = 
+			[
+				"particles/gameplay/synergy/scrappy/scrappy_buff_lvl1.vpcf",
+			]
+		}
+		beastmaster_wild_alliance_bonus = 
+		{
+			id = 338
+			maxLevel = 3
+			modifier_name = "modifier_wild_alliance_roar"
+			buff_duration = 4.000000
+			attack_speed = 
+			[
+				10,
+				50,
+				100,
+			]
+			precache = 
+			[
+				"particles/items2_fx/mask_of_madness.vpcf",
+			]
+		}
+		lone_druid_wild_alliance_bonus = 
+		{
+			id = 339
+			maxLevel = 3
+			modifier_name = "modifier_wild_alliance_spirit_link"
+			lifesteal_pct = 
+			[
+				5,
+				20,
+				50,
+			]
+			radius = 1
+			precache = 
+			[
+				"particles/gameplay/synergy/warlock/warlock_link.vpcf",
+			]
+		}
+		wild_alliance_wrath_of_nature = 
+		{
+			id = 340
+			disabled = true
+			hide_if_disabled = true
+			Note = "All these values are displayed via natures_prophet_wild_alliance_bonus. You need to keep these in sync with the ones there."
+			Note2 = "These values *do* show up during battle on the creature though!"
+			cooldown = 15
+			manaCost = 100
+			jump_range = 8
+			jumps = 
+			[
+				3,
+				4,
+				5,
+			]
+			animationlength = 1.670000
+			damage = 
+			[
+				100,
+				225,
+				400,
+			]
+			increase_pct = 15
+			delay = 0.200000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_furion/furion_wrath_of_nature.vpcf",
+			]
+		}
+		natures_prophet_wild_alliance_bonus = 
+		{
+			id = 341
+			wrath_id = 340
+			modifier_name = "modifier_wild_alliance_wrath"
+			Note = "All these values are FOR DISPLAY ONLY. You need to keep these in sync with the ones in wild_alliance_wrath_of_nature."
+			cooldown = 15
+			jump_range = 8
+			jumps = 
+			[
+				3,
+				4,
+				5,
+			]
+			damage = 
+			[
+				100,
+				225,
+				400,
+			]
+			increase_pct = 15
+			damageType = "#DAC_InGame_DamageType_Magical"
+		}
+		wild_alliance_splash_attack = 
+		{
+			id = 342
+			splash_radius = 1
+			splash_damage_percent = 50
+		}
+		tiny_3star = 
+		{
+			id = 167
+			maxLevel = 3
+			three_star = true
+			bonus_damage = 75
+			bonus_armor = 5
+			aspd_loss = 10
+			max_stacks = 5
 		}
 	}
 	set_balance = 
@@ -3930,12 +4997,15 @@
 			duration = 5
 			max_slow = 200
 			min_slow = 50
+			health_pct = 30
+			radius = 0
 			animationlength = 0.830000
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 
 			[
 				"particles/units/heroes/hero_shadow_demon/shadow_demon_demonic_purge.vpcf",
 				"particles/units/heroes/hero_shadow_demon/shadow_demon_demonic_purge_cast.vpcf",
+				"particles/generic_gameplay/generic_break.vpcf",
 			]
 		}
 		troll_warlord_fervor = 
@@ -3944,15 +5014,15 @@
 			maxLevel = 3
 			attack_speed = 
 			[
-				8,
-				10,
-				13,
+				12,
+				16,
+				20,
 			]
 			max_stacks = 
 			[
+				8,
 				12,
-				19,
-				24,
+				16,
 			]
 		}
 		life_stealer_feast = 
@@ -3993,7 +5063,7 @@
 			animationlength = 1.100000
 			cooldown = 60
 			duration = 60
-			manaCost = 150
+			manaCost = 80
 			precache = 
 			[
 				"particles/units/heroes/hero_sven/sven_spell_gods_strength.vpcf",
@@ -4010,7 +5080,7 @@
 			castAnimation = "ACT_DOTA_CAST_ABILITY_3"
 			animationlength = 1.100000
 			cooldown = 60
-			manaCost = 100
+			manaCost = 80
 			duration = 60
 			bonus_attack_damage = 
 			[
@@ -4031,29 +5101,21 @@
 				"particles/units/heroes/hero_terrorblade/terrorblade_metamorphosis_transform.vpcf",
 			]
 		}
-		slark_dark_pact = 
+		slark_3star = 
 		{
 			id = 9
 			maxLevel = 3
-			castPoint = 0.001000
-			castAnimation = "ACT_INVALID"
-			animationlength = 0.002000
-			cooldown = 
-			[
-				8,
-				7,
-				6,
-			]
+			three_star = true
+			castPoint = 0.010000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
+			animationlength = 0.020000
+			cooldown = 7
 			manaCost = 100
 			delay = 1.500000
-			radius = 1
-			total_damage = 
-			[
-				150,
-				230,
-				300,
-			]
+			radius = 2
+			total_damage = 300
 			total_pulses = 10
+			self_harm_pct = 50
 			pulse_interval = 0.100000
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 
@@ -4069,15 +5131,15 @@
 			maxLevel = 3
 			stolen_aspd = 
 			[
-				3.000000,
-				4.000000,
-				5.000000,
+				3,
+				4,
+				5,
 			]
 			stolen_dmg = 
 			[
 				3,
+				4,
 				5,
-				6,
 			]
 		}
 		slark_pounce = 
@@ -4177,6 +5239,8 @@
 				"particles/units/heroes/hero_dragon_knight/dragon_knight_corrosion_debuff.vpcf",
 				"particles/generic_gameplay/generic_slowed_cold.vpcf",
 				"particles/status_fx/status_effect_frost.vpcf",
+				"particles/underlords/enno/enno_poison_stack.vpcf",
+				"particles/items2_fx/orb_of_venom.vpcf",
 			]
 		}
 		morphling_waveform = 
@@ -4226,6 +5290,8 @@
 			precache = 
 			[
 				"particles/units/heroes/hero_viper/viper_corrosive_debuff.vpcf",
+				"particles/underlords/enno/enno_poison_stack.vpcf",
+				"particles/items2_fx/orb_of_venom.vpcf",
 			]
 		}
 		viper_viper_strike = 
@@ -4427,19 +5493,24 @@
 			castPoint = 0.300000
 			cooldown = 10
 			manaCost = 100
-			radius = 3
+			radius = 
+			[
+				2,
+				2,
+				3,
+			]
 			duration = 10
 			damage = 
 			[
-				15,
-				25,
-				35,
+				10,
+				20,
+				30,
 			]
 			armor_reduction = 
 			[
-				-4,
-				-7,
-				-10,
+				-3,
+				-6,
+				-9,
 			]
 			tick_rate = 1.000000
 			animationlength = 0.900000
@@ -4460,18 +5531,18 @@
 			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
 			cooldown = 
 			[
-				10,
 				8,
 				6,
+				4,
 			]
 			manaCost = 100
 			damage_per_second = 
 			[
-				100,
-				150,
-				200,
+				175,
+				225,
+				275,
 			]
-			max_channel_time = 4
+			max_channel_time = 3
 			radius = 375
 			range = 1000
 			speed = 1050.000000
@@ -4508,15 +5579,15 @@
 			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
 			cooldown = 
 			[
-				5,
-				4,
-				3,
+				6,
+				4.500000,
+				0.500000,
 			]
 			manaCost = 60
 			damage = 
 			[
-				150,
 				200,
+				225,
 				250,
 			]
 			radius = 150
@@ -4617,23 +5688,13 @@
 			manaCost = 75
 			armor_reduction = 
 			[
-				-15,
+				-10,
+				-20,
 				-30,
-				-45,
 			]
 			duration = 20
-			bash_damage = 
-			[
-				0,
-				0,
-				100,
-			]
-			bash_duration = 
-			[
-				0,
-				0,
-				1.500000,
-			]
+			bash_damage = 100
+			bash_duration = 1.500000
 			animationlength = 1
 			precache = 
 			[
@@ -4777,25 +5838,25 @@
 			cooldown = 
 			[
 				15,
-				13,
-				10,
+				15,
+				15,
 			]
 			manaCost = 100
 			slow_duration = 2.500000
-			slow_value = -65
+			slow_value = -40
 			jump_range = 3
 			jumps = 
 			[
+				5,
 				7,
 				10,
-				13,
 			]
 			animationlength = 1.500000
 			damage = 
 			[
-				200,
-				300,
-				400,
+				75,
+				150,
+				225,
 			]
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 
@@ -4871,9 +5932,14 @@
 			delay = 0.300000
 			animationlength = 0.800000
 			damageType = "#DAC_InGame_DamageType_Magical"
+			damage_pct = 40
+			damage_per_sec = 20
+			health_interval = 4.000000
 			precache = 
 			[
 				"particles/units/heroes/hero_witchdoctor/witchdoctor_cask.vpcf",
+				"particles/status_fx/status_effect_maledict.vpcf",
+				"particles/units/heroes/hero_witchdoctor/witchdoctor_maledict.vpcf",
 			]
 		}
 		bounty_hunter_shuriken_toss = 
@@ -4937,7 +6003,7 @@
 			castPoint = 0.600000
 			castAnimation = "ACT_DOTA_CAST_ABILITY_4"
 			cooldown = 6
-			manaCost = 100
+			manaCost = 60
 			radius = 3
 			projectile_speed = 900
 			damage = 
@@ -5213,7 +6279,7 @@
 			[
 				5,
 				6,
-				7,
+				6,
 			]
 			duration = 
 			[
@@ -5226,7 +6292,7 @@
 			damageType = "#DAC_InGame_DamageType_Pure"
 			precache = 
 			[
-				"particles/units/heroes/hero_enigma/enigma_midnight_pulse.vpcf",
+				"particles/units/heroes/hero_enigma/enigma_midnight_pulse_dac.vpcf",
 			]
 		}
 		medusa_stone_gaze = 
@@ -5269,9 +6335,19 @@
 		{
 			id = 48
 			maxLevel = 3
-			damage_modifier = -20
+			damage_modifier = 
+			[
+				0,
+				-20,
+				-30,
+			]
 			range = 1
-			extra_shots = 2
+			extra_shots = 
+			[
+				1,
+				2,
+				3,
+			]
 			precache = 
 			[
 			]
@@ -5294,13 +6370,15 @@
 				150,
 				200,
 			]
-			damage_interval = 1.500000
+			bonus_armor = 5
+			damage_interval = 1.000000
 			animationlength = 1
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 
 			[
 				"particles/units/heroes/hero_treant/treant_leech_seed.vpcf",
 				"particles/units/heroes/hero_treant/treant_leech_seed_damage_pulse.vpcf",
+				"particles/units/heroes/hero_treant/treant_livingarmor.vpcf",
 			]
 		}
 		razor_plasma_field = 
@@ -5379,6 +6457,7 @@
 				6,
 				12,
 			]
+			bonus_3star_damage = 200
 			precache = 
 			[
 				"particles/units/heroes/hero_antimage/antimage_blade_hit.vpcf",
@@ -5508,7 +6587,12 @@
 				6,
 			]
 			manaCost = 60
-			radius = 1
+			radius = 
+			[
+				1,
+				1,
+				2,
+			]
 			heal = 
 			[
 				200,
@@ -5596,11 +6680,14 @@
 			]
 			animationlength = 2
 			damageType = "#DAC_InGame_DamageType_Magical"
+			evasion = 100
+			evasion_duration = 3.000000
 			precache = 
 			[
 				"particles/units/heroes/hero_windrunner/windrunner_spell_powershot_channel.vpcf",
 				"particles/units/heroes/hero_windrunner/windrunner_spell_powershot.vpcf",
 				"particles/units/heroes/hero_windrunner/windrunner_powershot_dmg.vpcf",
+				"particles/units/heroes/hero_windrunner/windrunner_windrun.vpcf",
 			]
 		}
 		crystal_maiden_brilliance_aura = 
@@ -5772,6 +6859,8 @@
 				"particles/units/heroes/hero_venomancer/venomancer_venomous_gale_mouth.vpcf",
 				"particles/units/heroes/hero_venomancer/venomancer_venomous_gale_impact.vpcf",
 				"particles/units/heroes/hero_venomancer/venomancer_gale_poison_debuff.vpcf",
+				"particles/underlords/enno/enno_poison_stack.vpcf",
+				"particles/items2_fx/orb_of_venom.vpcf",
 			]
 		}
 		lina_laguna_blade = 
@@ -5782,17 +6871,17 @@
 			castAnimation = "ACT_DOTA_CAST_ABILITY_4"
 			cooldown = 
 			[
-				10,
 				8,
 				6,
+				4,
 			]
-			manaCost = 100
+			manaCost = 75
 			animationlength = 1.270000
 			damage = 
 			[
-				600,
-				800,
-				1500,
+				750,
+				950,
+				1900,
 			]
 			cast_range_scepter = 600
 			damage_delay = 0.250000
@@ -5858,16 +6947,16 @@
 			buff_duration = 0
 			stun_duration = 
 			[
-				1.400000,
+				1,
+				1.300000,
 				1.700000,
-				2,
 			]
 			ghostship_speed = 650
 			ghostship_absorb = 0
 			ability_damage = 
 			[
 				50,
-				150,
+				125,
 				250,
 			]
 			damageType = "#DAC_InGame_DamageType_Magical"
@@ -5946,7 +7035,7 @@
 			[
 				2,
 				2,
-				3,
+				4,
 			]
 			animationlength = 0.550000
 			hp_per = 
@@ -6140,6 +7229,7 @@
 			heal_pct = 35
 			min_health_pct = 30
 			attack_speed_bonus_max = 300
+			radius = 1
 			precache = 
 			[
 				"particles/units/heroes/hero_bloodseeker/bloodseeker_bloodrage.vpcf",
@@ -6407,7 +7497,7 @@
 				4.750000,
 				5.500000,
 			]
-			winner_bonus_damage = 
+			winner_bonus_damage_kill_mult = 
 			[
 				5,
 				8,
@@ -6455,6 +7545,7 @@
 			maxLevel = 3
 			bonus_damage = 200
 			break_duration = 4
+			hits_to_trigger = 4
 			precache = 
 			[
 				"particles/units/heroes/hero_nyx_assassin/nyx_assassin_vendetta.vpcf",
@@ -6628,7 +7719,12 @@
 			id = 124
 			maxLevel = 3
 			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
-			cooldown = 3
+			cooldown = 
+			[
+				3,
+				3,
+				1.500000,
+			]
 			manaCost = 20
 			radius = 2
 			quill_base_damage = 
@@ -6671,9 +7767,9 @@
 			damage_radius = 1
 			damage = 
 			[
-				100,
-				170,
-				240,
+				80,
+				140,
+				200,
 			]
 			max_targets = 
 			[
@@ -6854,6 +7950,7 @@
 				"particles/status_fx/status_effect_anessix_enthrall.vpcf",
 			]
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 		}
 		anessix_summon_golem = 
@@ -6882,6 +7979,7 @@
 			stun_duration = 2.000000
 			range = 2
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 		}
 		hobgen_passive = 
@@ -6997,6 +8095,7 @@
 				"particles/underlords/hobgen/hobgen_kaboom.vpcf",
 			]
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 		}
 		hobgen_airstrike = 
@@ -7023,6 +8122,7 @@
 			delay = 0.400000
 			fire_duration = 5.000000
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 			precache = 
 			[
@@ -7123,6 +8223,7 @@
 			precache = 
 			[
 				"particles/units/heroes/hero_stormspirit/stormspirit_ball_lightning.vpcf",
+				"particles/units/heroes/hero_morphling/morphling_waveform_dmg.vpcf",
 			]
 		}
 		ember_spirit_sleight_of_fist = 
@@ -7175,6 +8276,7 @@
 				200,
 			]
 			silence_duration = 3
+			stun_duration = 1.500000
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 
 			[
@@ -7236,7 +8338,7 @@
 			[
 				1.000000,
 				2.000000,
-				3.000000,
+				4.000000,
 			]
 			animationlength = 1.200000
 			blast_range = 325
@@ -7253,10 +8355,11 @@
 			blast_speed = 1050
 			blast_bonus_attack_speed = 
 			[
+				-10,
 				-15,
 				-20,
-				-25,
 			]
+			blast_armor_loss = 5
 			damageType = "#DAC_InGame_DamageType_Physical"
 			precache = 
 			[
@@ -7274,27 +8377,15 @@
 			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
 			manaCost = 100
 			cooldown = 60
-			cast_range = 5
-			debuff_duration = 
-			[
-				1.000000,
-				2.000000,
-				3.000000,
-			]
 			animationlength = 0.800000
 			damage = 
 			[
-				100,
+				50,
+				80,
 				150,
-				200,
 			]
 			impact_radius = 1
-			burn_duration = 
-			[
-				1.000000,
-				2.000000,
-				3.000000,
-			]
+			burn_duration = 5
 			projectile_count = 
 			[
 				3,
@@ -7302,10 +8393,14 @@
 				5,
 			]
 			projectile_fire_rate = 0.800000
-			projectile_min_distance = 2
-			projectile_max_distance = 20
+			magma_duration = 3.000000
 			attack_slow = 20
-			attack_slow_duration = 5
+			attack_slow_duration = 
+			[
+				1.000000,
+				2.000000,
+				3.000000,
+			]
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 
 			[
@@ -7428,6 +8523,7 @@
 				800,
 			]
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 			precache = 
 			[
@@ -7454,6 +8550,7 @@
 			damage_distributed_ticks = 7
 			damage_increase_pct = 0
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 			precache = 
 			[
@@ -7504,6 +8601,7 @@
 				"particles/underlords/enno/enno_poison_spin.vpcf",
 				"particles/underlords/enno/enno_weird_medicine_heal_character.vpcf",
 				"particles/underlords/enno/enno_poison_stack.vpcf",
+				"particles/items2_fx/orb_of_venom.vpcf",
 			]
 		}
 		enno_escape_artist = 
@@ -7536,6 +8634,7 @@
 			manaCost = 0
 			hypeCost = 0
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 		}
 		enno_airbrawl = 
@@ -7557,6 +8656,7 @@
 			]
 			hypeCost = 100
 			disabled = true
+			hide_if_disabled = true
 			ultimate = true
 			stacks = 3
 			precache = 
@@ -7575,6 +8675,7 @@
 			manaCost = 100
 			animationlength = 1.070000
 			clone_dmg_reduction = 50
+			clone_mana_pct_loss_per = 20
 			precache = 
 			[
 				"particles/units/heroes/hero_arc_warden/arc_warden_tempest_cast.vpcf",
@@ -7677,6 +8778,11 @@
 		{
 			id = 161
 			maxLevel = 3
+			precache = 
+			[
+				"particles/underlords/enno/enno_poison_stack.vpcf",
+				"particles/items2_fx/orb_of_venom.vpcf",
+			]
 		}
 		warlock_3star = 
 		{
@@ -7690,18 +8796,8 @@
 			id = 163
 			maxLevel = 3
 			three_star = true
-			stolen_dmg = 
-			[
-				0,
-				0,
-				7,
-			]
-			max_stacks = 
-			[
-				0,
-				0,
-				10,
-			]
+			stolen_dmg = 7
+			max_stacks = 10
 		}
 		chaos_knight_3star = 
 		{
@@ -7709,6 +8805,1074 @@
 			maxLevel = 3
 			three_star = true
 			stub = true
+		}
+		crystal_maiden_3star = 
+		{
+			id = 165
+			maxLevel = 3
+			three_star = true
+			cooldown_reduction = 20
+		}
+		terrorblade_3star = 
+		{
+			id = 166
+			maxLevel = 3
+			three_star = true
+			castPoint = 0.500000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_4"
+			animationlength = 0.770000
+			cooldown = 6
+			manaCost = 80
+			duration = 5
+			damage_bonus_pct = 125
+		}
+		luna_3star = 
+		{
+			id = 168
+			maxLevel = 3
+			three_star = true
+			castPoint = 0.600000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_4"
+			cooldown = 40
+			manaCost = 100
+			radius = 2
+			beams = 15
+			hit_count = 5
+			beam_interval = 0.300000
+			beam_stun = 0.500000
+			beam_damage = 150
+			animationlength = 0.800000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_luna/luna_eclipse_precast.vpcf",
+				"particles/units/heroes/hero_luna/luna_eclipse_cast.vpcf",
+				"particles/units/heroes/hero_luna/luna_eclipse_impact.vpcf",
+				"particles/units/heroes/hero_luna/luna_eclipse_impact_notarget.vpcf",
+			]
+		}
+		dazzle_3star = 
+		{
+			id = 169
+			maxLevel = 3
+			three_star = true
+			never_die_range = 1
+			never_die_duration = 5
+		}
+		broodmother_3star = 
+		{
+			id = 170
+			maxLevel = 3
+			three_star = true
+		}
+		pudge_3star = 
+		{
+			id = 171
+			maxLevel = 3
+			three_star = true
+			bonus_health_per_death = 500
+			magical_resistance = 10
+			radius = 1
+		}
+		viper_3star = 
+		{
+			id = 172
+			maxLevel = 3
+			three_star = true
+			num_attacks = 5
+			debuff_duration = 3.000000
+			damage = 250
+			bonus_movement_speed = 80
+			bonus_attack_speed = 80
+			projectile_speed = 1200
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_viper/viper_viper_strike_warmup.vpcf",
+				"particles/units/heroes/hero_viper/viper_viper_strike_beam.vpcf",
+				"particles/units/heroes/hero_viper/viper_viper_strike_debuff.vpcf",
+				"particles/status_fx/status_effect_poison_viper.vpcf",
+			]
+		}
+		beastmaster_3star = 
+		{
+			id = 173
+			maxLevel = 3
+			three_star = true
+			damage_reduction = 75
+		}
+		juggernaut_3star = 
+		{
+			id = 174
+			maxLevel = 3
+			three_star = true
+			bonus_health_pct = 15
+		}
+		queenofpain_3star = 
+		{
+			id = 175
+			maxLevel = 3
+			three_star = true
+			evasion = 25
+			radius = 2
+		}
+		drow_ranger_3star = 
+		{
+			id = 176
+			maxLevel = 3
+			three_star = true
+			move_speed_loss = 50
+			attack_speed_loss = 20
+			slow_duration = 2.000000
+			precache = 
+			[
+				"particles/units/heroes/hero_drow/drow_frost_arrow_debuff.vpcf",
+				"particles/status_fx/status_effect_drow_frost_arrow.vpcf",
+				"particles/units/heroes/hero_drow/drow_frost_arrow.vpcf",
+			]
+		}
+		abaddon_3star = 
+		{
+			id = 177
+			maxLevel = 3
+			three_star = true
+			attack_speed = 30
+			min_stacks = 3
+			silence_duration = 2.000000
+		}
+		bloodseeker_3star = 
+		{
+			id = 178
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		morphling_3star = 
+		{
+			id = 179
+			maxLevel = 3
+			three_star = true
+		}
+		shadow_fiend_3star = 
+		{
+			id = 180
+			maxLevel = 3
+			three_star = true
+			armor_reduction = 8
+			radius = 2
+		}
+		magnataur_3star = 
+		{
+			id = 181
+			maxLevel = 3
+			three_star = true
+			castPoint = 0.300000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_4"
+			cooldown = 40
+			manaCost = 100
+			animationlength = 1.600000
+			damage = 100
+			radius = 2
+			duration = 1.000000
+			precache = 
+			[
+				"particles/units/heroes/hero_magnataur/magnataur_reverse_polarity_pull.vpcf",
+				"particles/units/heroes/hero_magnataur/magnataur_reverse_polarity.vpcf",
+			]
+		}
+		arc_warden_3star = 
+		{
+			id = 182
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		bat_rider_3star = 
+		{
+			id = 183
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		nyx_assassin_3star = 
+		{
+			id = 184
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		shadow_demon_3star = 
+		{
+			id = 185
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		tusk_3star = 
+		{
+			id = 186
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		venomancer_3star = 
+		{
+			id = 187
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		weaver_3star = 
+		{
+			id = 188
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		bristleback_3star = 
+		{
+			id = 189
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		earth_spirit_3star = 
+		{
+			id = 190
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		natures_prophet_3star = 
+		{
+			id = 191
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		ogre_magi_3star = 
+		{
+			id = 192
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		slardar_3star = 
+		{
+			id = 193
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		windrunner_3star = 
+		{
+			id = 194
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		witch_doctor_3star = 
+		{
+			id = 195
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		ember_spirit_3star = 
+		{
+			id = 196
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		enigma_3star = 
+		{
+			id = 197
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		wisp_3star = 
+		{
+			id = 198
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		lycan_3star = 
+		{
+			id = 199
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		omniknight_3star = 
+		{
+			id = 300
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		shadow_shaman_3star = 
+		{
+			id = 301
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		treant_protector_3star = 
+		{
+			id = 302
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		legion_commander_3star = 
+		{
+			id = 303
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		storm_spirit_3star = 
+		{
+			id = 304
+			maxLevel = 3
+			three_star = true
+			damage = 150
+			attack_speed_loss = 50
+			slow_duration = 1.500000
+			charges = 1
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_stormspirit/stormspirit_overload_ambient.vpcf",
+				"particles/units/heroes/hero_stormspirit/stormspirit_overload_discharge.vpcf",
+			]
+		}
+		life_stealer_3star = 
+		{
+			id = 305
+			maxLevel = 3
+			three_star = true
+			castPoint = 0.010000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
+			cooldown = 18
+			manaCost = 75
+			animationlength = 0.010000
+			duration = 5.000000
+			bonus_movement_speed_pct = 50
+			bonus_attack_speed = 50
+			precache = 
+			[
+				"particles/status_fx/status_effect_life_stealer_rage.vpcf",
+				"particles/units/heroes/hero_life_stealer/life_stealer_rage.vpcf",
+			]
+		}
+		snapfire_3star = 
+		{
+			id = 306
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		pangolier_rolling_thunder = 
+		{
+			id = 307
+			maxLevel = 3
+			stub = true
+		}
+		vengefulspirit_wave_of_terror = 
+		{
+			id = 308
+			maxLevel = 3
+			castPoint = 0.300000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_2"
+			animationlength = 0.800000
+			cooldown = 
+			[
+				14,
+				12,
+				10,
+			]
+			manaCost = 60
+			projectile_damage = 
+			[
+				100,
+				175,
+				250,
+			]
+			armor_loss = 
+			[
+				3,
+				5,
+				7,
+			]
+			duration = 6.000000
+			ability_range = 5
+			projectile_width = 300
+			projectile_speed = 2000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_vengeful/vengeful_wave_of_terror.vpcf",
+				"particles/units/heroes/hero_vengeful/vengeful_wave_of_terror_recipient.vpcf",
+			]
+		}
+		vengefulspirit_3star = 
+		{
+			id = 309
+			maxLevel = 3
+			three_star = true
+			damage = 300
+			radius = 2
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_vengeful/vengeful_death.vpcf",
+				"particles/units/heroes/hero_vengeful/vengeful_death_embers.vpcf",
+			]
+		}
+		death_prophet_exorcism = 
+		{
+			id = 310
+			maxLevel = 3
+			castPoint = 0.500000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_2"
+			animationlength = 1.270000
+			cooldown = 
+			[
+				20,
+				15,
+				10,
+			]
+			manaCost = 100
+			radius = 3
+			max_radius = 4
+			number = 
+			[
+				6,
+				8,
+				10,
+			]
+			speed = 200
+			spawn_rate = 0.250000
+			duration = 8.000000
+			spirit_duration = 6.000000
+			hit_target_radius = 100
+			pull_amount = 0.300000
+			damage = 
+			[
+				83,
+				100,
+				110,
+			]
+			heal_percent = 25
+			spirit_unit_id = 144
+			damageType = "#DAC_InGame_DamageType_Physical"
+			precache = 
+			[
+				"particles/units/heroes/hero_death_prophet/death_prophet_exorcism_attack.vpcf",
+				"particles/units/heroes/hero_death_prophet/death_prophet_spirit_glow.vpcf",
+			]
+		}
+		spirit_breaker_charge_of_darkness = 
+		{
+			id = 311
+			maxLevel = 3
+			castPoint = 0.300000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
+			animationlength = 0.800000
+			cooldown = 15
+			manaCost = 100
+			speed = 350
+			stun_duration = 
+			[
+				1,
+				1.300000,
+				1.700000,
+			]
+			cell_radius = 1
+			radius = 125
+			use_cell_radius = 1
+			damage = 
+			[
+				100,
+				175,
+				250,
+			]
+			bash_bounce_duration = 0.800000
+			damageType = "#DAC_InGame_DamageType_Physical"
+			precache = 
+			[
+				"particles/units/heroes/hero_spirit_breaker/spirit_breaker_charge_start.vpcf",
+				"particles/units/heroes/hero_spirit_breaker/spirit_breaker_greater_bash.vpcf",
+				"particles/units/heroes/hero_spirit_breaker/spirit_breaker_charge.vpcf",
+				"particles/status_fx/status_effect_charge_of_darkness.vpcf",
+			]
+		}
+		spirit_breaker_3star = 
+		{
+			id = 312
+			maxLevel = 3
+			three_star = true
+			bash_chance = 25
+			bash_duration = 2.000000
+			damage = 150
+			precache = 
+			[
+				"particles/units/heroes/hero_spirit_breaker/spirit_breaker_greater_bash.vpcf",
+			]
+		}
+		meepo_poof = 
+		{
+			id = 313
+			maxLevel = 3
+			castPoint = 1.490000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_2"
+			animationlength = 1.500000
+			cooldown = 
+			[
+				15,
+				13,
+				11,
+			]
+			manaCost = 75
+			damage = 
+			[
+				150,
+				250,
+				350,
+			]
+			damage_radius = 1
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_meepo/meepo_poof_start.vpcf",
+				"particles/units/heroes/hero_meepo/meepo_poof_end.vpcf",
+			]
+		}
+		meepo_divided_we_stand = 
+		{
+			id = 314
+			maxLevel = 3
+			precache = 
+			[
+				"particles/units/heroes/hero_arc_warden/arc_warden_tempest_cast.vpcf",
+			]
+		}
+		meepo_3star = 
+		{
+			id = 315
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		spectre_spectral_dagger = 
+		{
+			id = 316
+			maxLevel = 3
+			castPoint = 0.300000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
+			animationlength = 0.670000
+			cooldown = 
+			[
+				15,
+				13,
+				11,
+			]
+			manaCost = 70
+			damage = 
+			[
+				300,
+				500,
+				700,
+			]
+			move_slow_pct = 50
+			attack_slow = 50
+			slow_duration = 1.000000
+			path_duration = 4.000000
+			path_radius = 150
+			path_speed = 1000
+			path_tick_interval = 0.500000
+			bonus_move_pct = 100
+			bonus_aspd = 200
+			speed_duration = 4.000000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_spectre/spectre_spectral_dagger.vpcf",
+				"particles/units/heroes/hero_spectre/spectre_shadow_path_owner.vpcf",
+			]
+		}
+		spectre_3star = 
+		{
+			id = 317
+			maxLevel = 3
+			three_star = true
+			delay_min = 0.050000
+			delay_max = 0.250000
+			damage = 200
+			attack_reduction = 0
+			start_radius = 150
+			end_radius = 250
+			range = 3
+			speed = 1050
+			fire_duration = 3.000000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_dragon_knight/dragon_knight_breathe_fire.vpcf",
+			]
+		}
+		pangolier_shield_crash = 
+		{
+			id = 318
+			maxLevel = 3
+			castPoint = 0.005000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_2"
+			animationlength = 0.010000
+			cooldown = 
+			[
+				15,
+				13,
+				11,
+			]
+			manaCost = 70
+			damage = 
+			[
+				150,
+				300,
+				450,
+			]
+			reduction_pct_per_enemy = 8
+			duration = 10.000000
+			radius = 2
+			jump_duration = 0.400000
+			jump_height = 250
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_pangolier/pangolier_tailthump_cast.vpcf",
+				"particles/units/heroes/hero_pangolier/pangolier_tailthump_buff.vpcf",
+				"particles/units/heroes/hero_pangolier/pangolier_tailthump_hero.vpcf",
+				"particles/units/heroes/hero_pangolier/pangolier_tailthump_shield_impact.vpcf",
+			]
+		}
+		rubick_fade_bolt = 
+		{
+			id = 319
+			maxLevel = 3
+			castPoint = 0.100000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
+			animationlength = 1.030000
+			cooldown = 
+			[
+				10,
+				8,
+				6,
+			]
+			manaCost = 100
+			damage = 
+			[
+				75,
+				125,
+				175,
+			]
+			jumps = 4
+			damage_reduction_pct = 20
+			duration = 5
+			jump_range = 4
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_rubick/rubick_fade_bolt_head.vpcf",
+				"particles/units/heroes/hero_rubick/rubick_fade_bolt.vpcf",
+				"particles/units/heroes/hero_rubick/rubick_fade_bolt_debuff.vpcf",
+			]
+		}
+		rubick_spell_steal = 
+		{
+			id = 320
+			maxLevel = 3
+			queue_duration = 2.000000
+			radius = 
+			[
+				1,
+				2,
+				3,
+			]
+		}
+		wraith_king_wraithfire_blast = 
+		{
+			id = 321
+			maxLevel = 3
+			castPoint = 0.350000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_1"
+			animationlength = 0.850000
+			cooldown = 
+			[
+				6,
+				4,
+				2,
+			]
+			manaCost = 75
+			range = 2
+			fallback_range = 3
+			damage = 
+			[
+				100,
+				200,
+				300,
+			]
+			stun_duration = 2.000000
+			damage_duration = 5.000000
+			tick_interval = 0.250000
+			projectile_speed = 1000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_skeletonking/skeletonking_hellfireblast_warmup.vpcf",
+				"particles/units/heroes/hero_skeletonking/skeletonking_hellfireblast.vpcf",
+				"particles/units/heroes/hero_skeletonking/skeletonking_hellfireblast_debuff.vpcf",
+			]
+		}
+		wraith_king_raise_dead = 
+		{
+			id = 322
+			maxLevel = 3
+			range = 
+			[
+				1,
+				2,
+				3,
+			]
+			precache = 
+			[
+				"particles/items/tombstone/tombstone_zombie_spawn.vpcf",
+			]
+		}
+		antimage_3star = 
+		{
+			id = 323
+			maxLevel = 3
+			three_star = true
+			stub = true
+			bonus_damage = 200
+			damageType = "#DAC_InGame_DamageType_Magical"
+			notes = "The bonus_damage value is cosmetic only! To change damage, change the bonus_3star_damage value in antimage_mana_break"
+		}
+		enchantress_3star = 
+		{
+			id = 324
+			maxLevel = 3
+			three_star = true
+			slow = 80
+			chance = 50
+			precache = 
+			[
+				"particles/units/heroes/hero_enchantress/enchantress_untouchable.vpcf",
+				"particles/status_fx/status_effect_enchantress_untouchable.vpcf",
+			]
+		}
+		bounty_hunter_3star = 
+		{
+			id = 325
+			maxLevel = 3
+			three_star = true
+			gold = 1
+			chance = 100
+			precache = 
+			[
+				"particles/gameplay/gold/gold_gain.vpcf",
+			]
+		}
+		kunkka_3star = 
+		{
+			id = 326
+			maxLevel = 3
+			three_star = true
+			number = 4
+			damage = 150
+			cleave_pct = 75
+			damageType = "#DAC_InGame_DamageType_Physical"
+			precache = 
+			[
+				"particles/units/heroes/hero_kunkka/kunkka_weapon_tidebringer.vpcf",
+			]
+		}
+		alchemist_3star = 
+		{
+			id = 327
+			maxLevel = 3
+			three_star = true
+			attack_speed = 75
+			rage_duration = 5.000000
+			transform_time = 0.250000
+			precache = 
+			[
+				"particles/units/heroes/hero_alchemist/alchemist_chemical_rage.vpcf",
+				"particles/status_fx/status_effect_chemical_rage.vpcf",
+				"particles/units/heroes/hero_alchemist/alchemist_chemical_rage_hero_effect.vpcf",
+				"particles/units/heroes/hero_alchemist/alchemist_chemichalrage_effect.vpcf",
+			]
+		}
+		puck_3star = 
+		{
+			id = 328
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		phantom_assassin_3star = 
+		{
+			id = 329
+			maxLevel = 3
+			three_star = true
+			stub = true
+		}
+		lich_frost_shield = 
+		{
+			id = 330
+			maxLevel = 3
+			manaCost = 50
+			cooldown = 20
+			castPoint = 0.200000
+			animationlength = 1.130000
+			damage_resist_pct = 
+			[
+				10,
+				20,
+				30,
+			]
+			radius = 2
+			damage_per_second = 
+			[
+				20,
+				40,
+				60,
+			]
+			tick_interval = 0.250000
+			move_slow_pct = 50
+			attack_slow = 25
+			duration = 7.000000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_lich/lich_frost_armor.vpcf",
+				"particles/units/heroes/hero_lich/lich_ice_age.vpcf",
+				"particles/units/heroes/hero_lich/lich_ice_age_dmg.vpcf",
+				"particles/status_fx/status_effect_frost_armor.vpcf",
+				"particles/units/heroes/hero_lich/lich_ice_age_debuff.vpcf",
+				"particles/status_fx/status_effect_lich_ice_age.vpcf",
+			]
+		}
+		lich_3star = 
+		{
+			id = 331
+			maxLevel = 3
+			three_star = true
+			castPoint = 0.500000
+			castAnimation = "ACT_DOTA_CAST_ABILITY_6"
+			cooldown = 30
+			manaCost = 100
+			slow_duration = 2.500000
+			slow_value = -65
+			jump_range = 3
+			jumps = 7
+			animationlength = 1.500000
+			damage = 200
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_lich/lich_chain_frost.vpcf",
+				"particles/units/heroes/hero_lich/lich_slowed_cold.vpcf",
+				"particles/status_fx/status_effect_frost_lich.vpcf",
+			]
+		}
+		barricade_aura_rot1 = 
+		{
+			id = 332
+			maxLevel = 1
+			range = 1
+			block_pct = 50
+		}
+		wild_alliance_crit = 
+		{
+			id = 333
+			maxLevel = 3
+			crit_chance = 20
+			crit_bonus = 200
+		}
+		wild_alliance_evasion = 
+		{
+			id = 334
+			maxLevel = 3
+			evasion_pct = 25
+		}
+		enchantress_wild_alliance_bonus = 
+		{
+			id = 335
+			maxLevel = 3
+			modifier_name = "modifier_wild_alliance_untouchable"
+			slow = 80
+			chance = 
+			[
+				10,
+				25,
+				40,
+			]
+			precache = 
+			[
+				"particles/units/heroes/hero_enchantress/enchantress_untouchable.vpcf",
+				"particles/status_fx/status_effect_enchantress_untouchable.vpcf",
+			]
+		}
+		magnus_wild_alliance_bonus = 
+		{
+			id = 336
+			maxLevel = 3
+			modifier_name = "modifier_wild_alliance_push"
+			chance = 
+			[
+				10,
+				20,
+				30,
+			]
+			speed = 1000
+			length = 6
+			precache = 
+			[
+				"particles/items_fx/force_staff.vpcf",
+				"particles/status_fx/status_effect_forcestaff.vpcf",
+			]
+		}
+		treant_protector_wild_alliance_bonus = 
+		{
+			id = 337
+			maxLevel = 3
+			modifier_name = "modifier_wild_alliance_inspire"
+			armor = 
+			[
+				2,
+				5,
+				12,
+			]
+			hp_regen = 
+			[
+				5,
+				10,
+				30,
+			]
+			radius = 1
+			precache = 
+			[
+				"particles/gameplay/synergy/scrappy/scrappy_buff_lvl1.vpcf",
+			]
+		}
+		beastmaster_wild_alliance_bonus = 
+		{
+			id = 338
+			maxLevel = 3
+			modifier_name = "modifier_wild_alliance_roar"
+			buff_duration = 4.000000
+			attack_speed = 
+			[
+				10,
+				50,
+				100,
+			]
+			precache = 
+			[
+				"particles/items2_fx/mask_of_madness.vpcf",
+			]
+		}
+		lone_druid_wild_alliance_bonus = 
+		{
+			id = 339
+			maxLevel = 3
+			modifier_name = "modifier_wild_alliance_spirit_link"
+			lifesteal_pct = 
+			[
+				5,
+				20,
+				50,
+			]
+			radius = 1
+			precache = 
+			[
+				"particles/gameplay/synergy/warlock/warlock_link.vpcf",
+			]
+		}
+		wild_alliance_wrath_of_nature = 
+		{
+			id = 340
+			disabled = true
+			hide_if_disabled = true
+			Note = "All these values are displayed via natures_prophet_wild_alliance_bonus. You need to keep these in sync with the ones there."
+			Note2 = "These values *do* show up during battle on the creature though!"
+			cooldown = 15
+			manaCost = 100
+			jump_range = 8
+			jumps = 
+			[
+				3,
+				4,
+				5,
+			]
+			animationlength = 1.670000
+			damage = 
+			[
+				100,
+				225,
+				400,
+			]
+			increase_pct = 15
+			delay = 0.200000
+			damageType = "#DAC_InGame_DamageType_Magical"
+			precache = 
+			[
+				"particles/units/heroes/hero_furion/furion_wrath_of_nature.vpcf",
+			]
+		}
+		natures_prophet_wild_alliance_bonus = 
+		{
+			id = 341
+			wrath_id = 340
+			modifier_name = "modifier_wild_alliance_wrath"
+			Note = "All these values are FOR DISPLAY ONLY. You need to keep these in sync with the ones in wild_alliance_wrath_of_nature."
+			cooldown = 15
+			jump_range = 8
+			jumps = 
+			[
+				3,
+				4,
+				5,
+			]
+			damage = 
+			[
+				100,
+				225,
+				400,
+			]
+			increase_pct = 15
+			damageType = "#DAC_InGame_DamageType_Magical"
+		}
+		wild_alliance_splash_attack = 
+		{
+			id = 342
+			splash_radius = 1
+			splash_damage_percent = 50
+		}
+		tiny_3star = 
+		{
+			id = 167
+			maxLevel = 3
+			three_star = true
+			bonus_damage = 75
+			bonus_armor = 5
+			aspd_loss = 10
+			max_stacks = 5
 		}
 	}
 }

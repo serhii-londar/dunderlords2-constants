@@ -378,7 +378,7 @@
 			aiPrefAttackSpeed = true
 			displayName = "#dac_item_stonehall_pike"
 			description = "#dac_item_stonehall_pike_desc"
-			damage_per_kill = 3
+			damage_per_kill_kill_mult = 3
 			max_damage = 120
 			attack_damage = 10
 			offensive_damage_per_kill = 1
@@ -394,7 +394,7 @@
 			type = "equipment_defensive"
 			displayName = "#dac_item_stonehall_cloak"
 			description = "#dac_item_stonehall_cloak_desc"
-			hp_per_kill = 50
+			hp_per_kill_kill_mult = 50
 			defensive_hp_per_kill = 50
 			offensive_dmg_each_kill = 25
 			support_kill_threshold = 70
@@ -445,6 +445,7 @@
 			precache = 
 			[
 				"particles/items2_fx/orb_of_venom.vpcf",
+				"particles/underlords/enno/enno_poison_stack.vpcf",
 			]
 			icon = "orb_of_venom"
 		}
@@ -1545,6 +1546,190 @@
 			crit_bonus_vs_neutrals = 200
 			icon = "quelling_blade"
 		}
+		headdress_rot1 = 
+		{
+			content_enable_group = "rotation"
+			id = 10200
+			tier = 1
+			type = "equipment_defensive"
+			aiAura = true
+			displayName = "#dac_item_headdress_rot1"
+			description = "#dac_item_headdress_rot1_desc"
+			health_regen = 20
+			row_radius = 1
+			icon = "headdress"
+		}
+		hood_of_defiance_rot1 = 
+		{
+			content_enable_group = "rotation"
+			id = 10201
+			tier = 1
+			type = "equipment_defensive"
+			displayName = "#dac_item_hood_of_defiance_rot1"
+			description = "#dac_item_hood_of_defiance_rot1_desc"
+			bonus_magical_resistance = 30
+			row_radius = 1
+			icon = "hood"
+		}
+		vitality_booster_rot1 = 
+		{
+			content_enable_group = "rotation"
+			id = 10202
+			tier = 1
+			type = "equipment_defensive"
+			displayName = "#dac_item_vitality_booster_rot1"
+			description = "#dac_item_vitality_booster_rot1_desc"
+			health_bonus = 250
+			row_radius = 1
+			icon = "vitality_booster"
+		}
+		paladin_sword = 
+		{
+			content_enable_group = "rotation"
+			id = 10203
+			tier = 2
+			type = "equipment_offensive"
+			aiPrefAttackSpeed = true
+			displayName = "#dac_item_paladin_sword"
+			description = "#dac_item_paladin_sword_desc"
+			attack_damage = 25
+			healing_amplify_pct = 20
+			icon = "paladin_sword"
+		}
+		poisoner_hat = 
+		{
+			content_enable_group = "rotation"
+			id = 10204
+			tier = 2
+			type = "equipment_hat"
+			aiSkip = true
+			aiTierOffset = -10
+			add_synergy_on_equip = "Poisoner"
+			synergy_priority = 1
+			displayName = "#dac_item_poisoner_hat"
+			description = "#dac_item_poisoner_hat_desc"
+			icon = "orb_of_venom"
+			stealable = false
+		}
+		barricade_rot1 = 
+		{
+			id = 10205
+			tier = 2
+			max_allowed = 1
+			type = "placeable"
+			displayName = "#dac_item_barricade_rot1"
+			description = "#dac_item_barricade_rot1_desc"
+			icon = "build_barricade"
+			unitName = "barricade_rot1"
+			unitCount = 2
+		}
+		heavens_halberd = 
+		{
+			content_enable_group = "rotation"
+			id = 10206
+			tier = 2
+			type = "equipment_support"
+			displayName = "#dac_item_heavens_halberd"
+			description = "#dac_item_heavens_halberd_desc"
+			cooldown = 10.000000
+			evasion_pct = 25
+			disarm_duration = 3.000000
+			precache = 
+			[
+				"particles/items2_fx/heavens_halberd.vpcf",
+			]
+			icon = "heavens_halberd"
+		}
+		necronomicon = 
+		{
+			content_enable_group = "rotation"
+			id = 10207
+			tier = 3
+			type = "equipment_support"
+			displayName = "#dac_item_necronomicon"
+			description = "#dac_item_necronomicon_desc"
+			max_units = 2
+			summon_unit_id = 142
+			precache = 
+			[
+				"particles/underlords/anessix/anessix_summon_demon_talent.vpcf",
+			]
+			icon = "necronomicon"
+		}
+		swordsman_hat = 
+		{
+			content_enable_group = "rotation"
+			id = 10208
+			tier = 3
+			type = "equipment_hat"
+			aiSkip = true
+			aiTierOffset = -10
+			add_synergy_on_equip = "Swordsman"
+			synergy_priority = 1
+			displayName = "#dac_item_swordsman_hat"
+			description = "#dac_item_swordsman_hat_desc"
+			icon = "pirate_hat"
+			stealable = false
+		}
+		craggy_coat = 
+		{
+			content_enable_group = "rotation"
+			id = 10209
+			tier = 3
+			type = "equipment_defensive"
+			displayName = "#dac_item_craggy_coat"
+			description = "#dac_item_craggy_coat_desc"
+			bonus_armor = 15
+			attack_speed = -30
+			icon = "craggy_coat"
+		}
+		witless_shako = 
+		{
+			content_enable_group = "rotation"
+			id = 10210
+			tier = 3
+			type = "equipment_defensive"
+			displayName = "#dac_item_witless_shako"
+			description = "#dac_item_witless_shako_desc"
+			health_bonus = 1000
+			mana_gain_pct_decrease = 50
+			icon = "witless_shako"
+		}
+		maelstrom_rot1 = 
+		{
+			content_enable_group = "rotation"
+			id = 10211
+			tier = 4
+			type = "equipment_offensive"
+			aiPrefAttackSpeed = true
+			displayName = "#dac_item_maelstrom_rot1"
+			description = "#dac_item_maelstrom_rot1_desc"
+			bolt_chance_percentage = 25
+			bolt_damage = 125
+			bolt_targets = 4
+			bolt_search_radius = 3
+			chain_delay_time = 0.250000
+			chain_cooldown = 0.600000
+			max_bounces_per_unit = 1
+			summon_damage_increase = 50
+			precache = 
+			[
+				"particles/items_fx/chain_lightning.vpcf",
+			]
+			icon = "maelstrom"
+		}
+		monkey_king_bar = 
+		{
+			content_enable_group = "rotation"
+			id = 10212
+			tier = 4
+			type = "equipment_offensive"
+			aiPrefAttackSpeed = true
+			displayName = "#dac_item_monkey_king_bar"
+			description = "#dac_item_monkey_king_bar_desc"
+			attack_damage = 90
+			icon = "monkey_king_bar"
+		}
 	}
 	set_balance = 
 	{
@@ -1580,7 +1765,7 @@
 			requires_ability = true
 			mana_per_second = 
 			[
-				10,
+				7,
 				11,
 				12,
 				13,
@@ -1613,6 +1798,7 @@
 			defensive_health_bonus = 600
 			support_extra_lives = 5
 			icon = "vitality_booster"
+			content_enable_group = "rotation"
 		}
 		chainmail_new = 
 		{
@@ -1681,6 +1867,7 @@
 			offensive_explosion_aoe = 1
 			max_damage = 1000
 			icon = "headdress"
+			content_enable_group = "rotation"
 		}
 		mask_of_death = 
 		{
@@ -1731,6 +1918,7 @@
 			offensive_magicres_debuff = 25
 			offensive_aura_aoe = 1
 			icon = "hood"
+			content_enable_group = "rotation"
 		}
 		kaya = 
 		{
@@ -1807,6 +1995,7 @@
 				"particles/gameplay/gold/gold_gain.vpcf",
 			]
 			icon = "hand_of_midas"
+			content_enable_group = "rotation"
 		}
 		vanguard_new = 
 		{
@@ -1853,6 +2042,7 @@
 			offensive_bonus_damage_multiplier = 300
 			support_bonus_damage = 40
 			icon = "crystalis"
+			content_enable_group = "rotation"
 		}
 		desolator = 
 		{
@@ -1925,7 +2115,7 @@
 			aiPrefAttackSpeed = true
 			displayName = "#dac_item_stonehall_pike"
 			description = "#dac_item_stonehall_pike_desc"
-			damage_per_kill = 3
+			damage_per_kill_kill_mult = 3
 			max_damage = 120
 			attack_damage = 10
 			offensive_damage_per_kill = 1
@@ -1941,7 +2131,7 @@
 			type = "equipment_defensive"
 			displayName = "#dac_item_stonehall_cloak"
 			description = "#dac_item_stonehall_cloak_desc"
-			hp_per_kill = 50
+			hp_per_kill_kill_mult = 50
 			defensive_hp_per_kill = 50
 			offensive_dmg_each_kill = 25
 			support_kill_threshold = 70
@@ -1992,8 +2182,10 @@
 			precache = 
 			[
 				"particles/items2_fx/orb_of_venom.vpcf",
+				"particles/underlords/enno/enno_poison_stack.vpcf",
 			]
 			icon = "orb_of_venom"
+			content_enable_group = "rotation"
 		}
 		force_staff_new = 
 		{
@@ -2024,6 +2216,7 @@
 				"particles/status_fx/status_effect_forcestaff.vpcf",
 			]
 			icon = "force_staff"
+			content_enable_group = "rotation"
 		}
 		maelstrom_new = 
 		{
@@ -2057,6 +2250,7 @@
 				"particles/items_fx/chain_lightning.vpcf",
 			]
 			icon = "maelstrom"
+			content_enable_group = "rotation"
 		}
 		mask_of_madness_new = 
 		{
@@ -2124,14 +2318,14 @@
 		blade_mail_new = 
 		{
 			id = 10124
-			tier = 3
+			tier = 2
 			type = "equipment_defensive"
 			displayName = "#dac_item_blade_mail"
 			description = "#dac_item_blade_mail_desc"
 			bonus_armor = 5
 			damage_taken_reflect_percentage = 
 			[
-				30,
+				20,
 				35,
 				40,
 				45,
@@ -2180,7 +2374,7 @@
 			eul_duration = 2.500000
 			mana_per_second = 
 			[
-				5,
+				10,
 				6,
 				7,
 				8,
@@ -2525,6 +2719,7 @@
 			]
 			stealable = false
 			icon = "aegis"
+			content_enable_group = "rotation"
 		}
 		healing_ward_new = 
 		{
@@ -2550,6 +2745,7 @@
 			unitName = "barricade_new"
 			unitCount = 3
 			supportUnitCount = 1
+			content_enable_group = "rotation"
 		}
 		tombstone_new = 
 		{
@@ -2561,6 +2757,7 @@
 			description = "#dac_item_tombstone_desc"
 			icon = "build_undying_tower"
 			unitName = "tombstone_new"
+			content_enable_group = "rotation"
 		}
 		target_dummy_new = 
 		{
@@ -2591,7 +2788,7 @@
 				70,
 				75,
 			]
-			cleave_damage_pct = 35
+			cleave_damage_pct = 50
 			melee_only = true
 			offensive_attack_damage = 70
 			defensive_health_regen = 50
@@ -2828,10 +3025,10 @@
 			description = "#dac_item_pipe_of_insight_desc"
 			bonus_magical_resistance = 50
 			cooldown = 65
-			barrier_radius = 1
+			barrier_radius = 2
 			barrier_amount = 
 			[
-				225,
+				250,
 				250,
 				270,
 				285,
@@ -2884,7 +3081,7 @@
 		vladmirs_offering = 
 		{
 			id = 10140
-			tier = 4
+			tier = 5
 			type = "equipment_support"
 			aiAura = true
 			displayName = "#dac_item_vladmirs_offering"
@@ -2923,6 +3120,7 @@
 			description = "#dac_item_big_time_contract_desc"
 			icon = "big_time_contract"
 			stealable = false
+			content_enable_group = "rotation"
 		}
 		hunting_hat = 
 		{
@@ -2989,6 +3187,7 @@
 			description = "#dac_item_dwarf_hat_desc"
 			icon = "dwarf_hat"
 			stealable = false
+			content_enable_group = "rotation"
 		}
 		dragon_lance = 
 		{
@@ -2999,7 +3198,7 @@
 			ranged_only = true
 			attack_damage = 
 			[
-				20,
+				35,
 				25,
 				30,
 				33,
@@ -3019,7 +3218,7 @@
 			aiPrefAttackDPS = true
 			max_health_percent_as_damage = 
 			[
-				7,
+				9,
 				8,
 				8,
 				8,
@@ -3091,6 +3290,191 @@
 			]
 			crit_bonus_vs_neutrals = 200
 			icon = "quelling_blade"
+		}
+		headdress_rot1 = 
+		{
+			content_enable_group = null
+			id = 10200
+			tier = 1
+			type = "equipment_defensive"
+			aiAura = true
+			displayName = "#dac_item_headdress_rot1"
+			description = "#dac_item_headdress_rot1_desc"
+			health_regen = 20
+			row_radius = 1
+			icon = "headdress"
+		}
+		hood_of_defiance_rot1 = 
+		{
+			content_enable_group = null
+			id = 10201
+			tier = 1
+			type = "equipment_defensive"
+			displayName = "#dac_item_hood_of_defiance_rot1"
+			description = "#dac_item_hood_of_defiance_rot1_desc"
+			bonus_magical_resistance = 30
+			row_radius = 1
+			icon = "hood"
+		}
+		vitality_booster_rot1 = 
+		{
+			content_enable_group = null
+			id = 10202
+			tier = 1
+			type = "equipment_defensive"
+			displayName = "#dac_item_vitality_booster_rot1"
+			description = "#dac_item_vitality_booster_rot1_desc"
+			health_bonus = 250
+			row_radius = 1
+			icon = "vitality_booster"
+		}
+		paladin_sword = 
+		{
+			content_enable_group = null
+			id = 10203
+			tier = 2
+			type = "equipment_offensive"
+			aiPrefAttackSpeed = true
+			displayName = "#dac_item_paladin_sword"
+			description = "#dac_item_paladin_sword_desc"
+			attack_damage = 25
+			healing_amplify_pct = 20
+			icon = "paladin_sword"
+		}
+		poisoner_hat = 
+		{
+			content_enable_group = "rotation"
+			id = 10204
+			tier = 2
+			type = "equipment_hat"
+			aiSkip = true
+			aiTierOffset = -10
+			add_synergy_on_equip = "Poisoner"
+			synergy_priority = 1
+			displayName = "#dac_item_poisoner_hat"
+			description = "#dac_item_poisoner_hat_desc"
+			icon = "orb_of_venom"
+			stealable = false
+		}
+		barricade_rot1 = 
+		{
+			id = 10205
+			tier = 2
+			max_allowed = 1
+			type = "placeable"
+			displayName = "#dac_item_barricade_rot1"
+			description = "#dac_item_barricade_rot1_desc"
+			icon = "build_barricade"
+			unitName = "barricade_rot1"
+			unitCount = 2
+			content_enable_group = null
+		}
+		heavens_halberd = 
+		{
+			content_enable_group = null
+			id = 10206
+			tier = 2
+			type = "equipment_support"
+			displayName = "#dac_item_heavens_halberd"
+			description = "#dac_item_heavens_halberd_desc"
+			cooldown = 10.000000
+			evasion_pct = 25
+			disarm_duration = 3.000000
+			precache = 
+			[
+				"particles/items2_fx/heavens_halberd.vpcf",
+			]
+			icon = "heavens_halberd"
+		}
+		necronomicon = 
+		{
+			content_enable_group = null
+			id = 10207
+			tier = 3
+			type = "equipment_support"
+			displayName = "#dac_item_necronomicon"
+			description = "#dac_item_necronomicon_desc"
+			max_units = 2
+			summon_unit_id = 142
+			precache = 
+			[
+				"particles/underlords/anessix/anessix_summon_demon_talent.vpcf",
+			]
+			icon = "necronomicon"
+		}
+		swordsman_hat = 
+		{
+			content_enable_group = null
+			id = 10208
+			tier = 3
+			type = "equipment_hat"
+			aiSkip = true
+			aiTierOffset = -10
+			add_synergy_on_equip = "Swordsman"
+			synergy_priority = 1
+			displayName = "#dac_item_swordsman_hat"
+			description = "#dac_item_swordsman_hat_desc"
+			icon = "pirate_hat"
+			stealable = false
+		}
+		craggy_coat = 
+		{
+			content_enable_group = null
+			id = 10209
+			tier = 3
+			type = "equipment_defensive"
+			displayName = "#dac_item_craggy_coat"
+			description = "#dac_item_craggy_coat_desc"
+			bonus_armor = 15
+			attack_speed = -30
+			icon = "craggy_coat"
+		}
+		witless_shako = 
+		{
+			content_enable_group = null
+			id = 10210
+			tier = 3
+			type = "equipment_defensive"
+			displayName = "#dac_item_witless_shako"
+			description = "#dac_item_witless_shako_desc"
+			health_bonus = 1000
+			mana_gain_pct_decrease = 50
+			icon = "witless_shako"
+		}
+		maelstrom_rot1 = 
+		{
+			content_enable_group = null
+			id = 10211
+			tier = 4
+			type = "equipment_offensive"
+			aiPrefAttackSpeed = true
+			displayName = "#dac_item_maelstrom_rot1"
+			description = "#dac_item_maelstrom_rot1_desc"
+			bolt_chance_percentage = 25
+			bolt_damage = 125
+			bolt_targets = 4
+			bolt_search_radius = 3
+			chain_delay_time = 0.250000
+			chain_cooldown = 0.600000
+			max_bounces_per_unit = 1
+			summon_damage_increase = 50
+			precache = 
+			[
+				"particles/items_fx/chain_lightning.vpcf",
+			]
+			icon = "maelstrom"
+		}
+		monkey_king_bar = 
+		{
+			content_enable_group = null
+			id = 10212
+			tier = 4
+			type = "equipment_offensive"
+			aiPrefAttackSpeed = true
+			displayName = "#dac_item_monkey_king_bar"
+			description = "#dac_item_monkey_king_bar_desc"
+			attack_damage = 90
+			icon = "monkey_king_bar"
 		}
 	}
 }

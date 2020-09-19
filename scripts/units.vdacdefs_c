@@ -101,7 +101,6 @@
 		}
 		antimage = 
 		{
-			content_enable_group = "rotation"
 			abilities = 
 			[
 				"antimage_mana_break",
@@ -126,8 +125,8 @@
 			]
 			displayName = "#dac_hero_name_antimage"
 			dota_unit_name = "npc_dota_hero_antimage"
-			draftTier = 1
-			goldCost = 1
+			draftTier = 0
+			goldCost = 0
 			health = 
 			[
 				750,
@@ -141,7 +140,7 @@
 				"#dac_hero_hint_teleport_movement",
 				"#dac_hero_hint_mana_break",
 			]
-			keywords = "elf assassin"
+			keywords = "human assassin"
 			magicResist = 
 			[
 				30,
@@ -156,6 +155,7 @@
 			movespeed = 310
 			healthBarOffset = -30
 			aiPassiveAbility = true
+			prevent_mana_items = 1
 			precache = 
 			[
 				"particles/items/blink_dagger/blink_dagger_start.vpcf",
@@ -670,7 +670,7 @@
 			]
 			keywords = "human dragon knight"
 			magicResist = 0
-			maxmana = 100
+			maxmana = 50
 			model = "models/heroes/dragon_knight/dragon_knight.vmdl"
 			model_scale = 0.650000
 			texturename = "dragon_knight"
@@ -730,6 +730,7 @@
 			projectile_speed = 900
 			healthBarOffset = -15
 			aiPassiveAbility = true
+			prevent_mana_items = 1
 			aiAura = true
 		}
 		enchantress = 
@@ -1297,6 +1298,7 @@
 			movespeed = 325
 			healthBarOffset = -60
 			aiPassiveAbility = true
+			prevent_mana_items = 1
 		}
 		lycan = 
 		{
@@ -1657,6 +1659,7 @@
 			]
 			healthBarOffset = -50
 			aiPassiveAbility = true
+			prevent_mana_items = 1
 		}
 		puck = 
 		{
@@ -2085,6 +2088,7 @@
 			movespeed = 300
 			healthBarOffset = -20
 			aiPassiveAbility = true
+			prevent_mana_items = 1
 		}
 		sniper = 
 		{
@@ -2622,6 +2626,7 @@
 			movespeed = 290
 			healthBarOffset = -30
 			aiPassiveAbility = true
+			prevent_mana_items = 1
 		}
 		tusk = 
 		{
@@ -2725,10 +2730,6 @@
 		}
 		viper = 
 		{
-			abilities = 
-			[
-				"viper_nethertoxin",
-			]
 			extra_abilities = 
 			[
 				"viper_corrosive_skin",
@@ -3033,6 +3034,7 @@
 			]
 			healthBarOffset = 20
 			aiPassiveAbility = true
+			prevent_mana_items = 1
 		}
 		arc_warden = 
 		{
@@ -3215,7 +3217,6 @@
 			hintWords = 
 			[
 			]
-			keywords = "druid"
 			displayName = "#dac_name_natures_prophet_tree"
 			dota_unit_name = "natures_prophet_tree"
 			draftTier = 0
@@ -3244,7 +3245,7 @@
 			hintWords = 
 			[
 			]
-			keywords = "savage druid"
+			keywords = "savage"
 			armor = 10
 			attackAnimationPoint = 0.300000
 			attackRange = 1
@@ -5420,6 +5421,7 @@
 			movespeed = 300
 			healthBarOffset = -50
 			aiPassiveAbility = true
+			prevent_mana_items = 1
 		}
 		barricade_new = 
 		{
@@ -6340,6 +6342,641 @@
 			magicResist = 0
 			armor = 0
 		}
+		death_prophet = 
+		{
+			content_enable_group = "rotation"
+			abilities = 
+			[
+				"death_prophet_exorcism",
+			]
+			armor = 5
+			attackAnimationPoint = 0.560000
+			attackRange = 3
+			attackRate = 1.250000
+			damageMin = 
+			[
+				50,
+				100,
+				200,
+			]
+			damageMax = 
+			[
+				60,
+				120,
+				240,
+			]
+			displayName = "#dac_hero_name_death_prophet"
+			dota_unit_name = "npc_dota_hero_death_prophet"
+			draftTier = 0
+			goldCost = 0
+			health = 
+			[
+				1250,
+				2500,
+				5000,
+			]
+			id = 130
+			hintWords = 
+			[
+				"#dac_hero_hint_ranged",
+				"#dac_hero_hint_aoe_damage",
+			]
+			keywords = "undead warlock"
+			magicResist = 0
+			maxmana = 100
+			model = "models/heroes/death_prophet/death_prophet.vmdl"
+			model_scale = 0.600000
+			texturename = "death_prophet"
+			soundSet = "Hero_DeathProphet"
+			projectile_speed = 1000
+			projectile_model = "particles/units/heroes/hero_death_prophet/death_prophet_base_attack.vpcf"
+			movespeed = 300
+			healthBarOffset = -10
+		}
+		vengefulspirit = 
+		{
+			content_enable_group = "rotation"
+			abilities = 
+			[
+				"vengefulspirit_wave_of_terror",
+				"vengefulspirit_3star",
+			]
+			armor = 5
+			attackAnimationPoint = 0.330000
+			attackRange = 2
+			attackRate = 1.300000
+			damageMin = 
+			[
+				45,
+				90,
+				180,
+			]
+			damageMax = 
+			[
+				55,
+				110,
+				220,
+			]
+			displayName = "#dac_hero_name_vengefulspirit"
+			dota_unit_name = "npc_dota_hero_vengefulspirit"
+			draftTier = 1
+			goldCost = 1
+			health = 
+			[
+				850,
+				1700,
+				3400,
+			]
+			id = 131
+			hintWords = 
+			[
+				"#dac_hero_hint_ranged",
+			]
+			keywords = "undead fallen"
+			magicResist = 0
+			maxmana = 60
+			model = "models/heroes/vengeful/vengeful.vmdl"
+			model_scale = 0.750000
+			texturename = "vengefulspirit"
+			soundSet = "Hero_VengefulSpirit"
+			projectile_model = "particles/units/heroes/hero_vengeful/vengeful_base_attack.vpcf"
+			projectile_speed = 1500
+			movespeed = 300
+			healthBarOffset = 20
+		}
+		meepo = 
+		{
+			content_enable_group = "rotation"
+			abilities = 
+			[
+				"meepo_poof",
+				"meepo_divided_we_stand",
+				"meepo_3star",
+			]
+			armor = 5
+			attackAnimationPoint = 0.380000
+			attackRange = 1
+			attackRate = 1.100000
+			damageMin = 
+			[
+				50,
+				100,
+				200,
+			]
+			damageMax = 
+			[
+				60,
+				120,
+				240,
+			]
+			displayName = "#dac_hero_name_meepo"
+			dota_unit_name = "npc_dota_hero_meepo"
+			draftTier = 2
+			goldCost = 2
+			health = 
+			[
+				1100,
+				2200,
+				4400,
+			]
+			id = 132
+			hintWords = 
+			[
+				"#dac_hero_hint_melee",
+			]
+			keywords = "rogue summoner"
+			magicResist = 0
+			maxmana = 75
+			model = "models/heroes/meepo/meepo.vmdl"
+			model_scale = 
+			[
+				0.650000,
+				0.700000,
+				0.750000,
+			]
+			soundSet = "Hero_Meepo"
+			texturename = "meepo"
+			movespeed = 310
+			healthBarOffset = 20
+		}
+		spirit_breaker = 
+		{
+			content_enable_group = "rotation"
+			abilities = 
+			[
+				"spirit_breaker_charge_of_darkness",
+				"spirit_breaker_3star",
+			]
+			armor = 5
+			attackAnimationPoint = 0.600000
+			attackRange = 1
+			attackRate = 1.500000
+			damageMin = 
+			[
+				55,
+				110,
+				220,
+			]
+			damageMax = 
+			[
+				70,
+				140,
+				280,
+			]
+			displayName = "#dac_hero_name_spirit_breaker"
+			dota_unit_name = "npc_dota_hero_spirit_breaker"
+			draftTier = 2
+			goldCost = 2
+			health = 
+			[
+				1200,
+				2400,
+				4800,
+			]
+			id = 133
+			hintWords = 
+			[
+				"#dac_hero_hint_melee",
+				"#dac_hero_hint_tanky",
+			]
+			keywords = "savage brutal"
+			magicResist = 0
+			maxmana = 100
+			model = "models/heroes/spirit_breaker/spirit_breaker.vmdl"
+			model_scale = 0.650000
+			soundSet = "Hero_Spirit_Breaker"
+			texturename = "spirit_breaker"
+			movespeed = 330
+			healthBarOffset = 20
+		}
+		spectre = 
+		{
+			content_enable_group = "rotation"
+			abilities = 
+			[
+				"spectre_spectral_dagger",
+				"spectre_3star",
+			]
+			armor = 5
+			attackAnimationPoint = 0.330000
+			attackRange = 1
+			attackRate = 0.900000
+			damageMin = 
+			[
+				55,
+				110,
+				264,
+			]
+			damageMax = 
+			[
+				65,
+				130,
+				312,
+			]
+			displayName = "#dac_hero_name_spectre"
+			dota_unit_name = "npc_dota_hero_spectre"
+			draftTier = 3
+			goldCost = 3
+			health = 
+			[
+				950,
+				1900,
+				4560,
+			]
+			id = 134
+			hintWords = 
+			[
+				"#dac_hero_hint_melee",
+				"#dac_hero_hint_tanky",
+				"#dac_hero_hint_aoe_ministun",
+			]
+			keywords = "goblin inventor"
+			magicResist = 0
+			maxmana = 70
+			model = "models/heroes/spectre/spectre.vmdl"
+			model_scale = 0.750000
+			soundSet = "Hero_Spectre"
+			texturename = "spectre"
+			movespeed = 310
+			healthBarOffset = 20
+		}
+		pangolier = 
+		{
+			content_enable_group = "rotation"
+			abilities = 
+			[
+				"pangolier_shield_crash",
+			]
+			armor = 10
+			attackAnimationPoint = 0.330000
+			attackRange = 1
+			attackRate = 1.100000
+			damageMin = 
+			[
+				60,
+				120,
+				240,
+			]
+			damageMax = 
+			[
+				70,
+				140,
+				280,
+			]
+			displayName = "#dac_hero_name_pangolier"
+			dota_unit_name = "npc_dota_hero_pangolier"
+			draftTier = 4
+			goldCost = 4
+			health = 
+			[
+				1400,
+				2800,
+				5600,
+			]
+			id = 135
+			hintWords = 
+			[
+				"#dac_hero_hint_melee",
+				"#dac_hero_hint_tanky",
+			]
+			keywords = "savage swordsman"
+			magicResist = 10
+			maxmana = 70
+			model = "models/heroes/pangolier/pangolier.vmdl"
+			model_scale = 0.625000
+			soundSet = "Hero_Pangolier"
+			texturename = "pangolier"
+			movespeed = 330
+			healthBarOffset = 20
+		}
+		rubick = 
+		{
+			content_enable_group = "rotation"
+			abilities = 
+			[
+				"rubick_fade_bolt",
+				"rubick_spell_steal",
+			]
+			armor = 5
+			attackAnimationPoint = 0.400000
+			attackRange = 2
+			attackRate = 1.300000
+			damageMin = 
+			[
+				50,
+				100,
+				200,
+			]
+			damageMax = 
+			[
+				60,
+				120,
+				240,
+			]
+			displayName = "#dac_hero_name_rubick"
+			dota_unit_name = "npc_dota_hero_rubick"
+			draftTier = 4
+			goldCost = 4
+			health = 
+			[
+				1300,
+				2600,
+				5200,
+			]
+			id = 136
+			hintWords = 
+			[
+				"#dac_hero_hint_ranged",
+			]
+			keywords = "mage magus"
+			magicResist = 20
+			maxmana = 100
+			model = "models/heroes/rubick/rubick.vmdl"
+			model_scale = 
+			[
+				0.550000,
+				0.600000,
+				0.650000,
+			]
+			texturename = "rubick"
+			soundSet = "Hero_Rubick"
+			projectile_model = "particles/units/heroes/hero_rubick/rubick_base_attack.vpcf"
+			projectile_speed = 1125
+			movespeed = 310
+			healthBarOffset = 20
+		}
+		wraith_king = 
+		{
+			content_enable_group = "rotation"
+			abilities = 
+			[
+				"wraith_king_wraithfire_blast",
+				"wraith_king_raise_dead",
+			]
+			armor = 10
+			attackAnimationPoint = 0.560000
+			attackRange = 1
+			attackRate = 1.300000
+			damageMin = 
+			[
+				90,
+				180,
+				360,
+			]
+			damageMax = 
+			[
+				110,
+				220,
+				440,
+			]
+			displayName = "#dac_hero_name_wraith_king"
+			dota_unit_name = "npc_dota_hero_skeleton_king"
+			draftTier = 5
+			goldCost = 5
+			health = 
+			[
+				2000,
+				4000,
+				8000,
+			]
+			id = 137
+			hintWords = 
+			[
+				"#dac_hero_hint_melee",
+				"#dac_hero_hint_tanky",
+			]
+			keywords = "fallen swordsman"
+			magicResist = 10
+			maxmana = 75
+			model = "models/heroes/wraith_king/wraith_king.vmdl"
+			model_scale = 0.650000
+			soundSet = "Hero_WraithKing"
+			texturename = "skeleton_king"
+			movespeed = 310
+			healthBarOffset = 20
+		}
+		wild_alliance_wolf_small = 
+		{
+			abilities = 
+			[
+				"wild_alliance_crit",
+				"wild_alliance_wrath_of_nature",
+			]
+			displayName = "#dac_unit_neutral_wolf_small"
+			dota_unit_name = "npc_dota_neutral_giant_wolf"
+			baseclass = "dac_npc_assassin"
+			assassin_modifier = "assassin_modifier_wolfleap"
+			id = 138
+			globalMeterEntity = 4
+			draftTier = 0
+			neutral_creep = true
+			powerLevel = 3
+			hintWords = 
+			[
+			]
+			model = "models/creeps/neutral_creeps/n_creep_worg_small/n_creep_worg_small.vmdl"
+			attackAnimationPoint = 0.300000
+			model_scale = 1.050000
+			health = 1200
+			maxmana = 100
+			damageMin = 60
+			damageMax = 100
+			attackRate = 1
+			attackRange = 1
+			movespeed = 330
+			magicResist = 0
+			armor = 5
+		}
+		wild_alliance_wildwing = 
+		{
+			abilities = 
+			[
+				"wild_alliance_evasion",
+				"wild_alliance_wrath_of_nature",
+			]
+			displayName = "#dac_unit_neutral_vulture_b"
+			dota_unit_name = "npc_dota_neutral_wildkin"
+			id = 139
+			globalMeterEntity = 4
+			draftTier = 0
+			neutral_creep = true
+			hintWords = 
+			[
+			]
+			powerLevel = 6
+			model = "models/creeps/neutral_creeps/n_creep_vulture_b/n_creep_vulture_b.vmdl"
+			attackAnimationPoint = 0.300000
+			model_scale = 1.250000
+			health = 2000
+			maxmana = 100
+			damageMin = 100
+			damageMax = 160
+			attackRate = 1
+			attackRange = 3
+			movespeed = 300
+			magicResist = 0
+			armor = 5
+			projectile_model = "particles/units/creeps/vultures/vulture_tornado.vpcf"
+			projectile_speed = 320
+		}
+		wild_alliance_thunderhide = 
+		{
+			abilities = 
+			[
+				"wild_alliance_wrath_of_nature",
+			]
+			displayName = "#dac_unit_neutral_thunder_lizard_small"
+			dota_unit_name = "npc_dota_neutral_small_thunder_lizard"
+			id = 140
+			globalMeterEntity = 4
+			draftTier = 0
+			model = "models/creeps/neutral_creeps/n_creep_thunder_lizard/n_creep_thunder_lizard_big.vmdl"
+			attackAnimationPoint = 0.500000
+			health = 4000
+			damageMin = 200
+			damageMax = 275
+			attackRate = 1.000000
+			attackRange = 4
+			movespeed = 270
+			maxmana = 100
+			magicResist = 20
+			armor = 10
+			model_scale = 0.600000
+			healthBarOffset = -45
+			projectile_model = "particles/neutral_fx/thunderlizard_base_attack.vpcf"
+			soundSet = "Creep_Thunderhide"
+			projectile_speed = 1500
+			precache = 
+			[
+				"particles/neutral_fx/thunderlizard_base_attack.vpcf",
+			]
+		}
+		wild_alliance_black_dragon = 
+		{
+			displayName = "#dac_unit_neutral_black_dragon"
+			dota_unit_name = "npc_dota_neutral_black_dragon"
+			id = 141
+			globalMeterEntity = 4
+			draftTier = 0
+			hintWords = 
+			[
+			]
+			abilities = 
+			[
+				"wild_alliance_splash_attack",
+				"wild_alliance_wrath_of_nature",
+			]
+			model = "models/creeps/neutral_creeps/n_creep_black_dragon/n_creep_black_dragon.vmdl"
+			attackAnimationPoint = 0.300000
+			model_scale = 0.850000
+			health = 2600
+			maxmana = 100
+			damageMin = 160
+			damageMax = 220
+			attackRate = 1
+			attackRange = 4
+			movespeed = 300
+			magicResist = 20
+			armor = 10
+			projectile_model = "particles/units/heroes/hero_vengeful/vengeful_magic_missle.vpcf"
+			projectile_speed = 600
+		}
+		necronomicon_warrior = 
+		{
+			abilities = 
+			[
+				"demon_warrior_bash",
+			]
+			attackAnimationPoint = 0.560000
+			attackRange = 1
+			attackRate = 1
+			displayName = "#dac_name_anessix_warrior"
+			dota_unit_name = "dac_name_anessix_warrior"
+			draftTier = 0
+			goldCost = 0
+			id = 142
+			hintWords = 
+			[
+			]
+			magicResist = 0
+			maxmana = 0
+			model = "models/creeps/item_creeps/i_creep_necro_warrior/necro_warrior.vmdl"
+			model_scale = 0.400000
+			movespeed = 350
+			player_dmg_override = 0
+			soundSet = "Underlord_Annesix_melee"
+			damageMin = 75
+			damageMax = 75
+			armor = 5
+			health = 600
+		}
+		barricade_rot1 = 
+		{
+			abilities = 
+			[
+				"barricade_aura_rot1",
+			]
+			armor = 20
+			hintWords = 
+			[
+			]
+			keywords = ""
+			displayName = "#dac_name_barricade"
+			dota_unit_name = "npc_dota_barricade"
+			draftTier = 0
+			goldCost = 0
+			health = 
+			[
+				600,
+				600,
+				600,
+			]
+			model_scale = 1
+			id = 143
+			magicResist = 0
+			model = "models/props_gameplay/barricade/barricade.vmdl"
+			movespeed = 0
+			player_dmg_override = 0
+			disable_attack = 1
+			disable_movement = 1
+			disable_items = 1
+			ignoreForRoundEnd = true
+			isBarricade = true
+			isPlaceable = true
+			aiIsMelee = true
+			death_effect = "particles/items/barricade/barricade_destruction.vpcf"
+		}
+		death_prophet_spirit = 
+		{
+			armor = 0
+			attackAnimationPoint = 0.100000
+			attackRate = 0.400000
+			damageMin = 8
+			damageMax = 10
+			displayName = "#dac_name_death_prophet_exorcism_spirit"
+			dota_unit_name = "dota_death_prophet_exorcism_spirit"
+			draftTier = 0
+			goldCost = 0
+			health = 5
+			id = 144
+			hintWords = 
+			[
+			]
+			keywords = ""
+			magicResist = 0
+			maxmana = 0
+			model = "models/heroes/death_prophet/death_prophet_ghost.vmdl"
+			model_scale = 1.000000
+			movespeed = 420
+			attackRange = 0
+			player_dmg_override = 0
+			disable_attack = 1
+			disable_items = 1
+			ignoreForRoundEnd = true
+			increases_kill_counts = false
+			disable_outline = true
+			death_modifier = "modifier_death_prophet_exorcism_spirit_death"
+		}
 	}
 	set_balance = 
 	{
@@ -6348,6 +6985,7 @@
 			abilities = 
 			[
 				"abaddon_aphotic_shield",
+				"abaddon_3star",
 			]
 			armor = 10
 			attackAnimationPoint = 0.560000
@@ -6373,7 +7011,7 @@
 			[
 				1125,
 				2250,
-				4500,
+				5400,
 			]
 			id = 32
 			hintWords = 
@@ -6381,7 +7019,7 @@
 				"#dac_hero_hint_melee",
 				"#dac_hero_hint_explosive_shield",
 			]
-			keywords = "undead knight"
+			keywords = "fallen knight"
 			magicResist = 0
 			maxmana = 100
 			model = "models/heroes/abaddon/abaddon.vmdl"
@@ -6393,10 +7031,11 @@
 		}
 		alchemist = 
 		{
-			content_enable_group = "rotation"
+			content_enable_group = null
 			abilities = 
 			[
 				"alchemist_acid_spray",
+				"alchemist_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.350000
@@ -6404,25 +7043,25 @@
 			attackRate = 1
 			damageMin = 
 			[
-				50,
-				100,
-				200,
+				40,
+				80,
+				192,
 			]
 			damageMax = 
 			[
-				70,
-				140,
-				280,
+				60,
+				120,
+				288,
 			]
 			displayName = "#dac_hero_name_alchemist"
 			dota_unit_name = "npc_dota_hero_alchemist"
-			draftTier = 4
-			goldCost = 4
+			draftTier = 3
+			goldCost = 3
 			health = 
 			[
-				1500,
-				3000,
-				6000,
+				1300,
+				2600,
+				6240,
 			]
 			id = 46
 			hintWords = 
@@ -6430,7 +7069,7 @@
 				"#dac_hero_hint_melee",
 				"#dac_hero_hint_wide_debuff",
 			]
-			keywords = "goblin warlock"
+			keywords = "brutal rogue poisoner"
 			magicResist = 0
 			maxmana = 100
 			model = "models/heroes/alchemist/alchemist.vmdl"
@@ -6443,13 +7082,13 @@
 		}
 		antimage = 
 		{
-			content_enable_group = "rotation"
 			abilities = 
 			[
 				"antimage_mana_break",
+				"antimage_3star",
 			]
-			baseclass = "dac_npc_assassin"
-			assassin_modifier = "assassin_modifier_anti_mage"
+			baseclass = null
+			assassin_modifier = null
 			armor = 5
 			attackAnimationPoint = 0.300000
 			attackRange = 1
@@ -6473,7 +7112,7 @@
 			health = 
 			[
 				750,
-				1350,
+				1500,
 				3000,
 			]
 			id = 11
@@ -6483,7 +7122,7 @@
 				"#dac_hero_hint_teleport_movement",
 				"#dac_hero_hint_mana_break",
 			]
-			keywords = "elf assassin"
+			keywords = "rogue hunter"
 			magicResist = 
 			[
 				30,
@@ -6498,11 +7137,13 @@
 			movespeed = 310
 			healthBarOffset = -30
 			aiPassiveAbility = true
+			prevent_mana_items = 1
 			precache = 
 			[
 				"particles/items/blink_dagger/blink_dagger_start.vpcf",
 				"particles/items/blink_dagger/blink_dagger_end.vpcf",
 			]
+			content_enable_group = null
 		}
 		axe = 
 		{
@@ -6563,6 +7204,7 @@
 			abilities = 
 			[
 				"batrider_sticky_napalm",
+				"bat_rider_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.300000
@@ -6613,6 +7255,8 @@
 			abilities = 
 			[
 				"beastmaster_wild_axes",
+				"beastmaster_wild_alliance_bonus",
+				"beastmaster_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.300000
@@ -6620,25 +7264,25 @@
 			attackRate = 1.100000
 			damageMin = 
 			[
-				60,
-				120,
-				240,
+				70,
+				140,
+				336,
 			]
 			damageMax = 
 			[
-				70,
-				140,
-				280,
+				80,
+				160,
+				384,
 			]
 			displayName = "#dac_hero_name_beast_master"
 			dota_unit_name = "npc_dota_hero_beastmaster"
-			draftTier = 2
-			goldCost = 2
+			draftTier = 3
+			goldCost = 3
 			health = 
 			[
-				900,
-				1800,
-				3600,
+				1000,
+				2000,
+				4800,
 			]
 			id = 14
 			hintWords = 
@@ -6646,7 +7290,7 @@
 				"#dac_hero_hint_melee",
 				"#dac_hero_hint_cone_damage",
 			]
-			keywords = "brawny hunter"
+			keywords = "brawny hunter wild"
 			magicResist = 0
 			maxmana = 100
 			model = "models/heroes/beastmaster/beastmaster.vmdl"
@@ -6658,10 +7302,11 @@
 		}
 		bounty_hunter = 
 		{
-			content_enable_group = "rotation"
+			content_enable_group = null
 			abilities = 
 			[
 				"bounty_hunter_shuriken_toss",
+				"bounty_hunter_3star",
 			]
 			baseclass = "dac_npc_assassin"
 			assassin_modifier = "assassin_modifier_bounty_hunter"
@@ -6688,7 +7333,7 @@
 			health = 
 			[
 				825,
-				1485,
+				1650,
 				3300,
 			]
 			id = 6
@@ -6697,7 +7342,7 @@
 				"#dac_hero_hint_melee",
 				"#dac_hero_hint_teleport_movement",
 			]
-			keywords = "goblin assassin"
+			keywords = "rogue assassin"
 			magicResist = 0
 			maxmana = 100
 			model = "models/heroes/bounty_hunter/bounty_hunter.vmdl"
@@ -6727,13 +7372,13 @@
 			[
 				55,
 				110,
-				200,
+				220,
 			]
 			damageMax = 
 			[
 				130,
-				240,
-				480,
+				260,
+				520,
 			]
 			displayName = "#dac_hero_name_chaos_knight"
 			dota_unit_name = "npc_dota_hero_chaos_knight"
@@ -6821,6 +7466,7 @@
 			abilities = 
 			[
 				"crystal_maiden_frostbite",
+				"crystal_maiden_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.550000
@@ -6895,7 +7541,7 @@
 			]
 			displayName = "#dac_hero_name_disruptor"
 			dota_unit_name = "npc_dota_hero_disruptor"
-			draftTier = 4
+			draftTier = 0
 			goldCost = 4
 			health = 
 			[
@@ -6927,10 +7573,10 @@
 			[
 				"doom_bringer_doom",
 			]
-			armor = 5
+			armor = 15
 			attackAnimationPoint = 0.500000
 			attackRange = 1
-			attackRate = 1.300000
+			attackRate = 1.100000
 			damageMin = 
 			[
 				110,
@@ -7013,7 +7659,7 @@
 			]
 			keywords = "human dragon knight"
 			magicResist = 0
-			maxmana = 100
+			maxmana = 50
 			model = "models/heroes/dragon_knight/dragon_knight.vmdl"
 			model_scale = 0.650000
 			texturename = "dragon_knight"
@@ -7028,6 +7674,7 @@
 			abilities = 
 			[
 				"drow_ranger_trueshot_aura",
+				"drow_ranger_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.700000
@@ -7073,14 +7720,17 @@
 			projectile_speed = 900
 			healthBarOffset = -15
 			aiPassiveAbility = true
+			prevent_mana_items = 1
 			aiAura = true
 		}
 		enchantress = 
 		{
-			content_enable_group = "rotation"
+			content_enable_group = null
 			abilities = 
 			[
 				"enchantress_natures_attendants",
+				"enchantress_wild_alliance_bonus",
+				"enchantress_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.300000
@@ -7089,14 +7739,14 @@
 			damageMin = 
 			[
 				60,
-				110,
-				210,
+				120,
+				240,
 			]
 			damageMax = 
 			[
 				70,
-				130,
-				250,
+				140,
+				280,
 			]
 			displayName = "#dac_hero_name_enchantress"
 			dota_unit_name = "npc_dota_hero_enchantress"
@@ -7104,9 +7754,9 @@
 			goldCost = 1
 			health = 
 			[
-				600,
-				1200,
-				2250,
+				700,
+				1400,
+				2800,
 			]
 			id = 2
 			hintWords = 
@@ -7114,7 +7764,7 @@
 				"#dac_hero_hint_ranged",
 				"#dac_hero_hint_healer",
 			]
-			keywords = "savage druid healer"
+			keywords = "wild healer"
 			magicResist = 0
 			maxmana = 100
 			model = "models/heroes/enchantress/enchantress.vmdl"
@@ -7131,6 +7781,7 @@
 			abilities = 
 			[
 				"enigma_midnight_pulse",
+				"enigma_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.400000
@@ -7150,7 +7801,7 @@
 			]
 			displayName = "#dac_hero_name_enigma"
 			dota_unit_name = "npc_dota_hero_enigma"
-			draftTier = 3
+			draftTier = 0
 			goldCost = 3
 			health = 
 			[
@@ -7181,6 +7832,8 @@
 			abilities = 
 			[
 				"natures_prophet_summon_tree",
+				"natures_prophet_wild_alliance_bonus",
+				"natures_prophet_3star",
 			]
 			armor = 0
 			attackAnimationPoint = 0.400000
@@ -7188,15 +7841,15 @@
 			attackRate = 1.300000
 			damageMin = 
 			[
-				56,
-				112,
-				225,
+				55,
+				110,
+				220,
 			]
 			damageMax = 
 			[
-				62,
-				125,
-				250,
+				65,
+				130,
+				260,
 			]
 			displayName = "#dac_hero_name_furion"
 			dota_unit_name = "npc_dota_hero_furion"
@@ -7204,9 +7857,9 @@
 			goldCost = 2
 			health = 
 			[
-				750,
-				1500,
-				3000,
+				900,
+				1800,
+				3600,
 			]
 			id = 25
 			hintWords = 
@@ -7214,7 +7867,7 @@
 				"#dac_hero_hint_ranged",
 				"#dac_hero_hint_natures_prophet",
 			]
-			keywords = "druid summoner"
+			keywords = "wild summoner"
 			magicResist = 0
 			maxmana = 80
 			model = "models/heroes/furion/furion.vmdl"
@@ -7283,6 +7936,7 @@
 			abilities = 
 			[
 				"juggernaut_blade_fury",
+				"juggernaut_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.330000
@@ -7295,24 +7949,24 @@
 			]
 			damageMin = 
 			[
-				65,
-				155,
-				280,
+				60,
+				120,
+				240,
 			]
 			damageMax = 
 			[
-				70,
-				165,
+				75,
+				150,
 				300,
 			]
 			displayName = "#dac_hero_name_juggernaut"
 			dota_unit_name = "npc_dota_hero_juggernaut"
-			draftTier = 3
-			goldCost = 3
+			draftTier = 2
+			goldCost = 2
 			health = 
 			[
 				900,
-				1950,
+				1800,
 				3600,
 			]
 			id = 15
@@ -7322,7 +7976,7 @@
 				"#dac_hero_hint_pbaoe_damage",
 				"#dac_hero_hint_magic_immune_with_ability",
 			]
-			keywords = "brawny warrior"
+			keywords = "brawny swordsman"
 			magicResist = 0
 			maxmana = 100
 			model = "models/heroes/juggernaut/juggernaut.vmdl"
@@ -7344,25 +7998,25 @@
 			attackRate = 1.700000
 			damageMin = 
 			[
-				40,
-				80,
-				160,
+				55,
+				110,
+				220,
 			]
 			damageMax = 
 			[
-				45,
-				90,
-				180,
+				60,
+				120,
+				240,
 			]
 			displayName = "#dac_hero_name_keeper_of_the_light"
 			dota_unit_name = "npc_dota_hero_keeper_of_the_light"
-			draftTier = 4
-			goldCost = 4
+			draftTier = 5
+			goldCost = 5
 			health = 
 			[
-				825,
-				1650,
-				3300,
+				1100,
+				2200,
+				4400,
 			]
 			id = 43
 			hintWords = 
@@ -7382,39 +8036,41 @@
 			projectile_model = "particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_base_attack.vpcf"
 			movespeed = 330
 			healthBarOffset = -20
+			content_enable_group = null
 		}
 		kunkka = 
 		{
-			content_enable_group = "rotation"
+			content_enable_group = null
 			abilities = 
 			[
 				"kunkka_ghostship",
+				"kunkka_3star",
 			]
-			armor = 10
+			armor = 5
 			attackAnimationPoint = 0.400000
 			attackRange = 1
 			attackRate = 1.400000
 			damageMin = 
 			[
-				90,
-				180,
-				360,
+				65,
+				130,
+				260,
 			]
 			damageMax = 
 			[
-				110,
-				220,
-				440,
+				85,
+				170,
+				340,
 			]
 			displayName = "#dac_hero_name_kunkka"
 			dota_unit_name = "npc_dota_hero_kunkka"
-			draftTier = 4
-			goldCost = 4
+			draftTier = 2
+			goldCost = 2
 			health = 
 			[
-				1500,
-				3000,
-				6000,
+				1200,
+				2400,
+				4800,
 			]
 			id = 41
 			hintWords = 
@@ -7422,7 +8078,7 @@
 				"#dac_hero_hint_ranged",
 				"#dac_hero_hint_group_stun",
 			]
-			keywords = "human warrior"
+			keywords = "human warrior swordsman"
 			magicResist = 0
 			maxmana = 100
 			model = "models/heroes/kunkka/kunkka.vmdl"
@@ -7436,7 +8092,8 @@
 		{
 			abilities = 
 			[
-				"lich_chain_frost",
+				"lich_frost_shield",
+				"lich_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.460000
@@ -7456,13 +8113,13 @@
 			]
 			displayName = "#dac_hero_name_lich"
 			dota_unit_name = "npc_dota_hero_lich"
-			draftTier = 5
-			goldCost = 5
+			draftTier = 1
+			goldCost = 1
 			health = 
 			[
-				1275,
-				2550,
-				5100,
+				750,
+				1500,
+				3000,
 			]
 			id = 52
 			hintWords = 
@@ -7471,7 +8128,7 @@
 				"#dac_hero_hint_high_group_damage",
 				"#dac_hero_hint_chaining_damage_spell",
 			]
-			keywords = "undead mage"
+			keywords = "fallen mage"
 			magicResist = 20
 			maxmana = 100
 			model = "models/heroes/lich/lich.vmdl"
@@ -7482,10 +8139,11 @@
 			projectile_model = "particles/units/heroes/hero_lich/lich_base_attack.vpcf"
 			movespeed = 295
 			healthBarOffset = -80
+			content_enable_group = null
 		}
 		lina = 
 		{
-			content_enable_group = "rotation"
+			content_enable_group = null
 			abilities = 
 			[
 				"lina_laguna_blade",
@@ -7496,25 +8154,25 @@
 			attackRate = 1.400000
 			damageMin = 
 			[
-				50,
-				100,
-				200,
+				65,
+				130,
+				260,
 			]
 			damageMax = 
 			[
-				55,
-				110,
-				220,
+				70,
+				140,
+				280,
 			]
 			displayName = "#dac_hero_name_lina"
 			dota_unit_name = "npc_dota_hero_lina"
-			draftTier = 3
-			goldCost = 3
+			draftTier = 4
+			goldCost = 4
 			health = 
 			[
-				900,
-				1800,
-				3600,
+				1000,
+				2000,
+				4000,
 			]
 			id = 39
 			hintWords = 
@@ -7524,7 +8182,7 @@
 			]
 			keywords = "human mage"
 			magicResist = 0
-			maxmana = 100
+			maxmana = 75
 			model = "models/heroes/lina/lina.vmdl"
 			model_scale = 0.600000
 			texturename = "lina"
@@ -7544,6 +8202,7 @@
 			abilities = 
 			[
 				"lone_druid_summon_bear",
+				"lone_druid_wild_alliance_bonus",
 			]
 			armor = 0
 			attackAnimationPoint = 0.330000
@@ -7569,7 +8228,7 @@
 			[
 				1200,
 				2400,
-				4500,
+				4800,
 			]
 			id = 50
 			hintWords = 
@@ -7577,7 +8236,7 @@
 				"#dac_hero_hint_ranged",
 				"#dac_hero_hint_summons_strong_ally",
 			]
-			keywords = "savage druid summoner"
+			keywords = "savage wild summoner"
 			magicResist = 20
 			maxmana = 60
 			model = "models/heroes/lone_druid/lone_druid.vmdl"
@@ -7595,6 +8254,7 @@
 			abilities = 
 			[
 				"luna_moon_glaive",
+				"luna_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.460000
@@ -7602,15 +8262,15 @@
 			attackRate = 1.300000
 			damageMin = 
 			[
-				50,
+				60,
 				120,
-				200,
+				240,
 			]
 			damageMax = 
 			[
-				60,
-				144,
-				240,
+				70,
+				140,
+				280,
 			]
 			displayName = "#dac_hero_name_luna"
 			dota_unit_name = "npc_dota_hero_luna"
@@ -7640,12 +8300,19 @@
 			movespeed = 325
 			healthBarOffset = -60
 			aiPassiveAbility = true
+			prevent_mana_items = 
+			[
+				1,
+				1,
+				0,
+			]
 		}
 		lycan = 
 		{
 			abilities = 
 			[
 				"lycan_wolf_spawn_shift",
+				"lycan_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.550000
@@ -7720,7 +8387,7 @@
 			[
 				1275,
 				2550,
-				4950,
+				5100,
 			]
 			id = 48
 			hintWords = 
@@ -7745,6 +8412,7 @@
 			abilities = 
 			[
 				"morphling_waveform",
+				"morphling_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.500000
@@ -7764,7 +8432,7 @@
 			]
 			displayName = "#dac_hero_name_morphling"
 			dota_unit_name = "npc_dota_hero_morphling"
-			draftTier = 3
+			draftTier = 0
 			goldCost = 3
 			health = 
 			[
@@ -7820,7 +8488,7 @@
 			]
 			displayName = "#dac_hero_name_necrophos"
 			dota_unit_name = "npc_dota_hero_necrolyte"
-			draftTier = 4
+			draftTier = 0
 			goldCost = 4
 			health = 
 			[
@@ -7852,6 +8520,7 @@
 			abilities = 
 			[
 				"ogre_magi_bloodlust",
+				"ogre_magi_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.300000
@@ -7871,7 +8540,7 @@
 			]
 			displayName = "#dac_hero_name_ogre_magi"
 			dota_unit_name = "npc_dota_hero_ogre_magi"
-			draftTier = 2
+			draftTier = 0
 			goldCost = 2
 			health = 
 			[
@@ -7900,6 +8569,7 @@
 			abilities = 
 			[
 				"omniknight_purification",
+				"omniknight_3star",
 			]
 			armor = 10
 			attackAnimationPoint = 0.433000
@@ -7909,7 +8579,7 @@
 			[
 				40,
 				80,
-				190,
+				192,
 			]
 			damageMax = 
 			[
@@ -7946,10 +8616,11 @@
 		}
 		phantom_assassin = 
 		{
-			content_enable_group = "rotation"
+			content_enable_group = null
 			abilities = 
 			[
 				"phantom_assassin_coup_de_grace",
+				"phantom_assassin_3star",
 			]
 			baseclass = "dac_npc_assassin"
 			assassin_modifier = "assassin_modifier_phantom_assassin"
@@ -7959,24 +8630,24 @@
 			attackRate = 1.200000
 			damageMin = 
 			[
-				70,
-				140,
-				300,
+				40,
+				80,
+				160,
 			]
 			damageMax = 
 			[
-				90,
-				180,
-				400,
+				60,
+				120,
+				240,
 			]
 			displayName = "#dac_hero_name_phantom_assassin"
 			dota_unit_name = "npc_dota_hero_phantom_assassin"
-			draftTier = 3
-			goldCost = 3
+			draftTier = 1
+			goldCost = 1
 			health = 
 			[
 				825,
-				1485,
+				1650,
 				3300,
 			]
 			id = 31
@@ -7985,7 +8656,7 @@
 				"#dac_hero_hint_melee",
 				"#dac_hero_hint_high_single_target_damage",
 			]
-			keywords = "elf assassin"
+			keywords = "assassin swordsman"
 			magicResist = 0
 			maxmana = 100
 			model = "models/heroes/phantom_assassin/phantom_assassin.vmdl"
@@ -8000,13 +8671,16 @@
 			]
 			healthBarOffset = -50
 			aiPassiveAbility = true
+			prevent_mana_items = 1
+			bonus_keyword = "rogue"
 		}
 		puck = 
 		{
-			content_enable_group = "rotation"
+			content_enable_group = null
 			abilities = 
 			[
 				"puck_illusory_orb",
+				"puck_3star",
 			]
 			extra_abilities = 
 			[
@@ -8018,25 +8692,25 @@
 			attackRate = 1.700000
 			damageMin = 
 			[
-				40,
-				80,
-				160,
+				50,
+				100,
+				240,
 			]
 			damageMax = 
 			[
-				50,
-				100,
-				200,
+				60,
+				120,
+				288,
 			]
 			displayName = "#dac_hero_name_puck"
 			dota_unit_name = "npc_dota_hero_puck"
-			draftTier = 2
-			goldCost = 2
+			draftTier = 3
+			goldCost = 3
 			health = 
 			[
-				675,
-				1350,
-				2700,
+				850,
+				1700,
+				4080,
 			]
 			id = 18
 			hintWords = 
@@ -8045,7 +8719,7 @@
 				"#dac_hero_hint_dragon",
 				"#dac_hero_hint_line_damage",
 			]
-			keywords = "elf dragon mage"
+			keywords = "dragon mage"
 			magicResist = 0
 			maxmana = 60
 			model = "models/heroes/puck/puck.vmdl"
@@ -8063,6 +8737,7 @@
 			abilities = 
 			[
 				"queenofpain_scream_of_pain",
+				"queenofpain_3star",
 			]
 			baseclass = "dac_npc_assassin"
 			assassin_modifier = "assassin_modifier_queen_of_pain"
@@ -8089,7 +8764,7 @@
 			health = 
 			[
 				825,
-				1485,
+				1650,
 				3300,
 			]
 			id = 17
@@ -8098,9 +8773,9 @@
 				"#dac_hero_hint_ranged",
 				"#dac_hero_hint_close_aoe_damage",
 			]
-			keywords = "demon assassin"
+			keywords = "demon assassin poisoner"
 			magicResist = 0
-			maxmana = 100
+			maxmana = 60
 			model = "models/heroes/queenofpain/queenofpain.vmdl"
 			model_scale = 0.700000
 			texturename = "queenofpain"
@@ -8140,7 +8815,7 @@
 			]
 			displayName = "#dac_hero_name_razor"
 			dota_unit_name = "npc_dota_hero_razor"
-			draftTier = 1
+			draftTier = 0
 			goldCost = 1
 			health = 
 			[
@@ -8192,7 +8867,7 @@
 			]
 			displayName = "#dac_hero_name_sand_king"
 			dota_unit_name = "npc_dota_hero_sand_king"
-			draftTier = 5
+			draftTier = 0
 			goldCost = 5
 			health = 
 			[
@@ -8226,6 +8901,7 @@
 			abilities = 
 			[
 				"shadow_fiend_requiem",
+				"shadow_fiend_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.500000
@@ -8245,7 +8921,7 @@
 			]
 			displayName = "#dac_hero_name_shadow_fiend"
 			dota_unit_name = "npc_dota_hero_nevermore"
-			draftTier = 3
+			draftTier = 0
 			goldCost = 3
 			health = 
 			[
@@ -8279,6 +8955,7 @@
 			abilities = 
 			[
 				"shadow_shaman_mass_serpent_ward",
+				"shadow_shaman_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.300000
@@ -8288,13 +8965,13 @@
 			[
 				50,
 				100,
-				200,
+				240,
 			]
 			damageMax = 
 			[
 				60,
 				120,
-				240,
+				288,
 			]
 			displayName = "#dac_hero_name_shadow_shaman"
 			dota_unit_name = "npc_dota_hero_shadow_shaman"
@@ -8304,7 +8981,7 @@
 			[
 				850,
 				1700,
-				3400,
+				4080,
 			]
 			id = 8
 			hintWords = 
@@ -8329,6 +9006,7 @@
 			abilities = 
 			[
 				"slardar_amplify_damage",
+				"slardar_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.360000
@@ -8336,25 +9014,25 @@
 			attackRate = 1.200000
 			damageMin = 
 			[
-				70,
-				140,
-				280,
+				50,
+				100,
+				200,
 			]
 			damageMax = 
 			[
-				100,
-				200,
-				400,
+				80,
+				160,
+				320,
 			]
 			displayName = "#dac_hero_name_slardar"
 			dota_unit_name = "npc_dota_hero_slardar"
-			draftTier = 2
-			goldCost = 2
+			draftTier = 1
+			goldCost = 1
 			health = 
 			[
-				975,
-				1950,
-				3900,
+				900,
+				1800,
+				3600,
 			]
 			id = 20
 			hintWords = 
@@ -8378,6 +9056,7 @@
 			[
 				"slark_essence_shift",
 				"slark_pounce",
+				"slark_3star",
 			]
 			baseclass = "dac_npc_assassin"
 			assassin_modifier = "assassin_modifier_slark"
@@ -8392,25 +9071,25 @@
 			]
 			damageMin = 
 			[
-				60,
-				90,
-				126,
+				50,
+				78,
+				138,
 			]
 			damageMax = 
 			[
-				70,
-				110,
-				174,
+				60,
+				98,
+				178,
 			]
 			displayName = "#dac_hero_name_slark"
 			dota_unit_name = "npc_dota_hero_slark"
-			draftTier = 4
-			goldCost = 4
+			draftTier = 3
+			goldCost = 3
 			health = 
 			[
-				900,
-				1800,
-				3600,
+				800,
+				1600,
+				3840,
 			]
 			id = 34
 			hintWords = 
@@ -8429,6 +9108,12 @@
 			movespeed = 300
 			healthBarOffset = -20
 			aiPassiveAbility = true
+			prevent_mana_items = 
+			[
+				1,
+				1,
+				0,
+			]
 		}
 		sniper = 
 		{
@@ -8572,7 +9257,7 @@
 			health = 
 			[
 				1125,
-				2025,
+				2250,
 				4500,
 			]
 			id = 45
@@ -8604,6 +9289,7 @@
 			abilities = 
 			[
 				"terrorblade_metamorph",
+				"terrorblade_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.300000
@@ -8638,14 +9324,9 @@
 				"#dac_hero_hint_transforms",
 				"#dac_hero_hint_high_single_target_damage",
 			]
-			keywords = "demon hunter"
-			magicResist = 
-			[
-				10,
-				20,
-				30,
-			]
-			maxmana = 100
+			keywords = "demon hunter fallen"
+			magicResist = 30
+			maxmana = 80
 			model = "models/heroes/terrorblade/terrorblade.vmdl"
 			model_scale = 0.650000
 			texturename = "terrorblade"
@@ -8672,13 +9353,13 @@
 			[
 				60,
 				120,
-				250,
+				240,
 			]
 			damageMax = 
 			[
 				70,
-				150,
-				300,
+				140,
+				280,
 			]
 			displayName = "#dac_hero_name_tide_hunter"
 			dota_unit_name = "npc_dota_hero_tidehunter"
@@ -8687,8 +9368,8 @@
 			health = 
 			[
 				1650,
-				4050,
-				8250,
+				3300,
+				6600,
 			]
 			id = 53
 			hintWords = 
@@ -8818,6 +9499,7 @@
 			abilities = 
 			[
 				"tiny_toss",
+				"tiny_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.400000
@@ -8837,7 +9519,7 @@
 			]
 			displayName = "#dac_hero_name_tiny"
 			dota_unit_name = "npc_dota_hero_tiny"
-			draftTier = 1
+			draftTier = 0
 			goldCost = 1
 			health = 
 			[
@@ -8872,6 +9554,8 @@
 			abilities = 
 			[
 				"treant_leech_seed",
+				"treant_protector_wild_alliance_bonus",
+				"treant_protector_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.600000
@@ -8881,13 +9565,13 @@
 			[
 				60,
 				120,
-				240,
+				288,
 			]
 			damageMax = 
 			[
 				90,
 				180,
-				360,
+				432,
 			]
 			displayName = "#dac_hero_name_treant_protector"
 			dota_unit_name = "npc_dota_hero_treant"
@@ -8897,7 +9581,7 @@
 			[
 				1125,
 				2250,
-				3750,
+				5400,
 			]
 			id = 22
 			hintWords = 
@@ -8906,7 +9590,7 @@
 				"#dac_hero_hint_attacks_slowly",
 				"#dac_hero_hint_healer",
 			]
-			keywords = "druid brutal"
+			keywords = "wild healer"
 			magicResist = 0
 			maxmana = 100
 			model = "models/heroes/treant_protector/treant_protector.vmdl"
@@ -8944,7 +9628,7 @@
 			goldCost = 5
 			health = 
 			[
-				1800,
+				1500,
 				3000,
 				6000,
 			]
@@ -8966,12 +9650,14 @@
 			movespeed = 290
 			healthBarOffset = -30
 			aiPassiveAbility = true
+			prevent_mana_items = 1
 		}
 		tusk = 
 		{
 			abilities = 
 			[
 				"tusk_walrus_punch",
+				"tusk_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.360000
@@ -9021,7 +9707,7 @@
 			abilities = 
 			[
 				"venomancer_plague_ward",
-				"venomancer_poison_sting",
+				"venomancer_3star",
 			]
 			armor = 0
 			attackAnimationPoint = 0.300000
@@ -9055,7 +9741,7 @@
 				"#dac_hero_hint_ranged",
 				"#dac_hero_hint_venomancer",
 			]
-			keywords = "naga summoner"
+			keywords = "naga summoner poisoner"
 			magicResist = 20
 			maxmana = 80
 			model = "models/heroes/venomancer/venomancer.vmdl"
@@ -9069,40 +9755,36 @@
 		}
 		viper = 
 		{
-			abilities = 
-			[
-				"viper_nethertoxin",
-			]
 			extra_abilities = 
 			[
 				"viper_corrosive_skin",
 			]
-			baseclass = "dac_npc_assassin"
+			baseclass = null
 			armor = 5
 			attackAnimationPoint = 0.330000
 			attackRange = 3
 			attackRate = 1
 			damageMin = 
 			[
-				50,
-				100,
+				60,
+				120,
 				240,
 			]
 			damageMax = 
 			[
-				60,
-				120,
-				360,
+				80,
+				160,
+				320,
 			]
 			displayName = "#dac_hero_name_viper"
 			dota_unit_name = "npc_dota_hero_viper"
-			draftTier = 3
-			goldCost = 3
+			draftTier = 4
+			goldCost = 4
 			health = 
 			[
-				825,
-				1650,
-				4500,
+				900,
+				1800,
+				3600,
 			]
 			id = 37
 			hintWords = 
@@ -9111,7 +9793,7 @@
 				"#dac_hero_hint_dragon",
 				"#dac_hero_hint_strong_single_debuff",
 			]
-			keywords = "dragon assassin"
+			keywords = "dragon poisoner"
 			magicResist = 20
 			maxmana = 70
 			model = "models/heroes/viper/viper.vmdl"
@@ -9122,12 +9804,18 @@
 			projectile_model = "particles/units/heroes/hero_viper/viper_base_attack.vpcf"
 			movespeed = 275
 			healthBarOffset = -40
+			abilities = 
+			[
+				"viper_nethertoxin",
+			]
+			assassin_modifier = null
 		}
 		wind_ranger = 
 		{
 			abilities = 
 			[
 				"windrunner_powershot",
+				"windrunner_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.400000
@@ -9137,13 +9825,13 @@
 			[
 				50,
 				100,
-				230,
+				200,
 			]
 			damageMax = 
 			[
 				60,
 				120,
-				260,
+				240,
 			]
 			displayName = "#dac_hero_name_wind_ranger"
 			dota_unit_name = "npc_dota_hero_windrunner"
@@ -9153,7 +9841,7 @@
 			[
 				825,
 				1650,
-				3450,
+				3300,
 			]
 			id = 30
 			hintWords = 
@@ -9178,6 +9866,7 @@
 			abilities = 
 			[
 				"witch_doctor_paralyzing_cask",
+				"witch_doctor_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.300000
@@ -9197,7 +9886,7 @@
 			]
 			displayName = "#dac_hero_name_witch_doctor"
 			dota_unit_name = "npc_dota_hero_witch_doctor"
-			draftTier = 2
+			draftTier = 0
 			goldCost = 2
 			health = 
 			[
@@ -9229,6 +9918,7 @@
 			abilities = 
 			[
 				"pudge_meathook",
+				"pudge_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.500000
@@ -9238,13 +9928,13 @@
 			[
 				45,
 				90,
-				135,
+				180,
 			]
 			damageMax = 
 			[
 				55,
 				110,
-				165,
+				220,
 			]
 			displayName = "#dac_hero_name_pudge"
 			dota_unit_name = "npc_dota_hero_pudge"
@@ -9252,9 +9942,9 @@
 			goldCost = 2
 			health = 
 			[
-				1500,
-				3750,
-				7010,
+				1650,
+				3300,
+				6600,
 			]
 			id = 81
 			hintWords = 
@@ -9300,7 +9990,7 @@
 			]
 			displayName = "#dac_hero_name_warlock"
 			dota_unit_name = "npc_dota_hero_warlock"
-			draftTier = 1
+			draftTier = 0
 			goldCost = 1
 			health = 
 			[
@@ -9329,6 +10019,7 @@
 			abilities = 
 			[
 				"bloodseeker_blood_rage",
+				"bloodseeker_3star",
 			]
 			baseclass = "dac_npc_bloodseeker"
 			armor = 0
@@ -9349,7 +10040,7 @@
 			]
 			displayName = "#dac_hero_name_bloodseeker"
 			dota_unit_name = "npc_dota_hero_bloodseeker"
-			draftTier = 1
+			draftTier = 0
 			goldCost = 1
 			health = 
 			[
@@ -9378,12 +10069,15 @@
 			]
 			healthBarOffset = 20
 			aiPassiveAbility = true
+			prevent_mana_items = 1
+			bonus_keyword = "assassin"
 		}
 		arc_warden = 
 		{
 			abilities = 
 			[
 				"arc_warden_tempest_double_no_items",
+				"arc_warden_3star",
 			]
 			baseclass = "dac_npc_arc_warden"
 			armor = 5
@@ -9411,7 +10105,7 @@
 			]
 			displayName = "#dac_hero_name_arc_warden"
 			dota_unit_name = "npc_dota_hero_arc_warden"
-			draftTier = 1
+			draftTier = 0
 			goldCost = 1
 			health = 
 			[
@@ -9450,15 +10144,15 @@
 			attackRate = 1
 			damageMin = 
 			[
-				56,
-				112,
-				224,
+				70,
+				140,
+				280,
 			]
 			damageMax = 
 			[
-				68,
-				136,
-				272,
+				80,
+				160,
+				320,
 			]
 			displayName = "#dac_hero_name_mirana"
 			dota_unit_name = "npc_dota_hero_mirana"
@@ -9549,18 +10243,17 @@
 			[
 				30,
 				50,
-				70,
+				90,
 			]
 			damageMax = 
 			[
 				50,
 				70,
-				90,
+				110,
 			]
 			hintWords = 
 			[
 			]
-			keywords = "druid"
 			displayName = "#dac_name_natures_prophet_tree"
 			dota_unit_name = "natures_prophet_tree"
 			draftTier = 0
@@ -9569,7 +10262,7 @@
 			[
 				650,
 				1200,
-				1800,
+				2400,
 			]
 			id = 58
 			magicResist = 0
@@ -9589,7 +10282,7 @@
 			hintWords = 
 			[
 			]
-			keywords = "savage druid"
+			keywords = "savage"
 			armor = 10
 			attackAnimationPoint = 0.300000
 			attackRange = 1
@@ -9597,14 +10290,14 @@
 			damageMin = 
 			[
 				150,
-				250,
-				350,
+				275,
+				400,
 			]
 			damageMax = 
 			[
 				200,
-				300,
-				400,
+				325,
+				450,
 			]
 			displayName = "#dac_name_lone_druid_bear"
 			dota_unit_name = "lone_druid_bear"
@@ -9613,8 +10306,8 @@
 			health = 
 			[
 				1800,
-				2400,
-				3000,
+				2600,
+				3400,
 			]
 			id = 59
 			magicResist = 10
@@ -9710,17 +10403,17 @@
 			]
 			health = 
 			[
-				1200,
+				225,
 				2400,
 			]
 			damageMin = 
 			[
-				85,
+				25,
 				170,
 			]
 			damageMax = 
 			[
-				110,
+				35,
 				220,
 			]
 			attackAnimationPoint = 0.467000
@@ -9728,7 +10421,7 @@
 			attackRange = 1
 			movespeed = 325
 			magicResist = 0
-			armor = 10
+			armor = 0
 		}
 		neutral_melee_mega = 
 		{
@@ -9747,17 +10440,17 @@
 			]
 			health = 
 			[
-				1800,
+				525,
 				3600,
 			]
 			damageMin = 
 			[
-				150,
+				50,
 				300,
 			]
 			damageMax = 
 			[
-				190,
+				60,
 				380,
 			]
 			attackAnimationPoint = 0.467000
@@ -9765,7 +10458,7 @@
 			attackRange = 1
 			movespeed = 325
 			magicResist = 20
-			armor = 15
+			armor = 0
 		}
 		neutral_ranged = 
 		{
@@ -9784,17 +10477,17 @@
 			]
 			health = 
 			[
-				700,
+				150,
 				1400,
 			]
 			damageMin = 
 			[
-				180,
+				30,
 				360,
 			]
 			damageMax = 
 			[
-				230,
+				40,
 				460,
 			]
 			attackAnimationPoint = 0.500000
@@ -9802,7 +10495,7 @@
 			attackRange = 4
 			movespeed = 325
 			magicResist = 0
-			armor = 10
+			armor = 0
 			projectile_model = "particles/base_attacks/ranged_goodguy.vpcf"
 			projectile_speed = 600
 			healthBarOffset = -50
@@ -10131,26 +10824,10 @@
 			]
 			model = "models/creeps/neutral_creeps/n_creep_black_dragon/n_creep_black_dragon.vmdl"
 			attackAnimationPoint = 0.300000
-			model_scale = 
-			[
-				0.850000,
-				1.150000,
-			]
-			health = 
-			[
-				7000,
-				15000,
-			]
-			damageMin = 
-			[
-				250,
-				500,
-			]
-			damageMax = 
-			[
-				600,
-				1200,
-			]
+			model_scale = 1.150000
+			health = 15000
+			damageMin = 500
+			damageMax = 1200
 			attackRate = 0.600000
 			attackRange = 7
 			movespeed = 300
@@ -10587,7 +11264,7 @@
 			health = 
 			[
 				1500,
-				2700,
+				3000,
 				6000,
 			]
 			id = 96
@@ -10618,6 +11295,7 @@
 			[
 				"legion_commander_duel",
 				"legion_commander_element",
+				"legion_commander_3star",
 			]
 			extra_abilities = 
 			[
@@ -10629,13 +11307,13 @@
 			attackRate = 1.250000
 			damageMin = 
 			[
-				60,
-				96,
-				184,
+				50,
+				100,
+				200,
 			]
 			damageMax = 
 			[
-				75,
+				60,
 				120,
 				240,
 			]
@@ -10645,9 +11323,9 @@
 			goldCost = 2
 			health = 
 			[
-				675,
-				1150,
-				2300,
+				600,
+				1200,
+				2400,
 			]
 			id = 97
 			hintWords = 
@@ -10671,6 +11349,7 @@
 			[
 				"nyx_assassin_spiked_carapace",
 				"nyx_assassin_vendetta",
+				"nyx_assassin_3star",
 			]
 			baseclass = "dac_npc_assassin"
 			assassin_modifier = "assassin_modifier_nyx_assassin"
@@ -10692,7 +11371,7 @@
 			]
 			displayName = "#dac_hero_name_nyx_assassin"
 			dota_unit_name = "npc_dota_hero_nyx_assassin"
-			draftTier = 1
+			draftTier = 0
 			goldCost = 1
 			health = 
 			[
@@ -10726,6 +11405,7 @@
 			abilities = 
 			[
 				"weaver_shukuchi",
+				"weaver_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.400000
@@ -10745,7 +11425,7 @@
 			]
 			displayName = "#dac_hero_name_weaver"
 			dota_unit_name = "npc_dota_hero_weaver"
-			draftTier = 1
+			draftTier = 0
 			goldCost = 1
 			health = 
 			[
@@ -10776,6 +11456,7 @@
 			abilities = 
 			[
 				"broodmother_spawn_spiderlings",
+				"broodmother_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.360000
@@ -10795,7 +11476,7 @@
 			]
 			displayName = "#dac_hero_name_broodmother"
 			dota_unit_name = "npc_dota_hero_broodmother"
-			draftTier = 3
+			draftTier = 0
 			goldCost = 3
 			health = 
 			[
@@ -11331,6 +12012,7 @@
 			[
 				"wisp_tether",
 				"wisp_relocate",
+				"wisp_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.550000
@@ -11350,7 +12032,7 @@
 			]
 			displayName = "#dac_hero_name_wisp"
 			dota_unit_name = "npc_dota_hero_wisp"
-			draftTier = 3
+			draftTier = 0
 			goldCost = 3
 			health = 
 			[
@@ -11472,6 +12154,7 @@
 			abilities = 
 			[
 				"bristleback_quill_spray",
+				"bristleback_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.300000
@@ -11497,7 +12180,7 @@
 			[
 				1350,
 				2700,
-				5250,
+				5400,
 			]
 			id = 109
 			hintWords = 
@@ -11554,9 +12237,9 @@
 				"#dac_hero_hint_melee",
 				"#dac_hero_hint_cleave_attack",
 			]
-			keywords = "human naga knight"
+			keywords = "rogue knight swordsman"
 			magicResist = 0
-			maxmana = 150
+			maxmana = 80
 			model = "models/heroes/sven/sven.vmdl"
 			model_scale = 0.600000
 			texturename = "sven"
@@ -11569,12 +12252,14 @@
 			abilities = 
 			[
 				"magnataur_empower",
+				"magnus_wild_alliance_bonus",
+				"magnataur_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.500000
 			attackRange = 1
 			attackRate = 1.700000
-			maxmana = 0
+			maxmana = 100
 			damageMin = 
 			[
 				55,
@@ -11603,7 +12288,7 @@
 				"#dac_hero_hint_melee",
 				"#dac_hero_hint_buffs_ally_with_cleave",
 			]
-			keywords = "savage druid"
+			keywords = "savage wild"
 			magicResist = 0
 			model = "models/heroes/magnataur/magnataur.vmdl"
 			model_scale = 0.600000
@@ -11617,6 +12302,7 @@
 			abilities = 
 			[
 				"dazzle_shadow_wave",
+				"dazzle_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.300000
@@ -11636,13 +12322,13 @@
 			]
 			displayName = "#dac_hero_name_dazzle"
 			dota_unit_name = "npc_dota_hero_dazzle"
-			draftTier = 2
-			goldCost = 2
+			draftTier = 1
+			goldCost = 1
 			health = 
 			[
-				1125,
-				2250,
-				4500,
+				900,
+				1800,
+				3600,
 			]
 			id = 112
 			hintWords = 
@@ -11650,7 +12336,7 @@
 				"#dac_hero_hint_ranged",
 				"#dac_hero_hint_healer",
 			]
-			keywords = "troll healer"
+			keywords = "troll healer poisoner"
 			magicResist = 0
 			maxmana = 100
 			model = "models/heroes/dazzle/dazzle.vmdl"
@@ -11667,6 +12353,7 @@
 			abilities = 
 			[
 				"shadow_demon_demonic_purge",
+				"shadow_demon_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.350000
@@ -11719,6 +12406,7 @@
 			abilities = 
 			[
 				"life_stealer_feast",
+				"life_stealer_3star",
 			]
 			attackRange = 1
 			attackRate = 
@@ -11731,13 +12419,13 @@
 			[
 				55,
 				110,
-				220,
+				264,
 			]
 			damageMax = 
 			[
 				60,
 				120,
-				240,
+				288,
 			]
 			displayName = "#dac_hero_name_life_stealer"
 			dota_unit_name = "npc_dota_hero_life_stealer"
@@ -11745,9 +12433,9 @@
 			goldCost = 3
 			health = 
 			[
-				1010,
-				2025,
-				4860,
+				1000,
+				2000,
+				4800,
 			]
 			id = 114
 			hintWords = 
@@ -11757,7 +12445,7 @@
 			]
 			keywords = "undead brutal"
 			magicResist = 0
-			maxmana = 0
+			maxmana = 75
 			model = "models/heroes/life_stealer/life_stealer.vmdl"
 			model_scale = 0.600000
 			texturename = "life_stealer"
@@ -11765,6 +12453,12 @@
 			movespeed = 300
 			healthBarOffset = -50
 			aiPassiveAbility = true
+			prevent_mana_items = 
+			[
+				1,
+				1,
+				0,
+			]
 		}
 		barricade_new = 
 		{
@@ -11884,15 +12578,15 @@
 			attackRate = 1.000000
 			damageMin = 
 			[
-				75,
-				105,
-				135,
+				50,
+				100,
+				150,
 			]
 			damageMax = 
 			[
-				105,
-				135,
-				165,
+				80,
+				130,
+				160,
 			]
 			hintWords = 
 			[
@@ -11904,9 +12598,9 @@
 			goldCost = 0
 			health = 
 			[
-				600,
-				900,
-				1200,
+				400,
+				700,
+				950,
 			]
 			model_scale = 
 			[
@@ -11973,6 +12667,7 @@
 			[
 				"storm_spirit_ball_lightning",
 				"storm_spirit_element",
+				"storm_spirit_3star",
 			]
 			armor = 5
 			attackAnimationPoint = 0.500000
@@ -12025,6 +12720,7 @@
 			[
 				"ember_spirit_sleight_of_fist",
 				"ember_spirit_element",
+				"ember_spirit_3star",
 			]
 			baseclass = "dac_npc_assassin"
 			assassin_modifier = "assassin_modifier_ember_spirit"
@@ -12036,13 +12732,13 @@
 			[
 				80,
 				160,
-				320,
+				384,
 			]
 			damageMax = 
 			[
 				100,
 				200,
-				400,
+				480,
 			]
 			displayName = "#dac_hero_name_ember_spirit"
 			dota_unit_name = "npc_dota_hero_ember_spirit"
@@ -12052,7 +12748,7 @@
 			[
 				825,
 				1650,
-				3300,
+				3960,
 			]
 			id = 122
 			hintWords = 
@@ -12061,7 +12757,7 @@
 				"#dac_hero_hint_teleport_movement",
 				"#dac_hero_hint_close_aoe_damage",
 			]
-			keywords = "spiritbrother assassin"
+			keywords = "spiritbrother assassin swordsman"
 			magicResist = 0
 			maxmana = 100
 			model = "models/heroes/ember_spirit/ember_spirit.vmdl"
@@ -12081,6 +12777,7 @@
 			[
 				"earth_spirit_geomagnetic_grip",
 				"earth_spirit_element",
+				"earth_spirit_3star",
 			]
 			armor = 10
 			attackAnimationPoint = 0.330000
@@ -12188,6 +12885,7 @@
 			abilities = 
 			[
 				"granny_lizard_shotgun_blast",
+				"snapfire_3star",
 			]
 			extra_abilities = 
 			[
@@ -12216,9 +12914,9 @@
 			goldCost = 1
 			health = 
 			[
-				935,
-				1875,
-				3750,
+				950,
+				1900,
+				3800,
 			]
 			id = 125
 			hintWords = 
@@ -12684,6 +13382,641 @@
 			movespeed = 325
 			magicResist = 0
 			armor = 0
+		}
+		death_prophet = 
+		{
+			content_enable_group = null
+			abilities = 
+			[
+				"death_prophet_exorcism",
+			]
+			armor = 5
+			attackAnimationPoint = 0.560000
+			attackRange = 3
+			attackRate = 1.250000
+			damageMin = 
+			[
+				50,
+				100,
+				200,
+			]
+			damageMax = 
+			[
+				60,
+				120,
+				240,
+			]
+			displayName = "#dac_hero_name_death_prophet"
+			dota_unit_name = "npc_dota_hero_death_prophet"
+			draftTier = 4
+			goldCost = 4
+			health = 
+			[
+				1250,
+				2500,
+				5000,
+			]
+			id = 130
+			hintWords = 
+			[
+				"#dac_hero_hint_ranged",
+				"#dac_hero_hint_aoe_damage",
+			]
+			keywords = "fallen undead"
+			magicResist = 0
+			maxmana = 100
+			model = "models/heroes/death_prophet/death_prophet.vmdl"
+			model_scale = 0.600000
+			texturename = "death_prophet"
+			soundSet = "Hero_DeathProphet"
+			projectile_speed = 1000
+			projectile_model = "particles/units/heroes/hero_death_prophet/death_prophet_base_attack.vpcf"
+			movespeed = 300
+			healthBarOffset = -10
+		}
+		vengefulspirit = 
+		{
+			content_enable_group = null
+			abilities = 
+			[
+				"vengefulspirit_wave_of_terror",
+				"vengefulspirit_3star",
+			]
+			armor = 5
+			attackAnimationPoint = 0.330000
+			attackRange = 2
+			attackRate = 1.300000
+			damageMin = 
+			[
+				45,
+				90,
+				180,
+			]
+			damageMax = 
+			[
+				55,
+				110,
+				220,
+			]
+			displayName = "#dac_hero_name_vengefulspirit"
+			dota_unit_name = "npc_dota_hero_vengefulspirit"
+			draftTier = 1
+			goldCost = 1
+			health = 
+			[
+				850,
+				1700,
+				3400,
+			]
+			id = 131
+			hintWords = 
+			[
+				"#dac_hero_hint_ranged",
+			]
+			keywords = "fallen undead"
+			magicResist = 0
+			maxmana = 60
+			model = "models/heroes/vengeful/vengeful.vmdl"
+			model_scale = 0.750000
+			texturename = "vengefulspirit"
+			soundSet = "Hero_VengefulSpirit"
+			projectile_model = "particles/units/heroes/hero_vengeful/vengeful_base_attack.vpcf"
+			projectile_speed = 1500
+			movespeed = 300
+			healthBarOffset = 20
+		}
+		meepo = 
+		{
+			content_enable_group = null
+			abilities = 
+			[
+				"meepo_poof",
+				"meepo_divided_we_stand",
+				"meepo_3star",
+			]
+			armor = 5
+			attackAnimationPoint = 0.380000
+			attackRange = 1
+			attackRate = 1.100000
+			damageMin = 
+			[
+				50,
+				100,
+				200,
+			]
+			damageMax = 
+			[
+				60,
+				120,
+				240,
+			]
+			displayName = "#dac_hero_name_meepo"
+			dota_unit_name = "npc_dota_hero_meepo"
+			draftTier = 2
+			goldCost = 2
+			health = 
+			[
+				1100,
+				2200,
+				4400,
+			]
+			id = 132
+			hintWords = 
+			[
+				"#dac_hero_hint_melee",
+			]
+			keywords = "rogue summoner"
+			magicResist = 0
+			maxmana = 75
+			model = "models/heroes/meepo/meepo.vmdl"
+			model_scale = 
+			[
+				0.650000,
+				0.700000,
+				0.750000,
+			]
+			soundSet = "Hero_Meepo"
+			texturename = "meepo"
+			movespeed = 310
+			healthBarOffset = 20
+		}
+		spirit_breaker = 
+		{
+			content_enable_group = null
+			abilities = 
+			[
+				"spirit_breaker_charge_of_darkness",
+				"spirit_breaker_3star",
+			]
+			armor = 5
+			attackAnimationPoint = 0.600000
+			attackRange = 1
+			attackRate = 1.500000
+			damageMin = 
+			[
+				55,
+				110,
+				220,
+			]
+			damageMax = 
+			[
+				70,
+				140,
+				280,
+			]
+			displayName = "#dac_hero_name_spirit_breaker"
+			dota_unit_name = "npc_dota_hero_spirit_breaker"
+			draftTier = 2
+			goldCost = 2
+			health = 
+			[
+				1200,
+				2400,
+				4800,
+			]
+			id = 133
+			hintWords = 
+			[
+				"#dac_hero_hint_melee",
+				"#dac_hero_hint_tanky",
+			]
+			keywords = "savage brutal"
+			magicResist = 0
+			maxmana = 100
+			model = "models/heroes/spirit_breaker/spirit_breaker.vmdl"
+			model_scale = 0.650000
+			soundSet = "Hero_Spirit_Breaker"
+			texturename = "spirit_breaker"
+			movespeed = 330
+			healthBarOffset = 20
+		}
+		spectre = 
+		{
+			content_enable_group = null
+			abilities = 
+			[
+				"spectre_spectral_dagger",
+				"spectre_3star",
+			]
+			armor = 5
+			attackAnimationPoint = 0.330000
+			attackRange = 1
+			attackRate = 0.900000
+			damageMin = 
+			[
+				55,
+				110,
+				264,
+			]
+			damageMax = 
+			[
+				65,
+				130,
+				312,
+			]
+			displayName = "#dac_hero_name_spectre"
+			dota_unit_name = "npc_dota_hero_spectre"
+			draftTier = 3
+			goldCost = 3
+			health = 
+			[
+				950,
+				1900,
+				4560,
+			]
+			id = 134
+			hintWords = 
+			[
+				"#dac_hero_hint_melee",
+				"#dac_hero_hint_tanky",
+				"#dac_hero_hint_aoe_ministun",
+			]
+			keywords = "void demon"
+			magicResist = 0
+			maxmana = 70
+			model = "models/heroes/spectre/spectre.vmdl"
+			model_scale = 0.750000
+			soundSet = "Hero_Spectre"
+			texturename = "spectre"
+			movespeed = 310
+			healthBarOffset = 20
+		}
+		pangolier = 
+		{
+			content_enable_group = null
+			abilities = 
+			[
+				"pangolier_shield_crash",
+			]
+			armor = 10
+			attackAnimationPoint = 0.330000
+			attackRange = 1
+			attackRate = 1.100000
+			damageMin = 
+			[
+				60,
+				120,
+				240,
+			]
+			damageMax = 
+			[
+				70,
+				140,
+				280,
+			]
+			displayName = "#dac_hero_name_pangolier"
+			dota_unit_name = "npc_dota_hero_pangolier"
+			draftTier = 4
+			goldCost = 4
+			health = 
+			[
+				1400,
+				2800,
+				5600,
+			]
+			id = 135
+			hintWords = 
+			[
+				"#dac_hero_hint_melee",
+				"#dac_hero_hint_tanky",
+			]
+			keywords = "savage swordsman"
+			magicResist = 10
+			maxmana = 70
+			model = "models/heroes/pangolier/pangolier.vmdl"
+			model_scale = 0.625000
+			soundSet = "Hero_Pangolier"
+			texturename = "pangolier"
+			movespeed = 330
+			healthBarOffset = 20
+		}
+		rubick = 
+		{
+			content_enable_group = null
+			abilities = 
+			[
+				"rubick_fade_bolt",
+				"rubick_spell_steal",
+			]
+			armor = 5
+			attackAnimationPoint = 0.400000
+			attackRange = 2
+			attackRate = 1.300000
+			damageMin = 
+			[
+				50,
+				100,
+				200,
+			]
+			damageMax = 
+			[
+				60,
+				120,
+				240,
+			]
+			displayName = "#dac_hero_name_rubick"
+			dota_unit_name = "npc_dota_hero_rubick"
+			draftTier = 4
+			goldCost = 4
+			health = 
+			[
+				1300,
+				2600,
+				5200,
+			]
+			id = 136
+			hintWords = 
+			[
+				"#dac_hero_hint_ranged",
+			]
+			keywords = "mage magus"
+			magicResist = 20
+			maxmana = 100
+			model = "models/heroes/rubick/rubick.vmdl"
+			model_scale = 
+			[
+				0.550000,
+				0.600000,
+				0.650000,
+			]
+			texturename = "rubick"
+			soundSet = "Hero_Rubick"
+			projectile_model = "particles/units/heroes/hero_rubick/rubick_base_attack.vpcf"
+			projectile_speed = 1125
+			movespeed = 310
+			healthBarOffset = 20
+		}
+		wraith_king = 
+		{
+			content_enable_group = null
+			abilities = 
+			[
+				"wraith_king_wraithfire_blast",
+				"wraith_king_raise_dead",
+			]
+			armor = 10
+			attackAnimationPoint = 0.560000
+			attackRange = 1
+			attackRate = 1.300000
+			damageMin = 
+			[
+				90,
+				180,
+				360,
+			]
+			damageMax = 
+			[
+				110,
+				220,
+				440,
+			]
+			displayName = "#dac_hero_name_wraith_king"
+			dota_unit_name = "npc_dota_hero_skeleton_king"
+			draftTier = 5
+			goldCost = 5
+			health = 
+			[
+				2000,
+				4000,
+				8000,
+			]
+			id = 137
+			hintWords = 
+			[
+				"#dac_hero_hint_melee",
+				"#dac_hero_hint_tanky",
+			]
+			keywords = "fallen swordsman"
+			magicResist = 10
+			maxmana = 75
+			model = "models/heroes/wraith_king/wraith_king.vmdl"
+			model_scale = 0.650000
+			soundSet = "Hero_WraithKing"
+			texturename = "skeleton_king"
+			movespeed = 310
+			healthBarOffset = 20
+		}
+		wild_alliance_wolf_small = 
+		{
+			abilities = 
+			[
+				"wild_alliance_crit",
+				"wild_alliance_wrath_of_nature",
+			]
+			displayName = "#dac_unit_neutral_wolf_small"
+			dota_unit_name = "npc_dota_neutral_giant_wolf"
+			baseclass = "dac_npc_assassin"
+			assassin_modifier = "assassin_modifier_wolfleap"
+			id = 138
+			globalMeterEntity = 4
+			draftTier = 0
+			neutral_creep = true
+			powerLevel = 3
+			hintWords = 
+			[
+			]
+			model = "models/creeps/neutral_creeps/n_creep_worg_small/n_creep_worg_small.vmdl"
+			attackAnimationPoint = 0.300000
+			model_scale = 1.050000
+			health = 1200
+			maxmana = 100
+			damageMin = 60
+			damageMax = 100
+			attackRate = 1
+			attackRange = 1
+			movespeed = 330
+			magicResist = 0
+			armor = 5
+		}
+		wild_alliance_wildwing = 
+		{
+			abilities = 
+			[
+				"wild_alliance_evasion",
+				"wild_alliance_wrath_of_nature",
+			]
+			displayName = "#dac_unit_neutral_vulture_b"
+			dota_unit_name = "npc_dota_neutral_wildkin"
+			id = 139
+			globalMeterEntity = 4
+			draftTier = 0
+			neutral_creep = true
+			hintWords = 
+			[
+			]
+			powerLevel = 6
+			model = "models/creeps/neutral_creeps/n_creep_vulture_b/n_creep_vulture_b.vmdl"
+			attackAnimationPoint = 0.300000
+			model_scale = 1.250000
+			health = 2000
+			maxmana = 100
+			damageMin = 100
+			damageMax = 160
+			attackRate = 1
+			attackRange = 3
+			movespeed = 300
+			magicResist = 0
+			armor = 5
+			projectile_model = "particles/units/creeps/vultures/vulture_tornado.vpcf"
+			projectile_speed = 320
+		}
+		wild_alliance_thunderhide = 
+		{
+			abilities = 
+			[
+				"wild_alliance_wrath_of_nature",
+			]
+			displayName = "#dac_unit_neutral_thunder_lizard_small"
+			dota_unit_name = "npc_dota_neutral_small_thunder_lizard"
+			id = 140
+			globalMeterEntity = 4
+			draftTier = 0
+			model = "models/creeps/neutral_creeps/n_creep_thunder_lizard/n_creep_thunder_lizard_big.vmdl"
+			attackAnimationPoint = 0.500000
+			health = 4000
+			damageMin = 200
+			damageMax = 275
+			attackRate = 1.000000
+			attackRange = 4
+			movespeed = 270
+			maxmana = 100
+			magicResist = 20
+			armor = 10
+			model_scale = 0.600000
+			healthBarOffset = -45
+			projectile_model = "particles/neutral_fx/thunderlizard_base_attack.vpcf"
+			soundSet = "Creep_Thunderhide"
+			projectile_speed = 1500
+			precache = 
+			[
+				"particles/neutral_fx/thunderlizard_base_attack.vpcf",
+			]
+		}
+		wild_alliance_black_dragon = 
+		{
+			displayName = "#dac_unit_neutral_black_dragon"
+			dota_unit_name = "npc_dota_neutral_black_dragon"
+			id = 141
+			globalMeterEntity = 4
+			draftTier = 0
+			hintWords = 
+			[
+			]
+			abilities = 
+			[
+				"wild_alliance_splash_attack",
+				"wild_alliance_wrath_of_nature",
+			]
+			model = "models/creeps/neutral_creeps/n_creep_black_dragon/n_creep_black_dragon.vmdl"
+			attackAnimationPoint = 0.300000
+			model_scale = 0.850000
+			health = 2600
+			maxmana = 100
+			damageMin = 160
+			damageMax = 220
+			attackRate = 1
+			attackRange = 4
+			movespeed = 300
+			magicResist = 20
+			armor = 10
+			projectile_model = "particles/units/heroes/hero_vengeful/vengeful_magic_missle.vpcf"
+			projectile_speed = 600
+		}
+		necronomicon_warrior = 
+		{
+			abilities = 
+			[
+				"demon_warrior_bash",
+			]
+			attackAnimationPoint = 0.560000
+			attackRange = 1
+			attackRate = 1
+			displayName = "#dac_name_anessix_warrior"
+			dota_unit_name = "dac_name_anessix_warrior"
+			draftTier = 0
+			goldCost = 0
+			id = 142
+			hintWords = 
+			[
+			]
+			magicResist = 0
+			maxmana = 0
+			model = "models/creeps/item_creeps/i_creep_necro_warrior/necro_warrior.vmdl"
+			model_scale = 0.400000
+			movespeed = 350
+			player_dmg_override = 0
+			soundSet = "Underlord_Annesix_melee"
+			damageMin = 75
+			damageMax = 75
+			armor = 5
+			health = 600
+		}
+		barricade_rot1 = 
+		{
+			abilities = 
+			[
+				"barricade_aura_rot1",
+			]
+			armor = 20
+			hintWords = 
+			[
+			]
+			keywords = ""
+			displayName = "#dac_name_barricade"
+			dota_unit_name = "npc_dota_barricade"
+			draftTier = 0
+			goldCost = 0
+			health = 
+			[
+				600,
+				600,
+				600,
+			]
+			model_scale = 1
+			id = 143
+			magicResist = 0
+			model = "models/props_gameplay/barricade/barricade.vmdl"
+			movespeed = 0
+			player_dmg_override = 0
+			disable_attack = 1
+			disable_movement = 1
+			disable_items = 1
+			ignoreForRoundEnd = true
+			isBarricade = true
+			isPlaceable = true
+			aiIsMelee = true
+			death_effect = "particles/items/barricade/barricade_destruction.vpcf"
+		}
+		death_prophet_spirit = 
+		{
+			armor = 0
+			attackAnimationPoint = 0.100000
+			attackRate = 0.400000
+			damageMin = 8
+			damageMax = 10
+			displayName = "#dac_name_death_prophet_exorcism_spirit"
+			dota_unit_name = "dota_death_prophet_exorcism_spirit"
+			draftTier = 0
+			goldCost = 0
+			health = 5
+			id = 144
+			hintWords = 
+			[
+			]
+			keywords = ""
+			magicResist = 0
+			maxmana = 0
+			model = "models/heroes/death_prophet/death_prophet_ghost.vmdl"
+			model_scale = 1.000000
+			movespeed = 420
+			attackRange = 0
+			player_dmg_override = 0
+			disable_attack = 1
+			disable_items = 1
+			ignoreForRoundEnd = true
+			increases_kill_counts = false
+			disable_outline = true
+			death_modifier = "modifier_death_prophet_exorcism_spirit_death"
 		}
 	}
 }

@@ -12,17 +12,18 @@
 			units = 
 			[
 				"dragon_knight",
-				"tidehunter",
 				"keeper_of_the_light",
+				"tidehunter",
 				"sven",
 				"omniknight",
 				"abaddon",
-				"slardar",
 				"slark",
+				"lina",
+				"crystal_maiden",
 				"luna",
 				"chaos_knight",
 				"bat_rider",
-				"crystal_maiden",
+				"slardar",
 			]
 			keywords = 
 			[
@@ -50,14 +51,15 @@
 				"axe",
 				"medusa",
 				"doom",
-				"juggernaut",
-				"lycan",
+				"pangolier",
 				"beastmaster",
-				"slardar",
+				"juggernaut",
 				"bristleback",
 				"legion_commander",
+				"kunkka",
+				"slardar",
+				"tusk",
 				"snapfire",
-				"tiny",
 			]
 			keywords = 
 			[
@@ -65,6 +67,7 @@
 				"brawny",
 				"warrior",
 				"naga",
+				"swordsman",
 			]
 			names = 
 			[
@@ -82,15 +85,15 @@
 			]
 			units = 
 			[
-				"axe",
 				"troll_warlord",
+				"doom",
 				"tidehunter",
 				"slardar",
-				"juggernaut",
+				"kunkka",
 				"life_stealer",
 				"pudge",
 				"earth_spirit",
-				"tiny",
+				"lycan",
 				"tusk",
 			]
 			keywords = 
@@ -103,7 +106,7 @@
 			]
 			description = "#DAC_BotDescription_32"
 		}
-		Druids-Savage-Scaled-Hunter-Brawny = 
+		Shaman-Savage-Scaled-Hunter-Brawny = 
 		{
 			id = 3
 			personalityGroup = 3
@@ -117,20 +120,21 @@
 				"medusa",
 				"lone_druid",
 				"lycan",
-				"wisp",
 				"bristleback",
 				"treant_protector",
-				"venomancer",
-				"magnus",
-				"tusk",
 				"beastmaster",
+				"furion",
+				"magnus",
+				"enchantress",
+				"tusk",
+				"venomancer",
 				"slardar",
 				"drow_ranger",
 				"shadow_demon",
 			]
 			keywords = 
 			[
-				"druid",
+				"wild",
 				"savage",
 				"naga",
 				"hunter",
@@ -161,7 +165,7 @@
 				"shadow_shaman",
 				"bat_rider",
 				"luna",
-				"witch_doctor",
+				"viper",
 			]
 			keywords = 
 			[
@@ -175,7 +179,7 @@
 			]
 			description = "#DAC_BotDescription_34"
 		}
-		Assassins = 
+		Assassins-Swordsman = 
 		{
 			id = 5
 			personalityGroup = 6
@@ -189,20 +193,21 @@
 				"axe",
 				"faceless_void",
 				"queen_of_pain",
-				"viper",
 				"slark",
-				"nyx_assassin",
+				"phantom_assassin",
 				"templar_assassin",
 				"ember_spirit",
+				"bounty_hunter",
+				"juggernaut",
 				"bristleback",
 				"beastmaster",
 				"snapfire",
-				"juggernaut",
 			]
 			keywords = 
 			[
 				"assassin",
 				"brawny",
+				"swordsman",
 			]
 			names = 
 			[
@@ -210,7 +215,7 @@
 			]
 			description = "#DAC_BotDescription_35"
 		}
-		Troll-Brute-Warlocks = 
+		Troll-Brute-Summoners = 
 		{
 			id = 6
 			personalityGroup = 5
@@ -224,22 +229,21 @@
 				"troll_warlord",
 				"doom",
 				"lone_druid",
-				"necrophos",
-				"disruptor",
-				"shadow_fiend",
+				"meepo",
+				"alchemist",
+				"spirit_breaker",
 				"treant_protector",
 				"life_stealer",
 				"shadow_shaman",
-				"witch_doctor",
-				"ogre_magi",
-				"bloodseeker",
-				"warlock",
+				"furion",
+				"dazzle",
+				"bat_rider",
 			]
 			keywords = 
 			[
 				"troll",
 				"brutal",
-				"warlock",
+				"summoner",
 			]
 			names = 
 			[
@@ -247,7 +251,7 @@
 			]
 			description = "#DAC_BotDescription_36"
 		}
-		Warrior-Warlock = 
+		Warrior-Healer = 
 		{
 			id = 7
 			personalityGroup = 2
@@ -258,24 +262,21 @@
 			units = 
 			[
 				"troll_warlord",
-				"juggernaut",
+				"treant_protector",
 				"tidehunter",
-				"necrophos",
-				"disruptor",
+				"enchantress",
+				"slardar",
+				"kunkka",
+				"tusk",
+				"omniknight",
+				"dazzle",
 				"earth_spirit",
 				"pudge",
-				"slardar",
-				"broodmother",
-				"shadow_fiend",
-				"witch_doctor",
-				"warlock",
-				"tiny",
-				"tusk",
 			]
 			keywords = 
 			[
 				"warrior",
-				"warlock",
+				"healer",
 			]
 			names = 
 			[
@@ -297,14 +298,15 @@
 				"axe",
 				"medusa",
 				"doom",
-				"juggernaut",
-				"lycan",
+				"pangolier",
 				"beastmaster",
-				"slardar",
+				"juggernaut",
 				"bristleback",
 				"legion_commander",
+				"kunkka",
+				"slardar",
+				"tusk",
 				"snapfire",
-				"tiny",
 			]
 			keywords = 
 			[
@@ -330,23 +332,23 @@
 			units = 
 			[
 				"faceless_void",
-				"enigma",
+				"spectre",
 				"templar_assassin",
 				"void_spirit",
 				"slark",
 				"ember_spirit",
 				"earth_spirit",
 				"storm_spirit",
-				"nyx_assassin",
+				"phantom_assassin",
 				"queen_of_pain",
-				"viper",
-				"snapfire",
+				"bounty_hunter",
+				"meepo",
 			]
 			keywords = 
 			[
-				"primordial",
-				"mage",
-				"knight",
+				"spiritbrother",
+				"assassin",
+				"void",
 			]
 			names = 
 			[
@@ -368,14 +370,15 @@
 				"axe",
 				"medusa",
 				"doom",
-				"juggernaut",
-				"lycan",
+				"pangolier",
 				"beastmaster",
-				"slardar",
+				"juggernaut",
 				"bristleback",
 				"legion_commander",
+				"kunkka",
+				"slardar",
+				"tusk",
 				"snapfire",
-				"tiny",
 			]
 			keywords = 
 			[
@@ -398,20 +401,21 @@
 			[
 				3,
 			]
-			notes = "Currently perhaps the strongest of all bots."
+			notes = "Formerly perhaps the strongest of all bots, slightly reworked."
 			units = 
 			[
 				"axe",
 				"medusa",
 				"doom",
-				"juggernaut",
-				"lycan",
+				"pangolier",
 				"beastmaster",
-				"slardar",
+				"juggernaut",
 				"bristleback",
 				"legion_commander",
+				"kunkka",
+				"slardar",
+				"tusk",
 				"snapfire",
-				"tiny",
 			]
 			keywords = 
 			[
@@ -426,7 +430,7 @@
 			]
 			description = "#DAC_BotDescription_41"
 		}
-		Undead-Human-Mages = 
+		Fallen-Human-Mages = 
 		{
 			id = 12
 			personalityGroup = 2
@@ -436,21 +440,22 @@
 			]
 			units = 
 			[
-				"lich",
-				"dragon_knight",
+				"wraith_king",
 				"keeper_of_the_light",
-				"sven",
-				"necrophos",
+				"dragon_knight",
+				"lina",
+				"death_prophet",
 				"abaddon",
-				"morphling",
-				"pudge",
+				"lich",
+				"terrorblade",
+				"vengefulspirit",
 				"crystal_maiden",
-				"shadow_demon",
-				"razor",
+				"rubick",
+				"puck",
 			]
 			keywords = 
 			[
-				"undead",
+				"fallen",
 				"human",
 				"mage",
 			]
@@ -460,7 +465,7 @@
 			]
 			description = "#DAC_BotDescription_42"
 		}
-		Heartless-Warriors-Healers = 
+		Heartless-Warriors-Fallen = 
 		{
 			id = 13
 			personalityGroup = 7
@@ -471,22 +476,22 @@
 			units = 
 			[
 				"troll_warlord",
-				"lich",
-				"necrophos",
+				"wraith_king",
+				"death_prophet",
+				"tidehunter",
 				"life_stealer",
-				"omniknight",
-				"dazzle",
-				"abaddon",
 				"pudge",
 				"drow_ranger",
-				"warlock",
+				"vengefulspirit",
 				"shadow_demon",
+				"kunkka",
+				"lich",
 			]
 			keywords = 
 			[
 				"undead",
 				"warrior",
-				"healer",
+				"fallen",
 			]
 			names = 
 			[
@@ -494,46 +499,10 @@
 			]
 			description = "#DAC_BotDescription_43"
 		}
-		Savage-Insect-Hunter-Warlocks = 
+		Rogue-Assassin-Swordsman = 
 		{
 			id = 14
 			personalityGroup = 3
-			underlords = 
-			[
-				2,
-			]
-			maxLevelToBuy = 9
-			units = 
-			[
-				"medusa",
-				"sand_king",
-				"lone_druid",
-				"necrophos",
-				"shadow_fiend",
-				"bristleback",
-				"lycan",
-				"broodmother",
-				"weaver",
-				"drow_ranger",
-				"tusk",
-			]
-			keywords = 
-			[
-				"savage",
-				"warlock",
-				"hunter",
-				"insect",
-			]
-			names = 
-			[
-				"#DAC_BotName_44",
-			]
-			description = "#DAC_BotDescription_44"
-		}
-		Warrior-Trolls-Knights = 
-		{
-			id = 15
-			personalityGroup = 1
 			underlords = 
 			[
 				3,
@@ -541,25 +510,77 @@
 			maxLevelToBuy = 9
 			units = 
 			[
-				"troll_warlord",
+				"wraith_king",
 				"sven",
+				"pangolier",
+				"kunkka",
+				"ember_spirit",
+				"phantom_assassin",
+				"juggernaut",
+				"bounty_hunter",
+				"alchemist",
+				"meepo",
+				"antimage",
+			]
+			keywords = 
+			[
+				"rogue",
+				"assassin",
+				"swordsman",
+			]
+			items = 
+			[
+				
+				{
+					item = "swordsman_hat"
+					offset = 1000
+				},
+			]
+			names = 
+			[
+				"#DAC_BotName_44",
+			]
+			description = "#DAC_BotDescription_44"
+		}
+		Warrior-Trolls-Healers = 
+		{
+			id = 15
+			personalityGroup = 1
+			underlords = 
+			[
+				2,
+			]
+			maxLevelToBuy = 9
+			units = 
+			[
+				"troll_warlord",
+				"tidehunter",
 				"shadow_shaman",
-				"omniknight",
-				"abaddon",
-				"witch_doctor",
-				"slardar",
-				"pudge",
+				"treant_protector",
+				"enchantress",
 				"dazzle",
+				"omniknight",
+				"slardar",
+				"kunkka",
 				"bat_rider",
+				"pudge",
+				"earth_spirit",
 				"luna",
 			]
 			keywords = 
 			[
 				"troll",
 				"warrior",
-				"undead",
-				"naga",
-				"knights",
+				"healer",
+				"shaman",
+			]
+			items = 
+			[
+				
+				{
+					item = "paladin_sword"
+					offset = 1000
+				},
 			]
 			names = 
 			[
@@ -583,16 +604,17 @@
 				"medusa",
 				"doom",
 				"mirana",
-				"treant_protector",
+				"spirit_breaker",
 				"life_stealer",
 				"beastmaster",
-				"witch_doctor",
+				"shadow_shaman",
 				"dazzle",
 				"drow_ranger",
-				"shadow_shaman",
-				"ogre_magi",
+				"alchemist",
+				"antimage",
 				"bat_rider",
 				"terrorblade",
+				"bristleback",
 			]
 			keywords = 
 			[
@@ -600,13 +622,21 @@
 				"brutal",
 				"hunter",
 			]
+			items = 
+			[
+				
+				{
+					item = "hunting_hat"
+					offset = 1000
+				},
+			]
 			names = 
 			[
 				"#DAC_BotName_46",
 			]
 			description = "#DAC_BotDescription_46"
 		}
-		Savage-Warlock-Summoner = 
+		Savage-Shaman-Summoner = 
 		{
 			id = 17
 			personalityGroup = 3
@@ -617,22 +647,23 @@
 			maxLevelToBuy = 9
 			units = 
 			[
-				"sand_king",
+				"troll_warlord",
 				"lone_druid",
-				"necrophos",
+				"pangolier",
 				"lycan",
 				"shadow_shaman",
-				"shadow_fiend",
+				"beastmaster",
 				"bristleback",
 				"furion",
 				"magnus",
 				"tusk",
+				"meepo",
 				"venomancer",
 			]
 			keywords = 
 			[
 				"savage",
-				"warlock",
+				"shaman",
 				"summoner",
 			]
 			names = 
@@ -641,28 +672,30 @@
 			]
 			description = "#DAC_BotDescription_47"
 		}
-		Heartless-Knight = 
+		Heartless-Fallen-Knight = 
 		{
 			id = 18
 			personalityGroup = 7
 			underlords = 
 			[
-				3,
+				1,
 			]
 			notes = ""
 			units = 
 			[
 				"dragon_knight",
-				"lich",
-				"necrophos",
+				"death_prophet",
+				"sven",
 				"life_stealer",
 				"abaddon",
 				"pudge",
 				"chaos_knight",
 				"luna",
-				"shadow_demon",
+				"vengefulspirit",
 				"bat_rider",
 				"mirana",
+				"omniknight",
+				"lich",
 				"drow_ranger",
 			]
 			keywords = 
@@ -676,33 +709,33 @@
 			]
 			description = "#DAC_BotDescription_48"
 		}
-		Brawny-Dragon-Warlock = 
+		Brawny-Dragon-Poisoner = 
 		{
 			id = 19
 			personalityGroup = 4
 			underlords = 
 			[
-				1,
+				3,
 			]
 			maxLevelToBuy = 9
 			units = 
 			[
 				"dragon_knight",
 				"axe",
-				"disruptor",
-				"necrophos",
+				"alchemist",
+				"puck",
 				"viper",
 				"juggernaut",
-				"broodmother",
-				"broodmother",
-				"shadow_fiend",
-				"snapfire",
+				"dazzle",
 				"beastmaster",
+				"queen_of_pain",
+				"snapfire",
+				"venomancer",
 			]
 			keywords = 
 			[
 				"brawny",
-				"warlock",
+				"poisoner",
 				"dragon",
 			]
 			names = 
@@ -726,13 +759,14 @@
 				"slark",
 				"tidehunter",
 				"templar_assassin",
-				"viper",
 				"ember_spirit",
 				"queen_of_pain",
+				"bounty_hunter",
 				"slardar",
 				"venomancer",
 				"pudge",
 				"shadow_demon",
+				"phantom_assassin",
 			]
 			keywords = 
 			[
@@ -757,11 +791,12 @@
 			units = 
 			[
 				"axe",
-				"disruptor",
+				"doom",
 				"juggernaut",
 				"lycan",
 				"bristleback",
-				"shadow_fiend",
+				"spectre",
+				"viper",
 				"beastmaster",
 				"snapfire",
 				"tusk",
@@ -770,7 +805,7 @@
 			[
 				"brawny",
 				"warrior",
-				"undead",
+				"dragon",
 				"demon",
 				"champion",
 			]
@@ -780,7 +815,7 @@
 			]
 			description = "#DAC_BotDescription_61"
 		}
-		Brutal-Savage-Insect-Summoner = 
+		Brutal-Savage-Shaman-Summoner = 
 		{
 			id = 22
 			personalityGroup = 1
@@ -790,21 +825,20 @@
 			]
 			units = 
 			[
-				"sand_king",
+				"axe",
 				"doom",
-				"broodmother",
+				"pangolier",
 				"lone_druid",
 				"lycan",
-				"ogre_magi",
-				"bloodseeker",
-				"warlock",
+				"spirit_breaker",
+				"treant_protector",
+				"furion",
 				"shadow_shaman",
 				"magnus",
 			]
 			keywords = 
 			[
 				"brutal",
-				"insect",
 				"summoner",
 				"savage",
 			]
@@ -814,7 +848,7 @@
 			]
 			description = "#DAC_BotDescription_62"
 		}
-		Bloodbound-Brute-Savage = 
+		Brute-Savage-Undead = 
 		{
 			id = 23
 			personalityGroup = 5
@@ -827,28 +861,21 @@
 			[
 				"axe",
 				"doom",
+				"death_prophet",
 				"lycan",
 				"life_stealer",
 				"treant_protector",
-				"ogre_magi",
-				"warlock",
+				"spirit_breaker",
+				"pangolier",
 				"tusk",
-				"bloodseeker",
+				"shadow_demon",
 				"magnus",
 			]
 			keywords = 
 			[
-				"ogre",
+				"undead",
 				"brutal",
 				"savage",
-			]
-			items = 
-			[
-				
-				{
-					item = "big_time_contract"
-					offset = 1000
-				},
 			]
 			names = 
 			[
@@ -867,17 +894,16 @@
 			maxLevelToBuy = 9
 			units = 
 			[
-				"lich",
-				"disruptor",
+				"death_prophet",
 				"lone_druid",
 				"doom",
-				"treant_protector",
-				"life_stealer",
 				"abaddon",
-				"shadow_fiend",
+				"spirit_breaker",
+				"life_stealer",
+				"alchemist",
 				"pudge",
+				"vengefulspirit",
 				"shadow_demon",
-				"ogre_magi",
 			]
 			keywords = 
 			[
@@ -901,7 +927,6 @@
 				1,
 			]
 			maxLevelToBuy = 9
-			notes = "summoner-hunter after playing with insects"
 			units = 
 			[
 				"medusa",
@@ -912,15 +937,15 @@
 				"beastmaster",
 				"doom",
 				"life_stealer",
-				"ogre_magi",
-				"treant_protector",
+				"alchemist",
+				"spirit_breaker",
 				"axe",
-				"weaver",
+				"antimage",
 			]
 			keywords = 
 			[
 				"hunter",
-				"summoner",
+				"brutal",
 			]
 			names = 
 			[
@@ -928,7 +953,7 @@
 			]
 			description = "#DAC_BotDescription_65"
 		}
-		Warrior-Primordials = 
+		Rogue-Poisoner = 
 		{
 			id = 26
 			personalityGroup = 8
@@ -936,19 +961,19 @@
 			[
 				3,
 			]
-			notes = "go warrior early on until troll primordial works"
 			units = 
 			[
 				"troll_warlord",
-				"wisp",
-				"morphling",
-				"enigma",
-				"juggernaut",
-				"razor",
-				"tiny",
-				"earth_spirit",
-				"pudge",
-				"arc_warden",
+				"doom",
+				"alchemist",
+				"viper",
+				"dazzle",
+				"sven",
+				"puck",
+				"antimage",
+				"meepo",
+				"bounty_hunter",
+				"queen_of_pain",
 				"venomancer",
 			]
 			names = 
@@ -969,7 +994,7 @@
 			[
 				"troll_warlord",
 				"sven",
-				"necrophos",
+				"treant_protector",
 				"dragon_knight",
 				"viper",
 				"omniknight",
@@ -978,7 +1003,7 @@
 				"dazzle",
 				"bat_rider",
 				"luna",
-				"warlock",
+				"enchantress",
 			]
 			names = 
 			[
@@ -997,17 +1022,17 @@
 			units = 
 			[
 				"axe",
-				"sand_king",
+				"pangolier",
 				"lone_druid",
-				"disruptor",
-				"broodmother",
+				"wraith_king",
+				"doom",
 				"legion_commander",
 				"beastmaster",
 				"juggernaut",
 				"bristleback",
 				"lycan",
 				"snapfire",
-				"tiny",
+				"tusk",
 			]
 			names = 
 			[
@@ -1025,17 +1050,17 @@
 			]
 			units = 
 			[
-				"lich",
 				"dragon_knight",
 				"keeper_of_the_light",
-				"necrophos",
-				"morphling",
+				"lina",
+				"rubick",
+				"puck",
 				"storm_spirit",
 				"crystal_maiden",
-				"ogre_magi",
-				"abaddon",
-				"tiny",
-				"razor",
+				"kunkka",
+				"lich",
+				"snapfire",
+				"omniknight",
 			]
 			names = 
 			[
@@ -1043,7 +1068,7 @@
 			]
 			description = "#DAC_BotDescription_69"
 		}
-		Heartless-Brutal-Brawny = 
+		Heartless-Brutal-Brawny-Hunter = 
 		{
 			id = 30
 			personalityGroup = 5
@@ -1053,27 +1078,26 @@
 			]
 			units = 
 			[
-				"lich",
 				"axe",
 				"doom",
-				"treant_protector",
-				"abaddon",
+				"death_prophet",
+				"terrorblade",
 				"life_stealer",
-				"abaddon",
-				"shadow_demon",
+				"vengefulspirit",
+				"drow_ranger",
 				"beastmaster",
 				"juggernaut",
 				"bristleback",
 				"pudge",
-				"drow_ranger",
+				"shadow_demon",
 				"wind_ranger",
-				"weaver",
 			]
 			keywords = 
 			[
 				"undead",
 				"brutal",
 				"brawny",
+				"hunter",
 			]
 			names = 
 			[
@@ -1081,7 +1105,7 @@
 			]
 			description = "#DAC_BotDescription_70"
 		}
-		Insect-Assassins = 
+		Void-Assassins = 
 		{
 			id = 31
 			personalityGroup = 6
@@ -1094,20 +1118,23 @@
 			[
 				"faceless_void",
 				"slark",
-				"sand_king",
+				"void_spirit",
 				"templar_assassin",
-				"broodmother",
-				"nyx_assassin",
-				"queen_of_pain",
-				"viper",
+				"spectre",
 				"ember_spirit",
-				"weaver",
-				"snapfire",
+				"queen_of_pain",
+				"phantom_assassin",
+				"earth_spirit",
+				"bounty_hunter",
+				"storm_spirit",
+				"tusk",
+				"slardar",
+				"kunkka",
 			]
 			keywords = 
 			[
 				"assassin",
-				"insect",
+				"void",
 			]
 			items = 
 			[
@@ -1123,7 +1150,7 @@
 			]
 			description = "#DAC_BotDescription_71"
 		}
-		Savage-Troll-Druid-Warlock-Warrior = 
+		Savage-Swordsman = 
 		{
 			id = 32
 			personalityGroup = 3
@@ -1134,24 +1161,31 @@
 			units = 
 			[
 				"lone_druid",
-				"necrophos",
-				"troll_warlord",
-				"sand_king",
-				"lycan",
-				"shadow_fiend",
-				"shadow_shaman",
+				"pangolier",
+				"wraith_king",
+				"sven",
+				"kunkka",
+				"juggernaut",
+				"ember_spirit",
 				"bristleback",
-				"witch_doctor",
+				"lycan",
+				"spirit_breaker",
+				"phantom_assassin",
 				"tusk",
-				"warlock",
+				"magnus",
 			]
 			keywords = 
 			[
 				"savage",
-				"troll",
-				"druid",
-				"warlock",
-				"warrior",
+				"swordsman",
+			]
+			items = 
+			[
+				
+				{
+					item = "swordsman_hat"
+					offset = 1000
+				},
 			]
 			names = 
 			[
@@ -1170,20 +1204,20 @@
 			notes = "Spirits and 3 warrior frontline with 6 mages to maximize spirit damage"
 			units = 
 			[
-				"lich",
 				"keeper_of_the_light",
+				"rubick",
 				"tidehunter",
 				"void_spirit",
 				"earth_spirit",
 				"storm_spirit",
-				"morphling",
-				"razor",
-				"ember_spirit",
-				"pudge",
-				"slardar",
+				"lina",
+				"puck",
+				"kunkka",
+				"lich",
 				"crystal_maiden",
-				"ogre_magi",
-				"tiny",
+				"ember_spirit",
+				"slardar",
+				"tusk",
 			]
 			keywords = 
 			[
@@ -1214,11 +1248,11 @@
 				"void_spirit",
 				"storm_spirit",
 				"earth_spirit",
-				"juggernaut",
 				"pudge",
 				"slardar",
+				"spectre",
 				"queen_of_pain",
-				"tiny",
+				"phantom_assassin",
 				"tusk",
 			]
 			keywords = 
@@ -1247,23 +1281,23 @@
 			[
 				"axe",
 				"troll_warlord",
-				"disruptor",
 				"doom",
+				"sven",
 				"tidehunter",
 				"juggernaut",
-				"treant_protector",
+				"alchemist",
 				"life_stealer",
 				"shadow_shaman",
-				"witch_doctor",
-				"slardar",
-				"pudge",
+				"kunkka",
 				"beastmaster",
+				"spirit_breaker",
+				"pudge",
 				"bristleback",
 				"dazzle",
 				"earth_spirit",
+				"slardar",
 				"snapfire",
 				"bat_rider",
-				"tiny",
 				"tusk",
 			]
 			keywords = 
@@ -1278,7 +1312,7 @@
 			]
 			description = "#DAC_BotDescription_75"
 		}
-		Summoners = 
+		Summoners-Poisoners = 
 		{
 			id = 36
 			personalityGroup = 3
@@ -1289,17 +1323,21 @@
 			maxLevelToBuy = 8
 			units = 
 			[
-				"arc_warden",
+				"meepo",
 				"lycan",
-				"sand_king",
+				"shadow_shaman",
 				"lone_druid",
+				"alchemist",
+				"keeper_of_the_light",
+				"tidehunter",
+				"dazzle",
 				"furion",
-				"disruptor",
-				"broodmother",
-				"bristleback",
-				"wisp",
-				"treant_protector",
+				"viper",
 				"venomancer",
+				"queen_of_pain",
+				"magnus",
+				"enchantress",
+				"tusk",
 			]
 			keywords = 
 			[
@@ -1314,6 +1352,7 @@
 		Dark-Trolls-Tombstones = 
 		{
 			id = 10001
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -1324,6 +1363,7 @@
 		Lycan And Friends = 
 		{
 			id = 10002
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -1334,6 +1374,7 @@
 		Golems Starting Trouble = 
 		{
 			id = 10003
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -1344,6 +1385,7 @@
 		Hunters-Only = 
 		{
 			id = 10004
+			isStreetfight = true
 			maxLevelToBuy = 10
 			units = 
 			[
@@ -1371,6 +1413,7 @@
 		Assassin Ambush = 
 		{
 			id = 10005
+			isStreetfight = true
 			units = 
 			[
 				"faceless_void",
@@ -1399,6 +1442,7 @@
 		Peacekeepers = 
 		{
 			id = 10006
+			isStreetfight = true
 			units = 
 			[
 				"dragon_knight",
@@ -1426,6 +1470,7 @@
 		troll grift = 
 		{
 			id = 10007
+			isStreetfight = true
 			units = 
 			[
 				"axe",
@@ -1454,6 +1499,7 @@
 		Hellboys = 
 		{
 			id = 10008
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -1464,6 +1510,7 @@
 		Insect Warlocks = 
 		{
 			id = 10009
+			isStreetfight = true
 			units = 
 			[
 				"sand_king",
@@ -1486,6 +1533,7 @@
 		Ogre Poker = 
 		{
 			id = 10010
+			isStreetfight = true
 			units = 
 			[
 				"ogre_magi",
@@ -1506,6 +1554,7 @@
 		Leg Breakers = 
 		{
 			id = 10012
+			isStreetfight = true
 			units = 
 			[
 				"axe",
@@ -1535,6 +1584,7 @@
 		Street Healers = 
 		{
 			id = 10013
+			isStreetfight = true
 			units = 
 			[
 				"necrophos",
@@ -1555,6 +1605,7 @@
 		Protection = 
 		{
 			id = 10014
+			isStreetfight = true
 			units = 
 			[
 				"troll_warlord",
@@ -1577,6 +1628,7 @@
 		Foresters = 
 		{
 			id = 10015
+			isStreetfight = true
 			units = 
 			[
 				"lycan",
@@ -1605,6 +1657,7 @@
 		Thunderhides = 
 		{
 			id = 10016
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -1615,6 +1668,7 @@
 		Team Anessix = 
 		{
 			id = 10017
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -1625,6 +1679,7 @@
 		Mage Warlocks = 
 		{
 			id = 10018
+			isStreetfight = true
 			units = 
 			[
 				"axe",
@@ -1653,6 +1708,7 @@
 		Meatsacks = 
 		{
 			id = 10019
+			isStreetfight = true
 			units = 
 			[
 				"axe",
@@ -1681,6 +1737,7 @@
 		scaled_slark = 
 		{
 			id = 10020
+			isStreetfight = true
 			units = 
 			[
 				"slark",
@@ -1704,6 +1761,7 @@
 		eidolons = 
 		{
 			id = 10021
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -1714,6 +1772,7 @@
 		insects = 
 		{
 			id = 10022
+			isStreetfight = true
 			units = 
 			[
 				"broodmother",
@@ -1736,6 +1795,7 @@
 		creeps = 
 		{
 			id = 10023
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -1746,6 +1806,7 @@
 		druids = 
 		{
 			id = 10024
+			isStreetfight = true
 			units = 
 			[
 				"lone_druid",
@@ -1768,6 +1829,7 @@
 		warriors-streetfight = 
 		{
 			id = 10025
+			isStreetfight = true
 			units = 
 			[
 				"tidehunter",
@@ -1791,6 +1853,7 @@
 		warlocks and dark trolls = 
 		{
 			id = 10026
+			isStreetfight = true
 			units = 
 			[
 				"necrophos",
@@ -1809,6 +1872,7 @@
 		Savage-Insect-Hunter-Warlocks streetfight with items = 
 		{
 			id = 10027
+			isStreetfight = true
 			units = 
 			[
 				"medusa",
@@ -1839,6 +1903,7 @@
 		Mage Warlocks-T3 = 
 		{
 			id = 10028
+			isStreetfight = true
 			units = 
 			[
 				"ogre_magi",
@@ -1867,6 +1932,7 @@
 		Brawny_Brutes = 
 		{
 			id = 10030
+			isStreetfight = true
 			units = 
 			[
 				"axe",
@@ -1894,6 +1960,7 @@
 		savage druids = 
 		{
 			id = 10031
+			isStreetfight = true
 			units = 
 			[
 				"lone_druid",
@@ -1921,6 +1988,7 @@
 		wildwings = 
 		{
 			id = 10032
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -1931,6 +1999,7 @@
 		dragons = 
 		{
 			id = 10033
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -1941,6 +2010,7 @@
 		year beasts = 
 		{
 			id = 10034
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -1951,6 +2021,7 @@
 		mages_and_golems = 
 		{
 			id = 10035
+			isStreetfight = true
 			units = 
 			[
 				"lich",
@@ -1974,6 +2045,7 @@
 		anessix_goons_T5 = 
 		{
 			id = 10036
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -1984,6 +2056,7 @@
 		enno_crew = 
 		{
 			id = 10037
+			isStreetfight = true
 			units = 
 			[
 				"axe",
@@ -2013,6 +2086,7 @@
 		Spirits fight = 
 		{
 			id = 10038
+			isStreetfight = true
 			units = 
 			[
 				"faceless_void",
@@ -2036,6 +2110,7 @@
 		warlocks fight = 
 		{
 			id = 10039
+			isStreetfight = true
 			units = 
 			[
 				"sand_king",
@@ -2058,6 +2133,7 @@
 		heartless fight = 
 		{
 			id = 10040
+			isStreetfight = true
 			units = 
 			[
 				"axe",
@@ -2080,6 +2156,7 @@
 		hellbears = 
 		{
 			id = 10041
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -2090,6 +2167,7 @@
 		bloodbounds = 
 		{
 			id = 10042
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -2100,6 +2178,7 @@
 		warriors-streetfight-Jug = 
 		{
 			id = 10043
+			isStreetfight = true
 			units = 
 			[
 				"troll_warlord",
@@ -2122,6 +2201,7 @@
 		primordials = 
 		{
 			id = 10044
+			isStreetfight = true
 			units = 
 			[
 				"enigma",
@@ -2144,6 +2224,7 @@
 		freed summons = 
 		{
 			id = 10045
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -2154,6 +2235,7 @@
 		humans_and_hunters = 
 		{
 			id = 10046
+			isStreetfight = true
 			units = 
 			[
 				"dragon_knight",
@@ -2176,6 +2258,7 @@
 		mages_and_healers = 
 		{
 			id = 10047
+			isStreetfight = true
 			units = 
 			[
 				"ogre_magi",
@@ -2199,6 +2282,7 @@
 		bloodbounds_and_savage = 
 		{
 			id = 10048
+			isStreetfight = true
 			units = 
 			[
 				"sand_king",
@@ -2222,6 +2306,7 @@
 		TB and hunters = 
 		{
 			id = 10049
+			isStreetfight = true
 			maxLevelToBuy = 10
 			units = 
 			[
@@ -2249,6 +2334,7 @@
 		Brawny_Brutes Anessix = 
 		{
 			id = 10051
+			isStreetfight = true
 			units = 
 			[
 				"axe",
@@ -2276,6 +2362,7 @@
 		SF and golems = 
 		{
 			id = 10053
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -2286,6 +2373,7 @@
 		Axe and friends = 
 		{
 			id = 10054
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -2296,6 +2384,7 @@
 		spirits_and_voids = 
 		{
 			id = 10055
+			isStreetfight = true
 			units = 
 			[
 				"faceless_void",
@@ -2319,6 +2408,7 @@
 		dk_and_black_dragons = 
 		{
 			id = 10056
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -2329,6 +2419,7 @@
 		humans_and_hunters_enno = 
 		{
 			id = 10057
+			isStreetfight = true
 			units = 
 			[
 				"dragon_knight",
@@ -2351,6 +2442,7 @@
 		trolls enno = 
 		{
 			id = 10058
+			isStreetfight = true
 			units = 
 			[
 				"troll_warlord",
@@ -2374,6 +2466,7 @@
 		heartless fight Enno = 
 		{
 			id = 10059
+			isStreetfight = true
 			units = 
 			[
 				"axe",
@@ -2396,6 +2489,7 @@
 		Hunters Enno = 
 		{
 			id = 10060
+			isStreetfight = true
 			maxLevelToBuy = 10
 			units = 
 			[
@@ -2423,6 +2517,7 @@
 		dragon units enno = 
 		{
 			id = 10061
+			isStreetfight = true
 			units = 
 			[
 				"dragon_knight",
@@ -2445,6 +2540,7 @@
 		Brutes Enno = 
 		{
 			id = 10062
+			isStreetfight = true
 			units = 
 			[
 				"axe",
@@ -2474,6 +2570,7 @@
 		Street Healers Enno = 
 		{
 			id = 10064
+			isStreetfight = true
 			units = 
 			[
 				"necrophos",
@@ -2494,6 +2591,7 @@
 		bloodbounds_and_warlocks = 
 		{
 			id = 10065
+			isStreetfight = true
 			units = 
 			[
 				"sand_king",
@@ -2517,6 +2615,7 @@
 		wildwings and druids = 
 		{
 			id = 10067
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -2527,6 +2626,7 @@
 		knights enno = 
 		{
 			id = 10068
+			isStreetfight = true
 			units = 
 			[
 				"dragon_knight",
@@ -2549,6 +2649,7 @@
 		dark_trolls = 
 		{
 			id = 10069
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -2559,6 +2660,7 @@
 		wolves = 
 		{
 			id = 10070
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -2569,6 +2671,7 @@
 		medusa = 
 		{
 			id = 10071
+			isStreetfight = true
 			units = 
 			[
 				"medusa",
@@ -2591,6 +2694,7 @@
 		human_mages_kotl = 
 		{
 			id = 10073
+			isStreetfight = true
 			units = 
 			[
 				"lich",
@@ -2614,6 +2718,7 @@
 		summoners_aw_trees = 
 		{
 			id = 10074
+			isStreetfight = true
 			units = 
 			[
 				"arc_warden",
@@ -2641,6 +2746,7 @@
 		dark_trolls_and_trolls = 
 		{
 			id = 10075
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -2651,6 +2757,7 @@
 		tutorial creeps = 
 		{
 			id = 10076
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -2661,6 +2768,7 @@
 		Golems jull = 
 		{
 			id = 10077
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -2671,6 +2779,7 @@
 		weekly_1 = 
 		{
 			id = 10101
+			isStreetfight = true
 			isStub = true
 			names = 
 			[
@@ -2681,16 +2790,30 @@
 		weekly_2 = 
 		{
 			id = 10102
-			isStub = true
+			isStreetfight = true
+			units = 
+			[
+				"tusk",
+				"sand_king",
+				"juggernaut",
+				"bristleback",
+				"magnus",
+				"lone_druid",
+				"lycan",
+				"pudge",
+				"abaddon",
+				"chaos_knight",
+			]
 			names = 
 			[
-				"#DAC_Challenge_Streetfight_golems_jull_Bot",
+				"#DAC_Challenge_Streetfight_weekly_street_fight_2_Bot",
 			]
 			description = "#DAC_Challenge_Streetfight_golems_jull_BotDesc"
 		}
 		weekly_3 = 
 		{
 			id = 10103
+			isStreetfight = true
 			units = 
 			[
 				"axe",
@@ -2709,6 +2832,250 @@
 				"#DAC_Challenge_Streetfight_weekly_street_fight_3_Bot",
 			]
 			description = "#DAC_Challenge_Streetfight_weekly_street_fight_3_BotDesc"
+		}
+		weekly_4 = 
+		{
+			id = 10104
+			isStreetfight = true
+			units = 
+			[
+				"lich",
+				"life_stealer",
+				"pudge",
+				"necrophos",
+				"abaddon",
+				"drow_ranger",
+				"ogre_magi",
+				"warlock",
+				"bat_rider",
+				"dazzle",
+				"shadow_demon",
+			]
+			names = 
+			[
+				"#DAC_Challenge_Streetfight_weekly_street_fight_4_Bot",
+			]
+			description = "#DAC_Challenge_Streetfight_weekly_street_fight_4_BotDesc"
+		}
+		weekly_5 = 
+		{
+			id = 10105
+			isStreetfight = true
+			units = 
+			[
+				"axe",
+				"doom",
+				"disruptor",
+				"life_stealer",
+				"beastmaster",
+				"treant_protector",
+				"ogre_magi",
+				"warlock",
+				"juggernaut",
+				"bristleback",
+				"snapfire",
+			]
+			names = 
+			[
+				"#DAC_Challenge_Streetfight_weekly_street_fight_5_Bot",
+			]
+			description = "#DAC_Challenge_Streetfight_weekly_street_fight_5_BotDesc"
+		}
+		weekly_6 = 
+		{
+			id = 10106
+			isStreetfight = true
+			units = 
+			[
+				"dragon_knight",
+				"sven",
+				"omniknight",
+				"luna",
+				"snapfire",
+				"legion_commander",
+				"wind_ranger",
+				"mirana",
+				"beastmaster",
+				"drow_ranger",
+			]
+			keywords = 
+			[
+				"knight",
+				"human",
+			]
+			names = 
+			[
+				"#DAC_Challenge_Streetfight_weekly_street_fight_6_Bot",
+			]
+			description = "#DAC_Challenge_Streetfight_peacekeepers_BotDesc"
+		}
+		weekly_7 = 
+		{
+			id = 10107
+			isStreetfight = true
+			isStub = true
+			names = 
+			[
+				"#DAC_Challenge_Streetfight_weekly_street_fight_7_Bot",
+			]
+			description = "#DAC_Challenge_Streetfight_creeps_BotDesc"
+		}
+		weekly_8 = 
+		{
+			id = 10108
+			isStreetfight = true
+			isStub = true
+			names = 
+			[
+				"#DAC_Challenge_Streetfight_weekly_street_fight_8_Bot",
+			]
+			description = "#DAC_Challenge_Streetfight_creeps_BotDesc"
+		}
+		Assassin weekly_9 = 
+		{
+			id = 10109
+			isStreetfight = true
+			units = 
+			[
+				"faceless_void",
+				"templar_assassin",
+				"viper",
+				"slark",
+				"queen_of_pain",
+				"ember_spirit",
+				"tidehunter",
+				"pudge",
+				"medusa",
+				"slardar",
+				"nyx_assassin",
+			]
+			keywords = 
+			[
+				"assassin",
+				"naga",
+			]
+			names = 
+			[
+				"#DAC_Challenge_Streetfight_weekly_street_fight_9_Bot",
+			]
+			description = "#DAC_Challenge_Streetfight_assassins_BotDesc"
+		}
+		weekly_10 = 
+		{
+			id = 10110
+			isStreetfight = true
+			units = 
+			[
+				"lich",
+				"keeper_of_the_light",
+				"crystal_maiden",
+				"morphling",
+				"razor",
+				"ogre_magi",
+				"life_stealer",
+				"doom",
+				"treant_protector",
+				"storm_spirit",
+			]
+			names = 
+			[
+				"#DAC_Challenge_Streetfight_weekly_street_fight_10_Bot",
+			]
+			description = "#DAC_Challenge_Streetfight_peacekeepers_BotDesc"
+		}
+		weekly_11 = 
+		{
+			id = 10111
+			isStreetfight = true
+			units = 
+			[
+				"antimage",
+				"slark",
+				"viper",
+				"snapfire",
+				"tidehunter",
+				"juggernaut",
+				"slardar",
+				"venomancer",
+				"lycan",
+				"pudge",
+			]
+			names = 
+			[
+				"#DAC_Challenge_Streetfight_weekly_street_fight_11_Bot",
+			]
+			description = "#DAC_Challenge_Streetfight_assassins_BotDesc"
+		}
+		weekly_12 = 
+		{
+			id = 10112
+			isStreetfight = true
+			units = 
+			[
+				"lone_druid",
+				"treant_protector",
+				"furion",
+				"magnus",
+				"lycan",
+				"broodmother",
+				"weaver",
+				"shadow_shaman",
+				"mirana",
+				"wind_ranger",
+			]
+			names = 
+			[
+				"#DAC_Challenge_Streetfight_weekly_street_fight_12_Bot",
+			]
+			description = "#DAC_Challenge_Streetfight_druids_BotDesc"
+		}
+		weekly_13 = 
+		{
+			id = 10113
+			isStreetfight = true
+			units = 
+			[
+				"terrorblade",
+				"dragon_knight",
+				"omniknight",
+				"luna",
+				"wind_ranger",
+				"drow_ranger",
+				"abaddon",
+				"viper",
+				"templar_assassin",
+				"ember_spirit",
+				"bat_rider",
+			]
+			names = 
+			[
+				"#DAC_Challenge_Streetfight_weekly_street_fight_13_Bot",
+			]
+			description = "#DAC_Challenge_Streetfight_assassins_BotDesc"
+		}
+		weekly_14 = 
+		{
+			id = 10114
+			isStreetfight = true
+			units = 
+			[
+				"faceless_void",
+				"void_spirit",
+				"razor",
+				"morphling",
+				"storm_spirit",
+				"templar_assassin",
+				"ember_spirit",
+				"enigma",
+				"arc_warden",
+				"earth_spirit",
+				"queen_of_pain",
+			]
+			names = 
+			[
+				"#DAC_Challenge_Streetfight_weekly_street_fight_14_Bot",
+			]
+			description = "#DAC_Challenge_Streetfight_assassins_BotDesc"
 		}
 	}
 }

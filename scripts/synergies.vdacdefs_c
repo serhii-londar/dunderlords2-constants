@@ -260,6 +260,10 @@
 			]
 			color = "150 31 28"
 			appliesToItems = true
+			precache = 
+			[
+				"particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_buff.vpcf",
+			]
 		}
 		Orc = 
 		{
@@ -766,6 +770,10 @@
 			[
 				1000,
 			]
+			enrage_bonus = 
+			[
+				2250,
+			]
 			color = "85 107 47"
 		}
 		MegaElusive = 
@@ -930,10 +938,16 @@
 					affects_all_allies_with_keyword = true
 				},
 			]
-			hp_bonus = 
+			hp_bonus_kill_mult = 
 			[
 				15,
 				30,
+			]
+			rank_multiplier = 
+			[
+				1,
+				1,
+				1,
 			]
 			color = "166 27 27"
 			precache = 
@@ -1156,6 +1170,8 @@
 			damage = 225
 			disable_duration = 3
 			bonus_damage = 100
+			multiplier_2star = 1.000000
+			multiplier_3star = 1.000000
 			precache = 
 			[
 				"particles/gameplay/synergy/spirit/spirit_storm_impact.vpcf",
@@ -1270,6 +1286,183 @@
 			precache = 
 			[
 				"particles/gameplay/synergy/void/void_pure_damage.vpcf",
+			]
+		}
+		Fallen = 
+		{
+			type = "Race"
+			levels = 
+			[
+				
+				{
+					id = 30001
+					unitcount = 3
+					affects_all_allies_with_keyword = true
+				},
+				
+				{
+					id = 30002
+					unitcount = 6
+					affects_all_allies_with_keyword = true
+				},
+			]
+			radius = 2
+			heal = 250
+			damage_bonus_pct = 10
+			revive_times = 
+			[
+				0,
+				1,
+			]
+			resurrect_hp_pct = 40
+			copy_items = 1
+			copy_ability_cooldowns = 0
+			copy_item_cooldowns = 1
+			color = "228 110 213"
+			precache = 
+			[
+				"particles/gameplay/synergy/fallen/fallen_heal_buff_cast.vpcf",
+				"particles/gameplay/synergy/fallen/fallen_revive.vpcf",
+			]
+		}
+		Wild = 
+		{
+			type = "Race"
+			levels = 
+			[
+				
+				{
+					id = 30003
+					unitcount = 2
+					affects_random_ally_with_keyword = true
+				},
+				
+				{
+					id = 30004
+					unitcount = 4
+					affects_random_ally_with_keyword = true
+				},
+				
+				{
+					id = 30005
+					unitcount = 6
+					affects_random_ally_with_keyword = true
+				},
+			]
+			summon_delay = 0.250000
+			summon_id = 
+			[
+				138,
+				139,
+				141,
+			]
+			summon_display_name = 
+			[
+				"#dac_unit_neutral_wolf_small",
+				"#dac_unit_neutral_vulture_b",
+				"#dac_unit_neutral_black_dragon",
+			]
+			precache = 
+			[
+				"particles/items/horn_of_the_alpha/horn_of_the_alpha_summon.vpcf",
+			]
+			color = "46 99 64"
+		}
+		Swordsman = 
+		{
+			type = "Class"
+			levels = 
+			[
+				
+				{
+					id = 30006
+					unitcount = 3
+					affects_all_allies_with_keyword = true
+				},
+				
+				{
+					id = 30007
+					unitcount = 6
+					affects_all_allies_with_keyword = true
+				},
+			]
+			damage_bonus_pct = 
+			[
+				10,
+				25,
+			]
+			color = "194 147 21"
+		}
+		Rogue = 
+		{
+			type = "Class"
+			levels = 
+			[
+				
+				{
+					id = 30008
+					unitcount = 2
+					affects_all_allies_with_keyword = true
+				},
+				
+				{
+					id = 30009
+					unitcount = 4
+					affects_all_allies_with_keyword = true
+				},
+			]
+			evasion_pct = 
+			[
+				20,
+				30,
+			]
+			bonus_attack_damage = 
+			[
+				10,
+				20,
+			]
+			color = "150 31 28"
+		}
+		Poisoner = 
+		{
+			type = "Class"
+			levels = 
+			[
+				
+				{
+					id = 30010
+					unitcount = 3
+					affects_all_allies_with_keyword = true
+				},
+			]
+			attack_speed_loss_per_stack = 7
+			color = "0 128 128"
+			precache = 
+			[
+				"particles/underlords/enno/enno_poison_stack.vpcf",
+				"particles/items2_fx/orb_of_venom.vpcf",
+			]
+		}
+		Magus = 
+		{
+			type = "Race"
+			levels = 
+			[
+				
+				{
+					id = 30011
+					unitcount = 1
+					affects_all_allies_with_keyword = true
+				},
+			]
+			health_pct = 50
+			duration = 3.000000
+			color = "77 105 255"
+			precache = 
+			[
+				"particles/items4_fx/combo_breaker_buff.vpcf",
+				"particles/items4_fx/combo_breaker_spell.vpcf",
+				"particles/status_fx/status_effect_combo_breaker.vpcf",
 			]
 		}
 	}
@@ -1534,6 +1727,10 @@
 			]
 			color = "150 31 28"
 			appliesToItems = true
+			precache = 
+			[
+				"particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_buff.vpcf",
+			]
 		}
 		Orc = 
 		{
@@ -1585,7 +1782,7 @@
 			]
 			attack_speed_bonus_others = 
 			[
-				10,
+				15,
 				30,
 			]
 			applies_to_untargetable_units = true
@@ -1623,7 +1820,7 @@
 			[
 				4,
 				9,
-				16,
+				15,
 			]
 			color = "127 160 154"
 			appliesToItems = true
@@ -1798,26 +1995,26 @@
 			physical_reduction = 
 			[
 				15,
-				19,
-				23,
+				20,
+				25,
 			]
 			magical_reduction = 
 			[
 				15,
-				19,
-				23,
+				20,
+				25,
 			]
 			physical_reduction_extra = 
 			[
 				15,
-				19,
-				23,
+				20,
+				25,
 			]
 			magical_reduction_extra = 
 			[
 				15,
-				19,
-				23,
+				20,
+				25,
 			]
 			duration = 1.000000
 			unit_id_for_always_adjacent = 21
@@ -1979,8 +2176,8 @@
 			]
 			armor_bonus = 
 			[
-				9,
-				19,
+				10,
+				25,
 			]
 			color = "28 103 180"
 		}
@@ -2039,6 +2236,10 @@
 			enrage_bonus_pct = 
 			[
 				1000,
+			]
+			enrage_bonus = 
+			[
+				2250,
 			]
 			color = "85 107 47"
 		}
@@ -2204,10 +2405,16 @@
 					affects_all_allies_with_keyword = true
 				},
 			]
-			hp_bonus = 
+			hp_bonus_kill_mult = 
 			[
-				15,
-				30,
+				5,
+				10,
+			]
+			rank_multiplier = 
+			[
+				1,
+				2,
+				3,
 			]
 			color = "166 27 27"
 			precache = 
@@ -2282,7 +2489,7 @@
 			[
 				5,
 				8,
-				10,
+				13,
 			]
 			alliance_eligible = 
 			[
@@ -2427,9 +2634,11 @@
 					affects_all_allies_with_keyword = true
 				},
 			]
-			damage = 200
-			disable_duration = 3
+			damage = 130
+			disable_duration = 1.500000
 			bonus_damage = 100
+			multiplier_2star = 1.500000
+			multiplier_3star = 2.000000
 			precache = 
 			[
 				"particles/gameplay/synergy/spirit/spirit_storm_impact.vpcf",
@@ -2544,6 +2753,183 @@
 			precache = 
 			[
 				"particles/gameplay/synergy/void/void_pure_damage.vpcf",
+			]
+		}
+		Fallen = 
+		{
+			type = "Race"
+			levels = 
+			[
+				
+				{
+					id = 30001
+					unitcount = 3
+					affects_all_allies_with_keyword = true
+				},
+				
+				{
+					id = 30002
+					unitcount = 6
+					affects_all_allies_with_keyword = true
+				},
+			]
+			radius = 2
+			heal = 250
+			damage_bonus_pct = 10
+			revive_times = 
+			[
+				0,
+				1,
+			]
+			resurrect_hp_pct = 40
+			copy_items = 1
+			copy_ability_cooldowns = 0
+			copy_item_cooldowns = 1
+			color = "228 110 213"
+			precache = 
+			[
+				"particles/gameplay/synergy/fallen/fallen_heal_buff_cast.vpcf",
+				"particles/gameplay/synergy/fallen/fallen_revive.vpcf",
+			]
+		}
+		Wild = 
+		{
+			type = "Race"
+			levels = 
+			[
+				
+				{
+					id = 30003
+					unitcount = 2
+					affects_random_ally_with_keyword = true
+				},
+				
+				{
+					id = 30004
+					unitcount = 4
+					affects_random_ally_with_keyword = true
+				},
+				
+				{
+					id = 30005
+					unitcount = 6
+					affects_random_ally_with_keyword = true
+				},
+			]
+			summon_delay = 0.250000
+			summon_id = 
+			[
+				138,
+				139,
+				141,
+			]
+			summon_display_name = 
+			[
+				"#dac_unit_neutral_wolf_small",
+				"#dac_unit_neutral_vulture_b",
+				"#dac_unit_neutral_black_dragon",
+			]
+			precache = 
+			[
+				"particles/items/horn_of_the_alpha/horn_of_the_alpha_summon.vpcf",
+			]
+			color = "46 99 64"
+		}
+		Swordsman = 
+		{
+			type = "Class"
+			levels = 
+			[
+				
+				{
+					id = 30006
+					unitcount = 3
+					affects_all_allies_with_keyword = true
+				},
+				
+				{
+					id = 30007
+					unitcount = 6
+					affects_all_allies_with_keyword = true
+				},
+			]
+			damage_bonus_pct = 
+			[
+				10,
+				25,
+			]
+			color = "194 147 21"
+		}
+		Rogue = 
+		{
+			type = "Class"
+			levels = 
+			[
+				
+				{
+					id = 30008
+					unitcount = 2
+					affects_all_allies_with_keyword = true
+				},
+				
+				{
+					id = 30009
+					unitcount = 4
+					affects_all_allies_with_keyword = true
+				},
+			]
+			evasion_pct = 
+			[
+				20,
+				30,
+			]
+			bonus_attack_damage = 
+			[
+				10,
+				20,
+			]
+			color = "150 31 28"
+		}
+		Poisoner = 
+		{
+			type = "Class"
+			levels = 
+			[
+				
+				{
+					id = 30010
+					unitcount = 3
+					affects_all_allies_with_keyword = true
+				},
+			]
+			attack_speed_loss_per_stack = 7
+			color = "0 128 128"
+			precache = 
+			[
+				"particles/underlords/enno/enno_poison_stack.vpcf",
+				"particles/items2_fx/orb_of_venom.vpcf",
+			]
+		}
+		Magus = 
+		{
+			type = "Race"
+			levels = 
+			[
+				
+				{
+					id = 30011
+					unitcount = 1
+					affects_all_allies_with_keyword = true
+				},
+			]
+			health_pct = 50
+			duration = 3.000000
+			color = "77 105 255"
+			precache = 
+			[
+				"particles/items4_fx/combo_breaker_buff.vpcf",
+				"particles/items4_fx/combo_breaker_spell.vpcf",
+				"particles/status_fx/status_effect_combo_breaker.vpcf",
 			]
 		}
 	}
