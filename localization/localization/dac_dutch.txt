@@ -18,25 +18,25 @@
 	"DAC_ConnectingToGC"								"Verbinden met spelcoördinator. Dit kan een paar seconden duren..."
 
 	"DAC_Go_Online"										"Online spelen"
-	"DAC_SteamLogIn_Title"								"Aanmelden bij Steam"
+	"DAC_SteamLogIn_Title"								"Inloggen bij Steam"
 	"DAC_SteamLogIn_SubHeader"							"Speel multiplayerspellen, verhoog de rang van je Underlord en krijg toegang tot de beloningen in de gevechtspas en de Stadstocht."
 	"DAC_SteamLogIn_CreateFree"							"Gratis account maken"
 
 	"DAC_SteamLogIn_Desc1"								"Meld je aan bij Steam om multiplayerspellen te spelen, je Underlord-rang te verhogen en je voortgang op mobiel en pc bij te houden."
 	"DAC_SteamLogIn_Desc2"								"Verhoog je Underlord-rang en volg je voortgang op mobiel, tablet en pc."
-	"DAC_SteamLogIn_Desc3"								"Verdien prestaties en krijg toegang tot functies van de seizoensgevechtspas."
+	"DAC_SteamLogIn_Desc3"								"Verdien prestaties en krijg toegang tot functies van de gevechtspas."
 	"DAC_SteamLogIn_Desc4"								"Meld je aan bij Steam om deze modus te spelen."
 	"DAC_SteamPlayOffline"								"Annuleren"
 	"DAC_SteamAccountName"								"Accountnaam" 
 	"DAC_SteamAccountPassword"							"Wachtwoord"
 	"DAC_SteamGuardCode"								"Steam Guard-code"
-	"DAC_SteamAccountLogin"								"Aanmelden"
+	"DAC_SteamAccountLogin"								"Inloggen"
 	"DAC_SteamAcountStoreCredentials"					"Mijn gegevens onthouden"
 	"DAC_SteamCreateAccount"							"Account maken"
 	"DAC_SteamLogIn_Help"								"Hulp nodig bij het aanmelden?"
 	"DAC_SteamLogIn_Forgot"								"Wachtwoord vergeten?"
 	"DAC_SteamLogIn_Connecting"							"Verbinden met Steam"
-	"DAC_SteamLogIn_FailedGeneric"						"Aanmelden bij Steam mislukt. Probeer het opnieuw. (Foutcode {i:error_code})"
+	"DAC_SteamLogIn_FailedGeneric"						"Inloggen op Steam mislukt. Probeer het opnieuw. (Foutcode {i:error_code})"
 	"DAC_SteamLogIn_FailedPassword"						"Ongeldig wachtwoord. Probeer het opnieuw."
 	"DAC_SteamLogOut"									"Uitloggen"
 	"DAC_LandingSubtitle"								"Privébèta"
@@ -45,6 +45,9 @@
 
 	"DAC_MatchTypeMultiplayer"							"Multiplayer"
 	"DAC_MatchTypeStandard"								"Standaard"
+	"DAC_MatchTypeClassic"								"Klassiek"
+	"DAC_MatchMode"										"Spelmodus"
+	"DAC_MatchModeClassic"								"Klassieke modus"
 	"DAC_MatchTypeOnline"								"Online"
 	"DAC_MatchTypeTurbo"								"Knock-out"
 	"DAC_MatchTypeMultiplayerMMSelect"					"Type selecteren"
@@ -56,9 +59,11 @@
 	"DAC_MatchTypeNameRankedLockedPlural"				"Speel {i:games_needed_to_unlock_ranked} casual spellen om te ontgrendelen"
 	"DAC_MatchTypeBotMatch"								"Botspel"
 	"DAC_MatchTypeNameDuos"								"Duo's"
-	"DAC_MatchTypeDuosBotMatch"							"Duo-botspel"
+	"DAC_MatchTypeDuosBotMatch"							"Duo's-botspel"
 	"DAC_MatchTypeName1_Party"							"Privélobby"
-	"DAC_MatchTypeName1"								"Klassiek"
+	"DAC_MatchTypeName1"								"Standaard"
+	"DAC_MatchTypeName11_Party"							"Privélobby"
+	"DAC_MatchTypeName11"								"Standaard"
 	"DAC_MatchTypeName7"								"Tutorial"
 	"DAC_MatchTypeName2"								"Knock-out"
 	"DAC_MatchTypeName3"								"Duo's"
@@ -236,8 +241,8 @@
 	"DAC_PurchaseEvent_TooBusy"							"Het Dota Underlords-netwerk is momenteel te druk bezet om deze actie te verwerken. Probeer het over een paar minuten opnieuw."
 	"DAC_PurchaseEvent_InvalidEvent"					"Dit evenement is niet meer beschikbaar."
 	"DAC_PurchaseEvent_InsufficientCredits"				"Je hebt onvoldoende saldo om deze gevechtspas te kopen."
-	"DAC_PurchaseEvent_ExpectedCostMismatch"			"Er is een onverwachte fout opgetreden bij het kopen van dit seizoen. Je client moet mogelijk worden bijgewerkt."
-	"DAC_PurchaseEvent_AlreadyOwned"					"Je hebt dit seizoen al in je bezit"	
+	"DAC_PurchaseEvent_ExpectedCostMismatch"			"Er is een onverwachte fout opgetreden bij het kopen van deze gevechtspas. Je client moet mogelijk worden bijgewerkt."
+	"DAC_PurchaseEvent_AlreadyOwned"					"Je hebt deze gevechtspas al"	
 	"DAC_PurchaseEvent_SuccessTitle"					"Gelukt"
 	"DAC_PurchaseEvent_SuccessBody"						"Je aankoop van de gevechtspas is met succes voltooid!"
 	"StoreCheckout_Error_Title"							"Fout"
@@ -250,9 +255,9 @@
 	"DAC_PurchaseEventCurrency_InternalError"			"Er is een onverwachte fout opgetreden bij het verwerken van je aankoop."
 	"DAC_PurchaseEventCurrency_Disabled"				"Je kunt tijdelijk geen aankopen doen wegens onderhoud"
 	"DAC_PurchaseEventCurrency_TooBusy"					"Het Dota Underlords-netwerk is momenteel te druk bezet om deze actie te verwerken. Probeer het over een paar minuten opnieuw."
-	"DAC_PurchaseEventCurrency_EventNotOwned"			"Je moet dit seizoen al in je bezit hebben om bijkomende levels te kunnen kopen."
-	"DAC_PurchaseEventCurrency_InvalidCurrency"			"Je kunt geen levels kopen voor dit seizoen."
-	"DAC_PurchaseEventCurrency_EventClosed"				"Dit seizoen is nu afgelopen en je kunt geen levels kopen."
+	"DAC_PurchaseEventCurrency_EventNotOwned"			"Je moet deze gevechtspas hebben om bijkomende levels te kunnen kopen."
+	"DAC_PurchaseEventCurrency_InvalidCurrency"			"Je kunt geen levels kopen voor deze gevechtspas."
+	"DAC_PurchaseEventCurrency_EventClosed"				"Deze gevechtspas is nu afgelopen en je kunt geen levels kopen."
 	"DAC_PurchaseEventCurrency_InvalidQuantity"			"Het aantal levels dat je wilt kopen is ongeldig. Je client moet mogelijk worden bijgewerkt."
 	"DAC_PurchaseEventCurrency_InvalidExpectedCost"		"De berekende kostprijs voor deze levels is ongeldig. Je client moet mogelijk worden bijgewerkt."
 	"DAC_PurchaseEventCurrency_InvalidStartingBalance"	"Er is een onverwachte fout opgetreden bij het kopen van deze levels. Je client moet mogelijk worden bijgewerkt."
@@ -577,7 +582,7 @@
 	"DAC_Underlord_2"								"Jull"
 	"DAC_Underlord_Subtitle_2"						"Smokkelaar uit IJswrak"
 	"DAC_Underlord_2_SubDesc"						"Vechtlustige Walrus"
-	"DAC_Underlord_Overview_2"						"Jull is een krachtige meleetank. Zijn troepen zijn altijd goed voorzien van drank om ze vechtlustig te houden."
+	"DAC_Underlord_Overview_2"						"Jull is een krachtige mêleetank. Zijn troepen zijn altijd goed voorzien van drank om ze vechtlustig te houden."
 	"DAC_Underlord_DescriptionHeader_2"				"Een gangster met principes"
 	"DAC_Underlord_Description_2"					"Wat er in het Zuiden voor wijn doorgaat is een schande. Wat ze whiskey durven noemen is beneden alle peil. Het was nooit mijn bedoeling om angst in de boezemen... Ik wilde de brave burgers van Witspits enkel van de kwaliteitsalcohol voorzien waar IJswrak om bekendstaat. Maar jaloerse competitie betekent wanhopige zielen. En wanhopige zielen maken... onverstandige beslissingen. Ik had weinig keuze: ik moest hen allemaal tot voorbeeld stellen."
 
@@ -698,7 +703,7 @@
 	"dac_name_enno"										"Enno"
 
 	"dac_item_anessixs_gift"							"Geschenk van Anessix"
-	"dac_item_anessixs_gift_desc"						"De uitgeruste held wordt een Demon."
+	"dac_item_anessixs_gift_desc"						"De uitgeruste held wordt een demon."
 	"dac_item_anessixs_gift_lore"						"Over het Geschenk van Anessix"
 
 	"dac_name_cinderwall"								"Sintelmuur"	
@@ -706,84 +711,84 @@
 	"dac_item_cinderwall_lore"							"Over de Sintelmuur"
 
 	"dac_item_aegis_new"                                "Aegis"
-	"dac_item_aegis_new_desc"                           "De uitgeruste held komt terug uit de dood met {d:resurrect_health_percent}% van zijn of haar maximale gezondheid {d:resurrect_delay} seconden na te zijn gestorven. (een keer per gevecht)"
+	"dac_item_aegis_new_desc"                           "De uitgeruste held komt terug uit de dood met {s:resurrect_health_percent}% van zijn of haar maximale gezondheid {s:resurrect_delay} seconden na te zijn gestorven. (een keer per gevecht)"
 	"dac_item_aegis_new_lore"                           "De kaas is extra. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_bloodthorn"		    					"Bloeddoorn"
-	"dac_item_bloodthorn_desc"			    			"+{d:attack_damage} aanvalsschade. Als een vijandelijke held meer dan {d:mana_trigger_percentage}% mana heeft, wordt deze {d:silence_duration} seconden verstomd. Aanvallen tegen de gemuilkorfde held kunnen niet missen en richten {d:target_crit_multiplier}% kritieke schade aan. (afkoeltijd van {d:cooldown} seconden)"
+	"dac_item_bloodthorn_desc"			    			"{s:attack_damage} meer aanvalsschade. Als een vijandelijke held meer dan {s:mana_trigger_percentage}% mana heeft, wordt deze {s:silence_duration} seconden verstomd. Aanvallen tegen de gemuilkorfde held kunnen niet missen en richten {s:target_crit_multiplier}% kritieke schade aan. (afkoeltijd van {s:cooldown} seconden)"
 	"dac_item_bloodthorn_lore"			    			"Bij het gebruik van deze kling maak je geen vrienden, maar je schakelt er wel veel vijanden mee uit. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_butterfly"								"De vlinder"
-	"dac_item_butterfly_desc"			    			"+{d:attack_damage} aanvalsschade. +{d:attack_speed} aanvalssnelheid. +{d:evasion}% ontwijkingskans."
+	"dac_item_butterfly_desc"			    			"{s:attack_damage} meer aanvalsschade. {s:attack_speed} meer aanvalssnelheid. {s:evasion}% meer ontwijkingskans."
 	"dac_item_butterfly_lore"			    			"De 'kids' vinden dit ding geweldig. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_crystalis"								"Crystalys"
-	"dac_item_crystalis_desc"							"+{d:attack_damage} aanvalsschade. {d:bonus_damage_chance}% kans op een kritieke treffer van {d:bonus_damage_multiplier}% schade."
+	"dac_item_crystalis_desc"							"{s:attack_damage} meer aanvalsschade. {s:bonus_damage_chance}% kans op een kritieke treffer van {s:bonus_damage_multiplier}% schade."
 	"dac_item_crystalis_lore"							"Ik kan alleen maar raden wat voor een schade een Zuster van de Sluier met een van deze dingen zou kunnen aanrichten. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_desolator"								"Desolator"
-	"dac_item_desolator_desc"							"Het doelwit verliest {d:target_armor} pantser gedurende {d:duration} seconden."
+	"dac_item_desolator_desc"							"Het doelwit verliest {s:target_armor} pantser gedurende {s:duration} seconden."
 	"dac_item_desolator_lore"							"Dus je wilt een statement maken. In dat geval: kan ik je hierin misschien interesseren... – <i>Zenok, heler van Witspits</i>"
 	"dac_item_diffusal_blade"							"Zielenkliever"
 	"dac_item_diffusal_blade_lore"						"Je gaat je nooit meer als de Antimagiër voelen dan wanneer je dit ding hanteert. – <i>Zenok, heler van Witspits</i>"		
-	"dac_item_diffusal_blade_desc"						"De aanvallen van de uitgeruste held verbranden {d:mana_per_hit} mana per treffer en richten {d:damage_per_burn} schade aan per treffer. Aangerichte schade door de held levert het doelwit 0 mana op."
+	"dac_item_diffusal_blade_desc"						"De aanvallen van de uitgeruste held verbranden {s:mana_per_hit} mana per treffer en richten {s:damage_per_burn} schade aan per treffer. Aangerichte schade door de held levert het doelwit 0 mana op."
 	"dac_item_divine_rapier_new"                        "Goddelijke degen"
-	"dac_item_divine_rapier_new_desc"					"+{d:attack_damage} aanvalsschade. Als de goddelijke degen in het gevecht wordt gebruikt en je de ronde tegen een andere speler verliest, steelt deze de goddelijke degen."
+	"dac_item_divine_rapier_new_desc"					"{s:attack_damage} extra aanvalsschade. Als de Goddelijke degen in het gevecht wordt gebruikt en je de ronde tegen een andere speler verliest, steelt deze de Goddelijke degen."
 	"dac_item_divine_rapier_new_lore"					"Soms schreeuwen de goden om bloed. – <i>Zenok, heler van Witspits</i>"	
 	"dac_item_eul"										"Scepter van Eul"
-	"dac_item_eul_desc"									"+{d:mana_per_second} mana per seconde. Elke keer als een eenheid de uitgeruste held aanvalt, wervelt het de lucht in en deze wordt zo {s:eul_duration} seconden onkwetsbaar. (afkoeltijd: {d:cooldown} seconden)"
+	"dac_item_eul_desc"									"{s:mana_per_second} extra mana per seconde. Elke keer een eenheid de uitgeruste held aanvalt, wordt die eenheid de lucht ingezogen in een draaikolk en zo {s:eul_duration} seconden onkwetsbaar gemaakt. (afkoeltijd: {s:cooldown} seconden)"
 	"dac_item_eul_lore"									"Hiermee kun je de wind der verandering aansturen! – <i>Zenok, heler van Witspits</i>"
 	"dac_item_hand_of_midas"							"Hand van Midas"
-	"dac_item_hand_of_midas_desc"						"+{d:attack_speed} aanvalssnelheid. De uitgeruste held heeft een kans van {d:percent_gold}% om {d:gold} goud te ontvangen als hij of zij een vijand doodt."
+	"dac_item_hand_of_midas_desc"						"{s:attack_speed} meer aanvalssnelheid. {s:percent_gold}% kans op {s:gold} goud elke keer de uitgeruste held een vijand doodt."
 	"dac_item_hand_of_midas_lore"						"Sommige mensen zeggen dat geld de bron is van alle kwaad. Die mensen zijn idioten en daarom zijn ze platzak. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_heart_of_tarrasque_new"					"Hart van Tarrasque"
-	"dac_item_heart_of_tarrasque_new_desc"				"+{d:health_bonus} gezondheid. Uitgeruste held regenereert {d:bonus_hp_regen}% van zijn of haar maximale gezondheid per seconde."
+	"dac_item_heart_of_tarrasque_new_desc"				"{s:health_bonus} meer gezondheid. Uitgeruste held regenereert {s:bonus_hp_regen}% van zijn of haar maximale gezondheid per seconde."
 	"dac_item_heart_of_tarrasque_new_lore"				"De dood is voor de minderen. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_horn_of_the_alpha"                        "Hoorn van de Alfa"
 	"dac_item_horn_of_the_alpha_desc"                   "Roept {s:summon_cooldown} seconden nadat het gevecht is begonnen een machtige donderhuid op (een keer per gevecht)."
 	"dac_item_horn_of_the_alpha_lore"                   "Je kunt je niet voorstellen hoeveel Marrowfell-jagers gestorven zijn om deze hoorn te pakken te krijgen. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_kaya"										"Kaya"
-	"dac_item_kaya_desc"								"+{d:bonus_spell_damage}% meer vaardigheidsschade."
+	"dac_item_kaya_desc"								"{s:bonus_spell_damage}% meer vaardigheidsschade."
 	"dac_item_kaya_lore"								"Kijk, als sommige mensen zeggen dat iets 'al millennia zoek is', moet je dat echt met een korrel zout nemen. Da's allemaal marketing. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_mask_of_death"							"Morbide masker"
-	"dac_item_mask_of_death_desc"						"+{d:lifesteal_percentage}% levensdiefstal."
+	"dac_item_mask_of_death_desc"						"{s:lifesteal_percentage}% meer levensdiefstal."
 	"dac_item_mask_of_death_lore"						"Woordje advies: als je op een feestje bent en jij bent de enige die niet zo'n masker opheeft... rennen. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_octarine_essence"							"Octarine-essentie"
-	"dac_item_octarine_essence_desc"					"Vermindert afkoeltijd van vaardigheden met {d:cooldown_percentage}%."
+	"dac_item_octarine_essence_desc"					"Vermindert afkoeltijd van vaardigheden met {s:cooldown_percentage}%."
 	"dac_item_octarine_essence_lore"					"Dit is maar een voorproefje van wat de octarinekern kan doen. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_orb_of_venom"								"Gifbol"
 	"dac_item_orb_of_venom_desc"						"Vijanden geraakt door de aanvallen van de uitgeruste held worden vergiftigd."
 	"dac_item_orb_of_venom_lore"						"Om een man te doden heb je alleen maar tijd nodig, hoor je wel eens zeggen. Ik zeg: waarom de tijd niet een handje helpen? – <i>Zenok, heler van Witspits</i>"
 	"dac_item_radiance_new"                             "Zonnekling"
-	"dac_item_radiance_new_desc"                        "Zet vijanden in brand aan {d:attack_damage_over_time} schade per seconde in een straal van {d:attack_damage_aoe} cellen. Vijanden die in brand staan, hebben {d:miss_percent}% kans om hun aanvallen te missen."
+	"dac_item_radiance_new_desc"                        "Zet vijanden in brand aan {s:attack_damage_over_time} schade per seconde in een straal van {s:attack_damage_aoe} cellen. Vijanden die in brand staan, hebben {s:miss_percent}% kans om hun aanvallen te missen."
 	"dac_item_radiance_new_lore"                        "Iets dat zo heilig is, hoort niet thuis in Witspits. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_headdress"								"Hoofdtooi"
-	"dac_item_headdress_desc"							"Eenheden op 1 cel afstand van de uitgeruste held krijgen +{d:health_regen} gezondheid per seconde."
+	"dac_item_headdress_desc"							"Eenheden op 1 cel afstand van de uitgeruste held krijgen {s:health_regen} meer gezondheid per seconde."
 	"dac_item_headdress_lore"							"Ik heb het gekocht van een kerel die beweerde dat het van Ghastly Eyrie kwam. Geen idee of dat waar is, maar het heeft een mooie pluim. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_satanic"                                  "Satanische egel"
-	"dac_item_satanic_desc"                             "+{d:bonus_health} gezondheid. Elke keer een uitgeruste held minder dan {d:activation_percent}% gezondheid heeft, krijgt die +{d:life_steal_percent}% levensdiefstal gedurende {s:life_steal_duration} seconden. (afkoeltijd: {d:cooldown} seconden)"
+	"dac_item_satanic_desc"                             "{s:bonus_health} meer gezondheid. Elke keer een uitgeruste held minder dan {s:activation_percent}% gezondheid heeft, krijgt die {s:life_steal_percent}% extra levensdiefstal gedurende {s:life_steal_duration} seconden. (afkoeltijd: {s:cooldown} seconden)"
 	"dac_item_satanic_lore"                             "Hoe sneller je dit ding uit mijn winkel verwijdert, hoe beter. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_shivas_guard_new"							"Shiva's pantser"
-	"dac_item_shivas_guard_new_desc"					"+{d:bonus_armor} pantser. Zendt een bevriezende golf uit die {d:blast_damage} schade aanricht aan vijanden in een straal van 3 cellen en hun bewegings- en aanvalssnelheid {s:blast_debuff_duration} seconden vertraagt met {d:blast_debuff_move_speed}. (een keer per gevecht)"
+	"dac_item_shivas_guard_new_desc"					"{s:bonus_armor} extra pantser. Zendt een bevriezende golf uit die {s:blast_damage} schade aanricht aan vijanden in een straal van 3 cellen en hun bewegings- en aanvalssnelheid {s:blast_debuff_duration} seconden vertraagt met {s:blast_debuff_move_speed}. (een keer per gevecht)"
 	"dac_item_shivas_guard_new_lore"					"Vraag me niet hoe dit uit de kluis van het Saffieren Conclaaf is geraakt. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_stonehall_pike"							"Piek van Steenhal"
-	"dac_item_stonehall_pike_desc"						"Uitgeruste held ontvangt +{d:attack_damage} plus +{d:damage_per_kill} schade per eenheid die hij of zij gedood heeft, tot een maximum van +{d:max_damage} schade. (+12 schade per gedode eenheid in Knock-out)"
+	"dac_item_stonehall_pike_desc"						"Uitgeruste held ontvangt {s:attack_damage} extra, plus {s:damage_per_kill_kill_mult} extra schade per eenheid die hij of zij gedood heeft, tot een maximum van {s:max_damage} extra schade (schade per gedode eenheid varieert naargelang de spelmodus)."
 	"dac_item_stonehall_pike_lore"						"De legioenen van Steenhal zijn niet zonder reden gevreesd. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_stonehall_cloak"							"Mantel van Steenhal"
-	"dac_item_stonehall_cloak_desc"						"Uitgeruste held krijgt +{d:hp_per_kill} gezondheid per eenheid die hij of zij gedood heeft. (+200 schade in Knock-out)"
+	"dac_item_stonehall_cloak_desc"						"Uitgeruste held krijgt {s:hp_per_kill_kill_mult} extra gezondheid per eenheid die hij of zij gedood heeft (gezondheid varieert naargelang de spelmodus)."
 	"dac_item_stonehall_cloak_lore"						"Voor sommigen is het een symbool van trots. Voor anderen, een herinnering aan een verleden dat beter in het verleden blijft. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_silver_edge"								"Zilverrand"
-	"dac_item_silver_edge_desc"							"+{d:attack_speed} aanvalssnelheid. +{d:bonus_health} gezondheid. Elke keer als de uitgeruste held een eenheid aanvalt, worden de positieve effecten van die eenheid {d:break_duration} seconden lang uitgeschakeld. (afkoeltijd: {d:cooldown} seconden)"
+	"dac_item_silver_edge_desc"							"+{s:attack_speed} aanvalssnelheid. +{s:bonus_health} gezondheid. Elke keer als de uitgeruste held een eenheid aanvalt, worden de positieve effecten van die eenheid {s:break_duration} seconden lang uitgeschakeld. (afkoeltijd: {s:cooldown} seconden)"
 	"dac_item_silver_edge_lore"							"We weten allemaal dat de Kettingbreker en de Bloedvergieter dit gebruikt hebben om Koning Ostarion de Dwaze te stoppen... maar er valt daarover zoveel meer te vertellen. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_talisman_of_evasion"						"Talisman der ontwijking"
-	"dac_item_talisman_of_evasion_desc"					"+{d:evasion_pct}% ontwijkingskans."
+	"dac_item_talisman_of_evasion_desc"					"+{s:evasion_pct}% ontwijkingskans."
 	"dac_item_talisman_of_evasion_lore"					"Kijk Lyralei, het enige dat ik je wilde zeggen is dat je niet meer zo ongrijpbaar bent als vroeger. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_vesture_of_the_tyrant"                    "Mantel der tirannie"
-	"dac_item_vesture_of_the_tyrant_desc"               "Elke keer een bondgenoot binnen een straal van {d:ally_zombie_range} cellen van de uitgeruste held een dodelijke treffer oploopt, overleeft die bondgenoot nog {s:ally_zombie_duration} seconden."
+	"dac_item_vesture_of_the_tyrant_desc"               "Elke keer een bondgenoot in een straal van {s:ally_zombie_range} cellen van de uitgeruste held een dodelijke treffer oploopt, overleeft die bondgenoot nog {s:ally_zombie_duration} seconden."
 	"dac_item_vesture_of_the_tyrant_lore"               "De macht van Galianus is absoluut. Enkel een dwaas zou tegen hem ingaan. – <i>Zenok, heler van Witspits</i>"
 	"dac_item_void_stone"								"Steen der leegte"
-	"dac_item_void_stone_desc"							"+{d:mana_per_second} mana per seconde."
+	"dac_item_void_stone_desc"							"+{s:mana_per_second} mana per seconde."
 	"dac_item_void_stone_lore"							"Dit is het spul dat de Archons van Saffier gebruiken om hun badges te maken. – <i>Zenok, heler van Witspits</i>"
 	"dac_unit_name_spiderling"							"Spinnetje"
 	"dac_item_aeon_disk"								"Schijf der eeuwigheid"
 	"dac_item_aeon_disk_lore"							"De machtigen vinden altijd veilige oorden. – <i>Zenok, heler van Witspits</i>"
-	"dac_item_aeon_disk_desc"							"+{d:health_bonus} gezondheid. Elke keer een uitgeruste held minder dan {d:health_trigger_percentage}% gezondheid heeft, wordt deze onkwetsbaar gedurende {d:invuln_duration} seconden. De held is tijdens diezelfde periode ook ontwapend en kan niet worden geraakt. (een keer per gevecht)"
+	"dac_item_aeon_disk_desc"							"{s:health_bonus} extra gezondheid. Elke keer een uitgeruste held minder dan {s:health_trigger_percentage}% gezondheid heeft, wordt deze onkwetsbaar gedurende {s:invuln_duration} seconden. De held is tijdens diezelfde periode ook ontwapend en kan niet worden geraakt. (een keer per gevecht)"
 	"dac_ability_barricade_aura_new"					"Barricade"
 	"dac_ability_barricade_aura_new_description"		"Barricade beschermt nabije eenheden en is immuun voor spreuken."
 	"dac_ability_barricade_aura_new_lore"				""
@@ -797,15 +802,15 @@
 	"dac_ability_tombstone_raise_zombies_new_description"	"Eenheden die in een straal van {s:range} cel doodgaan, veranderen in een zombie."
 	"dac_ability_tombstone_raise_zombies_new_lore"			""
 	"dac_item_vladmirs_offering"						"Vladmirs offer"
-	"dac_item_vladmirs_offering_desc"					"Bondgenoten binnen een straal van 2 cellen krijgen +{d:damage}% schade, +{d:armor} pantser en +{d:lifesteal}% levensdiefstal."
+	"dac_item_vladmirs_offering_desc"					"Bondgenoten in een straal van 2 cellen krijgen +{s:damage}% schade, +{s:armor} pantser en +{s:lifesteal}% levensdiefstal."
 	"dac_item_vladmirs_offering_lore"					"Iedereen die De Eed aflegt, moet een stukje van zichzelf geven. En krijgt daarvoor iets in de plaats. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_big_time_contract"						"Muts van de Oger"
-	"dac_item_big_time_contract_desc"					"De uitgeruste held wordt <span class='Ogre'>bloedgebonden</span> <img class='InlineSynergyIcon SynergyOgre'/>."
+	"dac_item_big_time_contract_desc"					"De uitgeruste held wordt <span class='Ogre'>Bloedgebonden</span> <img class='InlineSynergyIcon SynergyOgre'/>."
 	"dac_item_big_time_contract_lore"					"Rita heeft geen monopolie op het laten groeien van dingen. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_hunting_hat"								"Hoornen kroon"
-	"dac_item_hunting_hat_desc"							"De uitgeruste held wordt een <span class='Hunter'>jager</span> <img class='InlineSynergyIcon SynergyHunters'/>."
+	"dac_item_hunting_hat_desc"							"De uitgeruste held wordt een <span class='Hunter'>Jager</span> <img class='InlineSynergyIcon SynergyHunters'/>."
 	"dac_item_hunting_hat_lore"							"Weet je, ik vond het altijd al hypocriet dat de Beestenmeester iets met een gewei op zijn hoofd droeg, maar toen vertelde Goodkind me dat geweien er soms uit zichzelf afvallen. Ik stond versteld. – <i><i>Zenok, heler van Witspits</i></i>"
 
 	"dac_item_demon_hat"								"Kroon van Ristul"
@@ -813,28 +818,28 @@
 	"dac_item_demon_hat_lore"							"Dat ding komt niet bij mij in de buurt. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_brute_hat"								"Fedora van de Bottenbreker"
-	"dac_item_brute_hat_desc"							"De uitgeruste held wordt een <span class='Brute'>bruut</span> <img class='InlineSynergyIcon SynergyBrutal'/>."
+	"dac_item_brute_hat_desc"							"De uitgeruste held wordt een <span class='Brute'>Bruut</span> <img class='InlineSynergyIcon SynergyBrutal'/>."
 	"dac_item_brute_hat_lore"							"Laten we wel eerlijk blijven. Werkelijk niemand vindt het wat als een kerel met een fedora op je afkomt. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_dwarf_hat"								"Mantel van de Gevilde Tweeling"
-	"dac_item_dwarf_hat_desc"							"De uitgeruste held wordt <span class='Dwarf'>dodelijk</span> <img class='InlineSynergyIcon SynergyDeadeye'/>."
+	"dac_item_dwarf_hat_desc"							"De uitgeruste held wordt <span class='Dwarf'>Dodelijk</span> <img class='InlineSynergyIcon SynergyDeadeye'/>."
 	"dac_item_dwarf_hat_lore"							"Ik zeg niet dat je tot de Gevilde Tweeling moet bidden. Ik geef alleen aan dat deze hoed wat voor jou is als je graag bloed vergaart. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_dragon_lance"								"Drakenlans"
-	"dac_item_dragon_lance_desc"						"ALLEEN AFSTAND. +{d:attack_damage} aanvalsschade. De uitgeruste held heeft een onbeperkt bereik."
+	"dac_item_dragon_lance_desc"						"ALLEEN OP AFSTAND. +{s:attack_damage} aanvalsschade. De uitgeruste held heeft een onbeperkt bereik."
 	"dac_item_dragon_lance_lore"						"Ik vertel mensen niet gauw hoe ze hun werk moeten doen, maar als ik iemand probeerde te doden, zou ik zo ver mogelijk van hem verwijderd willen zijn. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_tank_buster"								"Kling van Kaden"
-	"dac_item_tank_buster_desc"							"De aanvallen van de uitgeruste held richten {d:max_health_percent_as_damage}% van de maximale gezondheid van het doelwit aan als pure schade, in plaats van de gebruikelijke schade."
+	"dac_item_tank_buster_desc"							"De aanvallen van de uitgeruste held richten {s:max_health_percent_as_damage}% van de maximale gezondheid van het doelwit aan als pure schade, in plaats van de gebruikelijke schade."
 	"dac_item_tank_buster_lore"							"Deze kling is speciaal voor Kaden in Drakenvesting gesmeed. De beruchte Drakenridder had een gezegde: 'Hoe groter je bent, hoe harder dit ding aankomt.' – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_armlet"									"Armstuk van Mordiggian"
-	"dac_item_armlet_desc"								"+{d:attack_damage} aanvalsschade. +{d:armor} pantser. De uitgeruste held verliest {d:health_loss_per_second} gezondheid per seconde."
+	"dac_item_armlet_desc"								"+{s:attack_damage} aanvalsschade. +{s:armor} pantser. De uitgeruste held verliest {s:health_loss_per_second} gezondheid per seconde."
 	"dac_item_armlet_lore"								"Verwacht niet dat ik dit correct op de factuur zet. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_name_mango_tree"								"Mangoboom"
 	"dac_item_mango_tree"								"Mangoboom"
-	"dac_item_mango_tree_desc"							"De mangoboom gooit een mango tot {d:radius} cellen ver weg bij de start van het gevecht en vervolgens elke {s:mango_production_interval} seconden. Elke eenheid die een mango aanraakt, eet deze op en krijgt 50 extra mana en 100 extra gezondheid."
+	"dac_item_mango_tree_desc"							"De Mangoboom gooit een Mango tot {s:radius} cellen ver weg bij de start van het gevecht en vervolgens elke {s:mango_production_interval} seconden. Elke eenheid die een mango aanraakt, eet deze op en krijgt 50 extra mana en 100 extra gezondheid."
 	"dac_item_mango_tree_lore"							"Je wilt niet op het slagveld staan als je bloedsuikerspiegel laag is. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_hero_hint_melee"								"Melee"
@@ -979,6 +984,17 @@
 	"dac_hero_name_void_spirit"							"Leemtegeest"
 	"dac_hero_name_snapfire"							"Carabinera"
 
+	"dac_hero_name_death_prophet"						"Doodsprofeet"
+	"dac_name_death_prophet_exorcism_spirit"			"Kwelgeest"
+	"dac_hero_name_vengefulspirit"						"Wraakzuchtige geest"
+	"dac_hero_name_meepo"								"Meepo"
+	"dac_hero_name_spirit_breaker"						"Geestenbreker"
+	"dac_hero_name_spectre"								"Verschijnsel"
+	"dac_hero_name_pangolier"							"Pangolier"
+	"dac_hero_name_rubick"								"Rubick"
+	"dac_hero_name_wraith_king"							"Schimmenkoning"
+
+
 	"dac_name_anessix_archer"							"Demonische boogschutter"
 	"dac_name_anessix_warrior"							"Briljante Beuker"
 	"dac_name_broodmother_spiderling"					"Spinnetje"
@@ -1073,21 +1089,28 @@
 	"dac_hero_type_vigilant"							"Waakzaam"
 	"dac_hero_type_void"								"Leemte"
 
+	"dac_hero_type_fallen"								"Gesneuveld"
+	"dac_hero_type_wild"								"Sjamaan"
+	"dac_hero_type_swordsman"							"Zwaardvechter"
+	"dac_hero_type_rogue"								"Schurk"
+	"dac_hero_type_poisoner"							"Gifmenger"
+	"dac_hero_type_magus"								"Magus"
+
 
 	"dac_item_claymore"									"Slagzwaard"
-	"dac_item_claymore_desc"							"+{d:attack_damage} aanvalsschade."
+	"dac_item_claymore_desc"							"+{s:attack_damage} aanvalsschade."
 	"dac_item_claymore_lore"							"Wat wil je dat ik zeg? Het is een zwaard! – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_brooch"									"Aanvallersbroche"
-	"dac_item_brooch_desc"								"+{d:mana_gain}% mana bij aanvallen."
+	"dac_item_brooch_desc"								"{s:mana_gain}% extra mana uit aanvallen."
 	"dac_item_brooch_lore"								"Het perfecte voorwerp voor iemand die bonje wil. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_mana_sponge"								"Martelaarsbroche"
-	"dac_item_mana_sponge_desc"							"+{d:damage_taken_mana_gain}% mana van ontvangen schade. +{d:debuff_resist}% weerstand tegen negatieve effecten."
+	"dac_item_mana_sponge_desc"							"{s:damage_taken_mana_gain}% extra mana van ontvangen schade. {s:debuff_resist}% extra weerstand tegen negatieve effecten."
 	"dac_item_mana_sponge_lore"							"De grootste heldendaden worden verricht wanneer je je het rotst voelt. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_quelling_blade"							"Jukbijl"
-	"dac_item_quelling_blade_desc"						"+{d:damage} aanvalsschade. De uitgeruste held valt bij voorkeur opgeroepen eenheden aan. Aanvallen tegen opgeroepen eenheden zijn kritieke treffers van {d:crit_bonus_vs_neutrals}% schade."
+	"dac_item_quelling_blade_desc"						"+{s:damage} aanvalsschade. De uitgeruste held valt bij voorkeur opgeroepen eenheden aan. Aanvallen tegen opgeroepen eenheden zijn kritieke treffers van {s:crit_bonus_vs_neutrals}% schade."
 	"dac_item_quelling_blade_lore"						"Grek haat het wanneer mensen deze kopen. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_boots_of_speed"							"Laarzen der snelheid"
@@ -1095,161 +1118,161 @@
 	"dac_item_boots_of_speed_lore"						"Perfect voor de rondreizende flierefluiter. – <i>Zenok, heler van Witspits</i>"			
 
 	"dac_item_tranquil_boots"							"Laarzen der kalmte"
-	"dac_item_tranquil_boots_desc"						"+{d:movement_speed}% bewegingssnelheid. +{d:health_regen} gezondheidsherstel."
+	"dac_item_tranquil_boots_desc"						"+{s:movement_speed}% bewegingssnelheid. +{s:health_regen} gezondheidsherstel."
 	"dac_item_tranquil_boots_lore"						"Die laarzen der snelheid die je me eerder aansmeerde waren waardeloos. Geef me deze keer iets beters. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_octarine_fragment"						"Octarine-essentie"
-	"dac_item_octarine_fragment_desc"					"Verlaagt afkoeltijden van vaardigheden met {d:cooldown_percentage}%."
+	"dac_item_octarine_fragment_desc"					"Verlaagt afkoeltijden van vaardigheden met {s:cooldown_percentage}%."
 	"dac_item_octarine_fragment_lore"					"Dit is maar een voorproefje van wat de octarinekern kan doen. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_vitality_booster"							"Levenssteen"
-	"dac_item_vitality_booster_desc"					"+{d:health_bonus} gezondheid."
+	"dac_item_vitality_booster_desc"					"+{s:health_bonus} gezondheid."
 	"dac_item_vitality_booster_lore"					"Je moet het tij niet keren, maar juist de storm doorstaan. – <i>Zenok, heler van Witspits</i>"
 	
 	
 	"dac_item_cloak"									"Mantel"
-	"dac_item_cloak_desc"								"+{d:bonus_magical_resistance}% magieweerstand."
+	"dac_item_cloak_desc"								"+{s:bonus_magical_resistance}% magieweerstand."
 	"dac_item_cloak_lore"								"Wees voorzichtig, er komt een storm aan... – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_blink_dagger"								"Sprongdolk"
-	"dac_item_blink_dagger_desc"						"Teleporteert naar de vijand die zich het verst van de uitgeruste held bevindt en krijgt {d:mana_gain} mana. (afkoeltijd: {d:cooldown} seconden)"
+	"dac_item_blink_dagger_desc"						"Teleporteert naar de vijand die zich het verst van de uitgeruste held bevindt en krijgt {s:mana_gain} mana. (afkoeltijd: {s:cooldown} seconden)"
 	"dac_item_blink_dagger_lore"						"Die Oglodi blijft steeds om een sprongbijl vragen... – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_mask_of_madness"							"Masker der waanzin"
-	"dac_item_mask_of_madness_desc"						"Uitgeruste held wordt verstomd. +{d:lifesteal_percentage}% levensdiefstal. +{d:attack_speed} aanvalssnelheid."
+	"dac_item_mask_of_madness_desc"						"Uitgeruste held wordt verstomd. +{s:lifesteal_percentage}% levensdiefstal. +{s:attack_speed} aanvalssnelheid."
 	"dac_item_mask_of_madness_lore"						"Wie zal zeggen waar de waanzin eindigt en het genie begint... – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_blade_mail"								"Lemmetenpantser"
-	"dac_item_blade_mail_desc"							"+{d:bonus_armor} pantser. Kaatst {d:damage_taken_reflect_percentage}% van de ontvangen schade terug naar de aanvaller."
+	"dac_item_blade_mail_desc"							"+{s:bonus_armor} pantser. Kaatst {s:damage_taken_reflect_percentage}% van de ontvangen schade terug naar de aanvaller."
 	"dac_item_blade_mail_lore"							"Ik verlies jaarlijks zo'n drie klanten aan lui die deze willen uitproberen... – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_battle_fury"								"Razende strijdbijl"
-	"dac_item_battle_fury_desc"							"ALLEEN MELEE. +{d:attack_damage} aanvalsschade. Melee-aanvallen richten {d:cleave_damage_pct}% van de schade aan aan nabije eenheden."
+	"dac_item_battle_fury_desc"							"ALLEEN MELEE. +{s:attack_damage} aanvalsschade. Melee-aanvallen richten {s:cleave_damage_pct}% van de schade aan aan nabije eenheden."
 	"dac_item_battle_fury_lore"							"We weten dat het nooit bij een tweegevecht blijft... Het is beter om je goed voor te bereiden. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_dagon"									"Dagon"
-	"dac_item_dagon_desc"								"Brengt {d:ability_damage} schade toe aan een willekeurige vijandelijke eenheid die {d:health_trigger_percentage}% of minder gezondheid heeft. (afkoeltijd: {d:cooldown} seconden)"
+	"dac_item_dagon_desc"								"Brengt {s:ability_damage} schade toe aan een willekeurige vijandelijke eenheid die {s:health_trigger_percentage}% of minder gezondheid heeft. (afkoeltijd: {s:cooldown} seconden)"
 	"dac_item_dagon_lore"								"Sommige mensen zeggen dat het verkeerd is om een natrap te geven... Die mensen zouden het nog geen week in Witspits uithouden. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_sacred_relic"								"Heilig relikwie"
-	"dac_item_sacred_relic_desc"						"+{d:attack_damage} aanvalsschade."
+	"dac_item_sacred_relic_desc"						"+{s:attack_damage} aanvalsschade."
 	"dac_item_sacred_relic_lore"						"Ik denk dat ik een redelijke prijs vraag voor zo'n stukje goddelijkheid. – <i>Zenok, heler van Witspits</i>"	
 	
 	"dac_item_maelstrom"								"Maalstroom"
-	"dac_item_maelstrom_desc"							"{d:bolt_chance_percentage}% kans bij aanvallen op een bliksemschicht die {d:bolt_damage} schade aanricht bij {d:bolt_targets} doelwitten. Na elke sprong vermindert de schade met {d:percentage_decrease}%."
+	"dac_item_maelstrom_desc"							"{s:bolt_chance_percentage}% kans bij aanvallen om een kettingbliksemschicht ({s:bolt_damage} schade) naar {s:bolt_targets} doelwitten te laten springen. Na elke sprong vermindert de schade met {s:percentage_decrease}%."
 	"dac_item_maelstrom_lore"							"Niemand kan het weer beheersen... maar je kunt het wel degelijk een zetje geven. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_refresher_orb"							"Bol der vernieuwing"
-	"dac_item_refresher_orb_desc"						"Na het gebruik van een vaardigheid worden de afkoeltijden van de uitgeruste held teruggezet en herstelt deze {d:mana_restored} mana. (een keer per gevecht)"
+	"dac_item_refresher_orb_desc"						"Na het gebruik van een vaardigheid worden de afkoeltijden van de uitgeruste held teruggezet en krijgt hij of zij {s:mana_restored} mana hersteld. (een keer per gevecht)"
 	"dac_item_refresher_orb_lore"						"Ik heb gezien hoe dit het eindresultaat van vele gevechten heeft veranderd. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_heart_of_tarrasque"						"Hart van Tarrasque"
-	"dac_item_heart_of_tarrasque_desc"					"+{d:health_bonus} gezondheid. Herstelt elke seconde {d:bonus_hp_regen}% van de maximale gezondheid."
+	"dac_item_heart_of_tarrasque_desc"					"+{s:health_bonus} gezondheid. Herstelt elke seconde {s:bonus_hp_regen}% van de maximale gezondheid."
 	"dac_item_heart_of_tarrasque_lore"					"De dood is voor de minderen. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_divine_rapier"						"Goddelijke degen"
-	"dac_item_divine_rapier_desc"					"+{d:attack_damage} aanvalsschade. Als de goddelijke degen in het gevecht wordt gebruikt en je de ronde tegen een andere speler verliest, krijgt deze de goddelijke degen."
+	"dac_item_divine_rapier_desc"					"+{s:attack_damage} aanvalsschade. Als de goddelijke degen in het gevecht wordt gebruikt en je de ronde tegen een andere speler verliest, krijgt deze de goddelijke degen."
 	"dac_item_divine_rapier_lore"					"Soms schreeuwen de goden om bloed. – <i>Zenok, heler van Witspits</i>"	
 	
 	"dac_item_assault_cuirass"							"Aanvalskuras"
-	"dac_item_assault_cuirass_desc"						"De uitgeruste held en aangrenzende bondgenoten krijgen {d:attack_speed_buff} aanvalssnelheid en {d:armor_buff} pantser. Aangrenzende vijanden verliezen {d:attack_speed_debuff} aanvalssnelheid en {d:armor_debuff} pantser."
+	"dac_item_assault_cuirass_desc"						"De uitgeruste held en aangrenzende bondgenoten krijgen {s:attack_speed_buff} aanvalssnelheid en {s:armor_buff} pantser. Aangrenzende vijanden verliezen {s:attack_speed_debuff} aanvalssnelheid en {s:armor_debuff} pantser."
 	"dac_item_assault_cuirass_lore"						"Als je ten strijde trekt, wees dan slim. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_black_king_bar"							"Staf van de duistere koning"
-	"dac_item_black_king_bar_desc"						"+{d:attack_damage} aanvalsschade. De uitgeruste held is {d:magic_immune_duration} seconden immuun voor magie zodra de eerste vijand {d:mana_trigger_percentage}% mana heeft. (een keer per gevecht)"
+	"dac_item_black_king_bar_desc"						"+{s:attack_damage} aanvalsschade. De uitgeruste held is {s:magic_immune_duration} seconden immuun voor magie zodra de eerste vijand {s:mana_trigger_percentage}% mana heeft. (een keer per gevecht)"
 	"dac_item_black_king_bar_lore"						"Ontzeg je vijanden alles. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_mekansm"									"Mekansm"
-	"dac_item_mekansm_desc"								"Wanneer de uitgeruste held minder dan {d:health_trigger_percentage}% gezondheid heeft, worden bondgenoten in een straal van {d:heal_radius} cellen met {d:heal_amount} gezondheid genezen (een keer per gevecht)."
+	"dac_item_mekansm_desc"								"Wanneer de uitgeruste held minder dan {s:health_trigger_percentage}% gezondheid heeft, worden bondgenoten in een straal van {s:heal_radius} cellen met {s:heal_amount} gezondheid genezen (een keer per gevecht)."
 	"dac_item_mekansm_lore"								"Denk niet na over hóé het werkt, maar wees dankbaar dát het werkt. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_arcane_boots"								"Mystieke laarzen"
-	"dac_item_arcane_boots_desc"						"Wanneer de uitgeruste held meer dan {d:mana_trigger_percentage}% mana heeft, ontvangen bondgenoten in een straal van {d:replenish_radius} cellen {d:replenish_amount} mana. (afkoeltijd: {d:cooldown} seconden)"
+	"dac_item_arcane_boots_desc"						"Wanneer de uitgeruste held meer dan {s:mana_trigger_percentage}% mana heeft, ontvangen bondgenoten in een straal van {s:replenish_radius} cellen {s:replenish_amount} mana. (afkoeltijd: {s:cooldown} seconden)"
 	"dac_item_arcane_boots_lore"						"Wees een zegen voor je bondgenoten. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_daedalus"									"Daedalus"
-	"dac_item_daedalus_desc"							"+{d:attack_damage} aanvalsschade. {d:bonus_damage_chance}% kans op een kritieke treffer van {d:bonus_damage_multiplier}% schade."
+	"dac_item_daedalus_desc"							"+{s:attack_damage} aanvalsschade. {s:bonus_damage_chance}% kans op een kritieke treffer van {s:bonus_damage_multiplier}% schade."
 	"dac_item_daedalus_lore"							"Lorlin Lasan heeft deze kling bij meerdere gelegenheden geleend. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_radiance"									"Zonnekling"
-	"dac_item_radiance_desc"							"Verbrandt vijanden in een straal van {d:radius} cellen met {d:aura_damage} schade per seconde."
+	"dac_item_radiance_desc"							"Verbrandt vijanden in een straal van {s:radius} cellen met {s:aura_damage} schade per seconde."
 	"dac_item_radiance_lore"							"Ah, ik zie dat je net zo gevoelig bent als Hobgen... – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_skadi"									"Oog van Skadi"
-	"dac_item_skadi_desc"								"+{d:health_bonus} gezondheid. Vertraagt de bewegingssnelheid van vijanden met {d:cold_movement_speed} en hun aanvalssnelheid met {d:cold_attack_speed} seconden tijdens een aanval. Duur van het effect is {s:cold_duration_ranged} seconden."
+	"dac_item_skadi_desc"								"+{s:health_bonus} gezondheid. Vertraagt de bewegingssnelheid van vijanden met {s:cold_movement_speed} en hun aanvalssnelheid met {s:cold_attack_speed} seconden tijdens een aanval. Duur van het effect is {s:cold_duration_ranged} seconden."
 	"dac_item_skadi_lore"								"Je wilt niet weten hoe ik deze in mijn bezit heb gekregen... – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_chainmail"								"Maliënkolder"
-	"dac_item_chainmail_desc"							"+{d:bonus_armor} pantser."
+	"dac_item_chainmail_desc"							"+{s:bonus_armor} pantser."
 	"dac_item_chainmail_lore"							"Praktisch en betrouwbaar. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_gloves_of_haste"							"Handschoenen der haast"
-	"dac_item_gloves_of_haste_desc"						"+{d:attack_speed} aanvalssnelheid."
+	"dac_item_gloves_of_haste_desc"						"+{s:attack_speed} aanvalssnelheid."
 	"dac_item_gloves_of_haste_lore"						"Als je iemand snel neer wilt maaien, dan zijn dit de perfecte handschoenen voor jou. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_moon_shard"								"Maanscherf"
-	"dac_item_moon_shard_desc"							"+{d:attack_speed} aanvalssnelheid."
+	"dac_item_moon_shard_desc"							"+{s:attack_speed} aanvalssnelheid."
 	"dac_item_moon_shard_lore"							"Sommigen zeggen dat het een scherf van de Dolle Maan zelf is... – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_blight_stone"								"Steen der verderving"
-	"dac_item_blight_stone_desc"						"Het aanvalsdoelwit verliest {d:target_armor} pantser."
+	"dac_item_blight_stone_desc"						"Het aanvalsdoelwit verliest {s:target_armor} pantser."
 	"dac_item_blight_stone_lore"						"Een subtiel maar effectief stuk gereedschap. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_shivas_guard"								"Shiva's pantser"
-	"dac_item_shivas_guard_desc"						"+{d:bonus_armor} pantser. Straalt een bevriezende golf uit die {d:blast_damage} schade aanricht aan vijanden in een straal van 3 cellen en hun bewegings- en aanvalssnelheid {s:blast_debuff_duration} seconden vertraagt. (een keer per gevecht)"
+	"dac_item_shivas_guard_desc"						"+{s:bonus_armor} pantser. Straalt een bevriezende golf uit die {s:blast_damage} schade aanricht aan vijanden in een straal van 3 cellen en hun bewegings- en aanvalssnelheid {s:blast_debuff_duration} seconden vertraagt. (een keer per gevecht)"
 	"dac_item_shivas_guard_lore"						"Vraag me niet hoe dit uit de Saffieren Conclaaf is gekomen. – <i>Zenok, heler van Witspits</i>"
 
 	
 	"dac_item_hood_of_defiance"							"Kap der opstand"
-	"dac_item_hood_of_defiance_desc"					"+{d:bonus_magical_resistance}% magieweerstand. +{d:health_regen} gezondheidsherstel."
+	"dac_item_hood_of_defiance_desc"					"+{s:bonus_magical_resistance}% magieweerstand. +{s:health_regen} gezondheidsherstel."
 	"dac_item_hood_of_defiance_lore"					"Laat je niet door je vijanden tarten. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_vanguard"									"Voorhoedeschild"
-	"dac_item_vanguard_desc"							"+{d:health_bonus} gezondheid. {d:block_chance}% kans om {d:block_damage} schade van aanvallen af te weren."
+	"dac_item_vanguard_desc"							"{s:health_bonus} extra gezondheid. {s:block_chance}% kans om {s:block_damage} schade af te weren wanneer er fysieke schade wordt opgelopen."
 	"dac_item_vanguard_lore"							"Als je jezelf wilt beschermen kun je het niet veel beter treffen. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_basher"									"Schedelbeuker"
-	"dac_item_basher_desc"								"+{d:attack_damage} aanvalsschade. {d:bash_chance}% kans om {d:bonus_chance_damage} extra schade aan te richten en doelwitten {s:bash_duration} seconden te verlammen."
+	"dac_item_basher_desc"								"{s:attack_damage} extra aanvalsschade. {s:bash_chance}% kans om {s:bonus_chance_damage} extra schade aan te richten en het doelwit {s:bash_duration} seconden te verlammen."
 	"dac_item_basher_lore"								"Een vijand met een hersenschudding is gauw een dode vijand. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_pipe_of_insight"							"Pijp der inzicht"
-	"dac_item_pipe_of_insight_desc"						"+{d:bonus_magical_resistance}% magieweerstand. Zodra de eerste vijand {d:mana_trigger_percentage}% mana heeft, ontvangen bondgenoten in een straal van {d:barrier_radius} cel een schild dat {d:barrier_amount} magische schade blokkeert (een keer per gevecht)."
+	"dac_item_pipe_of_insight_desc"						"{s:bonus_magical_resistance}% extra magieweerstand. Zodra de eerste vijand {s:mana_trigger_percentage}% mana heeft, wordt er een schild geactiveerd dat {s:barrier_amount} magische schade aan bondgenoten blokkeert die zich in een straal van {s:barrier_radius} cellen bevinden (een keer per gevecht)."
 	"dac_item_pipe_of_insight_lore"						"Waar denk je dat de Knutselaar zijn krankzinnige ideeën vandaan haalt? – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_bloodbound_hat"							"Groot contract"
-	"dac_item_bloodbound_hat_desc"						"+{d:health_bonus} gezondheid. De uitgeruste held wordt <span class='Ogre'>bloedgebonden</span> <img class='InlineSynergyIcon SynergyOgre'/>."
+	"dac_item_bloodbound_hat_desc"						"+{s:health_bonus} gezondheid. De uitgeruste held wordt <span class='Ogre'>bloedgebonden</span> <img class='InlineSynergyIcon SynergyOgre'/>."
 	"dac_item_bloodbound_hat_lore"						"Rita heeft geen monopolie op het laten groeien van dingen. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_sheepstick"								"Zeis van Vyse"
-	"dac_item_sheepstick_desc"							"+{d:mana_per_second} mana per seconde. Wanneer de uitgeruste held schade ontvangt, wordt de aanvallende eenheid {s:sheep_duration} seconden in een varken veranderd. (afkoeltijd: {d:cooldown} seconden)"
+	"dac_item_sheepstick_desc"							"+{s:mana_per_second} mana per seconde. Wanneer de uitgeruste held schade ontvangt, wordt de aanvallende eenheid {s:sheep_duration} seconden in een varken veranderd. (afkoeltijd: {s:cooldown} seconden)"
 	"dac_item_sheepstick_lore"							"Ik verzeker je dat sjamanen hier geen genoeg van kunnen krijgen. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_force_staff"								"Krachtstaf"
-	"dac_item_force_staff_desc"							"Wanneer de uitgeruste held schade ontvangt in een melee-aanval, wordt de aanvallende eenheid {d:push_length} cellen weggeduwd. (afkoeltijd: {d:cooldown} seconden)"
+	"dac_item_force_staff_desc"							"Wanneer de uitgeruste held schade ontvangt in een mêlee-aanval, wordt de aanvallende eenheid {s:push_length} cellen weggeduwd. (afkoeltijd: {s:cooldown} seconden)"
 	"dac_item_force_staff_lore"							"Ze zeggen dat Aghanim een mooiere staf heeft, maar ik heb hem nog nooit gezien. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_never_die_hat"							"Helm der onsterfelijkheid"
-	"dac_item_never_die_hat_desc"						"+{d:bonus_armor} pantser. De uitgeruste held leeft na zijn dood nog {s:invulnerability_duration} seconden."
+	"dac_item_never_die_hat_desc"						"{s:bonus_armor} extra pantser. De uitgeruste held leeft nog {s:invulnerability_duration} seconden verder nadat ze een dodelijke treffer hebben ontvangen."
 	"dac_item_never_die_hat_lore"						"Het zal je leven dan niet redden, maar het helpt je wel om iemand met je mee te nemen. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_gold_on_last_hit_hat"						"Jachtmes"
-	"dac_item_gold_on_last_hit_hat_desc"				"De uitgeruste held heeft een kans van {d:percent_chance}% om {d:gold} goud te produceren wanneer hij een vijand doodt. Aanvallen tegen eenheden met minder dan {d:target_health_percent}% gezondheid richten kritieke aanvallen van {d:target_crit_multiplier}% aan."
+	"dac_item_gold_on_last_hit_hat_desc"				"De uitgeruste held heeft een kans van {s:percent_chance}% om {s:gold} goud te produceren wanneer hij een vijand doodt. Aanvallen tegen eenheden met minder dan {s:target_health_percent}% gezondheid richten kritieke aanvallen van {s:target_crit_multiplier}% aan."
 	"dac_item_gold_on_last_hit_hat_lore"				"Moge het je meer geluk brengen dan de centaur die deze in zich had. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_final_flash_hat"							"Armbescherming der wanhoop"
-	"dac_item_final_flash_hat_desc"						"De uitgeruste held zet zijn afkoeltijd terug en krijgt al zijn mana wanneer hij minder dan {d:health_percent_trigger}% gezondheid heeft. De magieweerstand van het aanvalsdoelwit wordt met {d:target_magic_resistance}% verminderd."
+	"dac_item_final_flash_hat_desc"						"De uitgeruste held zet zijn afkoeltijd terug en krijgt al zijn mana wanneer hij minder dan {s:health_percent_trigger}% gezondheid heeft. De magieweerstand van het aanvalsdoelwit wordt met {s:target_magic_resistance}% verminderd."
 	"dac_item_final_flash_hat_lore"						"Je weet niet waar je toe in staat bent totdat je met je rug tegen de muur staat. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_hype_breaker"								"Sluier van de sluipmoordenaar"
-	"dac_item_hype_breaker_desc"						"De uitgeruste held valt altijd de vijandelijke Underlord aan als dat mogelijk is. De aanvallen van de uitgeruste held tegen de Underlord nemen {d:hype_burn} hype weg (afkoeltijd van {s:cooldown} seconden)."
+	"dac_item_hype_breaker_desc"						"De uitgeruste held valt altijd de vijandelijke Underlord aan als dat mogelijk is. De aanvallen van de uitgeruste held tegen de vijandelijke Underlord nemen {s:hype_burn} hype weg (afkoeltijd van {s:cooldown} seconden)."
 	"dac_item_hype_breaker_lore"						"Perfect voor iedereen die altijd al een Zuster van de Sluier wilde zijn, maar dan zonder als baby ontvoerd te worden. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_hype_harvester"							"Feestelijke moordgong"
-	"dac_item_hype_harvester_desc"						"Elke keer dat de uitgeruste held een vijand doodt, wordt er {d:hype_per_kill} hype voor je Underlord gegenereerd."
+	"dac_item_hype_harvester_desc"						"Elke keer dat de uitgeruste held een vijand doodt, wordt er {s:hype_per_kill} hype voor je Underlord gegenereerd."
 	"dac_item_hype_harvester_lore"						"We hebben de gong voor Fronzell geslagen. We hebben hem voor Mama Eeb geslagen. Bid maar tot de goden dat hij nooit voor jou geslagen wordt. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_summoning_stone"							"Bezweringssteen"
-	"dac_item_summoning_stone_desc"						"Geallieerde opgeroepen eenheden hebben +{d:health_bonus} gezondheid en +{d:attack_speed_bonus} aanvalssnelheid."
+	"dac_item_summoning_stone_desc"						"Geallieerde opgeroepen eenheden hebben +{s:health_bonus} gezondheid en +{s:attack_speed_bonus} aanvalssnelheid."
 	"dac_item_summoning_stone_lore"						"Verdrink je vijanden in een hardnekkige stroom aan vlees. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_better_units_in_shop"						"Eersteklas crimineel"
@@ -1277,7 +1300,7 @@
 	"dac_item_humans_turn_undead_lore"					"Deze stad weet keer op keer het goede uit je te slaan. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_elves_start_invisible"					"Ontwijkende doelwitten"
-	"dac_item_elves_start_invisible_desc"				"<span class='Elf'>Ontwijkende</span> <img class='InlineSynergyIcon SynergyElusive'/> eenheden hebben de eerste {s:invisibility_duration} seconden van een gevecht {d:evasion_pct}% ontwijking."
+	"dac_item_elves_start_invisible_desc"				"<span class='Elf'>Ontwijkende</span> <img class='InlineSynergyIcon SynergyElusive'/> eenheden hebben de eerste {s:invisibility_duration} seconden van een gevecht {s:evasion_pct}% ontwijking."
 	"dac_item_elves_start_invisible_lore"				"Het is lastig iets te steken als je het niet kunt zien. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_shamans_hex_attackers"					"Sjamanentruc"
@@ -1289,7 +1312,7 @@
 	"dac_item_discount_rerolls_lore"					"Leg je niet neer bij troepen waar je niet achter staat. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_assassins_blind_on_landing"				"Zakzand"
-	"dac_item_assassins_blind_on_landing_desc"			"<span class='Assassin'>Sluipmoordenaars</span> <img class='InlineSynergyIcon SynergyAssassins'/> verblinden vijanden na hun landing gedurende {s:blind_duration} seconden in een straal van 1 cel ({d:blind_chance}% kans om te missen en {d:mana_gain_reduction}% minder mana wanneer ze worden aangevallen)."
+	"dac_item_assassins_blind_on_landing_desc"			"<span class='Assassin'>Sluipmoordenaars</span> <img class='InlineSynergyIcon SynergyAssassins'/> verblinden vijanden na hun landing gedurende {s:blind_duration} seconden in een straal van 1 cel ({s:blind_chance}% kans om te missen en {s:mana_gain_reduction}% minder mana wanneer ze worden aangevallen)."
 	"dac_item_assassins_blind_on_landing_lore"			"Quiet vecht niet eerlijk, ze vecht om te winnen. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_extra_items"								"Overvloed aan rijkdom"
@@ -1309,15 +1332,15 @@
 	"dac_item_prevent_next_life_loss_lore"				"Soms heb je alleen een tweede kans nodig. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_mechs_explode_on_death"					"Instabiele reactor"
-	"dac_item_mechs_explode_on_death_desc"				"Geallieerde <span class='Mech'>uitvinders</span> <img class='InlineSynergyIcon SynergyInventors'/> exploderen bij het doodgaan en richten daarbij {s:damage_hp_pct}% van hun maximale gezondheid aan als schade bij alle vijanden in een straal van {d:range_in_cells} cel."
+	"dac_item_mechs_explode_on_death_desc"				"Geallieerde <span class='Mech'>uitvinders</span> <img class='InlineSynergyIcon SynergyInventors'/> exploderen bij het doodgaan en richten daarbij {s:damage_hp_pct}% van hun maximale gezondheid aan als schade bij alle vijanden in een straal van {s:range_in_cells} cel."
 	"dac_item_mechs_explode_on_death_lore"				"Daarom vertrouw ik handelswaar van de Keen niet. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_trolls_have_aspd_aura"					"Gecoördineerde aanval"
-	"dac_item_trolls_have_aspd_aura_desc"				"<span class='Troll'>Trollen</span> <img class='InlineSynergyIcon SynergyTroll'/> geven +{s:attack_speed_buff} aanvalssnelheid aan bondgenoten in een straal van {d:range_in_cells} cel."
+	"dac_item_trolls_have_aspd_aura_desc"				"<span class='Troll'>Trollen</span> <img class='InlineSynergyIcon SynergyTroll'/> geven +{s:attack_speed_buff} aanvalssnelheid aan bondgenoten in een straal van {s:range_in_cells} cel."
 	"dac_item_trolls_have_aspd_aura_lore"				"Wanneer een groep trollen heeft besloten je af te maken kun je daar weinig tegen doen. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_goblins_give_gold_on_last_hit"			"Lijkberoving"
-	"dac_item_goblins_give_gold_on_last_hit_desc"		"<span class='Goblin'>Vechtlustige</span> <img class='InlineSynergyIcon SynergyScrappy'/> eenheden hebben een kans van {s:percent_chance}% om {d:gold} goud te produceren wanneer ze een vijand doden."
+	"dac_item_goblins_give_gold_on_last_hit_desc"		"<span class='Goblin'>Vechtlustige</span> <img class='InlineSynergyIcon SynergyScrappy'/> eenheden hebben een kans van {s:percent_chance}% om {s:gold} goud te produceren wanneer ze een vijand doden."
 	"dac_item_goblins_give_gold_on_last_hit_lore"		"Ik zou het niet onsmakelijk noemen. Het is niet alsof de doden nog iets aan hun geld hebben. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_orcs_get_extra_hp"						"Gesmeed in de strijd"
@@ -1354,7 +1377,7 @@
 	"dac_item_humans_debuff_resist_lore"				"Ah, daar hebben we die welbekende menselijke onverschrokkenheid. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_druids_heal_over_time_on_death"			"Levenscyclus"
-	"dac_item_druids_heal_over_time_on_death_desc"		"Wanneer een <span class='Druid'>druïde</span> <img class='InlineSynergyIcon SynergyDruid'/> doodgaat, geneest het bondgenoten in een straal van {d:range_in_cells} cellen gedurende {d:heal_duration} seconden voor {s:heal_pct_per_second}% van z'n totale gezondheid."
+	"dac_item_druids_heal_over_time_on_death_desc"		"Wanneer een <span class='Druid'>Druïde</span> <img class='InlineSynergyIcon SynergyDruid'/> doodgaat, geneest hij of zij bondgenoten op {s:range_in_cells} cellen afstand geleidelijk aan, aan {s:heal_pct_per_second}% gezondheid per seconde gedurende {s:heal_duration} seconden."
 	"dac_item_druids_heal_over_time_on_death_lore"		"Soms vindt men troost in de dood. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_beast_bleed"								"Tand en klauw"
@@ -1366,7 +1389,7 @@
 	"dac_item_warriors_never_die_lore"					"Zelfs de dood is niet genoeg om de meest vastberaden krijgers te stoppen. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_warlocks_spell_lifesteal"					"Zielenvanger"
-	"dac_item_warlocks_spell_lifesteal_desc"			"Eenheden in een straal van {d:range_in_cells} cel van <span class='Warlock'>heksenmeesters</span> <img class='InlineSynergyIcon SynergyWarlocks'/> genezen {s:spell_lifesteal}% van alle schade die door vaardigheden en voorwerpen wordt aangericht."
+	"dac_item_warlocks_spell_lifesteal_desc"			"Eenheden in een straal van {s:range_in_cells} cel van <span class='Warlock'>heksenmeesters</span> <img class='InlineSynergyIcon SynergyWarlocks'/> genezen {s:spell_lifesteal}% van alle schade die door vaardigheden en voorwerpen wordt aangericht."
 	"dac_item_warlocks_spell_lifesteal_lore"			"Ik zal niet liegen, deze is ietwat apart. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_undeads_stop_healing"						"Doortrapt voornemen"
@@ -1374,7 +1397,7 @@
 	"dac_item_undeads_stop_healing_lore"				"Sommigen genieten er gewoon van om anderen te laten lijden. – <i>Zenok, heler van Witspits</i>"
 
 	"dac_item_lower_healing"							"Gloren van Ristul"
-	"dac_item_lower_healing_desc"						"De genezing van beide teams wordt met {d:healing_prevented}% verminderd."
+	"dac_item_lower_healing_desc"						"De genezing van beide teams wordt met {s:healing_prevented}% verminderd."
 	"dac_item_lower_healing_lore"						"De Vhoul reageerden slecht op de oorlog in Rozenblad. – <i>Zenok, heler van Witspits</i>"
 	
 	"dac_item_mages_ghost_on_low_health"				"Eindflits"
@@ -1757,6 +1780,57 @@
 	"dac_item_vesture_of_the_tyrant_4"		"Mantel der tirannie uit Steenhal"
 	"dac_item_vesture_of_the_tyrant_5"		"Mantel der tirannie van Galanius"
 
+	"dac_item_headdress_rot1"									"Hoofdtooi"
+	"dac_item_headdress_rot1_desc"								"De uitgeruste held en alle eenheden die zich aan de start van het gevecht op maximaal {s:row_radius} cel(len) afstand links of rechts bevinden, krijgen {s:health_regen} extra gezondheid per seconde."
+	"dac_item_headdress_rot1_lore"								"Ik heb het gekocht van een kerel die beweerde dat het van Ghastly Eyrie kwam. Geen idee of dat waar is, maar het heeft een mooie pluim. – <i>Zenok, heler van Witspits</i>"
+
+	"dac_item_hood_of_defiance_rot1"							"Kap der opstand"
+	"dac_item_hood_of_defiance_rot1_desc"						"De uitgeruste held en alle eenheden die zich aan de start van het gevecht op maximaal {s:row_radius} cel(len) afstand links of rechts bevinden, krijgen {s:bonus_magical_resistance} extra weerstand tegen magie."
+	"dac_item_hood_of_defiance_rot1_lore"							"Laat je niet door je vijanden tarten. – <i>Zenok, heler van Witspits</i>"
+
+	"dac_item_vitality_booster_rot1"							"Levenssteen"
+	"dac_item_vitality_booster_rot1_desc"						"De uitgeruste held en alle eenheden die zich aan de start van het gevecht op maximaal {s:row_radius} cel(len) afstand links of rechts bevinden, krijgen {s:health_bonus} extra gezondheid."
+	"dac_item_vitality_booster_rot1_lore"						"Je moet het tij niet keren, maar juist de storm doorstaan. – <i>Zenok, heler van Witspits</i>"
+
+	"dac_item_paladin_sword"									"Zwaard van de Paladijn"
+	"dac_item_paladin_sword_desc"								"Extra aanvalsschade: {s:attack_damage}. Genezing van bondgenoten: {s:healing_amplify_pct}% extra."
+	"dac_item_paladin_sword_lore"								"Ik heb gehoord dat dit gezegend is door Lady Anshu zelve.  - <i>Zenok, heler van Witspits</i>"
+
+	"dac_item_poisoner_hat"									"Gifbol"
+	"dac_item_poisoner_hat_desc"							"De uitgeruste held wordt een <span class='Poisoner'>Gifmenger</span> <img class='InlineSynergyIcon SynergyPoisoner'/>."
+	"dac_item_poisoner_hat_lore"							"Om een man te doden heb je alleen maar tijd nodig, hoor je wel eens zeggen. Ik zeg: waarom de tijd niet een handje helpen? – <i>Zenok, heler van Witspits</i>"
+
+	"dac_item_barricade_rot1"								"Barricade"
+	"dac_item_barricade_rot1_desc"							"Twee verplaatsbare barrières om vijanden mee te blokkeren en afstandsaanvallen te verminderen met 50%. Onkwetsbaar en immuun voor spreuken."
+	"dac_item_barricade_rot1_lore"							"Neem deze mee als je geen dekking kunt vinden. – <i>Zenok, heler van Witspits</i>"
+
+	"dac_item_heavens_halberd"									"Hemelse hellebaard"
+	"dac_item_heavens_halberd_desc"								"Ontwijkingskans: {s:evasion_pct}% extra. Wanneer de uitgeruste held aanvalt, wordt het doelwit {s:disarm_duration} seconden lang ontwapend (afkoeltijd: {s:cooldown} seconden)"
+	"dac_item_heavens_halberd_lore"								"In mijn ervaring is het geheim van een lang en gelukkig leven om volk neer te steken voor ze jou te pakken krijgen.  - <i>Zenok, heler van Witspits</i>"
+
+	"dac_item_necronomicon"									"Necronomicon"
+	"dac_item_necronomicon_desc"								"Telkens een uitgeruste held een spreuk afroept, wordt er een briljante beuker opgeroepen (maximaal {s:max_units} eenheden tegelijk in leven)."
+	"dac_item_necronomicon_lore"								"Anessix' naam binnen de omslag? Mag je gewoon negeren. - <i>Zenok, heler van Witspits</i>"
+
+	"dac_item_swordsman_hat"									"Piratensteek"
+	"dac_item_swordsman_hat_desc"								"De uitgeruste held wordt een <span class='Swordsman'>Zwaardvechter</span> <img class='InlineSynergyIcon SynergySwordsman'/>."
+	"dac_item_swordsman_hat_lore"								"Op een mooie dag wil Wren misschien wel haar hoed terug.  - <i>Zenok, heler van Witspits</i>"
+
+	"dac_item_craggy_coat"									"Prikkeljas"
+	"dac_item_craggy_coat_desc"								"Uitgeruste held krijgt {s:bonus_armor} extra pantser, maar verliest {s:attack_speed} aanvalssnelheid."
+	"dac_item_craggy_coat_lore"								"Ik zei niet dat het lekker dragen gaat zijn, ik zei dat hij je in leven gaat houden.  - <i>Zenok, heler van Witspits</i>"
+
+	"dac_item_witless_shako"									"Oelewapper"
+	"dac_item_witless_shako_desc"								"Uitgeruste held krijgt {s:health_bonus} extra HP, maar genereert {s:mana_gain_pct_decrease}% minder mana."
+	"dac_item_witless_shako_lore"								"Luister, als hersenen zo belangrijk waren, was Aks nu al lang dood.  - <i>Zenok, heler van Witspits</i>"
+
+	"dac_item_maelstrom_rot1"								"Maalstroom"
+	"dac_item_maelstrom_rot1_desc"							"{s:bolt_chance_percentage}% kans bij aanvallen om een kettingbliksemschicht die {s:bolt_damage} schade aanricht tussen {s:bolt_targets} doelwitten te laten springen. Opgeroepen eenheden lopen {s:summon_damage_increase}% meer schade op."
+	"dac_item_maelstrom_rot1_lore"							"Niemand kan het weer beheersen... maar je kunt het wel degelijk een zetje geven. – <i>Zenok, heler van Witspits</i>"
+
+	"dac_item_monkey_king_bar"									"Staf van de Apenkoning"
+	"dac_item_monkey_king_bar_desc"								"Uitgeruste helden krijgen {s:attack_damage} extra aanvalschade, en hun aanvallen kunnen niet missen."
+	"dac_item_monkey_king_bar_lore"								"Als Wukong het vraagt, heb je dit niet van mij gehoord.  - <i>Zenok, heler van Witspits</i>"
 
 
 	"dac_bp1_bronze_border"								"Bronzen rand"
@@ -2085,6 +2159,15 @@
 	"DAC_EndGame_Hobgen_win_with_warlock"			"Hobgens heksenmeesters spreken spreuk over Witspits uit"
 	"DAC_EndGame_Hobgen_win_with_warrior"			"Hobgens bosapen timmeren alle uitdagers in elkaar"
 	"DAC_EndGame_Hobgen_win_with_summoners"			"Hobgen overrompelt tegenstanders met leger dat maar blijft komen"
+	"DAC_EndGame_Hobgen_win_with_fallen"			"Zelfs de dood kan Hobgen niet stoppen op zijn klim om Heerser van Witspits te worden."
+	"DAC_EndGame_Hobgen_win_with_poisoner"			"Hobgen, geïnspireerd door Enno, vergiftigt zich een weg naar de top van Witspits"
+	"DAC_EndGame_Hobgen_win_with_swordsman"			"De Zwaardvechters van Hobgen jagen met gemak rivalen over de kling"
+	"DAC_EndGame_Hobgen_win_with_wild"				"De krachten der natuur buigen zich om om Hobgen te helpen"
+	"DAC_EndGame_Hobgen_win_with_magus"				"Rubick staat naast Hobgen en schenkt hem Witspits"
+	"DAC_EndGame_Hobgen_win_with_rogue"				"Hobgen doet beroep op Schurken om zijn vijanden te verwijderen"
+	
+	
+	
 	
 	"DAC_EndGame_Hobgen_does_good_with_assassins"		"Hobgens huurmoordenaars moorden niet genoeg"
 	"DAC_EndGame_Hobgen_does_good_with_blood_bound"		"Reuzen zijn niet sterk genoeg om Hobgen de overwinning te bezorgen"
@@ -2113,7 +2196,15 @@
 	"DAC_EndGame_Hobgen_does_good_with_warlock"			"Hobgens heksenmeesters zijn goed, maar niet goed genoeg"
 	"DAC_EndGame_Hobgen_does_good_with_warrior"			"Hobgens krijgers weren rivalen af, maar worden uiteindelijk overmand"
 	"DAC_EndGame_Hobgen_does_good_with_summoners"		"Hobgen roept een machtig leger op, maar het is niet genoeg om de controle over Witspits over te nemen."
-
+	"DAC_EndGame_Hobgen_does_good_with_fallen"			"De Gesneuvelden bezorgen Hobgen bijna de controle over Witspits"
+	"DAC_EndGame_Hobgen_does_good_with_poisoner"		"Hobgen vergiftigt een hele hoop volk, maar niet GENOEG volk"
+	"DAC_EndGame_Hobgen_does_good_with_swordsman"		"Zwaardvechters brengen Hobgen ver, maar niet ver genoeg"
+	"DAC_EndGame_Hobgen_does_good_with_wild"			"De Sjamanen gaan een verbond aan met Hobgen, maar slagen er niet in de overwinning binnen te halen"
+	"DAC_EndGame_Hobgen_does_good_with_magus"			"Het terreurbewind van Hobgen en de Oppermagus komt ten einde"
+	"DAC_EndGame_Hobgen_does_good_with_rogue"			"Schurken en verraad brengen Hobgen ver, maar niet ver genoeg"
+	
+	
+	
 	"DAC_EndGame_Hobgen_does_ok_with_assassins"			"Hobgens sluipmoordenaars steken te weinig volk neer"
 	"DAC_EndGame_Hobgen_does_ok_with_blood_bound"		"Hobgen vestigt zijn hoop op de Bloedgebonden. Is teleurgesteld in het resultaat."
 	"DAC_EndGame_Hobgen_does_ok_with_brawny"			"Vleesmuur is niet dik genoeg om Hobgen te beschermen"
@@ -2141,6 +2232,14 @@
 	"DAC_EndGame_Hobgen_does_ok_with_warlock"			"Heksenmeesters roepen spreuken af voor Hobgen die niet blijken te werken"
 	"DAC_EndGame_Hobgen_does_ok_with_warrior"			"Hobgens krijgers vechten hard, maar niet hard genoeg"
 	"DAC_EndGame_Hobgen_does_ok_with_summoners"			"Hobgen besteedt leger uit met wisselend succes"
+	"DAC_EndGame_Hobgen_does_ok_with_fallen"			"Hobgen sluit pact met Gesneuvelden, maar faalt toch"
+	"DAC_EndGame_Hobgen_does_ok_with_poisoner"			"Hobgen speelt met vergif, met wisselend succes"
+	"DAC_EndGame_Hobgen_does_ok_with_swordsman"			"Hobgen bespaart op Zwaardvechters. Besparingen laten zich voelen."
+	"DAC_EndGame_Hobgen_does_ok_with_wild"				"Hobgen probeert om de nieuwe Sjamanen onder controle te krijgen, maar dat lukt niet helemaal."
+	"DAC_EndGame_Hobgen_does_ok_with_magus"				"Rubick en Hobgen verschillen van mening"
+	"DAC_EndGame_Hobgen_does_ok_with_rogue"				"Schurken slagen er niet in de overwinning te stelen"
+	
+	
 	
 	"DAC_EndGame_Hobgen_does_bad_with_assassins"		"Hobgen huurt belabberde sluipmoordenaars in"
 	"DAC_EndGame_Hobgen_does_bad_with_blood_bound"		"Hobgen ontdekt dat je met trucjes geen gevechten wint"
@@ -2169,6 +2268,14 @@
 	"DAC_EndGame_Hobgen_does_bad_with_warlock"			"Heksenmeesters komen in opstand tegen Hobgen en weigeren hem de overwinning te helpen verzekeren"
 	"DAC_EndGame_Hobgen_does_bad_with_warrior"			"Hobgen huurt krijgers in die niet wilden winnen"
 	"DAC_EndGame_Hobgen_does_bad_with_summoners"		"Hobgen huurt tweederangskrachten in, die op hun beurt derderangskrachten inhuren"
+	"DAC_EndGame_Hobgen_does_bad_with_fallen"			"Hobgen sluit een verbond met de Gesneuvelden. Hun naam blijkt opmerkelijk profetisch."
+	"DAC_EndGame_Hobgen_does_bad_with_poisoner"			"Hobgen slaagt erin zijn toekomstplannen te vergiftigen "
+	"DAC_EndGame_Hobgen_does_bad_with_swordsman"		"De Zwaardvechters van Jull zijn vaker op café te vinden dan op het slagveld"
+	"DAC_EndGame_Hobgen_does_bad_with_wild"				"Hobgen verwacht kippetje, maar krijgt een mondvol mislukking"
+	"DAC_EndGame_Hobgen_does_bad_with_magus"			"Het enige dat de Oppermagus kopieert, is verlies"
+	"DAC_EndGame_Hobgen_does_bad_with_rogue"			"Schurken weigeren met Hobgen samen te werken"
+	
+	
 	
 	//Anessix End Screen Headlines
 	
@@ -2199,6 +2306,13 @@
 	"DAC_EndGame_Anessix_win_with_warlock"			"Anessix' heksenmeesters spreken spreuk over Witspits uit"
 	"DAC_EndGame_Anessix_win_with_warrior"			"Anessix' gorilla's timmeren alle uitdagers in elkaar"
 	"DAC_EndGame_Anessix_win_with_summoners"		"Anessix overrompelt tegenstanders met leger dat maar blijft komen"
+	"DAC_EndGame_Anessix_win_with_fallen"			"Zelfs de dood kan Anessix niet stoppen op haar klim om Heerser van Witspits te worden."
+	"DAC_EndGame_Anessix_win_with_poisoner"			"Anessix, geïnspireerd door Enno, vergiftigt zich een weg naar de top van Witspits"
+	"DAC_EndGame_Anessix_win_with_swordsman"		"De Zwaardvechters van Anessix jagen met gemak rivalen over de kling"
+	"DAC_EndGame_Anessix_win_with_wild"				"De krachten der natuur buigen zich om om Anessix te helpen"
+	"DAC_EndGame_Anessix_win_with_magus"			"Rubick staat naast Anessix en schenkt haar Witspits"
+	"DAC_EndGame_Anessix_win_with_rogue"			"Anessix doet beroep op Schurken om haar vijanden te verwijderen"
+	
 	
 	"DAC_EndGame_Anessix_does_good_with_assassins"		"Anessix' huurmoordenaars moorden niet genoeg"
 	"DAC_EndGame_Anessix_does_good_with_blood_bound"	"Reuzen zijn niet sterk genoeg om Anessix de overwinning te bezorgen"
@@ -2227,7 +2341,13 @@
 	"DAC_EndGame_Anessix_does_good_with_warlock"		"Anessix' heksenmeesters zijn goed, maar niet goed genoeg"
 	"DAC_EndGame_Anessix_does_good_with_warrior"		"Anessix' krijgers weren rivalen af, maar worden uiteindelijk overmand"
 	"DAC_EndGame_Anessix_does_good_with_summoners"		"Anessix roept een machtig leger op, maar het is niet genoeg om de controle over Witspits over te nemen."
-
+	"DAC_EndGame_Anessix_does_good_with_fallen"			"De Gesneuvelden bezorgen Anessix bijna de controle over Witspits"
+	"DAC_EndGame_Anessix_does_good_with_poisoner"		"Anessix vergiftigt een hele hoop volk, maar niet GENOEG volk"
+	"DAC_EndGame_Anessix_does_good_with_swordsman"		"Zwaardvechters brengen Anessix ver, maar niet ver genoeg"
+	"DAC_EndGame_Anessix_does_good_with_wild"			"De Sjamanen gaan een verbond aan met Anessix, maar slagen er niet in de overwinning binnen te halen"
+	"DAC_EndGame_Anessix_does_good_with_magus"			"Het terreurbewind van Anessix en de Oppermagus loopt ten einde"
+	"DAC_EndGame_Anessix_does_good_with_rogue"			"Schurken en verraad brengen Anessix ver, maar niet ver genoeg"
+	
 	"DAC_EndGame_Anessix_does_ok_with_assassins"		"Anessix' sluipmoordenaars steken te weinig volk neer"
 	"DAC_EndGame_Anessix_does_ok_with_blood_bound"		"Anessix vestigt haar hoop op de Bloedgebonden. Is teleurgesteld in het resultaat."
 	"DAC_EndGame_Anessix_does_ok_with_brawny"			"Vleesmuur is niet dik genoeg om Anessix te beschermen"
@@ -2255,6 +2375,14 @@
 	"DAC_EndGame_Anessix_does_ok_with_warlock"			"Heksenmeesters roepen spreuken af voor Anessix die niet blijken te werken"
 	"DAC_EndGame_Anessix_does_ok_with_warrior"			"Anessix' krijgers vechten hard, maar niet hard genoeg"
 	"DAC_EndGame_Anessix_does_ok_with_summoners"		"Anessix besteedt leger uit met wisselend succes"
+	"DAC_EndGame_Anessix_does_ok_with_fallen"			"Anessix sluit pact met Gesneuvelden, maar faalt toch"
+	"DAC_EndGame_Anessix_does_ok_with_poisoner"			"Anessix speelt met vergif, met wisselend succes"
+	"DAC_EndGame_Anessix_does_ok_with_swordsman"		"Anessix bespaart op Zwaardvechters. Besparingen laten zich voelen."
+	"DAC_EndGame_Anessix_does_ok_with_wild"				"Anessix probeert om de nieuwe Sjamanen onder controle te krijgen, maar dat lukt niet helemaal."
+	"DAC_EndGame_Anessix_does_ok_with_magus"			"Rubick en Anessix verschillen van mening"
+	"DAC_EndGame_Anessix_does_ok_with_rogue"			"Schurken slagen er niet in de overwinning te stelen"
+	
+	
 	
 	"DAC_EndGame_Anessix_does_bad_with_assassins"		"Anessix huurt belabberde sluipmoordenaars in"
 	"DAC_EndGame_Anessix_does_bad_with_blood_bound"		"Anessix ontdekt dat je met trucjes geen gevechten wint"
@@ -2283,6 +2411,14 @@
 	"DAC_EndGame_Anessix_does_bad_with_warlock"			"Heksenmeesters komen in opstand tegen Anessix en weigeren haar de overwinning te helpen verzekeren"
 	"DAC_EndGame_Anessix_does_bad_with_warrior"			"Anessix huurt krijgers in die niet wilden winnen"
 	"DAC_EndGame_Anessix_does_bad_with_summoners"		"Anessix huurt tweederangskrachten in, die op hun beurt derderangskrachten inhuren"
+	"DAC_EndGame_Anessix_does_bad_with_fallen"			"Anessix sluit een verbond met de Gesneuvelden. Hun naam blijkt opmerkelijk profetisch."
+	"DAC_EndGame_Anessix_does_bad_with_poisoner"		"Anessix slaagt erin haar toekomstplannen te vergiftigen "
+	"DAC_EndGame_Anessix_does_bad_with_swordsman"		"De Zwaardvechters van Jull zijn vaker op café te vinden dan op het slagveld"
+	"DAC_EndGame_Anessix_does_bad_with_wild"			"Anessix verwacht kippetje, maar krijgt een mondvol mislukking"
+	"DAC_EndGame_Anessix_does_bad_with_magus"			"Het enige dat de Oppermagus kopieert, is verlies"
+	"DAC_EndGame_Anessix_does_bad_with_rogue"			"Schurken weigeren met Anessix samen te werken"
+	
+
 	
 	//Jull End Screen Headlines
 	
@@ -2313,6 +2449,14 @@
 	"DAC_EndGame_Jull_win_with_warlock"					"Julls heksenmeesters spreken spreuk over Witspits uit"
 	"DAC_EndGame_Jull_win_with_warrior"					"Julls gorilla's timmeren alle uitdagers in elkaar"
 	"DAC_EndGame_Jull_win_with_summoners"				"Jull overrompelt tegenstanders met leger dat maar blijft komen"
+	"DAC_EndGame_Jull_win_with_fallen"			"Zelfs de dood kan Jull niet stoppen op zijn klim om Heerser van Witspits te worden."
+	"DAC_EndGame_Jull_win_with_poisoner"			"Jull, geïnspireerd door Enno, vergiftigt zich een weg naar de top van Witspits"
+	"DAC_EndGame_Jull_win_with_swordsman"			"De Zwaardvechters van Jull jagen met gemak rivalen over de kling"
+	"DAC_EndGame_Jull_win_with_wild"				"De krachten der natuur buigen zich om om Jull te helpen"
+	"DAC_EndGame_Jull_win_with_magus"				"Rubick staat naast Jull en schenkt hem Witspits"
+	"DAC_EndGame_Jull_win_with_rogue"				"Jull doet beroep op Schurken om zijn vijanden te verwijderen"
+
+
 	
 	"DAC_EndGame_Jull_does_good_with_assassins"			"Julls huurmoordenaars moorden niet genoeg"
 	"DAC_EndGame_Jull_does_good_with_blood_bound"		"Reuzen zijn niet sterk genoeg om Jull de overwinning te bezorgen"
@@ -2341,7 +2485,14 @@
 	"DAC_EndGame_Jull_does_good_with_warlock"			"Julls heksenmeesters zijn goed, maar niet goed genoeg"
 	"DAC_EndGame_Jull_does_good_with_warrior"			"Julls krijgers weren rivalen af, maar worden uiteindelijk overmand"
 	"DAC_EndGame_Jull_does_good_with_summoners"			"Jull roept een machtig leger op, maar het is niet genoeg om de controle over Witspits over te nemen."
-
+	"DAC_EndGame_Jull_does_good_with_fallen"			"De Gesneuvelden bezorgen Jull bijna de controle over Witspits"
+	"DAC_EndGame_Jull_does_good_with_poisoner"			"Jull vergiftigt een hele hoop volk, maar niet GENOEG volk"
+	"DAC_EndGame_Jull_does_good_with_swordsman"			"Zwaardvechters brengen Jull ver, maar niet ver genoeg"
+	"DAC_EndGame_Jull_does_good_with_wild"				"De Sjamanen gaan een verbond aan met Jull, maar slagen er niet in de overwinning binnen te halen"
+	"DAC_EndGame_Jull_does_good_with_magus"				"Het terreurbewind van Jull en de Oppermagus komt ten einde"
+	"DAC_EndGame_Jull_does_good_with_rogue"				"Schurken en verraad brengen Jull ver, maar niet ver genoeg"
+	
+	
 	"DAC_EndGame_Jull_does_ok_with_assassins"			"Julls sluipmoordenaars steken te weinig volk neer"
 	"DAC_EndGame_Jull_does_ok_with_blood_bound"			"Jull vestigt zijn hoop op de Bloedgebonden. Is teleurgesteld in het resultaat."
 	"DAC_EndGame_Jull_does_ok_with_brawny"				"Vleesmuur is niet dik genoeg om Jull te beschermen"
@@ -2369,6 +2520,12 @@
 	"DAC_EndGame_Jull_does_ok_with_warlock"				"Heksenmeesters roepen spreuken af voor Jull die niet blijken te werken"
 	"DAC_EndGame_Jull_does_ok_with_warrior"				"Julls krijgers vechten hard, maar niet hard genoeg"
 	"DAC_EndGame_Jull_does_ok_with_summoners"			"Jull besteedt leger uit met wisselend succes"
+	"DAC_EndGame_Jull_does_ok_with_fallen"				"Jull sluit pact met Gesneuvelden, maar faalt toch"
+	"DAC_EndGame_Jull_does_ok_with_poisoner"			"Jull speelt met vergif, met wisselend succes"
+	"DAC_EndGame_Jull_does_ok_with_swordsman"			"Jull bespaart op Zwaardvechters. Besparingen laten zich voelen."
+	"DAC_EndGame_Jull_does_ok_with_wild"				"Jull probeert om de nieuwe Sjamanen onder controle te krijgen, maar dat lukt niet helemaal."
+	"DAC_EndGame_Jull_does_ok_with_magus"				"Rubick en Jull verschillen van mening"
+	"DAC_EndGame_Jull_does_ok_with_rogue"				"Schurken slagen er niet in de overwinning te stelen"
 	
 	"DAC_EndGame_Jull_does_bad_with_assassins"			"Jull huurt belabberde sluipmoordenaars in"
 	"DAC_EndGame_Jull_does_bad_with_blood_bound"		"Jull ontdekt dat je met trucjes geen gevechten wint"
@@ -2397,7 +2554,12 @@
 	"DAC_EndGame_Jull_does_bad_with_warlock"			"Heksenmeesters komen in opstand tegen Jull en weigeren hem de overwinning te helpen verzekeren"
 	"DAC_EndGame_Jull_does_bad_with_warrior"			"Jull huurt krijgers in die niet wilden winnen"
 	"DAC_EndGame_Jull_does_bad_with_summoners"			"Jull huurt tweederangskrachten in, die op hun beurt derderangskrachten inhuren"
-	
+	"DAC_EndGame_Jull_does_bad_with_fallen"				"Jull sluit een verbond met de Gesneuvelden. Hun naam blijkt opmerkelijk profetisch."
+	"DAC_EndGame_Jull_does_bad_with_poisoner"			"Jull slaagt erin zijn toekomstplannen te vergiftigen "
+	"DAC_EndGame_Jull_does_bad_with_swordsman"			"De Zwaardvechters van Jull zijn vaker op café te vinden dan op het slagveld"
+	"DAC_EndGame_Jull_does_bad_with_wild"				"Jull verwacht kippetje, maar krijgt een mondvol mislukking"
+	"DAC_EndGame_Jull_does_bad_with_magus"				"Het enige dat de Oppermagus kopieert, is verlies"
+	"DAC_EndGame_Jull_does_bad_with_rogue"				"Schurken weigeren met Jull samen te werken"
 	
 	
 	//Enno End Screen Headlines
@@ -2429,6 +2591,13 @@
 	"DAC_EndGame_Enno_win_with_warlock"					"Enno's heksenmeesters spreken spreuk over Witspits uit"
 	"DAC_EndGame_Enno_win_with_warrior"					"Enno's gorilla's timmeren alle uitdagers in elkaar"
 	"DAC_EndGame_Enno_win_with_summoners"				"Enno overrompelt tegenstanders met leger dat maar blijft komen"
+	"DAC_EndGame_Enno_win_with_fallen"				"Zelfs de dood kan Enno niet stoppen op zijn klim om Heerser van Witspits te worden."
+	"DAC_EndGame_Enno_win_with_poisoner"			"Enno blijft bij zijn leest en vergiftigt een rits volk"
+	"DAC_EndGame_Enno_win_with_swordsman"			"De Zwaardvechters van Enno jagen met gemak rivalen over de kling"
+	"DAC_EndGame_Enno_win_with_wild"				"De krachten der natuur buigen zich om om Enno te helpen"
+	"DAC_EndGame_Enno_win_with_magus"				"Rubick staat naast Enno en schenkt hem Witspits"
+	"DAC_EndGame_Enno_win_with_rogue"				"Enno doet beroep op Schurken om zijn vijanden te verwijderen"
+	
 	
 	"DAC_EndGame_Enno_does_good_with_assassins"			"Enno's huurmoordenaars moorden niet genoeg"
 	"DAC_EndGame_Enno_does_good_with_blood_bound"		"Reuzen zijn niet sterk genoeg om Enno de overwinning te bezorgen"
@@ -2457,7 +2626,14 @@
 	"DAC_EndGame_Enno_does_good_with_warlock"			"Enno's heksenmeesters zijn goed, maar niet goed genoeg"
 	"DAC_EndGame_Enno_does_good_with_warrior"			"Enno's krijgers weren rivalen af, maar worden uiteindelijk overmand"
 	"DAC_EndGame_Enno_does_good_with_summoners"			"Enno roept een machtig leger op, maar het is niet genoeg om de controle over Witspits over te nemen."
-
+	"DAC_EndGame_Enno_does_good_with_fallen"			"De Gesneuvelden bezorgen Enno bijna de controle over Witspits"
+	"DAC_EndGame_Enno_does_good_with_poisoner"			"Enno vergiftigt een hele hoop volk, maar niet GENOEG volk"
+	"DAC_EndGame_Enno_does_good_with_swordsman"			"Zwaardvechters brengen Enno ver, maar niet ver genoeg"
+	"DAC_EndGame_Enno_does_good_with_wild"				"De Sjamanen gaan een verbond aan met Enno, maar slagen er niet in de overwinning binnen te halen"
+	"DAC_EndGame_Enno_does_good_with_magus"				"Het terreurbewind van Hobgen en de Oppermagus komt ten einde"
+	"DAC_EndGame_Enno_does_good_with_rogue"				"Schurken en verraad brengen Enno ver, maar niet ver genoeg"
+	
+	
 	"DAC_EndGame_Enno_does_ok_with_assassins"			"Enno's sluipmoordenaars steken te weinig volk neer"
 	"DAC_EndGame_Enno_does_ok_with_blood_bound"			"Enno vestigt zijn hoop op de Bloedgebonden. Is teleurgesteld in het resultaat."
 	"DAC_EndGame_Enno_does_ok_with_brawny"				"Vleesmuur is niet dik genoeg om Enno te beschermen"
@@ -2485,6 +2661,13 @@
 	"DAC_EndGame_Enno_does_ok_with_warlock"				"Heksenmeesters roepen spreuken af voor Enno die niet blijken te werken"
 	"DAC_EndGame_Enno_does_ok_with_warrior"				"Enno's krijgers vechten hard, maar niet hard genoeg"
 	"DAC_EndGame_Enno_does_ok_with_summoners"			"Enno besteedt leger uit met wisselend succes"
+	"DAC_EndGame_Enno_does_ok_with_fallen"				"Enno sluit pact met Gesneuvelden, maar faalt toch"
+	"DAC_EndGame_Enno_does_ok_with_poisoner"			"Enno speelt met vergif, met wisselend succes"
+	"DAC_EndGame_Enno_does_ok_with_swordsman"			"Enno bespaart op Zwaardvechters. Besparingen laten zich voelen."
+	"DAC_EndGame_Enno_does_ok_with_wild"				"Enno probeert om de nieuwe Sjamanen onder controle te krijgen, maar dat lukt niet helemaal."
+	"DAC_EndGame_Enno_does_ok_with_magus"				"Rubick en Enno verschillen van mening"
+	"DAC_EndGame_Enno_does_ok_with_rogue"				"Schurken slagen er niet in de overwinning te stelen"
+
 	
 	"DAC_EndGame_Enno_does_bad_with_assassins"			"Enno huurt belabberde sluipmoordenaars in"
 	"DAC_EndGame_Enno_does_bad_with_blood_bound"		"Enno ontdekt dat je met trucjes geen gevechten wint"
@@ -2513,7 +2696,13 @@
 	"DAC_EndGame_Enno_does_bad_with_warlock"			"Heksenmeesters komen in opstand tegen Enno en weigeren hem de overwinning te helpen verzekeren"
 	"DAC_EndGame_Enno_does_bad_with_warrior"			"Enno huurt krijgers in die niet wilden winnen"
 	"DAC_EndGame_Enno_does_bad_with_summoners"			"Enno huurt tweederangskrachten in, die op hun beurt derderangskrachten inhuren"
-	
+	"DAC_EndGame_Enno_does_bad_with_fallen"				"Enno sluit een verbond met de Gesneuvelden. Hun naam blijkt opmerkelijk profetisch."
+	"DAC_EndGame_Enno_does_bad_with_poisoner"			"Enno slaagt erin zijn toekomstplannen te vergiftigen "
+	"DAC_EndGame_Enno_does_bad_with_swordsman"			"De Zwaardvechters van Enno zijn vaker op café te vinden dan op het slagveld"
+	"DAC_EndGame_Enno_does_bad_with_wild"				"Enno verwacht kippetje, maar krijgt een mondvol mislukking"
+	"DAC_EndGame_Enno_does_bad_with_magus"				"Het enige dat de Oppermagus kopieert, is verlies"
+	"DAC_EndGame_Enno_does_bad_with_rogue"				"Schurken weigeren met Enno samen te werken"
+
 	
 	
 	
@@ -2541,9 +2730,9 @@
 	"DAC_Rewards_Free"									"Gratis"
 	"DAC_Rewards_BPCurrentLevelProgress"				"{d:current_points} / {d:points_per_level}"
 	"DAC_BPInGameProgressLegend"						"Protopasvoortgang van dit spel."
-	"DAC_Battlepass_SeasonTitle"						"Seizoen 1"
+	"DAC_Battlepass_SeasonTitle"						"Gevechtspas"
 	"DAC_Battlepass_Welcome_Page1"						"Speel spellen, ga uitdagingen aan en ontgrendel delen van de Stadstocht om het level van je pas te verhogen."
-	"DAC_Battlepass_Welcome_Page2"						"Seizoen 1 bevat meer dan 20 GRATIS beloningen die je verdient naarmate je levels omhooggaat. Koop de gevechtspas om meer dan 100 extra beloningen te ontgrendelen!"
+	"DAC_Battlepass_Welcome_Page2"						"We hebben meer dan 20 GRATIS beloningen voor je klaarstaan, die je verdient naarmate je in level stijgt. Koop de gevechtspas om daarbovenop meer dan 100 extra beloningen te ontgrendelen!"
 	"DAC_Battlepass_Welcome_Page3"						"Krijg toegang tot alle inhoud van de Stadstocht plus de volledige gevechtspaslijn, met beloningen zoals nieuwe borden, bordrekwisieten om je strijdtoneel te personaliseren, oefenmaatjes, Yo's en nog veel meer."
 
 	"DAC_Battlepass_Level"								"{i:battlepass_level}"
@@ -2625,7 +2814,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Profile"										"Profiel"
 	"DAC_EarlyAccess"                                   "Voorvertoning"
 	"DAC_OpenBeta"                                   	"Open bèta"	
-	"DAC_Shared_Pool_Description"						"In Underlords stellen spelers een team samen uit een gedeelde groep met helden. Deze groep bestaat uit 30 exemplaren van elke held van niveau 1, 20 van elke held van niveau 2, 15 van elke held van niveau 3, 12 van elke held van niveau 4 en 10 van elke van niveau 5. Wanneer een speler wordt uitgeschakeld, keren alle ingehuurde helden van die speler terug naar de gedeelde groep."
+	"DAC_Shared_Pool_Description"						"In Underlords stellen spelers een team samen uit een gedeelde groep met helden. Deze groep bestaat uit 30 exemplaren van elke held van niveau 1, 20 van elke held van niveau 2, 18 van elke held van niveau 3, 12 van elke held van niveau 4 en 10 van elke van niveau 5. Wanneer een speler wordt uitgeschakeld in een wedstrijd, keren alle ingehuurde helden van die speler terug naar de gedeelde groep."
 	"DAC_Zoo"											"Zoo"
 	"DAC_CityCrawlButton"								"Naar de Stadstocht"
 	"DAC_ChallengeWorldMapPage"							"Stadstocht"
@@ -2755,7 +2944,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_ErrorMsg_CannotAffordXP"				"Je hebt 5 goud nodig om XP te kopen"
 	"DAC_ErrorMsg_BenchFull"					"Kan geen eenheden kopen wanneer je reserves vol zijn"
 	"DAC_ErrorMsg_CannotEquipMelee"				"Kan dit voorwerp niet uitrusten op een afstandseenheid"
-	"DAC_ErrorMsg_CannotEquipRanged"			"Kan dit voorwerp niet uitrusten op een melee-eenheid"
+	"DAC_ErrorMsg_CannotEquipRanged"			"Kan dit voorwerp niet uitrusten op een mêlee-eenheid"
 	"DAC_ErrorMsg_CannotEquipInvalid"			"Kan geen voorwerpen uitrusten op dit type eenheden"
 	"DAC_ErrorMsg_CannotEquipManaless"			"Kan dit voorwerp niet uitrusten op een eenheid zonder actieve vaardigheid"
 	"DAC_ErrorMsg_CannotAffordToSend1Gold"		"Je hebt geen 1 goud om te sturen."
@@ -2808,6 +2997,13 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Synergy_Vigilant"		"Waakzaam"
 	"DAC_Synergy_Void"			"Het Niets"
 
+	"DAC_Synergy_Fallen"		"Gesneuveld"
+	"DAC_Synergy_Wild"			"Sjamaan"
+	"DAC_Synergy_Swordsman"		"Zwaardvechter"
+	"DAC_Synergy_Rogue"			"Schurk"
+	"DAC_Synergy_Poisoner"		"Gifmenger"
+	"DAC_Synergy_Magus"			"Magus"
+
 	"DAC_Synergy_Tooltip_Goblin_0"		"Een willekeurige vechtlustige eenheid"
 	"DAC_Synergy_Tooltip_Goblin_1"		"Alle vechtlustige eenheden"
 	"DAC_Synergy_Tooltip_Goblin_2"		"Alle bondgenoten"
@@ -2828,34 +3024,34 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Synergy_MegaDemon"			"Megademon"
 	"DAC_Synergy_MegaTroll"			"Megatrol"
 
-	"DAC_Synergy_Desc_Beast"		"Bondgenoten krijgen +{s:damage_pct}% aanvalsschade."
+	"DAC_Synergy_Desc_Beast"		"Bondgenoten krijgen {s:damage_pct}% extra aanvalsschade."
 
 	"DAC_Synergy_Desc_Savage"		"{s:alliance_eligible} krijgen {s:bonus_damage_per_attack} extra aanvalsschade per aanval op een vijand."
 
-	"DAC_Synergy_Desc_Demon"		"Wanneer een demon een spreuk gebruikt, worden gedurende {s:silence_duration} seconden alle demonen het zwijgen opgelegd en krijgt de gebruiker een bonus van +{s:bonus_pct_per_demon}% pure schade voor elke geallieerde demon."
+	"DAC_Synergy_Desc_Demon"		"Wanneer een demon een spreuk gebruikt, worden gedurende {s:silence_duration} seconden alle demonen het zwijgen opgelegd en krijgt de gebruiker een bonus van {s:bonus_pct_per_demon}% extra pure schade voor elke geallieerde demon."
 
 	"DAC_Synergy_Desc_Dragon"		"Alle draken krijgen een aanvullende drakenvaardigheid."
 
-	"DAC_Synergy_Desc_Dwarf"		"Alle dodelijke eenheden richten hun aanvallen op de vijand met de laagste gezondheid. Dodelijke melee-eenheden kunnen door eenheden bewegen."
+	"DAC_Synergy_Desc_Dwarf"		"Alle dodelijke eenheden richten hun aanvallen op de vijand met de laagste gezondheid. Dodelijke mêlee-eenheden kunnen door eenheden bewegen."
 
 	"DAC_Synergy_Desc_Primordial"		"Geallieerde elementaire eenheden roepen een eidolon van niveau {s:rank} op wanneer ze doodgaan. Eidolons zijn elementaire afstandseenheden die zelf geen eidolons voortbrengen."
 
-	"DAC_Synergy_Desc_Elf"		"Alle ontwijkende eenheden hebben een kans van {s:proc_chance}% om {s:buff_duration} seconden +{s:evasion_bonus}% ontwijking en +{s:attack_speed} aanvalssnelheid te krijgen wanneer ze worden aangevallen."
+	"DAC_Synergy_Desc_Elf"		"Alle ontwijkende eenheden hebben een kans van {s:proc_chance}% om {s:buff_duration} seconden {s:evasion_bonus}% meer ontwijking en {s:attack_speed} meer aanvalssnelheid te krijgen wanneer ze worden aangevallen."
 
-	"DAC_Synergy_Desc_Goblin"		"{s:alliance_eligible} krijgen +{s:armor_bonus} pantser en +{s:hp_regen} HP-herstel. Pantser en herstel worden verdubbeld wanneer je minder levende eenheden dan je tegenstander hebt."
+	"DAC_Synergy_Desc_Goblin"		"{s:alliance_eligible} krijgen {s:armor_bonus} meer pantser en {s:hp_regen} meer HP-herstel. Pantser en herstel worden verdubbeld wanneer je minder levende eenheden dan je tegenstander hebt."
 
 	"DAC_Synergy_Desc_Human"		"Bondgenoten genereren {s:mana_regen} mana per seconde."
 
-	"DAC_Synergy_Desc_Naga"		"Bondgenoten krijgen +{s:magic_resist}% magieweerstand."
+	"DAC_Synergy_Desc_Naga"		"Bondgenoten krijgen {s:magic_resist}% meer magieweerstand."
 
 	"DAC_Synergy_Desc_Ogre"		"Wanneer een bloedgebonden eenheid doodgaat, krijgen alle bloedgebonden eenheden {s:enrage_bonus} extra aanvalsschade, behalve de Legioenscommandant."
 
-	"DAC_Synergy_Desc_Orc"		"De maximale gezondheid van alle gespierde eenheden wordt verhoogd met {s:hp_bonus}"
+	"DAC_Synergy_Desc_Orc"		"De maximale gezondheid van alle gespierde eenheden wordt verhoogd met {s:hp_bonus}."
 
-	"DAC_Synergy_Desc_Brawny"		"De maximale gezondheid van alle gespierde eenheden wordt verhoogd met {s:hp_bonus} voor elke eenheid die door een van je gespierde eenheden tijdens het spel wordt gedood (+[ 60 / 120 ] maximale HP in Knock-out). Opgeroepen eenheden tellen voor 0,25."
-	"DAC_Synergy_Desc_Brawny_ExtraData" "Totaal aantal doden door gespierde eenheden: {f:brawny_kills} <br/>Bonusgezondheid voor gespierde eenheden: {d:brawny_bonus_health}"
+	"DAC_Synergy_Desc_Brawny"		"De maximale gezondheid van alle gespierde eenheden wordt verhoogd met {s:hp_bonus_kill_mult} voor elke eenheid die door een van je gespierde eenheden tijdens het spel wordt gedood. De bonus wordt vermenigvuldigd met het sterrenlevel van de gespierde eenheid. Opgeroepen eenheden tellen voor 0,25 van een kill. (bonus-HP afhankelijk van spelmodus)"
+	"DAC_Synergy_Desc_Brawny_ExtraData" "Totaal aantal doden door gespierde eenheden: {f:brawny_kills} <br/>Bonusgezondheid voor gespierde eenheden: {d:brawny_bonus_health}."
 
-	"DAC_Synergy_Desc_Troll"		"Alle trollen krijgen +{s:attack_speed_bonus_trolls} aanvalssnelheid en andere bondgenoten krijgen +{s:attack_speed_bonus_others} aanvalssnelheid."
+	"DAC_Synergy_Desc_Troll"		"Alle trollen krijgen {s:attack_speed_bonus_trolls} extra aanvalssnelheid, andere bondgenoten {s:attack_speed_bonus_others} extra."
 
 	"DAC_Synergy_Desc_Undead"		"Alle vijanden verliezen {s:armor_debuff} pantser."
 
@@ -2869,9 +3065,9 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 
 	"DAC_Synergy_Desc_Knight"		"Ridders ontvangen {s:physical_reduction}% minder fysieke en magische schade. Als ze van voren en binnen 1 cel van een geallieerde ridder worden aangevallen, ontvangen ze nog eens {s:physical_reduction_extra}% minder fysieke en magische schade."
 
-	"DAC_Synergy_Desc_Mage"		"Vijanden ontvangen {s:magic_resist_debuff}% meer magische schade."
+	"DAC_Synergy_Desc_Mage"		"Vijanden lopen {s:magic_resist_debuff}% meer magische schade op."
 
-	"DAC_Synergy_Desc_Mech"		"Alle uitvinders krijgen +{s:health_regen} HP-herstel"
+	"DAC_Synergy_Desc_Mech"		"Alle uitvinders krijgen {s:health_regen} meer HP-herstel."
 
 	"DAC_Synergy_Desc_Inventor"		"Geallieerde uitvinders exploderen bij het doodgaan en richten daarbij {s:damage_hp_pct}% van hun maximale gezondheid aan als schade bij alle vijanden in een straal van 1 cel."
 
@@ -2879,7 +3075,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 
 	"DAC_Synergy_Desc_Warlock"		"Elke keer een heksenmeester een spreuk gebruikt, vormt deze {s:duration} seconden een verbinding met de bondgenoot met de laagste gezondheid. Wanneer een van de verbonden helden schade aanricht, worden beide eenheden voor {s:lifesteal_pct}% van de aangerichte schade genezen."
 
-	"DAC_Synergy_Desc_Warrior"		"Alle krijgers krijgen +{s:armor_bonus} pantser."
+	"DAC_Synergy_Desc_Warrior"		"Alle krijgers krijgen {s:armor_bonus} extra pantser."
 
 	"DAC_Synergy_Desc_Insect"			"Spinnetjes storten zich voortdurend vanaf de rand van het bord op vijanden. Deze spinnetjes kunnen niet als doelwit worden gekozen, richten weinig schade aan en sterven als ze schade oplopen. Vijanden die door een van de spinnetjes wordt gebeten, hebben een kans van {s:miss_chance}% op mislukte aanvallen gedurende {s:miss_chance_duration} seconden. Als spinnetjes doodgaan, verschijnen er nieuwe tot een maximum van {s:num_insects}."
 
@@ -2891,7 +3087,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 
 	"DAC_Synergy_Desc_Brutal"			"Als een bruut een vijand aanvalt, past dit {s:debuff_duration} seconden een negatief schade-effect van {s:damage_reduction}% toe. Bij de start van het effect wordt er {s:initial_damage} schade aangericht. Bruten vallen liefst vijanden aan die dit negatief effect nog niet hebben."
 
-	"DAC_Synergy_Desc_SpiritBrother"	"Wanneer een geest een vaardigheid gebruikt, laadt hij zich volledig op. Wanneer 3 geesten zich in een geladen toestand bevinden, voeren ze de verboden techniek van de driezijdige deltaslag uit, waarmee ze {s:damage} magische schade aanrichten aan alle vijanden die erin gevangen worden en hun elementaire effecten toepassen."
+	"DAC_Synergy_Desc_SpiritBrother"	"Wanneer geesten een vaardigheid gebruiken, laden ze zich volledig op. Wanneer 3 geesten zich in een opgeladen toestand bevinden, voeren ze de verboden techniek van de Driezijdige deltaslag uit, waarmee ze elk {s:damage} magische schade toebrengen aan alle vijanden die erin gevangen worden en {s:disable_duration} seconden lang hun elementaire effecten toepassen. Schade en duur van het effect worden bij 2 sterren vermenigvuldigd met {s:multiplier_2star} en bij 3 sterren met {s:multiplier_3star}."
 
 	"DAC_Synergy_Desc_Summoner"			"Geallieerde opgeroepen eenheden krijgen {s:damage_percent}% extra schade."
 	
@@ -2899,14 +3095,26 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	
 	"DAC_Synergy_Desc_Void"				"Alle geallieerde helden hebben een kans van {s:proc_chance}% om {s:pure_damage_percent}% extra van de maximale gezondheid van het doelwit als pure schade aan te richten. Dit effect kan slechts een keer elke {s:cooldown} seconden gebeuren."
 
+	"DAC_Synergy_Desc_Fallen"			"De eerste keer dat iedere Gesneuvelde eenheid sterft, worden bondgenoten in een straal van {s:radius} cellen genezen voor {s:heal} HP en krijgen ze {s:damage_bonus_pct}% extra bonusschade voor aanvallen en spreuken. Een Gesneuvelde eenheid kan {s:revive_times} per gevecht opnieuw tot leven worden gewekt, aan {s:resurrect_hp_pct}% gezondheid"
+	
+	"DAC_Synergy_Desc_Wild"				"Als de strijd begint, wordt er een {s:summon_display_name} ter hulp opgeroepen."
+
+	"DAC_Synergy_Desc_Swordsman"		"Elke Zwaardvechter krijgt {s:damage_bonus_pct}% extra bonusschade per aangrenzende vijandelijke eenheid."
+
+	"DAC_Synergy_Desc_Rogue"			"Geallieerde Schurken krijgen {s:evasion_pct}% meer ontwijkingskans. Elke keer een Schurk een aanval weet te ontwijken, krijgt hij of zij {s:bonus_attack_damage} extra aanvalschade."
+
+	"DAC_Synergy_Desc_Poisoner"			"Gifmengers dienen bij aanvallen ladingen gif toe. Vijanden verliezen per giflading {s:attack_speed_loss_per_stack} aanvalssnelheid."
+
+	"DAC_Synergy_Desc_Magus"			"Een keer per gevecht, als de gezondheid van een Magus onder de {s:health_pct}% zakt, wordt de eenheid onkwetsbaar en kan dan ook {s:duration} seconden lang niet meer aanvallen."
+
 	"DAC_Synergy_Desc_MegaWarrior"		"Geallieerde megakrijgers krijgen {s:armor_bonus} extra pantser"
 	"DAC_Synergy_Desc_MegaWarlock"		"Elke keer dat een megaheksenmeester een spreuk gebruikt, vormt deze 3 seconden een verbinding met de bondgenoot met de laagste gezondheid. Wanneer een van de verbonden eenheden schade aanricht, worden beide eenheden met {s:lifesteal_pct}% van de aangerichte schade genezen."
 	"DAC_Synergy_Desc_MegaElusive"		"Alle mega-ontwijkende eenheden hebben een kans van {s:proc_chance}% om {s:buff_duration} seconden lang {s:evasion_bonus}% extra ontwijking en {s:attack_speed} extra aanvalssnelheid te krijgen wanneer ze worden aangevallen."
 	"DAC_Synergy_Desc_MegaAssassin"		"Alle megasluipmoordenaars krijgen een kans van {s:crit_chance}% op kritieke treffers van {s:crit_bonus}% schade."
-	"DAC_Synergy_Desc_MegaBloodbound"		"Wanneer een megabloedgebonden eenheid doodgaat, geeft het een willekeurige bevriende megabloedgebonden eenheid +{s:enrage_bonus_pct}% aanvalsschade en alle andere megabloedgebonden bonussen die het heeft."
-	"DAC_Synergy_Desc_MegaScaled"			"Bondgenoten krijgen +{s:magic_resist}% magieweerstand"
-	"DAC_Synergy_Desc_MegaDemon"			"Alle megademonen richten +{s:damage_bonus_pct}% pure schade aan."
-	"DAC_Synergy_Desc_MegaTroll"			"Alle megatrollen krijgen +{s:attack_speed_bonus_trolls} aanvalssnelheid."
+	"DAC_Synergy_Desc_MegaBloodbound"		"Wanneer een megabloedgebonden eenheid doodgaat, geeft het een willekeurige bevriende megabloedgebonden eenheid {s:enrage_bonus_pct}% extra aanvalsschade en alle andere megabloedgebonden bonussen die het heeft."
+	"DAC_Synergy_Desc_MegaScaled"			"Bondgenoten krijgen {s:magic_resist}% extra magieweerstand"
+	"DAC_Synergy_Desc_MegaDemon"			"Alle megademonen richten {s:damage_bonus_pct}% meer pure schade aan."
+	"DAC_Synergy_Desc_MegaTroll"			"Alle megatrollen krijgen {s:attack_speed_bonus_trolls} meer aanvalssnelheid."
 
 	"DAC_Shop_My_Synergies"		"Mijn allianties"
 
@@ -3128,7 +3336,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 
 	"DAC_BotName_61"					"Peter (bot)"
 	"DAC_BotName_62"					"Marianne (bot)"
-	"DAC_BotName_63"					"Dhr. Heksenmeester (bot)"
+	"DAC_BotName_63"					"Charles (bot)"
 	"DAC_BotName_64"					"Heleen (bot)"
 	"DAC_BotName_65"					"Marcel (bot)"
 	"DAC_BotName_66"					"Dorien (bot)"
@@ -3575,6 +3783,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"dac_support_upload_save_game"				"Opslagbestand naar Steam Support uploaden"
 	"dac_support_upload_console_log"			"Consolelogboek naar Steam Support uploaden"
 	"dac_dump_memory_stats"						"Geheugenstatistieken dumpen"
+	"dac_trigger_memory_warning"				"Geheugenwaarschuwing op mobiel activeren"
 	"dac_support_upload"						"Naar Steam Support uploaden"
 	"dac_support_upload_error_unknown"			"Uploaden mislukt; onbekende fout."
 	"dac_support_upload_error_no_file"			"Uploaden mislukt; geen bestand gevonden om te uploaden."
@@ -3706,11 +3915,11 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 
 	"dac_glossary_rank_details"				"Spelersrang"
 
-	"DAC_SeasonRank_Tooltip_Title"				"SEIZOENSMEDAILLES"
-	"DAC_SeasonRank_Tooltip_Title_Desc"			"Je vaardigheidsniveau van dit seizoen wordt als medaille weergegeven."
+	"DAC_SeasonRank_Tooltip_Title"				"MEDAILLES"
+	"DAC_SeasonRank_Tooltip_Title_Desc"			"Je vaardigheidsniveau wordt als medaille weergegeven."
 	"DAC_SeasonRank_Tooltip_Minor_Desc"			"Elke medaille heeft vijf voortgangsniveaus voor promotie naar de volgende rang."
 	"DAC_SeasonRank_Tooltip_Generic_Desc"		"Bij de beste spelers wordt hun plaats in het klassement onder de rangmedaille weergegeven."
-	"DAC_SeasonRank_Tooltip_End_Desc"			"Spelers kunnen medailles verdienen door competitieve spellen te spelen. De medailles worden aan het eind van elk seizoen teruggezet."
+	"DAC_SeasonRank_Tooltip_End_Desc"			"Spelers kunnen medailles verdienen door competitieve spellen te spelen."
 
 	"DACWantedAmount"							"$ %s1"
 
@@ -3738,8 +3947,8 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Team_Rank_Label"						"Teamrang"
 	"DAC_Team_Rank_YourRank_Label"				"Jouw rang"
 
-	"DAC_Season_Rank_Title"						"Seizoensmedailles"
-	"DAC_Season_Rank_Desc"						"Naarmate je vaardigheden in het seizoen verbeteren, verdien je rangmedailles, elk met vijf niveaus. Als je Grote baas 5 overtreft, word je Heerser van Witspits en verdien je een plekje in het globale klassement."
+	"DAC_Season_Rank_Title"						"Medailles"
+	"DAC_Season_Rank_Desc"						"Naarmate je vaardigheden aanscherpen, verdien je medailles, elk met vijf niveaus. Als je Grote baas 5 overtreft, word je gekroond tot Heerser van Witspits en verdien je een plekje in het globale klassement."
 
 	"DAC_LevelUp_Rank_Old"	"<span class='RankName'>{s:old_rank_name}</span> {s:old_rank_tier}"
 	"DAC_LevelUp_Rank_New"	"<span class='RankName'>{s:new_rank_name}</span> {s:new_rank_tier}"
@@ -3798,9 +4007,9 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Reward_Claim_Button"						"Opeisen"
 	"DAC_Reward_Claim_Challenge_Title"			"Dagelijkse uitdaging voltooid"
 	"DAC_Postgame_ChallengeComplete"			"Uitdaging voltooid"
-	"DAC_Weekly_Challenge_Challenge_Header"		"Challenge"
-	"DAC_Weekly_RewardCalloutHeader"			"Weekly Challenge"
-	"DAC_Weekly_RewardCalloutDesc"				"Complete the Weekly Streetfight, Objective, and Puzzle to earn this {s:reward_type}."
+	"DAC_Weekly_Challenge_Challenge_Header"		"Uitdaging"
+	"DAC_Weekly_RewardCalloutHeader"			"Uitdaging van de week"
+	"DAC_Weekly_RewardCalloutDesc"				"Voltooi de puzzel, het straatgevecht en het doel van de week. Je beloning deze week is een {s:reward_type}."
 
 	"DAC_LookingForMatch_Desc"					"Zoekt {s:game_mode} {s:match_mode} ..."
 	"DAC_LookingForMatch_Loading"				"Laden..."
@@ -3832,7 +4041,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_GoldBreakdownInterestMax"				"+{d:interest} MAXIMALE RENTE BEREIKT"
 	"DAC_GoldBreakdownStreakWIN"				"+{d:streak} WINSTREEKS"
 	"DAC_GoldBreakdownStreakLOSE"				"+{d:streak} VERLIESREEKS"
-	"DAC_GoldBreakdownItems"					"+{d:items} VAN VOORWERPEN"
+	"DAC_GoldBreakdownItems"					"{d:items} extra TIJDENS GEVECHT"
 	"DAC_GoldBreakdownRoundGold"				"+{d:round} BASISGOUD"
 	"DAC_GoldBreakdownVictory"					"+{d:victory} OVERWINNING"
 	"DAC_GoldBreakdownTotal"					"TOTAAL: {d:total} GOUD"
@@ -4018,6 +4227,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_CityCrawl_MostRecent"						"Meest recent"
 	"DAC_CityCrawl_RecommendedHeader"				"Meest recent:<br/><span class='RecommendedChallengeDesc'>{s:recommended_challenge}</span>"
 	"DAC_ChallengeGameModeRequirementsNotMet"		"Kies een andere spelmodus om je doel voor de Stadstocht te voltooien."
+	"DAC_ChallengeMatchTypeRequirementsNotMet"		"Kies een andere spelmodus om je doel voor de Stadstocht te voltooien."
 	"DAC_ChallengeDifficultyRequirementsNotMet"		"Selecteer een botspel met moeilijkheidsgraad Extreem (XP) of speel multiplayer om voortgang te maken in de gevechtspas."
 	"DAC_ChallengePrivateGameNotFull"				"Je groep moet compleet zijn om voortgang te boeken voor je gevechtspas."
 
@@ -4039,7 +4249,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Challenge_RerollAt"						"Nieuwe uitdaging over {t:d:time_to_reroll}"
 	"DAC_Challenge_RerollAvailableAt"				"Nieuwe uitdaging"
 	"DAC_Challenge_Claimable"						"Beloning opeisen"
-	"DAC_Challenge_ChallengeComplete"				"Claimed"
+	"DAC_Challenge_ChallengeComplete"				"Opgeëist"
 	"DAC_Challenge_Number"							"Uitdaging {d:challenge_slot}"
 	"DAC_Challenge_HobgenCombine2Stars_Desc"		"Maak {s:threshold} ★★-eenheden"
 	"DAC_Challenge_HobgenHireKnightWarrior_Desc"	"Geef {s:threshold} goud uit om Ridders of Krijgers in te huren"
@@ -4076,7 +4286,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Challenge_AnessixKillWithSummons_Desc"		"Dood {s:threshold} vijanden met opgeroepen eenheden"
 	"DAC_Challenge_AnessixCombine3StarDemon_Desc"	"Combineer ★★★ -demonen {s:threshold} keer"
 	"DAC_Challenge_AnessixWinWithHumans_Desc"		"Win {s:threshold} rondes met een actieve alliantie van mensen"
-	"DAC_Challenge_AnessixSummonEidolons_Desc"		"Roep {s:threshold} Eidolons op via de Elementaire alliantie"
+	"DAC_Challenge_AnessixSummonEidolons_Desc"		"{s:threshold} gifladingen toebrengen"
 	"DAC_Challenge_AnessixBuyDemons_Desc"			"Geef {s:threshold} goud uit om demonen in te huren"
 	"DAC_Challenge_AnessixDealCritDamage_Desc"		"Richt {s:threshold} schade aan met kritieke treffers"
 	"DAC_Challenge_AnessixKillDemons_Desc"			"Dood {s:threshold} demonen"
@@ -4146,10 +4356,10 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Achievement_WinWith5ActiveSynergies_Desc"	"Win {d:challengeMaxProgress} rondes met vijf of meer actieve allianties."
 	"DAC_Achievement_WinWithA6Synergy_Desc"			"Win {d:challengeMaxProgress} rondes met een actieve alliantie van zes of meer helden."
 	"DAC_Achievement_DailyChallengesCompleted"		"Dagelijkse uitdagingen voltooid"
-	"DAC_Achievement_WeeklyChallengesCompleted"		"Weekly Challenges Completed"	
-	"DAC_Achievement_WeeklyStreetFightCompleted"	"Weekly Street Fight Completed"		
-	"DAC_Achievement_WeeklyPuzzleCompleted"			"Weekly Puzzle Completed"		
-	"DAC_Achievement_WeeklyChallengeCompleted"		"Weekly Challenge Completed"		
+	"DAC_Achievement_WeeklyChallengesCompleted"		"Voltooide uitdagingen van de week"	
+	"DAC_Achievement_WeeklyStreetFightCompleted"	"Straatgevecht van de week voltooid"		
+	"DAC_Achievement_WeeklyPuzzleCompleted"			"Puzzel van de week voltooid"		
+	"DAC_Achievement_WeeklyChallengeCompleted"		"Uitdaging van de week voltooid"		
 
 	"DAC_Popup_ChallengeReroll_Title"				"Nieuwe uitdaging?"
 	"DAC_Popup_ChallengeReroll_TitleWithProgress"	"Nieuwe uitdaging?"
@@ -4205,7 +4415,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Loadout_PosterPreview"						"Postervoorbeeld"
 	"DAC_Loadout_UnderlordSkin"						"Outfit"
 	"DAC_Loadout_UnderlordVictoryDance"				"Overwinningsdans"
-	"DAC_Loadout_Generic"							"Reward"
+	"DAC_Loadout_Generic"							"Beloning"
 
 
 	"DAC_Loadout_PopupTitle_Boards"					"Kies je slagveld"
@@ -4243,11 +4453,11 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Rewards_Rewards"                           "Beloningen"
 	"DAC_Rewards_Subhead"							"Je voortgang"
 	"DAC_Rewards_Intro"					            "Speel spellen en voltooi uitdagingen om de onderstaande beloningen te ontgrendelen."
-	"DAC_Rewards_Description"						"Net als vele aspecten van de bèta is de protopas een leermoment voor het Underlords-team. Jullie feedback is van onschatbare waarde voor de gevechtspas voor seizoen 1."
+	"DAC_Rewards_Description"						"Net als veel facetten van de bèta is de protopas een leermoment voor het Underlords-team. Blijf ons feedback sturen, die is van onschatbare waarde bij het plannen van onze gevechtspas."
 	"DAC_BattlePass_GCIssue"						"Kan momenteel niet met de spelcoördinator verbinden."
 	"DAC_Rewards_CurrentLevel"						"Level<br><span class='LevelNumber'>{d:current_level}</span>"
 
-	"DAC_Rewards_BattlePass_Title"					"Seizoen 1"
+	"DAC_Rewards_BattlePass_Title"					"Gevechtspas"
 	"DAC_Rewards_BattlePass_Description"			"Het Geheime Genootschap"
 	"DAC_Reward_Item_Level"							"Level {d:reward_level} "
 
@@ -4281,7 +4491,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_AchievementTitle_Missing" 					"Titel ontbreekt"
 	"DAC_AchievementDesc_Missing" 					"Beschrijving ontbreekt"
 
-	"DAC_Profile_TopFinishes"				"Hoogste podiumplaatsen van dit seizoen"
+	"DAC_Profile_TopFinishes"				"Hoogste podiumplaatsen"
 	"DAC_Profile_FinishFirst"				"Eerste"
 	"DAC_Profile_FinishSecond"				"Tweede"
 	"DAC_Profile_FinishThird"				"Derde"
@@ -4301,8 +4511,8 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 
 	"DAC_Profile_LoadMore"					"Meer laden"
 
-	"DAC_Profile_Progress"					"Seizoensvoortgang"
-	"DAC_Profile_Stats"						"Seizoensstatistieken"
+	"DAC_Profile_Progress"					"Voortgang"
+	"DAC_Profile_Stats"						"Statistieken"
 
 	"DAC_Profile_GamesPlayed"				"Gespeelde spellen"
 	"DAC_Profile_MostTotalDamage"			"Hoogste totale schade"
@@ -4353,21 +4563,30 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"dac_season_0_popup_duos"		"Spelmodus Duo's"
 	"dac_season_0_popup_proving"		"Oefenterrein"
 
+	"dac_hero_rotation_popup_pre_title"			"Nieuw:"
+	"dac_hero_rotation_popup_title"				"Nieuw bloed in de straten"
+	"dac_hero_rotation_popup_heroes"			"8 nieuwe helden"
+	"dac_hero_rotation_popup_alliances"			"6 nieuwe allianties"
+	"dac_hero_rotation_popup_items"				"7 nieuwe voorwerpen"
+	"dac_hero_rotation_popup_oldheroes"			"8 oude bekenden"
+	"dac_hero_rotation_popup_classic"			"Klassieke modus"
+	"dac_hero_rotation_popup_rankreset"			"Rangen worden teruggedraaid"
+
 	"s1_title_row_1"			"Welkom in"
 	"s1_title_row_2"			"Witspits"
 	"s1_description"			"Mama Eeb is niet meer en de stad ligt voor het grijpen. Stel een team samen, vecht en verover Witspits in de <span class='Emphasis'>Stadstocht</span>.<br><br>Voltooi uitdagingen, speel spellen en verdien beloningen met de <span class='Emphasis'>gevechtspas</span>.<br><br>Welkom bij Seizoen 1 van Underlords!"
 	"s1_play_trailer"			"Trailer afspelen"
 	"s1_ricky_beta_message"		"Psst! Bedankt voor je deelname aan de bèta. Ik heb er wat leuks voor je uit meegenomen: de borden uit het bètaseizoen, een postertitel en een standbeeld voor op je bord!"
 
-	"DAC_MainMenu_Weekly_Challenge_Header"	"This week:\n{s:weekly_challenge_headline}"
-	"popup_weekly_challenge_title" "The Early Bird"
-	"popup_weekly_challenge_subtitle" "The best (and only) newspaper in White Spire!"
-	"popup_weekly_challenge_battlepass_title" "Battle Pass must be unlocked to open the weekly early bird."
-	"popup_weekly_challenge_description" "Every week will bring a new issue of the Early Bird with the latest news from White Spire, new challenges to complete, and more. Complete the weekly Puzzle, Streetfight, and Objective to unlock the weekly reward!"
-	"popup_weekly_challenge_description_2_locked" "Since you have unlocked the Battle Pass, you already have access to the newsletter."
-	"popup_weekly_challenge_description_2_unlocked" "The weekly Early Bird is only available to players who have unlocked the Battle Pass."
-	"popup_weekly_challenge_ok_button" "View this week's issue"	
-	"popup_weekly_challenge_getbp_button" "Unlock the battlepass"
+	"DAC_MainMenu_Weekly_Challenge_Header"	"Deze week:\n{s:weekly_challenge_headline}"
+	"popup_weekly_challenge_title" "De Vroege Vogel"
+	"popup_weekly_challenge_subtitle" "De beste (en enige) krant in Witspits!"
+	"popup_weekly_challenge_battlepass_title" "Om de wekelijkse Vroege Vogel te openen, moet de gevechtspas ontgrendeld zijn."
+	"popup_weekly_challenge_description" "Elke week landt er een nieuwe editie van De Vroege Vogel met het laatste nieuws uit Witspits, nieuwe uitdagingen en meer. Voltooi de wekelijkse puzzel, het straatgevecht en het doel om de beloning van de week te ontgrendelen!"
+	"popup_weekly_challenge_description_2_locked" "Je hebt de gevechtspas ontgrendeld, dus je hebt al toegang tot de krant."
+	"popup_weekly_challenge_description_2_unlocked" "De Vroege Vogel is enkel beschikbaar voor spelers die de gevechtspas ontgrendeld hebben."
+	"popup_weekly_challenge_ok_button" "Editie van deze week bekijken"	
+	"popup_weekly_challenge_getbp_button" "Gevechtspas ontgrendelen"
 	"dac_tutorial_popup_pre_title"			"Welkom bij"
 	"dac_tutorial_popup_title"				"Dota Underlords"
 	"dac_play_tutorial_popup_desc"			"Korte introductie"
@@ -4541,7 +4760,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 
 	"DAC_MainNav_SeasonInfo"	"Handboek"
 	"DAC_MainNav_EarlyBird"		"Vroege Vogel"
-	"DAC_EarlyBird_ButtonDesc"	"Weekly Newsletter"
+	"DAC_EarlyBird_ButtonDesc"	"Weekblad"
 	"DAC_MainNav_Achievements"	"PRESTATIES"
 	"DAC_MainNav_Battlepass"	"PROTOPAS"
 	"DAC_MainNav_SecretSociety"	"GEHEiM gENoOTscHAP"
@@ -4712,6 +4931,10 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Puzzle_RuleDescription_UnitCountLimit_Hi"		"Maximaal aantal eenheden: {d:maximum}"
 	"DAC_Puzzle_RuleDescription_UnitCountLimit_Lo"		"Minimaal aantal eenheden: {d:minimum}"
 
+	"DAC_Puzzle_RuleDescription_UnitCopyLimit"			"{d:minimum} t/m {d:maximum} per eenheid"
+	"DAC_Puzzle_RuleDescription_UnitCopyLimit_Hi"		"Maximaal {d:maximum} per eenheid"
+	"DAC_Puzzle_RuleDescription_UnitCopyLimit_Lo"		"Minimaal {d:minimum} per eenheid"
+
 	"DAC_Puzzle_RuleDescription_UnitStarLimit"			"Sterren per eenheid: {d:minimum}-{d:maximum}"
 	"DAC_Puzzle_RuleDescription_UnitStarLimit_Hi"		"Maximaal aantal sterren: {d:maximum}"
 	"DAC_Puzzle_RuleDescription_UnitStarLimit_Lo"		"Minimaal aantal sterren: {d:minimum}"
@@ -4870,7 +5093,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"dac_underlord_picker_1_build_1_ability_desc"	"Roept een golem op achter de linies van de vijand om daar voor je team te vechten."
 
 	"dac_underlord_picker_2_name"					"Jull"
-	"dac_underlord_picker_2_title"					"Gepantserde melee"
+	"dac_underlord_picker_2_title"					"Gepantserde mêlee"
 
 	"dac_underlord_picker_2_build_0_title"			"Agressieve tank"
 	"dac_underlord_picker_2_build_0_ability_desc"	"Laat vaten verschijnen die bevriende eenheden positieve effecten geven en vijanden negatieve."
@@ -4897,7 +5120,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"dac_underlord_picker_4_build_1_ability_desc"	"Hobgen ontvangt positieve effecten en het hele leger krijgt meer aanvalssnelheid."
 
 	"DAC_Dashboard_Promo_Season1_Title"			"Welkom in Witspits"
-	"DAC_Dashboard_Promo_Season1_Desc"			"Welkom bij Seizoen 1"
+	"DAC_Dashboard_Promo_Season1_Desc"			"Verover de stad"
 
 	"dac_underlord_detail_passive_name"			"Passieve vaardigheid"
 	"dac_underlord_detail_passive_build_desc"	"In het spel krijg je een van de twee onderstaande versies te zien."
@@ -4934,6 +5157,14 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"dac_turbo_bucket_tip_Vigilant"				"<span class='Vigilant'>Neemt eenheden die spreuken gebruiken tot doelwit</span>"
 	"dac_turbo_bucket_tip_Void"					"<span class='Void'>Richt pure schade aan</span>"
 
+	"dac_turbo_bucket_tip_Fallen"				"<span class='Fallen'>Genezing na de dood. Re­sur­rec­tie.</span>"
+	"dac_turbo_bucket_tip_Wild"					"<span class='Wild'>Roept schepsels op</span>"
+	"dac_turbo_bucket_tip_Swordsman"			"<span class='Swordsman'>Verhoogde schade wanneer omsingeld</span>"
+	"dac_turbo_bucket_tip_Rogue"				"<span class='Rogue'>Verhoogde schade en ontwijkingskans</span>"
+	"dac_turbo_bucket_tip_Poisoner"				"<span class='Poisoner'>Dient gif toe bij aanvallen</span>"
+	"dac_turbo_bucket_tip_Magus"				"<span class='Magus'>Kan 1 keer per gevecht aan aanvallen ontkomen</span>"
+
+
 	"dac_status_stunned"                        "Verlamd"
 	"dac_status_hexed"                          "Behekst"
 	"dac_status_muted"                          "Gedempt"
@@ -4945,31 +5176,51 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_DevRandomBot"			"[DEV] 1 bot het hoekje om"
 	"DAC_DevKillSelf"			"[DEV] Don't do it, dev"
 
-	"DAC_Weekly_Headline"						"Funny Headline!"
-	"DAC_Weekly_SubHeadline"					"Pithy Subhead that expands on headline joke and makes everyone laugh"
-	"DAC_Weekly_NoActiveChallengeHeader"		"Check back next week!"
-	"DAC_Weekly_ChallengesComplete"				"{i:weeklyChallengesCompleted}/{i:weeklyChallengesRequired} Challenges Complete"
-	"DAC_Weekly_Claim"							"Claim"
-	"DAC_Weekly_WeeklyChallenges"				"Weekly Challenges"
-	"DAC_Weekly_TimeRemaining"					"Expires in {i:days_left}D {i:hours_left}H {i:minutes_left}M"
-	"DAC_Weekly_TimeRemainingDays"				"{i:days_left} days remaining"
-	"DAC_Weekly_TimeRemainingHours"				"{i:hours_left} hours remaining"
-	"DAC_Weekly_TimeRemainingMinutes"			"{i:minutes_left} minutes remaining"
+	"DAC_Weekly_LastWeek"						"Vorige editie"
+	"DAC_Weekly_NextWeek"						"Volgende editie"
+
+	"DAC_Weekly_Headline"						"Grappige kop!"
+	"DAC_Weekly_SubHeadline"					"Snedige onderkop die zinspeelt op de grap uit de kop en iedereen doet lachen"
+	"DAC_Weekly_NoActiveChallengeHeader"		"Hier is niks nieuws te zien, maar keer terug en grijp de beloningen die je gemist hebt!"
+	"DAC_Weekly_ChallengesComplete"				"{i:weeklyChallengesCompleted}/{i:weeklyChallengesRequired} uitdagingen voltooid"
+	"DAC_Weekly_Claim"							"Opeisen"
+	"DAC_Weekly_WeeklyChallenges"				"Uitdagingen van de week"
+	"DAC_Weekly_TimeRemaining"					"Verloopt over {i:days_left} d {i:hours_left} h {i:minutes_left} min"
+	"DAC_Weekly_TimeRemainingDays"				"nog {i:days_left} dag(en) beschikbaar"
+	"DAC_Weekly_TimeRemainingHours"				"nog {i:hours_left} uur beschikbaar"
+	"DAC_Weekly_TimeRemainingMinutes"			"nog {i:minutes_left} min beschikbaar"
 	"DAC_Weekly_Puzzle_Desc"					"Some very cool words setting up this super sneaky puzzle involving the week's theme story."
 	"DAC_Weekly_StreetFight_Desc"				"Some more neato words setting up this really exciting streetfight, also themed around the week's story."
-	"DAC_Weekly_Fight"							"Fight!"
-	"DAC_Weekly_StreetFight"					"StreetFight!"
-	"DAC_Weekly_Objective"						"Objective!"
-	"DAC_Weekly_Puzzle"							"Puzzle!"
-	"DAC_Weekly_Arcade"							"Ye Olde Arcade"
-	"DAC_Weekly_NonogramTitle"					"Weekly Headscratcher"
-	"DAC_Weekly_NonogramDesc"					"Your aim in this puzzle is to figure out where there are filled and empty squares. Beside each row and column of the grid are listed the lengths of the runs of filled squares. These numbers tell you the runs of filled squares in that row/column. So, if you see '7 2', that tells you that there will be a run of exactly 7 filled squares, followed by one or more empty squares, followed by 2 filled squares.\n\nFill in a square by clicking it, mark it empty by clicking it again, and clear it by clicking a third time."
-	"DAC_Weekly_CourierStatsTitle"				"Courier Race Results"
+	"DAC_Weekly_Fight"							"Vechten!"
+	"DAC_Weekly_StreetFight"					"Straatgevecht!"
+	"DAC_Weekly_Objective"						"Doel!"
+	"DAC_Weekly_Puzzle"							"Puzzel!"
+	"DAC_Weekly_Arcade"							"Retro speelhal"
+	"DAC_Weekly_NonogramTitle"					"Hersenbreker van de week"
+	"DAC_Weekly_NonogramDesc"					"Je doel in deze puzzel is uit te vissen waar de ingevulde vierkanten zich bevinden en waar er lege vierkanten zijn. Naast elke rij en kolom van het raster vind je de lengte van de reeksen gevulde vierkanten terug. Deze getallen geven de reeksen gevulde vierkanten weer in die bepaalde rij of kolom. Als je dus '7 2' ziet staan, betekent dit dat je daar een reeks van exact 7 gevulde vierkanten zult terugvinden, gevolgd door 1 of meerdere lege vierkanten, en vervolgens weer 2 gevulde vierkanten.\n\nKlik op een vierkant om het in te vullen. Markeer het als leeg door opnieuw te klikken. Wis je selectie door een derde keer te klikken."
+	"DAC_Weekly_NonogramHint"					"Hint: {s:nonogram_hint}"	
+	"DAC_Weekly_NonogramHeader_1"				"Wat wil jij op je grafsteen?"
+	"DAC_Weekly_NonogramHeader_2"				"Als je aan de haak bent..."
+	"DAC_Weekly_NonogramHeader_3"				"Steek als een bij"
+	"DAC_Weekly_NonogramHeader_4"				"Vuile panda"
+	"DAC_Weekly_NonogramHeader_5"				"Eerst toeslaan, hard toeslaan"
+	"DAC_Weekly_NonogramHeader_6"				"Altijd als laatste slaan"
+	"DAC_Weekly_NonogramHeader_7"				"De pokkenpaus"
+	"DAC_Weekly_NonogramHeader_8"				"De duivel zit in de details"
+	"DAC_Weekly_NonogramHeader_9"				"Ik ben het brutensquadron"
+	"DAC_Weekly_NonogramHeader_10"				"Blad me alleen"
+	"DAC_Weekly_NonogramHeader_11"				"Vurige kerel"
+	"DAC_Weekly_NonogramHeader_12"				"De man met de bijl"
+	"DAC_Weekly_NonogramHeader_13"				"Laatste linie"
+	"DAC_Weekly_NonogramHeader_14"				"De betere zuster"
 
-	"DAC_Start_Courier_PlaceBet"				"Place your bets!"
-	"DAC_Start_Courier_StartRace"				"Start the race!"
-	"DAC_Start_Courier_NewRace"					"You Won <img class='goldcoin'/> {i:last_payout}!  Race Again?"
-	"DAC_Start_Courier_Race_InProgress"			"And they're off!"
+	"DAC_Weekly_CourierStatsTitle"				"Resultaten koeriersrace"
+	"DAC_Weekly_Expired"						"Niet meer geldig"
+
+	"DAC_Start_Courier_PlaceBet"				"Inzetten maar!"
+	"DAC_Start_Courier_StartRace"				"Start de race!"
+	"DAC_Start_Courier_NewRace"					"Je hebt <img class='goldcoin'/> {i:last_payout} gewonnen!  Opnieuw racen?"
+	"DAC_Start_Courier_Race_InProgress"			"En... daar gaan ze!"
 
 	"DAC_CC_Bounty_Title"						"Premie:"
 	"DAC_CC_MostWanted_Title"					"Gezocht"
@@ -4983,7 +5234,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_CC_New_Item"							"Nieuw!"
 	"DAC_CC_Key_Tooltip"						"Gebruik een Sleutel van de stad om een uitdaging van de Stadstocht over te slaan en voort te gaan in de map. Sleutels mogen maar één keer gebruikt worden, dus kies voorzichtig."
 	"DAC_CC_Locked_Content_Title"				"Uitdaging vergrendeld"
-	"DAC_CC_Locked_Content_Desc"				"Ontgrendel de gevechtspas van Seizoen 1 om toegang te krijgen tot de volledige Stadstocht en de meer dan 100 premiumbeloningen uit de lijn beloningen van de gevechtspas."
+	"DAC_CC_Locked_Content_Desc"				"Ontgrendel de gevechtspas voor toegang tot de volledige Stadstocht en de meer dan 100 premiumbeloningen uit de lijn beloningen van de gevechtspas."
 	"DAC_CC_TakeOverWhiteSpire"					"Verover Witspits"
 	"DAC_CC_BeginPrestige"						"Herover de stad"
 	"DAC_CC_DistrictCompleted"					"Stadsdeel voltooid"
@@ -5015,7 +5266,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_CC_Intro_StreetFight_Title"			"Straatgevecht"
 	"DAC_CC_Intro_StreetFight_Desc"				"Vecht een-op-een tegen een vijandelijke bende in een snel gevecht om hun territorium over te nemen."
 	"DAC_CC_Intro_BattlePass_Title"				"Gevechtspas"
-	"DAC_CC_Intro_BattlePass_Desc"				"Je kunt premiumbeloningen ontgrendelen als je de gevechtspas van Seizoen 1 koopt."
+	"DAC_CC_Intro_BattlePass_Desc"				"Je kunt premiumbeloningen ontgrendelen als je de gevechtspas koopt."
 
 	"DAC_CC_ChallengeType_Intro"					"Introductie"
 	"DAC_CC_ChallengeType_Objective"				"Doel"
@@ -5170,8 +5421,8 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Challenge_Streetfight_scaled_slark_BotDesc"		"unused description about Graveyard Trolls"
 	"DAC_Challenge_Streetfight_scaled_slark_Lore"			"Slark en zijn maten van het duistere rif zijn delen van Nieuw Obscurendam aan het proberen over te nemen.  Als er niet snel met ze wordt afgerekend, krijgen ze ongetwijfeld een voet aan grond."
 	"DAC_Challenge_Streetfight_scaled_slark_Quote"			"Ik weet niet of het op bevel is van Jull of dat de Slark op eigen initiatief werkt, maar ik geef geen duimbreed territorium toe aan die smeerlap. – <i>Hobgen reageert op een nieuwe dreiging</i>"
-	"DAC_Challenge_Streetfight_scaled_slark_Win"			"Hobgen unintentionally stands for law and order by killing escaped convicts"
-	"DAC_Challenge_Streetfight_scaled_slark_Lose"			"Darkreef escapees beat the hell out Hobgen"
+	"DAC_Challenge_Streetfight_scaled_slark_Win"			"Hobgen zorgt ongewild voor peis en vree door ontsnapte gevangenen te vermoorden"
+	"DAC_Challenge_Streetfight_scaled_slark_Lose"			"Hobgen in elkaar getimmerd door voortvluchtigen uit het Duistere Rif"
 	
 	
 	
@@ -5188,8 +5439,8 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Challenge_Streetfight_thunderhides_BotDesc"			"Is het hier gebroken?"
 	"DAC_Challenge_Streetfight_thunderhides_Lore"				"De uitgebreide menagerie van Grek voor zijn shows zorgt voor interessante taferelen.  Het zorgt ook voor mogelijk onheil als een van de looprennen het zou begeven."
 	"DAC_Challenge_Streetfight_thunderhides_Quote"				"Greks verduivelde donderhuiden zijn uit hun omheining ontsnapt. Ze moeten weer bijeen worden gedreven voor ze heel Nieuw Obscurendam onder de hoef lopen. – <i>Hobgen, amateurdompteur</i>"
-	"DAC_Challenge_Streetfight_thunderhides_Win"				"Hobgen wrangles escaped thunderhides, consideres starting own menagerie"
-	"DAC_Challenge_Streetfight_thunderhides_Lose"				"Hobgen saw the Thunderhide.  And the Thunderhide saw him."	
+	"DAC_Challenge_Streetfight_thunderhides_Win"				"Hobgen ronselt ontsnapte Donderhuiden. Droomt van eigen menagerie."
+	"DAC_Challenge_Streetfight_thunderhides_Lose"				"Hobgen zag de Donderhuid. De Donderhuid zag Hobgen."	
 	
 	"DAC_Challenge_Streetfight_foresters_title"				"Vuurkijker"
 	"DAC_Challenge_Streetfight_foresters_Bot"				"Bomenknuffelaars"
@@ -5779,9 +6030,9 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Challenge_AnessixWinWithHumans_quote"                               		"De mensen van Witspits kennen mijn naam en roepen me aan voor macht. Elke dag zie je mijn aanbidders groeien in aantal, en met hen groeit ook mijn invloed. – <i>Anessix, kan je geven wat je nodig hebt</i>"
 
 	
-	"DAC_Challenge_AnessixSummonEidolons_title"                           	   		"Moeder der Eidolons"
-	"DAC_Challenge_AnessixSummonEidolons_lore"                            	   		"Sommigen bibberen in hun schoenen voor de macht van de Fundamentals, maar Anessix streeft ernaar op gelijke voet met ze te opereren. Tot ze hen een mes in de rug kan planten."
-	"DAC_Challenge_AnessixSummonEidolons_quote"                           	   		"De elementaire krachten doen alsof ze superieur zijn, maar ze kunnen net als elk sterfelijk schepsel gecontroleerd worden. Je moet enkel zien uit te vissen wat ze willen... Daarna is het kinderspel om ze te manipuleren. – <i>Anessix toont onverbloemde minachting</i>"
+	"DAC_Challenge_AnessixSummonEidolons_title"                           	   		"Hef het glas"
+	"DAC_Challenge_AnessixSummonEidolons_lore"                            	   		"Imago is alles voor Anessix. Toen er dus met minachting werd gefluisterd over haar demonenbloed door een deel van de Witspitse aristocraten, koos ze er dan ook voor om hen te vergiftigen in plaats van af te slachten. Ze is tenslotte een dame met klasse, niet het monster dat ze afschilderden. "
+	"DAC_Challenge_AnessixSummonEidolons_quote"                           	   		"Nog iets om af te vinken voor ik over Witspits heers.  - <i>Anessix toont naakte ambitie</i>"
 
 		
 	"DAC_Challenge_AnessixBuyDemons_title"                         			"Investeren in de toekomst"
@@ -5819,7 +6070,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 
 	
 	// Enno S1 Objectives
-	"DAC_Challenge_EnnoWinWithHunters_Desc"			"Win {s:threshold} rondes met een actieve alliantie van <span class='Hunter'>Jagers</span>"
+	"DAC_Challenge_EnnoWinWithHunters_Desc"			"Win {s:threshold} rondes met een actieve alliantie van Jagers"
 	"DAC_Challenge_EnnoWinWithHunters_title"		"Op jacht in de straten"
 	"DAC_Challenge_EnnoWinWithHunters_lore"			"Enno zit niet vaak stil. In zijn vrije tijd patrouilleert hij de Steegjes op zoek naar ongewenste bezoekers."
 	"DAC_Challenge_EnnoWinWithHunters_quote"		"Enno vertelt in gruwelijk detail wat hij van plan is met indringers."
@@ -5850,7 +6101,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Challenge_EnnoStunUnits_lore"				"Laat een iets perfect duidelijk zijn: Enno is een rasechte smeerlap en hij wil dat de wereld dat geweten heeft."
 	"DAC_Challenge_EnnoStunUnits_quote"				"Enno probeert zijn vijanden een voor een te ontmantelen."
 	
-	"DAC_Challenge_EnnoBruteDebuff_Desc"			"Pas het negatief effect van de <span class='Brute'>Bruten</span> toe op {s:threshold} eenheden"
+	"DAC_Challenge_EnnoBruteDebuff_Desc"			"Pas het negatief effect van de Bruten toe op {s:threshold} eenheden"
 	"DAC_Challenge_EnnoBruteDebuff_title"			"Enkelbijters"
 	"DAC_Challenge_EnnoBruteDebuff_lore"			"Enno begrijpt dat angst datgene is dat mensen weghoudt uit de Steegjes, dus doet hij er alles aan dat gevoel te cultiveren."
 	"DAC_Challenge_EnnoBruteDebuff_quote"			"Enno verkondigt dat niemand veilig is in deze straten."
@@ -5860,10 +6111,10 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Challenge_EnnoTop4_lore"	"Het is geen geheim dat van de vier opkomende Underlords, Enno de onbekende factor is. Hij is geen zakenman. Hij heeft geen demonische bondgenoten. Hij was nooit de rechterhand van Mama Eeb. Stellen dat Enno iets te bewijzen heeft, is een understatement."
 	"DAC_Challenge_EnnoTop4_quote"  "Enno houdt van blinkende dingen"
 	
-	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"Richt {s:threshold} schade aan met <span class='Ogre'>Bloedgebonden</span> eenheden"
-	"DAC_Challenge_EnnoDealDamageBloodbound_title"	"De kleine man"
-	"DAC_Challenge_EnnoDealDamageBloodbound_lore"	"Enno wil voortdurend bewijzen dat grootte er niet toe doet."
-	"DAC_Challenge_EnnoDealDamageBloodbound_quote"	"Enno verkondigt dat niets meer voldoening geeft dan degenen die hem onderschatten om het hoekje te helpen."
+	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"Richt {s:threshold} schade aan met Gesneuvelde eenheden"
+	"DAC_Challenge_EnnoDealDamageBloodbound_title"	"Verstand op genadeloos"
+	"DAC_Challenge_EnnoDealDamageBloodbound_lore"	"Enno zei altijd al dat hij zich graag omringt met volk dat liever nooit het loodje legt"
+	"DAC_Challenge_EnnoDealDamageBloodbound_quote"	"Enno's seneshal YipYip interpreteert de woorden van zijn meester letterlijk"
 
 	"DAC_Challenge_EnnoSpendGoldLeveling_Desc"		"Geef {s:threshold} goud uit aan XP"
 	"DAC_Challenge_EnnoSpendGoldLeveling_title"	"Onthoud de naam"
@@ -5875,8 +6126,8 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Challenge_EnnoBuy5CostUnits_lore" "De kronkelige achterafstraatjes van de Steegjes bieden ondernemende individuen een weelde aan mogelijkheden om een valstrik te zetten."
 	"DAC_Challenge_EnnoBuy5CostUnits_quote" "Enno is van plan de straten in zijn voordeel te gebruiken."
 
-	"DAC_Challenge_EnnoWinWithInsect_Desc"			"Win {s:threshold} rondes met een actieve alliantie van <span class='Insect'>insecten</span>"
-	"DAC_Challenge_EnnoWinWithInsect_title" "Op snelheid genomen"
+	"DAC_Challenge_EnnoWinWithInsect_Desc"			"Win {s:threshold} rondes met een actieve alliantie van Zwaardvechters"
+	"DAC_Challenge_EnnoWinWithInsect_title" "Roekeloosheid in de straten"
 	"DAC_Challenge_EnnoWinWithInsect_lore"	"De kronkelige achterafstraatjes van de Steegjes bieden ondernemende individuen een weelde aan mogelijkheden om een valstrik te zetten."
 	"DAC_Challenge_EnnoWinWithInsect_quote" "Enno is van plan de straten in zijn voordeel te gebruiken."
 
@@ -6028,7 +6279,7 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 	"DAC_Challenge_Streetfight_scaled_slark_enno_BotDesc"		"scaled_slark_enno Desc"
 	"DAC_Challenge_Streetfight_scaled_slark_enno_Lore"		"Enno heeft twee hobby's: toeristen overvallen en Jull het bloed onder de nagels uithalen."
 	"DAC_Challenge_Streetfight_scaled_slark_enno_Quote"		"Enno verklaart haat voor Jull"
-	"DAC_Challenge_Streetfight_scaled_slark_enno_Win"		"Enno continues to be a thorn in Jull's side by disrupting Dark Reef bootleggers"
+	"DAC_Challenge_Streetfight_scaled_slark_enno_Win"		"Enno blijft een doorn in het oog van Jull wegens lastigvallen van de drankensmokkelaars van het Duistere Rif"
 	"DAC_Challenge_Streetfight_scaled_slark_enno_Lose"		"Enno's aanval op Jull gigantische mislukking"
 
 
@@ -6079,271 +6330,291 @@ De voorwerpen voor elke Underlord worden uit identieke lijsten getrokken en kome
 
 
 	// Weekly challenge	#1
-	"DAC_Challenge_weekly_challenge_0_Headline"						"COMING SOON!"
+	"DAC_Challenge_weekly_challenge_0_Headline"						"BINNENKORT!"
 
-	"DAC_Challenge_weekly_challenge_1_Headline"						"STALK MARKET CLASH!"
-	"DAC_Challenge_weekly_challenge_1_SubHeadline"					"Turnips and blood fly at the White Spire Farmer's Market"
+	"DAC_Challenge_weekly_challenge_1_Headline"						"KOMKOMMERTIJD!"
+	"DAC_Challenge_weekly_challenge_1_SubHeadline"					"Bloederige heibel op boerenmarkt Witspits. Meerdere knolrapen slachtoffer."
 
-	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Title"		"Axe and Disruptor Cause Disturbance in the market"
-	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Lore"		"White Spire is no stranger to questionable goods and services, but even by our citys standards, selling Oglodi skin shirts is particularly ghoulish \n(more on page 2\n)"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_Title"			"Tailor Trades Traditions"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_Lore"			"After a disasterous showing at the Farmer's Market, Carl the tailor has decided to abandon Quoidge fashion trends in lieu of more traditional garments.  When asked about the change, Carl said \"I'm just a simple corpse that likes to put a smile on peoples faces.  If that means hiring people to hunt wolves instead of Oglodi, I'm all for it,\" (more on page 6)"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_win"			"Carl decides to make a jacket that doesn't involve human flesh"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_lose"			"Trapping Party Hired by Carl get's mauled outside White Spire"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_Bot"			"Premature Pelts"
+	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Title"		"Aks en Disruptor zorgen voor commotie op de markt"
+	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Lore"		"In Witspits vind je wel meer goederen en diensten van twijfelachtig allooi, maar zelfs naar de standaarden van onze prachtige stad zijn hemden gemaakt uit Oglodi-vel erover.\n(meer op pagina 2)\n"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Title"			"Kleermaker maakt nieuwe traditie"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Lore"			"Na een desastreuze episode op de boerenmarkt heeft Carl de kleermaker besloten om Quoidge-modetendenzen achter zich te laten en zich te richten op meer traditionele klederdracht.  Gevraagd naar zijn keuze, wist Carl het volgende te vertellen: \"Ik ben maar een eenvoudig lijk, met de eenvoudige wens om een glimlach op het gezicht van de mensen te toveren.  Als dat betekent dat ik volk moet inhuren om op wolven te jagen in plaats van op Oglodi, kan ik dat enkel toejuichen.\" (meer op pagina 6)"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_win"			"Carl besluit een jas te maken zonder mensenvel"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_lose"			"Pelsjagers ingehuurd door Carl worden verscheurd buiten muren van Witspits"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Bot"			"Premature pelzen"
 
-	"DAC_Challenge_Challenge_weekly_challenge_1_Title"				"Wanted: Justice For Carl"
-	"DAC_Challenge_Challenge_weekly_challenge_1_Lore"				"Carl the Tailor was the victim of non-dead prejudice in White Spire, and the good people of Quoidge will not stand for it.  Let it be known that we will be rewarding any individuals that work to progress undead relations in White Spire.\n\n- Reginald Blithe the third, Spokesman of the Cadaver Men."
-	"DAC_Challenge_Challenge_weekly_challenge_1_Instructions"		"Kill 300 units with Heartless heroes"
+	"DAC_Challenge_Challenge_weekly_challenge_1_Title"				"Gezocht: gerechtigheid voor Carl"
+	"DAC_Challenge_Challenge_weekly_challenge_1_Lore"				"Carl de kleermaker was het slachtoffer van vooroordelen tegen ondoden in Witspits en de goede burgers van Quoidge kunnen dat niet links laten liggen.  Laat het geweten zijn dat er een beloning klaarstaat voor iedereen die de relaties tussen ondoden en niet-ondoden in Witspits weet te verbeteren.\n\n– Reginald Blithe de derde, Woordvoerder van de Orde der Kadavers."
+	"DAC_Challenge_Challenge_weekly_challenge_1_Instructions"		"Dood 300 eenheden met Harteloze helden"
 	
 	// Weekly challenge	#2
-	"DAC_Challenge_weekly_challenge_2_Headline"						"AXE-CITING DAY IN WHITE SPIRE"
-	"DAC_Challenge_weekly_challenge_2_SubHeadline"					"Local Authorities chalk up rise in murders to Axe's vacation in White Spire"
+	"DAC_Challenge_weekly_challenge_2_Headline"						"AKS-ELLENT DAGJE IN WITSPITS"
+	"DAC_Challenge_weekly_challenge_2_SubHeadline"					"Plaatselijke autoriteiten wijten stijgend moordcijfer aan vakantie Aks in Witspits"
 
-	"DAC_Challenge_Puzzle_brutal_book_signing_Title"		"Bad Luck Follows \"The Bad Luck Oglodi\" "
-	"DAC_Challenge_Puzzle_brutal_book_signing_Lore"		"A book signing for Goodkind's new novel, \"The Bad Luck Oglodi\" took a particularly violent turn after someone suggested that Axe wasn't as dangerous as he is presented in the book.  (More on page 2)"
+	"DAC_Challenge_Puzzle_brutal_book_signing_Title"		"Ongeluk achtervolgt de ongelukkige Oglodi "
+	"DAC_Challenge_Puzzle_brutal_book_signing_Lore"		"Een signeersessie voor 'De ongelukkige Oglodi', Goodkinds nieuwste boek, mondde uit in brutaal geweld nadat iemand opperde dat Aks niet zo gevaarlijk is als het boek laat uitschijnen. (meer op pagina 2)"
+	"DAC_Puzzle_RuleDescription_brutal_book_signing"			"Alleen Aks mag vijanden doodmaken"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_2_Title"		"Axe drinks at Sundered Moon, violence ensues"
-	"DAC_Challenge_Streetfight_weekly_street_fight_2_Lore"		"Bar tabs and bodycounts rose last night as Axe's arrival to White Spire gained the attention of would be-tough guys with something to prove... and unfortunately for Jull, these ruffians found themselves at The Sundered Moon. (More on page 6)"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_2_win"				"Jull buries hatchet with Axe, punches people on his behalf"
-	"DAC_Challenge_Streetfight_weekly_street_fight_2_lose"				"Bar Fight in Sundered Moon leaves Jull's establisment in shambles"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Title"		"Aks bezoekt de Gehalveerde Maan. Geweld breekt uit."
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Lore"		"Aks' aankomst in Witspits ging gepaard met een opeenstapeling van caféschuld en dood volk dankzij een resem wannabegespuis met iets te bewijzen... Jammer genoeg voor Jull bevond dat gespuis zich in de Gehalveerde Maan. (meer op pagina 6)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_win"				"Jull begraaft strijdbijl met Aks. Deelt lellen uit in zijn naam."
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_lose"				"Bargevecht in de Gehalveerde Maan laat Julls etablissement in duigen"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Bot"				"Hooligans"
 
-	"DAC_Challenge_Challenge_weekly_challenge_2_Title"		"Wanted: People For Axe To Murder"
-	"DAC_Challenge_Challenge_weekly_challenge_2_Lore"		"Stupid people have told Axe that Axe wasn't good at killing but Goodkind was good at embellishment.  Axe will prove both are true. - Axe \n\nPS - buy my book"
+	"DAC_Challenge_Challenge_weekly_challenge_2_Title"			"Gezocht: slachtoffers voor Aks en co."
+	"DAC_Challenge_Challenge_weekly_challenge_2_Lore"			"Onnozele mensen hebben Aks verteld dat Aks niet goed was in moord en doodslag maar dat Goodkind goed was in verhalen vertellen.  Aks gaat bewijzen dat die twee dingen waar zijn. – Axe \n\nPS: koop mijn boek."
+	"DAC_Challenge_Challenge_weekly_challenge_2_Instructions"	"Win 75 rondes met een actieve alliantie van Bruten"
 	
 	// Weekly challenge	#3
-	"DAC_Challenge_weekly_challenge_3_Headline"						"Ladies Night!"
-	"DAC_Challenge_weekly_challenge_3_SubHeadline"					"Women of Whitespire paint the town red"
+	"DAC_Challenge_weekly_challenge_3_Headline"						"De vrouwelijke kant"
+	"DAC_Challenge_weekly_challenge_3_SubHeadline"					"Vrouwen van Witspits zaaien spoor van verderf"
 
-	"DAC_Challenge_Puzzle_anessix_and_akasha_Title"					"Anessix and Akasha"
-	"DAC_Challenge_Puzzle_anessix_and_akasha_Lore"						"To call Akasha and Anessix's relationship a friendship is being overly charitable... but when these two demonesses unite behind a common cause they are capable of remarkable things."
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Title"					"Rivales begraven strijdbijl over gedeelde minachting voor mensheid"
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Lore"					"Het is een van de slechtst bewaarde geheimen uit de demonenwereld: Akasha en Anessix kunnen elkaar niet luchten. Het lijkt er echter op dat ze hun rivaliteit hebben achtergelaten in de wandelgangen van het Hof van Ristul en in Witspits samenspannen. (meer op pagina 3)"
 
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_Title"		"Don't Ask Her To Smile"
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_Bot"		"Catcallers"
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_Lore"		"White Spire has no shortage of boorish men, something that Anessix is keen to deal with."	
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_win"				"Neandrathals whistle at Anessix, immediately regret decision"
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_lose"				"Anessix driven off, quietly plots revenge"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Title"		"Dronken baviaan vraagt Anessix meer te glimlachen. Dodental alarmerend."
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Bot"		"Bouwvakkersparingskreet"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Lore"		"De meeste Witspitsenaren kiezen ervoor het botte gebral van dronken toeristen te negeren tijdens een wandelingetje door de stad. Maar Anessix is niet 'de meeste Witspitsenaren'. Carl de kleermaker: \"Eerst  lachten ze allemaal met haar, maar voor je het wist had Anessix hun tongen in haar hand.\" Vertelt Carl: \"Het was me al snel duidelijk dat het niet goed zou aflopen met die gozers.\" (meer op pagina 2)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_win"				"Neanderthalers fluiten Anessix achterna. Nu uitgestorven."
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_lose"				"Verdreven Anessix broedt in stilte op wraak"
 
-	"DAC_Challenge_Challenge_weekly_challenge_3_Title"		"The Female of the Species"
-	"DAC_Challenge_Challenge_weekly_challenge_3_Lore"		"Never underestimate the women of White Spire"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Title"		"Gezocht: onderdanige mannen"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Lore"		"Ik ben het zo zat, die jongens in de Gehalveerde Maan die doen alsof zij de enigen zijn die deftig keet kunnen schoppen. Als er dames zijn die langs willen komen om ze wat wijsheid bij te brengen: jullie drinken op mijn rekening. - Connie, dagmanager van de Gehalveerde Maan."
+	"DAC_Challenge_Challenge_weekly_challenge_3_Instructions"	"Win 75 rondes met ten minste één heldin op je bord"
+
+	// Weekly challenge	#5
+	"DAC_Challenge_weekly_challenge_5_Headline"						"Buitenlands bloedgeld"
+	"DAC_Challenge_weekly_challenge_5_SubHeadline"					"Handelskoninkrijk Revtel blijft bendeoorlog in Witspits financieren"
+	"DAC_Puzzle_RuleDescription_Only1Allowed"						"Maximaal 1 per eenheid"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Title"					"Terwijl O'nia de hand op de knip houdt, moeten Underlords meer doen met minder"
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Lore"						"Geeta The Wildblade had een zegswijze: \"Oorlogen eindigen omdat mensen middelen missen, niet omdat ze vechtlust missen.\" Die beroemde woorden van de Waakzame Ridder lijken relevant vandaag, nu O'nia, de hoeksteen van Witspits' kredietsector, heeft beslist om geen geld meer uit te lenen tot alle schulden terugbetaald zijn. (Meer op pagina 2)"
+
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Title"			"Meepo's duiken onder nu Revtelse bottenbrekers komen innen"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Bot"			"Revtelse bottenbrekers"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Lore"			"Zoals iedereen die al eens een bezoekje kreeg van de Ravenhooks weet, kun je enkel geld lenen totdat ze proberen terug te innen. Maar alhoewel deze kwesties normaal gezien plaatselijk worden opgelost, heeft O'nia beslist om de zaken met extern talent aan te pakken. (meer op pagina 6)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_win"			"Hobgen slaat aanval van bende huurlingen af. Overweegt schulden terug te betalen."
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_lose"			"Revtel huurt bottenbrekers in om Hobgen af te tuigen"
+
+	"DAC_Challenge_Challenge_weekly_challenge_5_Title"				"GEZOCHT: niet-doorgesneden keel"
+	"DAC_Challenge_Challenge_weekly_challenge_5_Lore"				"Dag jongens en meisjes, bedankt voor het lezen. Ik zal niet rond de pot draaien: ik heb geld nodig. Dringend. Héél erg dringend. 'Kring Jasper is naar me op zoek'- dringend. Als je dus je goede oude vriend Meepo 250 goud kan lenen, kan ik daar zonder twijfel de 20k van maken die ik nodig heb... Ik moet wat winnen. - Meepo 4"
+	"DAC_Challenge_Challenge_weekly_challenge_5_Instructions"		"Verdien 250 goud als rente"
 
 	// Weekly challenge	#4
-	"DAC_Challenge_weekly_challenge_4_Headline"						"Foreign Blood Money"
-	"DAC_Challenge_weekly_challenge_4_SubHeadline"					"The Merchant Kingdom of Revtel Continues to Finance Gang War in White Spire"
+	"DAC_Challenge_weekly_challenge_4_Headline"						"Doden dwalen rond in Witspits"
+	"DAC_Challenge_weekly_challenge_4_SubHeadline"					"Steegjes overrompeld door ondode ex-slachtoffers van Enno belust op wraak."
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_4_Title"					"Tightened Purse Strings"
-	"DAC_Challenge_Puzzle_weekly_puzzle_4_Lore"						"If you are friends with O'nia, she can offer easy access to the wealth of Revtel.  If you fall out of her favor however, you may find money to be tighter than usual."
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Title"					"Koning van de Steegjes verdedigt kroon tegen Zielenzuiger"
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Lore"						"De Zielenzuiger poogt al enkele dagen om de Steegjes tot zijn persoonlijke horrorimperium te maken. Het enige dat hem in de weg staat? Witspits' eigen meest notoire pluizige hooligan. (meer op pagina 10)"
+	"DAC_Puzzle_RuleDescription_KillLich"							"Dood de Zielenzuiger om te winnen."
 
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Title"		"STA OP UIT JE GWAF!"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Bot"		"Lijken met dat ietsje meer"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Lore"		"In de straten van de Steegjes struikel je over de lichamen van arme zielen die het verkeerde achterafstraatje in waren gedwaald. Maar nu heeft iets duisters en sinisters de doden geboden om op te staan uit hun sluimer (meer op pagina 2)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_win"				"Enno vermoordt zombies. Steegjes opnieuw gewoon dodelijk."
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_lose"				"Dode toeristen nemen wraak op Enno"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_Title"		"Revtel Collection Crew"
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_Bot"		"Revtel Leg Breakers"
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_Lore"		"Revtel Banks mae borrowing money incredibly easy... and if you default, incredibly dangerous."	
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_win"				"Hobgen Fends Off Mercenary Band, Thinks About Paying Back Debt"
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_lose"				"Revtel Hires Leg Breakers To Brutalize Hobgen"
-
-	"DAC_Challenge_Challenge_weekly_challenge_4_Title"		"Revtel Debts"
-	"DAC_Challenge_Challenge_weekly_challenge_4_Lore"		"Hobgen had been leaning heavily on O'nia to get funds from Revtel to finance his gang war... and the time has come to repay what he owes."
-	
-	// Weekly challenge	#5
-	"DAC_Challenge_weekly_challenge_5_Headline"						"The Dead Walk In White Spire"
-	"DAC_Challenge_weekly_challenge_5_SubHeadline"					"Warrens Overrun With The Undead As Enno's Previous Victims Seek Revenge"
-
-	"DAC_Challenge_Puzzle_weekly_puzzle_5_Title"					"The King Of The Warrens"
-	"DAC_Challenge_Puzzle_weekly_puzzle_5_Lore"						"To Enno, it's important that the city knows that The Warrens are his dominion... and that no one who comes there without his permission is safe, even if they are an undead murder machine."
-
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_Title"		"RISE FROM YOUR GWAVE!"
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_Bot"		"Altered Corpses"
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_Lore"		"The streets of the warrens are littered with the bodies of those who ventured down the wrong alley.  But now, something dark and sinister has called the dead to wake from their slumber."	
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_win"				"Enno Kills Zombies, Returns Warrens To Baseline Leathality"
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_lose"				"Dead Tourists Get Their Revenge On Enno"
-
-	"DAC_Challenge_Challenge_weekly_challenge_5_Title"		"Intimidation Game"
-	"DAC_Challenge_Challenge_weekly_challenge_5_Lore"		"Some think that the undead outbreak has weakened Enno's position, and he intends to prove them wrong."
+	"DAC_Challenge_Challenge_weekly_challenge_4_Title"		"GEZOCHT: HART VOOR DE STAD"
+	"DAC_Challenge_Challenge_weekly_challenge_4_Lore"		"De stad krioelt van de gemene rotzakken en het is hoog tijd daar paal en perk aan te stellen. Tenayin zoekt personen om samen, schouder aan schouder, Witspits om te timmeren tot de stad van onze dromen! GESPONSORD DOOR DE VRIENDEN VAN TENAYIN"
+	"DAC_Challenge_Challenge_weekly_challenge_4_Instructions"	"Dood 300 harteloze eenheden"
 	
 	// Weekly challenge	#6
-	"DAC_Challenge_weekly_challenge_6_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_6_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_6_Headline"						"SALARIS WEERHOUDEN"
+	"DAC_Challenge_weekly_challenge_6_SubHeadline"					"Stadswacht oefent druk uit op de smokkelhandel van Jull."
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_6_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_6_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Title"					"Afpersing op de kaaien"
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Lore"						"Laat gisteravond werd een verrassingsrazzia op de kaaien gewelddadig toen de lokale drankenbaron van Witspits zijn koopwaar verdedigde. (meer op pagina 3)"
+	"DAC_Puzzle_RuleDescription_PreserveJullMangoTree"							"Jull en Mangoboom moeten overleven."
+	
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Title"		"Te midden van chaos, krijsen sommigen om orde"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Bot"		"Stadswacht"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Lore"		"De dood van Mama Eeb blijft het dagelijkse leven in Witspits beïnvloeden nu openlijke bendeoorlog de norm is. Toch proberen enkele individuen in Witspits de gewelddadige machtsgreep die zich voltrekt in onze straten tegen te houden. (meer op pagina 5)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_win"				"Inefficiënte stadswacht blijft inefficiënt"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_lose"				"Stadswacht beëindigt machtspoging Underlord"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_lose"				"PH"
-
-	"DAC_Challenge_Challenge_weekly_challenge_6_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_6_Lore"		"PH"
-
-	// Weekly challenge	#7
-	"DAC_Challenge_weekly_challenge_7_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_7_SubHeadline"					"PH"
-
-	"DAC_Challenge_Puzzle_weekly_puzzle_7_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_7_Lore"						"PH"
-
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_lose"				"PH"
-
-	"DAC_Challenge_Challenge_weekly_challenge_7_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_7_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Title"		"Gezocht: onderbetaalde leden van de stadswacht"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Lore"		"Ben je het zat voor een appel en een ei de straten van Witspits te patrouilleren? Wil je het opwindende leven van een corrupte stadsbeambte leiden? Kom dan naar de Gehalveerde Maan en bespreek mogelijke zakenkansen met Jull!"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Instructions"	"Dood vijanden met een totale waarde aan 5.000 goud"
 
 	// Weekly challenge	#8
-	"DAC_Challenge_weekly_challenge_8_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_8_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_8_Headline"						"De meest gevaarlijke show op aarde!"
+	"DAC_Challenge_weekly_challenge_8_SubHeadline"					"Grek heropent arena. Maakt gehandtekende vrijstellingen verplicht voor alle aanwezigen."
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_8_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_8_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Title"					"Zondag! Zondag! Zondag!"
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Lore"						"Grek heeft een epische strijd beloofd als hoofdevenement voor de opening van zijn arena en Witspits is benieuwd wie dapper genoeg is de handschoen op te nemen. (meer op pagina 7)"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Title"		"Familieplezier in Witspits"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Bot"		"Toptalent"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Lore"		"Terwijl de ethiek van Greks bloedsporten in het verleden door velen in vraag werd getrokken, heeft het toenemende straatgeweld deze schrijver nostalgisch gemaakt naar de goede oude tijd wanneer je geld moest betalen om iemand doodgestoken te zien worden. (meer op pagina 1)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_win"				"Greks debuutshow is een denderend succes!"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_lose"				"Publiekslieveling lijdt verrassend verlies!"
 
-	"DAC_Challenge_Challenge_weekly_challenge_8_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_8_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Title"		"Gezocht: deeltijds werver"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Lore"		"We zijn dan misschien weer open maar we verloren veel goede strijders bij het' incident' van vorige week. Als je toegang hebt tot vleesomhulsels dan doe ik graag zaken met jou! - Grek eigenaar en boeker van de Grootse Arena"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Instructions"	"Huur 100 eenheden in van niveau 1."
+
+	// Weekly challenge	#7
+	"DAC_Challenge_weekly_challenge_7_Headline"						"Dire-cultus schiet wortel in Witspits"
+	"DAC_Challenge_weekly_challenge_7_SubHeadline"					"Aanbidders van een vrouw die 'Kanna' heet, zwermen naar de Stad der Snode Geneugten"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Title"					"Dire-cultus richt zich op Anessix' eigendom"
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Lore"						"Gisteravond braken religieuze fanaten het domein van Anessix binnen, in de hoop het eigendom op te kunnen eisen in naam van hun priesteres, Kanna. Gelukkig had Anessix net twijfelachtige vrienden over de vloer voor cocktails. (meer op pagina 2)"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Title"		"Werknemers keren zich tegen hun baas"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Bot"		"Greks voorprogramma"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Lore"		"Rampspoed in Greks arena vandaag, toen een talent uit het voorprogramma helemaal los ging en fans aanviel in de tribunes, wat een groep gladiatoren aanzette tot actie. (meer op pagina 3)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_win"				"Rel in arena eindigt met gejuich"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_lose"				"Chaos in arena verplaatst zich naar straten van Witspits"
+
+	"DAC_Challenge_Challenge_weekly_challenge_7_Title"		"Gezocht: hoofden op spiesen"
+	"DAC_Challenge_Challenge_weekly_challenge_7_Lore"		"Opnieuw zijn buitenstaanders naar de Steegjes gekomen... maar deze keer bedreigen de indringers niet alleen mijn koninkrijk, maar heel Witspits. Als we deze Dire-aanbidders nu niet uitroeien, maakt het niet uit wie er over Witspits regeert... dan zijn we allemaal dood. Op dit moment moeten we samenwerken en hen allemaal afslachten.   - de woorden van Enno zoals Enno's seneshal YipYip ze neerschreef"
+	"DAC_Challenge_Challenge_weekly_challenge_7_Instructions"	"Breng 1.200 gifladingen toe"
 
 
 	// Weekly challenge	#9
-	"DAC_Challenge_weekly_challenge_9_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_9_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_9_Headline"						"Spionagenetwerk schoolt samen in Witspits"
+	"DAC_Challenge_weekly_challenge_9_SubHeadline"					"Lorin Lasan kiest Witspits voor de jaarlijkse bijeenkomst van Kring Jasper"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_9_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_9_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Title"					"Sluipmoordenaars te huur ontduiken vergaderingen om als ontspanning mensen te vermoorden"
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Lore"						"Wat doen sluipmoordenaars in hun vrije tijd? Mensen doden, blijkbaar. Er gaan geruchten de ronde in Witspits over een dodelijk spel dat een aantal huurmoordenaars spelen, waarin gevaarlijke prooien een waarde aan punten krijgen en opgejaagd worden voor de sport. (meer op pagina 8)"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Title"		"Meer steken in Steeksteeg"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Bot"		"Vaste klanten in Steeksteeg"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Lore"		"Inwoners van Witspits weten dat ze  's woensdags weg moeten blijven uit de Steeksteeg, maar sinds het bestaan van Kring Jasper is onze plaatselijke moordmijlpaal nog gevaarlijker geworden. (meer op pagina 2)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_win"				"Jull transformeert Steeksteeg in Muilpeersteeg"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_lose"				"Plaatselijke sluipmoordenaars trekken de aandacht van Lorlin Lasan: verkrijgen toegang tot Kring Jasper"
 
-	"DAC_Challenge_Challenge_weekly_challenge_9_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_9_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Title"		"GEZOCHT: Kring Jasper zoekt rekruten"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Lore"		"Heb jij een gave voor subtiliteit? Heb je twijfelachtige zeden? Kring Jasper wil steeds zijn bereik vergroten. Maak indruk op ons en we zullen je weten te vinden. - Lorlin Lasan, leider van de Kring Jasper"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Instructions"		"Dood 400 eenheden met Sluipmoordenaars"
 
 	// Weekly challenge	#10
-	"DAC_Challenge_weekly_challenge_10_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_10_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_10_Headline"						"Handel in lijfwachten floreert in Witspits"
+	"DAC_Challenge_weekly_challenge_10_SubHeadline"					"Zwaarden lijken ofwel op Betty of Al te reageren"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_10_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_10_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Title"					"Paranoia redt Meesteres der Geheimen"
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Lore"						"Er is een vage grens tussen paranoia en functionaliteit. Gelukkig lijkt de investering die Anessix maakte in lijfwachten op het juiste moment te zijn gebeurd, want Hobgen zoekt wraak voor haar vroegere overtredingen. (meer op pagina 2)"
+	"DAC_Puzzle_RuleDescription_PreserveAnessix"					"Anessix moet overleven"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Title"		"Staal- en spreukdeeltjes vliegen rond in Witspits"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Bot"		"Tovenaars met iets te verbergen"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Lore"		"De geruchten die de ronde doen over een aankomend Saffieren Conclaaf hebben veel van onze inwonende spreukzeggers naar Treurroos gedreven, terwijl zij die ervoor kiezen te blijven ervoor opteren voor hun bescherming zwaarden te verkopen. (meer op pagina 6)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_win"				"Zenok doet een uitverkoop van met bloed bespetterde boeken"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_lose"				"Magiërs gaan aan het werk als voorbereiding op een razzia op het Saffieren Conclaaf"
 
-	"DAC_Challenge_Challenge_weekly_challenge_10_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_10_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Title"		"GEZOCHT: buitenwippers"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Lore"		"De Gehalveerde Maan wil z'n beveiligingsteam versterken. Ideale kandidaten gedijen goed in situaties met veel stress en vinden het geen probleem bloed uit hun kleding te wassen. Als dit iets voor jou lijkt, spreek dan Jull aan en hij zal een oefensessie regelen. - Connie, dagmanager van de Gehalveerde Maan"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Instructions"		"Dood 400 eenheden met Bruten"
 
 
 	// Weekly challenge	#11
-	"DAC_Challenge_weekly_challenge_11_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_11_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_11_Headline"						"Onderdrukking van magie in Witspits!"
+	"DAC_Challenge_weekly_challenge_11_SubHeadline"					"Klopjacht op Turath bezig"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_11_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_11_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Title"					"Wachter van IJswrak helpt bij onderzoek Saffieren Conclaaf"
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Lore"						"De Antimagiër is niet de enige die op zoek is naar Turath de Waanzinnige Tovenaar. Meerdere bronnen hebben gemeld dat Rylai, de Wachter van IJswrak, de tovenaar ook wil inrekenen. Enkel de tijd zal uitwijzen wie hem als eerste te pakken krijgt. (meer op pagina 10)"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Title"		"De Antimagiër loert in de straten van Witspits"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Bot"		"Agenten van het Tylerdomein"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Lore"		"Een bijzondere vijand voor de tovenaars: de Antimagiër zwerft door de straten van Witspits, en hij deinst nergens voor terug om zijn prooi te vinden."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_win"				"Gevreesde Magiërjager komt zijn gelijke tegen"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_lose"				"Antimagiër laat spoor van vernietiging achter"
 
-	"DAC_Challenge_Challenge_weekly_challenge_11_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_11_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Title"		"Gezocht: ongediertebestrijding"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Lore"		"Het laatste wat Witspits nodig heeft is het Saffieren Conclaaf dat zich komt bemoeien. Laten we die Magiërs uit onze mooie stad verdrijven. - Isik, seneshal van Hobgen, Heerser van Nieuw Obscurendam, en rechtmatige erfgenaam van de troon van Mama Eeb"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Instructions"	"Dood 400 Magiërs"
 
 	// Weekly challenge	#12
-	"DAC_Challenge_weekly_challenge_12_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_12_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_12_Headline"						"Op zoek naar olijftak"
+	"DAC_Challenge_weekly_challenge_12_SubHeadline"					"Geplande stadsuitbreiding zet kwaad bloed bij druïden"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_12_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_12_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Title"					"Open plek in het bos"
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Lore"						"De uitbreiding van de stad werd vorige nacht een halt toegeroepen toen een groep druïden weigerde om een bosje Mangobomen te laten vellen. (meer op pagina 2)"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Title"		"Mars voor de voortgang mondt uit in geweld"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Bot"		"Stem van het bos"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Lore"		"Niet iedereen is blij dat Witspits zou uitbreiden buiten zijn grenzen. Nu de plannen om het nabijgelegen bos te rooien bekend zijn, maken lokale druïden met gewelddadige straatprotesten hun ongenoegen kenbaar. (meer op pagina 5)"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_win"				"Boze druïden verdreven uit Witspits. Zweren zich in te graven bij Mangobomen."
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_lose"				"Druïden nemen het op tegen Underlords. Mangoprijzen swingen de pan uit."
 
-	"DAC_Challenge_Challenge_weekly_challenge_12_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_12_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Title"		"Gezocht: een stem voor de bomen"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Lore"		"De roofbouw op de bossen rond Witspits moet niet worden geduld! De Groene Gilde roept alle natuurliefhebbers op om de vuist te heffen tegen deze bladerige agressie! - Springvoet, Opperdruïde van de Groene Gilde."
+	"DAC_Challenge_Challenge_weekly_challenge_12_Instructions"		"Dood 400 eenheden met Sjamanen"
 
 	// Weekly challenge	#13
-	"DAC_Challenge_weekly_challenge_13_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_13_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_13_Headline"						"Anessix houdt demonisch bal"
+	"DAC_Challenge_weekly_challenge_13_SubHeadline"					"Elite van Hof van Ristul geniet van cocktails en snode plannen om zielen te verderven"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_13_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_13_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Title"					"Demonen op jacht ter voorbereiding van lugubere feestdag"
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Lore"						"Terwijl het Hof van Ristul voorbereidingen treft voor de viering van het Smalle Labyrint, zoeken demonen overal ter wereld naar zielen. Hun doel: entertainende prooi vinden voor gasten op de infernale jachtpartijen. (meer op pagina 2)"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Title"		"IJzing crasht gala van Anessix"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Bot"		"De demon van Foulfell"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Lore"		"Chaos vierde gisterennacht hoogtij. De gebroken beelden van IJzing waarden rond in de straten van Witspits, hoogstwaarschijnlijk op zoek naar het bloed van Anessix' genodigden. (meer op pagina 2)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_win"				"Helden stoppen demon en redden zo andere demonen. Iedereen in de knoop over uitkomst."
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_lose"				"IJzing richt bloedbad aan. Zowel stervelingen als demonen slachtoffer. "
 
-	"DAC_Challenge_Challenge_weekly_challenge_13_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_13_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_13_Title"				"Gezocht: zielen"
+	"DAC_Challenge_Challenge_weekly_challenge_13_Lore"				"Wat is de waarde van iets dat je niet kunt zien, proeven, aanraken of gebruiken? Laat je niet manipuleren door de anti-demon-propagandamachine. Het Hof van Ristul staat voor je klaar."
+	"DAC_Challenge_Challenge_weekly_challenge_13_Instructions"		"Dood 300 Mensen"
 
 	// Weekly challenge	#14
-	"DAC_Challenge_weekly_challenge_14_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_14_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_14_Headline"					"Oude wonden blijven etteren"
+	"DAC_Challenge_weekly_challenge_14_SubHeadline"					"Hobgen vereffent oude rekeningen na ontdekking van één van Mama Eebs oude dagboeken"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_14_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_14_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Title"					"Nieuw Obscurendam in vuur en vlam"
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Lore"					"Laat gisteravond raasde Hobgen door de marktplaats van Nieuw Obscurendam, de eigendommen vernietigend  van elke handelaar die Mama Eeb op ook maar de geringste manier had gekrenkt. Dat de feiten blijkbaar 30 jaar oud waren deed hem niets. Dat de meeste zaken ondertussen van eigenaar waren veranderd, nog minder. (meer op pagina 2)"
+	"DAC_Puzzle_RuleDescription_KillBarricades"						"Ruim 8 karren op om te winnen"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Title"		"Hobgen neemt metafoor letterlijk"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Bot"			"Boksen met de goden"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Lore"			"Dagboekschrijvers begrijpen dat een streepje hyperbool soms cathartisch kan zijn. Jammer genoeg voor Witspits denkt Hobgen daar anders over. Blijkbaar las hij een passage in Eebs dagboek waarin ze zich na een slechte dag 'vervloekt voelde door de goden'. Waarop Hobgen een klopjacht inzette op alle hemelse wezens die hij maar kon vinden om ze te vermoorden. (meer op pagina 8)"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_win"			"Hobgen kijkt goden recht in de ogen. Goden knipperen eerst."
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_lose"			"Hobgens armen te kort om met goden te boksen"
 
-	"DAC_Challenge_Challenge_weekly_challenge_14_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_14_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_14_Title"				"Gezocht: kapper om losse eindjes op te ruimen"
+	"DAC_Challenge_Challenge_weekly_challenge_14_Lore"				"Heb je een scheermes? Vind je het leuk om dingen te verwijderen die in iemands haar vastgeklit zitten? Indien ja, contacteer dan Isik – er staat je een mooie kans te wachten."
+	"DAC_Challenge_Challenge_weekly_challenge_14_Instructions"		"Maak 300 kritieke treffers"
 
 	// Weekly challenge courier race names
-	"DAC_Challenge_Courier_Race_0"							"Soul-Bound and Down"
-	"DAC_Challenge_Courier_Race_1"							"Breaking Fever"
-	"DAC_Challenge_Courier_Race_2"							"Blood Money"
-	"DAC_Challenge_Courier_Race_3"							"Grifter's Fortune"
-	"DAC_Challenge_Courier_Race_4"							"Venture Lost"
-	"DAC_Challenge_Courier_Race_5"							"Venture Gained"
-	"DAC_Challenge_Courier_Race_6"							"Serrated Blade"
-	"DAC_Challenge_Courier_Race_7"							"Last Kiss"
-	"DAC_Challenge_Courier_Race_8"							"Sad Goodbye"
+	"DAC_Challenge_Courier_Race_0"							"Geketende ziel"
+	"DAC_Challenge_Courier_Race_1"							"Koortsig"
+	"DAC_Challenge_Courier_Race_2"							"Bloedgeld"
+	"DAC_Challenge_Courier_Race_3"							"Fortuin van de zwendelaar"
+	"DAC_Challenge_Courier_Race_4"							"Verloren zaken"
+	"DAC_Challenge_Courier_Race_5"							"Gewonnen zaken"
+	"DAC_Challenge_Courier_Race_6"							"Gekartelde kling"
+	"DAC_Challenge_Courier_Race_7"							"Laatste kus"
+	"DAC_Challenge_Courier_Race_8"							"Droef vaarwel"
 	"DAC_Challenge_Courier_Race_9"							"Sigma D"
-	"DAC_Challenge_Courier_Race_10"							"Hexes and Horseshoes"
+	"DAC_Challenge_Courier_Race_10"							"Heksenstreken en hoefijzers"
 	"DAC_Challenge_Courier_Race_11"							"Cantrip"
-	"DAC_Challenge_Courier_Race_12"							"Cruel Mistress"
-	"DAC_Challenge_Courier_Race_13"							"Devil Dancer"
-	"DAC_Challenge_Courier_Race_14"							"Reckoner "
-	"DAC_Challenge_Courier_Race_15"							"Liquid Courage"
-	"DAC_Challenge_Courier_Race_16"							"Sad Panda"
-	"DAC_Challenge_Courier_Race_17"							"Smeevils and Greevils"
-	"DAC_Challenge_Courier_Race_18"							"Ristul Bane"
-	"DAC_Challenge_Courier_Race_19"							"Bad Luck Charlie"
-	"DAC_Challenge_Courier_Race_20"							"Inciting Incident"
-	"DAC_Challenge_Courier_Race_21"							"Good Day, Sir"
-	"DAC_Weekly_CourierTitle" 								"The Finish Line: courier race odds and outcomes"	
-	"DAC_Weekly_CourierHeader_Courier"						"Courier"
-	"DAC_Weekly_CourierHeader_Bet"							"Bet"
-	"DAC_Weekly_CourierHeader_Wt"							"Wt"
+	"DAC_Challenge_Courier_Race_12"							"Wrede meesteres"
+	"DAC_Challenge_Courier_Race_13"							"Duivelse dans"
+	"DAC_Challenge_Courier_Race_14"							"Man van de rekening "
+	"DAC_Challenge_Courier_Race_15"							"Vloeibare moed"
+	"DAC_Challenge_Courier_Race_16"							"Droeve panda"
+	"DAC_Challenge_Courier_Race_17"							"Smeevils + greevils"
+	"DAC_Challenge_Courier_Race_18"							"Onheil uit Ristul"
+	"DAC_Challenge_Courier_Race_19"							"Charlie Ongeluk"
+	"DAC_Challenge_Courier_Race_20"							"Provocatie"
+	"DAC_Challenge_Courier_Race_21"							"G'dag, meneer"
+	"DAC_Weekly_CourierTitle" 								"De eindmeet: kansen en resultaten van de koeriersrace"	
+	"DAC_Weekly_CourierHeader_Courier"						"Koerier"
+	"DAC_Weekly_CourierHeader_Bet"							"Weddenschap"
+	"DAC_Weekly_CourierHeader_Wt"							"Gewicht"
 	"DAC_Weekly_CourierHeader_PP"							"PP"
 	"DAC_Weekly_CourierHeader_Quarter"						"1/4"
 	"DAC_Weekly_CourierHeader_Half"							"1/2"
 	"DAC_Weekly_CourierHeader_ThreeQuarter"					"3/4"
-	"DAC_Weekly_CourierHeader_Mile"							"Mile"
+	"DAC_Weekly_CourierHeader_Mile"							"Mijl"
 	"DAC_Weekly_CourierHeader_Finish"						"Fin"
-	"DAC_Weekly_CourierHeader_Odds"							"Odds"
+	"DAC_Weekly_CourierHeader_Odds"							"Kansen"
 	"DAC_Weekly_CourierEntry_CurrentBet"					"<img class='goldcoin'/> {i:current_bet}"
 	"DAC_Weekly_CourierEntry_Prize"							"{i:gold_prize} : 1"
-	"DAC_Weekly_CourierCurrent_Gold"						"Current: <img class='goldcoin'/> {i:current_gold}"
+	"DAC_Weekly_CourierCurrent_Gold"						"Nu: <img class='goldcoin'/> {i:current_gold}"
 	
 	
 	// City Crawl Tutorial

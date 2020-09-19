@@ -24,7 +24,7 @@
 
 	"DAC_SteamLogIn_Desc1"								"Inicia sesión en Steam para jugar partidas multijugador, subir de nivel en tu clasificación como Underlord y realizar un seguimiento de tu progreso en dispositivos móviles y PC."
 	"DAC_SteamLogIn_Desc2"								"Sube de nivel tu clasificación como Underlord y realiza un seguimiento de tu progreso en un dispositivo móvil, tableta o PC."
-	"DAC_SteamLogIn_Desc3"								"Obtén logros y accede a las características del pase de batalla de temporada."
+	"DAC_SteamLogIn_Desc3"								"Gana logros y accede a las funciones del pase de batalla."
 	"DAC_SteamLogIn_Desc4"								"Inicia sesión en Steam para jugar a este modo."
 	"DAC_SteamPlayOffline"								"Cancelar"
 	"DAC_SteamAccountName"								"Nombre de la cuenta" 
@@ -45,6 +45,9 @@
 
 	"DAC_MatchTypeMultiplayer"							"Multijugador"
 	"DAC_MatchTypeStandard"								"Estándar"
+	"DAC_MatchTypeClassic"								"Clásico"
+	"DAC_MatchMode"										"Modo"
+	"DAC_MatchModeClassic"								"Modo clásico"
 	"DAC_MatchTypeOnline"								"En línea"
 	"DAC_MatchTypeTurbo"								"Fuera de combate"
 	"DAC_MatchTypeMultiplayerMMSelect"					"Seleccionar categoría"
@@ -58,7 +61,9 @@
 	"DAC_MatchTypeNameDuos"								"Dúos"
 	"DAC_MatchTypeDuosBotMatch"							"Dúos con bots"
 	"DAC_MatchTypeName1_Party"							"Sala privada"
-	"DAC_MatchTypeName1"								"Clásica"
+	"DAC_MatchTypeName1"								"Estándar"
+	"DAC_MatchTypeName11_Party"							"Sala privada"
+	"DAC_MatchTypeName11"								"Estándar"
 	"DAC_MatchTypeName7"								"Tutorial"
 	"DAC_MatchTypeName2"								"Fuera de combate"
 	"DAC_MatchTypeName3"								"Dúos"
@@ -236,8 +241,8 @@
 	"DAC_PurchaseEvent_TooBusy"							"La red de Dota Underlords está demasiado ocupada para procesar esta acción en este momento. Por favor, inténtalo de nuevo en unos minutos."
 	"DAC_PurchaseEvent_InvalidEvent"					"Este evento ya no está disponible para su compra."
 	"DAC_PurchaseEvent_InsufficientCredits"				"No tienes créditos suficientes para comprar este pase de batalla."
-	"DAC_PurchaseEvent_ExpectedCostMismatch"			"Se ha producido un error inesperado al comprar esta temporada, tu cliente puede estar desactualizado"
-	"DAC_PurchaseEvent_AlreadyOwned"					"Ya tienes esta temporada"	
+	"DAC_PurchaseEvent_ExpectedCostMismatch"			"Se ha producido un error inesperado al comprar el pase de batalla, tu cliente puede estar desactualizado"
+	"DAC_PurchaseEvent_AlreadyOwned"					"Ya tienes el pase de batalla"	
 	"DAC_PurchaseEvent_SuccessTitle"					"Hecho"
 	"DAC_PurchaseEvent_SuccessBody"						"¡Has comprado con éxito el pase de batalla!"
 	"StoreCheckout_Error_Title"							"Error"
@@ -250,9 +255,9 @@
 	"DAC_PurchaseEventCurrency_InternalError"			"Se ha producido un error inesperado al realizar esta compra."
 	"DAC_PurchaseEventCurrency_Disabled"				"La compra se ha deshabilitado temporalmente por mantenimiento"
 	"DAC_PurchaseEventCurrency_TooBusy"					"La red de Dota Underlords está demasiado ocupada para procesar esta acción en este momento. Inténtalo de nuevo en unos minutos."
-	"DAC_PurchaseEventCurrency_EventNotOwned"			"Debes poseer esta temporada para poder comprar niveles adicionales."
-	"DAC_PurchaseEventCurrency_InvalidCurrency"			"No puedes comprar niveles para esta temporada."
-	"DAC_PurchaseEventCurrency_EventClosed"				"Esta temporada ya está cerrada y no puedes comprar niveles."
+	"DAC_PurchaseEventCurrency_EventNotOwned"			"Debes poseer el pase de batalla para poder comprar niveles adicionales."
+	"DAC_PurchaseEventCurrency_InvalidCurrency"			"No puedes comprar niveles para el pase de batalla."
+	"DAC_PurchaseEventCurrency_EventClosed"				"El pase de batalla ya está cerrado y no puedes comprar niveles."
 	"DAC_PurchaseEventCurrency_InvalidQuantity"			"El número de niveles que se están comprado no es válido. Tu cliente puede estar desactualizado."
 	"DAC_PurchaseEventCurrency_InvalidExpectedCost"		"El coste esperado de estos niveles no es válido. Tu cliente puede estar desactualizado."
 	"DAC_PurchaseEventCurrency_InvalidStartingBalance"	"Se ha producido un error inesperado al comprar estos niveles. Tu cliente puede estar desactualizado."
@@ -706,84 +711,84 @@
 	"dac_item_cinderwall_lore"							"Historia de Muro de Cenizas"
 
 	"dac_item_aegis_new"                                "Égida del Inmortal"
-	"dac_item_aegis_new_desc"                           "El héroe que la lleva resucitará con un {d:resurrect_health_percent}% de su vida máxima {d:resurrect_delay} segundos después de morir. (Una vez por batalla)."
+	"dac_item_aegis_new_desc"                           "El héroe que la lleva resucitará con un {s:resurrect_health_percent}% de su vida máxima {s:resurrect_delay} segundos después de morir. (Una vez por batalla)."
 	"dac_item_aegis_new_lore"                           "El queso viene aparte. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_bloodthorn"		    					"Espina Sangrienta"
-	"dac_item_bloodthorn_desc"			    			"+{d:attack_damage} de daño de ataque. Cuando un héroe enemigo tiene más del {d:mana_trigger_percentage}% de maná, lo silencia durante {d:silence_duration} segundos. Los ataques contra el héroe silenciado no pueden fallar e infligen un {d:target_crit_multiplier}% de daño. ({d:cooldown} segundo de tiempo de recarga)"
+	"dac_item_bloodthorn_desc"			    			"+{s:attack_damage} de daño de ataque. Cuando un héroe enemigo tiene más del {s:mana_trigger_percentage}% de maná, lo silencia durante {s:silence_duration} segundos. Los ataques contra el héroe silenciado no pueden fallar e infligen un {s:target_crit_multiplier}% de daño. ({s:cooldown} segundo de tiempo de recarga)"
 	"dac_item_bloodthorn_lore"			    			"Empuñar esta espada no te hace popular, pero sin duda hace que tus enemigos mueran. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_butterfly"								"Mariposa"
-	"dac_item_butterfly_desc"			    			"+{d:attack_damage} de daño de ataque. +{d:attack_speed} de velocidad de ataque. +{d:evasion}% de evasión."
+	"dac_item_butterfly_desc"			    			"+{s:attack_damage} de daño de ataque. +{s:attack_speed} de velocidad de ataque. +{s:evasion}% de evasión."
 	"dac_item_butterfly_lore"			    			"A los chicos les encanta esto... <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_crystalis"								"Crystalys"
-	"dac_item_crystalis_desc"							"+{d:attack_damage} de daño de ataque. {d:bonus_damage_chance}% de probabilidad de golpe crítico para un {d:bonus_damage_multiplier}% de daño."
+	"dac_item_crystalis_desc"							"+{s:attack_damage} de daño de ataque. {s:bonus_damage_chance}% de probabilidad de golpe crítico para un {s:bonus_damage_multiplier}% de daño."
 	"dac_item_crystalis_lore"							"No me imagino el tipo de daño que una Hermana del Velo puede causar con una de estas cosas. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_desolator"								"Desoladora"
-	"dac_item_desolator_desc"							"El objetivo de ataque pierde {d:target_armor} de armadura durante {d:duration} segundos."
+	"dac_item_desolator_desc"							"El objetivo de ataque pierde {s:target_armor} de armadura durante {s:duration} segundos."
 	"dac_item_desolator_lore"							"Ah, luego te estás preparando para pronunciarte. En ese caso, tal vez esto sea de tu interés... <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_diffusal_blade"							"Hoja Difusora"
 	"dac_item_diffusal_blade_lore"						"Tener esto en tu mano es la sensación más cercana a sentirse como Anti-Mage. <i>&#8213;Zenok, perista de Agujablanca</i>"		
-	"dac_item_diffusal_blade_desc"						"Los ataques del héroe equipado queman {d:mana_per_hit} de maná por golpe, infligiendo {d:damage_per_burn} de daño por golpe. El daño infligido por el héroe equipado genera 0 de maná para el objetivo."
+	"dac_item_diffusal_blade_desc"						"Los ataques del héroe equipado queman {s:mana_per_hit} de maná por golpe, infligiendo {s:damage_per_burn} de daño por golpe. El daño infligido por el héroe equipado genera 0 de maná para el objetivo."
 	"dac_item_divine_rapier_new"                        "Estoque Divino"
-	"dac_item_divine_rapier_new_desc"					"+{d:attack_damage} de daño de ataque. Si Estoque Divino está en combate y pierdes una ronda contra otro jugador, este lo roba."
+	"dac_item_divine_rapier_new_desc"					"+{s:attack_damage} de daño de ataque. Si Estoque Divino está en combate y pierdes una ronda contra otro jugador, este lo roba."
 	"dac_item_divine_rapier_new_lore"					"A veces los dioses piden sangre. <i>&#8213;Zenok, perista de Agujablanca</i>"	
 	"dac_item_eul"										"Cetro de Eul"
-	"dac_item_eul_desc"									"+{d:mana_per_second} de maná por segundo. Cuando una unidad ataca al héroe equipado, se ve envuelta en un ciclón de aire y se vuelve invulnerable durante {s:eul_duration} segundos. (Tiempo de recarga: {d:cooldown} segundo)"
+	"dac_item_eul_desc"									"+{s:mana_per_second} de maná por segundo. Cuando una unidad ataca al héroe equipado, se ve envuelta en un ciclón de aire y se vuelve invulnerable durante {s:eul_duration} segundos. (Tiempo de recarga: {s:cooldown} segundo)"
 	"dac_item_eul_lore"									"Con esto puedes controlar los vientos cambiantes. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_hand_of_midas"							"Mano de Midas"
-	"dac_item_hand_of_midas_desc"						"+{d:attack_speed} de velocidad de ataque. {d:percent_gold}% de probabilidad de obtener {d:gold} de oro cuando el héroe equipado mata a un enemigo."
+	"dac_item_hand_of_midas_desc"						"+{s:attack_speed} de velocidad de ataque. {s:percent_gold}% de probabilidad de obtener {s:gold} de oro cuando el héroe equipado mata a un enemigo."
 	"dac_item_hand_of_midas_lore"						"Algunos dicen que el dinero es la raíz de todos los males. Esos son idiotas y por ende pobres. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_heart_of_tarrasque_new"					"Corazón de Tarasca"
-	"dac_item_heart_of_tarrasque_new_desc"				"+{d:health_bonus} de vida. El héroe equipado regenera el {d:bonus_hp_regen}% de su vida máxima cada segundo."
+	"dac_item_heart_of_tarrasque_new_desc"				"+{s:health_bonus} de vida. El héroe equipado regenera el {s:bonus_hp_regen}% de su vida máxima cada segundo."
 	"dac_item_heart_of_tarrasque_new_lore"				"La muerte es para los perdedores. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_horn_of_the_alpha"                        "Cuerno del Alfa"
 	"dac_item_horn_of_the_alpha_desc"                   "Invoca a un poderoso compañero Corazatrueno {s:summon_cooldown} segundos después de que comience la batalla. (Una vez por batalla)."
 	"dac_item_horn_of_the_alpha_lore"                   "No tienes ni idea de cuántos cazadores de Cerrotuétano murieron por conseguir este cuerno. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_kaya"										"Kaya"
-	"dac_item_kaya_desc"								"+{d:bonus_spell_damage}% de aumento de habilidad de daño."
+	"dac_item_kaya_desc"								"+{s:bonus_spell_damage}% de aumento de habilidad de daño."
 	"dac_item_kaya_lore"								"Mira, cuando la gente dice «perdido durante miles y miles de años», no debes tomarlo al pie de la letra... es todo márketing. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_mask_of_death"							"Máscara Mórbida"
-	"dac_item_mask_of_death_desc"						"+{d:lifesteal_percentage}% de robo de vida."
+	"dac_item_mask_of_death_desc"						"+{s:lifesteal_percentage}% de robo de vida."
 	"dac_item_mask_of_death_lore"						"Consejo de sabio: Si estás en una fiesta y eres el único que no lleva una máscara como esta, vete de ahí. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_octarine_essence"							"Esencia Octarina"
-	"dac_item_octarine_essence_desc"					"Reduce los tiempos de recarga de habilidades un {d:cooldown_percentage}%."
+	"dac_item_octarine_essence_desc"					"Reduce los tiempos de recarga de habilidades un {s:cooldown_percentage}%."
 	"dac_item_octarine_essence_lore"					"Esto es solo una muestra de lo que Núcleo Octarino puede hacer. - <i>Zenok, perista de Agujablanca</i>"
 	"dac_item_orb_of_venom"								"Orbe Venenoso"
 	"dac_item_orb_of_venom_desc"						"Los enemigos dañados por los ataques del héroe equipado quedan envenenados."
 	"dac_item_orb_of_venom_lore"						"Dicen que tiempo es todo lo que necesitas para matar a un hombre. Y yo digo, ¿por qué no ayudar a que pase un poco más rápido el tiempo? <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_radiance_new"                             "Resplandor"
-	"dac_item_radiance_new_desc"                        "Quema a los enemigos situados a {d:attack_damage_aoe} casillas, con {d:attack_damage_over_time} de daño por segundo. Quemar a los enemigos tiene un {d:miss_percent}% de probabilidad de que sus ataques fallen."
+	"dac_item_radiance_new_desc"                        "Quema a los enemigos situados a {s:attack_damage_aoe} casillas, con {s:attack_damage_over_time} de daño por segundo. Quemar a los enemigos tiene un {s:miss_percent}% de probabilidad de que sus ataques fallen."
 	"dac_item_radiance_new_lore"                        "Algo tan sagrado como esto no pertenece a Agujabanca. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_headdress"								"Tocado"
-	"dac_item_headdress_desc"							"Las unidades a 1 casilla del héroe equipado obtienen +{d:health_regen} de vida por segundo."
+	"dac_item_headdress_desc"							"Las unidades a 1 casilla del héroe equipado obtienen +{s:health_regen} de vida por segundo."
 	"dac_item_headdress_lore"							"Se lo compré a alguien que dijo que venía del Nido Espectral. No sé si es verdad, pero tiene una bonita pluma. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_satanic"                                  "Satánico"
-	"dac_item_satanic_desc"                             "+{d:bonus_health} de vida. Cuando el héroe equipado tenga menos de un {d:activation_percent}% de vida, obtiene +{d:life_steal_percent}% de robo de vida durante {s:life_steal_duration} segundos. ({d:cooldown} segundo de tiempo de recarga)"
+	"dac_item_satanic_desc"                             "+{s:bonus_health} de vida. Cuando el héroe equipado tenga menos de un {s:activation_percent}% de vida, obtiene +{s:life_steal_percent}% de robo de vida durante {s:life_steal_duration} segundos. ({s:cooldown} segundo de tiempo de recarga)"
 	"dac_item_satanic_lore"                             "Mientras más rápido saques esto de mi tienda, mejor. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_shivas_guard_new"							"Protección de Shiva"
-	"dac_item_shivas_guard_new_desc"					"+{d:bonus_armor} de armadura. Emite una ola congelante que inflige {d:blast_damage} de daño a los enemigos en un radio de 3 casillas y reduce su velocidad de ataque y movimiento en {d:blast_debuff_move_speed} durante {s:blast_debuff_duration} segundos (una vez por batalla)."
+	"dac_item_shivas_guard_new_desc"					"+{s:bonus_armor} de armadura. Emite una ola congelante que inflige {s:blast_damage} de daño a los enemigos en un radio de 3 casillas y reduce su velocidad de ataque y movimiento en {s:blast_debuff_move_speed} durante {s:blast_debuff_duration} segundos (una vez por batalla)."
 	"dac_item_shivas_guard_new_lore"					"No preguntes cómo salió esto de la cámara del Cónclave de Zafiro. —<i>Zenok, perista de Agujablanca</i>"
 	"dac_item_stonehall_pike"							"Pica de Stonehall"
-	"dac_item_stonehall_pike_desc"						"El héroe equipado obtiene +{d:attack_damage} de daño de ataque y +{d:damage_per_kill} de daño por cada unidad a la que haya matado, hasta un máximo de +{d:max_damage} de daño. (+12 de daño por víctima en Fuera de combate)."
+	"dac_item_stonehall_pike_desc"						"El héroe equipado obtiene +{s:attack_damage} de daño de ataque y +{s:damage_per_kill_kill_mult} de daño por cada unidad a la que haya matado, hasta un máximo de +{s:max_damage} de daño. (El daño varía según el modo de juego)."
 	"dac_item_stonehall_pike_lore"						"Las legiones de Stonehall son de temer por buenas razones. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_stonehall_cloak"							"Capa de Stonehall"
-	"dac_item_stonehall_cloak_desc"						"El héroe equipado obtiene +{d:hp_per_kill} de vida por cada unidad que haya matado. (+200 de daño con Fuera de combate)."
+	"dac_item_stonehall_cloak_desc"						"El héroe equipado obtiene +{s:hp_per_kill_kill_mult} de vida por cada unidad que haya matado. (La vida varía según el modo de juego)."
 	"dac_item_stonehall_cloak_lore"						"Para algunos es un símbolo de orgullo. Para otros, es el recuerdo de un pasado que es mejor olvidar. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_silver_edge"								"Hoja Plateada"
-	"dac_item_silver_edge_desc"							"+{d:attack_speed} de velocidad de ataque. +{d:bonus_health} de vida. Cuando un héroe equipado ataca a una unidad, interrumpe a esa unidad durante {d:break_duration} segundos. ({d:cooldown} segundo de tiempo de recarga)"
+	"dac_item_silver_edge_desc"							"+{s:attack_speed} de velocidad de ataque. +{s:bonus_health} de vida. Cuando un héroe equipado ataca a una unidad, interrumpe a esa unidad durante {s:break_duration} segundos. ({s:cooldown} segundo de tiempo de recarga)"
 	"dac_item_silver_edge_lore"							"Todos sabemos que El Rompecadenas y El Derramasangres usaron esto para detener a Ostarion el Rey Loco... pero la historia no acaba ahí. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_talisman_of_evasion"						"Talismán de Evasión"
-	"dac_item_talisman_of_evasion_desc"					"+{d:evasion_pct}% de evasión."
+	"dac_item_talisman_of_evasion_desc"					"+{s:evasion_pct}% de evasión."
 	"dac_item_talisman_of_evasion_lore"					"Mira Lyralei, yo lo único que digo es que ya no eres tan evasiva como solías ser. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_vesture_of_the_tyrant"                    "Vestiduras del Tirano"
-	"dac_item_vesture_of_the_tyrant_desc"               "El aliado que se encuentra a {d:ally_zombie_range} casilla del héroe equipado recibe un golpe mortal y sobrevive durante {s:ally_zombie_duration} segundos."
+	"dac_item_vesture_of_the_tyrant_desc"               "El aliado que se encuentra a {s:ally_zombie_range} casilla del héroe equipado recibe un golpe mortal y sobrevive durante {s:ally_zombie_duration} segundos."
 	"dac_item_vesture_of_the_tyrant_lore"               "El poder de Galanius es absoluto. Solo un tonto se enfrentaría a él. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_item_void_stone"								"Piedra del Vacío"
-	"dac_item_void_stone_desc"							"+{d:mana_per_second} de maná por segundo."
+	"dac_item_void_stone_desc"							"+{s:mana_per_second} de maná por segundo."
 	"dac_item_void_stone_lore"							"Este es el material con el que el Arconte de Zafiro crea sus insignias. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	"dac_unit_name_spiderling"							"Cría de araña"
 	"dac_item_aeon_disk"								"Disco del Eón"
 	"dac_item_aeon_disk_lore"							"Aquellos con poder siempre pueden encontrar un puerto seguro. <i>&#8213;Zenok, perista de Agujablanca</i>"
-	"dac_item_aeon_disk_desc"							"+{d:health_bonus} de vida. Cuando la vida del héroe equipado baja del {d:health_trigger_percentage}%, este se hace invulnerable, inatacable y queda desarmado durante {d:invuln_duration} segundos (una vez por batalla)."
+	"dac_item_aeon_disk_desc"							"+{s:health_bonus} de vida. Cuando la vida del héroe equipado baja del {s:health_trigger_percentage}%, este se hace invulnerable, inatacable y queda desarmado durante {s:invuln_duration} segundos (una vez por batalla)."
 	"dac_ability_barricade_aura_new"					"Barricada"
 	"dac_ability_barricade_aura_new_description"		"Barricada protege a las unidades cercanas y es inmune a hechizos."
 	"dac_ability_barricade_aura_new_lore"				""
@@ -797,7 +802,7 @@
 	"dac_ability_tombstone_raise_zombies_new_description"	"Las unidades que mueren a {s:range} casilla de distancia invocan un zombi."
 	"dac_ability_tombstone_raise_zombies_new_lore"			""
 	"dac_item_vladmirs_offering"						"Ofrenda de Vladmir"
-	"dac_item_vladmirs_offering_desc"					"Los aliados a 2 casillas obtienen +{d:damage}% de daño, +{d:armor} de armadura y +{d:lifesteal}% de robo de vida."
+	"dac_item_vladmirs_offering_desc"					"Los aliados a 2 casillas obtienen +{s:damage}% de daño, +{s:armor} de armadura y +{s:lifesteal}% de robo de vida."
 	"dac_item_vladmirs_offering_lore"					"Todos los que hacen el juramento dan algo de sí mismos... y reciben algo a cambio. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_big_time_contract"						"Sombrero de Ogro"
@@ -821,20 +826,20 @@
 	"dac_item_dwarf_hat_lore"							"Yo no digo que sea recomendable rezar por los gemelos despellejados, lo que digo es que si lo tuyo es la recogida de sangre entonces este sombrero te viene bien. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_dragon_lance"								"Lanza Dragón"
-	"dac_item_dragon_lance_desc"						"SOLO A DISTANCIA. +{d:attack_damage} de daño de ataque. El héroe equipado tiene un alcance sin límites."
+	"dac_item_dragon_lance_desc"						"SOLO A DISTANCIA. +{s:attack_damage} de daño de ataque. El héroe equipado tiene un alcance sin límites."
 	"dac_item_dragon_lance_lore"						"No soy de los que le dicen a nadie cómo tiene que hacer su trabajo, pero si yo estuviera tratando de matar a alguien, me gustaría estar lo más lejos posible. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_tank_buster"								"Hoja de Kaden"
-	"dac_item_tank_buster_desc"							"En lugar del daño normal, los ataques del héroe equipado infligen un {d:max_health_percent_as_damage}% de la vida máxima del objetivo como daño puro."
+	"dac_item_tank_buster_desc"							"En lugar del daño normal, los ataques del héroe equipado infligen un {s:max_health_percent_as_damage}% de la vida máxima del objetivo como daño puro."
 	"dac_item_tank_buster_lore"							"Esta hoja fue forjada en Dragonhold por el propio Kaden. El famoso Dragon Knight tenía un dicho: «Cuanto más grande eres, más fuerte te golpea esta cosa». <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_armlet"									"Brazalete de Mordiggian"
-	"dac_item_armlet_desc"								"+{d:attack_damage} de daño de ataque. +{d:armor} de armadura. El héroe que lo lleva pierde {d:health_loss_per_second} de vida por segundo."
+	"dac_item_armlet_desc"								"+{s:attack_damage} de daño de ataque. +{s:armor} de armadura. El héroe que lo lleva pierde {s:health_loss_per_second} de vida por segundo."
 	"dac_item_armlet_lore"								"No esperes que lo escriba bien en la factura. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_name_mango_tree"								"Árbol de Mango"
 	"dac_item_mango_tree"								"Árbol de Mango"
-	"dac_item_mango_tree_desc"							"Al inicio del combate y luego cada {s:mango_production_interval} segundos, el Árbol de Mango tira un mango hasta un radio de {d:radius} casillas. Cualquier unidad que toque el mango y lo coma gana 50 de maná y 100 de vida."
+	"dac_item_mango_tree_desc"							"Al inicio del combate y luego cada {s:mango_production_interval} segundos, el Árbol de Mango tira un mango hasta un radio de {s:radius} casillas. Cualquier unidad que toque el mango y lo coma gana 50 de maná y 100 de vida."
 	"dac_item_mango_tree_lore"							"No vas a querer estar en el campo de batalla cuando tu nivel de azúcar en sangre es bajo. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_hero_hint_melee"								"Melé"
@@ -979,6 +984,17 @@
 	"dac_hero_name_void_spirit"							"Void Spirit"
 	"dac_hero_name_snapfire"							"Snapfire"
 
+	"dac_hero_name_death_prophet"						"Death Prophet"
+	"dac_name_death_prophet_exorcism_spirit"			"Espíritu Maligno"
+	"dac_hero_name_vengefulspirit"						"Vengeful Spirit"
+	"dac_hero_name_meepo"								"Meepo"
+	"dac_hero_name_spirit_breaker"						"Spirit Breaker"
+	"dac_hero_name_spectre"								"Spectre"
+	"dac_hero_name_pangolier"							"Pangolier"
+	"dac_hero_name_rubick"								"Rubick"
+	"dac_hero_name_wraith_king"							"Wraith King"
+
+
 	"dac_name_anessix_archer"							"Arquero Demoníaco"
 	"dac_name_anessix_warrior"							"Buscagolpes"
 	"dac_name_broodmother_spiderling"					"Cría de Araña"
@@ -1073,21 +1089,28 @@
 	"dac_hero_type_vigilant"							"Vigía"
 	"dac_hero_type_void"								"Vacío"
 
+	"dac_hero_type_fallen"								"Caído"
+	"dac_hero_type_wild"								"Chamán"
+	"dac_hero_type_swordsman"							"Espadachín"
+	"dac_hero_type_rogue"								"Renegado"
+	"dac_hero_type_poisoner"							"Envenenador"
+	"dac_hero_type_magus"								"Hechicero"
+
 
 	"dac_item_claymore"									"Claymore"
-	"dac_item_claymore_desc"							"+{d:attack_damage} de daño de ataque."
+	"dac_item_claymore_desc"							"+{s:attack_damage} de daño de ataque."
 	"dac_item_claymore_lore"							"¿Qué quieres que diga? Es una espada. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_brooch"									"Broche del Agresor"
-	"dac_item_brooch_desc"								"+{d:mana_gain}% de maná obtenido de ataques."
+	"dac_item_brooch_desc"								"+{s:mana_gain}% de maná obtenido de ataques."
 	"dac_item_brooch_lore"								"El artículo perfecto para alguien que busca pelea. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_mana_sponge"								"Broche del Mártir"
-	"dac_item_mana_sponge_desc"							"Un +{d:damage_taken_mana_gain}% de maná obtenido por recibir daño. Un +{d:debuff_resist}% de resistencia a los efectos negativos."
+	"dac_item_mana_sponge_desc"							"Un +{s:damage_taken_mana_gain}% de maná obtenido por recibir daño. Un +{s:debuff_resist}% de resistencia a los efectos negativos."
 	"dac_item_mana_sponge_lore"							"Los más grandes actos de heroísmo llegan cuando más bajo estás. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_quelling_blade"							"Hoja Mitigante"
-	"dac_item_quelling_blade_desc"						"+{d:damage} de daño de ataque. El héroe que la lleva preferirá atacar a las unidades invocadas. Sus ataques contra ellas infligen un {d:crit_bonus_vs_neutrals}% de daño crítico."
+	"dac_item_quelling_blade_desc"						"+{s:damage} de daño de ataque. El héroe que la lleva preferirá atacar a las unidades invocadas. Sus ataques contra ellas infligen un {s:crit_bonus_vs_neutrals}% de daño crítico."
 	"dac_item_quelling_blade_lore"						"Grek odia que la gente compre esto. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_boots_of_speed"							"Botas de Velocidad"
@@ -1095,161 +1118,161 @@
 	"dac_item_boots_of_speed_lore"						"Excelente para los inútiles en acción. <i>&#8213;Zenok, perista de Agujablanca</i>"			
 
 	"dac_item_tranquil_boots"							"Botas de Tranquilidad"
-	"dac_item_tranquil_boots_desc"						"+{d:movement_speed}% de velocidad de movimiento. +{d:health_regen} de regeneración de vida."
+	"dac_item_tranquil_boots_desc"						"+{s:movement_speed}% de velocidad de movimiento. +{s:health_regen} de regeneración de vida."
 	"dac_item_tranquil_boots_lore"						"Esas Botas de Velocidad que me vendiste no valían para mucho. Dame algo mejor para moverme. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_octarine_fragment"						"Esencia Octarina"
-	"dac_item_octarine_fragment_desc"					"Reduce el tiempo de recarga de habilidades un {d:cooldown_percentage}%."
+	"dac_item_octarine_fragment_desc"					"Reduce el tiempo de recarga de habilidades un {s:cooldown_percentage}%."
 	"dac_item_octarine_fragment_lore"					"Esto es solo una muestra de lo que Núcleo Octarino puede hacer. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_vitality_booster"							"Potenciador de Vitalidad"
-	"dac_item_vitality_booster_desc"					"+{d:health_bonus} de vida."
+	"dac_item_vitality_booster_desc"					"+{s:health_bonus} de vida."
 	"dac_item_vitality_booster_lore"					"No se trata de virar el rumbo, se trata de capear el temporal. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	
 	"dac_item_cloak"									"Capa"
-	"dac_item_cloak_desc"								"+{d:bonus_magical_resistance}% de resistencia mágica."
+	"dac_item_cloak_desc"								"+{s:bonus_magical_resistance}% de resistencia mágica."
 	"dac_item_cloak_lore"								"Hay que tener cuidado, se avecina una tormenta... <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_blink_dagger"								"Daga de Traslación"
-	"dac_item_blink_dagger_desc"						"Teletransporta al héroe que la lleva hasta el enemigo más alejado y le otorga {d:mana_gain} de maná. (Tiempo de recarga de {d:cooldown} segundo)"
+	"dac_item_blink_dagger_desc"						"Teletransporta al héroe que la lleva hasta el enemigo más alejado y le otorga {s:mana_gain} de maná. (Tiempo de recarga de {s:cooldown} segundo)"
 	"dac_item_blink_dagger_lore"						"Ese Oglodi sigue pidiendo una daga de traslación... <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_mask_of_madness"							"Máscara de la Locura"
-	"dac_item_mask_of_madness_desc"						"El héroe que lo lleva está silenciado. +{d:lifesteal_percentage}% de robo de vida. +{d:attack_speed} de velocidad de ataque."
+	"dac_item_mask_of_madness_desc"						"El héroe que lo lleva está silenciado. +{s:lifesteal_percentage}% de robo de vida. +{s:attack_speed} de velocidad de ataque."
 	"dac_item_mask_of_madness_lore"						"Es difícil determinar dónde acaba la locura y comienza la genialidad... <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_blade_mail"								"Malla de Cuchillas"
-	"dac_item_blade_mail_desc"							"+{d:bonus_armor} de armadura. Refleja hacia el atacante un {d:damage_taken_reflect_percentage}% del daño recibido."
+	"dac_item_blade_mail_desc"							"+{s:bonus_armor} de armadura. Refleja hacia el atacante un {s:damage_taken_reflect_percentage}% del daño recibido."
 	"dac_item_blade_mail_lore"							"Pierdo 3 clientes al año de gente que quiere probar esto... <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_battle_fury"								"Furia de Batalla"
-	"dac_item_battle_fury_desc"							"SOLO MELÉ. +{d:attack_damage} de daño de ataque. Los ataques de melé causan un {d:cleave_damage_pct}% de daño por hendidura a las unidades cercanas."
+	"dac_item_battle_fury_desc"							"SOLO MELÉ. +{s:attack_damage} de daño de ataque. Los ataques de melé causan un {s:cleave_damage_pct}% de daño por hendidura a las unidades cercanas."
 	"dac_item_battle_fury_lore"							"Sabemos que estas cosas nunca pasan solas... es mejor estar preparado. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_dagon"									"Dagón"
-	"dac_item_dagon_desc"								"Inflige {d:ability_damage} de daño a una unidad enemiga aleatoria que tiene un {d:health_trigger_percentage}% o menos de vida. ({d:cooldown} segundos de tiempo de recarga)"
+	"dac_item_dagon_desc"								"Inflige {s:ability_damage} de daño a una unidad enemiga aleatoria que tiene un {s:health_trigger_percentage}% o menos de vida. ({s:cooldown} segundos de tiempo de recarga)"
 	"dac_item_dagon_lore"								"Algunos dicen que está mal patear a un hombre cuando está abatido... esa gente no duraría una semana en Agujablanca. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_sacred_relic"								"Reliquia Sagrada"
-	"dac_item_sacred_relic_desc"						"+{d:attack_damage} de daño de ataque."
+	"dac_item_sacred_relic_desc"						"+{s:attack_damage} de daño de ataque."
 	"dac_item_sacred_relic_lore"						"Creo que estoy cobrando un precio razonable para que tengas una reliquia divina. <i>&#8213;Zenok, perista de Agujablanca</i>"	
 	
 	"dac_item_maelstrom"								"Maelstrom"
-	"dac_item_maelstrom_desc"							"Al atacar hay un {d:bolt_chance_percentage}% de probabilidad de lanzar Relámpago en Cadena con {d:bolt_damage} de daño a {d:bolt_targets} objetivos. Después de cada descarga se reduce el daño un {d:percentage_decrease}%."
+	"dac_item_maelstrom_desc"							"Al atacar hay un {s:bolt_chance_percentage}% de probabilidad de lanzar Relámpago en Cadena con {s:bolt_damage} de daño a {s:bolt_targets} objetivos. Después de cada descarga se reduce el daño un {s:percentage_decrease}%."
 	"dac_item_maelstrom_lore"							"Nadie puede controlar el clima... pero ciertamente puedes darle un pequeño empujón. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_refresher_orb"							"Orbe Revigorizante"
-	"dac_item_refresher_orb_desc"						"Tras lanzar una habilidad, pone a cero todos los tiempos de recarga del héroe que lo lleva y le restaura {d:mana_restored} de maná (una vez por batalla)."
+	"dac_item_refresher_orb_desc"						"Tras lanzar una habilidad, pone a cero todos los tiempos de recarga del héroe que lo lleva y le restaura {s:mana_restored} de maná (una vez por batalla)."
 	"dac_item_refresher_orb_lore"						"He visto que esto cambia el resultado de una gran batalla. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_heart_of_tarrasque"						"Corazón de Tarasca"
-	"dac_item_heart_of_tarrasque_desc"					"+{d:health_bonus} de vida. Regenera el {d:bonus_hp_regen}% de vida máxima cada segundo."
+	"dac_item_heart_of_tarrasque_desc"					"+{s:health_bonus} de vida. Regenera el {s:bonus_hp_regen}% de vida máxima cada segundo."
 	"dac_item_heart_of_tarrasque_lore"					"La muerte es para los perdedores. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_divine_rapier"						"Estoque Divino"
-	"dac_item_divine_rapier_desc"					"+{d:attack_damage} daño de ataque. Si Estoque Divino está en combate y pierdes una ronda contra otro jugador, este lo obtiene."
+	"dac_item_divine_rapier_desc"					"+{s:attack_damage} daño de ataque. Si Estoque Divino está en combate y pierdes una ronda contra otro jugador, este lo obtiene."
 	"dac_item_divine_rapier_lore"					"A veces los dioses piden sangre. <i>&#8213;Zenok, perista de Agujablanca</i>"	
 	
 	"dac_item_assault_cuirass"							"Coraza de Asalto"
-	"dac_item_assault_cuirass_desc"						"El héroe equipado y los aliados adyacentes ganan +{d:attack_speed_buff} de velocidad de ataque y +{d:armor_buff} de armadura. Los enemigos adyacentes pierden -{d:attack_speed_debuff} de velocidad de ataque y {d:armor_debuff} de armadura."
+	"dac_item_assault_cuirass_desc"						"El héroe equipado y los aliados adyacentes ganan +{s:attack_speed_buff} de velocidad de ataque y +{s:armor_buff} de armadura. Los enemigos adyacentes pierden -{s:attack_speed_debuff} de velocidad de ataque y {s:armor_debuff} de armadura."
 	"dac_item_assault_cuirass_lore"						"Si vas a cargar en la batalla, sé inteligente al respecto. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_black_king_bar"							"Vara del Rey Negro"
-	"dac_item_black_king_bar_desc"						"+{d:attack_damage} de daño de ataque. El héroe equipado se vuelve inmune a la magia durante {d:magic_immune_duration} segundos en cuanto el primer enemigo tiene un {d:mana_trigger_percentage}% de maná (una vez por batalla)."
+	"dac_item_black_king_bar_desc"						"+{s:attack_damage} de daño de ataque. El héroe equipado se vuelve inmune a la magia durante {s:magic_immune_duration} segundos en cuanto el primer enemigo tiene un {s:mana_trigger_percentage}% de maná (una vez por batalla)."
 	"dac_item_black_king_bar_lore"						"No des nada a tus enemigos. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_mekansm"									"Mecanismo"
-	"dac_item_mekansm_desc"								"Cuando el héroe que lo lleva tiene menos de un {d:health_trigger_percentage}% de vida, cura {d:heal_amount} de vida a los aliados en un radio de {d:heal_radius} casillas. (Una vez por batalla)."
+	"dac_item_mekansm_desc"								"Cuando el héroe que lo lleva tiene menos de un {s:health_trigger_percentage}% de vida, cura {s:heal_amount} de vida a los aliados en un radio de {s:heal_radius} casillas. (Una vez por batalla)."
 	"dac_item_mekansm_lore"								"No te preguntes cómo funciona, solo agradece que lo haga. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_arcane_boots"								"Botas Arcanas"
-	"dac_item_arcane_boots_desc"						"Cuando el héroe equipado tiene más de un {d:mana_trigger_percentage}% de maná, otorga {d:replenish_amount} de maná a todos los aliados situados a {d:replenish_radius} casillas. ({d:cooldown} segundo de tiempo de recarga)"
+	"dac_item_arcane_boots_desc"						"Cuando el héroe equipado tiene más de un {s:mana_trigger_percentage}% de maná, otorga {s:replenish_amount} de maná a todos los aliados situados a {s:replenish_radius} casillas. ({s:cooldown} segundo de tiempo de recarga)"
 	"dac_item_arcane_boots_lore"						"Sé una bendición para tus aliados. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_daedalus"									"Dédalo"
-	"dac_item_daedalus_desc"							"+{d:attack_damage} de daño de ataque. {d:bonus_damage_chance}% de probabilidad de golpe crítico para un {d:bonus_damage_multiplier}% de daño."
+	"dac_item_daedalus_desc"							"+{s:attack_damage} de daño de ataque. {s:bonus_damage_chance}% de probabilidad de golpe crítico para un {s:bonus_damage_multiplier}% de daño."
 	"dac_item_daedalus_lore"							"Lorlin Lasan ha tomado prestada esta arma en más de una ocasión. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_radiance"									"Resplandor"
-	"dac_item_radiance_desc"							"Quema a los enemigos situados a {d:radius} casilla(s) con {d:aura_damage} de daño por segundo."
+	"dac_item_radiance_desc"							"Quema a los enemigos situados a {s:radius} casilla(s) con {s:aura_damage} de daño por segundo."
 	"dac_item_radiance_lore"							"Aaah veo que compartes las sensibilidades de Hobgen... <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_skadi"									"Ojo de Skadi"
-	"dac_item_skadi_desc"								"+{d:health_bonus} de vida. Ralentiza el movimiento de los enemigos en {d:cold_movement_speed} y su velocidad de ataque en {d:cold_attack_speed} durante {s:cold_duration_ranged} segundos."
+	"dac_item_skadi_desc"								"+{s:health_bonus} de vida. Ralentiza el movimiento de los enemigos en {s:cold_movement_speed} y su velocidad de ataque en {s:cold_attack_speed} durante {s:cold_duration_ranged} segundos."
 	"dac_item_skadi_lore"								"No querrás saber cómo llegué a hacerme con esto... <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_chainmail"								"Cota de Malla"
-	"dac_item_chainmail_desc"							"+{d:bonus_armor} de armadura."
+	"dac_item_chainmail_desc"							"+{s:bonus_armor} de armadura."
 	"dac_item_chainmail_lore"							"Es una armadura práctica y de fiar. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_gloves_of_haste"							"Guantes de Rapidez"
-	"dac_item_gloves_of_haste_desc"						"+{d:attack_speed} de velocidad de ataque."
+	"dac_item_gloves_of_haste_desc"						"+{s:attack_speed} de velocidad de ataque."
 	"dac_item_gloves_of_haste_lore"						"Si quieres derribar a alguien rápido, estos guantes te interesan. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_moon_shard"								"Esquirla Lunar"
-	"dac_item_moon_shard_desc"							"+{d:attack_speed} de velocidad de ataque."
+	"dac_item_moon_shard_desc"							"+{s:attack_speed} de velocidad de ataque."
 	"dac_item_moon_shard_lore"							"Algunos afirman que es un fragmento de la propia Luna Loca... <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_blight_stone"								"Gema de la Plaga"
-	"dac_item_blight_stone_desc"						"El objetivo de ataque pierde {d:target_armor} de armadura."
+	"dac_item_blight_stone_desc"						"El objetivo de ataque pierde {s:target_armor} de armadura."
 	"dac_item_blight_stone_lore"						"Una herramienta sutil pero efectiva. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_shivas_guard"								"Protección de Shiva"
-	"dac_item_shivas_guard_desc"						"+{d:bonus_armor} de armadura. Emite una ola congelante que inflige {d:blast_damage} de daño a los enemigos en un radio de 3 casillas y reduce su velocidad de movimiento y de ataque durante {s:blast_debuff_duration} segundos. (Una vez por batalla)."
+	"dac_item_shivas_guard_desc"						"+{s:bonus_armor} de armadura. Emite una ola congelante que inflige {s:blast_damage} de daño a los enemigos en un radio de 3 casillas y reduce su velocidad de movimiento y de ataque durante {s:blast_debuff_duration} segundos. (Una vez por batalla)."
 	"dac_item_shivas_guard_lore"						"No preguntes cómo salió esto de la cámara del Cónclave de Zafiro. —<i>Zenok, perista de Agujablanca</i>"
 
 	
 	"dac_item_hood_of_defiance"							"Capucha Desafiante"
-	"dac_item_hood_of_defiance_desc"					"+{d:bonus_magical_resistance}% de resistencia mágica. +{d:health_regen} de regeneración de vida."
+	"dac_item_hood_of_defiance_desc"					"+{s:bonus_magical_resistance}% de resistencia mágica. +{s:health_regen} de regeneración de vida."
 	"dac_item_hood_of_defiance_lore"					"Álzate frente a tus enemigos. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_vanguard"									"Vanguardia"
-	"dac_item_vanguard_desc"							"+{d:health_bonus} de vida. {d:block_chance}% de probabilidad de parar {d:block_damage} de daño al ser atacado."
+	"dac_item_vanguard_desc"							"+{s:health_bonus} de vida. {s:block_chance}% de probabilidad de parar {s:block_damage} de daño si está recibiendo daño físico."
 	"dac_item_vanguard_lore"							"Si buscas protegerte, no puedes hacerlo mucho mejor. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_basher"									"Rompecráneos"
-	"dac_item_basher_desc"								"+{d:attack_damage} de daño de ataque. Un {d:bash_chance}% de probabilidad de infligir un {d:bonus_chance_damage} de daño extra y aturdir al objetivo durante {s:bash_duration} segundos."
+	"dac_item_basher_desc"								"+{s:attack_damage} de daño de ataque. Un {s:bash_chance}% de probabilidad de infligir un {s:bonus_chance_damage} de daño extra y aturdir al objetivo durante {s:bash_duration} segundos."
 	"dac_item_basher_lore"								"Un enemigo con conmoción cerebral es un enemigo que pronto estará muerto. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_pipe_of_insight"							"Pipa de la Perspicacia"
-	"dac_item_pipe_of_insight_desc"						"+{d:bonus_magical_resistance}% de resistencia mágica. En cuanto el primer enemigo tiene un {d:mana_trigger_percentage}% de maná, aplica un escudo que bloquea {d:barrier_amount} de daño mágico a los aliados en un radio de {d:barrier_radius} casillas. (Una vez por batalla)."
+	"dac_item_pipe_of_insight_desc"						"+{s:bonus_magical_resistance}% de resistencia mágica. En cuanto el primer enemigo tiene un {s:mana_trigger_percentage}% de maná, aplica un escudo que bloquea {s:barrier_amount} de daño mágico a los aliados en un radio de {s:barrier_radius} casillas de distancia. (Una vez por batalla)."
 	"dac_item_pipe_of_insight_lore"						"¿De dónde crees que saca Tinker sus ideas locas? <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_bloodbound_hat"							"Gran Contrato"
-	"dac_item_bloodbound_hat_desc"						"+{d:health_bonus} de vida. El héroe que lo lleva es <span class='Ogre'>pacto de sangre</span> <img class='InlineSynergyIcon SynergyOgre'/>."
+	"dac_item_bloodbound_hat_desc"						"+{s:health_bonus} de vida. El héroe que lo lleva es <span class='Ogre'>pacto de sangre</span> <img class='InlineSynergyIcon SynergyOgre'/>."
 	"dac_item_bloodbound_hat_lore"						"Rita no tiene el monopolio en cuanto a hacer crecer las cosas. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_sheepstick"								"Guadaña de Vyse"
-	"dac_item_sheepstick_desc"							"+{d:mana_per_second} de maná por segundo. Cuando el héroe que la lleva recibe daño, transforma a la unidad atacante en cerdo durante {s:sheep_duration} segundos. (Tiempo de recarga de {d:cooldown} segundo)"
+	"dac_item_sheepstick_desc"							"+{s:mana_per_second} de maná por segundo. Cuando el héroe que la lleva recibe daño, transforma a la unidad atacante en cerdo durante {s:sheep_duration} segundos. (Tiempo de recarga de {s:cooldown} segundo)"
 	"dac_item_sheepstick_lore"							"A los chamanes les encanta esta cosa, te lo aseguro. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_force_staff"								"Bastón de la Fuerza"
-	"dac_item_force_staff_desc"							"Cuando el héroe equipado recibe daño de un ataque en melé, empuja a la unidad que lo ataca {d:push_length} casillas. (Tiempo de recarga: {d:cooldown} segundo)"
+	"dac_item_force_staff_desc"							"Cuando el héroe equipado recibe daño de un ataque en melé, empuja a la unidad que lo ataca {s:push_length} casillas. (Tiempo de recarga: {s:cooldown} segundo)"
 	"dac_item_force_staff_lore"							"Dicen que Aghanim tiene un cetro más lujoso, pero yo nunca lo he visto. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_never_die_hat"							"Yelmo de los Inmortales"
-	"dac_item_never_die_hat_desc"						"+{d:bonus_armor} de armadura. El héroe equipado sobrevive por {s:invulnerability_duration} segundos adicionales después de recibir un golpe mortal."
+	"dac_item_never_die_hat_desc"						"+{s:bonus_armor} de armadura. El héroe equipado sobrevive por {s:invulnerability_duration} segundos adicionales después de recibir un golpe mortal."
 	"dac_item_never_die_hat_lore"						"No te salvará la vida, pero te servirá para llevarte a alguien contigo. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_gold_on_last_hit_hat"						"Cuchillo de caza"
-	"dac_item_gold_on_last_hit_hat_desc"				"El héroe equipado obtiene un {d:percent_chance}% de probabilidad de producir {d:gold} de oro cuando mate a un enemigo. Los ataques contra unidades con menos de un {d:target_health_percent}% de vida reciben un {d:target_crit_multiplier}% de posibilidad de golpe crítico."
-	"dac_item_gold_on_last_hit_hat_lore"				"Que te proporcione más suerte que al centauro en cuyo cadáver lo encontré.  <i>&#8213;Zenok, perista de Agujablanca</i>"
+	"dac_item_gold_on_last_hit_hat_desc"				"El héroe equipado obtiene un {s:percent_chance}% de probabilidad de producir {s:gold} de oro cuando mate a un enemigo. Los ataques contra unidades con menos de un {s:target_health_percent}% de vida reciben un {s:target_crit_multiplier}% de posibilidad de golpe crítico."
+	"dac_item_gold_on_last_hit_hat_lore"				"Que te proporcione más suerte que al centauro en cuyo cadáver lo encontré. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_final_flash_hat"							"Brazaletes de Desesperación"
-	"dac_item_final_flash_hat_desc"						"El héroe equipado reinicia su tiempo de recarga y recupera todo el maná al quedar con menos de un {d:health_percent_trigger}% de vida. La resistencia mágica del objetivo del ataque se reduce en un {d:target_magic_resistance}%."
-	"dac_item_final_flash_hat_lore"						"No sabes de lo que eres capaz hasta que estás acorralado contra la pared.<i>&#8213;Zenok, perista de Agujablanca</i>"
+	"dac_item_final_flash_hat_desc"						"El héroe equipado reinicia su tiempo de recarga y recupera todo el maná al quedar con menos de un {s:health_percent_trigger}% de vida. La resistencia mágica del objetivo del ataque se reduce en {s:target_magic_resistance}%."
+	"dac_item_final_flash_hat_lore"						"No sabes de lo que eres capaz hasta que estás acorralado contra la pared. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_hype_breaker"								"Velo de Asesino"
-	"dac_item_hype_breaker_desc"						"El héroe que lo lleva siempre ataca al Underlord enemigo si tiene la posibilidad. Los ataques de este héroe contra el Underlord enemigo eliminan {d:hype_burn} de furor (tiempo de recarga de {s:cooldown} s)."
+	"dac_item_hype_breaker_desc"						"El héroe que lo lleva siempre ataca al Underlord enemigo si tiene la posibilidad. Los ataques de este héroe contra el Underlord enemigo eliminan {s:hype_burn} de furor (tiempo de recarga de {s:cooldown} s)."
 	"dac_item_hype_breaker_lore"						"Para quienes quieran saber qué se siente siendo una Hermana del Velo, pero no quieren ser secuestrados como un bebé. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_hype_harvester"							"Gong de celebrar muertes"
-	"dac_item_hype_harvester_desc"						"Cada vez que el héroe que lo lleva mata a un enemigo, genera {d:hype_per_kill} de furor para tu Underlord."
+	"dac_item_hype_harvester_desc"						"Cada vez que el héroe que lo lleva mata a un enemigo, genera {s:hype_per_kill} de furor para tu Underlord."
 	"dac_item_hype_harvester_lore"						"La tocamos por Fronzell. La tocamos por Mamá Eeb. Reza para que no se toque por ti. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_summoning_stone"							"Gema de Invocación"
-	"dac_item_summoning_stone_desc"						"Los aliados invocados tienen +{d:health_bonus} de vida y +{d:attack_speed_bonus} de velocidad de ataque."
+	"dac_item_summoning_stone_desc"						"Los aliados invocados tienen +{s:health_bonus} de vida y +{s:attack_speed_bonus} de velocidad de ataque."
 	"dac_item_summoning_stone_lore"						"Ahoga a tus enemigos en una marea de carne abrumadora. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_better_units_in_shop"						"Un Criminal de Categoría"
@@ -1277,7 +1300,7 @@
 	"dac_item_humans_turn_undead_lore"					"Esta ciudad tiene una manera de sacarte lo bueno que hay en ti. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_elves_start_invisible"					"Objetivos Escurridizos"
-	"dac_item_elves_start_invisible_desc"				"Las unidades <span class='Elf'>evasivas</span> <img class='InlineSynergyIcon SynergyElusive'/> tienen {d:evasion_pct}% de evasión durante los primeros {s:invisibility_duration} segundos de la batalla."
+	"dac_item_elves_start_invisible_desc"				"Las unidades <span class='Elf'>evasivas</span> <img class='InlineSynergyIcon SynergyElusive'/> tienen {s:evasion_pct}% de evasión durante los primeros {s:invisibility_duration} segundos de la batalla."
 	"dac_item_elves_start_invisible_lore"				"Es complicado apuñalar lo que no puedes ver. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_shamans_hex_attackers"					"Pluma del Chamán"
@@ -1289,7 +1312,7 @@
 	"dac_item_discount_rerolls_lore"					"No te conformes con una tripulación que no has elegido. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_assassins_blind_on_landing"				"Saco de Arena"
-	"dac_item_assassins_blind_on_landing_desc"			"Los <span class='Assassin'>asesinos</span> <img class='InlineSynergyIcon SynergyAssassins'/> ciegan por {s:blind_duration} segundos a los enemigos situados a 1 casilla de donde aterrizan (el {d:blind_chance}% pierde esa posibilidad y pierde un {d:mana_gain_reduction}% de maná cuando se les ataca)."
+	"dac_item_assassins_blind_on_landing_desc"			"Los <span class='Assassin'>asesinos</span> <img class='InlineSynergyIcon SynergyAssassins'/> ciegan por {s:blind_duration} segundos a los enemigos situados a 1 casilla de donde aterrizan (el {s:blind_chance}% pierde esa posibilidad y pierde un {s:mana_gain_reduction}% de maná cuando se les ataca)."
 	"dac_item_assassins_blind_on_landing_lore"			"Quiet no lucha para ser justa, ella lucha para ganar. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_extra_items"								"Demasiado Rico"
@@ -1309,15 +1332,15 @@
 	"dac_item_prevent_next_life_loss_lore"				"A veces todo lo que necesitas es que te den una segunda oportunidad. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_mechs_explode_on_death"					"Reactor Inestable"
-	"dac_item_mechs_explode_on_death_desc"				"Los <span class='Mech'>inventores</span> <img class='InlineSynergyIcon SynergyInventors'/> aliados explotan al morir causando un daño del {s:damage_hp_pct}% de su vida máxima a todos los enemigos a {d:range_in_cells} casilla(s) de distancia."
+	"dac_item_mechs_explode_on_death_desc"				"Los <span class='Mech'>inventores</span> <img class='InlineSynergyIcon SynergyInventors'/> aliados explotan al morir causando un daño del {s:damage_hp_pct}% de su vida máxima a todos los enemigos a {s:range_in_cells} casilla(s) de distancia."
 	"dac_item_mechs_explode_on_death_lore"				"Por eso no confío en la mercancía de los Ingeniosos. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_trolls_have_aspd_aura"					"Asalto Coordinado"
-	"dac_item_trolls_have_aspd_aura_desc"				"Los <span class='Troll'>troles</span> <img class='InlineSynergyIcon SynergyTroll'/> otorgan +{s:attack_speed_buff} de velocidad de ataque a los aliados a {d:range_in_cells} casilla(s)."
+	"dac_item_trolls_have_aspd_aura_desc"				"Los <span class='Troll'>troles</span> <img class='InlineSynergyIcon SynergyTroll'/> otorgan +{s:attack_speed_buff} de velocidad de ataque a los aliados a {s:range_in_cells} casilla(s)."
 	"dac_item_trolls_have_aspd_aura_lore"				"Cuando un grupo de troles decide que quieren derrotarte, no hay mucho que puedas hacer al respecto. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_goblins_give_gold_on_last_hit"			"Contar los Cuerpos"
-	"dac_item_goblins_give_gold_on_last_hit_desc"		"Las unidades <span class='Goblin'>belicosas</span> <img class='InlineSynergyIcon SynergyScrappy'/> tienen un {s:percent_chance}% de probabilidad de producir {d:gold} de oro cuando matan a un enemigo."
+	"dac_item_goblins_give_gold_on_last_hit_desc"		"Las unidades <span class='Goblin'>belicosas</span> <img class='InlineSynergyIcon SynergyScrappy'/> tienen un {s:percent_chance}% de probabilidad de producir {s:gold} de oro cuando matan a un enemigo."
 	"dac_item_goblins_give_gold_on_last_hit_lore"		"No lo llamaría desagradable, no es como que los muertos gasten mucho dinero. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_orcs_get_extra_hp"						"Forjado en la Batalla"
@@ -1354,7 +1377,7 @@
 	"dac_item_humans_debuff_resist_lore"				"Aaah, he ahí ese famoso espíritu humano. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_druids_heal_over_time_on_death"			"Ciclo Completo"
-	"dac_item_druids_heal_over_time_on_death_desc"		"Cuando un <span class='Druid'>druida</span> <img class='InlineSynergyIcon SynergyDruid'/> muere, sana a los aliados en {d:range_in_cells} casillas alrededor a lo largo del tiempo con un {s:heal_pct_per_second}% de su vida por segundo durante {d:heal_duration} segundos."
+	"dac_item_druids_heal_over_time_on_death_desc"		"Cuando un <span class='Druid'>druida</span> <img class='InlineSynergyIcon SynergyDruid'/> muere, sana a los aliados en {s:range_in_cells} casillas alrededor a lo largo del tiempo con un {s:heal_pct_per_second}% de su vida por segundo durante {s:heal_duration} segundos."
 	"dac_item_druids_heal_over_time_on_death_lore"		"A veces,  se puede encontrar consuelo en la muerte. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_beast_bleed"								"Garras y Colmillos"
@@ -1366,7 +1389,7 @@
 	"dac_item_warriors_never_die_lore"					"Ni siquiera la muerte es suficiente para detener a los guerreros más incondicionales. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_warlocks_spell_lifesteal"					"Succionador de Almas"
-	"dac_item_warlocks_spell_lifesteal_desc"			"Las unidades aliadas a {d:range_in_cells} casilla(s) de los <span class='Warlock'>brujos</span> <img class='InlineSynergyIcon SynergyWarlocks'/> se curan un {s:spell_lifesteal}% de todo el daño causado por habilidades y objetos."
+	"dac_item_warlocks_spell_lifesteal_desc"			"Las unidades aliadas a {s:range_in_cells} casilla(s) de los <span class='Warlock'>brujos</span> <img class='InlineSynergyIcon SynergyWarlocks'/> se curan un {s:spell_lifesteal}% de todo el daño causado por habilidades y objetos."
 	"dac_item_warlocks_spell_lifesteal_lore"			"No te voy a mentir, este es un poco raro. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_undeads_stop_healing"						"Malas Intenciones"
@@ -1374,7 +1397,7 @@
 	"dac_item_undeads_stop_healing_lore"				"Algunas personas simplemente disfrutan haciendo sufrir a otros. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 	"dac_item_lower_healing"							"Amanecer de Ristul"
-	"dac_item_lower_healing_desc"						"La curación para ambos equipos se reduce en un {d:healing_prevented}%."
+	"dac_item_lower_healing_desc"						"La curación para ambos equipos se reduce en un {s:healing_prevented}%."
 	"dac_item_lower_healing_lore"						"Los Vhoul reaccionaron mal a la guerra en Rosoideo. <i>&#8213;Zenok, perista de Agujablanca</i>"
 	
 	"dac_item_mages_ghost_on_low_health"				"Destello Final"
@@ -1747,7 +1770,7 @@
 	"dac_item_shivas_guard_new_1"		"Protección de Shiva Noble"
 	"dac_item_shivas_guard_new_2"		"Protección de Shiva Gélida"
 	"dac_item_shivas_guard_new_3"		"Protección de Shiva Congelada"
-	"dac_item_shivas_guard_new_4"		"Protección de Shiva del Guardián"
+	"dac_item_shivas_guard_new_4"		"Protección de Shiva de la Guardiana"
 	"dac_item_shivas_guard_new_5"		"Protección de Shiva de Icewrack"
 
 
@@ -1757,6 +1780,57 @@
 	"dac_item_vesture_of_the_tyrant_4"		"Vestiduras del Tirano de Stonehall"
 	"dac_item_vesture_of_the_tyrant_5"		"Vestiduras del Tirano de Galanius"
 
+	"dac_item_headdress_rot1"									"Tocado"
+	"dac_item_headdress_rot1_desc"								"El héroe equipado y las unidades dentro de {s:row_radius} casilla de distancia, a la izquierda o derecha, al inicio del combate obtienen +{s:health_regen} de vida por segundo."
+	"dac_item_headdress_rot1_lore"								"Se lo compré a alguien que dijo que venía del Nido Espectral. No sé si es verdad, pero tiene una bonita pluma. <i>&#8213;Zenok, perista de Agujablanca</i>"
+
+	"dac_item_hood_of_defiance_rot1"							"Capucha Desafiante"
+	"dac_item_hood_of_defiance_rot1_desc"						"El héroe equipado y las unidades dentro de {s:row_radius} casilla de distancia, a la izquierda o derecha, al inicio del combate obtienen +{s:bonus_magical_resistance}% de resistencia mágica."
+	"dac_item_hood_of_defiance_rot1_lore"							"Álzate frente a tus enemigos. <i>&#8213;Zenok, perista de Agujablanca</i>"
+
+	"dac_item_vitality_booster_rot1"							"Potenciador de Vitalidad"
+	"dac_item_vitality_booster_rot1_desc"						"El héroe equipado y las unidades dentro de {s:row_radius} casilla de distancia, a la izquierda o derecha, al inicio del combate obtienen +{s:health_bonus} de vida."
+	"dac_item_vitality_booster_rot1_lore"						"No se trata de virar el rumbo, se trata de capear el temporal. <i>&#8213;Zenok, perista de Agujablanca</i>"
+
+	"dac_item_paladin_sword"									"Espada de Paladín"
+	"dac_item_paladin_sword_desc"								"+{s:attack_damage} de daño de ataque. La curación de los aliados aumenta un {s:healing_amplify_pct}%."
+	"dac_item_paladin_sword_lore"								"Me dijeron que esto fue bendecido por la propia Lady Anshu. <i>&#8213;Zenok, perista de Agujablanca</i>"
+
+	"dac_item_poisoner_hat"									"Orbe Venenoso"
+	"dac_item_poisoner_hat_desc"							"El héroe que lo equipa es un <span class='Poisoner'>envenenador</span> <img class='InlineSynergyIcon SynergyPoisoner'/>."
+	"dac_item_poisoner_hat_lore"							"Dicen que tiempo es todo lo que necesitas para matar a un hombre. Y yo digo, ¿por qué no ayudar a que pase un poco más rápido el tiempo? <i>&#8213;Zenok, perista de Agujablanca</i>"
+
+	"dac_item_barricade_rot1"								"Barricada"
+	"dac_item_barricade_rot1_desc"							"Dos barreras móviles para bloquear enemigos y reducir el daño de ataque a distancia en un 50%. Invulnerable e inmune a la magia."
+	"dac_item_barricade_rot1_lore"							"Cuando no puedas encontrar cobertura, tráetela contigo. <i>&#8213;Zenok, perista de Agujablanca</i>"
+
+	"dac_item_heavens_halberd"									"Alabarda Celestial"
+	"dac_item_heavens_halberd_desc"								"+{s:evasion_pct}% de evasión. Cuando el héroe equipado ataca, desarma al objetivo durante {s:disarm_duration} segundos. ({s:cooldown} segundo de tiempo de recarga)"
+	"dac_item_heavens_halberd_lore"								"Descubrí que el secreto para una vida larga y saludable es apuñalar a la gente antes de que te apuñalen a ti. <i>&#8213;Zenok, perista de Agujablanca</i>"
+
+	"dac_item_necronomicon"									"Necronomicón"
+	"dac_item_necronomicon_desc"								"Siempre que el héroe equipado lance un hechizo, invoca a Buscagolpes. (Con un máximo de {s:max_units} unidades vivas a la vez)"
+	"dac_item_necronomicon_lore"								"Por favor, ignora el nombre de Anessix escrito dentro de la portada. <i>&#8213;Zenok, perista de Agujablanca</i>"
+
+	"dac_item_swordsman_hat"									"Sombrero Pirata"
+	"dac_item_swordsman_hat_desc"								"El héroe que lo equipa es un <span class='Swordsman'>espadachín</span> <img class='InlineSynergyIcon SynergySwordsman'/>."
+	"dac_item_swordsman_hat_lore"								"Un día, Wren va a querer recuperar su sombrero. <i>&#8213;Zenok, perista de Agujablanca</i>"
+
+	"dac_item_craggy_coat"									"Abrigo Arrugado"
+	"dac_item_craggy_coat_desc"								"El héroe héroe equipado obtiene +{s:bonus_armor} de armadura pero pierde {s:attack_speed} de velocidad de ataque."
+	"dac_item_craggy_coat_lore"								"No estoy diciendo que sea cómodo, estoy diciendo que te mantendrá con vida. <i>&#8213;Zenok, perista de Agujablanca</i>"
+
+	"dac_item_witless_shako"									"Sombrero Loco"
+	"dac_item_witless_shako_desc"								"El héroe equipado obtiene +{s:health_bonus} de vida pero al precio de obtener un {s:mana_gain_pct_decrease}% menos de maná."
+	"dac_item_witless_shako_lore"								"Escucha, si los cerebros fueran tan importantes, Ax ya estaría muerta... <i>&#8213;Zenok, perista de Agujablanca</i>"
+
+	"dac_item_maelstrom_rot1"								"Maelstrom"
+	"dac_item_maelstrom_rot1_desc"							"Al atacar hay un {s:bolt_chance_percentage}% de probabilidad de lanzar Relámpago en Cadena con {s:bolt_damage} de daño a {s:bolt_targets} objetivos. Produciendo un {s:summon_damage_increase}% más de daño a las unidades invocadas."
+	"dac_item_maelstrom_rot1_lore"							"Nadie puede controlar el clima... pero ciertamente puedes darle un pequeño empujón. <i>&#8213;Zenok, perista de Agujablanca</i>"
+
+	"dac_item_monkey_king_bar"									"Vara del Rey Mono"
+	"dac_item_monkey_king_bar_desc"								"El héroe equipado obtiene +{s:attack_damage} de daño de ataque y sus ataques no pueden fallar."
+	"dac_item_monkey_king_bar_lore"								"Si Wukong viene preguntando, no lo supiste por mí. <i>&#8213;Zenok, perista de Agujablanca</i>"
 
 
 	"dac_bp1_bronze_border"								"Ribete de bronce"
@@ -2085,6 +2159,15 @@
 	"DAC_EndGame_Hobgen_win_with_warlock"			"Los brujos de Hobgen trenzan un hechizo sobre Agujablanca"
 	"DAC_EndGame_Hobgen_win_with_warrior"			"Los matones de Hobgen dan palizas por todos lados"
 	"DAC_EndGame_Hobgen_win_with_summoners"			"Hobgen abruma a sus rivales con un ejército aparentemente interminable"
+	"DAC_EndGame_Hobgen_win_with_fallen"			"Ni siquiera la muerte puede detener a Hobgen en su marcha para convertirse en el Señor de Agujablanca"
+	"DAC_EndGame_Hobgen_win_with_poisoner"			"Hobgen tomó prestados un par de trucos de Enno y se abrió camino hacia el poder sobre Agujablanca"
+	"DAC_EndGame_Hobgen_win_with_swordsman"			"Los espadachines de Hobgen se deshacen de sus rivales con facilidad"
+	"DAC_EndGame_Hobgen_win_with_wild"				"Las fuerzas de la naturaleza se inclinan en ayuda de Hobgen"
+	"DAC_EndGame_Hobgen_win_with_magus"				"Rubick se pone del lado de Hobgen, otorgándole la ciudad de Agujablanca"
+	"DAC_EndGame_Hobgen_win_with_rogue"				"Hobgen confía en los renegados para eliminar a sus enemigos"
+	
+	
+	
 	
 	"DAC_EndGame_Hobgen_does_good_with_assassins"		"Los asesinos a sueldo de Hobgen no matan lo suficiente"
 	"DAC_EndGame_Hobgen_does_good_with_blood_bound"		"Los gigantes no ofrecen suficiente fuerza para conseguirle a Hobgen la victoria"
@@ -2113,7 +2196,15 @@
 	"DAC_EndGame_Hobgen_does_good_with_warlock"			"Los brujos de Hobgen son buenos, pero no lo suficiente"
 	"DAC_EndGame_Hobgen_does_good_with_warrior"			"Los guerreros de Hobgen repelen a los rivales, pero al final son desbordados"
 	"DAC_EndGame_Hobgen_does_good_with_summoners"		"Hobgen invoca un ejército poderoso, pero no lo suficiente para tomar control sobre Agujablanca"
-
+	"DAC_EndGame_Hobgen_does_good_with_fallen"			"Los caídos casi le consiguen a Hobgen el control de Agujablanca"
+	"DAC_EndGame_Hobgen_does_good_with_poisoner"		"Hobgen envenena a mucha gente, pero no a la SUFICIENTE"
+	"DAC_EndGame_Hobgen_does_good_with_swordsman"		"Los mercenarios llevan a Hobgen lejos, pero no lo suficiente"
+	"DAC_EndGame_Hobgen_does_good_with_wild"			"Los chamanes se alinean con Hobgen, pero no pueden asegurar la victoria"
+	"DAC_EndGame_Hobgen_does_good_with_magus"			"El reinado del terror de Grand Hechicero y Hobgen llega a su fin"
+	"DAC_EndGame_Hobgen_does_good_with_rogue"			"Renegados y traidores llevan a Hobgen lejos, pero no lo suficiente"
+	
+	
+	
 	"DAC_EndGame_Hobgen_does_ok_with_assassins"			"Los asesinos de Hobgen no logran apuñalar a suficiente gente"
 	"DAC_EndGame_Hobgen_does_ok_with_blood_bound"		"Hobgen pone sus esperanzas en el pacto de sangre. Y los resultados le defraudan."
 	"DAC_EndGame_Hobgen_does_ok_with_brawny"			"La gran muralla de carne no es suficientemente gruesa como para proteger a Hobgen"
@@ -2141,6 +2232,14 @@
 	"DAC_EndGame_Hobgen_does_ok_with_warlock"			"Los brujos lanzan hechizos para Hobgen que resultan ser poco efectivos"
 	"DAC_EndGame_Hobgen_does_ok_with_warrior"			"Los guerreros de Hobgen luchan con fuerza, pero no la suficiente"
 	"DAC_EndGame_Hobgen_does_ok_with_summoners"			"Hobgen subcontrata su ejército y obtiene resultados dispares"
+	"DAC_EndGame_Hobgen_does_ok_with_fallen"			"Hobgen hace un pacto con los caídos, pero sigue sin ser suficiente"
+	"DAC_EndGame_Hobgen_does_ok_with_poisoner"			"Hobgen hace pruebas con el veneno con resultados mixtos"
+	"DAC_EndGame_Hobgen_does_ok_with_swordsman"			"Hobgen escatima en mercenarios, recibe por lo que paga"
+	"DAC_EndGame_Hobgen_does_ok_with_wild"				"Hobgen intenta comprender a los nuevos chamanes, pero no termina de entenderlos"
+	"DAC_EndGame_Hobgen_does_ok_with_magus"				"Rubick y Hobgen no se ponen de acuerdo"
+	"DAC_EndGame_Hobgen_does_ok_with_rogue"				"Los renegados no logran robar una victoria"
+	
+	
 	
 	"DAC_EndGame_Hobgen_does_bad_with_assassins"		"Hobgen contrata pésimos asesinos"
 	"DAC_EndGame_Hobgen_does_bad_with_blood_bound"		"Hobgen descubre que las artimañas no ganan peleas"
@@ -2169,6 +2268,14 @@
 	"DAC_EndGame_Hobgen_does_bad_with_warlock"			"Los brujos se rebelan contra Hobgen, se niegan a ayudarle a reclamar la victoria"
 	"DAC_EndGame_Hobgen_does_bad_with_warrior"			"Hobgen contrata a guerreros que no tenían interés en ganar"
 	"DAC_EndGame_Hobgen_does_bad_with_summoners"		"Hobgen contrata a B, que a su vez subcontrata a C"
+	"DAC_EndGame_Hobgen_does_bad_with_fallen"			"Hoben se alía con los caídos, cuyo nombre es curiosamente profético"
+	"DAC_EndGame_Hobgen_does_bad_with_poisoner"			"Hobgen arruina con éxito sus perspectivas de futuro"
+	"DAC_EndGame_Hobgen_does_bad_with_swordsman"		"Los espadachines de Hobgen se pasan más tiempo en el bar que en el campo de batalla"
+	"DAC_EndGame_Hobgen_does_bad_with_wild"				"Hobgen esperaba comer pollo, pero recibe un plato de fracaso en su lugar"
+	"DAC_EndGame_Hobgen_does_bad_with_magus"			"Lo único que el Grand Hechicero es capaz de copiar es el fracaso"
+	"DAC_EndGame_Hobgen_does_bad_with_rogue"			"Los renegados se niegan a cooperar con Hobgen"
+	
+	
 	
 	//Anessix End Screen Headlines
 	
@@ -2199,6 +2306,13 @@
 	"DAC_EndGame_Anessix_win_with_warlock"			"Los brujos de Anessix tejen un hechizo sobre Agujablanca"
 	"DAC_EndGame_Anessix_win_with_warrior"			"Los matones de Anessix dan palizas por todos lados"
 	"DAC_EndGame_Anessix_win_with_summoners"		"Anessix abruma a sus rivales con un ejército aparentemente interminable"
+	"DAC_EndGame_Anessix_win_with_fallen"			"Ni siquiera la muerte puede detener a Anessix en su marcha para convertirse en la Señora de Agujablanca"
+	"DAC_EndGame_Anessix_win_with_poisoner"			"Anessix tomó prestados un par de trucos de Enno y se abrió camino hacia el poder sobre Agujablanca"
+	"DAC_EndGame_Anessix_win_with_swordsman"		"Los espadachines de Anessix se deshacen de sus rivales con facilidad"
+	"DAC_EndGame_Anessix_win_with_wild"				"Las fuerzas de la naturaleza se inclinan en ayuda de Anessix"
+	"DAC_EndGame_Anessix_win_with_magus"			"Rubick se pone del lado de Anessix, otorgándole la ciudad de Agujablanca"
+	"DAC_EndGame_Anessix_win_with_rogue"			"Anessix confía en los renegados para eliminar a sus enemigos"
+	
 	
 	"DAC_EndGame_Anessix_does_good_with_assassins"		"Los asesinos a sueldo de Anessix no matan lo suficiente"
 	"DAC_EndGame_Anessix_does_good_with_blood_bound"	"Los gigantes no ofrecen suficiente fuerza para conseguirle a Anessix la victoria"
@@ -2227,7 +2341,13 @@
 	"DAC_EndGame_Anessix_does_good_with_warlock"		"Los brujos de Anessix son buenos, pero no lo suficiente"
 	"DAC_EndGame_Anessix_does_good_with_warrior"		"Los guerreros de Anessix repelen a los rivales, pero al final son desbordados"
 	"DAC_EndGame_Anessix_does_good_with_summoners"		"Anessix invoca un ejército poderoso, pero no lo suficiente para tomar control sobre Agujablanca"
-
+	"DAC_EndGame_Anessix_does_good_with_fallen"			"Los caídos casi le consiguen a Anessix el control de Agujablanca"
+	"DAC_EndGame_Anessix_does_good_with_poisoner"		"Anessix envenena a mucha gente, pero no a la SUFICIENTE"
+	"DAC_EndGame_Anessix_does_good_with_swordsman"		"Los mercenarios llevan a Anessix lejos, pero no lo suficiente"
+	"DAC_EndGame_Anessix_does_good_with_wild"			"Los chamanes se alinean con Anessix, pero no pueden asegurar la victoria"
+	"DAC_EndGame_Anessix_does_good_with_magus"			"El reinado del terror del Grand Hechicero y Anessix llega a su fin"
+	"DAC_EndGame_Anessix_does_good_with_rogue"			"Renegados y traidores llevan a Anessix lejos, pero no lo suficiente"
+	
 	"DAC_EndGame_Anessix_does_ok_with_assassins"		"Los asesinos de Anessix no logran apuñalar a suficiente gente"
 	"DAC_EndGame_Anessix_does_ok_with_blood_bound"		"Anessix pone sus esperanzas en el pacto de sangre. Y los resultados le defraudan."
 	"DAC_EndGame_Anessix_does_ok_with_brawny"			"La gran muralla de carne no es suficientemente gruesa como para proteger a Anessix"
@@ -2255,6 +2375,14 @@
 	"DAC_EndGame_Anessix_does_ok_with_warlock"			"Los brujos lanzan hechizos para Anessix que resultan ser poco efectivos"
 	"DAC_EndGame_Anessix_does_ok_with_warrior"			"Los guerreros de Anessix luchan con fuerza, pero no la suficiente"
 	"DAC_EndGame_Anessix_does_ok_with_summoners"		"Anessix subcontrata su ejército y obtiene resultados dispares"
+	"DAC_EndGame_Anessix_does_ok_with_fallen"			"Anessix hace un pacto con los caídos, pero sigue sin ser suficiente"
+	"DAC_EndGame_Anessix_does_ok_with_poisoner"			"Anessix hace pruebas con el veneno con resultados mixtos"
+	"DAC_EndGame_Anessix_does_ok_with_swordsman"		"Anessix escatima en mercenarios, recibe por lo que paga"
+	"DAC_EndGame_Anessix_does_ok_with_wild"				"Anessix intenta comprender a los nuevos chamanes, pero no termina de entenderlos"
+	"DAC_EndGame_Anessix_does_ok_with_magus"			"Rubick y Anessix no se ponen de acuerdo"
+	"DAC_EndGame_Anessix_does_ok_with_rogue"			"Los renegados no logran robar una victoria"
+	
+	
 	
 	"DAC_EndGame_Anessix_does_bad_with_assassins"		"Anessix contrata pésimos asesinos"
 	"DAC_EndGame_Anessix_does_bad_with_blood_bound"		"Anessix descubre que las artimañas no ganan peleas"
@@ -2283,6 +2411,14 @@
 	"DAC_EndGame_Anessix_does_bad_with_warlock"			"Los brujos se rebelan contra Anessix, se niegan a ayudarla a reclamar la victoria"
 	"DAC_EndGame_Anessix_does_bad_with_warrior"			"Anessix contrata a guerreros que no tenían interés en ganar"
 	"DAC_EndGame_Anessix_does_bad_with_summoners"		"Anessix contrata a B, que a su vez subcontrata a C"
+	"DAC_EndGame_Anessix_does_bad_with_fallen"			"Anessix se alía con los caídos, cuyo nombre es curiosamente profético"
+	"DAC_EndGame_Anessix_does_bad_with_poisoner"		"Anessix arruina con éxito sus perspectivas de futuro"
+	"DAC_EndGame_Anessix_does_bad_with_swordsman"		"Los espadachines de Hobgen pasan más tiempo en el bar que en el campo de batalla"
+	"DAC_EndGame_Anessix_does_bad_with_wild"			"Anessix esperaba comer pollo, pero recibe un plato de fracaso en su lugar"
+	"DAC_EndGame_Anessix_does_bad_with_magus"			"Lo único que el Grand Hechicero es capaz de copiar es el fracaso"
+	"DAC_EndGame_Anessix_does_bad_with_rogue"			"Los renegados se niegan a cooperar con Anessix"
+	
+
 	
 	//Jull End Screen Headlines
 	
@@ -2313,6 +2449,14 @@
 	"DAC_EndGame_Jull_win_with_warlock"					"Los brujos de Jull urden un hechizo sobre Agujablanca"
 	"DAC_EndGame_Jull_win_with_warrior"					"Los matones de Jull dan palizas por todos lados"
 	"DAC_EndGame_Jull_win_with_summoners"				"Jull abruma a sus rivales con un ejército aparentemente interminable"
+	"DAC_EndGame_Jull_win_with_fallen"			"Ni siquiera la muerte puede detener a Jull en su marcha para convertirse en el Señor de Agujablanca"
+	"DAC_EndGame_Jull_win_with_poisoner"			"Jull tomó prestados un par de trucos de Enno y se abrió camino hacia el poder sobre Agujablanca"
+	"DAC_EndGame_Jull_win_with_swordsman"			"Los espadachines de Jull se deshacen de sus rivales con facilidad"
+	"DAC_EndGame_Jull_win_with_wild"				"Las fuerzas de la naturaleza se inclinan en ayuda de Jull"
+	"DAC_EndGame_Jull_win_with_magus"				"Rubick se pone del lado de Jull, otorgándole la ciudad de Agujablanca"
+	"DAC_EndGame_Jull_win_with_rogue"				"Jull confía en los renegados para eliminar a sus enemigos"
+
+
 	
 	"DAC_EndGame_Jull_does_good_with_assassins"			"Los asesinos a sueldo de Jull no matan lo suficiente"
 	"DAC_EndGame_Jull_does_good_with_blood_bound"		"Los gigantes no ofrecen suficiente fuerza para conseguirle a Jull la victoria"
@@ -2341,7 +2485,14 @@
 	"DAC_EndGame_Jull_does_good_with_warlock"			"Los brujos de Jull son buenos, pero no lo suficiente"
 	"DAC_EndGame_Jull_does_good_with_warrior"			"Los guerreros de Jull repelen a los rivales, pero al final son desbordados"
 	"DAC_EndGame_Jull_does_good_with_summoners"			"Jull invoca un ejército poderoso, pero no lo suficiente para tomar control sobre Agujablanca"
-
+	"DAC_EndGame_Jull_does_good_with_fallen"			"Los caídos casi le consiguen a Jull el control de Agujablanca"
+	"DAC_EndGame_Jull_does_good_with_poisoner"			"Jull envenena a mucha gente, pero no a la SUFICIENTE"
+	"DAC_EndGame_Jull_does_good_with_swordsman"			"Los mercenarios llevan a Jull lejos, pero no lo suficiente"
+	"DAC_EndGame_Jull_does_good_with_wild"				"Los chamanes se alinean con Jull, pero no pueden asegurar la victoria"
+	"DAC_EndGame_Jull_does_good_with_magus"				"El reinado del terror del Grand Hechicero y Jull llega a su fin"
+	"DAC_EndGame_Jull_does_good_with_rogue"				"Renegados y traidores llevan a Jull lejos, pero no lo suficiente"
+	
+	
 	"DAC_EndGame_Jull_does_ok_with_assassins"			"Los asesinos de Jull no logran apuñalar a suficiente gente"
 	"DAC_EndGame_Jull_does_ok_with_blood_bound"			"Jull pone sus esperanzas en el pacto de sangre. Y los resultados le defraudan."
 	"DAC_EndGame_Jull_does_ok_with_brawny"				"La gran muralla de carne no es suficientemente gruesa como para proteger a Jull"
@@ -2369,6 +2520,12 @@
 	"DAC_EndGame_Jull_does_ok_with_warlock"				"Los brujos lanzan hechizos para Jull que resultan ser poco efectivos"
 	"DAC_EndGame_Jull_does_ok_with_warrior"				"Los guerreros de Jull luchan con fuerza, pero no la suficiente"
 	"DAC_EndGame_Jull_does_ok_with_summoners"			"Jull subcontrata su ejército y obtiene resultados dispares"
+	"DAC_EndGame_Jull_does_ok_with_fallen"				"Jull hace un pacto con los caídos, pero sigue sin ser suficiente"
+	"DAC_EndGame_Jull_does_ok_with_poisoner"			"Jull hace pruebas con el veneno con resultados mixtos"
+	"DAC_EndGame_Jull_does_ok_with_swordsman"			"Jull escatima en mercenarios, recibe por lo que paga"
+	"DAC_EndGame_Jull_does_ok_with_wild"				"Jull intenta comprender a los nuevos chamanes, pero no termina de entenderlos"
+	"DAC_EndGame_Jull_does_ok_with_magus"				"Rubick y Jull no se ponen de acuerdo"
+	"DAC_EndGame_Jull_does_ok_with_rogue"				"Los renegados no logran robar una victoria"
 	
 	"DAC_EndGame_Jull_does_bad_with_assassins"			"Jull contrata pésimos asesinos"
 	"DAC_EndGame_Jull_does_bad_with_blood_bound"		"Jull descubre que las artimañas no ganan peleas"
@@ -2397,7 +2554,12 @@
 	"DAC_EndGame_Jull_does_bad_with_warlock"			"Los brujos se rebelan contra Jull, se niegan a ayudarle a reclamar la victoria"
 	"DAC_EndGame_Jull_does_bad_with_warrior"			"Jull contrata a guerreros que no tenían interés en ganar"
 	"DAC_EndGame_Jull_does_bad_with_summoners"			"Jull contrata a B, que a su vez subcontrata a C"
-	
+	"DAC_EndGame_Jull_does_bad_with_fallen"				"Jull se alía con los caídos, cuyo nombre es curiosamente profético"
+	"DAC_EndGame_Jull_does_bad_with_poisoner"			"Jull arruina con éxito sus perspectivas de futuro"
+	"DAC_EndGame_Jull_does_bad_with_swordsman"			"Los espadachines de Jull pasan más tiempo en el bar que en el campo de batalla"
+	"DAC_EndGame_Jull_does_bad_with_wild"				"Jull esperaba comer pollo, pero recibe un plato de fracaso en su lugar"
+	"DAC_EndGame_Jull_does_bad_with_magus"				"Lo único que el Grand Hechicero es capaz de copiar es el fracaso"
+	"DAC_EndGame_Jull_does_bad_with_rogue"				"Los renegados se niegan a cooperar con Jull"
 	
 	
 	//Enno End Screen Headlines
@@ -2429,6 +2591,13 @@
 	"DAC_EndGame_Enno_win_with_warlock"					"Los brujos de Enno trenzan un hechizo sobre Agujablanca"
 	"DAC_EndGame_Enno_win_with_warrior"					"Los matones de Enno dan palizas por todos lados"
 	"DAC_EndGame_Enno_win_with_summoners"				"Enno abruma a sus rivales con un ejército aparentemente interminable"
+	"DAC_EndGame_Enno_win_with_fallen"				"Ni siquiera la muerte puede detener a Enno en su marcha para convertirse en el Señor de Agujablanca"
+	"DAC_EndGame_Enno_win_with_poisoner"			"Enno sigue fiel a lo que conoce y envenena a mucha gente"
+	"DAC_EndGame_Enno_win_with_swordsman"			"Los espadachines de Enno se deshacen de sus rivales con facilidad"
+	"DAC_EndGame_Enno_win_with_wild"				"Las fuerzas de la naturaleza se inclinan en ayuda de Enno"
+	"DAC_EndGame_Enno_win_with_magus"				"Rubick se pone del lado de Enno, otorgándole la ciudad de Agujablanca"
+	"DAC_EndGame_Enno_win_with_rogue"				"Enno confía en los renegados para eliminar a sus enemigos"
+	
 	
 	"DAC_EndGame_Enno_does_good_with_assassins"			"Los asesinos a sueldo de Enno no matan lo suficiente"
 	"DAC_EndGame_Enno_does_good_with_blood_bound"		"Los gigantes no ofrecen suficiente fuerza para conseguirle a Enno la victoria"
@@ -2457,7 +2626,14 @@
 	"DAC_EndGame_Enno_does_good_with_warlock"			"Los brujos de Enno son buenos, pero no lo suficiente"
 	"DAC_EndGame_Enno_does_good_with_warrior"			"Los guerreros de Enno repelen a los rivales, pero al final son desbordados"
 	"DAC_EndGame_Enno_does_good_with_summoners"			"Enno invoca un ejército poderoso, pero no lo suficiente para tomar control sobre Agujablanca"
-
+	"DAC_EndGame_Enno_does_good_with_fallen"			"Los caídos casi le consiguen a Enno el control de Agujablanca"
+	"DAC_EndGame_Enno_does_good_with_poisoner"			"Enno envenena a mucha gente, pero no a la SUFICIENTE"
+	"DAC_EndGame_Enno_does_good_with_swordsman"			"Los mercenarios llevan a Enno lejos, pero no lo suficiente"
+	"DAC_EndGame_Enno_does_good_with_wild"				"Los chamanes se alinean con Enno, pero no pueden asegurar la victoria"
+	"DAC_EndGame_Enno_does_good_with_magus"				"El reinado del terror del Grand Hechicero y Enno llega a su fin"
+	"DAC_EndGame_Enno_does_good_with_rogue"				"Renegados y traidores llevan a Enno lejos, pero no lo suficiente"
+	
+	
 	"DAC_EndGame_Enno_does_ok_with_assassins"			"Los asesinos de Enno no logran apuñalar a suficiente gente"
 	"DAC_EndGame_Enno_does_ok_with_blood_bound"			"Enno pone sus esperanzas en el pacto de sangre. Y los resultados le defraudan."
 	"DAC_EndGame_Enno_does_ok_with_brawny"				"La gran muralla de carne no es suficientemente gruesa como para proteger a Enno"
@@ -2485,6 +2661,13 @@
 	"DAC_EndGame_Enno_does_ok_with_warlock"				"Los brujos lanzan hechizos para Enno que resultan ser poco efectivos"
 	"DAC_EndGame_Enno_does_ok_with_warrior"				"Los guerreros de Enno luchan con fuerza, pero no la suficiente"
 	"DAC_EndGame_Enno_does_ok_with_summoners"			"Enno subcontrata su ejército y obtiene resultados dispares"
+	"DAC_EndGame_Enno_does_ok_with_fallen"				"Enno hace un pacto con los caídos, pero sigue sin ser suficiente"
+	"DAC_EndGame_Enno_does_ok_with_poisoner"			"Enno hace pruebas con el veneno con resultados mixtos"
+	"DAC_EndGame_Enno_does_ok_with_swordsman"			"Enno escatima en mercenarios, recibe por lo que paga"
+	"DAC_EndGame_Enno_does_ok_with_wild"				"Enno intenta comprender a los nuevos chamanes, pero no termina de entenderlos"
+	"DAC_EndGame_Enno_does_ok_with_magus"				"Rubick y Enno no se ponen de acuerdo"
+	"DAC_EndGame_Enno_does_ok_with_rogue"				"Los renegados no logran robar una victoria"
+
 	
 	"DAC_EndGame_Enno_does_bad_with_assassins"			"Enno contrata pésimos asesinos"
 	"DAC_EndGame_Enno_does_bad_with_blood_bound"		"Enno descubre que las artimañas no ganan peleas"
@@ -2513,7 +2696,13 @@
 	"DAC_EndGame_Enno_does_bad_with_warlock"			"Los brujos se rebelan contra Enno, se niegan a ayudarle a reclamar la victoria"
 	"DAC_EndGame_Enno_does_bad_with_warrior"			"Enno contrata a guerreros que no tenían interés en ganar"
 	"DAC_EndGame_Enno_does_bad_with_summoners"			"Enno contrata a B, que a su vez subcontrata a C"
-	
+	"DAC_EndGame_Enno_does_bad_with_fallen"				"Enno se alía con los caídos, cuyo nombre es curiosamente profético"
+	"DAC_EndGame_Enno_does_bad_with_poisoner"			"Enno arruina con éxito sus perspectivas de futuro"
+	"DAC_EndGame_Enno_does_bad_with_swordsman"			"Los espadachines de Enno pasan más tiempo en el bar que en el campo de batalla"
+	"DAC_EndGame_Enno_does_bad_with_wild"				"Enno esperaba comer pollo, pero recibe un plato de fracaso en su lugar"
+	"DAC_EndGame_Enno_does_bad_with_magus"				"Lo único que el Grand Hechicero es capaz de copiar es el fracaso"
+	"DAC_EndGame_Enno_does_bad_with_rogue"				"Los renegados se niegan a cooperar con Enno"
+
 	
 	
 	
@@ -2541,9 +2730,9 @@
 	"DAC_Rewards_Free"									"Gratis"
 	"DAC_Rewards_BPCurrentLevelProgress"				"{d:current_points}/{d:points_per_level}"
 	"DAC_BPInGameProgressLegend"						"Progreso del proto pase en esta partida."
-	"DAC_Battlepass_SeasonTitle"						"Primera temporada"
+	"DAC_Battlepass_SeasonTitle"						"Pase de batalla"
 	"DAC_Battlepass_Welcome_Page1"						"Juega partidas, completa desafíos y desbloquea zonas de «City Crawl» para subir tu pase de nivel."
-	"DAC_Battlepass_Welcome_Page2"						"La primera temporada contiene más de 20 recompensas GRATUITAS que puedes obtener a medida que subes de nivel. ¡Compra el pase de batalla para desbloquear más de 100 recompensas adicionales!"
+	"DAC_Battlepass_Welcome_Page2"						"Hay más de 20 recompensas GRATUITAS que puedes obtener a medida que subes de nivel. ¡Compra el pase de batalla para desbloquear más de 100 recompensas adicionales!"
 	"DAC_Battlepass_Welcome_Page3"						"Obtén acceso a todo el contenido de «City Crawl» y a la línea completa del pase de batalla, con recompensas como nuevos tableros, accesorios para personalizar tu territorio, compañeros de práctica, Yoos y mucho más."
 
 	"DAC_Battlepass_Level"								"{i:battlepass_level}"
@@ -2625,7 +2814,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Profile"										"Perfil"
 	"DAC_EarlyAccess"                                   "Versión preliminar"
 	"DAC_OpenBeta"                                   	"Beta abierta"	
-	"DAC_Shared_Pool_Description"						"En una partida de Underlords, los jugadores construyen su equipo a partir de un fondo compartido de héroes formado por 30 copias de cada héroe de categoría 1, 20 copias de cada héroe de categoría 2, 15 copias de cada héroe de categoría 3, 12 copias de cada héroe de categoría 4 y 10 copias de cada héroe de categoría 5. Cuando un jugador es eliminado de una partida, todas las unidades que haya contratado vuelven al fondo compartido."
+	"DAC_Shared_Pool_Description"						"En una partida de Underlords, los jugadores construyen su equipo a partir de un fondo compartido de héroes formado por 30 copias de cada héroe de categoría 1, 20 copias de cada héroe de categoría 2, 18 copias de cada héroe de categoría 3, 12 copias de cada héroe de categoría 4 y 10 copias de cada héroe de categoría 5. Cuando un jugador es eliminado de una partida, todas las unidades que haya contratado vuelven al fondo compartido."
 	"DAC_Zoo"											"Zoo"
 	"DAC_CityCrawlButton"								"Ir a «City Crawl»"
 	"DAC_ChallengeWorldMapPage"							"«City Crawl»"
@@ -2808,6 +2997,13 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Synergy_Vigilant"		"Vigía"
 	"DAC_Synergy_Void"			"Vacío"
 
+	"DAC_Synergy_Fallen"		"Caído"
+	"DAC_Synergy_Wild"			"Chamán"
+	"DAC_Synergy_Swordsman"		"Espadachín"
+	"DAC_Synergy_Rogue"			"Renegado"
+	"DAC_Synergy_Poisoner"		"Envenenador"
+	"DAC_Synergy_Magus"			"Hechicero"
+
 	"DAC_Synergy_Tooltip_Goblin_0"		"Un belicoso al azar"
 	"DAC_Synergy_Tooltip_Goblin_1"		"Todas las unidades belicosas"
 	"DAC_Synergy_Tooltip_Goblin_2"		"Todos los aliados"
@@ -2828,7 +3024,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Synergy_MegaDemon"			"Megademonio"
 	"DAC_Synergy_MegaTroll"			"Megatrol"
 
-	"DAC_Synergy_Desc_Beast"		"Los aliados ganan un +{s:damage_pct}% de daño de ataque"
+	"DAC_Synergy_Desc_Beast"		"Los aliados ganan +{s:damage_pct}% de daño de ataque."
 
 	"DAC_Synergy_Desc_Savage"		"{s:alliance_eligible} obtienen +{s:bonus_damage_per_attack} de daño de ataque cada vez que golpean a un enemigo."
 
@@ -2850,14 +3046,14 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 
 	"DAC_Synergy_Desc_Ogre"		"Cuando una unidad de pacto de sangre muere, todas las unidades de pacto de sangre, menos Legion Commander, obtienen +{s:enrage_bonus} de daño de ataque."
 
-	"DAC_Synergy_Desc_Orc"		"Todas las unidades fornidas aumentan su vida máxima en {s:hp_bonus}"
+	"DAC_Synergy_Desc_Orc"		"Todas las unidades fornidas aumentan su vida máxima en {s:hp_bonus}."
 
-	"DAC_Synergy_Desc_Brawny"		"Todas las unidades fornidas ganan +{s:hp_bonus} de vida máxima por cada víctima que consigue tu equipo de unidades fornidas a lo largo de la partida. (+[ 60/120 ] de vida máxima con Fuera de combate). La invocación cuenta como 0,25."
-	"DAC_Synergy_Desc_Brawny_ExtraData" "Victimas totales de fornidos: {f:brawny_kills} <br/>Bonificación de vida de fornidos: {d:brawny_bonus_health}"
+	"DAC_Synergy_Desc_Brawny"		"Todas las unidades fornidas obtienen +{s:hp_bonus_kill_mult} de vida máxima por cada víctima que consigue tu equipo de unidades fornidas a lo largo de la partida. La bonificación se multiplica por el nivel de estrellas del héroe fornido. Las unidades invocadas cuentan como 1/4 de víctima. (La bonificación de vida varía según el modo de juego)."
+	"DAC_Synergy_Desc_Brawny_ExtraData" "Victimas totales de fornidos: {f:brawny_kills} <br/>Bonificación de vida de fornidos: {d:brawny_bonus_health}."
 
-	"DAC_Synergy_Desc_Troll"		"Todas las unidades trol ganan +{s:attack_speed_bonus_trolls} de velocidad de ataque y los demás aliados, +{s:attack_speed_bonus_others}"
+	"DAC_Synergy_Desc_Troll"		"Todas las unidades trol ganan +{s:attack_speed_bonus_trolls} de velocidad de ataque y los demás aliados, +{s:attack_speed_bonus_others}."
 
-	"DAC_Synergy_Desc_Undead"		"Todos los enemigos pierden {s:armor_debuff} de armadura"
+	"DAC_Synergy_Desc_Undead"		"Todos los enemigos pierden {s:armor_debuff} de armadura."
 
 	"DAC_Synergy_Desc_Assassin"		"Todos los asesinos tienen un {s:crit_chance}% de probabilidad de golpe crítico con un {s:crit_bonus}% de daño. Al recibir un golpe crítico, el objetivo queda HERIDO y su curación se reduce en un {s:heal_damp}% durante {s:duration} s."
 
@@ -2869,9 +3065,9 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 
 	"DAC_Synergy_Desc_Knight"		"Los caballeros reciben un {s:physical_reduction}% menos de daño físico y mágico. Si se les ataca de frente y están a 1 casilla de otro caballero aliado, estas unidades reciben una reducción adicional de un {s:physical_reduction_extra}% en el daño físico y mágico."
 
-	"DAC_Synergy_Desc_Mage"		"Los enemigos reciben un {s:magic_resist_debuff}% más de daño mágico"
+	"DAC_Synergy_Desc_Mage"		"Los enemigos reciben un {s:magic_resist_debuff}% más de daño mágico."
 
-	"DAC_Synergy_Desc_Mech"		"Todos los inventores obtienen +{s:health_regen} de regeneración de vida"
+	"DAC_Synergy_Desc_Mech"		"Todos los inventores obtienen +{s:health_regen} de regeneración de vida."
 
 	"DAC_Synergy_Desc_Inventor"		"Los inventores aliados explotan al morir e infligen un daño del {s:damage_hp_pct}% de su vida máxima a todos los enemigos a 1 casilla de distancia."
 
@@ -2879,7 +3075,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 
 	"DAC_Synergy_Desc_Warlock"		"Al lanzar un brujo un hechizo queda vinculado al aliado con menos vida durante {s:duration} s. Si uno de los héroes vinculados inflige daño, ambas unidades se curan en un {s:lifesteal_pct}% del daño infligido."
 
-	"DAC_Synergy_Desc_Warrior"		"Todos los guerreros ganan +{s:armor_bonus} de armadura"
+	"DAC_Synergy_Desc_Warrior"		"Todos los guerreros ganan +{s:armor_bonus} de armadura."
 
 	"DAC_Synergy_Desc_Insect"			"Las crías de araña atacan en grupo a los enemigos desde el borde del tablero. Son unidades no atacables que infligen poco daño y mueren si reciben algún daño. Los enemigos mordidos por ellas tienen una probabilidad de un {s:miss_chance}% de fallar en sus ataques durante {s:miss_chance_duration} segundos. Estas se reponen al morir hasta un máximo de {s:num_insects}."
 
@@ -2891,13 +3087,25 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 
 	"DAC_Synergy_Desc_Brutal"			"Cuando un bruto ataca a un enemigo, aplica un -{s:damage_reduction}% de los efectos de daño durante {s:debuff_duration} segundos. Cuando se aplican los efectos inicialmente, inflige {s:initial_damage} de daño. Los brutos prefieren atacar a enemigos que no tienen efectos negativos."
 
-	"DAC_Synergy_Desc_SpiritBrother"	"Cuando un espíritu lanza una habilidad entran en un estado cargado. Cuando 3 espíritus están cargados ejecutan una técnica prohibida de Golpe Delta triangular, cada uno provoca {s:damage} de daño mágico en todos los enemigos atrapados dentro y aplicando sus efectos elementales."
+	"DAC_Synergy_Desc_SpiritBrother"	"Cuando un espíritu lanza una habilidad entra en un estado cargado. Cuando 3 espíritus están cargados ejecutan una técnica prohibida de Golpe Delta triangular, cada uno provoca {s:damage} de daño mágico a todos los enemigos atrapados dentro y aplicando sus efectos elementales durante {s:disable_duration} segundos. El daño y la duración del efecto se multiplican por {s:multiplier_2star} en niveles de 2* y por {s:multiplier_3star} en los de 3*."
 
 	"DAC_Synergy_Desc_Summoner"			"Las unidades invocadas aliadas obtienen un +{s:damage_percent}% de daño."
 	
 	"DAC_Synergy_Desc_Vigilant"			"Cada vez que una unidad enemiga lanza un hechizo, se convierte en el objetivo de la alianza de {s:alliance_eligible}, si está a su alcance. El daño del siguiente ataque contra ese objetivo aumenta en un {s:damage_percent}%."
 	
 	"DAC_Synergy_Desc_Void"				"Todos los héroes aliados tienen un {s:proc_chance}% de probabilidad de infligir un {s:pure_damage_percent}% de la vida máxima del objetivo como daño puro adicional. Este efecto solo puede ocurrir una vez cada {s:cooldown} segundos."
+
+	"DAC_Synergy_Desc_Fallen"			"Cuando una unidad de caídos muere, los aliados en un radio de {s:radius} casillas son curados por {s:heal} de vida y obtienen +{s:damage_bonus_pct}% de bonificación de daño. Una unidad de caídos puede revivir {s:revive_times} veces por combate, resucitando con un {s:resurrect_hp_pct}% de vida."
+	
+	"DAC_Synergy_Desc_Wild"				"Cuando comienza el combate, un {s:summon_display_name} es invocado para ayudar."
+
+	"DAC_Synergy_Desc_Swordsman"		"Cada unidad de espadachín obtiene +{s:damage_bonus_pct}% de bonificación de daño por cada unidad enemiga adyacente a ella."
+
+	"DAC_Synergy_Desc_Rogue"			"Las unidades de renegados aliados obtienen un {s:evasion_pct}% de evasión. Siempre que una unidad de renegados evade un ataque, obtiene +{s:bonus_attack_damage} de daño de ataque."
+
+	"DAC_Synergy_Desc_Poisoner"			"Los ataques de envenenadores aplican acumulaciones de veneno. Los enemigos pierden {s:attack_speed_loss_per_stack} de velocidad de ataque por acumulaciones de veneno."
+
+	"DAC_Synergy_Desc_Magus"			"Una vez por batalla, cuando la vida de una unidad de hechiceros baja del {s:health_pct}%, la unidad se vuelve invulnerable e incapaz de atacar durante {s:duration} segundos."
 
 	"DAC_Synergy_Desc_MegaWarrior"		"Los aliados megaguerreros ganan +{s:armor_bonus} de armadura"
 	"DAC_Synergy_Desc_MegaWarlock"		"Al lanzar un megabrujo un hechizo queda vinculado al aliado con menos vida por 3 segundos. Si una de las unidades vinculadas inflige daño, ambas unidades se curan en un {s:lifesteal_pct}% del daño infligido."
@@ -3128,7 +3336,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 
 	"DAC_BotName_61"					"Bot Zales"
 	"DAC_BotName_62"					"Bot Merán"
-	"DAC_BotName_63"					"Bot Sr. Brujo"
+	"DAC_BotName_63"					"Bot Ín"
 	"DAC_BotName_64"					"Bot Cólica"
 	"DAC_BotName_65"					"Bot Canero"
 	"DAC_BotName_66"					"Bot Delaire"
@@ -3409,7 +3617,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Friends_Add_Friend_Your_ID"				"Tu id. de amigo es:"
 	"DAC_Friends_Friend_Code_Button"				"Añadir amigo"
 	"DAC_RoundOver_Underlord_TempQuip"				"\"¡Y es por eso que siempre dejas una nota!\""
-	"DAC_RoundOver_HealthLost_Label"				"Vida perdida"
+	"DAC_RoundOver_HealthLost_Label"				"punto(s) de vida perdido(s)"
 	"DAC_RoundOver_GoldEarnedLabel"					"Oro en la siguiente ronda"
 	"DAC_RoundOver_Header_RoundWon"					"Ronda ganada"
 	"DAC_RoundOver_Header_RoundWonDecisive"			"Victoria decisiva"
@@ -3575,6 +3783,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"dac_support_upload_save_game"				"Subir el juego guardado al Soporte de Steam"
 	"dac_support_upload_console_log"			"Enviar el registro de la consola al Soporte de Steam"
 	"dac_dump_memory_stats"						"Volcar estadísticas de memoria"
+	"dac_trigger_memory_warning"				"Activar advertencia de memoria para el móvil"
 	"dac_support_upload"						"Subir al Soporte de Steam"
 	"dac_support_upload_error_unknown"			"Fallo al cargar, error desconocido."
 	"dac_support_upload_error_no_file"			"Error al cargar, no se encontró ningún archivo para cargar."
@@ -3706,11 +3915,11 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 
 	"dac_glossary_rank_details"				"Clasificación de los jugadores"
 
-	"DAC_SeasonRank_Tooltip_Title"				"MEDALLAS DE LA TEMPORADA"
-	"DAC_SeasonRank_Tooltip_Title_Desc"			"Tu nivel de esta temporada lo muestra una medalla de clasificación."
+	"DAC_SeasonRank_Tooltip_Title"				"MEDALLAS DE CLASIFICACIÓN"
+	"DAC_SeasonRank_Tooltip_Title_Desc"			"Una medalla de clasificación muestra tu nivel."
 	"DAC_SeasonRank_Tooltip_Minor_Desc"			"Cada medalla tiene cinco niveles de progreso antes de la promoción al siguiente rango."
 	"DAC_SeasonRank_Tooltip_Generic_Desc"		"Los jugadores más fuertes muestran su posición en la tabla de clasificación bajo la medalla de rango."
-	"DAC_SeasonRank_Tooltip_End_Desc"			"Los jugadores ganan medallas jugando en las partidas clasificatorias. Al término de cada temporada se retiran las medallas."
+	"DAC_SeasonRank_Tooltip_End_Desc"			"Los jugadores ganan medallas al jugar partidas clasificatorias."
 
 	"DACWantedAmount"							"$%s1"
 
@@ -3738,8 +3947,8 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Team_Rank_Label"						"Clasificación del equipo"
 	"DAC_Team_Rank_YourRank_Label"				"Tu clasificación"
 
-	"DAC_Season_Rank_Title"						"Medallas de clasificación de temporada"
-	"DAC_Season_Rank_Desc"						"A medida que tu habilidad progresa durante la temporada, recibirás medallas de clasificación con cinco niveles cada una. Si sobrepasas la medalla de Gran jefe V, serás coronado como el Señor de Agujablanca y obtendrás tu lugar en la tabla de clasificación mundial."
+	"DAC_Season_Rank_Title"						"Medallas de clasificación"
+	"DAC_Season_Rank_Desc"						"A medida que tu habilidad progresa, recibirás medallas de clasificación con cinco niveles cada una. Si superas el de Gran jefe V, serás coronado como el Señor de Agujablanca y obtendrás tu lugar en la tabla de clasificación mundial."
 
 	"DAC_LevelUp_Rank_Old"	"<span class='RankName'>{s:old_rank_name}</span> {s:old_rank_tier}"
 	"DAC_LevelUp_Rank_New"	"<span class='RankName'>{s:new_rank_name}</span> {s:new_rank_tier}"
@@ -3832,7 +4041,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_GoldBreakdownInterestMax"				"+{d:interest} DE MÁXIMO INTERÉS ALCANZADO"
 	"DAC_GoldBreakdownStreakWIN"				"+{d:streak} POR RACHA DE VICTORIAS"
 	"DAC_GoldBreakdownStreakLOSE"				"+{d:streak} POR RACHA DE DERROTAS"
-	"DAC_GoldBreakdownItems"					"+{d:items} DE OBJETOS"
+	"DAC_GoldBreakdownItems"					"+{d:items} DURANTE EL COMBATE"
 	"DAC_GoldBreakdownRoundGold"				"+{d:round} DE ORO BASE"
 	"DAC_GoldBreakdownVictory"					"+{d:victory} POR VICTORIA"
 	"DAC_GoldBreakdownTotal"					"ORO TOTAL: {d:total}"
@@ -4018,6 +4227,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_CityCrawl_MostRecent"						"Más reciente"
 	"DAC_CityCrawl_RecommendedHeader"				"Más reciente:<br/><span class='RecommendedChallengeDesc'>{s:recommended_challenge}</span>"
 	"DAC_ChallengeGameModeRequirementsNotMet"		"Elige un modo de juego diferente para completar tu objetivo de «City Crawl»."
+	"DAC_ChallengeMatchTypeRequirementsNotMet"		"Elige un modo de partida diferente para completar tu objetivo de «City Crawl»."
 	"DAC_ChallengeDifficultyRequirementsNotMet"		"Elige la dificultad extrema (EXP) del bot o juega en el modo multijugador para progresar en el pase de batalla."
 	"DAC_ChallengePrivateGameNotFull"				"Tu grupo debe estar completo para progresar en el pase de batalla."
 
@@ -4076,7 +4286,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Challenge_AnessixKillWithSummons_Desc"		"Mata a {s:threshold} unidades enemigas con invocaciones"
 	"DAC_Challenge_AnessixCombine3StarDemon_Desc"	"Combina demonios de ★★★ {s:threshold} veces"
 	"DAC_Challenge_AnessixWinWithHumans_Desc"		"Gana {s:threshold} rondas con una alianza de humanos activa"
-	"DAC_Challenge_AnessixSummonEidolons_Desc"		"Invoca {s:threshold} Eidolones a través de la alianza primordial"
+	"DAC_Challenge_AnessixSummonEidolons_Desc"		"Aplica {s:threshold} acumulaciones de Veneno"
 	"DAC_Challenge_AnessixBuyDemons_Desc"			"Gasta {s:threshold} de oro contratando demonios"
 	"DAC_Challenge_AnessixDealCritDamage_Desc"		"Inflige {s:threshold} de daño con golpes críticos"
 	"DAC_Challenge_AnessixKillDemons_Desc"			"Mata a {s:threshold} demonios"
@@ -4243,11 +4453,11 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Rewards_Rewards"                           "Recompensas"
 	"DAC_Rewards_Subhead"							"Tu progreso"
 	"DAC_Rewards_Intro"					            "Juega partidas y completa desafíos para desbloquear las siguientes recompensas."
-	"DAC_Rewards_Description"						"Al igual que muchos aspectos de la versión beta, el proto pase es una experiencia de aprendizaje para el equipo de Underlords. Por favor, seguir recibiendo los comentarios no tiene precio mientras estamos planeando nuestro pase de batalla de la temporada 1."
+	"DAC_Rewards_Description"						"Al igual que muchos aspectos de la versión beta, el proto pase es una experiencia de aprendizaje para el equipo de Underlords. Por favor, seguid enviándonos comentarios, son de valor inestimable mientras planificamos nuestro pase de batalla."
 	"DAC_BattlePass_GCIssue"						"No se ha podido conectar con el coordinador del juego en este momento."
 	"DAC_Rewards_CurrentLevel"						"Nivel<br><span class='LevelNumber'>{d:current_level}</span>"
 
-	"DAC_Rewards_BattlePass_Title"					"Primera temporada"
+	"DAC_Rewards_BattlePass_Title"					"Pase de batalla"
 	"DAC_Rewards_BattlePass_Description"			"La Sociedad Secreta"
 	"DAC_Reward_Item_Level"							"Nivel {d:reward_level} "
 
@@ -4281,7 +4491,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_AchievementTitle_Missing" 					"Falta el título"
 	"DAC_AchievementDesc_Missing" 					"Falta la descripción"
 
-	"DAC_Profile_TopFinishes"				"Los mejores de la temporada"
+	"DAC_Profile_TopFinishes"				"Podios conseguidos"
 	"DAC_Profile_FinishFirst"				"Primero"
 	"DAC_Profile_FinishSecond"				"Segundo"
 	"DAC_Profile_FinishThird"				"Tercero"
@@ -4301,8 +4511,8 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 
 	"DAC_Profile_LoadMore"					"Cargar más"
 
-	"DAC_Profile_Progress"					"Progreso de la temporada"
-	"DAC_Profile_Stats"						"Estadísticas de la temporada"
+	"DAC_Profile_Progress"					"Progreso"
+	"DAC_Profile_Stats"						"Estadísticas"
 
 	"DAC_Profile_GamesPlayed"				"Partidas jugadas"
 	"DAC_Profile_MostTotalDamage"			"Daño total mayor"
@@ -4353,9 +4563,18 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"dac_season_0_popup_duos"		"Modo «Dúos»"
 	"dac_season_0_popup_proving"		"Campo de pruebas"
 
+	"dac_hero_rotation_popup_pre_title"			"Presentamos"
+	"dac_hero_rotation_popup_title"				"Sangre nueva en las calles"
+	"dac_hero_rotation_popup_heroes"			"8 nuevos héroes"
+	"dac_hero_rotation_popup_alliances"			"6 nuevas alianzas"
+	"dac_hero_rotation_popup_items"				"7 nuevos objetos"
+	"dac_hero_rotation_popup_oldheroes"			"8 viejos amigos"
+	"dac_hero_rotation_popup_classic"			"Modo clásico"
+	"dac_hero_rotation_popup_rankreset"			"Restablecer clasificación"
+
 	"s1_title_row_1"			"Te damos la bienvenida a"
 	"s1_title_row_2"			"Agujablanca"
-	"s1_description"			"Al morir Mamá Eeb la ciudad está sin gobernante. Junta un equipo, métete en peleas y apodérate de Agujablanca en el <span class='Emphasis'>«City Crawl»</span>.<br><br>Completa desafíos, lucha y gana recompensas en el <span class='Emphasis'>pase de batalla</span>. ¡Bienvenido a la temporada 1 de Underlords!"
+	"s1_description"			"Al morir Mamá Eeb la ciudad está sin gobierno. Junta un equipo, métete en peleas y apodérate de Agujablanca en el <span class='Emphasis'>«City Crawl»</span>.<br><br>Completa desafíos, lucha y gana recompensas en el <span class='Emphasis'>pase de batalla</span>. ¡Bienvenido a la temporada 1 de Underlords!"
 	"s1_play_trailer"			"Ver el avance"
 	"s1_ricky_beta_message"		"¡PSS, eh!, gracias por jugar a la beta. Recogí algunos regalitos para ti, como un regalo por volver a verte: ¡los tableros de la temporada beta, el título de un cartel y una estatua para tu tablero!"
 
@@ -4540,7 +4759,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"dac_legendary_void_spirit_desc" "Los <span class='SpiritBrother'>espíritus</span> cargados <img class='InlineSynergyIcon SynergySpiritBrother'/> infligen un 100% más de daño de ataque.  <br><br>+15% de probabilidad de aparecer, si tienes completado al menos un nivel de la alianza de <span class='SpiritBrother'>espíritus</span> <img class='InlineSynergyIcon SynergySpiritBrother'/>."
 
 	"DAC_MainNav_SeasonInfo"	"Reglamento"
-	"DAC_MainNav_EarlyBird"		"Madrugador"
+	"DAC_MainNav_EarlyBird"		"El Madrugador"
 	"DAC_EarlyBird_ButtonDesc"	"Noticias semanales"
 	"DAC_MainNav_Achievements"	"LOGROS"
 	"DAC_MainNav_Battlepass"	"PROTO PASE"
@@ -4711,6 +4930,10 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Puzzle_RuleDescription_UnitCountLimit"			"Unidades en el tablero: {d:minimum}-{d:maximum}"
 	"DAC_Puzzle_RuleDescription_UnitCountLimit_Hi"		"Unidades máximas: {d:maximum}"
 	"DAC_Puzzle_RuleDescription_UnitCountLimit_Lo"		"Unidades mínimas: {d:minimum}"
+
+	"DAC_Puzzle_RuleDescription_UnitCopyLimit"			"Copias por unidad: {d:minimum}-{d:maximum}"
+	"DAC_Puzzle_RuleDescription_UnitCopyLimit_Hi"		"Máximo de copias por unidad: {d:maximum}"
+	"DAC_Puzzle_RuleDescription_UnitCopyLimit_Lo"		"Mínimo de copias por unidad: {d:minimum}"
 
 	"DAC_Puzzle_RuleDescription_UnitStarLimit"			"Estrellas por unidad: {d:minimum}-{d:maximum}"
 	"DAC_Puzzle_RuleDescription_UnitStarLimit_Hi"		"Estrellas máximas: {d:maximum}"
@@ -4897,7 +5120,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"dac_underlord_picker_4_build_1_ability_desc"	"Hobgen es mejorado y el ejército completo gana velocidad de ataque."
 
 	"DAC_Dashboard_Promo_Season1_Title"			"Te damos la bienvenida a Agujablanca"
-	"DAC_Dashboard_Promo_Season1_Desc"			"Bienvenido a la primera temporada"
+	"DAC_Dashboard_Promo_Season1_Desc"			"Toma el control de la ciudad"
 
 	"dac_underlord_detail_passive_name"			"Habilidad Pasiva"
 	"dac_underlord_detail_passive_build_desc"	"En el juego, se te mostrará una de las dos versiones a continuación."
@@ -4934,6 +5157,14 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"dac_turbo_bucket_tip_Vigilant"				"<span class='Vigilant'>Las unidades objetivo no pueden hacer lanzamientos</span>"
 	"dac_turbo_bucket_tip_Void"					"<span class='Void'>Inflige daño puro</span>"
 
+	"dac_turbo_bucket_tip_Fallen"				"<span class='Fallen'>Cura vida y puede revivir</span>"
+	"dac_turbo_bucket_tip_Wild"					"<span class='Wild'>Invoca criaturas</span>"
+	"dac_turbo_bucket_tip_Swordsman"			"<span class='Swordsman'>Mejora el daño cuando está rodeado</span>"
+	"dac_turbo_bucket_tip_Rogue"				"<span class='Rogue'>Mejora la evasión y el daño</span>"
+	"dac_turbo_bucket_tip_Poisoner"				"<span class='Poisoner'>Los ataques envenenan</span>"
+	"dac_turbo_bucket_tip_Magus"				"<span class='Magus'>Escapa de los ataques una vez por batalla</span>"
+
+
 	"dac_status_stunned"                        "Aturdido"
 	"dac_status_hexed"                          "Maldito"
 	"dac_status_muted"                          "Silenciado"
@@ -4945,9 +5176,12 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_DevRandomBot"			"[DEV] Mata a 1 bot"
 	"DAC_DevKillSelf"			"[DEV] Se suicida"
 
+	"DAC_Weekly_LastWeek"						"Edición previa"
+	"DAC_Weekly_NextWeek"						"Siguiente edición"
+
 	"DAC_Weekly_Headline"						"¡Titular gracioso!"
 	"DAC_Weekly_SubHeadline"					"Subtítulo breve que detalla el chiste del titular y hace que todos se rían"
-	"DAC_Weekly_NoActiveChallengeHeader"		"¡Vuelve la semana que viene!"
+	"DAC_Weekly_NoActiveChallengeHeader"		"¡Aquí no hay nada nuevo, pero vuelve y consigue esas recompensas que te has perdido!"
 	"DAC_Weekly_ChallengesComplete"				"Desafíos completados:{i:weeklyChallengesCompleted}/{i:weeklyChallengesRequired}"
 	"DAC_Weekly_Claim"							"Reclamar"
 	"DAC_Weekly_WeeklyChallenges"				"Desafíos semanales"
@@ -4964,7 +5198,24 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Weekly_Arcade"							"La sala recreativa de toda la vida"
 	"DAC_Weekly_NonogramTitle"					"Rompecabezas semanal"
 	"DAC_Weekly_NonogramDesc"					"En este rompecabezas tu objetivo es acertar si los cuadrados están vacíos o llenos. Junto a cada fila y columna de la cuadrícula se mencionan las longitudes de las series de cuadrados llenos. Esos números te indicarán las series de cuadrados llenos en esa fila y columna. De este modo, si ves «7 2», hay una serie de 7 cuadrados llenos, seguida por uno o más cuadrados vacíos y después 2 cuadrados llenos.\n\nRellena un cuadrado haciendo clic en él, márcalo como vacío haciendo clic sobre él de nuevo y despéjalo haciendo clic en él una tercera vez."
+	"DAC_Weekly_NonogramHint"					"Consejo: {s:nonogram_hint}"	
+	"DAC_Weekly_NonogramHeader_1"				"¿Qué quieres que diga en tu lápida?"
+	"DAC_Weekly_NonogramHeader_2"				"Una vez que estás enganchado..."
+	"DAC_Weekly_NonogramHeader_3"				"Picar como una abeja"
+	"DAC_Weekly_NonogramHeader_4"				"Panda basura"
+	"DAC_Weekly_NonogramHeader_5"				"Golpea primero, golpea fuerte"
+	"DAC_Weekly_NonogramHeader_6"				"Da el último golpe."
+	"DAC_Weekly_NonogramHeader_7"				"El papa de la pestilencia"
+	"DAC_Weekly_NonogramHeader_8"				"El diablo está en los detalles"
+	"DAC_Weekly_NonogramHeader_9"				"Yo soy el escuadrón de brutos."
+	"DAC_Weekly_NonogramHeader_10"				"Hójame en paz."
+	"DAC_Weekly_NonogramHeader_11"				"Tipo fogoso"
+	"DAC_Weekly_NonogramHeader_12"				"El hombre hacha"
+	"DAC_Weekly_NonogramHeader_13"				"La última valla de defensa"
+	"DAC_Weekly_NonogramHeader_14"				"La hermana más candente"
+
 	"DAC_Weekly_CourierStatsTitle"				"Resultados de la carrera del mensajero"
+	"DAC_Weekly_Expired"						"Caducado"
 
 	"DAC_Start_Courier_PlaceBet"				"¡Hagan sus apuestas!"
 	"DAC_Start_Courier_StartRace"				"¡Comienza la carrera!"
@@ -4983,8 +5234,8 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_CC_New_Item"							"¡Nuevo!"
 	"DAC_CC_Key_Tooltip"						"Usa una «Llave de la Ciudad» para omitir un desafío de «City Crawl» y avanzar en el mapa. Las llaves solo se pueden usar una vez, elije sabiamente."
 	"DAC_CC_Locked_Content_Title"				"Desafío bloqueado"
-	"DAC_CC_Locked_Content_Desc"				"Desbloquea el pase de batalla de la primera temporada para obtener acceso al «City Crawl» completo, así como a más de 100 recompensas prémium en la línea de las recompensas del pase de batalla."
-	"DAC_CC_TakeOverWhiteSpire"					"Toma el control de Agujablanca"
+	"DAC_CC_Locked_Content_Desc"				"Desbloquea el pase de batalla para obtener acceso al «City Crawl» completo, así como a más de 100 recompensas prémium en la línea de las recompensas del pase de batalla."
+	"DAC_CC_TakeOverWhiteSpire"					"Controla Agujablanca"
 	"DAC_CC_BeginPrestige"						"Reconquista la ciudad"
 	"DAC_CC_DistrictCompleted"					"Distrito completado"
 	"DAC_CC_Prestige_Title"						"Nivel de prestigio {d:prestige_level}"
@@ -5015,7 +5266,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_CC_Intro_StreetFight_Title"			"Lucha callejera"
 	"DAC_CC_Intro_StreetFight_Desc"				"Lucha cara a cara contra una banda enemiga en una rápida batalla para apoderarte de su territorio."
 	"DAC_CC_Intro_BattlePass_Title"				"Pase de batalla"
-	"DAC_CC_Intro_BattlePass_Desc"				"Los desafíos prémium pueden desbloquearse comprando el pase de batalla de la temporada 1."
+	"DAC_CC_Intro_BattlePass_Desc"				"Los desafíos prémium pueden desbloquearse comprando el pase de batalla."
 
 	"DAC_CC_ChallengeType_Intro"					"Introducción"
 	"DAC_CC_ChallengeType_Objective"				"Objetivo"
@@ -5388,7 +5639,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Challenge_Streetfight_peacekeepers-T3-Jull_Title"		"¿Quién golpea a los vigilantes?"
 	"DAC_Challenge_Streetfight_peacekeepers-T3-Jull_Bot"		"Guardia de la ciudad"
 	"DAC_Challenge_Streetfight_peacekeepers-T3-Jull_BotDesc"	"peacekeepers-T3-Jull Desc"
-	"DAC_Challenge_Streetfight_peacekeepers-T3-Jull_Lore"		"Los voluntarios que forman parte de la guardia de la ciudad en Agujablanca son distintos de la mayoría de los ciudadanos de la ciudad. Estos hombres y mujeres tienen un interés genuino en el orden y la legalidad... y no van a parar hasta que restablezcan ambos."
+	"DAC_Challenge_Streetfight_peacekeepers-T3-Jull_Lore"		"Los voluntarios que forman parte de la Guardia de la ciudad en Agujablanca son distintos de la mayoría de los ciudadanos de la ciudad. Estos hombres y mujeres tienen un interés genuino en el orden y la legalidad... y no van a parar hasta que restablezcan ambos."
 	"DAC_Challenge_Streetfight_peacekeepers-T3-Jull_Quote"		"No es posible sobornar a todas las patrullas de Agujablanca para que miren a otro lado… En estas desafortunadas situaciones, haré lo que sea necesario para asegurarme de que mi producto pueda moverse libremente por la ciudad. <i>&#8213;Jull, un tipo con don de gentes</i>"
 	"DAC_Challenge_Streetfight_peacekeepers-T3-Jull_Win"		"Las autoridades investigan a Jull, y no encuentran más que narices rotas"
 	"DAC_Challenge_Streetfight_peacekeepers-T3-Jull_Lose"		"Las autoridades de Agujablanca cancelaron la operación del pruno de Arrecife Oscuro"
@@ -5627,7 +5878,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Challenge_Streetfight_freed_summons_Title"		"Este hechizo no funciona"
 	"DAC_Challenge_Streetfight_freed_summons_Bot"		"Esclavos liberados"
 	"DAC_Challenge_Streetfight_freed_summons_BotDesc"	"freed_summons Desc"
-	"DAC_Challenge_Streetfight_freed_summons_Lore"		"Atraer a las criaturas es una excelente manera de engendrar lealtad hasta que el efecto desaparezca… quien sea que hayas encantado te querrá muerto."
+	"DAC_Challenge_Streetfight_freed_summons_Lore"		"Embelesar a las criaturas es una excelente manera de engendrar lealtad hasta que el efecto desaparezca… quien sea que hayas encantado te querrá muerto."
 	"DAC_Challenge_Streetfight_freed_summons_Quote"		"A mis esclavos les doy buena vida... pero si rechazas mi favor y te levantas contra mí, no me queda más remedio que sacrificarte. <i>&#8213;Anessix, justificando sus acciones</i>"
 	"DAC_Challenge_Streetfight_freed_summons_Win"		"Anessix aplaca una rebelión interna"
 	"DAC_Challenge_Streetfight_freed_summons_Lose"		"Anessix pierde el control de los secuaces y lo paga caro"
@@ -5779,9 +6030,9 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Challenge_AnessixWinWithHumans_quote"                               		"Los humanos de Agujablanca se han aprendido mi nombre y vienen a mi en busca de poder. Cada día que pasa aumenta el número de quienes me adoran y con él mi influencia. <i>&#8213;Anessix, que tiene todo lo que necesitas</i>"
 
 	
-	"DAC_Challenge_AnessixSummonEidolons_title"                           	   		"Madre de los Eidolones"
-	"DAC_Challenge_AnessixSummonEidolons_lore"                            	   		"Algunos se acobardan ante el poder de Los Fundamentales... pero Anessix busca caminar a su lado, hasta que pueda apuñalarlos por la espalda."
-	"DAC_Challenge_AnessixSummonEidolons_quote"                           	   		"Las fuerzas primordiales actúan como si fueran superiores, pero pueden controlarse tan fácilmente como cualquier criatura mortal... Todo lo que tienes que hacer es averiguar lo que quieren... Después de eso, manipularlos es alarmantemente sencillo. <i>&#8213;Anessix, no disimulando su desprecio</i>"
+	"DAC_Challenge_AnessixSummonEidolons_title"                           	   		"Brinda"
+	"DAC_Challenge_AnessixSummonEidolons_lore"                            	   		"Las apariencias son muy importantes para Anessix. De manera que, cuando parte de la aristocracia de Agujablanca la ridiculizaba por tener sangre demoniaca, ella elegía envenenarlos como una mujer de costumbres civilizadas, en lugar de descuartizarlos como si fuera el monstruo que ellos decían que ella era."
+	"DAC_Challenge_AnessixSummonEidolons_quote"                           	   		"Una tarea más que se interpone entre mí y controlar a Agujablanca. <i>&#8213;Anessix, dejando al descubierto su ambición</i>"
 
 		
 	"DAC_Challenge_AnessixBuyDemons_title"                         			"Invirtiendo en su futuro"
@@ -5819,7 +6070,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 
 	
 	// Enno S1 Objectives
-	"DAC_Challenge_EnnoWinWithHunters_Desc"			"Gana {s:threshold} rondas con una alianza de <span class='Hunter'>cazadores</span> activa"
+	"DAC_Challenge_EnnoWinWithHunters_Desc"			"Gana {s:threshold} rondas con una alianza de cazadores activa"
 	"DAC_Challenge_EnnoWinWithHunters_title"		"Merodeando por las calles"
 	"DAC_Challenge_EnnoWinWithHunters_lore"			"Enno no es de los que holgazanean: en su tiempo libre patrulla Los Laberintos en busca de visitantes no deseados."
 	"DAC_Challenge_EnnoWinWithHunters_quote"		"Enno, explicando lo que hará a los intrusos con extremo detalle."
@@ -5850,7 +6101,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Challenge_EnnoStunUnits_lore"				"Dejemos algo perfectamente claro: Enno es un bastardo correcto y quiere que el mundo lo sepa."
 	"DAC_Challenge_EnnoStunUnits_quote"				"Enno, buscando descomponer a sus rivales pieza por pieza."
 	
-	"DAC_Challenge_EnnoBruteDebuff_Desc"			"Aplica el efecto negativo de los <span class='Brute'>brutos</span> a {s:threshold} unidades"
+	"DAC_Challenge_EnnoBruteDebuff_Desc"			"Aplica el efecto negativo de los brutos a {s:threshold} unidades"
 	"DAC_Challenge_EnnoBruteDebuff_title"			"Muerdetobillos"
 	"DAC_Challenge_EnnoBruteDebuff_lore"			"Enno entiende que el miedo es lo que mantiene a la gente fuera de Los Laberintos, y por eso hace todo lo posible para cultivarlo."
 	"DAC_Challenge_EnnoBruteDebuff_quote"			"Enno, proclamando que nadie está a salvo en estas calles."
@@ -5860,10 +6111,10 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Challenge_EnnoTop4_lore"	"No es ningún secreto que, de los cuatro Underlords en alza, Enno es el menos favorito. No tiene proyectos empresariales. No cuenta con aliados demoníacos. Nunca fue la mano derecha de Mamá Eeb. Decir que Enno siente que tiene algo que demostrar es quedarse corto."
 	"DAC_Challenge_EnnoTop4_quote"  "Enno, comprometido con su amor por las cosas brillantes"
 	
-	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"Inflige {s:threshold} de daño con unidades de <span class='Ogre'>pacto de sangre</span>"
-	"DAC_Challenge_EnnoDealDamageBloodbound_title"	"Apoyando al pequeñín"
-	"DAC_Challenge_EnnoDealDamageBloodbound_lore"	"Enno siempre busca demostrarle a la gente que el tamaño es irrelevante."
-	"DAC_Challenge_EnnoDealDamageBloodbound_quote"	"Enno, proclamando que nada es más satisfactorio que matar a aquellos que lo subestiman."
+	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"Inflige {s:threshold} de daño con unidades de caídos"
+	"DAC_Challenge_EnnoDealDamageBloodbound_title"	"Mentalidad Incesante"
+	"DAC_Challenge_EnnoDealDamageBloodbound_lore"	"Enno siempre dice que le gusta rodearse de gente con actitud de «Mientras hay vida, hay esperanza»"
+	"DAC_Challenge_EnnoDealDamageBloodbound_quote"	"YipYip, la mano derecha de Enno tomándose las palabras de su amo literalmente."
 
 	"DAC_Challenge_EnnoSpendGoldLeveling_Desc"		"Gasta {s:threshold} de oro comprando EXP"
 	"DAC_Challenge_EnnoSpendGoldLeveling_title"	"Recuerda el nombre"
@@ -5875,8 +6126,8 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Challenge_EnnoBuy5CostUnits_lore" "Los retorcidos callejones de Los Laberintos permiten a las emprendedores amplias oportunidades para lanzar una emboscada."
 	"DAC_Challenge_EnnoBuy5CostUnits_quote" "Enno, planeando usar las calles a su favor."
 
-	"DAC_Challenge_EnnoWinWithInsect_Desc"			"Gana {s:threshold} rondas con una alianza de <span class='Insect'>insectos</span> activa"
-	"DAC_Challenge_EnnoWinWithInsect_title" "Pillados por sorpresa"
+	"DAC_Challenge_EnnoWinWithInsect_Desc"			"Gana {s:threshold} rondas con una alianza de espadachines activa"
+	"DAC_Challenge_EnnoWinWithInsect_title" "Saqueando las calles"
 	"DAC_Challenge_EnnoWinWithInsect_lore"	"Los retorcidos callejones de Los Laberintos ofrecen a los individuos emprendedores abundantes oportunidades para tender una emboscada."
 	"DAC_Challenge_EnnoWinWithInsect_quote" "Enno, planeando usar las calles a su favor."
 
@@ -6085,7 +6336,7 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Challenge_weekly_challenge_1_SubHeadline"					"Nabos y sangre vuelan en el mercadillo de Agujablanca"
 
 	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Title"		"Axe y Disruptor causan disturbios en el mercado"
-	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Lore"		"Agujablanca no es ajena a los bienes y servicios cuestionables, pero incluso para los estándares de nuestra ciudad, vender camisas de piel de Oglodi es particularmente macabro \n(continúa en la página 2\n)"
+	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Lore"		"Agujablanca no es ajena a los bienes y servicios cuestionables, pero incluso para los estándares de nuestra ciudad, vender camisas de piel de Oglodi es particularmente macabro. \n(Continúa en la página 2\n)"
 	"DAC_Challenge_Streetfight_weekly_street_fight_1_Title"			"Tradiciones de sastrería"
 	"DAC_Challenge_Streetfight_weekly_street_fight_1_Lore"			"Tras una desastrosa presentación en la feria, Carl, el sastre, ha decidido abandonar las tendencias de Quoidge en favor de prendas más tradicionales. Al ser preguntado acerca del cambio, Carl afirmó: «Solo soy un simple cadáver al que le gusta poner una sonrisa en la cara de la gente. Si eso significa contratar a alguien para que cace lobos en lugar de oglodis, estoy totalmente a favor». (Continúa en la pág. 6)."
 	"DAC_Challenge_Streetfight_weekly_street_fight_1_win"			"Carl decide confeccionar una chaqueta sin usar piel humana"
@@ -6100,212 +6351,232 @@ Cada uno de los objetos de Underlord salen de listas idénticas y no están dupl
 	"DAC_Challenge_weekly_challenge_2_Headline"						"UN DÍA AXE-ITANTE EN AGUJABLANCA"
 	"DAC_Challenge_weekly_challenge_2_SubHeadline"					"Las autoridades locales apuntan a un aumento de los asesinatos, por las vacaciones de Axe en Agujablanca"
 
-	"DAC_Challenge_Puzzle_brutal_book_signing_Title"		"La mala suerte persigue a «El Oglodi de la mala suerte» "
-	"DAC_Challenge_Puzzle_brutal_book_signing_Lore"		"La firma de la nueva novela de Goodkind, «El Ogloodi de la mala suerte», se convirtió en algo especialmente violento cuando alguien sugirió que Axe no era tan peligroso como se indicaba en el libro.  (Más detalles en la página 2)."
+	"DAC_Challenge_Puzzle_brutal_book_signing_Title"		"La mala suerte persigue al Oglodi de la mala suerte"
+	"DAC_Challenge_Puzzle_brutal_book_signing_Lore"		"La firma de la nueva novela de Goodkind, «El Ogloodi de la mala suerte», se convirtió en algo especialmente violento cuando alguien sugirió que Axe no era tan peligroso como se indicaba en el libro.  (Continúa en la página 2)."
+	"DAC_Puzzle_RuleDescription_brutal_book_signing"			"Solo Axe puede matar enemigos."
 
 	"DAC_Challenge_Streetfight_weekly_street_fight_2_Title"		"Cuando Axe bebe en la Luna Desgarrada, aflora la violencia"
-	"DAC_Challenge_Streetfight_weekly_street_fight_2_Lore"		"Las cuentas del bar y el número de muertos ascendieron anoche cuando la llegada de Axe a Agujablanca atrajo la atención de los aspirantes a tipo duro con algo que demostrar... y por desgracia para Jull, estos rufianes se fueron a encontrar en Luna Desgarrada. (Más en la página 6)."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Lore"		"Las cuentas del bar y el número de muertos ascendieron anoche cuando la llegada de Axe a Agujablanca atrajo la atención de los aspirantes a tipo duro con algo que demostrar... y por desgracia para Jull, estos rufianes se fueron a encontrar en Luna Desgarrada. (Continúa en la página 6)."	
 	"DAC_Challenge_Streetfight_weekly_street_fight_2_win"				"Jull entierra el hacha con Axe y reparte golpes por su cuenta"
 	"DAC_Challenge_Streetfight_weekly_street_fight_2_lose"				"Una pelea de bar en Luna Desgarrada destroza el local de Jull"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Bot"				"Gamberros"
 
-	"DAC_Challenge_Challenge_weekly_challenge_2_Title"		"Se busca: Gente para que Axe los asesine"
-	"DAC_Challenge_Challenge_weekly_challenge_2_Lore"		"Alguien estúpido le dijo a Axe que no era suficientemente bueno matando, sino que el bueno era Goodkind con sus florituras literarias.  Axe va a probar que ambas cosas son ciertas.  &#8209;Axe \n\nP.S.: Compra mi libro"
+	"DAC_Challenge_Challenge_weekly_challenge_2_Title"			"Se busca: Gente para que Axe y sus amigos la asesinen"
+	"DAC_Challenge_Challenge_weekly_challenge_2_Lore"			"Alguien estúpido le dijo a Axe que no era suficientemente bueno matando, sino que el bueno era Goodkind con sus florituras literarias.  Axe va a probar que ambas cosas son ciertas.  &#8209;Axe \n\nP.S.: Compra mi libro"
+	"DAC_Challenge_Challenge_weekly_challenge_2_Instructions"	"Gana 75 rondas con una alianza de brutos activa"
 	
 	// Weekly challenge	#3
-	"DAC_Challenge_weekly_challenge_3_Headline"						"¡Noche de chicas!"
+	"DAC_Challenge_weekly_challenge_3_Headline"						"La hembra de la especie"
 	"DAC_Challenge_weekly_challenge_3_SubHeadline"					"Las chicas de Agujablanca pintan la ciudad de rojo"
 
-	"DAC_Challenge_Puzzle_anessix_and_akasha_Title"					"Anessix y Akasha"
-	"DAC_Challenge_Puzzle_anessix_and_akasha_Lore"						"Llamar amistad a lo de Akasha y Anessix es ser demasiado caritativo... pero cuando estas dos demonios se unen por una causa común, son capaces de cosas extraordinarias."
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Title"					"Los aminemigos se unen por el mutuo desdén por la humanidad"
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Lore"					"Uno de los secretos peor guardados de las sociedades demoníacas es que Akasha y Anessix no se soportan. Sin embargo, parece que las dos diablesas han dejado sus murmuraciones en los salones de la Corte de Ristul para encontrar una causa común en Agujablanca.  (Continúa en la página 3)."
 
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_Title"		"No le pidas que sonría"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Title"		"Aumenta el número de víctimas después de que unos borrachos le pidan a Anessix que sonría más"
 	"DAC_Challenge_Streetfight_weekly_street_fight_3_Bot"		"Piropeadores"
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_Lore"		"Agujablanca no tiene escasez de hombres groseros, algo con lo que Anessix está dispuesta a lidiar."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Lore"		"Al caminar por las calles de Agujablanca, la mayoría de nosotros optamos por ignorar las groseras divagaciones de los turistas ebrios... pero Anessix no es como la mayoría de la gente. «Primero todos se estaban riendo de ella», dice Carl el sastre. «Entonces, de repente, va y le arranca la lengua a uno; y ahí fue cuando me dije: \"Carl, creo que esto no va a acabar muy bien para esos tíos\"». (Continúa en la página 2)."	
 	"DAC_Challenge_Streetfight_weekly_street_fight_3_win"				"Neandertales silban a Anessix y se arrepienten inmediatamente"
 	"DAC_Challenge_Streetfight_weekly_street_fight_3_lose"				"Anessix, expulsada, planea en silencio su venganza"
 
-	"DAC_Challenge_Challenge_weekly_challenge_3_Title"		"La hembra de la especie"
-	"DAC_Challenge_Challenge_weekly_challenge_3_Lore"		"Nunca subestimes a las chicas de Agujablanca"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Title"		"Se busca: Hombres puestos en su lugar"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Lore"		"Estoy harta de ver a los chicos en La Luna Desgarrada actuar como si fueran los únicos capaces de patear un trasero. Si algunas señoras quieren pasarse y poner a estos tipos en su lugar, estaré encantada de invitarlas a un trago. &#8209;Connie, encargada de La Luna Desgarrada"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Instructions"	"Gana 75 rondas con al menos una heroína en tu tablero"
+
+	// Weekly challenge	#5
+	"DAC_Challenge_weekly_challenge_5_Headline"						"Dinero sangriento extranjero"
+	"DAC_Challenge_weekly_challenge_5_SubHeadline"					"El reino mercantil de Revtel continúa financiando la guerra de bandas en Agujablanca"
+	"DAC_Puzzle_RuleDescription_Only1Allowed"						"Máximo de 1 copia por unidad"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Title"					"O'nia cierra el grifo y los Underlords deben hacer más con menos"
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Lore"						"Geeta Hojasalvaje tenía un dicho: «Las guerras terminan porque la gente se queda sin recursos, no sin ganas de luchar». Las sabias palabras del célebre Caballero de la Vigilia parecen pertinentes hoy que O'nia, la piedra angular del préstamo en Agujablanca, ha decidido no dejar más dinero hasta que se le paguen las deudas. (Continúa en la pág. 2)"
+
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Title"			"Meepo corre a esconderse cuando los Rompepiernas de Revtel vienen a cobrar"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Bot"			"Rompepiernas de Revtel"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Lore"			"Como sabe cualquiera que haya recibido una visita de los Garricórvidos, si alguien te prestan dinero, pasado un tiempo querrá que se lo devuelvas. Sin embargo, aunque normalmente estos asuntos se resuelven en el ámbito local, O'nia ha decidido manejar la situación recurriendo a profesionales externos. (Continúa en la pág. 6)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_win"			"Hobgen se defiende de la banda de mercenarios y piensa en pagar la deuda"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_lose"			"Revtel contrata rompepiernas para machacar a Hobgen"
+
+	"DAC_Challenge_Challenge_weekly_challenge_5_Title"				"SE BUSCA: Garganta sin rebanar"
+	"DAC_Challenge_Challenge_weekly_challenge_5_Lore"				"Hola, chicos y chicas, gracias por leer esto. No voy a andarme con rodeos: necesito dinero. Y lo necesito mucho. Pero mucho mucho. Mucho en plan «el Círculo de Jaspe me anda buscando». Así que si pudierais prestarle a vuestro viejo amigo Meepo 250 de oro, estoy seguro de que podría convertirlos en los 20 000 que necesito. Ya me toca ganar.  &#8213;Meepo 4"
+	"DAC_Challenge_Challenge_weekly_challenge_5_Instructions"		"Gana 250 de oro por intereses"
 
 	// Weekly challenge	#4
-	"DAC_Challenge_weekly_challenge_4_Headline"						"Dinero sangriento extranjero"
-	"DAC_Challenge_weekly_challenge_4_SubHeadline"					"El reino mercantil de Revtel continúa financiando la guerra de bandas en Agujablanca"
+	"DAC_Challenge_weekly_challenge_4_Headline"						"El paseo de los muertos en Agujablanca"
+	"DAC_Challenge_weekly_challenge_4_SubHeadline"					"Con Los Laberintos desbordados por los muertos vivientes, las víctimas previas de Enno buscan venganza"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_4_Title"					"Control de gastos"
-	"DAC_Challenge_Puzzle_weekly_puzzle_4_Lore"						"Si eres amigo de O'nia, ella puede ofrecerte un acceso fácil a las riquezas de Revtel. Sin embargo, si pierdes su apoyo, no te va a ser tan fácil conseguir dinero."
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Title"					"El Rey de Los Laberintos defiende la corona contra Lich"
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Lore"						"Durante varios días, Lich ha tratado de forzar a Los Laberintos para que entren en su dominio personal de horror, y lo único que le ha impedido apoderarse del distrito ha sido el malhechor más famoso de Agujablanca. (Continúa en la página 10)"
+	"DAC_Puzzle_RuleDescription_KillLich"							"Mata a Lich para ganar."
 
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Title"		"¡LEVÁNTATE DE TU TUMBA!"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Bot"		"Cadáveres alterados"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Lore"		"Cualquier ciudadano de Agujablanca sabe que las calles de Los Laberintos están llenas de los cuerpos de aquellos que se aventuraron por el callejón equivocado. Pero ahora, algo oscuro y siniestro ha llamado a los muertos a despertarse de su sueño. (Continúa en la página 2)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_win"				"Enno acaba con los zombis y devuelve Los Laberintos a su letalidad normal"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_lose"				"Turistas muertos se vengan de Enno"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_Title"		"Equipo de recaudación de Revtel"
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_Bot"		"Rompepiernas de Revtel"
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_Lore"		"Los bancos de Revtel hacen que pedir dinero prestado sea increíblemente fácil... y, si no lo devuelves, increíblemente peligroso."	
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_win"				"Hobgen se defiende de la banda de mercenarios y piensa en pagar la deuda"
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_lose"				"Revtel contrata a unos rompepiernas para machacar a Hobgen"
-
-	"DAC_Challenge_Challenge_weekly_challenge_4_Title"		"Deudas de Revtel"
-	"DAC_Challenge_Challenge_weekly_challenge_4_Lore"		"Hobgen se había apoyado fuertemente en O'nia para obtener fondos de Revtel para financiar su guerra de bandas... y ha llegado el momento de pagar lo que debe."
-	
-	// Weekly challenge	#5
-	"DAC_Challenge_weekly_challenge_5_Headline"						"El paseo de los muertos en Agujablanca"
-	"DAC_Challenge_weekly_challenge_5_SubHeadline"					"Con Los Laberintos desbordados por los muertos vivientes, las víctimas previas de Enno buscan venganza"
-
-	"DAC_Challenge_Puzzle_weekly_puzzle_5_Title"					"El Rey de Los Laberintos"
-	"DAC_Challenge_Puzzle_weekly_puzzle_5_Lore"						"Para Enno, es importante que la ciudad sepa que Los Laberintos son su dominio... y que nadie que llegue allí sin su permiso está a salvo, incluso si es una máquina zombi asesina."
-
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_Title"		"¡LEVÁNTATE DE TU TUMBA!"
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_Bot"		"Cadáveres alterados"
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_Lore"		"Las calles de Los Laberintos están llenas de los cuerpos de aquellos que se aventuraron por el callejón equivocado. Pero ahora, algo oscuro y siniestro ha llamado a los muertos a despertarse de su sueño."	
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_win"				"Enno acaba con los zombis y devuelve Los Laberintos a su letalidad normal"
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_lose"				"Turistas muertos se vengan de Enno"
-
-	"DAC_Challenge_Challenge_weekly_challenge_5_Title"		"Juego de intimidación"
-	"DAC_Challenge_Challenge_weekly_challenge_5_Lore"		"Algunos piensan que el brote de muertos vivientes ha debilitado la posición de Enno, y él tiene la intención de demostrar que están equivocados."
+	"DAC_Challenge_Challenge_weekly_challenge_4_Title"		"SE BUSCA: ORGULLO CÍVICO"
+	"DAC_Challenge_Challenge_weekly_challenge_4_Lore"		"Hay muchos bastardos crueles deambulando por esta ciudad, y es hora de hacer algo al respecto. ¡Tenayin está buscando personas que le acompañen para hacer de Agujablanca la ciudad que sabemos que puede ser! PAGADO POR AMIGOS DE TENAYIN"
+	"DAC_Challenge_Challenge_weekly_challenge_4_Instructions"	"Mata 300 despiadados"
 	
 	// Weekly challenge	#6
-	"DAC_Challenge_weekly_challenge_6_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_6_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_6_Headline"						"PAGA PORTUARIA"
+	"DAC_Challenge_weekly_challenge_6_SubHeadline"					"La Guardia de la ciudad ejerce presión sobre la operación de contrabando de Jull."
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_6_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_6_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Title"					"Chantaje en los muelles"
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Lore"						"A última hora de la noche, una incursión sorpresa en los muelles se volvió violenta cuando el Barón del alcohol residente de Agujablanca defendió sus mercancías. (Continúa en la página 3)."
+	"DAC_Puzzle_RuleDescription_PreserveJullMangoTree"							"Jull y el Árbol de Mango deben sobrevivir."
+	
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Title"		"Entre el caos, algunos claman orden"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Bot"		"Guardia de la ciudad"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Lore"		"La muerte de Mamá Eeb ha seguido afectando a la vida diaria de Agujablanca, pues una guerra abierta de pandillas se ha convertido en la norma. Sin embargo, algunos individuos de Agujablanca buscan frenar la lucha violenta por el poder que sufren las calles de nuestra ciudad. (Continúa en la página 5)."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_win"				"A la ineficaz Guardia de la ciudad sigue faltándole eficacia"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_lose"				"Los guardias de la ciudad terminan con la lucha de poder de los Underlords"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_lose"				"PH"
-
-	"DAC_Challenge_Challenge_weekly_challenge_6_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_6_Lore"		"PH"
-
-	// Weekly challenge	#7
-	"DAC_Challenge_weekly_challenge_7_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_7_SubHeadline"					"PH"
-
-	"DAC_Challenge_Puzzle_weekly_puzzle_7_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_7_Lore"						"PH"
-
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_lose"				"PH"
-
-	"DAC_Challenge_Challenge_weekly_challenge_7_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_7_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Title"		"Se busca: Miembros de la Guardia de la ciudad malpagados"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Lore"		"¿Estás cansado de patrullar las calles de Agujablanca por una paga miserable?  ¿Te interesa vivir la vida emocionante de un oficial cívico corrupto?  ¡Ven a La Luna Desgarrada y habla con Jull para una oferta de potenciales oportunidades de negocio!"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Instructions"	"Mata enemigos por valor de 5000 de oro"
 
 	// Weekly challenge	#8
-	"DAC_Challenge_weekly_challenge_8_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_8_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_8_Headline"						"¡El espectáculo más peligroso del mundo!"
+	"DAC_Challenge_weekly_challenge_8_SubHeadline"					"Grek reabre el Coliseo y exige la firma de un documento de renuncia a todos los asistentes"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_8_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_8_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Title"					"¡Domingo! ¡Domingo! ¡Domingo!"
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Lore"						"Grek ha prometido una batalla para la posteridad como evento principal en la reapertura de su Coliseo, y la ciudad de Agujablanca está ansiosa por ver qué competidores son lo suficientemente valientes para aceptar el desafío. (Continúa en la página 7)."
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Title"		"Diversión familiar en Agujablanca"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Bot"		"Luchador principal"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Lore"		"Si bien muchos cuestionaban en el pasado la ética de los deportes sangrientos de Grek, el incremento de la violencia callejera ha hecho que este autor se vuelva nostálgico de los buenos tiempos pasados en los que tenías que pagar dinero para ver a alguien ser apuñalado hasta la muerte. (Continúa en la página1)."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_win"				"¡El espectáculo de reapertura de Grek ha sido un éxito rotundo!"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_lose"				"¡Un favorito del público pierde en una derrota inesperada!"
 
-	"DAC_Challenge_Challenge_weekly_challenge_8_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_8_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Title"		"Se busca: Reclutador a tiempo parcial"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Lore"		"Puede que hayamos vuelto a abrir, pero hemos perdido un montón de buenos combatientes con el «incidente» de la semana pasada. ¡Si tienes una buena línea de aprovisionamiento de fundas carnosas, me gustaría hacer negocios contigo! —Grek, el propietario y corredor de apuestas de El Gran Coliseo"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Instructions"	"Contrata 100 unidades de categoría 1."
+
+	// Weekly challenge	#7
+	"DAC_Challenge_weekly_challenge_7_Headline"						"La secta de Dire se afianza en Agujablanca"
+	"DAC_Challenge_weekly_challenge_7_SubHeadline"					"Los devotos de una mujer llamada «Kanna» convergen en la ciudad de los placeres abyectos"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Title"					"La secta de Dire ha puesto los ojos en la propiedad de Anessix"
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Lore"						"La pasada noche, conversos religiosos irrumpieron en casa de Anessix con la intención de reclamar la propiedad en nombre de su nueva sacerdotisa, Kanna. Afortunadamente para Anessix, algunos amigos de dudosa reputación se encontraban tomando cócteles en su casa. (Continúa en la página 2)."
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Title"		"Los empleados se vuelven contra el jefe"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Bot"		"La cartelera de Grek"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Lore"		"La tragedia ha golpeado hoy el Coliseo de Grek cuando un luchador de los combates preliminares se ha vuelto loco y ha empezado a atacar a los aficionados de las gradas, lo que ha incitado a otros gladiadores a unirse a la acción. (Continúa en la página 3)."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_win"				"Alboroto en el Coliseo termina con vítores"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_lose"				"El caos de la arena se extiende a las calles de Agujablanca"
+
+	"DAC_Challenge_Challenge_weekly_challenge_7_Title"		"Se buscan: Cabezas en picas"
+	"DAC_Challenge_Challenge_weekly_challenge_7_Lore"		"Una vez más, los forasteros han venido a Los Laberintos... aunque en esta ocasión los intrusos no solo amenazan mis dominios, sino toda Agujablanca. Si no erradicamos ya a estos devotos de los Dire, no importará quién gobierne la ciudad... pues todos estaremos muertos. Por ahora, debemos unirnos y masacrarlos a todos. &#8213;Palabras de Enno según la transcripción de su senescal YipYip"
+	"DAC_Challenge_Challenge_weekly_challenge_7_Instructions"	"Aplica 1200 acumulaciones de veneno."
 
 
 	// Weekly challenge	#9
-	"DAC_Challenge_weekly_challenge_9_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_9_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_9_Headline"						"Grupo de espías se congrega en Agujablanca"
+	"DAC_Challenge_weekly_challenge_9_SubHeadline"					"Lorlin Lasan ha elegido Agujablanca para la reunión anual del Círculo de Jaspe"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_9_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_9_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Title"					"Asesinos a sueldo se toman un descanso en las reuniones para asesinar a gente como afición"
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Lore"						"¿Qué hacen los asesinos en su tiempo libre?  Aparentemente asesinan gente.  Se rumorea por toda Agujablanca que hay un juego mortal entre los asesinos a sueldo, en el que se les pone un precio a las víctimas más peligrosas y luego se las caza como si fuera un deporte. (Continúa en la página 8)."
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Title"		"El callejón de las Puñaladas se vuelve más punzante"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Bot"		"Los habituales del callejón de las Puñaladas"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Lore"		"Los residentes de Agujablanca desde hace mucho tiempo saben que deben mantenerse alejados del callejón de las Puñaladas los miércoles, pero desde la llegada del Círculo de Jaspe, nuestro punto de referencia de asesinato local se ha vuelto aún más peligroso. (Continúa en la página 2)."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_win"				"Jull convierte callejón de las Puñaladas a callejón de los Golpes Traumáticos"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_lose"				"Asesinos locales ganan atención de Lorlin Lasan: obtienen admisión en el Círculo de Jaspe"
 
-	"DAC_Challenge_Challenge_weekly_challenge_9_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_9_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Title"		"SE BUSCA: El Círculo de Jaspe busca reclutas"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Lore"		"¿Tienes talento para las sutilezas?  ¿Tienes una moral cuestionable?  El Círculo de Jaspe está siempre buscando ampliar su alcance.  Impresiónanos y te encontraremos. &#8209;Lorlin Lasan, el líder del Círculo de Jaspe"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Instructions"		"Mata 400 unidades con asesinos"
 
 	// Weekly challenge	#10
-	"DAC_Challenge_weekly_challenge_10_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_10_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_10_Headline"						"El negocio de los guardaespaldas se dispara en Agujablanca"
+	"DAC_Challenge_weekly_challenge_10_SubHeadline"					"Los mercenarios parecen responder bien a Betty o a la IA"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_10_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_10_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Title"					"La paranoia salva a la Señora de los secretos"
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Lore"						"Es difícil distinguir entre la paranoia y la practicidad.  Afortunadamente para Anessix, su inversión reciente en un guardaespaldas parece ser muy oportuna, pues Hobgen busca tomar represalias sobre las ofensas que ella realizó en el pasado. (Continúa en la página 2)."
+	"DAC_Puzzle_RuleDescription_PreserveAnessix"					"Anessix debe sobrevivir"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Title"		"Vuelan por Agujablanca los componentes de acero y de hechizos"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Bot"		"Magos con algo que ocultar"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Lore"		"Los rumores de una próxima investigación del Cónclave de Zafiro han llevado a muchos de nuestros lanzadores de hechizos residentes a Rosa Llorona, mientras que aquellos que optan por quedarse han decidido recurrir a mercenarios para protegerse. (Continúa en la página 6)."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_win"				"Zenok ofrece descuentos en libros de hechizos salpicados de sangre"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_lose"				"Los magos se centran en sus preparativos para el ataque al Cónclave de Zafiro"
 
-	"DAC_Challenge_Challenge_weekly_challenge_10_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_10_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Title"		"SE BUSCA: Contrabandistas"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Lore"		"La Luna Desgarrada busca aumentar su equipo de seguridad.  Los solicitantes ideales prosperan en situaciones de estrés elevado y no les importa lavar la sangre de sus ropas.  Si esta descripción coincide contigo, habla con Jull y él te organizará una prueba. &#8209;Connie, la responsable en el turno de día de Luna Desgarrada"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Instructions"		"Mata 400 unidades con brutos"
 
 
 	// Weekly challenge	#11
-	"DAC_Challenge_weekly_challenge_11_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_11_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_11_Headline"						"¡Represión mágica en Agujablanca!"
+	"DAC_Challenge_weekly_challenge_11_SubHeadline"					"Cacería en marcha en busca de Turath"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_11_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_11_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Title"					"La Guardiana de Icewrack ayuda a la investigación del Cónclave de Zafiro"
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Lore"						"Anti-Mage no es el único individuo que busca al loco mago Turath. Varias fuentes han informado que Rylai, la Guardiana de Icewrack, también está buscando capturar al mago. El tiempo nos dirá quién lo va a encontrar antes. (Continúa en la página 10)."
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Title"		"El Antimago acecha las calles de Agujablanca"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Bot"		"Agentes de la finca Tyler"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Lore"		"Un adversario especial para todos los magos: el Antimago vaga por las calles de Agujablanca, y no se detiene ante nada tratando de encontrar su presa."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_win"				"El temido cazador de magos se enfrenta a su antagonista"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_lose"				"El Antimago deja un rastro de carnicería a su paso"
 
-	"DAC_Challenge_Challenge_weekly_challenge_11_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_11_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Title"		"Se busca: Eliminación de plagas"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Lore"		"Lo último que necesita Agujablanca es al Cónclave de Zafiro entrometiéndose en nuestros negocios.  Expulsemos a estos magos de nuestra justa ciudad. &#8209;Isik, mano derecha de Hobgen, el señor de Nuevo Tenebroso, y heredero legítimo del trono de Mamá Eeb"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Instructions"	"Mata 400 magos"
 
 	// Weekly challenge	#12
-	"DAC_Challenge_weekly_challenge_12_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_12_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_12_Headline"						"En busca de un tratado verde"
+	"DAC_Challenge_weekly_challenge_12_SubHeadline"					"La expansión planificada de la ciudad enoja a los druidas"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_12_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_12_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Title"					"La tala de bosques"
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Lore"						"La expansión hacia el exterior se retrasó anoche cuando un grupo de druidas se negó a dejar que se despejara un bosque de mangos. (Continúa en la página 2)."
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Title"		"La marcha del progreso se vuelve violenta"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Bot"		"Oradores para los árboles"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Lore"		"No todos están satisfechos con la idea de que Agujablanca expanda sus fronteras. Como los planes para despejar el bosque cercano se han hecho públicos, los druidas locales han salido a las calles para mostrar violentamente su disgusto. (Continúa en la página 5)."
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_win"				"Druidas furiosos, expulsados de Agujablanca, juran defender los árboles de mango"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_lose"				"Los druidas se enfrentan a los Underlords, los precios del mango se disparan"
 
-	"DAC_Challenge_Challenge_weekly_challenge_12_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_12_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Title"		"Se buscan: Oradores para los árboles"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Lore"		"¡No se puede permitir la tala de bosques en torno a Agujablanca! ¡El Gremio de los Frondosos hace un llamamiento a todos los amantes de la naturaleza para oponerse a esta agresión arbórea! &#8209;Springfoot, Druida Mayor del Gremio de los Frondosos"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Instructions"		"Mata 400 unidades con chamanes"
 
 	// Weekly challenge	#13
-	"DAC_Challenge_weekly_challenge_13_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_13_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_13_Headline"						"Anessix organiza un baile demoníaco"
+	"DAC_Challenge_weekly_challenge_13_SubHeadline"					"Los personajes más importantes de la Corte de Ristul se reúnen para tomar copas y planear cómo corromper almas"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_13_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_13_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Title"					"Los demonios salen de caza para preparar la festividad Lúgubre"
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Lore"						"Mientras la Corte de Ristul se prepara para celebrar el Laberinto Angosto, los demonios de todo el mundo han tratado de reclamar las almas de aquellos que probarían proporcionar un deporte entretenido a aquellos que los cazarían en el inframundo. (Continúa en la página 2)."
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Title"		"Terrorblade destroza la gala de Anessix"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Bot"		"El demonio de Foulfell"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Lore"		"El caos reinó anoche mientras las imágenes fracturadas de Terrorblade acechaban las calles de Agujablanca, presumiblemente en busca de la sangre de los invitados a la cena de Anessix. (Continúa en la página 2)."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_win"				"Los héroes detienen al demonio, salvando así a otros demonios, dejando a todos en conflicto con el resultado"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_lose"				"Terrorblade se embarca en una masacre, matando a mortales y demonios por igual"
 
-	"DAC_Challenge_Challenge_weekly_challenge_13_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_13_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_13_Title"				"Se busca: Almas"
+	"DAC_Challenge_Challenge_weekly_challenge_13_Lore"				"¿Cuál es el valor de algo que no puedes ver, probar, tocar o usar? No dejes que la máquina de propaganda antidemonio te sesgue. La Corte de Ristul puede ayudar."
+	"DAC_Challenge_Challenge_weekly_challenge_13_Instructions"		"Elimina a 300 humanos"
 
 	// Weekly challenge	#14
-	"DAC_Challenge_weekly_challenge_14_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_14_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_14_Headline"					"Las viejas heridas nunca sanan"
+	"DAC_Challenge_weekly_challenge_14_SubHeadline"					"El descubrimiento de uno de los viejos diarios de Mamá Eeb ha llevado a Hobgen a saldar cuentas antiguas"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_14_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_14_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Title"					"Nuevo Tenebroso en llamas"
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Lore"					"La noche pasada, Hobgen arrasó con su furia el mercado de Nuevo Tenebroso, destruyendo la propiedad de cada mercader que hubiese desairado a Mamá Eeb lo más mínimo.  El hecho de que esas transgresiones parecieran ser de hace 30 años no le importó a Hobgen, ni el hecho de que en muchos casos los propietarios de los negocios hubiesen cambiado hace mucho tiempo. (Continúa en la página 2)."
+	"DAC_Puzzle_RuleDescription_KillBarricades"						"Elimina 8 carritos para ganar"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Title"		"Hobgen toma la metáfora literalmente"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Bot"			"Boxeo con dioses"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Lore"			"Aquellos entre nosotros que tienen un diario saben que puede ser catártico usar una hipérbole, lamentablemente para los ciudadanos de Agujablanca, parece que Hobgen no lo sabe.  Evidentemente Hobgen leyó una nota en el diario de Eeb en la que ella se sitió maldecida por los dioses por tener un mal día... naturalmente esto llevó a Hobgen a buscar a todas las entidades celestiales que pudiese encontrar y tratar de asesinarlas. (Continúa en la página 8)."
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_win"			"Hobgen mira fijamente a los dioses a los ojos, y estos parpadean primero"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_lose"			"Los brazos de Hobgen son demasiado cortos para pelear contra los dioses"
 
-	"DAC_Challenge_Challenge_weekly_challenge_14_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_14_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_14_Title"				"Se busca: Barbero para lidiar con cabos sueltos"
+	"DAC_Challenge_Challenge_weekly_challenge_14_Lore"				"¿Tienes una navaja de afeitar? ¿Te gusta deshacerte de las cosas que se enredan en el cabello de las personas? Si es así, habla con Isik, ellos tienen algo de trabajo para ti."
+	"DAC_Challenge_Challenge_weekly_challenge_14_Instructions"		"Inflige 300 golpes críticos"
 
 	// Weekly challenge courier race names
 	"DAC_Challenge_Courier_Race_0"							"Atado y abatido"

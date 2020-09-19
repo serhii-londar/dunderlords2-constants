@@ -8,7 +8,7 @@
 
 		// ANTIMAGE
 		"dac_ability_antimage_mana_break"										"Przerwanie many"
-		"dac_ability_antimage_mana_break_Description"							"PASYWNA: Antymag spala {s:mana_per_hit} pkt. many przeciwnika podczas każdego ataku, zadając celowi obrażenia w postaci 50% spalonej many. Spala {s:hype_per_hit} pkt. wrzawy, gdy trafia we Władcę Podziemia."
+		"dac_ability_antimage_mana_break_Description"							"PASYWNA: Antymag spala {s:mana_per_hit} pkt. many przeciwnika podczas każdego ataku, zadając celowi obrażenia w postaci 50% spalonej many."
 		"dac_ability_antimage_mana_break_Lore"									"Antymag przyszedł po mnie... a ja będę gotowy. – <i>Turath, zbieg z majątku Tylera</i>"
 
 		//QUEEN OF PAIN
@@ -23,7 +23,7 @@
 
 		//FURION
 		"dac_ability_natures_prophet_summon_tree"								"Zew natury"
-		"dac_ability_natures_prophet_summon_tree_Description"					"Prorok Natury przyzywa drzewca. Ten drzewiec jest traktowany jako druid. Przy 3 gwiazdkach drzewiec przyzywany jest po stronie planszy należącej do wroga."
+		"dac_ability_natures_prophet_summon_tree_Description"					"Prorok Natury przyzywa drzewca. Przy 3 gwiazdkach drzewiec przyzywany jest po stronie planszy należącej do wroga."
 		"dac_ability_natures_prophet_summon_tree_Lore"							"Enno wezwał swoich małych, leśnych kolegów... może to stanowić problem. – <i>O'nia, wygnana handlarka z Revtel</i>"
 
 		"dac_ability_natures_prophet_wrath_of_nature"							"Gniew natury"
@@ -32,12 +32,12 @@
 
 		//WINDRUNNER
 		"dac_ability_windrunner_powershot"										"Strzał mocy"
-		"dac_ability_windrunner_powershot_Description"							"Strzeliwiatr ładuje swój łuk przez maksymalnie {s:castPoint} s, by wystrzelić potężny pojedynczy strzał zadający maksymalnie {s:powershot_damage} pkt. obrażeń. Każdy wróg trafiony Strzałem mocy redukuje jego obrażenia o {s:damage_reduction}%."
+		"dac_ability_windrunner_powershot_Description"							"Strzeliwiatr ładuje swój łuk przez maksymalnie {s:castPoint} s, by wystrzelić potężny pojedynczy strzał zadający maksymalnie {s:powershot_damage} pkt. obrażeń. Każdy wróg trafiony Strzałem mocy redukuje jego obrażenia o {s:damage_reduction}%. Przy 3 gwiazdkach, kiedy Strzeliwiatr zaczyna ładować łuk, to zyskuje {s:evasion}% szansy na unik i staje się niewrażliwa na magię. Efekt trwa {s:evasion_duration} s."
 		"dac_ability_windrunner_powershot_Lore"									"Nawiązałam wiele przyjaźni podczas moich podróży i nie lękam się poprosić o przysługę. – <i>Wren, obieżyświatka</i>"
 
 		//WITCHDOCTOR
 		"dac_ability_witch_doctor_paralyzing_cask"								"Paraliżująca beczułka"
-		"dac_ability_witch_doctor_paralyzing_cask_Description"					"Znachor rzuca beczułką z paraliżującym proszkiem, która odbija się {s:bounces} razy pomiędzy wrogimi jednostkami, ogłuszając trafione cele i zadając im {s:damage} pkt. obrażeń."
+		"dac_ability_witch_doctor_paralyzing_cask_Description"					"Znachor rzuca beczułką z paraliżującym proszkiem, która odbija się {s:bounces} razy pomiędzy wrogimi jednostkami, ogłuszając trafione cele i zadając im {s:damage} pkt. obrażeń. Przy 3 gwiazdkach Znachor rzuca klątwę na jednostki trafione przez beczułkę na {s:health_interval} s, zadając im {s:damage_per_sec} pkt. obrażeń na sekundę. Pod koniec jednostka otrzymuje dodatkowe {s:damage_pct}% wszystkich obrażeń otrzymanych podczas trwania klątwy."
 		"dac_ability_witch_doctor_paralyzing_cask_Lore"							"Uwielbiam oglądać, jak pracujesz, Znachorku... – <i>Hobgen, wróżkowy urwis</i>"
 
 		//JUGGERNAUT
@@ -130,6 +130,13 @@
 		"dac_ability_lich_chain_frost_Description"								"Licz wyzwala kulę mrozu, która odbija się od pobliskich wrogich jednostek maksymalnie {s:jumps} razy, spowalniając ich szybkość ataku i ruchu o {s:slow_value}% na {s:slow_duration} s oraz zadając im {s:damage} pkt. obrażeń za każdym razem, gdy uderza."
 		"dac_ability_lich_chain_frost_Lore"										"Możemy sobie pomóc, Liczu. – <I>Turath zawiera faustyczny pakt</i>"
 
+		"dac_ability_lich_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_lich_3star_Description"									"Licz zyskuje Seryjne zmrożenie. Licz wyzwala kulę mrozu, która odbija się od pobliskich wrogich jednostek maksymalnie {s:jumps} razy, spowalniając ich szybkość ataku i ruchu o {s:slow_value}% na {s:slow_duration} s oraz zadając im {s:damage} pkt. obrażeń za każdym razem, gdy uderza."
+
+		"dac_ability_lich_frost_shield"											"Tarcza mrozu"
+		"dac_ability_lich_frost_shield_Description"								"Licz nakłada lodową tarczę na losowego sojusznika, redukując obrażenia od ataków o {s:damage_resist_pct}%. Gdy tarcza jest aktywna, pobliskie wrogie jednostki w zasięgu {s:radius} pola otrzymują {s:damage_per_second} pkt. obrażeń na sekundę i tracą {s:move_slow_pct}% szybkości ruchu oraz {s:attack_slow} jedn. szybkości ataku. Tarcza trwa {s:duration} s."
+		"dac_ability_lich_frost_shield_Lore"									"Możemy sobie pomóc, Liczu. – <I>Turath zawiera faustyczny pakt</i>"
+
 		//TIDEHUNTER
 		"dac_ability_tidehunter_ravage"											"Spustoszenie"
 		"dac_ability_tidehunter_ravage_Description"								"Łowca Pływów uderza w ziemię, powodując pojawienie się we wszystkich kierunkach macek, które zadają {s:damage} pkt. obrażeń i ogłuszają wszystkie wrogie jednostki w obrębie {s:cells} pól na {s:duration} s."
@@ -146,7 +153,7 @@
 
 		//ENIGMA
 		"dac_ability_enigma_midnight_pulse"										"Puls ciemności"
-		"dac_ability_enigma_midnight_pulse_Description"							"Enigma spowija obszar mrocznym rezonansem pod wrogiem z największym maksymalnym zdrowiem, zadając przez {s:duration} s obrażenia równe {s:damage_percent}% maksymalnego zdrowia wroga wszystkim wrogim jednostkom w obrębie {s:radius} pola od celu i spowalniając ich o {s:slow_percent}%."
+		"dac_ability_enigma_midnight_pulse_Description"							"Enigma spowija obszar mrocznym rezonansem pod wrogiem z największym maksymalnym zdrowiem, zadając przez {s:duration} s obrażenia równe {s:damage_percent}% maksymalnego zdrowia wroga wszystkim wrogim jednostkom w obrębie {s:radius} pól od celu i spowalniając ich o {s:slow_percent}%."
 		"dac_ability_enigma_midnight_pulse_Lore"								"Istnieją na tym świecie rzeczy, na które nie mamy wpływu. – <i>Turath, szalony mag</i>"
 
 		//TINKER
@@ -193,7 +200,7 @@
 		"dac_ability_templar_assassin_refraction_Lore"							"Wyrównamy nasze rachunki, jeśli mi pomożesz. – <i>Wren próbuje uzyskać pomoc</i>"
 
 		"dac_ability_templar_assassin_meld"										"Wtopienie"
-		"dac_ability_templar_assassin_meld_Description"							"PASYWNA: po teleportowaniu się do swojego celu Świątynna Zabójczyni zadaje przy pierwszym ataku dodatkowe {s:damage} pkt. obrażeń i obniża pancerz atakowanej jednostki o {s:armor_debuff} pkt. na {s:armor_debuff_duration} s."
+		"dac_ability_templar_assassin_meld_Description"							"PASYWNA: po teleportacji do swojego celu Świątynna Zabójczyni zadaje przy pierwszym ataku dodatkowe {s:damage} pkt. obrażeń i obniża pancerz atakowanej jednostki o {s:armor_debuff} pkt. na {s:armor_debuff_duration} s."
 		"dac_ability_templar_assassin_meld_Lore"								"Twoje talenty idealnie odpowiadają temu, co mam na myśli. – <i>Anessix składa ofertę pracy</i>"
 		
 		//VIPER
@@ -216,7 +223,7 @@
 
 		//DRAGON KNIGHT
 		"dac_ability_dragon_knight_breathe_fire"								"Zionięcie ogniem"
-		"dac_ability_dragon_knight_breathe_fire_Description"					"Wyzwala przed Smoczym Rycerzem ognisty oddech, który spala wrogów, zadając im {s:damage} pkt. obrażeń i redukując zadawane przez nich obrażenia od ataku o {s:attack_reduction}% na {s:duration} s."
+		"dac_ability_dragon_knight_breathe_fire_Description"					"Wyzwala przed Smoczym Rycerzem ognisty oddech, który spala wrogów, zadając im {s:damage} pkt. obrażeń i redukując zadawane przez nich obrażenia od ataku o {s:attack_reduction}% na {s:duration} s oraz podpalając ich."
 		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davionie, marnujesz swoje zdolności na kimś, kto nie docenia piękna twoich czynów. – <i>Hobgen bawi się w łowcę talentów</i>"
 
 		"dac_ability_dragon_knight_elder_dragon_form"							"Postać pradawnego smoka"
@@ -281,7 +288,7 @@
 
 		//TREANT PROTECTOR
 		"dac_ability_treant_leech_seed"											"Pasożytnicze nasiono"
-		"dac_ability_treant_leech_seed_Description"								"Drzewiec Obrońca zasadza we wrogiej jednostce nasiono, które wysysa {s:leech_damage} pkt. zdrowia co {s:damage_interval} s, równocześnie spowalniając jej szybkość ruchu i ataku o {s:movement_slow}%.<br><br>Nasiono leczy sojusznicze jednostki znajdujące się w obrębie {s:radius} pola od celu. Trwa {s:duration} s. Jeśli obecny cel umrze, nasiono przeskakuje do nowego celu znajdującego się w obrębie {s:radius} pola."
+		"dac_ability_treant_leech_seed_Description"								"Drzewiec Obrońca zasadza we wrogiej jednostce nasiono, które wysysa {s:leech_damage} pkt. zdrowia co {s:damage_interval} s, równocześnie spowalniając jej szybkość ruchu i ataku o {s:movement_slow}%.<br><br>Nasiono leczy sojuszników znajdujących się w obrębie {s:radius} pola dookoła celu, a przy 3 gwiazdkach zapewnia +{s:bonus_armor} pkt. pancerza. Trwa {s:duration} s. Jeśli cel umrze, nasiono przeskakuje do nowego celu w obrębie {s:radius} pola."
 		"dac_ability_treant_leech_seed_Lore"									"Nie ukrywam, trochę mnie to zdziwiło, że Enno otrzymał pomoc od drzewa. – <i>Jull i Anessix rozmawiają nad szklanką</i>"
 
 		//KEEPER OF THE LIGHT
@@ -295,7 +302,7 @@
 		"dac_ability_medusa_stone_gaze_Lore"									"Jest w moim typie, ale moje serce należy już do Mireski. – <i>Hobgen, zakochany kryminalista</i>"
 
 		"dac_ability_medusa_split_shot"											"Rozdzielane strzały"
-		"dac_ability_medusa_split_shot_Description"								"PASYWNA: z pomocą magii Meduza wystrzeliwuje dodatkowe strzały w liczbie {s:extra_shots}, trafiając w dodatkowe cele w obrębie {s:range} pola od jej głównego celu. Dodatkowe strzały zadają {s:damage_modifier}% obrażeń zadawanych przez główną strzałę."
+		"dac_ability_medusa_split_shot_Description"								"PASYWNA: z pomocą magii Meduza wystrzeliwuje dodatkowe strzały w liczbie {s:extra_shots}, trafiając w dodatkowe cele w obrębie {s:range} pola od głównego celu. Dodatkowe strzały zadają o {s:damage_modifier}% mniej obrażeń."
 		"dac_ability_medusa_split_shot_Lore"									"Widziałeś, jak ta panienka strzela z łuku? W sumie skoro oddychasz, to pewnie nie... – <i>Grek zagaduje nowego rekruta</i>"
 
 		// TROLL WARLORD
@@ -306,7 +313,7 @@
 
 		// SHADOW_DEMON
 		"dac_ability_shadow_demon_demonic_purge"								"Demoniczne oczyszczenie"
-		"dac_ability_shadow_demon_demonic_purge_Description"					"Raz za razem oczyszcza obraną za cel wrogą jednostkę, usuwając nałożone na nią pozytywne efekty, nakładając efekt złamania i spowalniając cel na {s:duration} s. Jednostka powoli odzyskuje swoją szybkość ruchu/ataku do końca czasu trwania umiejętności, po czym otrzymuje ona {s:damage} pkt. obrażeń."
+		"dac_ability_shadow_demon_demonic_purge_Description"					"Raz za razem oczyszcza obraną za cel wrogą jednostkę, usuwając nałożone na nią pozytywne efekty, nakładając złamanie i spowalniając cel na {s:duration} s. Jednostka powoli odzyskuje swoją szybkość ruchu/ataku do końca czasu trwania umiejętności, po czym otrzymuje ona {s:damage} pkt. obrażeń. Przy 3 gwiazdkach jednostka traci na początku {s:health_pct}% swojego obecnego zdrowia, a następnie zyskuje połowę tej wartości z powrotem po tym, jak oczyszczenie się zakończy i jednostka przeżyje."
 		"dac_ability_shadow_demon_demonic_purge_Lore"							"Posłuchaj mnie, ty kudłaty bydlaku! Wiem, że wydaje ci się, że możesz współpracować z Anessix, ale czy widziałeś osoby, z jakimi ona baluje? – <i>Hobgen, żaden fan demonów (ani Enno)</i>"
 
 		// SVEN
@@ -366,7 +373,7 @@
 		
 		//BLOODSEEKER
 		"dac_ability_bloodseeker_blood_rage"									"Krwawy szał"
-		"dac_ability_bloodseeker_blood_rage_Description"						"PASYWNA: W miarę, jak zdrowie wroga Krwiożercy spada, zyskuje on szybkość ataku, osiągając maksymalną premię równą {s:attack_speed_bonus_max} jednostek przy {s:min_health_pct}% zdrowia.<br><br>Gdy Krwiożerca zabije cel, przywraca sobie {s:heal_pct}% maksymalnego zdrowia celu."
+		"dac_ability_bloodseeker_blood_rage_Description"						"PASYWNA: W miarę, jak zdrowie wroga Krwiożercy spada, zyskuje on szybkość ataku, osiągając maksymalną premię równą {s:attack_speed_bonus_max} jednostek przy {s:min_health_pct}% zdrowia.<br><br>Gdy Krwiożerca zabije cel, przywraca sobie {s:heal_pct}% maksymalnego zdrowia celu. Przy 3 gwiazdkach ma to miejsce, gdy wróg umrze w obrębie {s:radius} pola od Krwiożercy."
 		"dac_ability_bloodseeker_blood_rage_Lore"								"Jeśli nauczyłem się czegoś dzięki mojej profesji, to tego, że gawiedź kocha krew. Zwerbujcie tego typa. – <i>Grek, osoba decyzyjna</i>"
 		
 		//ARC WARDEN
@@ -376,7 +383,7 @@
 		
 		//ARC WARDEN
 		"dac_ability_arc_warden_tempest_double_no_items"						"Podwojona nawałnica"
-		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Łukowy Strażnik tworzy kopię samego siebie z obecnie posiadanym przez niego zdrowiem. Klony zadają o {s:clone_dmg_reduction}% mniej obrażeń."
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Łukowy Strażnik tworzy kopię samego siebie z obecnie posiadanym przez niego zdrowiem. Klony zadają o {s:clone_dmg_reduction}% mniej obrażeń i zyskują o {s:clone_mana_pct_loss_per}% mniej many za każdego klona (efekt nakłada się multiplikatywnie). Przy 3 gwiazdkach klon kopiuje również przedmioty Łukowego Strażnika."
 		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"Niesie ze sobą tajemnice stworzenia. – <i>Turath, tajemniczy prorok</i>"
 
 		//MIRANA
@@ -395,7 +402,7 @@
 
 		//BLACK DRAGON
 		"dac_ability_black_dragon_splash_attack"								"Atak rozpryskowy"
-		"dac_ability_black_dragon_splash_attack_description"					"PASYWNA: dystansowy atak czarnego smoka zadaje obrażenia rozpryskowe jednostkom w obrębie 1 pola od celu smoka."
+		"dac_ability_black_dragon_splash_attack_description"					"PASYWNA: dystansowy atak czarnego smoka zadaje {s:splash_damage_percent}% obrażeń rozpryskowych jednostkom w obrębie {s:splash_radius} pola od celu smoka."
 		"dac_ability_black_dragon_splash_attack_lore"							" "
 
 		//"SVEN GREAT CLEAVE - used for YEAR BEAST and ROSHAN"
@@ -431,7 +438,8 @@
 		// BARRICADE PLACEABLE
 		"dac_ability_barricade_aura"										"Barykada"
 		"dac_ability_barricade_aura_description"							"Barykada ochrania pobliskie jednostki i jest niewrażliwa na czary."
-		"dac_ability_barricade_aura_lore"									""
+		"dac_ability_barricade_aura_rot1"										"Barykada"
+		"dac_ability_barricade_aura_rot1_description"							"Barykada ochrania pobliskie jednostki i jest niewrażliwa na czary."
 
 		// TARGET DUMMY PLACEABLE
 		"dac_ability_target_dummy_taunt"										"Prowokacja"
@@ -454,7 +462,7 @@
 
 		// LEGION COMMANDER
 		"dac_ability_legion_commander_duel"											"Pojedynek"
-		"dac_ability_legion_commander_duel_description"								"Dowódczyni Legionu obiera za cel wroga o najniższym zdrowiu znajdującego się w obrębie 1 pola, po czym oboje są zmuszeni do atakowania siebie nawzajem przez {s:stun_duration} s. Żaden z bohaterów nie może używać umiejętności ani zostać uleczony. Jeżeli jeden z bohaterów zginie w czasie trwania umiejętności, to zwycięski bohater zyskuje trwałą premię {s:winner_bonus_damage} pkt. obrażeń ([20/32/48] pkt. obrażeń w trybie nokautu)."
+		"dac_ability_legion_commander_duel_description"								"Dowódczyni Legionu obiera za cel wroga o najniższym zdrowiu znajdującego się w obrębie 1 pola, po czym oboje są zmuszeni do atakowania siebie nawzajem przez {s:stun_duration} s. Żaden z bohaterów nie może używać umiejętności ani zostać uleczony. Jeżeli jeden z bohaterów zginie w czasie trwania umiejętności, to zwycięski bohater zyskuje trwałą premię {s:winner_bonus_damage_kill_mult} pkt. obrażeń (premia różni się w zależności od trybu gry)."
 		"dac_ability_legion_commander_duel_lore"									"Nie musisz się tak spinać, Tresdin... mogę ci pomóc znaleźć Rixa. – <i>Anessix, zachowuje spokój pod presją</i>"
 
 		"dac_ability_legion_commander_will_of_the_bullsnake"						"Wola bykowęża"
@@ -471,7 +479,7 @@
 		"dac_ability_nyx_assassin_spiked_carapace_lore"								"Poprawny termin to „stawonóg”. – <i>Quiet, dbająca o szczegóły</i>"
 
 		"dac_ability_nyx_assassin_vendetta"											"Wendeta"
-		"dac_ability_nyx_assassin_vendetta_description"								"PASYWNA: Po teleportacji w celu zaatakowania jednostki Zabójca Nyx zadaje dodatkowe {s:bonus_damage} pkt. obrażeń przy następnym ataku i nakłada efekt złamania na wroga na {s:break_duration} s, wyłączając wszystkie umiejętności pasywne."
+		"dac_ability_nyx_assassin_vendetta_description"								"PASYWNA: po teleportacji w celu zaatakowania jednostki Zabójca Nyx zadaje dodatkowe {s:bonus_damage} pkt. obrażeń przy następnym ataku i nakłada efekt złamania na wroga na {s:break_duration} s, wyłączając wszystkie umiejętności pasywne. Przy 3 gwiazdkach Zabójca Nyx również nakłada Wendetę po {s:hits_to_trigger} udanych atakach. Licznik jest resetowany, gdy Wendeta aktywuje się poprzez teleportację."
 		"dac_ability_nyx_assassin_vendetta_lore"									"Insekt. Stawonóg. Kogo to obchodzi. Rzecz w tym, że ma kogoś dla mnie zabić... No to możesz się z nim skontaktować czy nie? – <i>O'nia, nie lubi być poprawiana</i>"
 
 		// WEAVER
@@ -494,7 +502,7 @@
 		"dac_ability_wisp_tether_lore"												"<i>Enno w skupieniu gapi się na Io</i>"
 
 		"dac_ability_wisp_relocate"													"Relokacja"
-		"dac_ability_wisp_relocate_description"										"Io teleportuje się poza planszę na {s:relocate_time_away} s, by wskrzesić martwego bohatera. Obydwie jednostki wracają oczyszczone z negatywnych efektów i pełnią zdrowia. Przy 3 gwiazdkach Io resetuje również czasy oczekiwania martwego bohatera."
+		"dac_ability_wisp_relocate_description"										"Io teleportuje się poza planszę na {s:relocate_time_away} s, by wskrzesić martwego bohatera. Obydwie jednostki wracają oczyszczone z negatywnych efektów i pełnią zdrowia. Przy 3 gwiazdkach Io resetuje również czasy oczekiwania tego bohatera."
 		"dac_ability_wisp_relocate_lore"											"<i>Io gapi się z powrotem</i>"
 
 		// BRISTLEBACK	
@@ -518,7 +526,7 @@
 		"dac_ability_storm_spirit_ball_lightning_lore"								"Egotysta kieruje się sercem, nie głową. Będzie go najłatwiej pojmać. – <i>Turath knuje spisek</i>"
 
 		"dac_ability_storm_spirit_element"											"Żywiołak burzy"
-		"dac_ability_storm_spirit_element_description"								"PASYWNA: kiedy Duch Burzy wykonuje Uderzenie delty, rozbraja trafione wrogie jednostki na 3 s."
+		"dac_ability_storm_spirit_element_description"								"PASYWNA: kiedy Duch Burzy wykonuje Uderzenie delty, rozbraja trafione wrogie jednostki."
 		"dac_ability_storm_spirit_element_lore"										"Nie musimy się przejmować Quiet, nie będzie chciała się znaleźć w pobliżu burzy. – <i>Anessix bierze wszystko pod uwagę</i>"
 
 		// EMBER SPIRIT
@@ -527,16 +535,16 @@
 		"dac_ability_ember_spirit_sleight_of_fist_lore"								"Może i walczy jak demon, ale jest honorowy. Jego słowo w zupełności mi wystarcza. – <i>Jull, wyznawca kodeksu honorowego złodziei</i>"
 
 		"dac_ability_ember_spirit_element"											"Żywiołak ognia"
-		"dac_ability_ember_spirit_element_description"								"PASYWNA: kiedy Duch Żaru wykonuje Uderzenie delty, podpala trafione wrogie jednostki na 3 s."
+		"dac_ability_ember_spirit_element_description"								"PASYWNA: kiedy Duch Żaru wykonuje Uderzenie delty, podpala trafione wrogie jednostki."
 		"dac_ability_ember_spirit_element_lore"										"Chcę mieć tego gościa na moich usługach. – <i>Hobgen, swój rozpoznający swego</i>"
 
 		// EARTH SPIRIT
 		"dac_ability_earth_spirit_geomagnetic_grip"									"Chwyt geomagnetyczny"
-		"dac_ability_earth_spirit_geomagnetic_grip_description"						"Duch Ziemi przyzywa Okruch kamienia spoza mapy i przyciąga go w stronę jego obecnego celu. Wrogowie trafieni nadchodzącym Okruchem kamienia zostają uciszeni na {s:silence_duration} s i otrzymują {s:damage} pkt. obrażeń."
+		"dac_ability_earth_spirit_geomagnetic_grip_description"						"Duch Ziemi przyzywa Kamienną cząstkę spoza mapy i przyciąga ją w stronę jego obecnego celu. Wrogowie trafieni nadchodzącą Kamienną cząstką zostają uciszeni na {s:silence_duration} s i otrzymują {s:damage} pkt. obrażeń. Przy 3 gwiazdkach wrogowie zostają także ogłuszeni na {s:stun_duration} s."
 		"dac_ability_earth_spirit_geomagnetic_grip_lore"							"Lubię, gdy Kaolin przybywa do miasta. Wygrzebuje z ziemi najciekawsze rzeczy. – <i>Carl szuka zapasów</i>"
 
 		"dac_ability_earth_spirit_element"											"Żywiołak ziemi"
-		"dac_ability_earth_spirit_element_description"								"PASYWNA: kiedy Duch Ziemi wykonuje Uderzenie delty, ucisza trafione wrogie jednostki na 3 s."
+		"dac_ability_earth_spirit_element_description"								"PASYWNA: kiedy Duch Ziemi wykonuje Uderzenie delty, ucisza trafione wrogie jednostki."
 		"dac_ability_earth_spirit_element_lore"										"Czego bym nie dał, by zobaczyć walkę Wukonga z tym gościem na ringu... – <i>Grek, bukmacher ligi marzeń</i>"
 
 		// VOID SPIRIT
@@ -545,16 +553,16 @@
 		"dac_ability_void_spirit_dissimilate_lore"									"Nie wychodzi się z ukrycia bez dobrego powodu. Dowiedz się, dlaczego tutaj jest. – <i>Anessix szuka sekretów</i>"
 
 		"dac_ability_void_spirit_element"											"Żywiołak pustki"
-		"dac_ability_void_spirit_element_description"								"PASYWNA: kiedy Duch Pustki wykonuje Uderzenie delty, nakłada efekt złamania na trafione wrogie jednostki na 3 s."
+		"dac_ability_void_spirit_element_description"								"PASYWNA: kiedy Duch Pustki wykonuje Uderzenie delty, nakłada złamanie na trafione wrogie jednostki."
 		"dac_ability_void_spirit_element_lore"										"Slark, bądź ostrożny w obecności tego jegomościa.  - <i>Jull daje przyjacielską radę</i>"
 
 		// GRANNY LIZARD
 		"dac_ability_granny_lizard_shotgun_blast"									"Stara pukawka"
-		"dac_ability_granny_lizard_shotgun_blast_description"						"Po wykonaniu 4 podstawowych ataków Spłonka przygotowuje swoją strzelbę, strzelając w pobliskiego wroga, zadając {s:blast_damage} pkt. obrażeń w stożku i spowalniając ataki jednostek pod wpływem tego efektu o {s:blast_bonus_attack_speed}%."
+		"dac_ability_granny_lizard_shotgun_blast_description"						"Po wykonaniu 4 podstawowych ataków Spłonka przygotowuje swoją strzelbę, strzelając w pobliskiego wroga, zadając {s:blast_damage} pkt. obrażeń w stożku i spowalniając ataki jednostek pod wpływem tego efektu o {s:blast_bonus_attack_speed}%. Efekt trwa {s:debuff_duration} s. Przy 3 gwiazdkach jednostki pod wpływem tego efektu tracą również {s:blast_armor_loss} pkt. pancerza."
 		"dac_ability_granny_lizard_shotgun_blast_lore"								"Bystrzy zawsze mieli smykałkę do wojny, a wojna to mój towar eksportowy. Być może będzie z tego jakiś interes. – <i>Quiet, anioł biznesu</i>"
 
 		"dac_ability_granny_lizard_bazooka"											"Całuski Mortimera"
-		"dac_ability_granny_lizard_bazooka_description"								"<i>ODBLOKOWANE PRZEZ SOJUSZ SMOKÓW</i>: Mortimer pluje {s:projectile_count} kulami we wrogów w obrębie {s:cast_range} pól. Każda kula zadaje {s:damage} pkt. obrażeń wszystkim wrogom w obrębie {s:impact_radius} pola od miejsca trafienia i podpala ich na {s:burn_duration} s."
+		"dac_ability_granny_lizard_bazooka_description"								"<i>ODBLOKOWANE PRZEZ SOJUSZ SMOKÓW</i>: Mortimer pluje {s:projectile_count} kulami we wrogów. Każda kula zadaje {s:damage} pkt. obrażeń wszystkim wrogom w obrębie {s:impact_radius} pola od miejsca trafienia i podpala ich na {s:burn_duration} s. Tracą oni również {s:attack_slow} jedn. szybkości ataku na {s:attack_slow_duration} s."
 		"dac_ability_granny_lizard_bazooka_lore"									"Co, chcesz powiedzieć tej pani, że ten stwór nie jest smokiem? – <i>Grek, nie niepokoi go autentyczność</i>"
 
 		// MANGO TREE
@@ -596,7 +604,7 @@
 		"dac_ability_anessix_enthrall_description_lore"								"Od teraz należysz do mnie. – <i>Anessix bierze udział we wrogim przejęciu</i>"
 
 		"dac_ability_demon_warrior_bash"											"Stłuczenie wojownika"
-		"dac_ability_demon_warrior_bash_description"								"Kompan Anessix posiada {s:bash_chance}% szansy na ogłuszenie swojego celu na {s:bash_duration} s i zadanie mu dodatkowo {s:bonus_chance_damage} pkt. obrażeń."
+		"dac_ability_demon_warrior_bash_description"								"Osiłek ma {s:bash_chance}% szansy na ogłuszenie swojego celu na {s:bash_duration} s i zadanie mu dodatkowo {s:bonus_chance_damage} pkt. obrażeń."
 		"dac_ability_demon_warrior_bash_lore"										"Jeśli chcesz zobaczyć się z Anessix, musisz rozprawić się ze mną... – <i>Osiłek, demoniczny niewolnik</i>"
 
 		"dac_ability_hobgen_passive"												"Umiejętność pasywna"
@@ -660,16 +668,258 @@
 		"dac_ability_enno_airbrawl_description"										"Enno wykonuje Atak totalny przeciwko wszystkim wrogom, dodając {s:stacks} instancje trucizny, zadając {s:fight_damage} pkt. obrażeń fizycznych i ogłuszając ich na {s:land_stun_duration} s."
 		"dac_ability_enno_airbrawl_lore"											"ZABIERZCIE ODE MNIE TĘ KUDŁATĄ KANALIĘ! – <i>Hobgen pobiera cenną lekcję pokory</i>"
 
+
+		// **** New Rotation
+
+		// VENGEFULSPIRIT
+		"dac_ability_vengefulspirit_wave_of_terror"								"Fala terroru"
+		"dac_ability_vengefulspirit_wave_of_terror_Description"					"Mściwa Dusza wydaje z siebie potworny krzyk, zadając {s:projectile_damage} pkt. obrażeń wrogim jednostkom po drodze i redukując ich pancerz o {s:armor_loss} pkt. na {s:duration} s."
+		"dac_ability_vengefulspirit_wave_of_terror_Lore"									"Zaufaj mi, wiem to i owo o zemście... jeśli pomożesz mi przejąć Białą Iglicę, obiecuję ci, że miasto pomoże ci stanąć naprzeciw Imperii. – <i>Hobgen zawiera umowę</i>"
+		"dac_ability_vengefulspirit_3star"										"Efekt 3 gwiazdek"
+		"dac_ability_vengefulspirit_3star_Description"							"Gdy Mściwa Dusza umiera, zadaje {s:damage} pkt. obrażeń wszystkim wrogom w obrębie {s:radius} pól."
+
+		// MEEPO
+		"dac_ability_meepo_poof"												"Puf"
+		"dac_ability_meepo_poof_Description"									"Meepo teleportuje się do losowego wroga, zadając {s:damage} pkt. obrażeń wszystkim sąsiadującym wrogim jednostkom."		
+		"dac_ability_meepo_poof_Lore"									"Nie goń do Norowiska. Jeżeli Enno go chroni, to nie wrócisz żywy. – <i>Jull decyduje się pozwolić uciec szulerowi</i>"
+		"dac_ability_meepo_divided_we_stand"									"Siła w podziale"
+		"dac_ability_meepo_divided_we_stand_Description"						"Za każdym razem, gdy Meepo używa umiejętności, tworzy kopię samego siebie z obecnie posiadanym przez siebie zdrowiem. Jeżeli Meepo lub dowolny klon umrze, wszyscy Meepo umierają."
+		"dac_ability_meepo_divided_we_stand_Lore"									"Panie, Meepo nr 2 znowu próbuje zacząć grę w kości, czy na pewno Pan uważa, że warto udzielić im schronienia? – <i>Paplaj wyraża zaniepokojenie obecnością gości jego pana</i>"
+		"dac_ability_meepo_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_meepo_3star_Description"									"Klony kopiują również przedmioty Meepo."
+ 									
+		// SPIRIT BREAKER
+		"dac_ability_spirit_breaker_charge_of_darkness"							"Szarża mroku"
+		"dac_ability_spirit_breaker_charge_of_darkness_Description"				"Łamacz Ducha szarżuje w kierunku odległego wroga, uderzając jego oraz wrogów po drodze, zadając im {s:damage} pkt. obrażeń i ogłuszając ich na {s:stun_duration} s."
+		"dac_ability_spirit_breaker_charge_of_darkness_Lore"									"Trzymaj oko na tego typa... Chcę się dowiedzieć, dlaczego tu jest. – <i>Hobgen nie lubi działać po omacku</i>"
+		"dac_ability_spirit_breaker_3star"										"Efekt 3 gwiazdek"
+		"dac_ability_spirit_breaker_3star_Description"							"Łamacz Ducha zyskuje Większe stłuczenie. Ataki Łamacza Ducha mają {s:bash_chance}% szansy na zadanie dodatkowych {s:damage} pkt. obrażeń i ogłuszenie celu na {s:bash_duration} s."
+
+		// SPECTRE
+		"dac_ability_spectre_spectral_dagger"									"Spektralny sztylet"
+		"dac_ability_spectre_spectral_dagger_Description"						"Zjawa ciska sztyletem w losowego wrogiego bohatera, zadając {s:damage} pkt. obrażeń i rozpościerając Ścieżkę cienia, która spowalnia szybkość ruchu wrogich jednostek o {s:move_slow_pct}% oraz szybkość ataku o {s:attack_slow} jedn. na {s:path_duration} s. Zjawa biegnie, by zaatakować tę jednostkę i zyskuje {s:bonus_aspd} jedn. szybkości ataku, {s:bonus_move_pct}% dodatkowej szybkości ruchu i ruch fazowy na {s:speed_duration} s."
+		"dac_ability_spectre_spectral_dagger_Lore"									"Dla ciebie twoja przeszłość jest tajemnicą... ale dla mnie jest zbyt jasna. Służ mi, a dam ci odpowiedzi, których szukasz. – <i>Turath, kult jednostki</i>"
+		"dac_ability_spectre_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_spectre_3star_Description"									"Gdy Zjawa żyje, za każdym razem, gdy demon rzuca czar, wszystkie sojusznicze demony stają w płomieniach i otaczają swoje cele ogniem, zadając {s:damage} pkt. obrażeń na szerokim pasie oraz podpalając trafione jednostki."
+
+		// DEATH PROPHET
+		"dac_ability_death_prophet_exorcism"									"Egzorcyzm"
+		"dac_ability_death_prophet_exorcism_Description"						"Prorokini Śmierci wysyła strumień maksymalnie {s:number} złych duchów na czas {s:spirit_duration} s. Duchy krążą po polu bitwy w obrębie {s:radius} pola, zadając {s:damage} pkt. obrażeń wszystkim wrogom, przez których przejdą, a następnie powracają do Prorokini Śmierci i leczą ją wartością {s:heal_percent}% zadanych obrażeń."
+		"dac_ability_death_prophet_exorcism_Lore"									"Wiem, jak poradzić sobie z przestępcami... ale umarli? To coś z zupełnie innej beczki. – <i>Jull nie radzi sobie z zabiciem czegoś, co już jest martwe</i>"
+
+		// PANGOLIER
+		"dac_ability_pangolier_shield_crash"									"Gruchnięcie tarczą"
+		"dac_ability_pangolier_shield_crash_Description"						"Łuskowiec wyskakuje w powietrze, po czym uderza w ziemię przed sobą, zadając {s:damage} pkt. obrażeń wszystkim wrogom w obrębie {s:radius} pola i zyskując {s:reduction_pct_per_enemy}% redukcji otrzymywanych obrażeń w oparciu o liczbę pobliskich wrogów na {s:duration} s. Po skoku wszyscy wrogowie w zasięgu ataku skupiają się na Łuskowcu."
+		"dac_ability_pangolier_shield_crash_Lore"									"Jak się nad tym zastanowić, to poczekajmy z powieszeniem żyrandola, aż Donté opuści miasto... – <i>Jull, rozważny projektant</i>"
+
+		// RUBICK
+		"dac_ability_rubick_fade_bolt"											"Słabnący pocisk"
+		"dac_ability_rubick_fade_bolt_Description"								"Rubick tworzy potężny strumień tajemnej energii, który uderza w cel i przeskakuje między celami dodatkowe {s:jumps} razy, zadając {s:damage} pkt. obrażeń i redukując ich obrażenia od ataku o {s:damage_reduction_pct}% na {s:duration} s."
+		"dac_ability_rubick_fade_bolt_Lore"									"Współpraca była nam sobie pisana, Rubicku, obydwaj jesteśmy nieprzewidywalni. – <i>Hobgen przedstawia dyskusyjne hasełko reklamowe</i>"
+		"dac_ability_rubick_spell_steal"										"Kradzież czaru"
+		"dac_ability_rubick_spell_steal_Description"							"PASYWNA: za każdym razem, gdy wróg w obrębie {s:radius} pól rzuci czar, Rubick rzuci kopię tego czaru na jego obecnym poziomie gwiazdek." 
+		"dac_ability_rubick_spell_steal_Lore"									"Z twoją potęgą i moimi zasobami nic nas nie powstrzyma. – <i>Anessix stara się zyskać przychylność Wielkiego Magusa</i>"
+		
+		// WRAITH KING
+		"dac_ability_wraith_king_wraithfire_blast"								"Wybuch upiornego ognia"
+		"dac_ability_wraith_king_wraithfire_blast_Description"					"Upiorny Król zapala wrogą jednostkę w obrębie {s:fallback_range} pól widmowym ogniem, ogłuszając ją na {s:stun_duration} s i zadając jej {s:damage} pkt. obrażeń na sekundę przez {s:damage_duration} s."
+		"dac_ability_wraith_king_wraithfire_blast_Lore"									"Pragnę audiencji u Upiornego Króla... powinienem znać każdego, kto tak dobrze podpala ludzi. – <i>Hobgen, swój rozpoznający swego</i>"
+		"dac_ability_wraith_king_raise_dead"									"Wskrzeszenie umarłych"
+		"dac_ability_wraith_king_raise_dead_Description"						"PASYWNA: bohaterowie przyzywają zombie, gdy umrą w obrębie {s:range} pól od Upiornego Króla."
+		"dac_ability_wraith_king_raise_dead_Lore"									"Ostarionie, poczynimy razem tak cudownie straszliwe rzeczy. – <i>Anessix, oczy na koronie</i>"
+
+
 		// 3star abilities
 		"dac_ability_3star"															"Efekt 3 gwiazdek"
 
-		"dac_ability_warlock_3star"													"Efekt 3 gwiazdek Czarnoksiężnika"
-		"dac_ability_warlock_3star_Description"										"Przy 3 gwiazdkach Czarnoksiężnik uniemożliwia sojuszniczym demonom uciszanie samych siebie, gdy używają one umiejętności."
+		"dac_ability_warlock_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_warlock_3star_Description"										"Podczas gdy Czarnoksiężnik żyje, uniemożliwia on sojuszniczym demonom uciszanie samych siebie, gdy używają one umiejętności."
 
-		"dac_ability_razor_3star"													"Efekt 3 gwiazdek Razora"
-		"dac_ability_razor_3star_Description"										"Przy 3 gwiazdkach Razor kradnie {s:stolen_dmg} pkt. obrażeń od ataku od swojego celu za każdy pomyślny atak aż do maksymalnie {s:max_stacks} pkt. W przypadku zmiany celu jest to resetowane dla Razora, ale nie dla celu."
+		"dac_ability_razor_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_razor_3star_Description"										"Razor zyskuje Statyczne połączenie. Razor wraz z każdym pomyślnym atakiem kradnie {s:stolen_dmg} pkt. obrażeń od ataku od swojego celu aż do maksymalnie {s:max_stacks} razy. W przypadku zmiany celu jest to resetowane dla Razora, ale nie dla wroga."
 
-		"dac_ability_chaos_knight_3star"													"Efekt 3 gwiazdek Rycerza Chaosu"
-		"dac_ability_chaos_knight_3star_Description"								"Przy 3 gwiazdkach sojuszniczy rycerze Rycerza Chaosu zawsze są liczeni jako sąsiadujący z sojuszniczym rycerzem."
+		"dac_ability_chaos_knight_3star"											"Efekt 3 gwiazdek"
+		"dac_ability_chaos_knight_3star_Description"								"Podczas gdy Rycerz Chaosu żyje, jego sojuszniczy rycerze zawsze są liczeni jako sąsiadujący z sojuszniczym rycerzem."
+
+		"dac_ability_crystal_maiden_3star"											"Efekt 3 gwiazdek"
+		"dac_ability_crystal_maiden_3star_Description"								"Podczas gdy Kryształowa Panna żyje, czasy oczekiwania wszystkich sojuszników są skrócone o {s:cooldown_reduction}%."
+
+		"dac_ability_terrorblade_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_terrorblade_3star_Description"									"Terrorblade może przyzwać demoniczną energię, by zyskać +{s:damage_bonus_pct}% obrażeń pełnych przeciwko wrogim demonom. Premia trwa {s:duration} s po każdym rzuceniu."
+
+		"dac_ability_tiny_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_tiny_3star_Description"										"Maluch rośnie za każdym razem, gdy rzuci wrogiem, zyskując +{s:bonus_damage} pkt. obrażeń od ataku i +{s:bonus_armor} pkt. pancerza, ale tracąc {s:aspd_loss} jedn. szybkości ataku (maks. {s:max_stacks} razy)."
+
+		"dac_ability_luna_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_luna_3star_Description"										"Luna zyskuje Zaćmienie. W godzinie próby Luny, Selimena blokuje światło w obrębie {s:radius} pól dookoła Luny i zsyła na wrogów {s:beams} wiązek księżycowej energii, jedną co {s:beam_interval} s, zadając {s:beam_damage} pkt. obrażeń na wiązkę i ogłuszając na {s:beam_stun} s. Wroga jednostka może zostać trafiona maksymalnie {s:hit_count} wiązkami."
+
+		"dac_ability_dazzle_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_dazzle_3star_Description"										"Dazzle oferuje Płytki grób wszystkim sojuszniczym jednostkom w obrębie {s:never_die_range} pola. Wszystkie pobłogosławione jednostki pozostają przy życiu jeszcze przez {s:never_die_duration} s po otrzymaniu śmiertelnego ciosu."
+
+		"dac_ability_broodmother_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_broodmother_3star_Description"									"Wszystkie sojusznicze pająki są nietykalne, podczas gdy Matka Lęgu żyje."
+
+		"dac_ability_pudge_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_pudge_3star_Description"										"Pudge staje się Kupą mięsa i zyskuje {s:bonus_health_per_death} pkt. maksymalnego zdrowia oraz {s:magical_resistance}% odporności na magię za każdym razem, gdy wróg umrze w obrębie {s:radius} pola od Pudge'a."
+
+		"dac_ability_viper_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_viper_3star_Description"										"Żmij wykonuje Żmijowe uderzenie co {s:num_attacks} ataków. Wroga jednostka otrzymuje {s:damage} pkt. obrażeń na sekundę i traci {s:bonus_movement_speed}% szybkości ruchu oraz {s:bonus_attack_speed} jedn. szybkości ataku. Efekt spowolnienia stopniowo słabnie do zera przez {s:debuff_duration} s."
+
+		"dac_ability_beastmaster_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_beastmaster_3star_Description"									"Władca Bestii otrzymuje o {s:damage_reduction}% mniej obrażeń od przyzwanych jednostek i jest niewrażliwy na pochodzące od nich wszelkie efekty magiczne."
+
+		"dac_ability_juggernaut_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_juggernaut_3star_Description"									"Gdy Fechmistrz żyje, wszyscy sojuszniczy bohaterowie zyskują zdrowie w postaci {s:bonus_health_pct}% maksymalnego zdrowia Fechmistrza."
+
+		"dac_ability_queenofpain_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_queenofpain_3star_Description"									"Królowa Bólu urzeka pobliskich wrogów, przez co ma {s:evasion}% szansy na uniknięcie ataków od wrogów w obrębie {s:radius} pól."
+
+		"dac_ability_drow_ranger_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_drow_ranger_3star_Description"									"Strzały Strażniczki Drowów stają się Mroźnymi strzałami. Spowalniają one ruch trafionych jednostek o {s:move_speed_loss}% i szybkość ataku o {s:attack_speed_loss} jedn. Efekt trwa przez {s:slow_duration} s."
+
+		"dac_ability_abaddon_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_abaddon_3star_Description"										"Abaddon zyskuje możliwość nałożenia Klątwy Avernus na atakowanych przez siebie wrogów. Po tym, jak Abaddon zaatakuje wrogą jednostkę {s:min_stacks} razy z rzędu, to zostaje ona uciszona na {s:silence_duration} s, a Abaddon zyskuje +{s:attack_speed} jedn. szybkości ataku przeciwko niej. Efekt odświeża się z każdym kolejnym celnym atakiem, ale jest resetowany, jeśli Abaddon zmieni cel."
+
+		"dac_ability_bloodseeker_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_bloodseeker_3star_Description"									"Krwiożerca zyskuje premię do trafień krytycznych równą obecnemu aktywnemu poziomowi sojuszu zabójców."
+
+		"dac_ability_morphling_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_morphling_3star_Description"									"Przemiennik zyskuje premie do walki wszystkich aktywnych wrogich sojuszy, jak gdyby był wrogim czempionem."
+
+		"dac_ability_shadow_fiend_3star"											"Efekt 3 gwiazdek"
+		"dac_ability_Shadow_fiend_3star_Description"								"Czart Cienia zyskuje Obecność Mrocznego Pana, dzięki czemu wrogowie w obrębie {s:radius} pól tracą {s:armor_reduction} pkt. pancerza."
+
+		"dac_ability_magnataur_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_magnataur_3star_Description"									"Magnus zyskuje Odwróconą polaryzację. Po użyciu umiejętności wrogowie w obrębie {s:radius} pól otrzymują {s:damage} pkt. obrażeń i zostają ogłuszeni na {s:duration} s."
+
+		"dac_ability_arc_warden_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_arc_warden_3star_Description"									"Klony z Podwojonej nawałnicy kopiują przedmioty Łukowego Strażnika."
+
+		"dac_ability_bat_rider_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_bat_rider_3star_Description"									"Lepki napalm podpala wrogów. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_nyx_assassin_3star"											"Efekt 3 gwiazdek"
+		"dac_ability_nyx_assassin_3star_Description"								"Wendeta może być rzucana znacznie częściej. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_shadow_demon_3star"											"Efekt 3 gwiazdek"
+		"dac_ability_shadow_demon_3star_Description"								"Demon Cienia nakłada Łapacza dusz na cel Demonicznego oczyszczenia. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_tusk_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_tusk_3star_Description"										"Pięść morsa spowalnia wrogów na dłużej i powoduje, że tracą szybkość ataku oraz ruchu. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_venomancer_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_venomancer_3star_Description"									"Stróże plagi są niewrażliwe na obrażenia magiczne."
+
+		"dac_ability_weaver_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_weaver_3star_Description"										"Po użyciu Shukuchi ataki Tkacza spalają manę. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_bristleback_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_bristleback_3star_Description"									"Czas oczekiwania Gradu kolców zostaje znacznie zmniejszony. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_earth_spirit_3star"											"Efekt 3 gwiazdek"
+		"dac_ability_earth_spirit_3star_Description"								"Chwyt geomagnetyczny ogłusza wrogów. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_natures_prophet_3star"											"Efekt 3 gwiazdek"
+		"dac_ability_natures_prophet_3star_Description"								"Drzewce są przyzywane na planszy po stronie przeciwnika."
+
+		"dac_ability_ogre_magi_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_ogre_magi_3star_Description"									"Ogrzy mag ma szansę na Wielorzut powodujący rzucenie Żądzy krwi na wiele celów. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_slardar_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_slardar_3star_Description"										"Slardar powoduje stłuczenie po rzuceniu Żrących oparów. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_windrunner_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_windrunner_3star_Description"									"Strzeliwiatr zyskuje szanse na unik i niewrażliwość na magię podczas rzucania Strzału mocy. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_witch_doctor_3star"											"Efekt 3 gwiazdek"
+		"dac_ability_witch_doctor_3star_Description"								"Wrogowie trafieni Paraliżującą beczułką stają się również celem Przeklęcia. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_ember_spirit_3star"											"Efekt 3 gwiazdek"
+		"dac_ability_ember_spirit_3star_Description"								"Obszar działania Zręcznych pięści jest większy. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_enigma_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_enigma_3star_Description"										"Obszar działania Pulsu ciemności jest większy. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_wisp_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_wisp_3star_Description"										"Relokacja resetuje czasy oczekiwania wskrzeszonego bohatera."
+
+		"dac_ability_lycan_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_lycan_3star_Description"										"Zmiennokształtność przywołuje więcej wilków. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_omniknight_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_omniknight_3star_Description"									"Obszar działania Puryfikacji jest większy. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_shadow_shaman_3star"											"Efekt 3 gwiazdek"
+		"dac_ability_shadow_shaman_3star_Description"								"Szaman Cienia rzuca Zły urok na jednostkę obraną za cel przez Masę wężowych stróży."
+
+		"dac_ability_treant_protector_3star"										"Efekt 3 gwiazdek"
+		"dac_ability_treant_protector_3star_Description"							"Jednostki leczone przez Pasożytnicze nasiono również zyskują Żywy pancerz. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_storm_spirit_3star"											"Efekt 3 gwiazdek"
+		"dac_ability_storm_spirit_3star_Description"								"Duch Burzy zyskuje Przeciążenie. Rzucenie czaru tworzy ładunek elektryczny, który jest wyzwalany wraz z kolejnym atakiem Ducha Burzy i zadaje {s:damage} pkt. obrażeń oraz spowalnia szybkość ataku celu o {s:attack_speed_loss} jedn. na {s:slow_duration} s. Uderzenie delty Ducha Burzy liczy się jako atak, co oznacza, że wszystkie jednostki trafione tą umiejętnością otrzymają obrażenia i zostaną spowolnione."
+		
+		"dac_ability_legion_commander_3star"										"Efekt 3 gwiazdek"
+		"dac_ability_legion_commander_3star_Description"							"Na początku Pojedynku wszelkie jednostki niebiorące w nim udziału, które obrały Dowódczynię Legionu za cel, obiorą inne cele dla swoich zwykłych ataków."
+
+		"dac_ability_life_stealer_3star"											"Efekt 3 gwiazdek"
+		"dac_ability_life_stealer_3star_Description"								"Złodziej Życia zyskuje Szał. Złodziej Życia po rzuceniu czaru staje się niewrażliwy na magię i zyskuje +{s:bonus_movement_speed_pct}% szybkości ruchu oraz +{S:bonus_attack_speed} jedn. szybkości ataku. Ten efekt trwa {s:duration} s."
+
+		"dac_ability_snapfire_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_snapfire_3star_Description"									"Stara pukawka zmniejsza również pancerz wrogów. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_antimage_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_antimage_3star_Description"									"Przerwanie many Antymaga zadaje dodatkowe {s:bonus_damage} pkt. obrażeń, jeśli jego atak spali wszelką pozostałą manę."
+
+		"dac_ability_enchantress_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_enchantress_3star_Description"									"Zaklinaczka zyskuje Nietykalność. Za każdym razem, gdy wróg zaatakuje Zaklinaczkę, ma ona {s:chance}% szansy na spowolnienie szybkości ataku jej napastnika o {s:slow} jedn. na czas trwania ataku."
+
+		"dac_ability_phantom_assassin_3star"										"Efekt 3 gwiazdek"
+		"dac_ability_phantom_assassin_3star_Description"							"Widmowa Zabójczyni zyskuje premię twojego obecnego aktywnego sojuszu łotrzyków."
+
+		"dac_ability_bounty_hunter_3star"											"Efekt 3 gwiazdek"
+		"dac_ability_bounty_hunter_3star_Description"								"Łowca Nagród generuje {s:gold} szt. złota za każdego zabitego przez siebie bohatera."
+
+		"dac_ability_kunkka_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_kunkka_3star_Description"										"Kunkka zyskuje Pływonoścę. Po każdych {s:number} atakach Kunkka wykonuje szeroki zamach, zadając dodatkowe {s:damage} pkt. obrażeń swojemu celowi oraz {s:cleave_pct}% obrażeń od rozpłatania pobliskim wrogom."
+
+		"dac_ability_alchemist_3star"												"Efekt 3 gwiazdek"
+		"dac_ability_alchemist_3star_Description"									"Na początku bitwy Alchemik wprowadza swojego ogra w chemicznie wywołany szał, zwiększając szybkość ataku o {s:attack_speed} jedn. oraz stając się niewrażliwym na magię na {s:rage_duration} s."
+
+		"dac_ability_puck_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_puck_3star_Description"										"Czas oczekiwania Iluzorycznej sfery zostaje znacznie zmniejszony. Sprawdź umiejętność, by poznać szczegóły."
+
+		"dac_ability_slark_3star"													"Efekt 3 gwiazdek"
+		"dac_ability_slark_3star_Description"										"Slark zyskuje Mroczny pakt. Po krótkim opóźnieniu Slark poświęca część swojej krwi, oczyszczając negatywne efekty i zadając łącznie {s:total_damage} pkt. obrażeń wrogom w obrębie {s:radius} pól. Sam Slark również otrzymuje {s:self_harm_pct}% tych obrażeń."
+
+		// WILD ALLIANCE BONUSES
+		"dac_ability_wild_alliance_crit"								"Trafienie krytyczne"
+		"dac_ability_wild_alliance_crit_description"					"PASYWNA: wilk ma {s:crit_chance}% szansy na zadanie wrogim jednostkom pustoszącego trafienia krytycznego zadającego {s:crit_bonus}% obrażeń."
+		
+		"dac_ability_wild_alliance_evasion"								"Szansa na unik"
+		"dac_ability_wild_alliance_evasion_description"					"PASYWNA: dzikoskrzydły zyskuje {s:evasion_pct}% szansy na unik."
+
+		"dac_ability_wild_alliance_splash_attack"								"Atak rozpryskowy"
+		"dac_ability_wild_alliance_splash_attack_description"					"PASYWNA: dystansowy atak czarnego smoka zadaje {s:splash_damage_percent}% obrażeń rozpryskowych jednostkom w obrębie {s:splash_radius} pola od celu smoka."
+
+		"dac_ability_enchantress_wild_alliance_bonus"								"Premia sojuszu szamanów"
+		"dac_ability_enchantress_wild_alliance_bonus_Description"					"Za każdym razem, gdy stworzenie z sojuszu szamanów jest atakowane, ma ono {s:chance}% szansy na spowolnienie szybkości ataku napastnika o {s:slow} jedn. na czas trwania ataku."
+
+		"dac_ability_magnus_wild_alliance_bonus"									"Premia sojuszu szamanów"
+		"dac_ability_magnus_wild_alliance_bonus_Description"						"Za każdym razem, gdy stworzenie z sojuszu szamanów otrzyma obrażenia od jednostki walczącej wręcz w obrębie 1 pola, ma ono {s:chance}% szansy na odepchnięcie napastnika na maksymalną odległość {s:length} pól."
+
+		"dac_ability_beastmaster_wild_alliance_bonus"								"Premia sojuszu szamanów"
+		"dac_ability_beastmaster_wild_alliance_bonus_Description"					"Stworzenie z sojuszu szamanów zyskuje +{s:attack_speed} jedn. szybkości ataku na {s:buff_duration} s po przyzwaniu i za każdym razem, gdy zabije wroga."
+
+		"dac_ability_treant_protector_wild_alliance_bonus"							"Premia sojuszu szamanów"
+		"dac_ability_treant_protector_wild_alliance_bonus_Description"				"Stworzenie z sojuszu szamanów daje +{s:armor} pkt. pancerza i +{s:hp_regen} pkt. regeneracji zdrowia sojuszniczym jednostkom w obrębie {s:radius} pól."
+
+		"dac_ability_lone_druid_wild_alliance_bonus"								"Premia sojuszu szamanów"
+		"dac_ability_lone_druid_wild_alliance_bonus_Description"					"Samotny Druid tworzy Duchową więź ze stworzeniem z sojuszu szamanów. Za każdym razem, gdy którekolwiek z nich zada obrażenia, oboje są leczeni wartością {s:lifesteal_pct}% zadanych obrażeń."
+
+		"dac_ability_natures_prophet_wild_alliance_bonus"							"Premia sojuszu szamanów"
+		"dac_ability_natures_prophet_wild_alliance_bonus_Description"				"Stworzenie z sojuszu szamanów zyskuje Furię natury. Stworzenie poraża cel, zadając mu {s:damage} pkt. obrażeń. Porażenie odbija się {s:jumps} razy między innymi wrogami, zwiększając obrażenia o {s:increase_pct}% za każde odbicie."
+
+		"dac_ability_wild_alliance_wrath_of_nature"									"Gniew natury"
+		"dac_ability_wild_alliance_wrath_of_nature_Description"						"Stworzenie poraża cel, zadając mu {s:damage} pkt. obrażeń. Porażenie odbija się {s:jumps} razy między innymi wrogami, zwiększając obrażenia o {s:increase_pct}% za każde odbicie."
 	}
 }

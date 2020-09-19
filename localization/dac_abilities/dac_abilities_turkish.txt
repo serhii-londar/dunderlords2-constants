@@ -8,7 +8,7 @@
 
 		// ANTIMAGE
 		"dac_ability_antimage_mana_break"										"Mana Silme"
-		"dac_ability_antimage_mana_break_Description"							"PASİF: Büyücü Avcısı her saldırısında düşmanının {s:mana_per_hit} manasını yakar ve yakılan mananın %50'sini hedefine hasar olarak verir. Underlord'lara saldırdığında onlardan {s:hype_per_hit} coşku yakar."
+		"dac_ability_antimage_mana_break_Description"							"PASİF: Büyücü Avcısı her saldırısında düşmanının {s:mana_per_hit} manasını yakar ve yakılan mananın %50'sini hedefine hasar olarak verir."
 		"dac_ability_antimage_mana_break_Lore"									"Büyücü Avcısı benim için geldi... Onun için hazır olacağım. - <i>Tyler Malikânesi Kaçağı Turath</i>"
 
 		//QUEEN OF PAIN
@@ -23,7 +23,7 @@
 
 		//FURION
 		"dac_ability_natures_prophet_summon_tree"								"Doğanın Çağrısı"
-		"dac_ability_natures_prophet_summon_tree_Description"					"Doğanın Elçisi bir ağaç çağırır. Bu ağaç druid sayılır. 3 yıldızda ağaç, tahtada düşmanın tarafında çıkar."
+		"dac_ability_natures_prophet_summon_tree_Description"					"Doğanın Elçisi bir ağaç çağırır. 3 yıldızda ağaç, tahtada düşmanın tarafında çıkar."
 		"dac_ability_natures_prophet_summon_tree_Lore"							"Enno zavallı orman arkadaşlarından yardım istedi... Bu bir sorun oluşturabilir. - <i>Sürgün Edilmiş Revtel Tüccarı O'nia</i>"
 
 		"dac_ability_natures_prophet_wrath_of_nature"							"Doğanın Gazabı"
@@ -32,12 +32,12 @@
 
 		//WINDRUNNER
 		"dac_ability_windrunner_powershot"										"Kuvvetli Atış"
-		"dac_ability_windrunner_powershot_Description"							"Rüzgâr Korucusu tek bir kuvvetli atış yapmak için yayını {s:castPoint} saniyeye kadar gerer ve en fazla {s:powershot_damage} hasar verir. Kuvvetli atış tarafından vurulan her düşman başına atışın hasarı %{s:damage_reduction} azalır."
+		"dac_ability_windrunner_powershot_Description"							"Rüzgâr Korucusu tek bir kuvvetli atış yapmak için yayını {s:castPoint} saniyeye kadar gerer ve en fazla {s:powershot_damage} hasar verir. Kuvvetli atış tarafından vurulan her düşman başına atışın hasarı %{s:damage_reduction} azalır. Üç yıldızda, Rüzgâr Korucusu yayını germeye başladığında %{s:evasion} kaçınma kazanır ve büyü bağışıklığına sahip olur. Bu {s:evasion_duration} saniye sürer."
 		"dac_ability_windrunner_powershot_Lore"									"Seyahatlerim esnasında çok fazla arkadaş edindim ve yardım istemekten çekinmiyorum. - <i>Dünya Seyyâhı Wren</i>"
 
 		//WITCHDOCTOR
 		"dac_ability_witch_doctor_paralyzing_cask"								"Felç Edici Tas"
-		"dac_ability_witch_doctor_paralyzing_cask_Description"					"Büyücü Hekim düşman birimlerinin arasında onları sersemleterek ve {s:damage} hasar vererek {s:bounces} defa seken felç edici tozla dolu bir tas fırlatır."
+		"dac_ability_witch_doctor_paralyzing_cask_Description"					"Büyücü Hekim düşman birimlerinin arasında onları sersemleterek ve {s:damage} hasar vererek {s:bounces} defa seken felç edici tozla dolu bir tas fırlatır. Üç yıldızda, Büyücü Hekim tasın isabet ettiği birimleri aynı zamanda {s:health_interval} saniyeliğine lanetleyerek saniye başına {s:damage_per_sec} hasar verir. Bu sona erdiğinde birim, lanet esnasında aldığı hasarın %{s:damage_pct} kadarı ilave hasar alır."
 		"dac_ability_witch_doctor_paralyzing_cask_Lore"							"Seni iş başında izlemeye bayılıyorum Hekim... - <i>Fesatçı Peri Hobgen</i>"
 
 		//JUGGERNAUT
@@ -130,6 +130,13 @@
 		"dac_ability_lich_chain_frost_Description"								"Lich birbirine yakın düşman birimler arasında en fazla {s:jumps} kez seken, {s:slow_duration} saniye boyunca saldırı ve hareket hızlarını %{s:slow_value} yavaşlatan ve her vuruşunda {s:damage} hasar veren buzdan bir küre atar."
 		"dac_ability_lich_chain_frost_Lore"										"Birbirimize yardım edebiliriz, Lich. - <I>Turath şeytanla anlaşma yaparken</i>"
 
+		"dac_ability_lich_3star"												"Lich 3 Yıldız Etkisi"
+		"dac_ability_lich_3star_Description"									"Lich, Buzul Sekme kazanır. Lich birbirine yakın düşman birimler arasında en fazla {s:jumps} kez seken, {s:slow_duration} saniye boyunca saldırı ve hareket hızlarını %{s:slow_value} yavaşlatan ve her vuruşunda {s:damage} hasar veren buzdan bir küre atar."
+
+		"dac_ability_lich_frost_shield"											"Buz Kalkanı"
+		"dac_ability_lich_frost_shield_Description"								"Lich, rastgele bir dosta kalkan uygulayarak dostun saldırılardan aldığı hasarı {s:damage_resist_pct} azaltır. Kalkan etkinken, kalkanın {s:radius} hücre mesafesinde düşman birimler saniye başına {s:damage_per_second} hasar alır, aynı zamanda %{s:move_slow_pct} hareket ve saldırı hızı kaybeder. Kalkan {s:duration} saniye sürer."
+		"dac_ability_lich_frost_shield_Lore"									"Birbirimize yardım edebiliriz, Lich. - <I>Turath şeytanla anlaşma yaparken</i>"
+
 		//TIDEHUNTER
 		"dac_ability_tidehunter_ravage"											"Tahribat"
 		"dac_ability_tidehunter_ravage_Description"								"Dalga Avcısı yere tüm gücüyle vurarak her yerden dokungaç çıkmasını sağlar. Dokungaçlar {s:duration} saniye boyunca {s:cells} hücre mesafesindeki tüm düşman birimlerini sersemleterek {s:damage} hasar verir."
@@ -166,7 +173,7 @@
 
 		//SLARDAR
 		"dac_ability_slardar_amplify_damage"									"Aşındırıcı Pus"
-		"dac_ability_slardar_amplify_damage_Description"						"Slardar modifies enemy armor by {s:armor_reduction} for {s:duration} seconds. At 3 stars, Slardar also bashes the target, dealing {s:bash_damage} Physical damage and stunning for {s:bash_duration} seconds."
+		"dac_ability_slardar_amplify_damage_Description"						"Slither Muhafızı, düşman zırhını {s:duration} saniyeliğine {s:armor_reduction} azaltır. Üç yıldızda, Slither Muhafızı hedefi ezerek {s:bash_damage} fiziksel hasar verirken aynı zamanda {s:bash_duration} saniye de sersemletir."
 		"dac_ability_slardar_amplify_damage_Lore"								"Gece Gezgini ve ben birlikte iş yapabiliyorduk, eminim seninle de yapabiliriz. <i>Hapishane Şarabı Meraklısı Jull</i>"
 
 		//BEASTMASTER
@@ -216,7 +223,7 @@
 
 		//DRAGON KNIGHT
 		"dac_ability_dragon_knight_breathe_fire"								"Ateş Püskürtme"
-		"dac_ability_dragon_knight_breathe_fire_Description"					"Ejderha Şövalyesi önündeki düşman birimlerini yakarak {s:damage} hasar veren ve saldırı hasarlarını da {s:duration} saniyeliğine %{s:attack_reduction} azaltan alev püskürtür."
+		"dac_ability_dragon_knight_breathe_fire_Description"					"Ejderha Şövalyesi önündeki düşman birimlerini yakarak {s:damage} hasar veren ve saldırı hasarlarını da {s:duration} saniyeliğine %{s:attack_reduction} azaltan alev püskürtür ve onları ateşe verir."
 		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davion, yeteneklerin kıymetini bilmeyenler üzerinde harcanıyor- <i>Hobgen yetenek avlamaya çalışırken</i>"
 
 		"dac_ability_dragon_knight_elder_dragon_form"							"Kadim Ejderha Biçimi"
@@ -235,7 +242,7 @@
 
 		//BATRIDER
 		"dac_ability_batrider_sticky_napalm"									"Yapışkan Napalm"
-		"dac_ability_batrider_sticky_napalm_Description"						"Yarasa Binicisi, vuruş noktasının {s:radius} hücre çevresini ateşli yapışkan petrolle kaplar. Petrol, Yarasa Binicisi'nin saldırısına istif başına {s:damage} hasar ekler, düşmanların hareket ve saldırı hızlarını %{s:movement_speed_pct} azaltır. Yarasa Binicisi 3 yıldızsa, aynı zamanda düşmanları {s:fire_duration} saniyeliğine ateşe verir.<br><br>Daha sonra kullanılacak Yapışkan Napalm saldırıları hasarı ve yavaşlatma yüzdelerini en fazla {s:max_stacks} istife kadar artırmaya devam eder."
+		"dac_ability_batrider_sticky_napalm_Description"						"Yarasa Binicisi, vuruş noktasının {s:radius} hücre çevresini ateşli yapışkan petrolle kaplar. Petrol, Yarasa Binicisi'nin saldırısına istif başına {s:damage} hasar ekler, düşmanların hareket ve saldırı hızlarını %{s:movement_speed_pct} azaltır. Yarasa Binicisi 3 yıldızda, aynı zamanda düşmanları {s:fire_duration} saniyeliğine ateşe verir.<br><br>Daha sonra kullanılacak Yapışkan Napalm saldırıları hasarı ve yavaşlatma yüzdelerini en fazla {s:max_stacks} istife kadar artırmaya devam eder."
 		"dac_ability_batrider_sticky_napalm_Lore"								"Bu herife bayılıyorum. BAYILIYORUM BU HERİFE. - <i>Kundakçı Hobgen</i>"
 
 		//DOOM BRINGER
@@ -255,7 +262,7 @@
 
 		// Lycan
 		"dac_ability_lycan_wolf_spawn_shift"									"Şekil Değiştirme"
-		"dac_ability_lycan_wolf_spawn_shift_Description"						"Lycan summons {s:summon_count} wolves and transforms and gains {s:hp_per}% to his max health, his move speed is boosted to {s:speed} and gains {s:crit_chance}% chance to Critical Hit for {s:crit_bonus}% Damage."
+		"dac_ability_lycan_wolf_spawn_shift_Description"						"Kurt Adam {s:summon_count} kurt çağırarak dönüşür ve azami sağlığı %{s:hp_per} artar, hareket hızı {s:speed} olarak değişir ve %{s:crit_bonus} hasar verebileceği %{s:crit_chance} kritik vuruş şansı kazanır."
 		"dac_ability_lycan_wolf_spawn_shift_Lore"								"Kurt Adam, lütfen intikam almam için bana yardım et. - <i>Wren, Kurt Adam'ın insan tarafına yalvarırken</i>"
 		
 		// LONE DRUID
@@ -271,7 +278,7 @@
 
 		//OGRE MAGI
 		"dac_ability_ogre_magi_bloodlust"										"Kana Susama"
-		"dac_ability_ogre_magi_bloodlust_Description"							"Ogre Magi incites a frenzy in a friendly unit, increasing its movement speed by {s:bonus_movement_speed}% and attack speed by {s:bonus_attack_speed}%. If cast on Ogre Magi himself, the attack speed bonus is {s:self_bonus}% instead. Ogre Magi has a {s:multicast_chance}% chance to Multicast this ability to 2 targets."
+		"dac_ability_ogre_magi_bloodlust_Description"							"Büyücü Ogre dost bir birimi çıldırtarak hareket hızını %{s:bonus_movement_speed} ve saldırı hızını da %{s:bonus_attack_speed} artırır. Eğer bu, Büyücü Ogre'ın üzerinde kullanılırsa fazladan saldırı hızı %{s:self_bonus} olur. Büyücü Ogre %{s:multicast_chance} şansla bu yeteneği 2 hedefe çoklu olarak uygular."
 		"dac_ability_ogre_magi_bloodlust_Lore"									"Büyücü, istediği ücretten iki kat daha değerli. Neyse ki tam bir aptal. - <i>Fırsat Avcısı O'nia</i>"
 
 		// MAGNUS
@@ -281,7 +288,7 @@
 
 		//TREANT PROTECTOR
 		"dac_ability_treant_leech_seed"											"Can Emici Tohum"
-		"dac_ability_treant_leech_seed_Description"								"Muhafız Ağaç bir düşman birime can emen bir tohum ekerek sağlığını her {s:damage_interval} saniyede bir {s:leech_damage} emerken saldırı ve hareket hızını da %{s:movement_slow} azaltır.<br><br>Tohum, hedefin maksimum {s:radius} hücre mesafesindeki dost birimleri iyileştirir. {s:duration} saniye sürer. Mevcut hedef ölürse {s:radius} hücre mesafedeki yeni bir hedefe atlar."
+		"dac_ability_treant_leech_seed_Description"								"Muhafız Ağaç bir düşman birime can emen bir tohum ekerek sağlığını her {s:damage_interval} saniyede bir {s:leech_damage} emerken saldırı ve hareket hızını da %{s:movement_slow} azaltır.<br><br>Üç yıldızda, tohum, hedefin maksimum {s:radius} hücre mesafesindeki dost birimleri iyileştirir ve onlara +{s:bonus_armor} zırh verir. {s:duration} saniye sürer. Mevcut hedef ölürse {s:radius} hücre mesafedeki yeni bir hedefe atlar."
 		"dac_ability_treant_leech_seed_Lore"									"Yalan söylemeyeceğim, Enno'nun bir ağaçtan yardım almasını hiç beklemiyordum. - <i>Jull ve Anessix birlikte içerken</i>"
 
 		//KEEPER OF THE LIGHT
@@ -295,7 +302,7 @@
 		"dac_ability_medusa_stone_gaze_Lore"									"İşte tam benlik bir kadın ama benim gözüm Mireska'da. - <i>Sevdalı Suçlu Hobgen</i>"
 
 		"dac_ability_medusa_split_shot"											"Çoklu Atış"
-		"dac_ability_medusa_split_shot_Description"								"PASİF: Gorgon maksimum {s:extra_shots} büyülü ok daha atar ve ana hedefe {s:range} hücre mesafedeki diğer hedefleri vurur. Fazladan atılan oklar, asıl okun verdiği hasarın yüzde {s:damage_modifier} kadarını verir."
+		"dac_ability_medusa_split_shot_Description"								"PASİF: Gorgon maksimum {s:extra_shots} büyülü ok daha atar ve ana hedefe {s:range} hücre mesafedeki diğer hedefleri vurur. Fazladan atılan oklar %{s:damage_modifier} daha az hasar verir."
 		"dac_ability_medusa_split_shot_Lore"									"Ok atan hanımefendiyi gördün mü? Gerçi hâlâ nefes alıyorsun... Yani henüz görmedin. - <i>Grek ekibine kattığı son üyeden bahsederken</i>"
 
 		// TROLL WARLORD
@@ -306,7 +313,7 @@
 
 		// SHADOW_DEMON
 		"dac_ability_shadow_demon_demonic_purge"								"Şeytani Arındırma"
-		"dac_ability_shadow_demon_demonic_purge_Description"					"Düşman hedefi tekrar tekrar arındırarak onu {s:duration} saniyeliğine yavaşlatır, üzerindeki güçlendirmeleri kaldırır ve güçten düşürme uygular. Birim, süre bitene kadar hızını/saldırı hızını yavaş yavaş kazanır, en sonunda {s:damage} hasar alır."
+		"dac_ability_shadow_demon_demonic_purge_Description"					"Düşman hedefi tekrar tekrar arındırarak onu {s:duration} saniyeliğine yavaşlatır, üzerindeki güçlendirmeleri kaldırır ve güçten düşürme uygular. Birim, süre bitene kadar hızını/saldırı hızını yavaş yavaş kazanır, en sonunda {s:damage} hasar alır. Üç yıldızda, birim başlangıçtaki mevcut sağlığının %{s:health_pct} kadarını kaybeder, arındırmadan sağ çıkarsa kaybettiği miktarın yarısını geri kazanır."
 		"dac_ability_shadow_demon_demonic_purge_Lore"							"Beni dikkatli dinle tüylü âdi, Anessix'le çalışabileceğini düşündüğünü biliyorum ama onun ne çeşit tiplerle birlikte çalıştığını biliyor musun? - <i>İblislerden (ya da Enno'dan) Hoşlanmayan Hobgen</i>"
 
 		// SVEN
@@ -366,7 +373,7 @@
 		
 		//BLOODSEEKER
 		"dac_ability_bloodseeker_blood_rage"									"Kan Öfkesi"
-		"dac_ability_bloodseeker_blood_rage_Description"						"PASİF: Kan Avcısı'nın sağlığı azaldıkça %{s:min_health_pct} sağlıkta en fazla {s:attack_speed_bonus_max} saldırı hızı kazanır.<br><br>Birini öldürdüğünde azami sağlığının %{s:heal_pct} kadarını geri kazanır."
+		"dac_ability_bloodseeker_blood_rage_Description"						"PASİF: Kan Avcısı'nın sağlığı azaldıkça %{s:min_health_pct} sağlıkta en fazla {s:attack_speed_bonus_max} saldırı hızı kazanır.<br><br>Birini öldürdüğünde azami sağlığının %{s:heal_pct} kadarını geri kazanır. Üç yıldızda, bu, bir düşman Kan Avcısı'nın {s:radius} hücre mesafesi içinde öldüğünde meydana gelir."
 		"dac_ability_bloodseeker_blood_rage_Lore"								"Kariyerim boyunca bir şey öğrendiysem o da milletin kana bayıldığıdır. Bu adamı işe alın. - <i>Kararlı Patron Grek</i>"
 		
 		//ARC WARDEN
@@ -376,7 +383,7 @@
 		
 		//ARC WARDEN
 		"dac_ability_arc_warden_tempest_double_no_items"						"Mükemmel Kopya"
-		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Yıldırım Muhafızı kendisiyle aynı sağlığa sahip bir kopyasını oluşturur. Klonlar %{s:clone_dmg_reduction} daha az hasar verir."
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Yıldırım Muhafızı kendisiyle aynı sağlığa sahip bir kopyasını oluşturur. Klonlar %{s:clone_dmg_reduction} daha az hasar verir ve klon başına %{s:clone_mana_pct_loss_per} daha az mana kazanır (çoğaldıkça istiflenir). Üç yıldızda klon, Yıldırım Muhafızı'nın eşyasını da kopyalar."
 		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"Beraberinde yaradılışın gizlerini de getiriyor. - <i>Gizemli Elçi Turath</i>"
 
 		//MIRANA
@@ -395,7 +402,7 @@
 
 		//BLACK DRAGON
 		"dac_ability_black_dragon_splash_attack"								"Sıçrayan Saldırı"
-		"dac_ability_black_dragon_splash_attack_description"					"PASİF: Kara Ejderha'nın menzilli saldırısı, Ejderha'nın hedefinin 1 hücre çevresindeki birimlere sıçrama hasarı verir."
+		"dac_ability_black_dragon_splash_attack_description"					"PASİF: Kara Ejderha'nın menzilli saldırısı, Ejderha'nın hedefinin {s:splash_radius} hücre çevresindeki birimlere %{s:splash_damage_percent} sıçrama hasarı verir."
 		"dac_ability_black_dragon_splash_attack_lore"							" "
 
 		//"SVEN GREAT CLEAVE - used for YEAR BEAST and ROSHAN"
@@ -431,7 +438,8 @@
 		// BARRICADE PLACEABLE
 		"dac_ability_barricade_aura"										"Barikat"
 		"dac_ability_barricade_aura_description"							"Barikat yakındaki birimleri korur ve büyülere bağışıklığı vardır."
-		"dac_ability_barricade_aura_lore"									""
+		"dac_ability_barricade_aura_rot1"										"Barikat"
+		"dac_ability_barricade_aura_rot1_description"							"Barikat yakındaki birimleri korur ve büyülere bağışıklığı vardır."
 
 		// TARGET DUMMY PLACEABLE
 		"dac_ability_target_dummy_taunt"										"Kışkırtma"
@@ -454,7 +462,7 @@
 
 		// LEGION COMMANDER
 		"dac_ability_legion_commander_duel"											"Düello"
-		"dac_ability_legion_commander_duel_description"								"Lejyon Komutanı kendisine 1 hücre mesafede olan en düşük sağlığa sahip hedefi seçer ve {s:stun_duration} saniyeliğine birbirlerine saldırmaya zorunlu oldukları bir düello başlar. Her iki kahraman da bu esnada yetenek kullanamaz veya iyileşemez. Süre dahilinde kahramanlardan biri öldüğünde, düellonun galibi olan kahraman kalıcı olarak {s:winner_bonus_damage} bonus hasar kazanır. (Nakavt'ta [20/32/48] bonus hasar)"
+		"dac_ability_legion_commander_duel_description"								"Lejyon Komutanı kendisine 1 hücre mesafede olan en düşük sağlığa sahip hedefi seçer ve {s:stun_duration} saniyeliğine birbirlerine saldırmaya zorunlu oldukları bir düello başlar. Her iki kahraman da bu esnada yetenek kullanamaz veya iyileşemez. Süre dahilinde kahramanlardan biri öldüğünde, düellonun galibi kahraman kalıcı olarak {s:winner_bonus_damage_kill_mult} bonus hasar kazanır. (Hasarı oyun moduna göre değişir.)"
 		"dac_ability_legion_commander_duel_lore"									"Dayılanmaya gerek yok Tresdin... Rix'i bulmana yardım edebilirim. - <i>Baskı Altında İstifini Bozmayan Anessix</i>"
 
 		"dac_ability_legion_commander_will_of_the_bullsnake"						"Boğa Yılanı'nın İradesi"
@@ -471,7 +479,7 @@
 		"dac_ability_nyx_assassin_spiked_carapace_lore"								"Doğrusu eklem bacaklılar olacak. - <i>Detaycı Sessiz</i>"
 
 		"dac_ability_nyx_assassin_vendetta"											"Öç Alma"
-		"dac_ability_nyx_assassin_vendetta_description"								"PASİF: Nyx Suikastçısı bir birime saldırmak üzere ışınlandıktan sonraki saldırısında {s:bonus_damage} fazladan hasar verir ve düşmana {s:break_duration} saniyeliğine Güçten Düşürme uygulayarak onun bütün pasif etkilerini devre dışı bırakır."
+		"dac_ability_nyx_assassin_vendetta_description"								"PASİF: Nyx Suikastçısı bir birime saldırmak üzere ışınlandıktan sonraki saldırısında {s:bonus_damage} fazladan hasar verir ve düşmana {s:break_duration} saniyeliğine Güçten Düşürme uygulayarak onun bütün pasif etkilerini devre dışı bırakır. Üç yıldızda, Nyx Suikastçısı arka arkaya {s:hits_to_trigger} saldırı sonrasında Öç Alma da uygular. Işınlanmaya bağlı olarak Öç Alma tetiklenirse sayaç sıfırlanır."
 		"dac_ability_nyx_assassin_vendetta_lore"									"Ha böcek ha eklem bacaklı, kimin umurunda? Onun birisini öldürmesine ihtiyacım var, ona ulaşma şansın var mı? - <i>Düzeltilmekten Hoşlanmayan O'nia</i>"
 
 		// WEAVER
@@ -494,7 +502,7 @@
 		"dac_ability_wisp_tether_lore"												"<i>Enno, İlahi Ruh'a dikkatle bakarken</i>"
 
 		"dac_ability_wisp_relocate"													"Yer Değiştirme"
-		"dac_ability_wisp_relocate_description"										"Io teleports away for {s:relocate_time_away} seconds to revive a dead hero. The two units return with full health and are purged of negative effects. At 3 stars, Io also resets the dead hero's cooldowns."
+		"dac_ability_wisp_relocate_description"										"İlahi Ruh, ölü bir kahramanı canlandırmak için {s:relocate_time_away} saniyeliğine ışınlanır. Her iki birim de tahtaya tam sağlıkla ve bütün olumsuz etkilerden arındırılmış bir biçimde döner. 3 yıldız olduğunda İlahi Ruh aynı zamanda o kahramanın dolum sürelerini sıfırlar."
 		"dac_ability_wisp_relocate_lore"											"<i>İlahi Ruh bakışa, bakışla karşılık verirken</i>"
 
 		// BRISTLEBACK	
@@ -518,7 +526,7 @@
 		"dac_ability_storm_spirit_ball_lightning_lore"								"Egoistler beyinleri yerine kalpleriyle hareket eder. Tuzağa düşürmesi çok kolay olacak. - <i>Turath sinsi sinsi planlar yaparken</i>"
 
 		"dac_ability_storm_spirit_element"											"Fırtına Elementali"
-		"dac_ability_storm_spirit_element_description"								"PASİF: Fırtına Ruhu, Ezici Delta saldırısı yaptığında etkilenen düşmanları 3 saniyeliğine etkisizleştirir."
+		"dac_ability_storm_spirit_element_description"								"PASİF: Fırtına Ruhu, Ezici Delta saldırısı yaptığında etkilenen düşmanları etkisizleştirir."
 		"dac_ability_storm_spirit_element_lore"										"Sessiz'den endişe etmemize gerek yok, fırtınanın yaklaştığını ruhu duymayacaktır. - <i>Anessix bütün olasılıkları göz önünde bulundururken</i>"
 
 		// EMBER SPIRIT
@@ -527,16 +535,16 @@
 		"dac_ability_ember_spirit_sleight_of_fist_lore"								"Bir iblis gibi savaşıyor olabilir fakat onurlu bir yaratıktır. Benim için, onun verdiği söz yeterli. - <i>Jull hırsızlar arasındaki onurdan bahsederken</i>"
 
 		"dac_ability_ember_spirit_element"											"Ateş Elementali"
-		"dac_ability_ember_spirit_element_description"								"PASİF: Ateş Ruhu, Ezici Delta saldırısı yaptığında etkilenen düşmanları 3 saniyeliğine tutuşturur."
+		"dac_ability_ember_spirit_element_description"								"PASİF: Ateş Ruhu, Ezici Delta saldırısı yaptığında etkilenen düşmanları tutuşturur."
 		"dac_ability_ember_spirit_element_lore"										"Bu adamı işe alacağım. - <i>Yetenek Avcısı Hobgen</i>"
 
 		// EARTH SPIRIT
 		"dac_ability_earth_spirit_geomagnetic_grip"									"Jeomanyetik Kavrama"
-		"dac_ability_earth_spirit_geomagnetic_grip_description"						"Toprak Ruhu harita dışında beliren bir Taş Kalıntı çağırır ve bunu mevcut hedefine doğru çeker. Taş Kalıntı'dan etkilenen düşmanlar {s:silence_duration} saniyeliğine susturulur ve {s:damage} hasar alır."
+		"dac_ability_earth_spirit_geomagnetic_grip_description"						"Toprak Ruhu harita dışında beliren bir Taş Kalıntı çağırır ve bunu mevcut hedefine doğru çeker. Taş Kalıntı'dan etkilenen düşmanlar {s:silence_duration} saniyeliğine susturulur ve {s:damage} hasar alır. Üç yıldızda, düşmanlar aynı zamanda {s:stun_duration} saniye boyunca sersemletilir."
 		"dac_ability_earth_spirit_geomagnetic_grip_lore"							"Toprak Ruhu Kaolin'in buraya gelmesine bayılıyorum. Topraktan hep çok enteresan şeyleri bulup çıkarıyor. - <i>Erzak Arayan Carl</i>"
 
 		"dac_ability_earth_spirit_element"											"Toprak Elementali"
-		"dac_ability_earth_spirit_element_description"								"PASİF: Toprak Ruhu, Ezici Delta saldırısı yaptığında etkilenen düşmanları 3 saniyeliğine susturulur."
+		"dac_ability_earth_spirit_element_description"								"PASİF: Toprak Ruhu, Ezici Delta saldırısı yaptığında etkilenen düşmanları susturur."
 		"dac_ability_earth_spirit_element_lore"										"Maymun Kral Wukong'un bu elemanla ringte kapışmasını izlemek için her şeyimi verirdim... - <i>Fantezi Bahisçisi Grek</i>"
 
 		// VOID SPIRIT
@@ -545,16 +553,16 @@
 		"dac_ability_void_spirit_dissimilate_lore"									"Boşuna hiçlikten çıkılmaz. Onun neden burada olduğunu öğren. - <i>Sırlar Peşinde Koşan Anessix</i>"
 
 		"dac_ability_void_spirit_element"											"Hiçlik Elementali"
-		"dac_ability_void_spirit_element_description"								"PASİF: Hiçlik Ruhu, Ezici Delta saldırısı yaptığında etkilenen düşmanlara 3 saniyeliğine güçten düşürme uygular."
+		"dac_ability_void_spirit_element_description"								"PASİF: Hiçlik Ruhu, Ezici Delta saldırısı yaptığında etkilenen düşmanları güçten düşürür."
 		"dac_ability_void_spirit_element_lore"										"Onunlayken çok dikkatli ol Gece Gezgini Slark. - <i>Jull dostane bir öneride bulunurken</i>"
 
 		// GRANNY LIZARD
 		"dac_ability_granny_lizard_shotgun_blast"									"Emektar Pompalı"
-		"dac_ability_granny_lizard_shotgun_blast_description"						"4 temel saldırıdan sonra Çılgın Nine pompalı tüfeğini hazır eder ve bir koni şeklinde nişan alıp yakındaki bir düşmanı patlatarak {s:blast_damage} hasar verir, aynı zamanda bu saldırıdan etkilenen birimlerin saldırı hızı da %{s:blast_bonus_attack_speed} azalır."
+		"dac_ability_granny_lizard_shotgun_blast_description"						"4 temel saldırıdan sonra Çılgın Nine pompalı tüfeğini hazır eder ve bir koni şeklinde nişan alıp yakındaki bir düşmana ateş ederek {s:blast_damage} hasar verir. Bu saldırıdan etkilenen birimlerin saldırı hızı %{s:blast_bonus_attack_speed} azalır. Bu etki {s:debuff_duration} saniye sürer. Üç yıldızda, etkilenen birimler ayrıca {s:blast_armor_loss} zırh kaybeder."
 		"dac_ability_granny_lizard_shotgun_blast_lore"								"Keen halkı hep zihinsel olarak savaşa yatkın olmuştur ki savaş da tam benim iş alanım. Belki de yapabileceğimiz iş anlaşmaları vardır. - <i>Melek Yatırımcı Sessiz</i>"
 
 		"dac_ability_granny_lizard_bazooka"											"Mortimer'ın Öpücükleri"
-		"dac_ability_granny_lizard_bazooka_description"								"<i>EJDERHA İTTİFAKIYLA AÇILIR</i>: Mortimer, {s:cast_range} hücre mesafedeki düşmanlara {s:projectile_count} ateş küresi atar. Her küre, düştüğü alanın {s:impact_radius} hücre çevresindeki düşmanlara {s:damage} hasar verir ve onları {s:burn_duration} saniyeliğine tutuşturur."
+		"dac_ability_granny_lizard_bazooka_description"								"<i>EJDERHA İTTİFAKIYLA AÇILIR</i>: Mortimer düşmanlarına {s:projectile_count} ateş küresi atar. Her küre, düştüğü alanın {s:impact_radius} hücre çevresindeki düşmanlara {s:damage} hasar verir ve onları {s:burn_duration} saniyeliğine tutuşturur. Etkilenen düşmanlar ayrıca {s:attack_slow_duration} saniye boyunca {s:attack_slow} saldırı hızı kaybederler."
 		"dac_ability_granny_lizard_bazooka_lore"									"Ne yani, o kadına bu şeyin bir ejderha olmadığını mı söylemek istiyorsun? - <i>Orijinalliği Pek Umursamayan Grek</i>"
 
 		// MANGO TREE
@@ -596,7 +604,7 @@
 		"dac_ability_anessix_enthrall_description_lore"								"Artık bana aitsin. - <i>Anessix düşmanını ele geçirirken</i>"
 
 		"dac_ability_demon_warrior_bash"											"Savaşçının Darbesi"
-		"dac_ability_demon_warrior_bash_description"								"Anessix'in yoldaşı {s:bonus_chance_damage} hasar verir ve %{s:bash_chance} şansla hedefini {s:bash_duration} saniyeliğine sersemletir."
+		"dac_ability_demon_warrior_bash_description"								"Holigan {s:bonus_chance_damage} hasar verir ve %{s:bash_chance} şansla hedefini {s:bash_duration} saniyeliğine sersemletir."
 		"dac_ability_demon_warrior_bash_lore"										"Anessix'i görmek istiyorsan önce bana geleceksin... - <i>Şeytani Köle Brill</i>"
 
 		"dac_ability_hobgen_passive"												"Pasif Yetenek"
@@ -660,16 +668,258 @@
 		"dac_ability_enno_airbrawl_description"										"Enno tüm düşmanlara karşı Topyekûn Saldırı başlatır. Düşmanlara {s:stacks} zehir istifi uygular, {s:fight_damage} fiziksel hasar verir ve onları {s:land_stun_duration} saniyeliğine sersemletir."
 		"dac_ability_enno_airbrawl_lore"											"ŞU TÜYLÜ PİSLİĞİ BENDEN UZAKLAŞTIR! – <i>Hobgen alçak gönüllülük dersi alırken</i>"
 
+
+		// **** New Rotation
+
+		// VENGEFULSPIRIT
+		"dac_ability_vengefulspirit_wave_of_terror"								"Dehşet Dalgası"
+		"dac_ability_vengefulspirit_wave_of_terror_Description"					"Kindar Ruh dümdüz ileri giden dehşet verici bir çığlık atarak etkilenen düşman birimlere {s:projectile_damage} hasar verir ve zırhlarını {s:duration} saniyeliğine {s:armor_loss} azaltır."
+		"dac_ability_vengefulspirit_wave_of_terror_Lore"									"İntikamla ilgili bir iki şey bildiğime emin olabilirsin... Beyaz Kule'yi ele geçirmeme yardım edersen sana söz veriyorum Beyaz Kule, Imperia'ya karşı yanında olacak. - <i>Hobgen anlaşma yaparken</i>"
+		"dac_ability_vengefulspirit_3star"										"Kindar Ruh 3 Yıldız Etkisi"
+		"dac_ability_vengefulspirit_3star_Description"							"Kindar Ruh öldüğünde {s:radius} hücre mesafede yer alan bütün düşmanlara {s:damage} hasar verir."
+
+		// MEEPO
+		"dac_ability_meepo_poof"												"Puf"
+		"dac_ability_meepo_poof_Description"									"Toprak Okuyan rastgele bir düşmana ışınlanır ve dibindeki bütün düşman birimlere {s:damage} hasar verir."		
+		"dac_ability_meepo_poof_Lore"									"Onu Varoşların içine doğru kovalama, eğer Enno onu koruyorsa oradan canlı çıkamazsın. - <i>Jull bir kart sahtekârının peşine düşmemeye karar verirken</i>"
+		"dac_ability_meepo_divided_we_stand"									"Birimiz Hepimiz İçin"
+		"dac_ability_meepo_divided_we_stand_Description"						"Toprak Okuyan bir yetenek kullandığında o an itibarıyla sahip olduğu aynı sağlığa sahip bir kopyasını oluşturur. Toprak Okuyan veya klonlarından biri ölürse bütün Toprak Okuyanlar ölür."
+		"dac_ability_meepo_divided_we_stand_Lore"									"Efendim, Toprak Okuyan 2 yine zar oyunu başlatmaya çalışıyor, sizce onları ağırlamak akıllıca bir hareket mi? - <i>YipYip, efendisinin konuklarıyla ilgili endişelerini dile getirirken</i>"
+		"dac_ability_meepo_3star"												"Toprak Okuyan 3 Yıldız Etkisi"
+		"dac_ability_meepo_3star_Description"									"Klonlar, Toprak Okuyan'ın eşyalarını da kopyalar."
+ 									
+		// SPIRIT BREAKER
+		"dac_ability_spirit_breaker_charge_of_darkness"							"Karanlığın Taarruzu"
+		"dac_ability_spirit_breaker_charge_of_darkness_Description"				"Ruh Ezici uzaktaki bir düşmana doğru taarruz eder, yoluna çıkan düşmanlara {s:damage} hasar verir ve onları {s:stun_duration} saniyeliğine sersemletir."
+		"dac_ability_spirit_breaker_charge_of_darkness_Lore"									"Gözün şunun üstünde olsun... Burada bulunma sebebini bilmek istiyorum. - <i>Hobgen habersiz olmaktan mutsuzken</i>"
+		"dac_ability_spirit_breaker_3star"										"Ruh Ezici 3 Yıldız Etkisi"
+		"dac_ability_spirit_breaker_3star_Description"							"Ruh Ezici ağır darbe kazanır. Ruh Ezici'nin saldırıları %{s:bash_chance} şansla fazladan {s:damage} hasar verir ve hedefi {s:bash_duration} saniyeliğine sersemletir."
+
+		// SPECTRE
+		"dac_ability_spectre_spectral_dagger"									"Heyula Hançeri"
+		"dac_ability_spectre_spectral_dagger_Description"						"Heyula düşman kahramana bir hançer fırlatarak {s:damage} hasar verir ve {s:path_duration} saniyeliğine düşman birimlerin hareket hızını {s:move_slow_pct}, saldırı hızlarını {s:attack_slow} yavaşlatan bir Gölge Yol çizer. Heyula, saldırmak için o birime doğru koşar ve fazladan {s:bonus_aspd} saldırı hızıyla %{s:bonus_move_pct} hareket hızı kazanır, ayrıca {s:speed_duration} saniyeliğine aşamalı hareket elde eder."
+		"dac_ability_spectre_spectral_dagger_Lore"									"Geçmişin senin için tam bir gizem fakat benim içinse gayet net. Bana hizmet edersen sana aradığın cevapları veririm. - <i>Kişi Kültü Turath</i>"
+		"dac_ability_spectre_3star"												"Heyula 3 Yıldız Etkisi"
+		"dac_ability_spectre_3star_Description"									"Heyula hayattayken bir iblis her büyü yaptığında bütün dost iblisler ateşle sarılır ve hedeflerine ateş saçarak onları tutuştururken {s:damage} hasar verirler."
+
+		// DEATH PROPHET
+		"dac_ability_death_prophet_exorcism"									"Şeytan Çıkarma"
+		"dac_ability_death_prophet_exorcism_Description"						"Ölüm Elçisi {s:spirit_duration} saniyeliğine savaş alanında dolanarak içinden geçtikleri düşmanlara hasar verecek {s:number} şeytani ruh gönderir. Savaş alanında {s:radius} hücrelik bir alanda dolanan ruhlar içlerinden geçtikleri tüm düşmanlara {s:damage} hasar verir ve ardından Ölüm Elçisi'ne geri dönerek verdikleri hasarın %{s:heal_percent} kadarını iyileştirme olarak verir."
+		"dac_ability_death_prophet_exorcism_Lore"									"Suçlularla başa çıkmak da sorun yok ama... Ölüler? Ölülerle nasıl başa çıkılacağını bilmiyorum. - <i>Jull, ölüleri nasıl tekrar öldüreceğini bilemezken</i>"
+
+		// PANGOLIER
+		"dac_ability_pangolier_shield_crash"									"Kalkan Çarpması"
+		"dac_ability_pangolier_shield_crash_Description"						"Muzip Kılıç Ustası havaya zıplar, ardından yere çarparak {s:radius} hücre mesafedeki düşmanlara {s:damage} hasar verir ve yakındaki düşman sayısına bağlı olarak {s:duration} saniye boyunca %{s:reduction_pct_per_enemy} gelen hasar azaltması kazanır. Zıplamadan sonra saldırı menzilindeki bütün düşmanlar Muzip Kılıç Ustası'na odaklanır."
+		"dac_ability_pangolier_shield_crash_Lore"									"Tekrar düşündüm de, şamdanı takma işini Donté şehri terk ettikten sonra yapalım... - <i>Düşünceli Tadilatçı Jull</i>"
+
+		// RUBICK
+		"dac_ability_rubick_fade_bolt"											"Zıplayan Yıldırım"
+		"dac_ability_rubick_fade_bolt_Description"								"Yüce Büyücü hedefler arasında {s:jumps} defa zıplayan güçlü bir büyü akımı oluşturarak onlara {s:damage} hasar verir ve saldırı hasarlarını {s:duration} saniyeliğine %{s:damage_reduction_pct} düşürür."
+		"dac_ability_rubick_fade_bolt_Lore"									"Yüce Büyücü, biz birlikte çalışmalıyız, ikimiz de tahmin edilemez kişileriz. - <i>Hobgen kendini kuşku uyandıran bir şekilde satmaya çalışırken</i>"
+		"dac_ability_rubick_spell_steal"										"Büyü Çalma"
+		"dac_ability_rubick_spell_steal_Description"							"PASİF: {s:radius} hücre mesafedeki bir düşman büyü kullandığında, Yüce Büyücü yıldız seviyesine uygun olacak şekilde bu büyüyü kopyalar." 
+		"dac_ability_rubick_spell_steal_Lore"									"Senin gücün ve benim kaynaklarım sayesinde bizi hiçbir şey durduramayacak. - <i>Anessix, Yüce Büyücü'yü tarafına çekmeye çalışırken</i>"
+		
+		// WRAITH KING
+		"dac_ability_wraith_king_wraithfire_blast"								"Hayalet Ateşi Patlaması"
+		"dac_ability_wraith_king_wraithfire_blast_Description"					"Hayalet Kral {s:fallback_range} hücre mesafedeki bir düşmanını hayalet ateşiyle dağlayarak {s:damage_duration} saniye boyunca her saniye {s:damage} hasar verir ve onu {s:stun_duration} saniyeliğine sersemletir."
+		"dac_ability_wraith_king_wraithfire_blast_Lore"									"Hayalet Kral'la görüşmek istiyorum... İnsanları ateşe vermeyi bilen biri benim tanımam gereken biridir. - <i>Ateş Verme Uzmanlarını Gözünden Tanıyan Hobgen</i>"
+		"dac_ability_wraith_king_raise_dead"									"Ölüleri Diriltme"
+		"dac_ability_wraith_king_raise_dead_Description"						"PASİF: Kahramanlar Hayalet Kral'ın {s:range} hücre mesafesinde öldüğünde zombi çıkartır."
+		"dac_ability_wraith_king_raise_dead_Lore"									"Ostarion, seninle dehşet verici harika işler başaracağız. - <i>Tacı Gözüne Kestirmiş Anessix</i>"
+
+
 		// 3star abilities
-		"dac_ability_3star"															"Three Star Effect"
+		"dac_ability_3star"															"3 Yıldız Etkisi"
 
-		"dac_ability_warlock_3star"													"Warlock 3 Star Effect"
-		"dac_ability_warlock_3star_Description"										"At three stars, Warlock prevents friendly Demons from silencing each other when casting abilities."
+		"dac_ability_warlock_3star"													"İblis Efendisi 3 Yıldız Etkisi"
+		"dac_ability_warlock_3star_Description"										"İblis Efendisi hayatta olduğunda dost iblislerinin yeteneklerini kullanırken birbirini susturmasını önler."
 
-		"dac_ability_razor_3star"													"Razor 3 Star Effect"
-		"dac_ability_razor_3star_Description"										"At three stars, each time Razor attacks an enemy, he steals {s:stolen_dmg} Attack Damage, up to {s:max_stacks} times. This is reset for Razor, but not the enemy, when changing targets."
+		"dac_ability_razor_3star"													"Yıldırım Ruhu 3 Yıldız Etkisi"
+		"dac_ability_razor_3star_Description"										"Yıldırım Ruhu, Statik Bağlantı yeteneğini kazanır. Yıldırım Ruhu düşmana her saldırdığında, en fazla {s:max_stacks} defa olacak şekilde {s:stolen_dmg} saldırı hasarı çalar. Hedef değiştirdiğinde bu, Yıldırım Ruhu için sıfırlanırken düşman için sıfırlanmaz."
 
-		"dac_ability_chaos_knight_3star"													"Chaos Knight 3 Star Effect"
-		"dac_ability_chaos_knight_3star_Description"								"At three stars, Chaos Knight's allied Knights always count as adjacent to a friendly Knight."
+		"dac_ability_chaos_knight_3star"											"Kaos Şövalyesi 3 Yıldız Etkisi"
+		"dac_ability_chaos_knight_3star_Description"								"Kaos Şövalyesi hayattayken dost şövalyeler her zaman için dost bir şövalyenin dibinde olarak kabul edilir."
+
+		"dac_ability_crystal_maiden_3star"											"Buzlar Prensesi 3 Yıldız Etkisi"
+		"dac_ability_crystal_maiden_3star_Description"								"Buzlar Prensesi hayattayken bütün dostların dolum süreleri %{s:cooldown_reduction} azalır."
+
+		"dac_ability_terrorblade_3star"												"Dehşetin Kılıcı 3 Yıldız Etkisi"
+		"dac_ability_terrorblade_3star_Description"									"Dehşetin Kılıcı şeytani enerji çağırarak düşman iblislerine karşı +%{s:damage_bonus_pct} saf hazar kazanır. Her kullanımda, bonus {s:duration} saniye sürer."
+
+		"dac_ability_tiny_3star"													"Minik 3 Yıldız Etkisi"
+		"dac_ability_tiny_3star_Description"										"Minik, bir düşmanı fırlattığı her sefer büyüyerek +{s:bonus_damage} saldırı hasarı ve +{s:bonus_armor} zırh kazanır ancak en fazla {s:max_stacks} defa olacak şekilde {s:aspd_loss} saldırı hızı kaybeder."
+
+		"dac_ability_luna_3star"													"Ay Sürücüsü 3 Yıldız Etkisi"
+		"dac_ability_luna_3star_Description"										"Ay Sürücüsü, Tutulma Yeteneği kazanır. Ay Sürücüsü zora düştüğünde Selemene, Ay Sürücüsü'nün {s:radius} hücre etrafındaki alana giden bütün ışığı engeller ve düşmanları her {s:beam_interval} saniyede bir {s:beams} ay ışığı enerjisine boğar. Bu, düşman başına {s:hit_count} ışınla sınırlıdır ve ışın başına {s:beam_damage} hasar vererek onları {s:beam_stun} saniye boyunca sersemletir."
+
+		"dac_ability_dazzle_3star"													"Gölge Rahibi 3 Yıldız Etkisi"
+		"dac_ability_dazzle_3star_Description"										"Gölge Rahip en fazla {s:never_die_range} hücre mesafedeki bütün dost birimleri Sığ Mezar ile kutsar. Kutsanan bütün birimler, öldürücü darbe aldıktan sonra {s:never_die_duration} saniye daha hayatta kalmaya devam eder."
+
+		"dac_ability_broodmother_3star"												"Örümcek Ana 3 Yıldız Etkisi"
+		"dac_ability_broodmother_3star_Description"									"Örümcek Ana hayattayken bütün dost örümcek yavrularını dokunulmaz yapar."
+
+		"dac_ability_pudge_3star"													"Kasap 3 Yıldız Etkisi"
+		"dac_ability_pudge_3star_Description"										"Kasap, bir et yığını hâline gelir. {s:radius} hücre etrafında ölen her düşman için maksimum SP'si {s:bonus_health_per_death}, büyü direnci %{s:magical_resistance} artar."
+
+		"dac_ability_viper_3star"													"Engerek 3 Yıldız Etkisi"
+		"dac_ability_viper_3star_Description"										"Engerek, her {s:num_attacks} saldırıda bir Engerek Saldırısı yapar. Düşman birim saniye başına {s:damage} hasar alır. Hareket hızı %{s:bonus_movement_speed}, saldırı hızı {s:bonus_attack_speed} azalır. Hız azaltma etkileri {s:debuff_duration} saniye içinde yavaşça kaybolur."
+
+		"dac_ability_beastmaster_3star"												"Yaratık Efendisi 3 Yıldız Etkisi"
+		"dac_ability_beastmaster_3star_Description"									"Yaratık Efendisi, çağrılmış birimlerden %{s:damage_reduction} daha az hasar alır ve onların büyü etkilerine karşı bağışıklığa sahip olur."
+
+		"dac_ability_juggernaut_3star"												"3 Yıldız Etkisi"
+		"dac_ability_juggernaut_3star_Description"									"3 Yıldız Etkisi: Durdurulamaz Savaşçı hayattayken bütün dost kahramanlar onun maksimum SP'sinin %{s:bonus_health_pct} kadarını kazanır."
+
+		"dac_ability_queenofpain_3star"												"3 Yıldız Etkisi"
+		"dac_ability_queenofpain_3star_Description"									"Izdırap Kraliçesi yakındaki düşmanları etkisi altına alarak %{s:evasion} şansla {s:radius} hücre mesafedeki düşmanlardan gelen saldırılardan kaçınır."
+
+		"dac_ability_drow_ranger_3star"												"Korucu Kara Elf 3 Yıldız Etkisi"
+		"dac_ability_drow_ranger_3star_Description"									"Korucu Kara Elf'in okları buz oklarına dönüşür. Bu oklar vurduğu birimin hareket hızını %{s:move_speed_loss}, saldırı hızını da {s:attack_speed_loss} azaltır. Etkisi {s:slow_duration} saniye sürer."
+
+		"dac_ability_abaddon_3star"													"Avernus Lordu 3 Yıldız Etkisi"
+		"dac_ability_abaddon_3star_Description"										"Avernus Lordu, saldırdığı düşmanlara Avernus Laneti uygulama yeteneği kazanır. Avernus Lordu aynı düşman birime arka arkaya {s:min_stacks} defa saldırırsa o birim {s:silence_duration} saniyeliğine susturulurken Avernus Lordu da o birime karşı +{s:attack_speed} saldırı hızı kazanır. Bu, isabetli her saldırıda tazelenir ancak Avernus Lordu hedef değiştirirse sıfırlanarak tekrar başlar."
+
+		"dac_ability_bloodseeker_3star"												"Kan Avcısı 3 Yıldız Etkisi"
+		"dac_ability_bloodseeker_3star_Description"									"Kan Avcısı, varsa, suikastçı ittifakının mevcut etkin seviyesinde kritik vuruş bonusu kazanır."
+
+		"dac_ability_morphling_3star"												"Kabulgan 3 Yıldız Etkisi"
+		"dac_ability_morphling_3star_Description"									"Kabulgan düşman şampiyonun dövüş esnasında sahip olacağı tüm etkin düşman ittifakı bonuslarına sahip olur."
+
+		"dac_ability_shadow_fiend_3star"											"Gölge İblis 3 Yıldız Etkisi"
+		"dac_ability_Shadow_fiend_3star_Description"								"Gölge İblis, Karanlık Lordun Varlığı'nı kazanır. {s:radius} hücre mesafedeki düşmanlar Gölge İblis'in dehşet verici varlığından ötürü {s:armor_reduction} zırh kaybeder."
+
+		"dac_ability_magnataur_3star"												"Magnoseros 3 Yıldız Etkisi"
+		"dac_ability_magnataur_3star_Description"									"Magnoseros Ters Polarite kazanır. Kullanıldığında {s:radius} hücre mesafedeki düşmanlar {s:damage} hasar alır ve {s:duration} saniyeliğine sersemletilir."
+
+		"dac_ability_arc_warden_3star"												"3 Yıldız Etkisi"
+		"dac_ability_arc_warden_3star_Description"									"Mükemmel Kopya klonları Yıldırım Muhafızı'nın eşyasını da kopyalar."
+
+		"dac_ability_bat_rider_3star"												"Yarasa Binicisi 3 Yıldız Etkisi"
+		"dac_ability_bat_rider_3star_Description"									"Yapışkan Napalm düşmanları ateşe verir. Detaylar için yeteneğe bakın."
+
+		"dac_ability_nyx_assassin_3star"											"Nyx Suikastçısı 3 Yıldız Etkisi"
+		"dac_ability_nyx_assassin_3star_Description"								"Öç Alma artık daha sık kullanılabilir. Detaylar için yeteneğe bakın."
+
+		"dac_ability_shadow_demon_3star"											"Gölge Şeytan 3 Yıldız Etkisi"
+		"dac_ability_shadow_demon_3star_Description"								"Gölge Şeytan, Şeytani Arındırma'nın hedefine Ruh Kapanı uygular. Detaylar için yeteneğe bakın."
+
+		"dac_ability_tusk_3star"													"Kışın Efendisi 3 Yıldız Etkisi"
+		"dac_ability_tusk_3star_Description"										"Deniz Aygırı Yumruğu düşmanları daha uzun süreliğine yavaşlatır, ayrıca saldırı hızı ve hareket hızı kaybetmelerine de neden olur. Detaylar için yeteneğe bakın."
+
+		"dac_ability_venomancer_3star"												"Zehir Efendisi 3 Yıldız Etkisi"
+		"dac_ability_venomancer_3star_Description"									"Veba Gözü büyü hasarına karşı bağışıklıdır."
+
+		"dac_ability_weaver_3star"													"Kader Örücü 3 Yıldız Etkisi"
+		"dac_ability_weaver_3star_Description"										"Kader Örücü'nün saldırıları her Şukuçi sonrasında mana yakar. Detaylar için yeteneğe bakın."
+
+		"dac_ability_bristleback_3star"												"Diken Sırt 3 Yıldız Etkisi"
+		"dac_ability_bristleback_3star_Description"									"Diken Saçma'nın dolum süresi oldukça azalır. Detaylar için yeteneğe bakın."
+
+		"dac_ability_earth_spirit_3star"											"Toprak Ruhu 3 Yıldız Etkisi"
+		"dac_ability_earth_spirit_3star_Description"								"Jeomanyetik Kavrama düşmanları sersemletir. Detaylar için yeteneğe bakın."
+
+		"dac_ability_natures_prophet_3star"											"Doğanın Elçisi 3 Yıldız Etkisi"
+		"dac_ability_natures_prophet_3star_Description"								"Ağaçlar tahtanın düşman tarafından çıkar."
+
+		"dac_ability_ogre_magi_3star"												"Büyücü Ogre 3 Yıldız Etkisi"
+		"dac_ability_ogre_magi_3star_Description"									"Büyücü Ogre, Kana Susama'yı çoklu kullanma şansına sahip olur. Detaylar için yeteneğe bakın."
+
+		"dac_ability_slardar_3star"													"Slither Muhafızı 3 Yıldız Etkisi"
+		"dac_ability_slardar_3star_Description"										"Slither Muhafızı Aşındırıcı Pus'u kullandıktan sonra ezer. Detaylar için yeteneğe bakın."
+
+		"dac_ability_windrunner_3star"												"3 Yıldız Etkisi"
+		"dac_ability_windrunner_3star_Description"									"Rüzgâr Korucusu, Kuvvetli Atış yaparken kaçınma ve büyü bağışıklığı kazanır. Detaylar için yeteneğe bakın."
+
+		"dac_ability_witch_doctor_3star"											"Büyücü Hekim 3 Yıldız Etkisi"
+		"dac_ability_witch_doctor_3star_Description"								"Felç Edici Tas'ın isabet ettiği düşmanlar Beddua ile lanetlenir. Detaylar için yeteneğe bakın."
+
+		"dac_ability_ember_spirit_3star"											"Ateş Ruhu 3 Yıldız Etkisi"
+		"dac_ability_ember_spirit_3star_Description"								"Yumruk Çabukluğu'nun etki alanı artırıldı. Detaylar için yeteneğe bakın."
+
+		"dac_ability_enigma_3star"													"Enigma 3 Yıldız Etkisi"
+		"dac_ability_enigma_3star_Description"										"Gece Yarısı Dalgası'nın etki alanı artar. Detaylar için yeteneğe bakın."
+
+		"dac_ability_wisp_3star"													"İlahi Ruh 3 Yıldız Etkisi"
+		"dac_ability_wisp_3star_Description"										"Yer Değiştirme, canlandırılan kahramanın dolum sürelerini sıfırlar."
+
+		"dac_ability_lycan_3star"													"Kurt Adam 3 Yıldız Etkisi"
+		"dac_ability_lycan_3star_Description"										"Şekil Değiştirme daha fazla kurt çağırır. Detaylar için yeteneğe bakın."
+
+		"dac_ability_omniknight_3star"												"Omnişövalye 3 Yıldız Etkisi"
+		"dac_ability_omniknight_3star_Description"									"Arındırma'nın etki alanı artar. Detaylar için yeteneğe bakın."
+
+		"dac_ability_shadow_shaman_3star"											"Gölge Şaman 3 Yıldız Etkisi"
+		"dac_ability_shadow_shaman_3star_Description"								"Gölge Şaman, Toplu Yılan Gözleri tarafından hedef alınan birimi lanetler."
+
+		"dac_ability_treant_protector_3star"										"3 Yıldız Etkisi"
+		"dac_ability_treant_protector_3star_Description"							"Can Emici Tohum tarafından iyileştirilen birimler Canlı Zırh da kazanır. Detaylar için yeteneğe bakın."
+
+		"dac_ability_storm_spirit_3star"											"Fırtına Ruhu 3 Yıldız Etkisi"
+		"dac_ability_storm_spirit_3star_Description"								"Fırtına Ruhu, Aşırı Yüklenme yeteneğini kazanır. Büyü yapıldığında bir elektrik yüklemesi oluşturur ve bu yükleme salındığında Fırtına Ruhu bir sonraki saldırısında patlamaya neden olarak {s:damage} hasar verir ve hedefin saldırı hızını {s:slow_duration} saniyeliğine {s:attack_speed_loss} düşürür. Fırtına Ruhu'nun Üçgen Ezici Saldırı yeteneği bir saldırı yerine geçer ve bu gerçekleştiğinde vurduğu bütün düşmanlar hasar alır ve yavaşlatılır."
+		
+		"dac_ability_legion_commander_3star"										"3 Yıldız Etkisi"
+		"dac_ability_legion_commander_3star_Description"							"Lejyon Komutanı'nı hedefleyen birimler Düello başında normal saldırıları için başka bir hedef seçer, bu birimlere Düello partneri dahil değildir."
+
+		"dac_ability_life_stealer_3star"											"Can Çalan 3 Yıldız Etkisi"
+		"dac_ability_life_stealer_3star_Description"								"Can Çalan, Öfke yeteneği kazanır. Can Çalan bunu kullandığında büyü bağışıklığı, +%{s:bonus_movement_speed_pct} hareket hızı ve +{S:bonus_attack_speed} saldırı hızı kazanır. Etkisi {s:duration} saniye sürer."
+
+		"dac_ability_snapfire_3star"												"Çılgın Nine 3 Yıldız Etkisi"
+		"dac_ability_snapfire_3star_Description"									"Emektar Pompalı ayrıca düşman zırhını da azaltır. Detaylar için yeteneğe bakın."
+
+		"dac_ability_antimage_3star"												"Büyücü Avcısı 3 Yıldız Etkisi"
+		"dac_ability_antimage_3star_Description"									"Büyücü Avcısı düşmanının kalan manasını saldırılarıyla tamamen yakarsa Mana Silme yeteneği {s:bonus_damage} ilave hasar verir."
+
+		"dac_ability_enchantress_3star"												"Ahu 3 Yıldız Etkisi"
+		"dac_ability_enchantress_3star_Description"									"Ahu dokunulmaz olur. Ahu bir düşman tarafından saldırıya maruz kaldığında saldırganının saldırı hızını saldırdığı süre boyunca %{s:chance} şansla {s:slow} azaltır."
+
+		"dac_ability_phantom_assassin_3star"										"3 Yıldız Etkisi"
+		"dac_ability_phantom_assassin_3star_Description"							"Hayalet Suikastçı eğer varsa mevcut hain ittifakınızın etkilerini kazanır."
+
+		"dac_ability_bounty_hunter_3star"											"Ödül Avcısı 3 Yıldız Etkisi"
+		"dac_ability_bounty_hunter_3star_Description"								"Ödül Avcısı, öldürdüğü her düşman başına {s:gold} altın verir."
+
+		"dac_ability_kunkka_3star"													"Amiral 3 Yıldız Etkisi"
+		"dac_ability_kunkka_3star_Description"										"Amiral, Dalgagetiren sahibi olur. Amiral her {s:number} saldırıda bir kılıcını kuvvetli bir şekilde savurarak hedefine fazladan {s:damage} hasar verirken yakındaki düşmanlara %{s:cleave_pct} saçma hasarı verir."
+
+		"dac_ability_alchemist_3star"												"Simyacı 3 Yıldız Etkisi"
+		"dac_ability_alchemist_3star_Description"									"Simyacı dövüşün başında Ogre'ını kimyevi yollarla öfkelendirerek {s:attack_speed} saldırı hızı kazanır ve {s:rage_duration} saniyeliğine büyüye karşı bağışıklığa sahip olur."
+
+		"dac_ability_puck_3star"													"Ejder Peri 3 Yıldız Etkisi"
+		"dac_ability_puck_3star_Description"										"Büyülü Küre'nin dolum süresi büyük oranda azalır. Detaylar için yeteneğe bakın."
+
+		"dac_ability_slark_3star"													"Gece Gezgini 3 Yıldız Etkisi"
+		"dac_ability_slark_3star_Description"										"Gece Gezgini, Kara Anlaşma sahibi olur. Kısa bir gecikmeden sonra Gece Gezgini yaşam kanının bir kısmını kurban ederek üzerindeki olumsuz etkileri siler ve {s:radius} hücre mesafedeki düşmanlara toplamda {s:total_damage} hasar verir. Gece Gezgini bu hasarın %{s:self_harm_pct} kadarını alır."
+
+		// WILD ALLIANCE BONUSES
+		"dac_ability_wild_alliance_crit"								"Kritik Saldırı"
+		"dac_ability_wild_alliance_crit_description"					"PASİF: Kurt %{s:crit_chance} şansla düşman birimlerine %{s:crit_bonus} değerinde mahvedici bir kritik saldırı yapar."
+		
+		"dac_ability_wild_alliance_evasion"								"Kaçınma"
+		"dac_ability_wild_alliance_evasion_description"					"PASİF: Vahşikanat %{s:evasion_pct} kaçınma kazanır."
+
+		"dac_ability_wild_alliance_splash_attack"								"Sıçrayan Saldırı"
+		"dac_ability_wild_alliance_splash_attack_description"					"PASİF: Kara Ejderha'nın menzilli saldırısı, Ejderha'nın hedefinin {s:splash_radius} hücre çevresindeki birimlere %{s:splash_damage_percent} sıçrama hasarı verir."
+
+		"dac_ability_enchantress_wild_alliance_bonus"								"Şaman İttifakı Bonusu"
+		"dac_ability_enchantress_wild_alliance_bonus_Description"					"Şaman ittifakı yaratığı saldırıya maruz kaldığında saldırganının saldırı hızını, saldırdığı süre boyunca %{s:chance} şansla {s:slow} azaltır."
+
+		"dac_ability_magnus_wild_alliance_bonus"									"Şaman İttifakı Bonusu"
+		"dac_ability_magnus_wild_alliance_bonus_Description"						"Şaman ittifakı yaratığı bir yakın dövüş birimi tarafından hasar aldığında, saldırganını %{s:chance} şansla en fazla {s:length} hücre kadar uzağa atar."
+
+		"dac_ability_beastmaster_wild_alliance_bonus"								"Şaman İttifakı Bonusu"
+		"dac_ability_beastmaster_wild_alliance_bonus_Description"					"Şaman ittifakı yaratığı hem çağrıldığında hem de her düşman öldürdüğünde {s:buff_duration} saniyeliğine +{s:attack_speed} saldırı hızı kazanır."
+
+		"dac_ability_treant_protector_wild_alliance_bonus"							"Şaman İttifakı Bonusu"
+		"dac_ability_treant_protector_wild_alliance_bonus_Description"				"Şaman ittifağı yaratığı {s:radius} hücre mesafedeki dost birimlere +{s:armor} zırh ve +{s:hp_regen} SP yenilemesi verir."
+
+		"dac_ability_lone_druid_wild_alliance_bonus"								"Şaman İttifakı Bonusu"
+		"dac_ability_lone_druid_wild_alliance_bonus_Description"					"Yalnız Druid, şaman ittifakı yaratığıyla bir Ruh Bağı kurar. Her iki birimden biri bir düşmana hasar verdiğinde her ikisi %{s:lifesteal_pct} can çalar."
+
+		"dac_ability_natures_prophet_wild_alliance_bonus"							"Şaman İttifakı Bonusu"
+		"dac_ability_natures_prophet_wild_alliance_bonus_Description"				"Şaman ittifakı yaratığı Doğanın Gazabı'nı elde eder. Yaratık, {s:damage} hasar verecek bir patlamayı hedefine gönderir. Bu patlama {s:jumps} defa diğer düşmanlara seker ve her sekme başına hasarı %{s:increase_pct} artar."
+
+		"dac_ability_wild_alliance_wrath_of_nature"									"Doğanın Gazabı"
+		"dac_ability_wild_alliance_wrath_of_nature_Description"						"Yaratık, {s:damage} hasar verecek bir patlamayı hedefine gönderir. Bu patlama {s:jumps} defa diğer düşmanlara seker ve her sekme başına hasarı %{s:increase_pct} artar."
 	}
 }

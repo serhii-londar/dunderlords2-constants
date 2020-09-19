@@ -24,7 +24,7 @@
 
 	"DAC_SteamLogIn_Desc1"								"Přihlas se ke svému účtu služby Steam, abys mohl hrát online, navyšovat své hodnocení vládce podsvětí a sledovat svůj postup sdílený pro mobilní zařízení i PC."
 	"DAC_SteamLogIn_Desc2"								"Navyšuj své hodnocení vládce podsvětí a sleduj svůj postup sdílený pro mobilní zařízení i PC."
-	"DAC_SteamLogIn_Desc3"								"Odemykej achievementy a získej přístup k vlastnostem sezónního Bitevního deníku."
+	"DAC_SteamLogIn_Desc3"								"Odemykejte achievementy a získejte přístup k vlastnostem Bitevního deníku."
 	"DAC_SteamLogIn_Desc4"								"Přihlas se k účtu služby Steam, abys mohl hrát tento mód."
 	"DAC_SteamPlayOffline"								"Zrušit"
 	"DAC_SteamAccountName"								"Název účtu" 
@@ -45,6 +45,9 @@
 
 	"DAC_MatchTypeMultiplayer"							"Proti hráčům"
 	"DAC_MatchTypeStandard"								"Standardní"
+	"DAC_MatchTypeClassic"								"Klasický"
+	"DAC_MatchMode"										"Režim"
+	"DAC_MatchModeClassic"								"Klasický"
 	"DAC_MatchTypeOnline"								"Online"
 	"DAC_MatchTypeTurbo"								"Rychlovka"
 	"DAC_MatchTypeMultiplayerMMSelect"					"Vyber typ zápasu"
@@ -58,7 +61,9 @@
 	"DAC_MatchTypeNameDuos"								"Dvojice"
 	"DAC_MatchTypeDuosBotMatch"							"Dvojice s boty"
 	"DAC_MatchTypeName1_Party"							"Soukromé lobby"
-	"DAC_MatchTypeName1"								"Klasický"
+	"DAC_MatchTypeName1"								"Standardní"
+	"DAC_MatchTypeName11_Party"							"Soukromé lobby"
+	"DAC_MatchTypeName11"								"Standardní"
 	"DAC_MatchTypeName7"								"Tutoriál"
 	"DAC_MatchTypeName2"								"Rychlovka"
 	"DAC_MatchTypeName3"								"Dvojice"
@@ -236,8 +241,8 @@
 	"DAC_PurchaseEvent_TooBusy"							"Síť hry Dota Underlords je příliš zaneprázdněná, takže nemůže zpracovat tuto akci. Zkus to znovu za pár minut."
 	"DAC_PurchaseEvent_InvalidEvent"					"Předměty této události už není možné zakoupit."
 	"DAC_PurchaseEvent_InsufficientCredits"				"Pro zakoupení tohoto Bitevního deníku nemáš dostatek mincí."
-	"DAC_PurchaseEvent_ExpectedCostMismatch"			"Při provádění nákupu Bitevního deníku této sezóny došlo k neočekávané chybě. Tvůj herní klient může být zastaralý."
-	"DAC_PurchaseEvent_AlreadyOwned"					"Bitevní deník této sezóny už vlastníš."	
+	"DAC_PurchaseEvent_ExpectedCostMismatch"			"Při provádění nákupu Bitevního deníku došlo k neočekávané chybě. Tvůj herní klient může být zastaralý."
+	"DAC_PurchaseEvent_AlreadyOwned"					"Tento Bitevní deník už vlastníš."	
 	"DAC_PurchaseEvent_SuccessTitle"					"Povedlo se"
 	"DAC_PurchaseEvent_SuccessBody"						"Úspěšně sis zakoupil Bitevní deník!"
 	"StoreCheckout_Error_Title"							"Chyba"
@@ -250,9 +255,9 @@
 	"DAC_PurchaseEventCurrency_InternalError"			"Při provádění tohoto nákupu došlo k neočekávané chybě."
 	"DAC_PurchaseEventCurrency_Disabled"				"Nakupování je momentálně zakázáno z důvodu údržby."
 	"DAC_PurchaseEventCurrency_TooBusy"					"Síť hry Dota Underlords je příliš zaneprázdněná, takže nemůže zpracovat tuto akci. Zkus to znovu za pár minut."
-	"DAC_PurchaseEventCurrency_EventNotOwned"			"Pro zakoupení dalších úrovní musíš vlastnit Bitevní deník této sezóny."
-	"DAC_PurchaseEventCurrency_InvalidCurrency"			"Úrovně Deníku této sezóny si nemůžeš zakoupit."
-	"DAC_PurchaseEventCurrency_EventClosed"				"Tato sezóna už skončila, takže není možné zakoupit úrovně jejího Deníku."
+	"DAC_PurchaseEventCurrency_EventNotOwned"			"Pro zakoupení dalších úrovní musíš vlastnit tento Bitevní deník."
+	"DAC_PurchaseEventCurrency_InvalidCurrency"			"Úrovně tohoto Deníku si nemůžeš zakoupit."
+	"DAC_PurchaseEventCurrency_EventClosed"				"Tento Bitevní deník už vypršel, takže není možné zakoupit jeho úrovně."
 	"DAC_PurchaseEventCurrency_InvalidQuantity"			"Požadované množství úrovní není platné. Tvůj herní klient může být zastaralý."
 	"DAC_PurchaseEventCurrency_InvalidExpectedCost"		"Očekávaná cena těchto úrovní není platná. Tvůj herní klient může být zastaralý."
 	"DAC_PurchaseEventCurrency_InvalidStartingBalance"	"Při provádění nákupu těchto úrovní Deníku došlo k neočekávané chybě. Tvůj herní klient může být zastaralý."
@@ -706,84 +711,84 @@
 	"dac_item_cinderwall_lore"							"Cinderwall Lore"
 
 	"dac_item_aegis_new"                                "Aegis Nesmrtelného"
-	"dac_item_aegis_new_desc"                           "Nositel jednou za kolo oklame smrt a po {d:resurrect_delay} sekundách znovu oživne s {d:resurrect_health_percent} % svého maximálního zdraví."
+	"dac_item_aegis_new_desc"                           "Nositel jednou za kolo oklame smrt a po {s:resurrect_delay} sekundách znovu oživne s {s:resurrect_health_percent} % svého maximálního zdraví."
 	"dac_item_aegis_new_lore"                           "Sýr je prodáván zvlášť. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_bloodthorn"		    					"Trnový meč"
-	"dac_item_bloodthorn_desc"			    			"+{d:attack_damage} bodů k poškození útoku. Pokud má nepřítel více než {d:mana_trigger_percentage} % many, je na {d:silence_duration} sekund umlčen. Útoky na umlčeného nepřítele nemohou minout a udělují {d:target_crit_multiplier}% kritické poškození. Cooldown: {d:cooldown} sekund."
+	"dac_item_bloodthorn_desc"			    			"+{s:attack_damage} bodů k poškození útoku. Pokud má nepřítel více než {s:mana_trigger_percentage} % many, je na {s:silence_duration} sekund umlčen. Útoky na umlčeného nepřítele nemohou minout a udělují {s:target_crit_multiplier}% kritické poškození. Cooldown: {s:cooldown} sekund."
 	"dac_item_bloodthorn_lore"			    			"Tenhle meč není mezi lidmi moc oblíbený. A je snadné poznat proč. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_butterfly"								"Motýlek"
-	"dac_item_butterfly_desc"			    			"+{d:attack_damage} bodů k poškození útoku, +{d:attack_speed} bodů k rychlosti útoku a +{d:evasion} % k uhýbání."
+	"dac_item_butterfly_desc"			    			"+{s:attack_damage} bodů k poškození útoku, +{s:attack_speed} bodů k rychlosti útoku a +{s:evasion} % k uhýbání."
 	"dac_item_butterfly_lore"			    			"Něco pro děti. Třeba jako suvenýr. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_crystalis"								"Krystalys"
-	"dac_item_crystalis_desc"							"+{d:attack_damage} bodů k poškození útoku. Nositel má {d:bonus_damage_chance}% šanci na udělení {d:bonus_damage_multiplier}% kritického zásahu."
+	"dac_item_crystalis_desc"							"+{s:attack_damage} bodů k poškození útoku. Nositel má {s:bonus_damage_chance}% šanci na udělení {s:bonus_damage_multiplier}% kritického zásahu."
 	"dac_item_crystalis_lore"							"Představ si, jakou škodu by s tímhle napáchala Zahalená sestra. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_desolator"								"Dezolátor"
-	"dac_item_desolator_desc"							"Brnění cíle je na {d:duration} sekund sníženo o {d:target_armor} bodů."
+	"dac_item_desolator_desc"							"Brnění cíle je na {s:duration} sekund sníženo o {s:target_armor} bodů."
 	"dac_item_desolator_lore"							"Tak ty chceš, aby na tebe nepřátelé jen tak nezapomněli? V tom případě bys měl zkusit tohle... – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_diffusal_blade"							"Průrazná čepel"
 	"dac_item_diffusal_blade_lore"						"Nezbytný doplněk, pokud jdeš na karneval za Antimága. – <i>Zenok, obchodník se smrtí</i>"		
-	"dac_item_diffusal_blade_desc"						"Nositelovy útoky pálí každým zásahem {d:mana_per_hit} bodů many a udílejí {d:damage_per_burn} bodů poškození. Cíl nezískává z tohoto poškození žádnou manu."
+	"dac_item_diffusal_blade_desc"						"Nositelovy útoky pálí každým zásahem {s:mana_per_hit} bodů many a udílejí {s:damage_per_burn} bodů poškození. Cíl nezískává z tohoto poškození žádnou manu."
 	"dac_item_divine_rapier_new"                        "Božský rapír"
-	"dac_item_divine_rapier_new_desc"					"+{d:attack_damage} bodů k poškození útoku. Pokud máš vybavený Božský rapír a prohraješ kolo, druhý hráč ti ho sebere."
+	"dac_item_divine_rapier_new_desc"					"+{s:attack_damage} bodů k poškození útoku. Pokud máš vybavený Božský rapír a prohraješ kolo, druhý hráč ti ho sebere."
 	"dac_item_divine_rapier_new_lore"					"Někdy i Bohové žádají krev. – <i>Zenok, obchodník se smrtí</i>"	
 	"dac_item_eul"										"Eulovo žezlo větru"
-	"dac_item_eul_desc"									"+{d:mana_per_second} bodů many za sekundu. Jakmile je na nositele zaútočeno, mocný poryv větru zvedne útočníka do vzduchu a zajistí mu na {s:eul_duration} sekundy nezranitelnost. Cooldown: {d:cooldown} sekund."
+	"dac_item_eul_desc"									"+{s:mana_per_second} bodů many za sekundu. Jakmile je na nositele zaútočeno, mocný poryv větru zvedne útočníka do vzduchu a zajistí mu na {s:eul_duration} sekundy nezranitelnost. Cooldown: {s:cooldown} sekund."
 	"dac_item_eul_lore"									"S tímhle můžeš poroučet větru. Ne však dešti, na to pozor. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_hand_of_midas"							"Midasova rukavice"
-	"dac_item_hand_of_midas_desc"						"+{d:attack_speed} bodů k rychlosti útoku. Nositel má vždy po zabití nepřítele {d:percent_gold}% šanci na získání {d:gold} zlaťáku."
+	"dac_item_hand_of_midas_desc"						"+{s:attack_speed} bodů k rychlosti útoku. Nositel má vždy po zabití nepřítele {s:percent_gold}% šanci na získání {s:gold} zlaťáku."
 	"dac_item_hand_of_midas_lore"						"Peníze prý kazí charakter. Chudoba toho kazí ale mnohem více. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_heart_of_tarrasque_new"					"Srdce Tarrasque"
-	"dac_item_heart_of_tarrasque_new_desc"				"+{d:health_bonus} bodů zdraví. Nositeli se každou sekundu regenerují {d:bonus_hp_regen} % maximálního zdraví."
+	"dac_item_heart_of_tarrasque_new_desc"				"+{s:health_bonus} bodů zdraví. Nositeli se každou sekundu regenerují {s:bonus_hp_regen} % maximálního zdraví."
 	"dac_item_heart_of_tarrasque_new_lore"				"Smrt je pro ty, kdo nejsou hodni. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_horn_of_the_alpha"                        "Alfův roh"
 	"dac_item_horn_of_the_alpha_desc"                   "Po {s:summon_cooldown} sekundách bitvy vyvolá silného spřáteleného hromokožce. Lze použít jednou za kolo."
 	"dac_item_horn_of_the_alpha_lore"                   "Nemáš ponětí, kolik lovců z Kostimlat padlo v honbě za tímto rohem. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_kaya"										"Kaya"
-	"dac_item_kaya_desc"								"+{d:bonus_spell_damage} % k poškození schopností."
+	"dac_item_kaya_desc"								"+{s:bonus_spell_damage} % k poškození schopností."
 	"dac_item_kaya_lore"								"Když se o něčem traduje, že to je „ztracené už celá tisíciletí“, většinou je to jen chytrý marketingový slogan. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_mask_of_death"							"Maska smrti"
-	"dac_item_mask_of_death_desc"						"+{d:lifesteal_percentage} % k sání zdraví."
+	"dac_item_mask_of_death_desc"						"+{s:lifesteal_percentage} % k sání zdraví."
 	"dac_item_mask_of_death_lore"						"Dám ti malou radu. Pokud se octneš na party, kde všichni kromě tebe mají tuhle masku, okamžitě vezmi nohy na ramena. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_octarine_essence"							"Oktarínový náhrdelník"
-	"dac_item_octarine_essence_desc"					"Poskytuje {d:cooldown_percentage}% redukci cooldownů schopností."
+	"dac_item_octarine_essence_desc"					"Poskytuje {s:cooldown_percentage}% redukci cooldownů schopností."
 	"dac_item_octarine_essence_lore"					"Pouhá ochutnávka toho, co dokáže oktarínový orb. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_orb_of_venom"								"Jedový orb"
 	"dac_item_orb_of_venom_desc"						"Útoky nositele mají schopnost otrávit svůj cíl."
 	"dac_item_orb_of_venom_lore"						"Čas je prý nejspolehlivější zabiják. Ale malou pomoc jistě neodmítne. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_radiance_new"                             "Žhnoucí meč"
-	"dac_item_radiance_new_desc"                        "Pálí nepřátele v okruhu {d:attack_damage_aoe} políček, čímž jim uděluje {d:attack_damage_over_time} bodů poškození za sekundu a zajišťuje, že mají {d:miss_percent}% šanci minout své útoky."
+	"dac_item_radiance_new_desc"                        "Pálí nepřátele v okruhu {s:attack_damage_aoe} políček, čímž jim uděluje {s:attack_damage_over_time} bodů poškození za sekundu a zajišťuje, že mají {s:miss_percent}% šanci minout své útoky."
 	"dac_item_radiance_new_lore"                        "Něco tak svatého vůbec nepatří do Bílé věže. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_headdress"								"Čelenka"
-	"dac_item_headdress_desc"							"Spojenci v okruhu 1 políčka od nositele získávají {d:health_regen} bodů zdraví za sekundu."
+	"dac_item_headdress_desc"							"Spojenci v okruhu 1 políčka od nositele získávají {s:health_regen} bodů zdraví za sekundu."
 	"dac_item_headdress_lore"							"Tohle mi prodal maník, který říkal, že to pochází z Hrůzného hnízda. Nevím, jestli nelhal, ale to pero je moc hezké. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_satanic"                                  "Satanus"
-	"dac_item_satanic_desc"                             "+{d:bonus_health} bodů zdraví. Kdykoli nositelovo zdraví klesne pod {d:activation_percent} %, získá na {s:life_steal_duration} sekundy {d:life_steal_percent} % k sání zdraví. Cooldown: {d:cooldown} sekund."
+	"dac_item_satanic_desc"                             "+{s:bonus_health} bodů zdraví. Kdykoli nositelovo zdraví klesne pod {s:activation_percent} %, získá na {s:life_steal_duration} sekundy {s:life_steal_percent} % k sání zdraví. Cooldown: {s:cooldown} sekund."
 	"dac_item_satanic_lore"                             "Čím dříve tohle zmizí z mého obchodu, tím lépe. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_shivas_guard_new"							"Shivin nárameník"
-	"dac_item_shivas_guard_new_desc"					"+{d:bonus_armor} bodů k brnění. Jednou za kolo vyvolá mrazivou vlnu, která udělí nepřátelům v okruhu 3 políček {d:blast_damage} bodů poškození a na {s:blast_debuff_duration} sekundy o {d:blast_debuff_move_speed} bodů sníží rychlost jejich pohybu a útoku."
+	"dac_item_shivas_guard_new_desc"					"+{s:bonus_armor} bodů k brnění. Jednou za kolo vyvolá mrazivou vlnu, která udělí nepřátelům v okruhu 3 políček {s:blast_damage} bodů poškození a na {s:blast_debuff_duration} sekundy o {s:blast_debuff_move_speed} bodů změní rychlost jejich pohybu a útoku."
 	"dac_item_shivas_guard_new_lore"					"Tebe taky zajímá, jak se to podařilo dostat z krypty Safírové konklávy? – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_stonehall_pike"							"Píka z Kamenných vrchů"
-	"dac_item_stonehall_pike_desc"						"Nositel získává {d:attack_damage} bodů k poškození a také {d:damage_per_kill} body k poškození za každého nepřítele, kterého zabije, a to do maxima {d:max_damage} bodů. V módu Rychlovka jde o 12 bodů za zabití."
+	"dac_item_stonehall_pike_desc"						"Nositel získává {s:attack_damage} bodů k poškození a také {s:damage_per_kill_kill_mult} body k poškození za každého nepřítele, kterého zabije, a to do maxima {s:max_damage} bodů. Poškození se liší dle herního módu."
 	"dac_item_stonehall_pike_lore"						"Legie Kamenných vrchů nejsou postrachem pro nic za nic. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_stonehall_cloak"							"Plášť z Kamenných vrchů"
-	"dac_item_stonehall_cloak_desc"						"Nositel získává {d:hp_per_kill} bodů k maximálnímu zdraví za každého nepřítele, kterého zabije. V módu Rychlovka jde o 200 bodů."
+	"dac_item_stonehall_cloak_desc"						"Nositel získává {s:hp_per_kill_kill_mult} bodů k maximálnímu zdraví za každého nepřítele, kterého zabije. Zdraví se liší dle herního módu."
 	"dac_item_stonehall_cloak_lore"						"Pro někoho symbol pýchy, pro druhého vzpomínka na krutou minulost. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_silver_edge"								"Stříbrné ostří"
-	"dac_item_silver_edge_desc"							"+{d:attack_speed} bodů k rychlosti útoku a +{d:bonus_health} bodů zdraví. Kdykoli nositel zaútočí na nepřítele, na {d:break_duration} sekund jej zlomí. Cooldown: {d:cooldown} sekund."
+	"dac_item_silver_edge_desc"							"+{s:attack_speed} bodů k rychlosti útoku a +{s:bonus_health} bodů zdraví. Kdykoli nositel zaútočí na nepřítele, na {s:break_duration} sekund jej zlomí. Cooldown: {s:cooldown} sekund."
 	"dac_item_silver_edge_lore"							"Všichni znají příběh o tom, jak Lamač okovů a Krvavec použili tohle ostří k zastavení Šíleného krále Ostariona, ale pravda je o něco složitější. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_talisman_of_evasion"						"Talisman uhýbání"
-	"dac_item_talisman_of_evasion_desc"					"+{d:evasion_pct} % k uhýbání."
+	"dac_item_talisman_of_evasion_desc"					"+{s:evasion_pct} % k uhýbání."
 	"dac_item_talisman_of_evasion_lore"					"Podívej, Lyralei, jen říkám, že už nejsi tak nepolapitelná, jako jsi bývala. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_vesture_of_the_tyrant"                    "Tyranovo roucho"
-	"dac_item_vesture_of_the_tyrant_desc"               "Kdykoli v okruhu {d:ally_zombie_range} políčka od nositele utrží spojenecký hrdina smrtící ránu, přežije ještě následujících {s:ally_zombie_duration} sekund."
+	"dac_item_vesture_of_the_tyrant_desc"               "Kdykoli v okruhu {s:ally_zombie_range} políčka od nositele utrží spojenecký hrdina smrtící ránu, přežije ještě následujících {s:ally_zombie_duration} sekund."
 	"dac_item_vesture_of_the_tyrant_lore"               "Galaniova nadvláda je nezpochybnitelná a jen hlupák by mu odporoval. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_item_void_stone"								"Kámen prázdnoty"
-	"dac_item_void_stone_desc"							"+{d:mana_per_second} bodů many za sekundu."
+	"dac_item_void_stone_desc"							"+{s:mana_per_second} bodů many za sekundu."
 	"dac_item_void_stone_lore"							"Z tohohle materiálu mají odznaky Safíroví soudci. – <i>Zenok, obchodník se smrtí</i>"
 	"dac_unit_name_spiderling"							"Pavouček"
 	"dac_item_aeon_disk"								"Disk věčnosti"
 	"dac_item_aeon_disk_lore"							"Kdo má moc, má také ochranu. – <i>Zenok, obchodník se smrtí</i>"
-	"dac_item_aeon_disk_desc"							"+{d:health_bonus} bodů zdraví. Jakmile nositelovo zdraví klesne pod {d:health_trigger_percentage} %, stane se na {d:invuln_duration} sekundy nezranitelným a nebude na něj možné zaútočit, nicméně sám bude také odzbrojen. Lze použít jednou za kolo."
+	"dac_item_aeon_disk_desc"							"+{s:health_bonus} bodů zdraví. Jakmile nositelovo zdraví klesne pod {s:health_trigger_percentage} %, stane se na {s:invuln_duration} sekundy nezranitelným a nebude na něj možné zaútočit, nicméně sám bude také odzbrojen. Lze použít jednou za kolo."
 	"dac_ability_barricade_aura_new"					"Barikáda"
 	"dac_ability_barricade_aura_new_description"		"Barikáda imunní vůči kouzlům, která chrání jednotky poblíž."
 	"dac_ability_barricade_aura_new_lore"				""
@@ -797,7 +802,7 @@
 	"dac_ability_tombstone_raise_zombies_new_description"	"Hrdinové, kteří zemřou v okruhu {s:range} políčka, se vrátí jako zombie."
 	"dac_ability_tombstone_raise_zombies_new_lore"			""
 	"dac_item_vladmirs_offering"						"Vladmirova maska"
-	"dac_item_vladmirs_offering_desc"					"Spojenci v okruhu 2 políček od nositele získávají {d:damage} % k poškození, {d:armor} bodů k brnění a {d:lifesteal} % k sání zdraví."
+	"dac_item_vladmirs_offering_desc"					"Spojenci v okruhu 2 políček od nositele získávají {s:damage} % k poškození, {s:armor} bodů k brnění a {s:lifesteal} % k sání zdraví."
 	"dac_item_vladmirs_offering_lore"					"Každý, kdo složí Přísahu, se vzdá části sebe... a na oplátku obdrží část něčeho jiného. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_big_time_contract"						"Ogří čapka"
@@ -821,20 +826,20 @@
 	"dac_item_dwarf_hat_lore"							"Ne že bych uctívání Trhanců doporučoval, ale pokud žízníš po krvi, tenhle klobouk je přesně pro tebe. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_dragon_lance"								"Dračí kopí"
-	"dac_item_dragon_lance_desc"						"POUZE NA DÁLKU. +{d:attack_damage} bodů k poškození útoku. Nositel disponuje neomezeným dosahem."
+	"dac_item_dragon_lance_desc"						"POUZE NA DÁLKU. +{s:attack_damage} bodů k poškození útoku. Nositel disponuje neomezeným dosahem."
 	"dac_item_dragon_lance_lore"						"Nechci ti do toho kecat, ale kdybych já chtěl někoho zabít, budu od něj co nejdál. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_tank_buster"								"Kadenův meč"
-	"dac_item_tank_buster_desc"							"Namísto jeho běžného poškození udílejí nositelovy útoky {d:max_health_percent_as_damage} % z maximálního zdraví cíle v podobě neredukovaného poškození."
+	"dac_item_tank_buster_desc"							"Namísto jeho běžného poškození udílejí nositelovy útoky {s:max_health_percent_as_damage} % z maximálního zdraví cíle v podobě neredukovaného poškození."
 	"dac_item_tank_buster_lore"							"Tento meč byl ukován v Dračí tvrzi pro samotného Kadena. A jak ten s oblibou pravil: „Čím větší jsi, tím silnější je tvá zbraň.“ – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_armlet"									"Mordiggianův náramek"
-	"dac_item_armlet_desc"								"+{d:attack_damage} bodů k poškození útoku a +{d:armor} bodů k brnění. Nositel ztrácí {d:health_loss_per_second} bodů zdraví za sekundu."
+	"dac_item_armlet_desc"								"+{s:attack_damage} bodů k poškození útoku a +{s:armor} bodů k brnění. Nositel ztrácí {s:health_loss_per_second} bodů zdraví za sekundu."
 	"dac_item_armlet_lore"								"Prosím o shovívavost, až tohle budu psát na účtenku. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_name_mango_tree"								"Mangovník"
 	"dac_item_mango_tree"								"Mangovník"
-	"dac_item_mango_tree_desc"							"Na začátku bitvy a následně každé {s:mango_production_interval} sekundy spadne ze stromu až do vzdálenosti {d:radius} políček jedno mango. Kdo se manga dotkne, ten ho sní, čímž získá 50 bodů many a 100 bodů zdraví."
+	"dac_item_mango_tree_desc"							"Na začátku bitvy a následně každé {s:mango_production_interval} sekundy spadne ze stromu až do vzdálenosti {s:radius} políček jedno mango. Kdo se manga dotkne, ten ho sní, čímž získá 50 bodů many a 100 bodů zdraví."
 	"dac_item_mango_tree_lore"							"Hladinu cukru v krvi si musíš hlídat i na tom nejzuřivějším bojišti. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_hero_hint_melee"								"Na blízko"
@@ -979,6 +984,17 @@
 	"dac_hero_name_void_spirit"							"Duch prázdnoty"
 	"dac_hero_name_snapfire"							"Snapfire"
 
+	"dac_hero_name_death_prophet"						"Prorokyně smrti"
+	"dac_name_death_prophet_exorcism_spirit"			"Zlý duch"
+	"dac_hero_name_vengefulspirit"						"Mstivá duše"
+	"dac_hero_name_meepo"								"Meepo"
+	"dac_hero_name_spirit_breaker"						"Lamač duší"
+	"dac_hero_name_spectre"								"Spektra"
+	"dac_hero_name_pangolier"							"Pangolin"
+	"dac_hero_name_rubick"								"Rubick"
+	"dac_hero_name_wraith_king"							"Nemrtvý král"
+
+
 	"dac_name_anessix_archer"							"Démonický lučištník"
 	"dac_name_anessix_warrior"							"Mlátička"
 	"dac_name_broodmother_spiderling"					"Pavouček"
@@ -1073,21 +1089,28 @@
 	"dac_hero_type_vigilant"							"Ostražití"
 	"dac_hero_type_void"								"Zasvěcení"
 
+	"dac_hero_type_fallen"								"Padlí"
+	"dac_hero_type_wild"								"Šamani"
+	"dac_hero_type_swordsman"							"Šermíři"
+	"dac_hero_type_rogue"								"Darebáci"
+	"dac_hero_type_poisoner"							"Traviči"
+	"dac_hero_type_magus"								"Magusové"
+
 
 	"dac_item_claymore"									"Claymore"
-	"dac_item_claymore_desc"							"+{d:attack_damage} bodů k poškození útoku."
+	"dac_item_claymore_desc"							"+{s:attack_damage} bodů k poškození útoku."
 	"dac_item_claymore_lore"							"Ostrý konec by měl skončit v nepříteli. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_brooch"									"Útočníkova brož"
-	"dac_item_brooch_desc"								"+{d:mana_gain} % k maně získané z útoků."
+	"dac_item_brooch_desc"								"+{s:mana_gain} % k maně získané z útoků."
 	"dac_item_brooch_lore"								"Ideální doplněk pro někoho, kdo se chystá do boje. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_mana_sponge"								"Mučedníkova brož"
-	"dac_item_mana_sponge_desc"							"+{d:damage_taken_mana_gain} % k maně získané z utrženého poškození a +{d:debuff_resist} % k odolnosti vůči debuffům."
+	"dac_item_mana_sponge_desc"							"+{s:damage_taken_mana_gain} % k maně získané z utrženého poškození a +{s:debuff_resist} % k odolnosti vůči debuffům."
 	"dac_item_mana_sponge_lore"							"K největším hrdinským činům dochází, když už jsi na pokraji sil. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_quelling_blade"							"Dřevorubecká sekyra"
-	"dac_item_quelling_blade_desc"						"+{d:damage} bodů k poškození útoku. Nositel dává při útočení přednost vyvolaným jednotkám, vůči kterým jeho útoky udílejí {d:crit_bonus_vs_neutrals}% kritické poškození."
+	"dac_item_quelling_blade_desc"						"+{s:damage} bodů k poškození útoku. Nositel dává při útočení přednost vyvolaným jednotkám, vůči kterým jeho útoky udílejí {s:crit_bonus_vs_neutrals}% kritické poškození."
 	"dac_item_quelling_blade_lore"						"Grek by tuhle zbraň nejraději zakázal. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_boots_of_speed"							"Kožené boty"
@@ -1095,161 +1118,161 @@
 	"dac_item_boots_of_speed_lore"						"Když potřebuješ vzít nohy na ramena. – <i>Zenok, obchodník se smrtí</i>"			
 
 	"dac_item_tranquil_boots"							"Regenerační boty"
-	"dac_item_tranquil_boots_desc"						"+{d:movement_speed} % k rychlosti pohybu a +{d:health_regen} bodů k regeneraci zdraví."
+	"dac_item_tranquil_boots_desc"						"+{s:movement_speed} % k rychlosti pohybu a +{s:health_regen} bodů k regeneraci zdraví."
 	"dac_item_tranquil_boots_lore"						"Kožené boty se ti nelíbily? Dobře, tak já ti dám nějaké lepší. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_octarine_fragment"						"Oktarínový náhrdelník"
-	"dac_item_octarine_fragment_desc"					"{d:cooldown_percentage}% snížení cooldownu schopnosti."
+	"dac_item_octarine_fragment_desc"					"{s:cooldown_percentage}% snížení cooldownu schopnosti."
 	"dac_item_octarine_fragment_lore"					"Pouhá ochutnávka toho, co dokáže oktarínový orb. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_vitality_booster"							"Rubín vitality"
-	"dac_item_vitality_booster_desc"					"+{d:health_bonus} bodů zdraví."
+	"dac_item_vitality_booster_desc"					"+{s:health_bonus} bodů zdraví."
 	"dac_item_vitality_booster_lore"					"Tohle není o odvrácení bouře, je to o jejím oslabení. – <i>Zenok, obchodník se smrtí</i>"
 	
 	
 	"dac_item_cloak"									"Plášť"
-	"dac_item_cloak_desc"								"+{d:bonus_magical_resistance} % k odolnosti vůči magii."
+	"dac_item_cloak_desc"								"+{s:bonus_magical_resistance} % k odolnosti vůči magii."
 	"dac_item_cloak_lore"								"Dávej si pozor, blíží se bouře... – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_blink_dagger"								"Blesková dýka"
-	"dac_item_blink_dagger_desc"						"Teleportuje nositele k jeho nejvzdálenějšímu nepříteli a přidá mu {d:mana_gain} bodů many. Cooldown: {d:cooldown} sekund."
+	"dac_item_blink_dagger_desc"						"Teleportuje nositele k jeho nejvzdálenějšímu nepříteli a přidá mu {s:mana_gain} bodů many. Cooldown: {s:cooldown} sekund."
 	"dac_item_blink_dagger_lore"						"Nechápu proč, ale ten oglodský maník po mně pořád chce bleskovou sekyru... – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_mask_of_madness"							"Maska šílenství"
-	"dac_item_mask_of_madness_desc"						"Nositel je umlčen, ale získává +{d:lifesteal_percentage} % k sání zdraví a +{d:attack_speed} bodů k rychlosti útoku."
+	"dac_item_mask_of_madness_desc"						"Nositel je umlčen, ale získává +{s:lifesteal_percentage} % k sání zdraví a +{s:attack_speed} bodů k rychlosti útoku."
 	"dac_item_mask_of_madness_lore"						"Mezi šílenstvím a genialitou je jen velmi tenká linie... – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_blade_mail"								"Ostnatá zbroj"
-	"dac_item_blade_mail_desc"							"+{d:bonus_armor} bodů k brnění. Odráží {d:damage_taken_reflect_percentage} % z utrženého poškození zpět na útočníka."
+	"dac_item_blade_mail_desc"							"+{s:bonus_armor} bodů k brnění. Odráží {s:damage_taken_reflect_percentage} % z utrženého poškození zpět na útočníka."
 	"dac_item_blade_mail_lore"							"Po několika jistých incidentech jsem zakázal zkoušení, takže ber, nebo nech být. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_battle_fury"								"Sekyra rozštípnutí"
-	"dac_item_battle_fury_desc"							"POUZE NA BLÍZKO. +{d:attack_damage} bodů k poškození útoku. Štěpí útoky, takže udílejí {d:cleave_damage_pct}% poškození také okolním nepřátelům."
+	"dac_item_battle_fury_desc"							"POUZE NA BLÍZKO. +{s:attack_damage} bodů k poškození útoku. Štěpí útoky, takže udílejí {s:cleave_damage_pct}% poškození také okolním nepřátelům."
 	"dac_item_battle_fury_lore"							"Tyhle bitvy nikdy nejsou jeden na jednoho, a tak je lepší se připravit. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_dagon"									"Dagon"
-	"dac_item_dagon_desc"								"Udělí {d:ability_damage} bodů poškození náhodnému nepříteli s {d:health_trigger_percentage}% nebo nižším zdravím. Cooldown: {d:cooldown} sekund."
+	"dac_item_dagon_desc"								"Udělí {s:ability_damage} bodů poškození náhodnému nepříteli s {s:health_trigger_percentage}% nebo nižším zdravím. Cooldown: {s:cooldown} sekund."
 	"dac_item_dagon_lore"								"Někdo by ti možná řekl, že kopat do někoho, kdo už leží na zemi, není čestné. Někdo takový by v Bílé věži nevydržel ani týden. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_sacred_relic"								"Posvátná relikvie"
-	"dac_item_sacred_relic_desc"						"+{d:attack_damage} bodů k poškození útoku."
+	"dac_item_sacred_relic_desc"						"+{s:attack_damage} bodů k poškození útoku."
 	"dac_item_sacred_relic_lore"						"Docela dobrá cena na to, že ti vlastně nabízím malou část božství, ne? – <i>Zenok, obchodník se smrtí</i>"	
 	
 	"dac_item_maelstrom"								"Maelstrom"
-	"dac_item_maelstrom_desc"							"Útoky nositele mají {d:bolt_chance_percentage}% šanci vyvolat řetězící se blesk, který {d:bolt_targets} nepřátelům udělí po {d:bolt_damage} bodech poškození. Poškození je s každým přeskokem sníženo o {d:percentage_decrease} %."
+	"dac_item_maelstrom_desc"							"Útoky nositele mají {s:bolt_chance_percentage}% šanci vyvolat řetězící se blesk, který {s:bolt_targets} nepřátelům udělí po {s:bolt_damage} bodech poškození. Poškození je s každým přeskokem sníženo o {s:percentage_decrease} %."
 	"dac_item_maelstrom_lore"							"Nikdo nemůže ovládat počasí. Ale s tímhle ho můžeš trochu pošťouchnout. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_refresher_orb"							"Orb obnovení"
-	"dac_item_refresher_orb_desc"						"Jednou za kolo obnoví nositeli po použití schopnosti všechny cooldowny a přidá mu {d:mana_restored} bodů many."
+	"dac_item_refresher_orb_desc"						"Jednou za kolo obnoví nositeli po použití schopnosti všechny cooldowny a přidá mu {s:mana_restored} bodů many."
 	"dac_item_refresher_orb_lore"						"Už tolikrát jsem viděl, jak tenhle orb zvrátil průběh bitvy. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_heart_of_tarrasque"						"Srdce Tarrasque"
-	"dac_item_heart_of_tarrasque_desc"					"+{d:health_bonus} bodů zdraví. Každou sekundu regeneruje {d:bonus_hp_regen} % maximálního zdraví."
+	"dac_item_heart_of_tarrasque_desc"					"+{s:health_bonus} bodů zdraví. Každou sekundu regeneruje {s:bonus_hp_regen} % maximálního zdraví."
 	"dac_item_heart_of_tarrasque_lore"					"Smrt je pro ty, kdo nejsou hodni. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_divine_rapier"						"Božský rapír"
-	"dac_item_divine_rapier_desc"					"+{d:attack_damage} bodů k poškození útoku. Pokud máš vybavený Božský rapír a prohraješ na svojí desce, druhý hráč ti jej sebere."
+	"dac_item_divine_rapier_desc"					"+{s:attack_damage} bodů k poškození útoku. Pokud máš vybavený Božský rapír a prohraješ kolo, druhý hráč ti ho sebere."
 	"dac_item_divine_rapier_lore"					"Někdy i Bohové žádají krev. – <i>Zenok, obchodník se smrtí</i>"	
 	
 	"dac_item_assault_cuirass"							"Válečný kyrys"
-	"dac_item_assault_cuirass_desc"						"Nositel a sousední spojenci získávají +{d:attack_speed_buff} bodů k rychlosti útoku a +{d:armor_buff} bodů k brnění. Sousední nepřátelé naopak přicházejí o {d:attack_speed_debuff} bodů z rychlosti útoku a o {d:armor_debuff} bodů z brnění."
+	"dac_item_assault_cuirass_desc"						"Nositel a sousední spojenci získávají +{s:attack_speed_buff} bodů k rychlosti útoku a +{s:armor_buff} bodů k brnění. Sousední nepřátelé naopak přicházejí o {s:attack_speed_debuff} bodů z rychlosti útoku a o {s:armor_debuff} bodů z brnění."
 	"dac_item_assault_cuirass_lore"						"Pokud vážně chceš nakráčet do víru bitvy, alespoň se vhodně obleč. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_black_king_bar"							"Hůl Černého krále"
-	"dac_item_black_king_bar_desc"						"+{d:attack_damage} bodů k poškození útoku. Jednou za kolo učiní nositele na {d:magic_immune_duration} sekund imunním vůči magii, jakmile první nepřítel dosáhne {d:mana_trigger_percentage} % many."
+	"dac_item_black_king_bar_desc"						"+{s:attack_damage} bodů k poškození útoku. Jednou za kolo učiní nositele na {s:magic_immune_duration} sekund imunním vůči magii, jakmile první nepřítel dosáhne {s:mana_trigger_percentage} % many."
 	"dac_item_black_king_bar_lore"						"Nedej svým nepřátelům ani jednu šanci. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_mekansm"									"Mekansm"
-	"dac_item_mekansm_desc"								"Jednou za kolo vyléčí spojencům v okruhu {d:heal_radius} políček {d:heal_amount} bodů zdraví, jakmile zdraví nositele klesne pod {d:health_trigger_percentage} %."
+	"dac_item_mekansm_desc"								"Jednou za kolo vyléčí spojencům v okruhu {s:heal_radius} políček {s:heal_amount} bodů zdraví, jakmile zdraví nositele klesne pod {s:health_trigger_percentage} %."
 	"dac_item_mekansm_lore"								"Neptej se, jak to funguje, a buď rád, že to vůbec funguje. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_arcane_boots"								"Magické boty"
-	"dac_item_arcane_boots_desc"						"Jakmile mana nositele stoupne nad {d:mana_trigger_percentage} %, obnoví předmět spojencům v okruhu {d:replenish_radius} políček {d:replenish_amount} bodů many. Cooldown: {d:cooldown} sekund."
+	"dac_item_arcane_boots_desc"						"Jakmile mana nositele stoupne nad {s:mana_trigger_percentage} %, obnoví předmět spojencům v okruhu {s:replenish_radius} políček {s:replenish_amount} bodů many. Cooldown: {s:cooldown} sekund."
 	"dac_item_arcane_boots_lore"						"Staň se požehnáním svých spojenců. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_daedalus"									"Daidalos"
-	"dac_item_daedalus_desc"							"+{d:attack_damage} bodů k poškození útoku. Nositel má {d:bonus_damage_chance}% šanci na udělení {d:bonus_damage_multiplier}% kritického zásahu."
+	"dac_item_daedalus_desc"							"+{s:attack_damage} bodů k poškození útoku. Nositel má {s:bonus_damage_chance}% šanci na udělení {s:bonus_damage_multiplier}% kritického zásahu."
 	"dac_item_daedalus_lore"							"Tuhle kuši si často půjčoval Lorlin Lasan. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_radiance"									"Žhnoucí meč"
-	"dac_item_radiance_desc"							"Každou sekundu pálí nepřátele v okruhu {d:radius} políček, čímž jim uděluje {d:aura_damage} bodů poškození."
+	"dac_item_radiance_desc"							"Každou sekundu pálí nepřátele v okruhu {s:radius} políček, čímž jim uděluje {s:aura_damage} bodů poškození."
 	"dac_item_radiance_lore"							"Koukám, že oceňuješ stejné věci jako Hobgen. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_skadi"									"Oko Skadi"
-	"dac_item_skadi_desc"								"+{d:health_bonus} bodů zdraví. Útoky nositele snižují na {s:cold_duration_ranged} sekundy rychlost pohybu o {d:cold_movement_speed} bodů a rychlost útoku o {d:cold_attack_speed} bodů."
+	"dac_item_skadi_desc"								"+{s:health_bonus} bodů zdraví. Útoky nositele mění cíli na {s:cold_duration_ranged} sekundy rychlost pohybu o {s:cold_movement_speed} bodů a rychlost útoku o {s:cold_attack_speed} bodů."
 	"dac_item_skadi_lore"								"Raději se ani neptej, jak jsem k tomuhle přišel. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_chainmail"								"Drátěná košile"
-	"dac_item_chainmail_desc"							"+{d:bonus_armor} bodů k brnění."
+	"dac_item_chainmail_desc"							"+{s:bonus_armor} bodů k brnění."
 	"dac_item_chainmail_lore"							"Praktická a spolehlivá. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_gloves_of_haste"							"Rukavice rychlosti"
-	"dac_item_gloves_of_haste_desc"						"+{d:attack_speed} bodů k rychlosti útoku."
+	"dac_item_gloves_of_haste_desc"						"+{s:attack_speed} bodů k rychlosti útoku."
 	"dac_item_gloves_of_haste_lore"						"Potřebuješ někoho zmlátit, ale nemáš na to moc času? – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_moon_shard"								"Úlomek Měsíce"
-	"dac_item_moon_shard_desc"							"+{d:attack_speed} bodů k rychlosti útoku."
+	"dac_item_moon_shard_desc"							"+{s:attack_speed} bodů k rychlosti útoku."
 	"dac_item_moon_shard_lore"							"Někteří tvrdí, že jde o úlomek samotného Šíleného Měsíce. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_blight_stone"								"Kámen rozkladu"
-	"dac_item_blight_stone_desc"						"Brnění cíle je sníženo o {d:target_armor} body."
+	"dac_item_blight_stone_desc"						"Brnění cíle je sníženo o {s:target_armor} body."
 	"dac_item_blight_stone_lore"						"Malá, ale překvapivě účinná věcička. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_shivas_guard"								"Shivin nárameník"
-	"dac_item_shivas_guard_desc"						"+{d:bonus_armor} bodů k brnění. Jednou za kolo vyvolá mrazivou vlnu, která udělí nepřátelům v okruhu 3 políček {d:blast_damage} bodů poškození a na {s:blast_debuff_duration} sekundy sníží rychlost jejich pohybu a útoku."
+	"dac_item_shivas_guard_desc"						"+{s:bonus_armor} bodů k brnění. Jednou za kolo vyvolá mrazivou vlnu, která udělí nepřátelům v okruhu 3 políček {s:blast_damage} bodů poškození a na {s:blast_debuff_duration} sekundy změní rychlost jejich pohybu a útoku."
 	"dac_item_shivas_guard_lore"						"Tebe taky zajímá, jak se to podařilo dostat z krypty Safírové konklávy? – <i>Zenok, obchodník se smrtí</i>"
 
 	
 	"dac_item_hood_of_defiance"							"Kápě vzdoru"
-	"dac_item_hood_of_defiance_desc"					"+{d:bonus_magical_resistance} % k odolnosti vůči magii a +{d:health_regen} bodů k regeneraci zdraví."
+	"dac_item_hood_of_defiance_desc"					"+{s:bonus_magical_resistance} % k odolnosti vůči magii a +{s:health_regen} bodů k regeneraci zdraví."
 	"dac_item_hood_of_defiance_lore"					"Postav se svým nepřátelům čelem. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_vanguard"									"Štít předvoje"
-	"dac_item_vanguard_desc"							"+{d:health_bonus} bodů zdraví. Nositel má {d:block_chance}% šanci vyblokovat {d:block_damage} bodů z utrženého poškození."
+	"dac_item_vanguard_desc"							"+{s:health_bonus} bodů zdraví. Nositel má {s:block_chance}% šanci vyblokovat {s:block_damage} bodů z utrženého fyzického poškození."
 	"dac_item_vanguard_lore"							"Hledáš-li něco, co tě spolehlivě ochrání, pak jsi právě našel. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_basher"									"Drticí palice"
-	"dac_item_basher_desc"								"+{d:attack_damage} bodů k poškození útoku. Nositel má {d:bash_chance}% šanci na {s:bash_duration} sekundy omráčit svůj cíl a udělit mu {d:bonus_chance_damage} bodů poškození navíc."
+	"dac_item_basher_desc"								"+{s:attack_damage} bodů k poškození útoku. Nositel má {s:bash_chance}% šanci na {s:bash_duration} sekundy omráčit svůj cíl a udělit mu {s:bonus_chance_damage} bodů poškození navíc."
 	"dac_item_basher_lore"								"Omráčený nepřítel je napůl mrtvý nepřítel. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_pipe_of_insight"							"Dýmka porozumění"
-	"dac_item_pipe_of_insight_desc"						"+{d:bonus_magical_resistance} % k odolnosti vůči magii. Jednou za kolo přidá spojencům v okruhu {d:barrier_radius} políčka štít blokující {d:barrier_amount} bodů magického poškození, jakmile první nepřítel dosáhne {d:mana_trigger_percentage} % many."
+	"dac_item_pipe_of_insight_desc"						"+{s:bonus_magical_resistance} % k odolnosti vůči magii. Jednou za kolo přidá spojencům v okruhu {s:barrier_radius} políček štít blokující {s:barrier_amount} bodů magického poškození, jakmile první nepřítel dosáhne {s:mana_trigger_percentage} % many."
 	"dac_item_pipe_of_insight_lore"						"Přemýšlel jsi někdy nad tím, kde Vědátor bere svoje šílené nápady? – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_bloodbound_hat"							"Krevní pouto"
-	"dac_item_bloodbound_hat_desc"						"+{d:health_bonus} bodů zdraví. Nositel je kromě svých stávajících kategorií zařazen také mezi <span class='Ogre'>pokrevní</span> <img class='InlineSynergyIcon SynergyOgre'/>."
+	"dac_item_bloodbound_hat_desc"						"+{s:health_bonus} bodů zdraví. Nositel je kromě svých stávajících kategorií zařazen také mezi <span class='Ogre'>pokrevní</span> <img class='InlineSynergyIcon SynergyOgre'/>."
 	"dac_item_bloodbound_hat_lore"						"Krev je v Bílé věži vším. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_sheepstick"								"Vyseova kosa"
-	"dac_item_sheepstick_desc"							"+{d:mana_per_second} bodů many za sekundu. Jakmile nositel utrží poškození, přemění útočníka na {s:sheep_duration} sekundy na prasátko. Cooldown: {d:cooldown} sekund."
+	"dac_item_sheepstick_desc"							"+{s:mana_per_second} bodů many za sekundu. Jakmile nositel utrží poškození, přemění útočníka na {s:sheep_duration} sekundy na prasátko. Cooldown: {s:cooldown} sekund."
 	"dac_item_sheepstick_lore"							"Šamani jí s oblibou říkají kosa zesměšnění. Chro, chro. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_force_staff"								"Hůl donucení"
-	"dac_item_force_staff_desc"							"Jakmile nositel utrží poškození od nepřítele s útoky na blízko, odstrčí jej o {d:push_length} políček. Cooldown: {d:cooldown} sekund."
+	"dac_item_force_staff_desc"							"Jakmile nositel utrží poškození od nepřítele s útoky na blízko, odstrčí jej o {s:push_length} políček. Cooldown: {s:cooldown} sekund."
 	"dac_item_force_staff_lore"							"Aghanim má prý hezčí hůl, ale tu jsem nikdy neviděl. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_never_die_hat"							"Smrtiklamná přilba"
-	"dac_item_never_die_hat_desc"						"+{d:bonus_armor} bodů k brnění. Nositel přežije ještě {s:invulnerability_duration} sekundy poté, co utrží smrtící ránu."
+	"dac_item_never_die_hat_desc"						"+{s:bonus_armor} bodů k brnění. Nositel přežije ještě {s:invulnerability_duration} sekundy poté, co utrží smrtící ránu."
 	"dac_item_never_die_hat_lore"						"Život ti nezachrání, ale zato ti umožní vzít do pekel někoho s sebou. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_gold_on_last_hit_hat"						"Pytlácký nůž"
-	"dac_item_gold_on_last_hit_hat_desc"				"Nositel má vždy po zabití nepřítele {d:percent_chance}% šanci na získání {d:gold} zlaťáku. Při útočení na nepřítele se zdravím nižším než {d:target_health_percent} % navíc nositel uděluje {d:target_crit_multiplier}% kritické zásahy."
+	"dac_item_gold_on_last_hit_hat_desc"				"Nositel má vždy po zabití nepřítele {s:percent_chance}% šanci na získání {s:gold} zlaťáku. Při útočení na nepřítele se zdravím nižším než {s:target_health_percent} % navíc nositel uděluje {s:target_crit_multiplier}% kritické zásahy."
 	"dac_item_gold_on_last_hit_hat_lore"				"Snad ti přinese víc štěstí než tomu kentaurovi, u kterého jsem ho našel. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_final_flash_hat"							"Nátepníky zoufalství"
-	"dac_item_final_flash_hat_desc"						"Jakmile zdraví nositele klesne pod {d:health_percent_trigger} %, je resetován cooldown jeho schopnosti a doplní se mu mana. Jeho cíli je navíc o {d:target_magic_resistance} % snížena odolnost vůči magii."
+	"dac_item_final_flash_hat_desc"						"Jakmile zdraví nositele klesne pod {s:health_percent_trigger} %, je resetován cooldown jeho schopnosti a doplní se mu mana. Jeho cíli je navíc o {s:target_magic_resistance} % snížena odolnost vůči magii."
 	"dac_item_final_flash_hat_lore"						"Svůj plný potenciál poznáš vždy až v krajní situaci. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_hype_breaker"								"Závoj vrahů"
-	"dac_item_hype_breaker_desc"						"Nositel se snaží útočit na nepřátelského vládce podsvětí, přičemž když se mu to podaří, každým útokem mu sebere {d:hype_burn} bodů přízně. Cooldown: {s:cooldown} sekundy."
+	"dac_item_hype_breaker_desc"						"Nositel se snaží útočit na nepřátelského vládce podsvětí, přičemž když se mu to podaří, každým útokem mu sebere {s:hype_burn} bodů přízně. Cooldown: {s:cooldown} sekundy."
 	"dac_item_hype_breaker_lore"						"Pro ty, kdo si chtějí vyzkoušet, jaké to je být Zahalenou sestrou, ale už jsou moc staří na to, aby je unesly z kolébky. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_hype_harvester"							"Morbidně oslavný gong"
-	"dac_item_hype_harvester_desc"						"Vždy když nositel provede zabití, získá pro svého vládce podsvětí {d:hype_per_kill} bodů přízně davu."
+	"dac_item_hype_harvester_desc"						"Vždy když nositel provede zabití, získá pro svého vládce podsvětí {s:hype_per_kill} bodů přízně davu."
 	"dac_item_hype_harvester_lore"						"Rozezvonili jsme ho pro Fronzella. Rozezvonili jsme ho pro matičku Eeb. Modli se, aby jednou nezněl i pro tebe. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_summoning_stone"							"Kámen vyvolávačů"
-	"dac_item_summoning_stone_desc"						"Spojenecké vyvolané jednotky získávají +{d:health_bonus} bodů zdraví a +{d:attack_speed_bonus} bodů k rychlosti útoku."
+	"dac_item_summoning_stone_desc"						"Spojenecké vyvolané jednotky získávají +{s:health_bonus} bodů zdraví a +{s:attack_speed_bonus} bodů k rychlosti útoku."
 	"dac_item_summoning_stone_lore"						"Nech za sebe bojovat jiné. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_better_units_in_shop"						"Zkušený kriminálník"
@@ -1277,7 +1300,7 @@
 	"dac_item_humans_turn_undead_lore"					"Tohle město z tebe vyžene i poslední zbytek lidství. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_elves_start_invisible"					"Mrštné cíle"
-	"dac_item_elves_start_invisible_desc"				"<span class='Elf'>Nepolapitelní</span> <img class='InlineSynergyIcon SynergyElusive'/> disponují první {s:invisibility_duration} sekundy každé bitvy bonusem {d:evasion_pct} % k uhýbání."
+	"dac_item_elves_start_invisible_desc"				"<span class='Elf'>Nepolapitelní</span> <img class='InlineSynergyIcon SynergyElusive'/> disponují první {s:invisibility_duration} sekundy každé bitvy bonusem {s:evasion_pct} % k uhýbání."
 	"dac_item_elves_start_invisible_lore"				"Je těžké zaútočit na někoho, koho nemůžeš trefit. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_shamans_hex_attackers"					"Šamanské brnění"
@@ -1289,7 +1312,7 @@
 	"dac_item_discount_rerolls_lore"					"Své kumpány si vybírej opravdu bedlivě. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_assassins_blind_on_landing"				"Oslepující prach"
-	"dac_item_assassins_blind_on_landing_desc"			"<span class='Assassin'>Vrazi</span> <img class='InlineSynergyIcon SynergyAssassins'/> vždy po přesunu na {s:blind_duration} sekundy oslepí ({d:blind_chance}% šance minout útok a o {d:mana_gain_reduction} % méně many při utržení poškození) nepřátele v okruhu 1 políčka."
+	"dac_item_assassins_blind_on_landing_desc"			"<span class='Assassin'>Vrazi</span> <img class='InlineSynergyIcon SynergyAssassins'/> vždy po přesunu na {s:blind_duration} sekundy oslepí ({s:blind_chance}% šance minout útok a o {s:mana_gain_reduction} % méně many při utržení poškození) nepřátele v okruhu 1 políčka."
 	"dac_item_assassins_blind_on_landing_lore"			"Quiet nectí zásady, chce prostě a jenom vyhrát. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_extra_items"								"Přetékající sklady"
@@ -1309,15 +1332,15 @@
 	"dac_item_prevent_next_life_loss_lore"				"Neboli druhá šance. Skutečně jedinečná nabídka. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_mechs_explode_on_death"					"Nestabilní reaktor"
-	"dac_item_mechs_explode_on_death_desc"				"<span class='Mech'>Kutilové</span> <img class='InlineSynergyIcon SynergyInventors'/> po smrti explodují, čímž udělí nepřátelům v okruhu {d:range_in_cells} políčka poškození ve výši {s:damage_hp_pct} % svého maximálního zdraví."
+	"dac_item_mechs_explode_on_death_desc"				"<span class='Mech'>Kutilové</span> <img class='InlineSynergyIcon SynergyInventors'/> po smrti explodují, čímž udělí nepřátelům v okruhu {s:range_in_cells} políčka poškození ve výši {s:damage_hp_pct} % svého maximálního zdraví."
 	"dac_item_mechs_explode_on_death_lore"				"Přesně proto nevěřím keenským vynálezům. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_trolls_have_aspd_aura"					"Koordinovaný útok"
-	"dac_item_trolls_have_aspd_aura_desc"				"<span class='Troll'>Trollové</span> <img class='InlineSynergyIcon SynergyTroll'/> poskytují spojencům v okruhu {d:range_in_cells} políčka +{s:attack_speed_buff} bodů k rychlosti útoku."
+	"dac_item_trolls_have_aspd_aura_desc"				"<span class='Troll'>Trollové</span> <img class='InlineSynergyIcon SynergyTroll'/> poskytují spojencům v okruhu {s:range_in_cells} políčka +{s:attack_speed_buff} bodů k rychlosti útoku."
 	"dac_item_trolls_have_aspd_aura_lore"				"Když se partička trollů rozhodne, že tě zmlátí, moc proti tomu nezmůžeš. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_goblins_give_gold_on_last_hit"			"Prošacování mrtvol"
-	"dac_item_goblins_give_gold_on_last_hit_desc"		"<span class='Goblin'>Vynalézaví</span> <img class='InlineSynergyIcon SynergyScrappy'/> mají vždy po zabití nepřítele {s:percent_chance}% šanci na získání {d:gold} zlaťáku."
+	"dac_item_goblins_give_gold_on_last_hit_desc"		"<span class='Goblin'>Vynalézaví</span> <img class='InlineSynergyIcon SynergyScrappy'/> mají vždy po zabití nepřítele {s:percent_chance}% šanci na získání {s:gold} zlaťáku."
 	"dac_item_goblins_give_gold_on_last_hit_lore"		"Těm mrtvým už peníze beztak nebudou k ničemu. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_orcs_get_extra_hp"						"Zocelení bitvami"
@@ -1354,7 +1377,7 @@
 	"dac_item_humans_debuff_resist_lore"				"Ach, tak to je ta pověstná lidská vůle. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_druids_heal_over_time_on_death"			"Zajedno se zemí"
-	"dac_item_druids_heal_over_time_on_death_desc"		"Když zemře <span class='Druid'>druid</span> <img class='InlineSynergyIcon SynergyDruid'/>, v průběhu následujících {d:heal_duration} sekund vyléčí spojencům v okruhu {d:range_in_cells} políček {s:heal_pct_per_second} % zdraví."
+	"dac_item_druids_heal_over_time_on_death_desc"		"Když zemře <span class='Druid'>druid</span> <img class='InlineSynergyIcon SynergyDruid'/>, v průběhu následujících {s:heal_duration} sekund vyléčí spojencům v okruhu {s:range_in_cells} políček {s:heal_pct_per_second} % zdraví."
 	"dac_item_druids_heal_over_time_on_death_lore"		"Smrt někdy přináší útěchu. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_beast_bleed"								"Tesáky a drápy"
@@ -1366,7 +1389,7 @@
 	"dac_item_warriors_never_die_lore"					"Nejstatnější válečníky nezastaví ani smrt. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_warlocks_spell_lifesteal"					"Černá magie"
-	"dac_item_warlocks_spell_lifesteal_desc"			"Spojenci v okruhu {d:range_in_cells} políčka od <span class='Warlock'>černokněžníků</span> <img class='InlineSynergyIcon SynergyWarlocks'/> se léčí {s:spell_lifesteal} % z poškození uděleného schopnostmi a předměty."
+	"dac_item_warlocks_spell_lifesteal_desc"			"Spojenci v okruhu {s:range_in_cells} políčka od <span class='Warlock'>černokněžníků</span> <img class='InlineSynergyIcon SynergyWarlocks'/> se léčí {s:spell_lifesteal} % z poškození uděleného schopnostmi a předměty."
 	"dac_item_warlocks_spell_lifesteal_lore"			"Přiznávám, že téhle magii ani sám nerozumím. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_undeads_stop_healing"						"Aura smrti"
@@ -1374,7 +1397,7 @@
 	"dac_item_undeads_stop_healing_lore"				"Někdo zkrátka rád vidí ostatní trpět. – <i>Zenok, obchodník se smrtí</i>"
 
 	"dac_item_lower_healing"							"Ristulovo osvícení"
-	"dac_item_lower_healing_desc"						"Léčení obou armád je sníženo o {d:healing_prevented} %."
+	"dac_item_lower_healing_desc"						"Léčení obou armád je sníženo o {s:healing_prevented} %."
 	"dac_item_lower_healing_lore"						"Vhúlové nenesli válku v Trnoví moc dobře. – <i>Zenok, obchodník se smrtí</i>"
 	
 	"dac_item_mages_ghost_on_low_health"				"Poslední vzdor"
@@ -1757,6 +1780,57 @@
 	"dac_item_vesture_of_the_tyrant_4"		"Tyranovo roucho z Kamenných vrchů"
 	"dac_item_vesture_of_the_tyrant_5"		"Tyranovo roucho od Galania"
 
+	"dac_item_headdress_rot1"									"Čelenka"
+	"dac_item_headdress_rot1_desc"								"Nositel a spojenci nacházející se na začátku bitvy {s:row_radius} políčko nalevo nebo napravo od něj získávají regeneraci ve výši {s:health_regen} bodů zdraví za sekundu."
+	"dac_item_headdress_rot1_lore"								"Tohle mi prodal maník, který říkal, že to pochází z Hrůzného hnízda. Nevím, jestli nelhal, ale to pero je moc hezké. – <i>Zenok, obchodník se smrtí</i>"
+
+	"dac_item_hood_of_defiance_rot1"							"Kápě vzdoru"
+	"dac_item_hood_of_defiance_rot1_desc"						"Nositel a spojenci nacházející se na začátku bitvy {s:row_radius} políčko nalevo nebo napravo od něj získávají {s:bonus_magical_resistance} % k odolnosti vůči magii."
+	"dac_item_hood_of_defiance_rot1_lore"							"Postav se svým nepřátelům čelem. – <i>Zenok, obchodník se smrtí</i>"
+
+	"dac_item_vitality_booster_rot1"							"Rubín vitality"
+	"dac_item_vitality_booster_rot1_desc"						"Nositel a spojenci nacházející se na začátku bitvy {s:row_radius} políčko nalevo nebo napravo od něj získávají {s:health_bonus} bodů zdraví."
+	"dac_item_vitality_booster_rot1_lore"						"Tohle není o odvrácení bouře, je to o jejím oslabení. – <i>Zenok, obchodník se smrtí</i>"
+
+	"dac_item_paladin_sword"									"Meč paladinů"
+	"dac_item_paladin_sword_desc"								"+{s:attack_damage} bodů k poškození útoku. Léčení spojenců je navýšeno o {s:healing_amplify_pct} %."
+	"dac_item_paladin_sword_lore"								"Prý ho vysvětila sama Lady Anshu. – <i>Zenok, obchodník se smrtí</i>"
+
+	"dac_item_poisoner_hat"									"Jedový orb"
+	"dac_item_poisoner_hat_desc"							"Nositel je kromě svých stávajících kategorií zařazen také mezi <span class='Poisoner'>traviče</span> <img class='InlineSynergyIcon SynergyPoisoner'/>."
+	"dac_item_poisoner_hat_lore"							"Čas je prý nejspolehlivější zabiják. Ale malou pomoc jistě neodmítne. – <i>Zenok, obchodník se smrtí</i>"
+
+	"dac_item_barricade_rot1"								"Barikáda"
+	"dac_item_barricade_rot1_desc"							"Dvě umístitelné barikády, které blokují nepřátele a o 50 % snižují poškození útoků na dálku. Barikády jsou nezničitelné a imunní vůči kouzlům."
+	"dac_item_barricade_rot1_lore"							"Ne na každém bojišti nalezneš kryt. Nos si proto svůj vlastní. – <i>Zenok, obchodník se smrtí</i>"
+
+	"dac_item_heavens_halberd"									"Nebeská halapartna"
+	"dac_item_heavens_halberd_desc"								"+{s:evasion_pct} % k uhýbání. Když nositel zaútočí na nepřítele, na {s:disarm_duration} sekundy ho odzbrojí. Cooldown: {s:cooldown} sekund."
+	"dac_item_heavens_halberd_lore"								"Tajemství dlouhověkosti spočívá v tom, že ostatní zapíchneš dřív než oni tebe. – <i>Zenok, obchodník se smrtí</i>"
+
+	"dac_item_necronomicon"									"Necronomicon"
+	"dac_item_necronomicon_desc"								"Kdykoli nositel sešle kouzlo, je vyvolán Mlátička. V jednu chvíli mohou být naživu maximálně {s:max_units} vyvolané jednotky."
+	"dac_item_necronomicon_lore"								"Toho podpisu Anessix na přebalu si nevšímej. – <i>Zenok, obchodník se smrtí</i>"
+
+	"dac_item_swordsman_hat"									"Pirátský klobouk"
+	"dac_item_swordsman_hat_desc"								"Nositel je kromě svých stávajících kategorií zařazen také mezi <span class='Swordsman'>šermíře</span> <img class='InlineSynergyIcon SynergySwordsman'/>."
+	"dac_item_swordsman_hat_lore"								"Wren se pro něj jednou vrátí, cítím to. – <i>Zenok, obchodník se smrtí</i>"
+
+	"dac_item_craggy_coat"									"Kamenné brnění"
+	"dac_item_craggy_coat_desc"								"Nositel získává {s:bonus_armor} bodů k brnění, ale přichází o {s:attack_speed} bodů z rychlosti útoku."
+	"dac_item_craggy_coat_lore"								"Netvrdím, že je pohodlné, ale zato tě udrží naživu. – <i>Zenok, obchodník se smrtí</i>"
+
+	"dac_item_witless_shako"									"Natvrdlý dragoun"
+	"dac_item_witless_shako_desc"								"Nositelovo zdraví je navýšeno o {s:health_bonus} bodů, ale získává o {s:mana_gain_pct_decrease} % méně many."
+	"dac_item_witless_shako_lore"								"Hele, kdyby se bitvy vyhrávaly mozkem, Kat už by tu dávno nebyl... – <i>Zenok, obchodník se smrtí</i>"
+
+	"dac_item_maelstrom_rot1"								"Maelstrom"
+	"dac_item_maelstrom_rot1_desc"							"Útoky nositele mají {s:bolt_chance_percentage}% šanci vyvolat řetězící se blesk, který {s:bolt_targets} nepřátelům udělí po {s:bolt_damage} bodech poškození. Uděluje o {s:summon_damage_increase} % vyšší poškození vyvolaným jednotkám."
+	"dac_item_maelstrom_rot1_lore"							"Nikdo nemůže ovládat počasí. Ale s tímhle ho můžeš trochu pošťouchnout. – <i>Zenok, obchodník se smrtí</i>"
+
+	"dac_item_monkey_king_bar"									"Hůl Opičího krále"
+	"dac_item_monkey_king_bar_desc"								"Nositel získává {s:attack_damage} bodů k poškození útoku a jeho útoky nemohou minout."
+	"dac_item_monkey_king_bar_lore"								"Pokud se po ní bude shánět Wukong, mě z toho vynech. – <i>Zenok, obchodník se smrtí</i>"
 
 
 	"dac_bp1_bronze_border"								"Bronzový rámeček"
@@ -2085,6 +2159,15 @@
 	"DAC_EndGame_Hobgen_win_with_warlock"			"Hobgenovi černokněžníci mu přičarovali vítězství"
 	"DAC_EndGame_Hobgen_win_with_warrior"			"Nebýt válečníků, Hobgen by si ani neškrtl"
 	"DAC_EndGame_Hobgen_win_with_summoners"			"Hobgen převálcoval nepřátele svou zdánlivě nekonečnou armádou"
+	"DAC_EndGame_Hobgen_win_with_fallen"			"Dokonce ani smrt nedokázala Hobgena zastavit v jeho cestě na vrchol Bílé věže"
+	"DAC_EndGame_Hobgen_win_with_poisoner"			"Hobgen se inspiroval u Enna a otrávil všechny své protivníky"
+	"DAC_EndGame_Hobgen_win_with_swordsman"			"Hobgenovi šermíři bez problémů odzbrojili své rivaly"
+	"DAC_EndGame_Hobgen_win_with_wild"				"Příroda podpořila Hobgenovo tažení"
+	"DAC_EndGame_Hobgen_win_with_magus"				"Rubick vynesl svými kouzly Hobgena až na trůn"
+	"DAC_EndGame_Hobgen_win_with_rogue"				"Darebáci nečestně, ale zato úspěšně odstranili všechny Hobgenovi nepřátele"
+	
+	
+	
 	
 	"DAC_EndGame_Hobgen_does_good_with_assassins"		"Hobgenovi nájemní zabijáci nesplnili svůj kontrakt naplno"
 	"DAC_EndGame_Hobgen_does_good_with_blood_bound"		"Hobgen neměl dostatek krve, aby dosáhl na vítězství"
@@ -2113,7 +2196,15 @@
 	"DAC_EndGame_Hobgen_does_good_with_warlock"			"Černá magie byla v Hobgenových rukách silná, ale ne dostatečně"
 	"DAC_EndGame_Hobgen_does_good_with_warrior"			"Hobgenovi válečníci bojovali do posledního dechu"
 	"DAC_EndGame_Hobgen_does_good_with_summoners"		"Být Hobgenova armáda ještě větší, možná by vyhrál"
-
+	"DAC_EndGame_Hobgen_does_good_with_fallen"			"Bílá věž málem padla Hobgenovi k nohám"
+	"DAC_EndGame_Hobgen_does_good_with_poisoner"		"Hobgen trávil jako o život, ale nestačilo to"
+	"DAC_EndGame_Hobgen_does_good_with_swordsman"		"Šermíři prosekali Hobgenovi cestu skoro až na vrchol"
+	"DAC_EndGame_Hobgen_does_good_with_wild"			"Šamani proklínali ve jménu Hobgena, ale na výhru nedosáhli"
+	"DAC_EndGame_Hobgen_does_good_with_magus"			"Hrůzovláda Velkého Maguse a Hobgena byla konečně zastavena"
+	"DAC_EndGame_Hobgen_does_good_with_rogue"			"Hobgenovi darebáci se pokusili o podraz roku, ale místo toho si podrazili nohy"
+	
+	
+	
 	"DAC_EndGame_Hobgen_does_ok_with_assassins"			"Hobgenovi vrahouni zapomněli naostřit své kudly"
 	"DAC_EndGame_Hobgen_does_ok_with_blood_bound"		"Hobgen zkusil krevní mstu, ale byl zklamán výsledkem"
 	"DAC_EndGame_Hobgen_does_ok_with_brawny"			"Svaly nejsou vším, a Hobgen to už ví také"
@@ -2141,6 +2232,14 @@
 	"DAC_EndGame_Hobgen_does_ok_with_warlock"			"Hobgenovi černokněžníci se drželi nezvykle na uzdě"
 	"DAC_EndGame_Hobgen_does_ok_with_warrior"			"Hobgen bohužel našel jenom samé neostřílené válečníky"
 	"DAC_EndGame_Hobgen_does_ok_with_summoners"			"Hobgenovo vyvolávání nevyvolalo slíbené výsledky"
+	"DAC_EndGame_Hobgen_does_ok_with_fallen"			"Hobgen dal přednost padlým, ale nedopadlo to nijak slavně"
+	"DAC_EndGame_Hobgen_does_ok_with_poisoner"			"Hobgenův jed neměl kýžený výsledek"
+	"DAC_EndGame_Hobgen_does_ok_with_swordsman"			"Hobgen chtěl šetřit na šermířích – stálo ho to vítězství"
+	"DAC_EndGame_Hobgen_does_ok_with_wild"				"Hobgen se pokusil uplatit nové šamany, nicméně ti se nedali"
+	"DAC_EndGame_Hobgen_does_ok_with_magus"				"Rubick a Hobgen se nedokázali shodnout"
+	"DAC_EndGame_Hobgen_does_ok_with_rogue"				"Darebákům se nepodařilo podvést Hobgenův osud"
+	
+	
 	
 	"DAC_EndGame_Hobgen_does_bad_with_assassins"		"Hobgenovi vrazi byli zavražděni cestou do práce"
 	"DAC_EndGame_Hobgen_does_bad_with_blood_bound"		"Hobgena zradila jeho vlastní krevní skupina"
@@ -2169,6 +2268,14 @@
 	"DAC_EndGame_Hobgen_does_bad_with_warlock"			"Černokněžníci se vzbouřili proti Hobgenovi a prokleli ho"
 	"DAC_EndGame_Hobgen_does_bad_with_warrior"			"Hobgenovi válečníci se zapomněli v hospodě"
 	"DAC_EndGame_Hobgen_does_bad_with_summoners"		"Hobgen najal samá béčka, která najala ještě horší céčka"
+	"DAC_EndGame_Hobgen_does_bad_with_fallen"			"Hobgen se paktoval s padlými... a padl – jak poetické"
+	"DAC_EndGame_Hobgen_does_bad_with_poisoner"			"Hobgen otrávil leda tak ty, kteří v něj věřili"
+	"DAC_EndGame_Hobgen_does_bad_with_swordsman"		"Hobgenovi šermíři strávili víc času v nevěstinci než na bojišti"
+	"DAC_EndGame_Hobgen_does_bad_with_wild"				"Hobgen čekal kejkle – místo toho dostal za vyučenou"
+	"DAC_EndGame_Hobgen_does_bad_with_magus"			"Jediné, co Velký Magus ukradl pro Hobgena, byl neúspěch"
+	"DAC_EndGame_Hobgen_does_bad_with_rogue"			"Darebáci odmítli Hobgenovu nabídku"
+	
+	
 	
 	//Anessix End Screen Headlines
 	
@@ -2199,6 +2306,13 @@
 	"DAC_EndGame_Anessix_win_with_warlock"			"Anessixini černokněžníci jí přičarovali vítězství"
 	"DAC_EndGame_Anessix_win_with_warrior"			"Nebýt válečníků, Anessix by si ani neškrtla"
 	"DAC_EndGame_Anessix_win_with_summoners"		"Anessix převálcovala nepřátele svou zdánlivě nekonečnou armádou"
+	"DAC_EndGame_Anessix_win_with_fallen"			"Dokonce ani smrt nedokázala Anessix zastavit v její cestě na vrchol Bílé věže"
+	"DAC_EndGame_Anessix_win_with_poisoner"			"Anessix se inspirovala u Enna a otrávila všechny své protivníky"
+	"DAC_EndGame_Anessix_win_with_swordsman"		"Anessixini šermíři bez problémů odzbrojili své rivaly"
+	"DAC_EndGame_Anessix_win_with_wild"				"Příroda podpořila Anessixino tažení"
+	"DAC_EndGame_Anessix_win_with_magus"			"Rubick vynesl svými kouzly Anessix až na trůn"
+	"DAC_EndGame_Anessix_win_with_rogue"			"Darebáci nečestně, ale zato úspěšně odstranili všechny Anessixiny nepřátele"
+	
 	
 	"DAC_EndGame_Anessix_does_good_with_assassins"		"Anessixini nájemní zabijáci nesplnili svůj kontrakt naplno"
 	"DAC_EndGame_Anessix_does_good_with_blood_bound"	"Anessix neměla dostatek krve, aby dosáhla na vítězství"
@@ -2227,7 +2341,13 @@
 	"DAC_EndGame_Anessix_does_good_with_warlock"		"Černá magie byla v Anessixiných rukách silná, ale ne dostatečně"
 	"DAC_EndGame_Anessix_does_good_with_warrior"		"Anessixini válečníci bojovali do posledního dechu"
 	"DAC_EndGame_Anessix_does_good_with_summoners"		"Být Anessixina armáda ještě větší, možná by vyhrála"
-
+	"DAC_EndGame_Anessix_does_good_with_fallen"			"Bílá věž málem padla Anessix k nohám"
+	"DAC_EndGame_Anessix_does_good_with_poisoner"		"Anessix trávila jako o život, ale nestačilo to"
+	"DAC_EndGame_Anessix_does_good_with_swordsman"		"Šermíři prosekali Anessix cestu skoro až na vrchol"
+	"DAC_EndGame_Anessix_does_good_with_wild"			"Šamani proklínali ve jménu Anessix, ale na výhru nedosáhli"
+	"DAC_EndGame_Anessix_does_good_with_magus"			"Hrůzovláda Velkého Maguse a Anessix byla konečně zastavena"
+	"DAC_EndGame_Anessix_does_good_with_rogue"			"Anessixini darebáci se pokusili o podraz roku, ale místo toho si podrazili nohy"
+	
 	"DAC_EndGame_Anessix_does_ok_with_assassins"		"Anessixini vrahouni zapomněli naostřit své kudly"
 	"DAC_EndGame_Anessix_does_ok_with_blood_bound"		"Anessix zkusila krevní mstu, ale byla zklamána výsledkem"
 	"DAC_EndGame_Anessix_does_ok_with_brawny"			"Svaly nejsou vším, a Anessix to už ví také"
@@ -2255,6 +2375,14 @@
 	"DAC_EndGame_Anessix_does_ok_with_warlock"			"Anessixini černokněžníci se drželi nezvykle na uzdě"
 	"DAC_EndGame_Anessix_does_ok_with_warrior"			"Anessix bohužel našla jenom samé neostřílené válečníky"
 	"DAC_EndGame_Anessix_does_ok_with_summoners"		"Anessixino vyvolávání nevyvolalo slíbené výsledky"
+	"DAC_EndGame_Anessix_does_ok_with_fallen"			"Anessix dala přednost padlým, ale nedopadlo to nijak slavně"
+	"DAC_EndGame_Anessix_does_ok_with_poisoner"			"Anessixin jed neměl kýžený výsledek"
+	"DAC_EndGame_Anessix_does_ok_with_swordsman"		"Anessix chtěla šetřit na šermířích – stálo ji to vítězství"
+	"DAC_EndGame_Anessix_does_ok_with_wild"				"Anessix se pokusila uplatit nové šamany, nicméně ti se nedali"
+	"DAC_EndGame_Anessix_does_ok_with_magus"			"Rubick a Anessix se nedokázali shodnout"
+	"DAC_EndGame_Anessix_does_ok_with_rogue"			"Darebákům se nepodařilo podvést Anessixin osud"
+	
+	
 	
 	"DAC_EndGame_Anessix_does_bad_with_assassins"		"Anessixini vrazi byli zavražděni cestou do práce"
 	"DAC_EndGame_Anessix_does_bad_with_blood_bound"		"Anessix zradila její vlastní krevní skupina"
@@ -2283,6 +2411,14 @@
 	"DAC_EndGame_Anessix_does_bad_with_warlock"			"Černokněžníci se vzbouřili proti Anessix a prokleli ji"
 	"DAC_EndGame_Anessix_does_bad_with_warrior"			"Anessixini válečníci se zapomněli v hospodě"
 	"DAC_EndGame_Anessix_does_bad_with_summoners"		"Anessix najala samá béčka, která najala ještě horší céčka"
+	"DAC_EndGame_Anessix_does_bad_with_fallen"			"Anessix se paktovala s padlými... a padla – jak poetické"
+	"DAC_EndGame_Anessix_does_bad_with_poisoner"		"Anessix otrávila leda tak ty, kteří v ni věřili"
+	"DAC_EndGame_Anessix_does_bad_with_swordsman"		"Anessixini šermíři strávili víc času v nevěstinci než na bojišti"
+	"DAC_EndGame_Anessix_does_bad_with_wild"			"Anessix čekala kejkle – místo toho dostala za vyučenou"
+	"DAC_EndGame_Anessix_does_bad_with_magus"			"Jediné, co Velký Magus ukradl pro Anessix, byl neúspěch"
+	"DAC_EndGame_Anessix_does_bad_with_rogue"			"Darebáci odmítli Anessixinu nabídku"
+	
+
 	
 	//Jull End Screen Headlines
 	
@@ -2313,6 +2449,14 @@
 	"DAC_EndGame_Jull_win_with_warlock"					"Jullovi černokněžníci mu přičarovali vítězství"
 	"DAC_EndGame_Jull_win_with_warrior"					"Nebýt válečníků, Jull by si ani neškrtl"
 	"DAC_EndGame_Jull_win_with_summoners"				"Jull převálcoval nepřátele svou zdánlivě nekonečnou armádou"
+	"DAC_EndGame_Jull_win_with_fallen"			"Dokonce ani smrt nedokázala Julla zastavit v jeho cestě na vrchol Bílé věže"
+	"DAC_EndGame_Jull_win_with_poisoner"			"Jull se inspiroval u Enna a otrávil všechny své protivníky"
+	"DAC_EndGame_Jull_win_with_swordsman"			"Jullovi šermíři bez problémů odzbrojili své rivaly"
+	"DAC_EndGame_Jull_win_with_wild"				"Příroda podpořila Jullovo tažení"
+	"DAC_EndGame_Jull_win_with_magus"				"Rubick vynesl svými kouzly Julla až na trůn"
+	"DAC_EndGame_Jull_win_with_rogue"				"Darebáci nečestně, ale zato úspěšně odstranili všechny Jullovi nepřátele"
+
+
 	
 	"DAC_EndGame_Jull_does_good_with_assassins"			"Jullovi nájemní zabijáci nesplnili svůj kontrakt naplno"
 	"DAC_EndGame_Jull_does_good_with_blood_bound"		"Jull neměl dostatek krve, aby dosáhl na vítězství"
@@ -2341,7 +2485,14 @@
 	"DAC_EndGame_Jull_does_good_with_warlock"			"Černá magie byla v Jullových rukách silná, ale ne dostatečně"
 	"DAC_EndGame_Jull_does_good_with_warrior"			"Jullovi válečníci bojovali do posledního dechu"
 	"DAC_EndGame_Jull_does_good_with_summoners"			"Být Jullova armáda ještě větší, možná by vyhrál"
-
+	"DAC_EndGame_Jull_does_good_with_fallen"			"Bílá věž málem padla Jullovi k nohám"
+	"DAC_EndGame_Jull_does_good_with_poisoner"			"Jull trávil jako o život, ale nestačilo to"
+	"DAC_EndGame_Jull_does_good_with_swordsman"			"Šermíři prosekali Jullovi cestu skoro až na vrchol"
+	"DAC_EndGame_Jull_does_good_with_wild"				"Šamani proklínali ve jménu Julla, ale na výhru nedosáhli"
+	"DAC_EndGame_Jull_does_good_with_magus"				"Hrůzovláda Velkého Maguse a Julla byla konečně zastavena"
+	"DAC_EndGame_Jull_does_good_with_rogue"				"Jullovi darebáci se pokusili o podraz roku, ale místo toho si podrazili nohy"
+	
+	
 	"DAC_EndGame_Jull_does_ok_with_assassins"			"Jullovi vrahouni zapomněli naostřit své kudly"
 	"DAC_EndGame_Jull_does_ok_with_blood_bound"			"Jull zkusil krevní mstu, ale byl zklamán výsledkem"
 	"DAC_EndGame_Jull_does_ok_with_brawny"				"Svaly nejsou vším, a Jull to už ví také"
@@ -2369,6 +2520,12 @@
 	"DAC_EndGame_Jull_does_ok_with_warlock"				"Jullovi černokněžníci se drželi nezvykle na uzdě"
 	"DAC_EndGame_Jull_does_ok_with_warrior"				"Jull bohužel našel jenom samé neostřílené válečníky"
 	"DAC_EndGame_Jull_does_ok_with_summoners"			"Jullovo vyvolávání nevyvolalo slíbené výsledky"
+	"DAC_EndGame_Jull_does_ok_with_fallen"				"Jull dal přednost padlým, ale nedopadlo to nijak slavně"
+	"DAC_EndGame_Jull_does_ok_with_poisoner"			"Jullův jed neměl kýžený výsledek"
+	"DAC_EndGame_Jull_does_ok_with_swordsman"			"Jull chtěl šetřit na šermířích – stálo ho to vítězství"
+	"DAC_EndGame_Jull_does_ok_with_wild"				"Jull se pokusil uplatit nové šamany, nicméně ti se nedali"
+	"DAC_EndGame_Jull_does_ok_with_magus"				"Rubick a Jull se nedokázali shodnout"
+	"DAC_EndGame_Jull_does_ok_with_rogue"				"Darebákům se nepodařilo podvést Jullův osud"
 	
 	"DAC_EndGame_Jull_does_bad_with_assassins"			"Jullovi vrazi byli zavražděni cestou do práce"
 	"DAC_EndGame_Jull_does_bad_with_blood_bound"		"Julla zradila jeho vlastní krevní skupina"
@@ -2397,7 +2554,12 @@
 	"DAC_EndGame_Jull_does_bad_with_warlock"			"Černokněžníci se vzbouřili proti Jullovi a prokleli ho"
 	"DAC_EndGame_Jull_does_bad_with_warrior"			"Jullovi válečníci se zapomněli v hospodě"
 	"DAC_EndGame_Jull_does_bad_with_summoners"			"Jull najal samá béčka, která najala ještě horší céčka"
-	
+	"DAC_EndGame_Jull_does_bad_with_fallen"				"Jull se paktoval s padlými... a padl – jak poetické"
+	"DAC_EndGame_Jull_does_bad_with_poisoner"			"Jull otrávil leda tak ty, kteří v něj věřili"
+	"DAC_EndGame_Jull_does_bad_with_swordsman"			"Jullovi šermíři strávili víc času v nevěstinci než na bojišti"
+	"DAC_EndGame_Jull_does_bad_with_wild"				"Jull čekal kejkle – místo toho dostal za vyučenou"
+	"DAC_EndGame_Jull_does_bad_with_magus"				"Jediné, co Velký Magus ukradl pro Julla, byl neúspěch"
+	"DAC_EndGame_Jull_does_bad_with_rogue"				"Darebáci odmítli Jullovu nabídku"
 	
 	
 	//Enno End Screen Headlines
@@ -2429,6 +2591,13 @@
 	"DAC_EndGame_Enno_win_with_warlock"					"Ennovi černokněžníci mu přičarovali vítězství"
 	"DAC_EndGame_Enno_win_with_warrior"					"Nebýt válečníků, Enno by si ani neškrtl"
 	"DAC_EndGame_Enno_win_with_summoners"				"Enno převálcoval nepřátele svou zdánlivě nekonečnou armádou"
+	"DAC_EndGame_Enno_win_with_fallen"				"Dokonce ani smrt nedokázala Enna zastavit v jeho cestě na vrchol Bílé věže"
+	"DAC_EndGame_Enno_win_with_poisoner"			"Enno vsadil na osvědčený recept a otrávil všechny své protivníky"
+	"DAC_EndGame_Enno_win_with_swordsman"			"Ennovi šermíři bez problémů odzbrojili své rivaly"
+	"DAC_EndGame_Enno_win_with_wild"				"Příroda podpořila Ennovo tažení"
+	"DAC_EndGame_Enno_win_with_magus"				"Rubick vynesl svými kouzly Enna až na trůn"
+	"DAC_EndGame_Enno_win_with_rogue"				"Darebáci nečestně, ale zato úspěšně odstranili všechny Ennovi nepřátele"
+	
 	
 	"DAC_EndGame_Enno_does_good_with_assassins"			"Ennovi nájemní zabijáci nesplnili svůj kontrakt naplno"
 	"DAC_EndGame_Enno_does_good_with_blood_bound"		"Enno neměl dostatek krve, aby dosáhl na vítězství"
@@ -2457,7 +2626,14 @@
 	"DAC_EndGame_Enno_does_good_with_warlock"			"Černá magie byla v Ennových rukách silná, ale ne dostatečně"
 	"DAC_EndGame_Enno_does_good_with_warrior"			"Ennovi válečníci bojovali do posledního dechu"
 	"DAC_EndGame_Enno_does_good_with_summoners"			"Být Ennova armáda ještě větší, možná by vyhrál"
-
+	"DAC_EndGame_Enno_does_good_with_fallen"			"Bílá věž málem padla Ennovi k nohám"
+	"DAC_EndGame_Enno_does_good_with_poisoner"			"Enno trávil jako o život, ale nestačilo to"
+	"DAC_EndGame_Enno_does_good_with_swordsman"			"Šermíři prosekali Ennovi cestu skoro až na vrchol"
+	"DAC_EndGame_Enno_does_good_with_wild"				"Šamani proklínali ve jménu Enna, ale na výhru nedosáhli"
+	"DAC_EndGame_Enno_does_good_with_magus"				"Hrůzovláda Velkého Maguse a Enna byla konečně zastavena"
+	"DAC_EndGame_Enno_does_good_with_rogue"				"Ennovi darebáci se pokusili o podraz roku, ale místo toho si podrazili nohy"
+	
+	
 	"DAC_EndGame_Enno_does_ok_with_assassins"			"Ennovi vrahouni zapomněli naostřit své kudly"
 	"DAC_EndGame_Enno_does_ok_with_blood_bound"			"Enno zkusil krevní mstu, ale byl zklamán výsledkem"
 	"DAC_EndGame_Enno_does_ok_with_brawny"				"Svaly nejsou vším, a Enno to už ví také"
@@ -2485,6 +2661,13 @@
 	"DAC_EndGame_Enno_does_ok_with_warlock"				"Ennovi černokněžníci se drželi nezvykle na uzdě"
 	"DAC_EndGame_Enno_does_ok_with_warrior"				"Enno bohužel našel jenom samé neostřílené válečníky"
 	"DAC_EndGame_Enno_does_ok_with_summoners"			"Ennovo vyvolávání nevyvolalo slíbené výsledky"
+	"DAC_EndGame_Enno_does_ok_with_fallen"				"Enno dal přednost padlým, ale nedopadlo to nijak slavně"
+	"DAC_EndGame_Enno_does_ok_with_poisoner"			"Ennův jed neměl kýžený výsledek"
+	"DAC_EndGame_Enno_does_ok_with_swordsman"			"Enno chtěl šetřit na šermířích – stálo ho to vítězství"
+	"DAC_EndGame_Enno_does_ok_with_wild"				"Enno se pokusil uplatit nové šamany, nicméně ti se nedali"
+	"DAC_EndGame_Enno_does_ok_with_magus"				"Rubick a Enno se nedokázali shodnout"
+	"DAC_EndGame_Enno_does_ok_with_rogue"				"Darebákům se nepodařilo podvést Ennův osud"
+
 	
 	"DAC_EndGame_Enno_does_bad_with_assassins"			"Ennovi vrazi byli zavražděni cestou do práce"
 	"DAC_EndGame_Enno_does_bad_with_blood_bound"		"Enna zradila jeho vlastní krevní skupina"
@@ -2513,7 +2696,13 @@
 	"DAC_EndGame_Enno_does_bad_with_warlock"			"Černokněžníci se vzbouřili proti Ennovi a prokleli ho"
 	"DAC_EndGame_Enno_does_bad_with_warrior"			"Ennovi válečníci se zapomněli v hospodě"
 	"DAC_EndGame_Enno_does_bad_with_summoners"			"Enno najal samá béčka, která najala ještě horší céčka"
-	
+	"DAC_EndGame_Enno_does_bad_with_fallen"				"Enno se paktoval s padlými... a padl – jak poetické"
+	"DAC_EndGame_Enno_does_bad_with_poisoner"			"Enno otrávil leda tak ty, kteří v něj věřili"
+	"DAC_EndGame_Enno_does_bad_with_swordsman"			"Ennovi šermíři strávili víc času v nevěstinci než na bojišti"
+	"DAC_EndGame_Enno_does_bad_with_wild"				"Enno čekal kejkle – místo toho dostal za vyučenou"
+	"DAC_EndGame_Enno_does_bad_with_magus"				"Jediné, co Velký Magus ukradl pro Enna, byl neúspěch"
+	"DAC_EndGame_Enno_does_bad_with_rogue"				"Darebáci odmítli Ennovu nabídku"
+
 	
 	
 	
@@ -2541,7 +2730,7 @@
 	"DAC_Rewards_Free"									"Zdarma"
 	"DAC_Rewards_BPCurrentLevelProgress"				"{d:current_points}/{d:points_per_level}"
 	"DAC_BPInGameProgressLegend"						"Postup Beta deníku z tohoto zápasu."
-	"DAC_Battlepass_SeasonTitle"						"První sezóna"
+	"DAC_Battlepass_SeasonTitle"						"Bitevní deník"
 	"DAC_Battlepass_Welcome_Page1"						"Hraj zápasy, dokončuj výzvy a obsazuj oblasti v Krvavé exkurzi. Bitevní deník je vylepšován každým tvým krokem!"
 	"DAC_Battlepass_Welcome_Page2"						"Navyšováním úrovně Bitevního deníku lze ZDARMA získat přes 20 odměn, přičemž dalších více než 100 čeká v placené verzi Deníku!"
 	"DAC_Battlepass_Welcome_Page3"						"Získej přístup k celé Krvavé exkurzi a kompletní sadě odměn Deníku, která zahrnuje nové herní desky, dekorativní objekty, graffiti, reakce a mnohem, mnohem více."
@@ -2625,7 +2814,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Profile"										"Profil"
 	"DAC_EarlyAccess"                                   "Beta verze"
 	"DAC_OpenBeta"                                   	"Otevřená beta"	
-	"DAC_Shared_Pool_Description"						"V zápasech hry Dota Underlords si hráči sestavují svoji armádu z hrdinů dostupných na seznamu sdíleném pro všechny hráče. Tento seznam obsahuje 30 kopií každého hrdiny 1. hodnosti, 20 kopií každého hrdiny 2. hodnosti, 15 kopií každého hrdiny 3. hodnosti, 12 kopií každého hrdiny 4. hodnosti a 10 kopií každého hrdiny 5. hodnosti. Jakmile je hráč vyřazen ze zápasu, všichni jeho hrdinové jsou vráceni zpět do oběhu."
+	"DAC_Shared_Pool_Description"						"V zápasech hry Dota Underlords si hráči sestavují svoji armádu z hrdinů dostupných na seznamu sdíleném pro všechny hráče. Tento seznam obsahuje 30 kopií každého hrdiny 1. hodnosti, 20 kopií každého hrdiny 2. hodnosti, 18 kopií každého hrdiny 3. hodnosti, 12 kopií každého hrdiny 4. hodnosti a 10 kopií každého hrdiny 5. hodnosti. Jakmile je hráč vyřazen ze zápasu, všichni jeho hrdinové jsou vráceni zpět do oběhu."
 	"DAC_Zoo"											"Zoo"
 	"DAC_CityCrawlButton"								"Přejít na exkurzi"
 	"DAC_ChallengeWorldMapPage"							"Krvavá exkurze"
@@ -2808,6 +2997,13 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Synergy_Vigilant"		"Ostražití"
 	"DAC_Synergy_Void"			"Zasvěcení"
 
+	"DAC_Synergy_Fallen"		"Padlí"
+	"DAC_Synergy_Wild"			"Šamani"
+	"DAC_Synergy_Swordsman"		"Šermíři"
+	"DAC_Synergy_Rogue"			"Darebáci"
+	"DAC_Synergy_Poisoner"		"Traviči"
+	"DAC_Synergy_Magus"			"Magusové"
+
 	"DAC_Synergy_Tooltip_Goblin_0"		"Náhodný vynalézavý"
 	"DAC_Synergy_Tooltip_Goblin_1"		"Všichni vynalézaví"
 	"DAC_Synergy_Tooltip_Goblin_2"		"Všichni spojenci"
@@ -2852,7 +3048,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 
 	"DAC_Synergy_Desc_Orc"		"Maximální zdraví všech siláků je navýšeno o {s:hp_bonus} bodů."
 
-	"DAC_Synergy_Desc_Brawny"		"Siláci získávají {s:hp_bonus} bodů k maximálnímu zdraví za každého nepřítele zabitého jedním z tvých siláků ([60/120] bodů v módu Rychlovka). Vyvolané jednotky jsou počítány jako 0,25 zabití."
+	"DAC_Synergy_Desc_Brawny"		"Siláci získávají {s:hp_bonus_kill_mult} bodů k maximálnímu zdraví za každého nepřítele zabitého jedním z tvých siláků. Bonus je násoben počtem hvězdiček každého siláka. Vyvolané jednotky jsou počítány jako 0,25 zabití. Bonus se liší dle herního módu."
 	"DAC_Synergy_Desc_Brawny_ExtraData" "Počet zabití siláků: {f:brawny_kills} <br/>Bonus ke zdraví siláků: {d:brawny_bonus_health}"
 
 	"DAC_Synergy_Desc_Troll"		"Trollové získávají {s:attack_speed_bonus_trolls} % a ostatní spojenci {s:attack_speed_bonus_others} % k rychlosti útoku."
@@ -2891,13 +3087,25 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 
 	"DAC_Synergy_Desc_Brutal"			"Kdykoli surovec zaútočí na nepřítele, uvalí na něj na {s:debuff_duration} sekundy {s:damage_reduction}% debuff poškození. Debuff také při zahájení svého působení nepříteli udělí {s:initial_damage} bodů poškození. Surovci preferují při útočení nepřátele, na které debuff ještě nepůsobí."
 
-	"DAC_Synergy_Desc_SpiritBrother"	"Kdykoli duch použije schopnost, dostane se do takzvaného „nabitého stavu“. Pokud se do tohoto stavu dostanou 3 duchové, společně provedou zakázanou schopnost Trojúhelníkové pole, která udělí všem zasaženým nepřátelům {s:damage} bodů magického poškození a použije na ně elementální efekty oněch tří duchů."
+	"DAC_Synergy_Desc_SpiritBrother"	"Kdykoli duch použije schopnost, dostane se do takzvaného „nabitého stavu“. Pokud se do tohoto stavu dostanou 3 duchové, společně provedou zakázanou schopnost Trojúhelníkové pole, která udělí všem zasaženým nepřátelům {s:damage} bodů magického poškození a na {s:disable_duration} sekundy na ně použije elementální efekty oněch tří duchů. Poškození a trvání je násobeno {s:multiplier_2star} pro ★★ duchy a {s:multiplier_3star} pro ★★★ duchy."
 
 	"DAC_Synergy_Desc_Summoner"			"Vyvolané spojenecké jednotky získávají {s:damage_percent} % k poškození."
 	
 	"DAC_Synergy_Desc_Vigilant"			"Jakmile nepřítel sešle kouzlo, {s:alliance_eligible} na něj zaměří své útoky, pokud je v jejich dosahu. Poškození příštího útoku každého z nich vůči tomuto nepříteli je také navýšeno o {s:damage_percent} %."
 	
 	"DAC_Synergy_Desc_Void"				"Spojenečtí hrdinové mají {s:proc_chance}% šanci udělit cíli navíc {s:pure_damage_percent} % z jeho maximálního zdraví v podobě neredukovaného poškození. Bonusové poškození může být uděleno každých {s:cooldown} sekundy."
+
+	"DAC_Synergy_Desc_Fallen"			"Když poprvé zemře padlý hrdina, spojencům v okruhu {s:radius} políček je vyléčeno {s:heal} bodů zdraví a získají {s:damage_bonus_pct} % k poškození útoků a schopností. Každý padlý hrdina může {s:revive_times}× za bitvu vstát z mrtvých s {s:resurrect_hp_pct} % svého zdraví."
+	
+	"DAC_Synergy_Desc_Wild"				"Vždy na začátku bitvy je přivolán na pomoc {s:summon_display_name}."
+
+	"DAC_Synergy_Desc_Swordsman"		"Šermíři získávají za každého sousedního nepřítele {s:damage_bonus_pct} % k poškození."
+
+	"DAC_Synergy_Desc_Rogue"			"Spojenečtí darebáci získávají {s:evasion_pct} % k uhýbání. Kdykoli se pak darebák uhne útoku, získá navíc {s:bonus_attack_damage} bodů k poškození útoku."
+
+	"DAC_Synergy_Desc_Poisoner"			"Útoky travičů aplikují sečtení otrávení, přičemž za každé sečtení nepřátelé ztrácí {s:attack_speed_loss_per_stack} bodů z rychlosti útoku."
+
+	"DAC_Synergy_Desc_Magus"			"Jakmile Magusovo zdraví klesne pod {s:health_pct} %, stane se na {s:duration} sekundy nezranitelným, ale také nebude moci útočit. Lze použít jednou za bitvu."
 
 	"DAC_Synergy_Desc_MegaWarrior"		"Mega-válečníci získávají {s:armor_bonus} bodů k brnění."
 	"DAC_Synergy_Desc_MegaWarlock"		"Jakmile mega-černokněžník sešle kouzlo, je na 3 sekundy připojen ke spolubojovníkovi s nejnižším zdravím – když poté kterákoli ze spojených jednotek zaútočí, obě jsou vyléčeny {s:lifesteal_pct} % z uděleného poškození."
@@ -3128,7 +3336,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 
 	"DAC_BotName_61"					"Přemysl (bot)"
 	"DAC_BotName_62"					"Marcela (bot)"
-	"DAC_BotName_63"					"Pan Tau (bot)"
+	"DAC_BotName_63"					"Marcel (bot)"
 	"DAC_BotName_64"					"Karolína (bot)"
 	"DAC_BotName_65"					"Boris (bot)"
 	"DAC_BotName_66"					"Dominika (bot)"
@@ -3575,6 +3783,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"dac_support_upload_save_game"				"Nahrát uloženou pozici podpoře služby Steam"
 	"dac_support_upload_console_log"			"Nahrát výpis z konzole podpoře služby Steam"
 	"dac_dump_memory_stats"						"Uložit statistiky paměti"
+	"dac_trigger_memory_warning"				"Povolit upozornění na nedostatek paměti"
 	"dac_support_upload"						"Nahrávání podpoře"
 	"dac_support_upload_error_unknown"			"Nahrávání selhalo z důvodu neznámé chyby."
 	"dac_support_upload_error_no_file"			"Nahrávání selhalo, protože nebyl nalezen soubor k nahrání."
@@ -3706,11 +3915,11 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 
 	"dac_glossary_rank_details"				"Hodnocení hráče"
 
-	"DAC_SeasonRank_Tooltip_Title"				"SEZÓNNÍ MEDAILE HODNOCENÍ"
-	"DAC_SeasonRank_Tooltip_Title_Desc"			"Tvé hodnocení v této sezóně určí, jakou medaili obdržíš."
+	"DAC_SeasonRank_Tooltip_Title"				"MEDAILE HODNOCENÍ"
+	"DAC_SeasonRank_Tooltip_Title_Desc"			"Tvé hodnocení určí, jakou medaili obdržíš."
 	"DAC_SeasonRank_Tooltip_Minor_Desc"			"Každá medaile se skládá z pěti hvězd, po jejichž zisku je medaile vylepšena."
 	"DAC_SeasonRank_Tooltip_Generic_Desc"		"Nejlepší hráči mají navíc pod svojí medailí číslo s pozicí v žebříčku."
-	"DAC_SeasonRank_Tooltip_End_Desc"			"Medaile lze získat za hraní hodnocených zápasů a vždy po skončení sezóny jsou staženy."
+	"DAC_SeasonRank_Tooltip_End_Desc"			"Medaile lze získat za hraní hodnocených zápasů."
 
 	"DACWantedAmount"							"$%s1"
 
@@ -3738,8 +3947,8 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Team_Rank_Label"						"Hodnocení týmu"
 	"DAC_Team_Rank_YourRank_Label"				"Tvoje hodnocení"
 
-	"DAC_Season_Rank_Title"						"Sezónní medaile hodnocení"
-	"DAC_Season_Rank_Desc"						"Medaile znázorňuje tvé hodnocení v probíhající sezóně. Pokud se ti podaří medaili povýšit nad milník Velký kápo V, budeš jmenován Vládcem Bílé věže a zajistíš si místo v globálním žebříčku."
+	"DAC_Season_Rank_Title"						"Medaile hodnocení"
+	"DAC_Season_Rank_Desc"						"Medaile (dělená na pět řádů) znázorňuje tvé hodnocení. Pokud se ti podaří medaili povýšit nad milník Velký kápo V, budeš jmenován Vládcem Bílé věže a zajistíš si místo v globálním žebříčku."
 
 	"DAC_LevelUp_Rank_Old"	"<span class='RankName'>{s:old_rank_name}</span> {s:old_rank_tier}"
 	"DAC_LevelUp_Rank_New"	"<span class='RankName'>{s:new_rank_name}</span> {s:new_rank_tier}"
@@ -3798,9 +4007,9 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Reward_Claim_Button"						"Vybrat"
 	"DAC_Reward_Claim_Challenge_Title"			"Denní výzva dokončena"
 	"DAC_Postgame_ChallengeComplete"			"Dokončení výzvy"
-	"DAC_Weekly_Challenge_Challenge_Header"		"Challenge"
-	"DAC_Weekly_RewardCalloutHeader"			"Weekly Challenge"
-	"DAC_Weekly_RewardCalloutDesc"				"Complete the Weekly Streetfight, Objective, and Puzzle to earn this {s:reward_type}."
+	"DAC_Weekly_Challenge_Challenge_Header"		"Výzva"
+	"DAC_Weekly_RewardCalloutHeader"			"Týdenní výzva"
+	"DAC_Weekly_RewardCalloutDesc"				"Dokonči pouliční bitku, úkol a hádanku a získej odměnu."
 
 	"DAC_LookingForMatch_Desc"					"Vyhledávání zápasu módu {s:game_mode} ({s:match_mode})"
 	"DAC_LookingForMatch_Loading"				"Načítání..."
@@ -3832,7 +4041,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_GoldBreakdownInterestMax"				"+{d:interest} JAKO MAX. BONUS"
 	"DAC_GoldBreakdownStreakWIN"				"+{d:streak} ZA SÉRII VÝHER"
 	"DAC_GoldBreakdownStreakLOSE"				"+{d:streak} ZA SÉRII PROHER"
-	"DAC_GoldBreakdownItems"					"+{d:items} Z PŘEDMĚTŮ"
+	"DAC_GoldBreakdownItems"					"+{d:items} Z BITVY"
 	"DAC_GoldBreakdownRoundGold"				"+{d:round} DO ZÁKLADU"
 	"DAC_GoldBreakdownVictory"					"+{d:victory} ZA VÝHRU"
 	"DAC_GoldBreakdownTotal"					"{d:total} ZLAŤÁKŮ CELKEM"
@@ -4018,6 +4227,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_CityCrawl_MostRecent"						"Nejnovější"
 	"DAC_CityCrawl_RecommendedHeader"				"Nejnovější:<br/><span class='RecommendedChallengeDesc'>{s:recommended_challenge}</span>"
 	"DAC_ChallengeGameModeRequirementsNotMet"		"Pro zahájení úkolu Krvavé exkurze vyber jiný herní mód"
+	"DAC_ChallengeMatchTypeRequirementsNotMet"		"Pro zahájení úkolu Krvavé exkurze vyber jiný typ zápasu"
 	"DAC_ChallengeDifficultyRequirementsNotMet"		"Pro hraní o postup Bitevního deníku vyber obtížnost botů „Hardcore (XP)“, nebo se postav reálným hráčům"
 	"DAC_ChallengePrivateGameNotFull"				"Pro hraní o postup Bitevního deníku musí být tvá skupina plná"
 
@@ -4039,7 +4249,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Challenge_RerollAt"						"Nová výzva za {t:d:time_to_reroll}"
 	"DAC_Challenge_RerollAvailableAt"				"Nová výzva"
 	"DAC_Challenge_Claimable"						"Vybrat odměnu"
-	"DAC_Challenge_ChallengeComplete"				"Claimed"
+	"DAC_Challenge_ChallengeComplete"				"Vybráno"
 	"DAC_Challenge_Number"							"{d:challenge_slot}. výzva"
 	"DAC_Challenge_HobgenCombine2Stars_Desc"		"{s:threshold}× vytvoř ★★ hrdinu"
 	"DAC_Challenge_HobgenHireKnightWarrior_Desc"	"Utrať {s:threshold} zlaťáků za rytíře nebo válečníky"
@@ -4076,7 +4286,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Challenge_AnessixKillWithSummons_Desc"		"Zabij s vyvolanými jednotkami celkem {s:threshold} nepřátel"
 	"DAC_Challenge_AnessixCombine3StarDemon_Desc"	"Vytvoř {s:threshold}× ★★★ démona"
 	"DAC_Challenge_AnessixWinWithHumans_Desc"		"{s:threshold}× vyhraj kolo s aktivní synergií lidí"
-	"DAC_Challenge_AnessixSummonEidolons_Desc"		"Vyvolej prostřednictvím synergie pradávných celkem {s:threshold} eidolonů"
+	"DAC_Challenge_AnessixSummonEidolons_Desc"		"Aplikuj {s:threshold} sečtení otrávení"
 	"DAC_Challenge_AnessixBuyDemons_Desc"			"Utrať {s:threshold} zlaťáků za démony"
 	"DAC_Challenge_AnessixDealCritDamage_Desc"		"Uděl kritickými zásahy celkem {s:threshold} bodů poškození"
 	"DAC_Challenge_AnessixKillDemons_Desc"			"{s:threshold}× zabij démona"
@@ -4146,10 +4356,10 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Achievement_WinWith5ActiveSynergies_Desc"	"{d:challengeMaxProgress}× vyhraj kolo s 5 nebo více aktivními synergiemi."
 	"DAC_Achievement_WinWithA6Synergy_Desc"			"{d:challengeMaxProgress}× vyhraj kolo s aktivní synergií o 6 nebo více hrdinech."
 	"DAC_Achievement_DailyChallengesCompleted"		"Denní výzvy dokončena"
-	"DAC_Achievement_WeeklyChallengesCompleted"		"Weekly Challenges Completed"	
-	"DAC_Achievement_WeeklyStreetFightCompleted"	"Weekly Street Fight Completed"		
-	"DAC_Achievement_WeeklyPuzzleCompleted"			"Weekly Puzzle Completed"		
-	"DAC_Achievement_WeeklyChallengeCompleted"		"Weekly Challenge Completed"		
+	"DAC_Achievement_WeeklyChallengesCompleted"		"Týdenní výzvy dokončeny"	
+	"DAC_Achievement_WeeklyStreetFightCompleted"	"Týdenní pouliční bitka dokončena"		
+	"DAC_Achievement_WeeklyPuzzleCompleted"			"Týdenní hádanka dokončena"		
+	"DAC_Achievement_WeeklyChallengeCompleted"		"Týdenní výzva dokončena"		
 
 	"DAC_Popup_ChallengeReroll_Title"				"Obnovit výzvu?"
 	"DAC_Popup_ChallengeReroll_TitleWithProgress"	"Obnovit výzvu?"
@@ -4205,7 +4415,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Loadout_PosterPreview"						"Náhled plakátu"
 	"DAC_Loadout_UnderlordSkin"						"Obleky"
 	"DAC_Loadout_UnderlordVictoryDance"				"Vítězné tanečky"
-	"DAC_Loadout_Generic"							"Reward"
+	"DAC_Loadout_Generic"							"Odměna"
 
 
 	"DAC_Loadout_PopupTitle_Boards"					"Vyber si vzhled bojiště"
@@ -4243,11 +4453,11 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Rewards_Rewards"                           "Odměny"
 	"DAC_Rewards_Subhead"							"Tvůj postup"
 	"DAC_Rewards_Intro"					            "Hraj zápasy a dokončuj výzvy pro odemčení níže uvedených odměn."
-	"DAC_Rewards_Description"						"Stejně jako mnohé další aspekty současné verze hry, také Beta deník je především experiment. Dej nám proto vědět svůj názor, abychom zjistili, co použít pro Bitevní deník nadcházející 1. sezóny."
+	"DAC_Rewards_Description"						"Stejně jako mnohé další aspekty současné verze hry, také Beta deník je především experiment. Dej nám proto vědět svůj názor, abychom zjistili, co použít pro nadcházející Bitevní deník."
 	"DAC_BattlePass_GCIssue"						"Nepodařilo se připojit k síti hry Dota Underlords."
 	"DAC_Rewards_CurrentLevel"						"<span class='LevelNumber'>{d:current_level}.</span><br>úroveň"
 
-	"DAC_Rewards_BattlePass_Title"					"První sezóna"
+	"DAC_Rewards_BattlePass_Title"					"Bitevní deník"
 	"DAC_Rewards_BattlePass_Description"			"Tajné společenství"
 	"DAC_Reward_Item_Level"							"{d:reward_level}. úroveň "
 
@@ -4281,7 +4491,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_AchievementTitle_Missing" 					"Chybějící název"
 	"DAC_AchievementDesc_Missing" 					"Chybějící popis"
 
-	"DAC_Profile_TopFinishes"				"Nejlepší umístění sezóny"
+	"DAC_Profile_TopFinishes"				"Nejlepší umístění"
 	"DAC_Profile_FinishFirst"				"První"
 	"DAC_Profile_FinishSecond"				"Druhé"
 	"DAC_Profile_FinishThird"				"Třetí"
@@ -4301,8 +4511,8 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 
 	"DAC_Profile_LoadMore"					"Načíst další"
 
-	"DAC_Profile_Progress"					"Postup v sezóně"
-	"DAC_Profile_Stats"						"Statistiky sezóny"
+	"DAC_Profile_Progress"					"Postup"
+	"DAC_Profile_Stats"						"Statistiky"
 
 	"DAC_Profile_GamesPlayed"				"Odehrané zápasy"
 	"DAC_Profile_MostTotalDamage"			"Nejvyšší celkové pošk."
@@ -4353,21 +4563,30 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"dac_season_0_popup_duos"		"Mód „Dvojice“"
 	"dac_season_0_popup_proving"		"Mód „Zkoušení“"
 
+	"dac_hero_rotation_popup_pre_title"			"Představujeme"
+	"dac_hero_rotation_popup_title"				"Nová krev v ulicích"
+	"dac_hero_rotation_popup_heroes"			"8 nováčků"
+	"dac_hero_rotation_popup_alliances"			"6 synergií"
+	"dac_hero_rotation_popup_items"				"7 předmětů"
+	"dac_hero_rotation_popup_oldheroes"			"8 starých známých"
+	"dac_hero_rotation_popup_classic"			"Klasický režim"
+	"dac_hero_rotation_popup_rankreset"			"Reset hodnocení"
+
 	"s1_title_row_1"			"Buď přivítán"
 	"s1_title_row_2"			"v Bílé věži"
 	"s1_description"			"Matička Eeb je po smrti a městu chybí vládce. Sestav proto armádu a vydej se na <span class='Emphasis'>Krvavou exkurzi</span>, která končí na trůnu Bílé věže.<br><br>Nebo dokončuj výzvy, hraj zápasy a získávej exkluzivní odměny <span class='Emphasis'>Bitevního deníku</span>.<br><br>Inu, zkrátka si užij první sezónu!"
 	"s1_play_trailer"			"Přehrát ukázku"
 	"s1_ricky_beta_message"		"Psst! Díky za účast na beta verzi. Abys neřekl, že jsem nevděčný, propašoval jsem ti do plné verze pár dárků. Tady máš herní desky z bety, titul na plakát zločince a moji sochu!"
 
-	"DAC_MainMenu_Weekly_Challenge_Header"	"This week:\n{s:weekly_challenge_headline}"
-	"popup_weekly_challenge_title" "The Early Bird"
-	"popup_weekly_challenge_subtitle" "The best (and only) newspaper in White Spire!"
-	"popup_weekly_challenge_battlepass_title" "Battle Pass must be unlocked to open the weekly early bird."
-	"popup_weekly_challenge_description" "Every week will bring a new issue of the Early Bird with the latest news from White Spire, new challenges to complete, and more. Complete the weekly Puzzle, Streetfight, and Objective to unlock the weekly reward!"
-	"popup_weekly_challenge_description_2_locked" "Since you have unlocked the Battle Pass, you already have access to the newsletter."
-	"popup_weekly_challenge_description_2_unlocked" "The weekly Early Bird is only available to players who have unlocked the Battle Pass."
-	"popup_weekly_challenge_ok_button" "View this week's issue"	
-	"popup_weekly_challenge_getbp_button" "Unlock the battlepass"
+	"DAC_MainMenu_Weekly_Challenge_Header"	"Tento týden:\n{s:weekly_challenge_headline}"
+	"popup_weekly_challenge_title" "Ranní ptáče"
+	"popup_weekly_challenge_subtitle" "Nejlepší (a jediné) noviny v Bílé věži!"
+	"popup_weekly_challenge_battlepass_title" "Pro otevření Ranního ptáčete musíš mít odemknutý Bitevní deník."
+	"popup_weekly_challenge_description" "Každý týden se můžeš těšit na nové vydání Ranního ptáčete, ve kterém se dočteš o tom, co se děje v Bílé věži a budeš si moci ověřit své schopnosti v týdenních výzvách – dokonči hádanku, pouliční bitku i úkol a odneseš si jedinečnou odměnu!"
+	"popup_weekly_challenge_description_2_locked" "A protože už máš odemčený Bitevní deník, máš přístup také k Rannímu ptáčeti."
+	"popup_weekly_challenge_description_2_unlocked" "Ranní ptáče chodí do schránky pouze tomu, kdo si odemkl Bitevní deník."
+	"popup_weekly_challenge_ok_button" "Otevřít noviny"	
+	"popup_weekly_challenge_getbp_button" "Odemknout Deník"
 	"dac_tutorial_popup_pre_title"			"Vítej ve hře"
 	"dac_tutorial_popup_title"				"Dota Underlords"
 	"dac_play_tutorial_popup_desc"			"Rychlý úvod"
@@ -4541,7 +4760,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 
 	"DAC_MainNav_SeasonInfo"	"Encyklopedie"
 	"DAC_MainNav_EarlyBird"		"Ranní ptáče"
-	"DAC_EarlyBird_ButtonDesc"	"Weekly Newsletter"
+	"DAC_EarlyBird_ButtonDesc"	"Týdenní noviny"
 	"DAC_MainNav_Achievements"	"ACHIEVEMENTY"
 	"DAC_MainNav_Battlepass"	"BETA DENÍK"
 	"DAC_MainNav_SecretSociety"	"TAJNÉ SPOLEČENSTVÍ"
@@ -4711,6 +4930,10 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Puzzle_RuleDescription_UnitCountLimit"			"Počet jednotek: {d:minimum}–{d:maximum}"
 	"DAC_Puzzle_RuleDescription_UnitCountLimit_Hi"		"Maximální počet jednotek: {d:maximum}"
 	"DAC_Puzzle_RuleDescription_UnitCountLimit_Lo"		"Minimální počet jednotek: {d:minimum}"
+
+	"DAC_Puzzle_RuleDescription_UnitCopyLimit"			"Počet kopií každého hrdiny: {d:minimum}–{d:maximum}"
+	"DAC_Puzzle_RuleDescription_UnitCopyLimit_Hi"		"Max. počet kopií každého hrdiny: {d:maximum}"
+	"DAC_Puzzle_RuleDescription_UnitCopyLimit_Lo"		"Min. počet kopií každého hrdiny: {d:minimum}"
 
 	"DAC_Puzzle_RuleDescription_UnitStarLimit"			"Počet ★ na jednotku: {d:minimum}–{d:maximum}"
 	"DAC_Puzzle_RuleDescription_UnitStarLimit_Hi"		"Maximální počet ★ na jednotku: {d:maximum}"
@@ -4897,7 +5120,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"dac_underlord_picker_4_build_1_ability_desc"	"Hobgen je posílen a celá armáda získá bonus k rychlosti útoku."
 
 	"DAC_Dashboard_Promo_Season1_Title"			"Vítej v Bílé věži"
-	"DAC_Dashboard_Promo_Season1_Desc"			"Vítej v první sezóně"
+	"DAC_Dashboard_Promo_Season1_Desc"			"Ovládni Bílou věž"
 
 	"dac_underlord_detail_passive_name"			"Pasivní schopnost"
 	"dac_underlord_detail_passive_build_desc"	"Při zápase ti bude nabídnut jeden ze dvou níže uvedených buildů."
@@ -4934,6 +5157,14 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"dac_turbo_bucket_tip_Vigilant"				"<span class='Vigilant'>Zaměřují cíle, které kouzlí</span>"
 	"dac_turbo_bucket_tip_Void"					"<span class='Void'>Udělují neredukované poškození</span>"
 
+	"dac_turbo_bucket_tip_Fallen"				"<span class='Fallen'>Po smrti léčí a mohou oživnout</span>"
+	"dac_turbo_bucket_tip_Wild"					"<span class='Wild'>Přivolávají spřátelené tvory</span>"
+	"dac_turbo_bucket_tip_Swordsman"			"<span class='Swordsman'>Dle okolí navyšují své poškození</span>"
+	"dac_turbo_bucket_tip_Rogue"				"<span class='Rogue'>Navyšují svůj úhyb a poškození</span>"
+	"dac_turbo_bucket_tip_Poisoner"				"<span class='Poisoner'>Aplikují svými útoky otrávení</span>"
+	"dac_turbo_bucket_tip_Magus"				"<span class='Magus'>Jednou za bitvu jsou nezranitelní</span>"
+
+
 	"dac_status_stunned"                        "Omráčen"
 	"dac_status_hexed"                          "Přeměněn"
 	"dac_status_muted"                          "Utišen"
@@ -4945,31 +5176,51 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_DevRandomBot"			"[DEV] Zabít 1 bota"
 	"DAC_DevKillSelf"			"[DEV] Zabít sebe"
 
-	"DAC_Weekly_Headline"						"Funny Headline!"
-	"DAC_Weekly_SubHeadline"					"Pithy Subhead that expands on headline joke and makes everyone laugh"
-	"DAC_Weekly_NoActiveChallengeHeader"		"Check back next week!"
-	"DAC_Weekly_ChallengesComplete"				"{i:weeklyChallengesCompleted}/{i:weeklyChallengesRequired} Challenges Complete"
-	"DAC_Weekly_Claim"							"Claim"
-	"DAC_Weekly_WeeklyChallenges"				"Weekly Challenges"
-	"DAC_Weekly_TimeRemaining"					"Expires in {i:days_left}D {i:hours_left}H {i:minutes_left}M"
-	"DAC_Weekly_TimeRemainingDays"				"{i:days_left} days remaining"
-	"DAC_Weekly_TimeRemainingHours"				"{i:hours_left} hours remaining"
-	"DAC_Weekly_TimeRemainingMinutes"			"{i:minutes_left} minutes remaining"
-	"DAC_Weekly_Puzzle_Desc"					"Some very cool words setting up this super sneaky puzzle involving the week's theme story."
-	"DAC_Weekly_StreetFight_Desc"				"Some more neato words setting up this really exciting streetfight, also themed around the week's story."
-	"DAC_Weekly_Fight"							"Fight!"
-	"DAC_Weekly_StreetFight"					"StreetFight!"
-	"DAC_Weekly_Objective"						"Objective!"
-	"DAC_Weekly_Puzzle"							"Puzzle!"
-	"DAC_Weekly_Arcade"							"Ye Olde Arcade"
-	"DAC_Weekly_NonogramTitle"					"Weekly Headscratcher"
-	"DAC_Weekly_NonogramDesc"					"Your aim in this puzzle is to figure out where there are filled and empty squares. Beside each row and column of the grid are listed the lengths of the runs of filled squares. These numbers tell you the runs of filled squares in that row/column. So, if you see '7 2', that tells you that there will be a run of exactly 7 filled squares, followed by one or more empty squares, followed by 2 filled squares.\n\nFill in a square by clicking it, mark it empty by clicking it again, and clear it by clicking a third time."
-	"DAC_Weekly_CourierStatsTitle"				"Courier Race Results"
+	"DAC_Weekly_LastWeek"						"Předchozí vydání"
+	"DAC_Weekly_NextWeek"						"Další vydání"
 
-	"DAC_Start_Courier_PlaceBet"				"Place your bets!"
-	"DAC_Start_Courier_StartRace"				"Start the race!"
-	"DAC_Start_Courier_NewRace"					"You Won <img class='goldcoin'/> {i:last_payout}!  Race Again?"
-	"DAC_Start_Courier_Race_InProgress"			"And they're off!"
+	"DAC_Weekly_Headline"						"Vtipný titulek!"
+	"DAC_Weekly_SubHeadline"					"Krátký podtitulek rozvíjející vtip titulku a nutící každého počůrat se smíchy"
+	"DAC_Weekly_NoActiveChallengeHeader"		"Není tu nic nového. Ideální příležitost dohnat odměny, které jsi prošvihl!"
+	"DAC_Weekly_ChallengesComplete"				"Dokončené výzvy: {i:weeklyChallengesCompleted}/{i:weeklyChallengesRequired}"
+	"DAC_Weekly_Claim"							"Vybrat"
+	"DAC_Weekly_WeeklyChallenges"				"Týdenní výzvy"
+	"DAC_Weekly_TimeRemaining"					"Vyprší za {i:days_left} d {i:hours_left} h {i:minutes_left} m"
+	"DAC_Weekly_TimeRemainingDays"				"Zbývá: {i:days_left} d"
+	"DAC_Weekly_TimeRemainingHours"				"Zbývá: {i:hours_left} h"
+	"DAC_Weekly_TimeRemainingMinutes"			"Zbývá: {i:minutes_left} m"
+	"DAC_Weekly_Puzzle_Desc"					"Co nejvíc cool text popisující tuhle super hádanku související s tématem aktuálního týdne."
+	"DAC_Weekly_StreetFight_Desc"				"Další cool text popisující tuhle napínavou pouliční bitku, která také souvisí s tématem aktuálního týdne."
+	"DAC_Weekly_Fight"							"Do boje!"
+	"DAC_Weekly_StreetFight"					"Do bitky!"
+	"DAC_Weekly_Objective"						"Na úkol!"
+	"DAC_Weekly_Puzzle"							"Na hádanku!"
+	"DAC_Weekly_Arcade"							"Stará dobrá arkáda"
+	"DAC_Weekly_NonogramTitle"					"Týdenní hlavolam"
+	"DAC_Weekly_NonogramDesc"					"V tomto hlavolamu je tvým úkolem zjistit, které čtverečky budou vyplněné a které budou naopak prázdné. U každé řádky a sloupce k tomu máš nápovědu v podobě čísel značících počet po sobě jdoucích vyplněných čtverečků, takže pokud uvidíš „7 2“, znamená to, že v této řádce/sloupci bude 7 vyplněných čtverečků za sebou, jeden nebo více prázdných čtverečků a znovu 2 vyplněné čtverečky.\n\nMimochodem, prvním kliknutím čtvereček vyplníš, druhým označíš jako prázdný a konečně třetím kliknutím ho resetuješ na neurčený."
+	"DAC_Weekly_NonogramHint"					"Nápověda: {s:nonogram_hint}"	
+	"DAC_Weekly_NonogramHeader_1"				"Co dostaneš jenom po smrti?"
+	"DAC_Weekly_NonogramHeader_2"				"Kdo to má vždy na háku?"
+	"DAC_Weekly_NonogramHeader_3"				"Co létá, ale křídla nemá?"
+	"DAC_Weekly_NonogramHeader_4"				"Kdo se hrabe v odpadcích?"
+	"DAC_Weekly_NonogramHeader_5"				"Kdo ti stojí za zády?"
+	"DAC_Weekly_NonogramHeader_6"				"Kdo je první na bojišti?"
+	"DAC_Weekly_NonogramHeader_7"				"Kdo vládne moru?"
+	"DAC_Weekly_NonogramHeader_8"				"Kdo nejraději tahá za nitky?"
+	"DAC_Weekly_NonogramHeader_9"				"Kdo bojuje bez slitování?"
+	"DAC_Weekly_NonogramHeader_10"				"Kdo má o hvězdičku navíc?"
+	"DAC_Weekly_NonogramHeader_11"				"Kdo je skutečně zapálený do boje?"
+	"DAC_Weekly_NonogramHeader_12"				"Kdo bez sekery nedá ránu?"
+	"DAC_Weekly_NonogramHeader_13"				"Kdo stráží Ancienty?"
+	"DAC_Weekly_NonogramHeader_14"				"Která žena je ze všech nejžhavější?"
+
+	"DAC_Weekly_CourierStatsTitle"				"Výsledky dostihů kurýrů"
+	"DAC_Weekly_Expired"						"Vypršelo"
+
+	"DAC_Start_Courier_PlaceBet"				"Umístit sázky!"
+	"DAC_Start_Courier_StartRace"				"Zahájit dostih!"
+	"DAC_Start_Courier_NewRace"					"Vyhrál jsi <img class='goldcoin'/> {i:last_payout}!  Znovu?"
+	"DAC_Start_Courier_Race_InProgress"			"A už běží!"
 
 	"DAC_CC_Bounty_Title"						"Odměna:"
 	"DAC_CC_MostWanted_Title"					"Nejhledanější"
@@ -4983,7 +5234,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_CC_New_Item"							"Novinka!"
 	"DAC_CC_Key_Tooltip"						"Použitím předmětu „Klíč od města“ můžeš přeskočit vybranou misi a posunout se na mapě. Každý klíč má však jen jedno použití, takže vol moudře."
 	"DAC_CC_Locked_Content_Title"				"Uzamčená mise"
-	"DAC_CC_Locked_Content_Desc"				"Pro přístup k celé Krvavé exkurzi a více než 100 prémiovým odměnám odemkni Bitevní deník první sezóny."
+	"DAC_CC_Locked_Content_Desc"				"Pro přístup k celé Krvavé exkurzi a více než 100 prémiovým odměnám odemkni Bitevní deník."
 	"DAC_CC_TakeOverWhiteSpire"					"Ovládni Bílou věž"
 	"DAC_CC_BeginPrestige"						"Znovu obsaď město"
 	"DAC_CC_DistrictCompleted"					"Čtvrť dokončena"
@@ -5015,7 +5266,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_CC_Intro_StreetFight_Title"			"Pouliční bitky"
 	"DAC_CC_Intro_StreetFight_Desc"				"Vyzvi nepřátelský gang na rychlou bitku, po jejímž vítězství obsadíš dané teritorium."
 	"DAC_CC_Intro_BattlePass_Title"				"Prémiové mise"
-	"DAC_CC_Intro_BattlePass_Desc"				"Tyto mise různého typu jsou dostupné pouze vlastníkům Bitevního deníku první sezóny."
+	"DAC_CC_Intro_BattlePass_Desc"				"Tyto mise různého typu jsou dostupné pouze vlastníkům Bitevního deníku."
 
 	"DAC_CC_ChallengeType_Intro"					"Úvod"
 	"DAC_CC_ChallengeType_Objective"				"Úkol"
@@ -5143,7 +5394,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Challenge_Streetfight_meatsacks_title"			"Mlýnek na maso"
 	"DAC_Challenge_Streetfight_meatsacks_Bot"			"Siláci"
 	"DAC_Challenge_Streetfight_meatsacks_BotDesc"		"unused description about Graveyard Trolls"
-	"DAC_Challenge_Streetfight_meatsacks_Lore"			"Street Docs make a lot of money in White Spire. If Hobgen can corner the market, not only will he have an edge on his competition, but he'll make a healthy profit."
+	"DAC_Challenge_Streetfight_meatsacks_Lore"			"Oglodská masová móda dorazila už i do Bílé věže. Poměrně lukrativní trh, obzvlášť pro někoho, kdo se s mrtvolami potkává denně."
 	"DAC_Challenge_Streetfight_meatsacks_Quote"			"Carl platí velké peníze za mrtvoly, ze kterých může udělat klobouky. A víš, jak se to říká, místním podnikatelům je třeba pomáhat. – <i>Hobgen, nově zapálený už i do módy</i>"
 	"DAC_Challenge_Streetfight_meatsacks_Win"			"Kontroverzní galanterie představuje nové produkty"
 	"DAC_Challenge_Streetfight_meatsacks_Lose"			"Hobgen se postavil Katovi – extrémně hloupý nápad"
@@ -5170,8 +5421,8 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Challenge_Streetfight_scaled_slark_BotDesc"		"unused description about Graveyard Trolls"
 	"DAC_Challenge_Streetfight_scaled_slark_Lore"			"Slark a jeho kumpáni z Temného útesu si začali nárokovat Nové spáleniště. Čím dříve budou vyhnáni, tím lépe."
 	"DAC_Challenge_Streetfight_scaled_slark_Quote"			"Nevím, jestli je to na popud Julla, nebo to napadlo samotného Slarka, ale já se nevzdám ani centimetru svého teritoria. – <i>Hobgen reaguje na novou hrozbu</i>"
-	"DAC_Challenge_Streetfight_scaled_slark_Win"			"Hobgen unintentionally stands for law and order by killing escaped convicts"
-	"DAC_Challenge_Streetfight_scaled_slark_Lose"			"Darkreef escapees beat the hell out Hobgen"
+	"DAC_Challenge_Streetfight_scaled_slark_Win"			"Hobgen zabil uprchlé zločince a neúmyslně tak pomohl těm „dobrým“"
+	"DAC_Challenge_Streetfight_scaled_slark_Lose"			"Jull dostal na frak od uprchlíků z Temného útesu"
 	
 	
 	
@@ -5188,8 +5439,8 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Challenge_Streetfight_thunderhides_BotDesc"			"Is it broken here?"
 	"DAC_Challenge_Streetfight_thunderhides_Lore"				"Grekův rozsáhlý zvěřinec je sice impozantní na pohled, ale když mu náhodou část zvířat uteče, končí veškerá legrace."
 	"DAC_Challenge_Streetfight_thunderhides_Quote"				"Grekovi zatracení hromokožci už zase utekli ze své ohrady. Když je nezastavím, zadupou Nové spáleniště do země. – <i>Hobgen, amatérský kovboj</i>"
-	"DAC_Challenge_Streetfight_thunderhides_Win"				"Hobgen wrangles escaped thunderhides, consideres starting own menagerie"
-	"DAC_Challenge_Streetfight_thunderhides_Lose"				"Hobgen saw the Thunderhide.  And the Thunderhide saw him."	
+	"DAC_Challenge_Streetfight_thunderhides_Win"				"Hobgen zkrotil zdivočelé hromokožce, nyní plánuje vlastní zoo"
+	"DAC_Challenge_Streetfight_thunderhides_Lose"				"Hobgen spatřil hromokožce. A hromokožec spatřil jeho"	
 	
 	"DAC_Challenge_Streetfight_foresters_title"				"Požární hlídka"
 	"DAC_Challenge_Streetfight_foresters_Bot"				"Ekoteroristé"
@@ -5638,8 +5889,8 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Challenge_Streetfight_humans_and_hunters_BotDesc"		"humans_and_hunters Desc"
 	"DAC_Challenge_Streetfight_humans_and_hunters_Lore"			"Anessix dobře ví, jak to chodí: po určité době vlády nad městem se přirozeně srotí naštvaný dav a pokusí se svrhnout démona."
 	"DAC_Challenge_Streetfight_humans_and_hunters_Quote"		"Lidé se bojí mě a mých vazeb na Ristulský dvůr, což je v případě Bílé věže opravdu překvapivé. Dobře, pokud nechtějí jednat s démonem, mohou jít jednat s někým jiným a nemusí hned protestovat na náměstí. – <i>Anessix má vrozený strach z hořících hranic</i>"
-	"DAC_Challenge_Streetfight_humans_and_hunters_Win"			"It was a nightmare but it was one exciting ride"
-	"DAC_Challenge_Streetfight_humans_and_hunters_Lose"			"Magic mirror not enough to stop Anessix"
+	"DAC_Challenge_Streetfight_humans_and_hunters_Win"			"Anessix se protentokrát vyhnula nabroušeným vidlím"
+	"DAC_Challenge_Streetfight_humans_and_hunters_Lose"			"Anessix dozlatova osmažena na kůlu"
 
 
 	"DAC_Challenge_Streetfight_mages_and_healers_Title"		"Dominantní povaha"
@@ -5779,9 +6030,9 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Challenge_AnessixWinWithHumans_quote"                               		"Lidé Bílé věže si všimli mých schopností a obrátili se ke mně kvůli moci. Zástupy mých uctívačů se každý den rozrůstají a s nimi roste i můj vliv. – <i>Anessix, která nabízí přesně to, co si lidé žádají</i>"
 
 	
-	"DAC_Challenge_AnessixSummonEidolons_title"                           	   		"Matka eidolonů"
-	"DAC_Challenge_AnessixSummonEidolons_lore"                            	   		"Fundamentálů se mnozí logicky straní. Ne však Anessix, která se chce stát po jejich boku. Minimálně do té doby, než odhalí jejich slabiny."
-	"DAC_Challenge_AnessixSummonEidolons_quote"                           	   		"Pradávné síly se mohou zdát nadřazené všem ostatním, ale přitom je lze ovládat stejně snadno jako běžné smrtelníky. Stačí zjistit, po čem touží... – <i>Anessix vysvětluje své postupy</i>"
+	"DAC_Challenge_AnessixSummonEidolons_title"                           	   		"Pozvedněte číše"
+	"DAC_Challenge_AnessixSummonEidolons_lore"                            	   		"Vystupování je pro Anessix nesmírně důležité, takže když ji část městských aristokratů zavrhla pro její démonickou krev, rozhodla se je otrávit jakožto civilizovaná žena, nikoli je vykuchat jako monstrum, za které ji vydávali."
+	"DAC_Challenge_AnessixSummonEidolons_quote"                           	   		"Další krok, který musím provést před ovládnutím Bílé věže. – <i>Anessix se nezdráhá jít přes mrtvoly</i>"
 
 		
 	"DAC_Challenge_AnessixBuyDemons_title"                         			"Investice do budoucnosti"
@@ -5819,7 +6070,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 
 	
 	// Enno S1 Objectives
-	"DAC_Challenge_EnnoWinWithHunters_Desc"			"{s:threshold}× vyhraj kolo s aktivní synergií <span class='Hunter'>lovců</span>"
+	"DAC_Challenge_EnnoWinWithHunters_Desc"			"{s:threshold}× vyhraj kolo s aktivní synergií lovců"
 	"DAC_Challenge_EnnoWinWithHunters_title"		"Obecní patrola"
 	"DAC_Challenge_EnnoWinWithHunters_lore"			"Enno není žádný flákač a ve volných chvílích obchází Temné nory, hledajíc nezvané návštěvníky."
 	"DAC_Challenge_EnnoWinWithHunters_quote"		"Enno detailně vysvětluje, co dělá vetřelcům."
@@ -5850,7 +6101,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Challenge_EnnoStunUnits_lore"				"Něco si musíme ujasnit: Enno je bastard a chce, aby to věděl celý svět."
 	"DAC_Challenge_EnnoStunUnits_quote"				"Enno popisuje, jak zlomí své rivaly."
 	
-	"DAC_Challenge_EnnoBruteDebuff_Desc"			"Aplikuj na {s:threshold} nepřátel debuff synergie <span class='Brute'>surovců</span>"
+	"DAC_Challenge_EnnoBruteDebuff_Desc"			"Aplikuj na {s:threshold} nepřátel debuff synergie surovců"
 	"DAC_Challenge_EnnoBruteDebuff_title"			"Taktika oslabení"
 	"DAC_Challenge_EnnoBruteDebuff_lore"			"Enno chápe, že tím, co drží lidi mimo Temné nory, je strach, a tak dělá vše pro to, aby se ostatní báli ještě víc."
 	"DAC_Challenge_EnnoBruteDebuff_quote"			"Enno varuje, že na jeho ulicích není nikdo v bezpečí."
@@ -5858,12 +6109,12 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Challenge_EnnoTop4_Desc"					"{s:threshold}× se umísti v nejlepší čtveřici"
 	"DAC_Challenge_EnnoTop4_title"	"Černý poník Enno"
 	"DAC_Challenge_EnnoTop4_lore"	"Není žádným tajemstvím, že mezi čtyřmi vyvolenými vládci podsvětí je Enno divokou kartou. Nemá pod sebou žádný byznys. Nemá žádné démonické spojence. Ani nikdy nebyl pravou rukou matičky Eeb. Ale Enno všem ukáže, že na to má."
-	"DAC_Challenge_EnnoTop4_quote"  "In which Enno espouses his love of shiny things"
+	"DAC_Challenge_EnnoTop4_quote"  "Enno divoce gestikuluje a popisuje své přednosti."
 	
-	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"Uděl s <span class='Ogre'>pokrevními</span> celkem {s:threshold} bodů poškození"
-	"DAC_Challenge_EnnoDealDamageBloodbound_title"	"Malá velká krvežíznivost"
-	"DAC_Challenge_EnnoDealDamageBloodbound_lore"	"Enno ze všeho nejraději lidem dokazuje, že na velikosti nezáleží."
-	"DAC_Challenge_EnnoDealDamageBloodbound_quote"	"Enno vypráví o tom, jak uspokojivé je zabít někoho, kdo ho podceňoval."
+	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"Uděl s padlými celkem {s:threshold} bodů poškození"
+	"DAC_Challenge_EnnoDealDamageBloodbound_title"	"Pád a vzestup"
+	"DAC_Challenge_EnnoDealDamageBloodbound_lore"	"Enno vždy říkal, že kolem sebe má rád bojovníky, kteří se dokáží oklepat z pádu a znovu se rvát."
+	"DAC_Challenge_EnnoDealDamageBloodbound_quote"	"YipYip vzal slova svého pána až příliš doslovně."
 
 	"DAC_Challenge_EnnoSpendGoldLeveling_Desc"		"Utrať celkem {s:threshold} zlaťáků za zkušenosti"
 	"DAC_Challenge_EnnoSpendGoldLeveling_title"	"Na tohohle v budoucnu bacha"
@@ -5872,11 +6123,11 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 
 	"DAC_Challenge_EnnoBuy5CostUnits_Desc"			"Zakup si celkem {s:threshold} jednotek"
 	"DAC_Challenge_EnnoBuy5CostUnits_title" "Verbování, základ úspěchu"
-	"DAC_Challenge_EnnoBuy5CostUnits_lore" "The twisting back alleys of The Warrens allow for enterprising individuals ample opportunities to spring an ambush."
-	"DAC_Challenge_EnnoBuy5CostUnits_quote" "In which Enno plots to use the streets to his advantage."
+	"DAC_Challenge_EnnoBuy5CostUnits_lore" "V Temných norách platí jednoduchá pravidla. Například, že čím větší hlouček lapků potkáš, tím rychleji bys měl utíkat."
+	"DAC_Challenge_EnnoBuy5CostUnits_quote" "Enno se chystá na skautování talentu."
 
-	"DAC_Challenge_EnnoWinWithInsect_Desc"			"{s:threshold}× vyhraj kolo s aktivní synergií <span class='Insect'>hmyzovitých</span>"
-	"DAC_Challenge_EnnoWinWithInsect_title" "Chyceni v síti"
+	"DAC_Challenge_EnnoWinWithInsect_Desc"			"{s:threshold}× vyhraj kolo s aktivní synergií šermířů"
+	"DAC_Challenge_EnnoWinWithInsect_title" "Hodina šermu"
 	"DAC_Challenge_EnnoWinWithInsect_lore"	"Křivolaké uličky Temných nor nabízejí chytrým jedincům spoustu míst, kde lze nastražit past."
 	"DAC_Challenge_EnnoWinWithInsect_quote" "Enno plánuje využít ulice ve svůj prospěch."
 
@@ -6028,7 +6279,7 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 	"DAC_Challenge_Streetfight_scaled_slark_enno_BotDesc"		"scaled_slark_enno Desc"
 	"DAC_Challenge_Streetfight_scaled_slark_enno_Lore"		"Enno má dva hlavní zájmy. Okrádání turistů a otravování Julla."
 	"DAC_Challenge_Streetfight_scaled_slark_enno_Quote"		"Enno popisuje, jak moc nemá rád Julla."
-	"DAC_Challenge_Streetfight_scaled_slark_enno_Win"		"Enno continues to be a thorn in Jull's side by disrupting Dark Reef bootleggers"
+	"DAC_Challenge_Streetfight_scaled_slark_enno_Win"		"Enno nadále osinou v Jullově zadku"
 	"DAC_Challenge_Streetfight_scaled_slark_enno_Lose"		"Ennův útok na Julla skončil katastrofou"
 
 
@@ -6079,271 +6330,291 @@ Pro každého vládce je dostupný identický seznam předmětů, a přestože n
 
 
 	// Weekly challenge	#1
-	"DAC_Challenge_weekly_challenge_0_Headline"						"COMING SOON!"
+	"DAC_Challenge_weekly_challenge_0_Headline"						"JIŽ BRZY"
 
-	"DAC_Challenge_weekly_challenge_1_Headline"						"STALK MARKET CLASH!"
-	"DAC_Challenge_weekly_challenge_1_SubHeadline"					"Turnips and blood fly at the White Spire Farmer's Market"
+	"DAC_Challenge_weekly_challenge_1_Headline"						"RVAČKA NA TRHU!"
+	"DAC_Challenge_weekly_challenge_1_SubHeadline"					"Na farmářském trhu v Bílé věži tekla krev a mošt"
 
-	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Title"		"Axe and Disruptor Cause Disturbance in the market"
-	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Lore"		"White Spire is no stranger to questionable goods and services, but even by our citys standards, selling Oglodi skin shirts is particularly ghoulish \n(more on page 2\n)"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_Title"			"Tailor Trades Traditions"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_Lore"			"After a disasterous showing at the Farmer's Market, Carl the tailor has decided to abandon Quoidge fashion trends in lieu of more traditional garments.  When asked about the change, Carl said \"I'm just a simple corpse that likes to put a smile on peoples faces.  If that means hiring people to hunt wolves instead of Oglodi, I'm all for it,\" (more on page 6)"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_win"			"Carl decides to make a jacket that doesn't involve human flesh"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_lose"			"Trapping Party Hired by Carl get's mauled outside White Spire"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_Bot"			"Premature Pelts"
+	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Title"		"Kat a Strůjce bouří vyvolali rozruch na trhu"
+	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Lore"		"V Bílé věži jsou pochybné produkty a služby jako doma, ale prodej triček z oglodských kůží je i na naše město příliš zvrácený. \nVíce na straně 2.\n"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Title"			"Krejčovská tradice"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Lore"			"Po propadáku na farmářském trhu se krejčí Carl rozhodl přeorientovat z aktuálních módních trendů Quoidge zpět na tradičnější ošacení. Když jsme ho požádali o komentář, Carl řekl: „Vždyť mě znáte, jsem jen prostá mršina, která ze všeho nejraději dělá radost druhým. Pokud budete radši, když nechám své lidi lovit vlky místo oglodských, tak ať.“ Více na straně 6."
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_win"			"Carl představuje novou řadu produktů z vlčí srsti"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_lose"			"Lovci najatí Carlem byli zmasakrováni v lese u Bílé věže"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Bot"			"Budoucí kožešiny"
 
-	"DAC_Challenge_Challenge_weekly_challenge_1_Title"				"Wanted: Justice For Carl"
-	"DAC_Challenge_Challenge_weekly_challenge_1_Lore"				"Carl the Tailor was the victim of non-dead prejudice in White Spire, and the good people of Quoidge will not stand for it.  Let it be known that we will be rewarding any individuals that work to progress undead relations in White Spire.\n\n- Reginald Blithe the third, Spokesman of the Cadaver Men."
-	"DAC_Challenge_Challenge_weekly_challenge_1_Instructions"		"Kill 300 units with Heartless heroes"
+	"DAC_Challenge_Challenge_weekly_challenge_1_Title"				"Spravedlnost pro Carla"
+	"DAC_Challenge_Challenge_weekly_challenge_1_Lore"				"Krejčí Carl se stal dalším terčem nenávisti vůči nemrtvým a my, bývalí lidé z Quoidge, to nehodláme trpět. Na vědomost se tedy dává, že odměníme každého, kdo náležitě pomůže se zrovnoprávněním nemrtvých v Bílé věži.\n\n – Podepsán Reginald Rozpadavý, mluvčí Spolku emancipovaných mrtvol"
+	"DAC_Challenge_Challenge_weekly_challenge_1_Instructions"		"Zabij s nemrtvými celkem 300 nepřátel"
 	
 	// Weekly challenge	#2
-	"DAC_Challenge_weekly_challenge_2_Headline"						"AXE-CITING DAY IN WHITE SPIRE"
-	"DAC_Challenge_weekly_challenge_2_SubHeadline"					"Local Authorities chalk up rise in murders to Axe's vacation in White Spire"
+	"DAC_Challenge_weekly_challenge_2_Headline"						"KAT-ASTROFICKÝ DEN V BÍLÉ VĚŽI"
+	"DAC_Challenge_weekly_challenge_2_SubHeadline"					"Policie počítá mrtvé způsobené Katovou návštěvou Bílé věže"
 
-	"DAC_Challenge_Puzzle_brutal_book_signing_Title"		"Bad Luck Follows \"The Bad Luck Oglodi\" "
-	"DAC_Challenge_Puzzle_brutal_book_signing_Lore"		"A book signing for Goodkind's new novel, \"The Bad Luck Oglodi\" took a particularly violent turn after someone suggested that Axe wasn't as dangerous as he is presented in the book.  (More on page 2)"
+	"DAC_Challenge_Puzzle_brutal_book_signing_Title"		"„Krev a trest“ drtí rekordy a lebky"
+	"DAC_Challenge_Puzzle_brutal_book_signing_Lore"		"Autogramiáda Dobromilčina nového biografického románu „Krev a trest“ se zvrhla v bitku poté, co někdo z davu prohlásil, že Kat není zdaleka tak nebezpečný, jak se v knize píše. Více na straně 2."
+	"DAC_Puzzle_RuleDescription_brutal_book_signing"			"Pouze Kat může zabíjet nepřátele"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_2_Title"		"Axe drinks at Sundered Moon, violence ensues"
-	"DAC_Challenge_Streetfight_weekly_street_fight_2_Lore"		"Bar tabs and bodycounts rose last night as Axe's arrival to White Spire gained the attention of would be-tough guys with something to prove... and unfortunately for Jull, these ruffians found themselves at The Sundered Moon. (More on page 6)"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_2_win"				"Jull buries hatchet with Axe, punches people on his behalf"
-	"DAC_Challenge_Streetfight_weekly_street_fight_2_lose"				"Bar Fight in Sundered Moon leaves Jull's establisment in shambles"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Title"		"Kat + Zlomený Měsíc = Spousta násilí"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Lore"		"Když se místní rádoby tvrďáci dozvěděli o Katově včerejším příjezdu do Bílé věže, násilí na sebe nenechalo dlouho čekat. A naneštěstí pro Julla se epicentrem stal Zlomený Měsíc, kde už předtím nebyl k dispozici dostatek půllitrů. Více na straně 6."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_win"				"Jull zakopal válečnou sekyru s Katem a v jeho jménu zmlátil pár opilců"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_lose"				"Rvačka U Zlomeného Měsíce málem srovnala Jullův podnik se zemí"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Bot"				"Chuligáni"
 
-	"DAC_Challenge_Challenge_weekly_challenge_2_Title"		"Wanted: People For Axe To Murder"
-	"DAC_Challenge_Challenge_weekly_challenge_2_Lore"		"Stupid people have told Axe that Axe wasn't good at killing but Goodkind was good at embellishment.  Axe will prove both are true. - Axe \n\nPS - buy my book"
+	"DAC_Challenge_Challenge_weekly_challenge_2_Title"			"Kat (a spol.) hledá cvičné oběti"
+	"DAC_Challenge_Challenge_weekly_challenge_2_Lore"			"Hloupí lidé řekli Katovi, že Kat nebýt dobrý v zabíjení a Dobromilka neumět psát. Kat ukáže, jak moc se mýlili. – Podepsán Kat \n\nPS: Kupte si moji knihu."
+	"DAC_Challenge_Challenge_weekly_challenge_2_Instructions"	"75× vyhraj kolo s aktivní synergií surovců"
 	
 	// Weekly challenge	#3
-	"DAC_Challenge_weekly_challenge_3_Headline"						"Ladies Night!"
-	"DAC_Challenge_weekly_challenge_3_SubHeadline"					"Women of Whitespire paint the town red"
+	"DAC_Challenge_weekly_challenge_3_Headline"						"Dámská jízda"
+	"DAC_Challenge_weekly_challenge_3_SubHeadline"					"Ženy Bílé věže to pořádně roztočily"
 
-	"DAC_Challenge_Puzzle_anessix_and_akasha_Title"					"Anessix and Akasha"
-	"DAC_Challenge_Puzzle_anessix_and_akasha_Lore"						"To call Akasha and Anessix's relationship a friendship is being overly charitable... but when these two demonesses unite behind a common cause they are capable of remarkable things."
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Title"					"Démonky spojila sdílená nevraživost vůči lidem"
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Lore"					"Je veřejným tajemstvím, že Akasha a Anessix se nemohou snést. Události posledních dní však ukazují naprostý opak. Jako kdyby démonky nechaly sváry v síních Ristulského dvora a v Bílé věži nalezly společnou řeč. Nebo minimálně společnou touhu zabíjet. Více na straně 3."
 
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_Title"		"Don't Ask Her To Smile"
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_Bot"		"Catcallers"
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_Lore"		"White Spire has no shortage of boorish men, something that Anessix is keen to deal with."	
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_win"				"Neandrathals whistle at Anessix, immediately regret decision"
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_lose"				"Anessix driven off, quietly plots revenge"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Title"		"Přibývá mrtvých opilců, kteří po Anessix chtěli, aby se víc usmívala"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Bot"		"Neurvalci"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Lore"		"Většina obyvatelů (a obyvatelek) Bílé věže se naučila ignorovat obhroublé poznámky nevzdělaných a většinou i podnapilých turistů. Jenže Anessix není většina a obtěžování si líbit nenechá. Jak vypovídá krejčí Carl: „Nejdřív se jí všichni smáli, ale než byste řekli švec, už jednomu z nich rvala jazyk z pusy. V tu chvíli mi došlo, že tihle pánové si vybrali špatnou oběť.“ Více na straně 2."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_win"				"Neandrtálci obtěžovali Anessix a skončili v márnici"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_lose"				"Anessix nedokázala vzdorovat, teď splétá pomstu"
 
-	"DAC_Challenge_Challenge_weekly_challenge_3_Title"		"The Female of the Species"
-	"DAC_Challenge_Challenge_weekly_challenge_3_Lore"		"Never underestimate the women of White Spire"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Title"		"Hledají se alfa samice"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Lore"		"Už mám dost toho, jak mužské osazenstvo Zlomeného Měsíce neustále tlachá o svých nadřazených schopnostech. Pokud by se tu chtěly stavit nějaké dámy a ukázat těm frajírkům jejich místo, drinky půjdou na mě. – Connie, manažerka Zlomeného Měsice"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Instructions"	"75× vyhraj kolo, zatímco máš na desce alespoň jednu hrdinku"
+
+	// Weekly challenge	#5
+	"DAC_Challenge_weekly_challenge_5_Headline"						"Vypůjčené krvavé peníze"
+	"DAC_Challenge_weekly_challenge_5_SubHeadline"					"Království kupců Revtel nadále financuje války gangů v Bílé věži"
+	"DAC_Puzzle_RuleDescription_Only1Allowed"						"Max. počet kopií každého hrdiny: 1"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Title"					"O’nia uklízí peněženku – vládci podsvětí musí udělat více za méně"
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Lore"						"Geeta „Roztančená čepel“ rád říkával, že „války nekončí pro nedostatek zápalu, nýbrž pro nedostatek prostředků“. Tato slova legendárního rytíře řádu Vigil jsou dnes zvlášť pravdivá, jelikož O’nia, největší ryba půjčování peněz v Bílé věži, se rozhodla zastavit business, dokud jí nebudou splaceny všechny dluhy. Více na straně 2."
+
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Title"			"Meepové se ukrývají před revtelskými vymahači"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Bot"			"Vymahači"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Lore"			"Jak každý, koho už navštívili Vranohlavové, dobře ví, peníze si můžete půjčovat pouze do té doby, než někdo přijde vybrat dluh. Tento krok je pak běžně řešen na lokální úrovni, nicméně tentokrát si O‘nia na pomoc pozvala kumpány zvenčí. Více na straně 6."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_win"			"Hobgen stále naživu, ale začíná uvažovat, že svůj dluh splatí"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_lose"			"Hobgen splatil dluh Revtelu svými orgány"
+
+	"DAC_Challenge_Challenge_weekly_challenge_5_Title"				"SHÁNÍM: Nepodříznuté hrdlo"
+	"DAC_Challenge_Challenge_weekly_challenge_5_Lore"				"Ahoj holky, ahoj kluci, nebudu plejtvat písmenky: Potřebuju peníze. Nutně. Jakože fakt nutně. Tak nutně, že už po mně jde Jaspisové společenství. Takže kdybyste starýho kámoše Meepa založili 250 zlaťáky, než se nadějete, vrátí vám 20 táců. Čestný slovo. – Meepo číslo 4"
+	"DAC_Challenge_Challenge_weekly_challenge_5_Instructions"		"Získej 250 bonusových zlaťáků"
 
 	// Weekly challenge	#4
-	"DAC_Challenge_weekly_challenge_4_Headline"						"Foreign Blood Money"
-	"DAC_Challenge_weekly_challenge_4_SubHeadline"					"The Merchant Kingdom of Revtel Continues to Finance Gang War in White Spire"
+	"DAC_Challenge_weekly_challenge_4_Headline"						"Bílou věží obchází smrt"
+	"DAC_Challenge_weekly_challenge_4_SubHeadline"					"Temné nory zaplaveny nemrtvými – Ennovy oběti se vrátily pro pomstu"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_4_Title"					"Tightened Purse Strings"
-	"DAC_Challenge_Puzzle_weekly_puzzle_4_Lore"						"If you are friends with O'nia, she can offer easy access to the wealth of Revtel.  If you fall out of her favor however, you may find money to be tighter than usual."
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Title"					"Král temnot brání svůj trůn před Lichem"
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Lore"						"Už několik dní se Lich pokouší přeměnit Temné nory ve svůj osobní dům hrůzy a jediné, co mu brání kompletně sevřít čtvrť zmrzlými pařáty je paradoxně nejznámější chlupatý zlosyn Bílé věže. Více na straně 10."
+	"DAC_Puzzle_RuleDescription_KillLich"							"Pro výhru zabij Liche"
 
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Title"		"ZÁHROBNÍCI POVSTÁVAJÍ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Bot"		"Oživlé mrtvoly"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Lore"		"Všichni občané Bílé věže dobře ví, že Temné nory jsou posety mrtvolami všech, kdo zahnuli do nesprávné uličky. Jenže co doteď nepředstavovalo problém, se nyní vlivem temných sil probouzejících mrtvé mění v noční můru. Více na straně 2."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_win"				"Enno vrátil úmrtnost v Temných norách na základní hodnoty"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_lose"				"Mrtví turisté se pomstili Ennovi"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_Title"		"Revtel Collection Crew"
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_Bot"		"Revtel Leg Breakers"
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_Lore"		"Revtel Banks mae borrowing money incredibly easy... and if you default, incredibly dangerous."	
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_win"				"Hobgen Fends Off Mercenary Band, Thinks About Paying Back Debt"
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_lose"				"Revtel Hires Leg Breakers To Brutalize Hobgen"
-
-	"DAC_Challenge_Challenge_weekly_challenge_4_Title"		"Revtel Debts"
-	"DAC_Challenge_Challenge_weekly_challenge_4_Lore"		"Hobgen had been leaning heavily on O'nia to get funds from Revtel to finance his gang war... and the time has come to repay what he owes."
-	
-	// Weekly challenge	#5
-	"DAC_Challenge_weekly_challenge_5_Headline"						"The Dead Walk In White Spire"
-	"DAC_Challenge_weekly_challenge_5_SubHeadline"					"Warrens Overrun With The Undead As Enno's Previous Victims Seek Revenge"
-
-	"DAC_Challenge_Puzzle_weekly_puzzle_5_Title"					"The King Of The Warrens"
-	"DAC_Challenge_Puzzle_weekly_puzzle_5_Lore"						"To Enno, it's important that the city knows that The Warrens are his dominion... and that no one who comes there without his permission is safe, even if they are an undead murder machine."
-
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_Title"		"RISE FROM YOUR GWAVE!"
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_Bot"		"Altered Corpses"
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_Lore"		"The streets of the warrens are littered with the bodies of those who ventured down the wrong alley.  But now, something dark and sinister has called the dead to wake from their slumber."	
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_win"				"Enno Kills Zombies, Returns Warrens To Baseline Leathality"
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_lose"				"Dead Tourists Get Their Revenge On Enno"
-
-	"DAC_Challenge_Challenge_weekly_challenge_5_Title"		"Intimidation Game"
-	"DAC_Challenge_Challenge_weekly_challenge_5_Lore"		"Some think that the undead outbreak has weakened Enno's position, and he intends to prove them wrong."
+	"DAC_Challenge_Challenge_weekly_challenge_4_Title"		"HLEDAJÍ SE HRDÍ OBČANÉ"
+	"DAC_Challenge_Challenge_weekly_challenge_4_Lore"		"Po městě se potlouká celá řada bezcitných zlořádů. Je nejvyšší čas s tím něco udělat! Tenayin proto hledá dobrovolníky, kteří společně s ní učiní z Bílé věže bezpečnější místo pro žití. REKLAMA ZAPLACENA TENAYINÝMI PŘÁTELI"
+	"DAC_Challenge_Challenge_weekly_challenge_4_Instructions"	"Zabij 300 nemrtvých"
 	
 	// Weekly challenge	#6
-	"DAC_Challenge_weekly_challenge_6_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_6_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_6_Headline"						"POŘÁDEK MUSÍ BÝT"
+	"DAC_Challenge_weekly_challenge_6_SubHeadline"					"Městská stráž si došlápla na Jullovu pašeráckou operaci"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_6_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_6_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Title"					"Zátah v docích"
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Lore"						"Včerejší noční zátah v docích skončil krveprolitím, když se nechvalně proslulý lihový baron rozhodl bránit své zboží. Více na straně 3."
+	"DAC_Puzzle_RuleDescription_PreserveJullMangoTree"							"Jull a mangovník musí přežít"
+	
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Title"		"Ne každému v Bílé věži sedí chaos"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Bot"		"Strážci pořádku"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Lore"		"Co zemřela matička Eeb, války gangů se v Bílé věži staly denním chlebem ovlivňujícím životy všech obyvatel. Někteří z nich už toho ale mají dost a konečně se odhodlali postavit mafiánům přetahujícím se o nadvládu nad našimi ulicemi. Více na straně 5."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_win"				"Nic se nezměnilo – městská stráž nadále neschopná"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_lose"				"Městská stráž ukončila hon za mocí vládců podsvětí"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_lose"				"PH"
-
-	"DAC_Challenge_Challenge_weekly_challenge_6_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_6_Lore"		"PH"
-
-	// Weekly challenge	#7
-	"DAC_Challenge_weekly_challenge_7_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_7_SubHeadline"					"PH"
-
-	"DAC_Challenge_Puzzle_weekly_puzzle_7_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_7_Lore"						"PH"
-
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_lose"				"PH"
-
-	"DAC_Challenge_Challenge_weekly_challenge_7_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_7_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Title"		"Hledá se: Strážníci nespokojení se svým platem"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Lore"		"Už tě nebaví hlídat ulice Bílé věže za podprůměrnou mzdu? Máš zájem vyzkoušet si napínavý život zkorumpovaného policisty? Zastav se U Zlomeného Měsíce a ptej se po Jullovi ohledně potenciální spolupráce!"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Instructions"	"Zabij nepřátele celkem za 5000 zlaťáků"
 
 	// Weekly challenge	#8
-	"DAC_Challenge_weekly_challenge_8_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_8_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_8_Headline"						"Nejnebezpečnější show světa!"
+	"DAC_Challenge_weekly_challenge_8_SubHeadline"					"Grek znovu otevřel arénu a nově žádá po účastnících souhlas s pravidly"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_8_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_8_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Title"					"Slavnostní nedělní znovuotevření!"
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Lore"						"Grek slíbil jako zlatý hřeb pro znovuotevření své arény „bitvu století“ a celá Bílá věž tak netrpělivě čeká, kdo je dostatečně udatný (nebo hloupý), aby na podobnou výzvu dobrovolně přistoupil. Více na straně 7."
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Title"		"Rodinná zábava v Bílé věži"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Bot"		"Nejlepší z nejlepších"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Lore"		"Přestože mnozí v minulosti zpochybňovali etickou stránku jeho krvavých sportů, vzestup pouličního násilí přinutil starého showmana zavzpomínat na časy, kdy se za možnost vidět někoho ubodat svého soka muselo platit. Více na straně 1."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_win"				"Grekovo představení hitem týdne!"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_lose"				"Domácí favorit překvapivě zklamal!"
 
-	"DAC_Challenge_Challenge_weekly_challenge_8_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_8_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Title"		"Hledá se: Náborář na poloviční úvazek"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Lore"		"Máme sice znovu otevřeno, ale během „incidentu“ minulý týden jsme přišli o dost bojovníků. Myslíš, že máš čuch na vhodné oběti a jsi schopný je přemluvit alespoň k dočasné spolupráci? Pak jsi můj člověk! – Grek, vlastník a manažer Velké arény"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Instructions"	"100× najmi hrdinu 1. hodnosti"
+
+	// Weekly challenge	#7
+	"DAC_Challenge_weekly_challenge_7_Headline"						"Direův kult hledá zázemí v Bílé věži"
+	"DAC_Challenge_weekly_challenge_7_SubHeadline"					"Uctívači ženy známé jako „Kanna“ zaplavili město zvrhlých potěšení"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Title"					"Kultisté projevili vážný zájem o Anessixino panství"
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Lore"						"Včera v noci vtrhla do Anessixina panství skupina náboženských fanatiků, kteří si hodlali nárokovat její majetek ve jménu své kněžky Kanny. Naštěstí pro Anessix zde zrovna probíhal večírek pochybných existencí. Více na straně 2."
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Title"		"Zaměstnanci se vzbouřili proti svému šéfovi"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Bot"		"Grekův B tým"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Lore"		"Grekovou arénou otřásla tragédie, když se jeho B tým zbláznil a začal útočit na diváky, jejichž ochranu museli vzít do rukou zbylí gladiátoři. Více na straně 3."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_win"				"Vzpoura v aréně skončila aplausem"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_lose"				"Chaos se z arény přelil až do ulic Bílé věže"
+
+	"DAC_Challenge_Challenge_weekly_challenge_7_Title"		"Hledá se: Pomoc s napichováním hlav na kůly"
+	"DAC_Challenge_Challenge_weekly_challenge_7_Lore"		"Stalo se to znovu, do Temných nor zavítali cizáci... jenže tentokrát tihle vetřelci neohrožují pouze mé království, nýbrž celou Bílou věž. Pokud je tedy co nejdříve nevyženeme, nebude záležet na tom, kdo se ujme vlády... pročež budeme všichni mrtví. Alespoň na chvíli tak musíme spojit síly a uctívače Direa do posledního povraždit. – Ennova slova přepsaná jeho mluvčím YipYipem"
+	"DAC_Challenge_Challenge_weekly_challenge_7_Instructions"	"Aplikuj 1200 sečtení otrávení"
 
 
 	// Weekly challenge	#9
-	"DAC_Challenge_weekly_challenge_9_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_9_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_9_Headline"						"Shromáždění vrahů v Bílé věži"
+	"DAC_Challenge_weekly_challenge_9_SubHeadline"					"Lorlin Lasan zvolil Bílou věž jako místo konání sjezdu Jaspisového společenství"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_9_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_9_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Title"					"Nájemní vrazi využívají obědových pauz k rekreačnímu zabíjení"
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Lore"						"Víte, co vrazi dělají ve volném čase? Očividně to samé jako jindy, jelikož se Bílou věží šíří zprávy o tom, kterak skupinka zabijáků na dovolené hraje smrtící hru, v níž určí místním cílům bodovou hodnotu a následně na ně pořádá hony. Více na straně 8."
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Title"		"Ulička hrdlořezů je nyní ještě krvavější"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Bot"		"Běžní hrdlořezové"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Lore"		"Stálí obyvatelé Bílé věže vědí, že každou středu je lepší obcházet Uličku hrdlořezů velkým obloukem, ale co do města zavítalo Jaspisové společenství, výstraha platí pomalu na všechny dny v týdnu. Více na straně 2."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_win"				"Jull proměnil Uličku hrdlořezů v Uličku pomlácenců"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_lose"				"Místní vrazi udělali dojem na Lorlina Lasana a byli přizváni do společenství"
 
-	"DAC_Challenge_Challenge_weekly_challenge_9_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_9_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Title"		"Jaspisové společenství hledá rekruty"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Lore"		"Máš dar splynout s davem? Pyšníš se pochybnou morálkou? Jaspisové společenství neustále hledá nové členy. Ukaž nám, co umíš, a my si tě najdeme. – Lorlin Lasan, vůdce Jaspisového společenství"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Instructions"		"Zabij s vrahy celkem 400 nepřátel"
 
 	// Weekly challenge	#10
-	"DAC_Challenge_weekly_challenge_10_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_10_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_10_Headline"						"Zájem o bodyguardy roste"
+	"DAC_Challenge_weekly_challenge_10_SubHeadline"					"Osobní strážci prožívají zlaté časy"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_10_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_10_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Title"					"Paranoia zachránila překupnici tajemství život"
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Lore"						"Mezi paranoiou a praktičností není v Bílé věži moc velký rozdíl, a například Anessix se její nedávná investice do bodyguardů bohatě vyplatila, jelikož Hobgena zrovna napadlo osnovat pomstu. Více na straně 2."
+	"DAC_Puzzle_RuleDescription_PreserveAnessix"					"Anessix musí přežít"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Title"		"Bílou věží zní řinčení oceli a vyvolávání zaklínadel"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Bot"		"Čarodějové, kteří něco skrývají"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Lore"		"Zvěsti o nadcházejícím vyšetřování Safírové konklávy vyhnaly mnohé z místních kouzelníků do Plačtivého údolí, přičemž ti, kteří se rozhodli zůstat, hledají ochranu pod křídly bodyguardů. Více na straně 6."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_win"				"Zenok nabízí zakrvácené knihy kouzel se slevou"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_lose"				"Mágové jsou připraveni na zátah Safírové konklávy "
 
-	"DAC_Challenge_Challenge_weekly_challenge_10_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_10_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Title"		"HLEDAJÍ SE VYHAZOVAČI"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Lore"		"Zlomený Měsíc shání posily pro svůj tým vyhazovačů. Vhodní zájemci by neměli mít problémy s extrémně stresujícími situacemi a denním praním oblečení od krve. Kdo má zájem, nechť se ptá po Jullovi, který uchazeče na místě testuje. – Connie, denní manažerka Zlomeného Měsíce"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Instructions"		"Zabij se surovci celkem 400 nepřátel"
 
 
 	// Weekly challenge	#11
-	"DAC_Challenge_weekly_challenge_11_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_11_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_11_Headline"						"Anti-magický zátah v Bílé věži!"
+	"DAC_Challenge_weekly_challenge_11_SubHeadline"					"Lov na Turatha je v plném proudu"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_11_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_11_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Title"					"Strážkyně Pomrzlých plání asistuje Safírově konklávě s vyšetřováním"
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Lore"						"Antimág není jediný, kdo hledá šíleného mága Turatha. Z více různých zdrojů se k nám doneslo, že Rylai, strážkyně Pomrzlých plání, má na nechvalně známého čaroděje zálusk. Uvidíme, kdo se k němu dostane jako první. Více na straně 10."
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Title"		"Bílou věží obchází Antimág"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Bot"		"Agenti z panství Tylerů"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Lore"		"Exkluzivní nabídka pro všechny čtenáře z řad mágů! V ulicích Bílé věže lze narazit na Antimága, který se v honbě za svou kořistí nehodlá před ničím zastavit."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_win"				"Obávaný lovec kouzelníků našel sobě rovného"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_lose"				"Za Antimágem zůstává smrt a utrpení"
 
-	"DAC_Challenge_Challenge_weekly_challenge_11_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_11_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Title"		"Pomoc se škůdci"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Lore"		"Poslední, co teď Bílá věž potřebuje, je Safírová konkláva za zády. Pojďme a společně vyžeňme ty mágy z našeho města! – Isik, mluvčí Hobgena, vládce Nového spáleniště a právoplatného nástupce matičky Eeb"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Instructions"	"Zabij 400 kouzelníků"
 
 	// Weekly challenge	#12
-	"DAC_Challenge_weekly_challenge_12_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_12_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_12_Headline"						"Zelený problém"
+	"DAC_Challenge_weekly_challenge_12_SubHeadline"					"Plánovaná expanze města rozzuřila druidy"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_12_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_12_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Title"					"Odlesňování"
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Lore"						"Rozšiřování města bylo včera v noci pozastaveno kvůli skupině druidů, kteří nechtěli nechat pokácet háj mangovníků. Více na straně 2."
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Title"		"Pochod za budoucnost skončil krveprolitím"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Bot"		"Mluvčí stromů"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Lore"		"Ne každému se zamlouvá idea přesouvání hranic Bílé věže, a jak byly zveřejněny plány na vykácení blízkého lesa, místní druidi se vydali do ulic, aby násilným způsobem vyjádřili své rozhořčení. Více na straně 5."
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_win"				"Druidi byli vyhnáni z města, načež se přivázali k mangovníkům"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_lose"				"Druidi se postavili vládcům podsvětí – cena manga prudce roste"
 
-	"DAC_Challenge_Challenge_weekly_challenge_12_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_12_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Title"		"Hledají se mluvčí stromů"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Lore"		"Odlesňování poblíž Bílé věže nesmí být tolerováno! Guilda Zelených hledá všechny milovníky přírody, kteří jí pomohou potlačit tuto agresi vůči přírodě! – JaroSlav, veledruid Zelených"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Instructions"		"Zabij s šamany celkem 400 nepřátel"
 
 	// Weekly challenge	#13
-	"DAC_Challenge_weekly_challenge_13_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_13_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_13_Headline"						"Anessix pořádá démonický bál"
+	"DAC_Challenge_weekly_challenge_13_SubHeadline"					"Každý, kdo něco znamená na Ristulském dvoře, momentálně usrkává koktejly a kuje pikle"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_13_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_13_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Title"					"Démonický lov v rámci příprav Krutého dne"
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Lore"						"Jak se Ristulský dvůr připravuje na oslavy dne vytvoření Úzkého bludiště, démoni z celého světa se předhánějí v tom, kdo pochytá takové duše, které bude v podsvětí největší legrace sledovat. Více na straně 2."
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Title"		"Teror přerušil Anessixinu slavnost"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Bot"		"Démoni z Jámy padlých"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Lore"		"Chaos je v ulicích Bílé věže na denním pořádku, ale včera v noci byl způsoben zvláštními hosty: Teror a jeho obrazy totiž dostali chuť na krev Anessixiných vážených hostů. Více na straně 3."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_win"				"Hrdinové zastavili démona, takže ochránili další démony – město je v rozpacích"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_lose"				"Teror dostál svému jménu a zabíjel jak démony, tak smrtelníky"
 
-	"DAC_Challenge_Challenge_weekly_challenge_13_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_13_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_13_Title"				"Sháníme duše"
+	"DAC_Challenge_Challenge_weekly_challenge_13_Lore"				"Jakou hodnotu pro Vás má něco, co nemůžete vidět, ochutnat nebo použít? Nenechte se zmást anti-démonskou propagandou a prodejte Ristulskému dvoru svoji duši. Nabízíme víc než ostatní!"
+	"DAC_Challenge_Challenge_weekly_challenge_13_Instructions"		"Zabij 300 lidí"
 
 	// Weekly challenge	#14
-	"DAC_Challenge_weekly_challenge_14_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_14_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_14_Headline"					"Staré křivdy nemizí"
+	"DAC_Challenge_weekly_challenge_14_SubHeadline"					"Starý deník matičky Eeb vyslal Hobgena na velmi opožděnou stezku odplaty"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_14_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_14_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Title"					"Nové spáleniště v plamenech (znovu)"
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Lore"					"V pozdních včerejších hodinách vzal Hobgen útokem tržiště v Novém spáleništi a zničil majetek všech obchodníků, kteří kdy (byť náznakem) ukřivdili matičce Eeb. Fakt, že tyto prohřešky byly mnohdy starší 30 let, Hobgena vůbec nezajímal, stejně jako fakt, že ve spoustě případů se za ta léta změnili majitelé daných obchodů. Více na straně 2."
+	"DAC_Puzzle_RuleDescription_KillBarricades"						"Pro výhru znič 8 vozů"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Title"		"Hobgen bere vše moc doslovně"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Bot"			"Nic netušící bohové"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Lore"			"Pokud si vedete deníček, jistě víte, jak osvobozující je občas nafouknout obyčejné věci, které se Vám staly. Bohužel pro obyvatele Bílé věže si Hobgen deníček nepíše, a když v Eebiných zápiscích narazil na záznam, v němž špatný den svádí na kletbu od bohů, pochopitelně shromáždil všechny nadpozemské existence, aby je mohl naráz zabít a odčinit jejich hřích vůči matičce. Více na straně 8."
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_win"			"Hobgen vyhrál nad bohy, protentokrát"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_lose"			"Hobgen nedosáhl bohům ani po kolena"
 
-	"DAC_Challenge_Challenge_weekly_challenge_14_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_14_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_14_Title"				"Hledá se kadeřník pro zastřižení konečků"
+	"DAC_Challenge_Challenge_weekly_challenge_14_Lore"				"Máš žiletku? Jsi ochotný pomoct se zakončením roztřepených příběhových vlasů? Pokud ano, hlas se u Isika. Odměna zaručena!"
+	"DAC_Challenge_Challenge_weekly_challenge_14_Instructions"		"Proveď 300 kritických zásahů"
 
 	// Weekly challenge courier race names
-	"DAC_Challenge_Courier_Race_0"							"Soul-Bound and Down"
-	"DAC_Challenge_Courier_Race_1"							"Breaking Fever"
-	"DAC_Challenge_Courier_Race_2"							"Blood Money"
-	"DAC_Challenge_Courier_Race_3"							"Grifter's Fortune"
-	"DAC_Challenge_Courier_Race_4"							"Venture Lost"
-	"DAC_Challenge_Courier_Race_5"							"Venture Gained"
-	"DAC_Challenge_Courier_Race_6"							"Serrated Blade"
-	"DAC_Challenge_Courier_Race_7"							"Last Kiss"
-	"DAC_Challenge_Courier_Race_8"							"Sad Goodbye"
+	"DAC_Challenge_Courier_Race_0"							"Osudový oslík"
+	"DAC_Challenge_Courier_Race_1"							"Narcius"
+	"DAC_Challenge_Courier_Race_2"							"Albert"
+	"DAC_Challenge_Courier_Race_3"							"Štístko"
+	"DAC_Challenge_Courier_Race_4"							"Nejistá investice"
+	"DAC_Challenge_Courier_Race_5"							"Jistá investice"
+	"DAC_Challenge_Courier_Race_6"							"Blesk"
+	"DAC_Challenge_Courier_Race_7"							"Hrom"
+	"DAC_Challenge_Courier_Race_8"							"Rozmazaná šmouha"
 	"DAC_Challenge_Courier_Race_9"							"Sigma D"
-	"DAC_Challenge_Courier_Race_10"							"Hexes and Horseshoes"
-	"DAC_Challenge_Courier_Race_11"							"Cantrip"
-	"DAC_Challenge_Courier_Race_12"							"Cruel Mistress"
-	"DAC_Challenge_Courier_Race_13"							"Devil Dancer"
-	"DAC_Challenge_Courier_Race_14"							"Reckoner "
-	"DAC_Challenge_Courier_Race_15"							"Liquid Courage"
-	"DAC_Challenge_Courier_Race_16"							"Sad Panda"
-	"DAC_Challenge_Courier_Race_17"							"Smeevils and Greevils"
-	"DAC_Challenge_Courier_Race_18"							"Ristul Bane"
-	"DAC_Challenge_Courier_Race_19"							"Bad Luck Charlie"
-	"DAC_Challenge_Courier_Race_20"							"Inciting Incident"
-	"DAC_Challenge_Courier_Race_21"							"Good Day, Sir"
-	"DAC_Weekly_CourierTitle" 								"The Finish Line: courier race odds and outcomes"	
-	"DAC_Weekly_CourierHeader_Courier"						"Courier"
-	"DAC_Weekly_CourierHeader_Bet"							"Bet"
-	"DAC_Weekly_CourierHeader_Wt"							"Wt"
-	"DAC_Weekly_CourierHeader_PP"							"PP"
+	"DAC_Challenge_Courier_Race_10"							"Napůl kůň"
+	"DAC_Challenge_Courier_Race_11"							"Fantom"
+	"DAC_Challenge_Courier_Race_12"							"Domina"
+	"DAC_Challenge_Courier_Race_13"							"Ďábel"
+	"DAC_Challenge_Courier_Race_14"							"Finišer"
+	"DAC_Challenge_Courier_Race_15"							"Osel beze jména"
+	"DAC_Challenge_Courier_Race_16"							"Spasitel"
+	"DAC_Challenge_Courier_Race_17"							"Napoli"
+	"DAC_Challenge_Courier_Race_18"							"Ristulský postrach"
+	"DAC_Challenge_Courier_Race_19"							"Smolař Samuel"
+	"DAC_Challenge_Courier_Race_20"							"Tryskáč"
+	"DAC_Challenge_Courier_Race_21"							"Nepřekonatelný II"
+	"DAC_Weekly_CourierTitle" 								"Cílová rovinka: kurzy a výsledky dostihů kurýrů"	
+	"DAC_Weekly_CourierHeader_Courier"						"Kurýr"
+	"DAC_Weekly_CourierHeader_Bet"							"Sázka"
+	"DAC_Weekly_CourierHeader_Wt"							"VH"
+	"DAC_Weekly_CourierHeader_PP"							"SP"
 	"DAC_Weekly_CourierHeader_Quarter"						"1/4"
 	"DAC_Weekly_CourierHeader_Half"							"1/2"
 	"DAC_Weekly_CourierHeader_ThreeQuarter"					"3/4"
-	"DAC_Weekly_CourierHeader_Mile"							"Mile"
-	"DAC_Weekly_CourierHeader_Finish"						"Fin"
-	"DAC_Weekly_CourierHeader_Odds"							"Odds"
+	"DAC_Weekly_CourierHeader_Mile"							"Míle"
+	"DAC_Weekly_CourierHeader_Finish"						"Cíl"
+	"DAC_Weekly_CourierHeader_Odds"							"Kurz"
 	"DAC_Weekly_CourierEntry_CurrentBet"					"<img class='goldcoin'/> {i:current_bet}"
 	"DAC_Weekly_CourierEntry_Prize"							"{i:gold_prize} : 1"
-	"DAC_Weekly_CourierCurrent_Gold"						"Current: <img class='goldcoin'/> {i:current_gold}"
+	"DAC_Weekly_CourierCurrent_Gold"						"Konto: <img class='goldcoin'/> {i:current_gold}"
 	
 	
 	// City Crawl Tutorial

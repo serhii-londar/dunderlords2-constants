@@ -24,7 +24,7 @@
 
 	"DAC_SteamLogIn_Desc1"								"Συνδεθείτε στο Steam για να παίξετε παιχνίδια πολλών παικτών, να ανεβάσετε την κατάταξη Underlord σας και προοδεύσετε είτε από κινητό είτε από PC."
 	"DAC_SteamLogIn_Desc2"								"Ανεβάστε την κατάταξη Underlord σας και παρακολουθήστε την πρόοδό σας σε κινητό, τάμπλετ και PC."
-	"DAC_SteamLogIn_Desc3"								"Κερδίστε επιτεύγματα και προσπελάστε χαρακτηριστικά του εποχιακού πάσου μάχης."
+	"DAC_SteamLogIn_Desc3"								"Κερδίστε επιτεύγματα και προσπελάστε χαρακτηριστικά του πάσου μάχης."
 	"DAC_SteamLogIn_Desc4"								"Συνδεθείτε στο Steam για να παίξετε αυτόν τον τύπο."
 	"DAC_SteamPlayOffline"								"Άκυρο"
 	"DAC_SteamAccountName"								"ΟΝΟΜΑ ΛΟΓΑΡΙΑΣΜΟΥ" 
@@ -45,6 +45,9 @@
 
 	"DAC_MatchTypeMultiplayer"							"ΠΟΛΛΩΝ ΠΑΙΚΤΩΝ"
 	"DAC_MatchTypeStandard"								"ΚΑΝΟΝΙΚΟΣ"
+	"DAC_MatchTypeClassic"								"ΚΛΑΣΙΚΟΣ"
+	"DAC_MatchMode"										"ΤΥΠΟΣ"
+	"DAC_MatchModeClassic"								"ΚΛΑΣΙΚΟΣ ΤΥΠΟΣ"
 	"DAC_MatchTypeOnline"								"ΔΙΑΔΙΚΤΥΑΚΟΣ"
 	"DAC_MatchTypeTurbo"								"ΝΟΚ-ΑΟΥΤ"
 	"DAC_MatchTypeMultiplayerMMSelect"					"ΕΠΙΛΟΓΗ ΤΥΠΟΥ"
@@ -58,7 +61,9 @@
 	"DAC_MatchTypeNameDuos"								"ΔΥΑΔΕΣ"
 	"DAC_MatchTypeDuosBotMatch"							"- ΑΓΩΝΑΣ ΔΥΑΔΩΝ BOT"
 	"DAC_MatchTypeName1_Party"							"ΙΔΙΩΤΙΚΟ ΛΟΜΠΙ"
-	"DAC_MatchTypeName1"								"ΚΑΝΟΝΙΚΟ"
+	"DAC_MatchTypeName1"								"ΚΑΝΟΝΙΚΟΣ"
+	"DAC_MatchTypeName11_Party"							"ΙΔΙΩΤΙΚΟ ΛΟΜΠΙ"
+	"DAC_MatchTypeName11"								"ΚΑΝΟΝΙΚΟΣ"
 	"DAC_MatchTypeName7"								"ΕΚΜΑΘΗΣΗ"
 	"DAC_MatchTypeName2"								"Νοκ-άουτ"
 	"DAC_MatchTypeName3"								"ΔΥΑΔΕΣ"
@@ -236,8 +241,8 @@
 	"DAC_PurchaseEvent_TooBusy"							"Το δίκτυο Dota Underlords είναι αυτή τη στιγμή πολύ απασχολημένο για να επεξεργαστεί αυτή την ενέργεια. Προσπαθήστε ξανά σε μερικά λεπτά."
 	"DAC_PurchaseEvent_InvalidEvent"					"Αυτό το συμβάν δεν είναι πλέον διαθέσιμο για αγορά."
 	"DAC_PurchaseEvent_InsufficientCredits"				"Έχετε ανεπαρκή πίστωση για να αγοράσετε αυτό το πάσο μάχης."
-	"DAC_PurchaseEvent_ExpectedCostMismatch"			"Παρουσιάστηκε ένα απρόσμενο σφάλμα κατά την αγορά αυτής της σεζόν, η εφαρμογή σας μπορεί να μην είναι ενημερωμένη"
-	"DAC_PurchaseEvent_AlreadyOwned"					"Κατέχετε ήδη αυτή τη σεζόν"	
+	"DAC_PurchaseEvent_ExpectedCostMismatch"			"Παρουσιάστηκε ένα απρόσμενο σφάλμα κατά την αγορά αυτού του πάσου μάχης, η εφαρμογή σας μπορεί να μην είναι ενημερωμένη"
+	"DAC_PurchaseEvent_AlreadyOwned"					"Κατέχετε ήδη αυτό το πάσο μάχης"	
 	"DAC_PurchaseEvent_SuccessTitle"					"ΕΠΙΤΥΧΙΑ"
 	"DAC_PurchaseEvent_SuccessBody"						"Αγοράσατε επιτυχώς το πάσο μάχης!"
 	"StoreCheckout_Error_Title"							"ΣΦΑΛΜΑ"
@@ -250,9 +255,9 @@
 	"DAC_PurchaseEventCurrency_InternalError"			"Παρουσιάστηκε ένα απρόσμενο σφάλμα κατά την πραγματοποίηση αυτής της αγοράς."
 	"DAC_PurchaseEventCurrency_Disabled"				"Οι αγορές είναι προσωρινά απενεργοποιημένες για συντήρηση"
 	"DAC_PurchaseEventCurrency_TooBusy"					"Το δίκτυο Dota Underlords είναι αυτή τη στιγμή πολύ απασχολημένο για να επεξεργαστεί αυτή την ενέργεια. Προσπαθήστε ξανά σε μερικά λεπτά."
-	"DAC_PurchaseEventCurrency_EventNotOwned"			"Πρέπει να κατέχετε αυτή τη σεζόν για να μπορείτε να αγοράσετε επιπλέον επίπεδα."
-	"DAC_PurchaseEventCurrency_InvalidCurrency"			"Δεν μπορείτε να αγοράσετε επίπεδα για αυτή τη σεζόν."
-	"DAC_PurchaseEventCurrency_EventClosed"				"Αυτή η σεζόν έχει πλέον λήξει και δεν μπορείτε να αγοράσετε επίπεδα."
+	"DAC_PurchaseEventCurrency_EventNotOwned"			"Πρέπει να κατέχετε αυτό το πάσο μάχης για να μπορείτε να αγοράσετε επιπλέον επίπεδα."
+	"DAC_PurchaseEventCurrency_InvalidCurrency"			"Δεν μπορείτε να αγοράσετε επίπεδα για αυτό το πάσο μάχης."
+	"DAC_PurchaseEventCurrency_EventClosed"				"Αυτό το πάσο μάχης έχει πλέον λήξει και δεν μπορείτε να αγοράσετε επίπεδα."
 	"DAC_PurchaseEventCurrency_InvalidQuantity"			"Ο αριθμός επιπέδων που αγοράζονται δεν είναι έγκυρος. Η εφαρμογή σας μπορεί να μην είναι ενημερωμένη."
 	"DAC_PurchaseEventCurrency_InvalidExpectedCost"		"Το αναμενόμενο κόστος αυτών των επιπέδων δεν είναι έγκυρο. Η εφαρμογή σας μπορεί να μην είναι ενημερωμένη."
 	"DAC_PurchaseEventCurrency_InvalidStartingBalance"	"Παρουσιάστηκε ένα απρόσμενο σφάλμα κατά την αγορά αυτών των επιπέδων, η εφαρμογή σας μπορεί να μην είναι ενημερωμένη."
@@ -706,84 +711,84 @@
 	"dac_item_cinderwall_lore"							"Ιστορία Cinderwall"
 
 	"dac_item_aegis_new"                                "Aegis of Immortality"
-	"dac_item_aegis_new_desc"                           "Ο εξοπλισμένος ήρωας θα αναβιώσει με το {d:resurrect_health_percent}% της μέγιστης ζωής του {d:resurrect_delay} δευτερόλεπτα αφού πεθάνει. (μία φορά ανά μάχη)"
+	"dac_item_aegis_new_desc"                           "Ο εξοπλισμένος ήρωας θα αναβιώσει με το {s:resurrect_health_percent}% της μέγιστης ζωής του {s:resurrect_delay} δευτερόλεπτα αφού πεθάνει. (μία φορά ανά μάχη)"
 	"dac_item_aegis_new_lore"                           "Το τυρί πωλείται ξεχωριστά. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_bloodthorn"		    					"Bloodthorn"
-	"dac_item_bloodthorn_desc"			    			"+{d:attack_damage} ζημιά επίθεσης. Όταν ένας εχθρικός ήρωας έχει περισσότερο από {d:mana_trigger_percentage}% ενέργεια, τους προκαλεί σιγή για {d:silence_duration} δευτ. Επιθέσεις εναντίον του σιγασμένου ήρωα δεν αστοχούν και προκαλούν {d:target_crit_multiplier}% καίρια ζημιά. (επαναφόρτιση {d:cooldown} δευτ.)"
+	"dac_item_bloodthorn_desc"			    			"+{s:attack_damage} ζημιά επίθεσης. Όταν ένας εχθρικός ήρωας έχει περισσότερο από {s:mana_trigger_percentage}% ενέργεια, τους προκαλεί σιγή για {s:silence_duration} δευτ. Επιθέσεις εναντίον του σιγασμένου ήρωα δεν αστοχούν και προκαλούν {s:target_crit_multiplier}% καίρια ζημιά. (επαναφόρτιση {s:cooldown} δευτ.)"
 	"dac_item_bloodthorn_lore"			    			"Το να κρατάς αυτή τη λεπίδα δε θα σε κάνει δημοφιλή, αλλά σίγουρα θα κάνει τους εχθρούς σου νεκρούς. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_butterfly"								"Butterfly"
-	"dac_item_butterfly_desc"			    			"+{d:attack_damage} ζημιά επίθεσης. +{d:attack_speed} ταχύτητα επίθεσης. +{d:evasion}% αποφυγή."
+	"dac_item_butterfly_desc"			    			"+{s:attack_damage} ζημιά επίθεσης. +{s:attack_speed} ταχύτητα επίθεσης. +{s:evasion}% αποφυγή."
 	"dac_item_butterfly_lore"			    			"Τα παιδάκια το λατρεύουν αυτό. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_crystalis"								"Crystalys"
-	"dac_item_crystalis_desc"							"+{d:attack_damage} ζημιά επίθεσης. {d:bonus_damage_chance}% πιθανότητα για καίρια επίθεση για {d:bonus_damage_multiplier}% ζημιά."
+	"dac_item_crystalis_desc"							"+{s:attack_damage} ζημιά επίθεσης. {s:bonus_damage_chance}% πιθανότητα για καίρια επίθεση για {s:bonus_damage_multiplier}% ζημιά."
 	"dac_item_crystalis_lore"							"Μπορώ μόνο να φανταστώ το είδος της ζημιάς που θα μπορούσε να κάνει μια Αδερφή του Πέπλου με ένα από αυτά τα πράγματα. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_desolator"								"Desolator"
-	"dac_item_desolator_desc"							"Ο στόχος της επίθεσης χάνει {d:target_armor} θωράκιση για {d:duration} δευτερόλεπτα."
+	"dac_item_desolator_desc"							"Ο στόχος της επίθεσης χάνει {s:target_armor} θωράκιση για {s:duration} δευτερόλεπτα."
 	"dac_item_desolator_lore"							"Αααα ώστε θέλεις να αφήσεις κάποιο μήνυμα. Σε αυτήν την περίπτωση μπορεί να σε ενδιαφέρει αυτό... - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_diffusal_blade"							"Diffusal Blade"
 	"dac_item_diffusal_blade_lore"						"Κρατώντας αυτό το πράγμα είναι το πλησιέστερο που θα φτάσεις στο να νιώθεις σαν τον Anti-Mage. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"		
-	"dac_item_diffusal_blade_desc"						"Οι επιθέσεις του εξοπλισμένου ήρωα καίνε {d:mana_per_hit} ενέργεια ανά χτύπημα, προκαλώντας {d:damage_per_burn} ζημιά ανά χτύπημα. Η ζημιά που γίνεται από τον εξοπλισμένο ήρωα δημιουργεί 0 ενέργεια για το στόχο."
+	"dac_item_diffusal_blade_desc"						"Οι επιθέσεις του εξοπλισμένου ήρωα καίνε {s:mana_per_hit} ενέργεια ανά χτύπημα, προκαλώντας {s:damage_per_burn} ζημιά ανά χτύπημα. Η ζημιά που γίνεται από τον εξοπλισμένο ήρωα δημιουργεί 0 ενέργεια για το στόχο."
 	"dac_item_divine_rapier_new"                        "Divine Rapier"
-	"dac_item_divine_rapier_new_desc"					"+{d:attack_damage} ζημιά επίθεσης. Αν το Divine Rapier είναι σε μάχη και χάσετε ένα γύρο σε άλλο παίκτη, θα κλέψει αυτός το Divine Rapier."
+	"dac_item_divine_rapier_new_desc"					"+{s:attack_damage} ζημιά επίθεσης. Αν το Divine Rapier είναι σε μάχη και χάσετε ένα γύρο σε άλλο παίκτη, θα κλέψει αυτός το Divine Rapier."
 	"dac_item_divine_rapier_new_lore"					"Μερικές φορές οι Θεοί απαιτούν αίμα. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"	
 	"dac_item_eul"										"Eul's Scepter"
-	"dac_item_eul_desc"									"+{d:mana_per_second} ενέργεια το δευτερόλεπτο. Όποτε μια μονάδα επιτίθεται τον εξοπλισμένο ήρωα, τον σηκώνει στον αέρα ένας τυφώνας και γίνεται άτρωτος για {s:eul_duration} δευτερόλεπτα. ({d:cooldown} δευτ. επαναφόρτιση)"
+	"dac_item_eul_desc"									"+{s:mana_per_second} ενέργεια το δευτερόλεπτο. Όποτε μια μονάδα επιτίθεται στον εξοπλισμένο ήρωα, τον σηκώνει στον αέρα ένας τυφώνας και γίνεται άτρωτος για {s:eul_duration} δευτερόλεπτα. ({s:cooldown} δευτ. επαναφόρτιση)"
 	"dac_item_eul_lore"									"Με αυτό μπορείς να ελέγχεις τους ανέμους της αλλαγής. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_hand_of_midas"							"Hand of Midas"
-	"dac_item_hand_of_midas_desc"						"+{d:attack_speed} ταχύτητα επίθεση. {d:percent_gold}% πιθανότητα απόκτησης {d:gold} χρυσού όποτε ο εξοπλισμένος ήρωας σκοτώνει έναν εχθρό."
+	"dac_item_hand_of_midas_desc"						"+{s:attack_speed} ταχύτητα επίθεσης. {s:percent_gold}% πιθανότητα απόκτησης {s:gold} χρυσού όποτε ο εξοπλισμένος ήρωας σκοτώνει έναν εχθρό."
 	"dac_item_hand_of_midas_lore"						"Μερικοί λένε ότι τα χρήματα είναι η ρίζα όλου του κακού. Αυτοί οι άνθρωποι είναι ηλίθιοι και για αυτό δεν έχουν μία. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_heart_of_tarrasque_new"					"Heart of Tarrasque"
-	"dac_item_heart_of_tarrasque_new_desc"				"+{d:health_bonus} ζωή. Ο εξοπλισμένος ήρωας αναγεννάει το {d:bonus_hp_regen}% της μέγιστης ζωής του ανά δευτερόλεπτο."
+	"dac_item_heart_of_tarrasque_new_desc"				"+{s:health_bonus} ζωή. Ο εξοπλισμένος ήρωας αναγεννάει το {s:bonus_hp_regen}% της μέγιστης ζωής του ανά δευτερόλεπτο."
 	"dac_item_heart_of_tarrasque_new_lore"				"Ο θάνατος είναι για τους ποταπότερους. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_horn_of_the_alpha"                        "Horn of the Alpha"
 	"dac_item_horn_of_the_alpha_desc"                   "{s:summon_cooldown} δευτερόλεπτα αφού ξεκινήσει η μάχη, κλητεύει ένα πανίσχυρο σύντροφο Κεραυνοτόμαρο. (μία φορά ανά μάχη)"
 	"dac_item_horn_of_the_alpha_lore"                   "Δεν έχεις ιδέα πόσοι κυνηγοί από το Marrowfell πέθαναν για να αποκτήσουν αυτό το κέρας. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_kaya"										"Kaya"
-	"dac_item_kaya_desc"								"+{d:bonus_spell_damage}% αυξημένη ζημιά ικανότητας."
+	"dac_item_kaya_desc"								"+{s:bonus_spell_damage}% αυξημένη ζημιά ικανότητας."
 	"dac_item_kaya_lore"								"Κοίτα, όταν οι άνθρωποι λένε ότι κάτι έχει «χαθεί για αμέτρητες χιλιετίες» πρέπει να κρατάς μικρό καλάθι... είναι όλα θέμα μάρκετινγκ. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_mask_of_death"							"Morbid Mask"
-	"dac_item_mask_of_death_desc"						"+{d:lifesteal_percentage}% κλοπή ζωής."
+	"dac_item_mask_of_death_desc"						"+{s:lifesteal_percentage}% κλοπή ζωής."
 	"dac_item_mask_of_death_lore"						"Μια συμβουλή για τους μυαλωμένους: Αν είσαι σε ένα πάρτι και είσαι ο μόνος που δε φοράει μια μάσκα σαν αυτή, φύγε αμέσως από εκεί. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_octarine_essence"							"Octarine Essence"
-	"dac_item_octarine_essence_desc"					"Μειώνει τις επαναφόρτισεις ικανοτήτων κατά {d:cooldown_percentage}%."
+	"dac_item_octarine_essence_desc"					"Μειώνει τις επαναφόρτισεις ικανοτήτων κατά {s:cooldown_percentage}%."
 	"dac_item_octarine_essence_lore"					"Αυτό δεν είναι παρά μια γεύση για το τι μπορεί να κάνει το Octarine Core. - <i>Zenok, φύλακας Λευκού Οβελίσκου</i>"
 	"dac_item_orb_of_venom"								"Orb of Venom"
 	"dac_item_orb_of_venom_desc"						"Οι εχθροί που πλήττονται από τις επιθέσεις του εξοπλισμένου ήρωα δηλητηριάζονται."
 	"dac_item_orb_of_venom_lore"						"Λένε ότι το μόνο που χρειάζεσαι για να σκοτώσεις κάποιον είναι χρόνος. Εγώ λέω, γιατί να μη βοηθήσουμε λιγάκι το χρόνο; - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_radiance_new"                             "Radiance"
-	"dac_item_radiance_new_desc"                        "Καίει εχθρούς για {d:attack_damage_over_time} ζημιά το δευτερόλεπτο εντός {d:attack_damage_aoe} κελιών. Οι φλεγόμενοι εχθροί έχουν {d:miss_percent}% πιθανότητα να αστοχήσουν τις επιθέσεις τους."
+	"dac_item_radiance_new_desc"                        "Καίει εχθρούς για {s:attack_damage_over_time} ζημιά το δευτερόλεπτο εντός {s:attack_damage_aoe} κελιών. Οι φλεγόμενοι εχθροί έχουν {s:miss_percent}% πιθανότητα να αστοχήσουν τις επιθέσεις τους."
 	"dac_item_radiance_new_lore"                        "Κάτι τόσο ιερό δεν ανήκει στη Λευκή Σπείρα. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_headdress"								"Headdress"
-	"dac_item_headdress_desc"							"Μονάδες εντός 1 κελιού από τον εξοπλισμένο ήρωα αποκτούν +{d:health_regen} ζωή το δευτερόλεπτο."
+	"dac_item_headdress_desc"							"Μονάδες εντός 1 κελιού από τον εξοπλισμένο ήρωα αποκτούν +{s:health_regen} ζωή το δευτερόλεπτο."
 	"dac_item_headdress_lore"							"Το αγόρασα από έναν τύπο που είπε ότι ήρθε από την Τρομερή Φωλιά. Δε ξέρω αν είναι αλήθεια ή όχι, αλλά έχει ένα ωραίο πούπουλο - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_satanic"                                  "Satanic"
-	"dac_item_satanic_desc"                             "+{d:bonus_health} ζωή. Όποτε ο εξοπλισμένος ήρωας πέσει κάτω από {d:activation_percent}% ζωή, αποκτάει +{d:life_steal_percent}% κλοπή ζωής για {s:life_steal_duration} δευτερόλεπτα. ({d:cooldown} δευτ. επαναφόρτιση)"
+	"dac_item_satanic_desc"                             "+{s:bonus_health} ζωή. Όποτε ο εξοπλισμένος ήρωας πέσει κάτω από {s:activation_percent}% ζωή, αποκτάει +{s:life_steal_percent}% κλοπή ζωής για {s:life_steal_duration} δευτερόλεπτα. ({s:cooldown} δευτ. επαναφόρτιση)"
 	"dac_item_satanic_lore"                             "Όσο πιο γρήγορα βγάλεις αυτό το πράγμα από το μαγαζί μου τόσο το καλύτερο. - <i>Zenok, φύλακας Λευκού Οβελίσκου</i>"
 	"dac_item_shivas_guard_new"							"Shiva's Guard"
-	"dac_item_shivas_guard_new_desc"					"+{d:bonus_armor} θωράκιση. Εκπέμπει ένα παγωμένο κύμα που προκαλεί {d:blast_damage} ζημιά σε εχθρούς εντός 3 κελιών και επιβραδύνει την ταχύτητα κίνησης και επίθεσής τους κατά {d:blast_debuff_move_speed} για {s:blast_debuff_duration} δευτ. (μία φορά ανά μάχη)"
+	"dac_item_shivas_guard_new_desc"					"+{s:bonus_armor} θωράκιση. Εκπέμπει ένα παγωμένο κύμα που προκαλεί {s:blast_damage} ζημιά σε εχθρούς εντός 3 κελιών και επιβραδύνει την ταχύτητα κίνησης και επίθεσής τους κατά {s:blast_debuff_move_speed} για {s:blast_debuff_duration} δευτ. (μία φορά ανά μάχη)"
 	"dac_item_shivas_guard_new_lore"					"Μη με ρωτήσεις πώς βγήκε αυτό από το θησαυροφυλάκιο του Ζαφειρένιου Συμβουλίου. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_stonehall_pike"							"Stonehall Pike"
-	"dac_item_stonehall_pike_desc"						"Ο εξοπλισμένος ήρωας αποκτάει +{d:attack_damage} και επιπλέον +{d:damage_per_kill} ζημιά για κάθε μονάδα που έχει σκοτώσει, μέχρι το μέγιστο +{d:max_damage} ζημιά. (+12 ζημιά ανά σκοτωμό σε Νοκ-άουτ)"
+	"dac_item_stonehall_pike_desc"						"Ο εξοπλισμένος ήρωας αποκτάει +{s:attack_damage} και επιπλέον +{s:damage_per_kill_kill_mult} ζημιά για κάθε μονάδα που έχει σκοτώσει, μέχρι το μέγιστο +{s:max_damage} ζημιά. (Η ζημιά ποικίλει ανά τύπο παιχνιδιού)"
 	"dac_item_stonehall_pike_lore"						"Τρέμουν τις λεγεώνες του Stonehall για κάποιο λόγο. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_stonehall_cloak"							"Stonehall Cloak"
-	"dac_item_stonehall_cloak_desc"						"Ο εξοπλισμένος ήρωας αποκτάει +{d:hp_per_kill} ζωή για κάθε μονάδα που έχει σκοτώσει. (+200 ζωή σε Νοκ-άουτ)"
+	"dac_item_stonehall_cloak_desc"						"Ο εξοπλισμένος ήρωας αποκτάει +{s:hp_per_kill_kill_mult} ζωή για κάθε μονάδα που έχει σκοτώσει. (Η ζωη ποικίλει ανά τύπο παιχνιδιού)"
 	"dac_item_stonehall_cloak_lore"						"Για μερικούς είναι σύμβολο τιμής. Για άλλους, μια υπενθύμιση από ένα παρελθόν που είναι καλύτερα να μείνει ξεχασμένο. - <i>Zenok, φύλακας Λευκού Οβελίσκου</i>"
 	"dac_item_silver_edge"								"Silver Edge"
-	"dac_item_silver_edge_desc"							"+{d:attack_speed} ταχύτητα επίθεσης. +{d:bonus_health} ζωή. Όποτε ο εξοπλισμένος ήρωας επιτίθεται σε μια μονάδα, της προκαλεί θραύση για {d:break_duration} δευτερόλεπτα. ({d:cooldown} δευτ. επαναφόρτιση)"
+	"dac_item_silver_edge_desc"							"+{s:attack_speed} ταχύτητα επίθεσης. +{s:bonus_health} ζωή. Όποτε ο εξοπλισμένος ήρωας επιτίθεται σε μια μονάδα, της προκαλεί θραύση για {s:break_duration} δευτερόλεπτα. ({s:cooldown} δευτ. επαναφόρτιση)"
 	"dac_item_silver_edge_lore"							"Όλοι ξέρουμε ότι ο Αλυσιδοσπάστης και ο Bloodletter το χρησιμοποίησαν για να σταματήσουν τον Τρελό Βασιλιά Οστάριον... αλλά υπάρχουν τόσα ακόμα στην ιστορία. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_talisman_of_evasion"						"Talisman of Evasion"
-	"dac_item_talisman_of_evasion_desc"					"+{d:evasion_pct}% αποφυγή."
+	"dac_item_talisman_of_evasion_desc"					"+{s:evasion_pct}% αποφυγή."
 	"dac_item_talisman_of_evasion_lore"					"Κοίτα Lyralei, απλά λέω ότι δεν είσαι όσο ευκίνητη ήσουν κάποτε. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_vesture_of_the_tyrant"                    "Vesture of the Tyrant"
-	"dac_item_vesture_of_the_tyrant_desc"               "Όποτε ένας σύμμαχος εντός {d:ally_zombie_range} κελιού από τον εξοπλισμένο ήρωα λάβει ένα θανατηφόρο χτύπημα, αυτός ο σύμμαχος επιβιώνει για {s:ally_zombie_duration} δευτερόλεπτα."
+	"dac_item_vesture_of_the_tyrant_desc"               "Όποτε ένας σύμμαχος εντός {s:ally_zombie_range} κελιού από τον εξοπλισμένο ήρωα λάβει ένα θανατηφόρο χτύπημα, αυτός ο σύμμαχος επιβιώνει για {s:ally_zombie_duration} δευτερόλεπτα."
 	"dac_item_vesture_of_the_tyrant_lore"               "Η εξουσία του Γαλάνιου είναι απόλυτη. Μόνο ένας μωρός θα του αντιστεκόταν. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	"dac_item_void_stone"								"Void Stone"
-	"dac_item_void_stone_desc"							"+{d:mana_per_second} ενέργεια το δευτερόλεπτο."
+	"dac_item_void_stone_desc"							"+{s:mana_per_second} ενέργεια το δευτερόλεπτο."
 	"dac_item_void_stone_lore"							"Από αυτό κατασκευάζουν οι Ζαφειρένοι Άρχοντες τα εμβλήματά τους. - <i>Zenok, φύλακας Λευκού Οβελίσκου</i>"
 	"dac_unit_name_spiderling"							"Αραχνίδιο"
 	"dac_item_aeon_disk"								"Aeon Disk"
 	"dac_item_aeon_disk_lore"							"Όσοι έχουν ισχύ πάντα μπορούν να βρουν ένα ασφαλές λιμάνι. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
-	"dac_item_aeon_disk_desc"							"+{d:health_bonus} ζωή. Όταν η ζωή του εξοπλισμένου ήρωα μειωθεί κάτω από {d:health_trigger_percentage}%, γίνεται άτρωτος, δεν μπορεί να στοχευτεί και αφοπλίζεται για {d:invuln_duration} δευτερόλεπτα. (μία φορά ανά μάχη)"
+	"dac_item_aeon_disk_desc"							"+{s:health_bonus} ζωή. Όταν η ζωή του εξοπλισμένου ήρωα μειωθεί κάτω από {s:health_trigger_percentage}%, γίνεται άτρωτος, δεν μπορεί να στοχευτεί και αφοπλίζεται για {s:invuln_duration} δευτερόλεπτα. (μία φορά ανά μάχη)"
 	"dac_ability_barricade_aura_new"					"Barricade"
 	"dac_ability_barricade_aura_new_description"		"Προστατεύει κοντινές μονάδες και είναι άτρωτο από ξόρκια."
 	"dac_ability_barricade_aura_new_lore"				""
@@ -797,7 +802,7 @@
 	"dac_ability_tombstone_raise_zombies_new_description"	"Οι μονάδες που πεθαίνουν εντός {s:range} κελιού κλητεύουν ένα ζόμπι."
 	"dac_ability_tombstone_raise_zombies_new_lore"			""
 	"dac_item_vladmirs_offering"						"Vladmir's Offering"
-	"dac_item_vladmirs_offering_desc"					"Οι σύμμαχοι εντός 2 κελιών λαμβάνουν +{d:damage}% ζημιά, +{d:armor} θωράκιση και +{d:lifesteal}% κλοπή ζωής."
+	"dac_item_vladmirs_offering_desc"					"Οι σύμμαχοι εντός 2 κελιών λαμβάνουν +{s:damage}% ζημιά, +{s:armor} θωράκιση και +{s:lifesteal}% κλοπή ζωής."
 	"dac_item_vladmirs_offering_lore"					"Όσοι παίρνουν τον Όρκο δίνουν κάτι από τον εαυτό τους... και λαμβάνουν κάτι σε αντάλλαγμα. - <i>Zenok, φύλακας Λευκού Οβελίσκου</i>"
 	
 	"dac_item_big_time_contract"						"Ogre Cap"
@@ -821,20 +826,20 @@
 	"dac_item_dwarf_hat_lore"							"Δε λέω ότι προτείνω να προσευχηθείς στα Γδαρμένα Δίδυμα, απλά λέω ότι αν σου αρέσει να αντλείς αίμα αυτό είναι το καπέλο για σένα. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_dragon_lance"								"Dragon Lance"
-	"dac_item_dragon_lance_desc"						"ΤΗΛΕΜΑΧΟΙ ΜΟΝΟ. +{d:attack_damage} ζημιά επίθεσης. Ο εξοπλισμένος ήρωας έχει απεριόριστη εμβέλεια."
+	"dac_item_dragon_lance_desc"						"ΤΗΛΕΜΑΧΟΙ ΜΟΝΟ. +{s:attack_damage} ζημιά επίθεσης. Ο εξοπλισμένος ήρωας έχει απεριόριστη εμβέλεια."
 	"dac_item_dragon_lance_lore"						"Δε θα πω σε κάποιον πώς να κάνει τη δουλειά του, αλλά αν προσπαθούσα να σκοτώσω κάποιον θα ήθελα να είμαι όσο πιο μακριά γίνεται. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_tank_buster"								"Kaden's Blade"
-	"dac_item_tank_buster_desc"							"Αντί για την κανονική τους ζημιά, οι επιθέσεις του εξοπλισμένου ήρωα προκαλούν το {d:max_health_percent_as_damage}% της μέγιστης ζωής του στόχου ως καθαρή ζημιά."
+	"dac_item_tank_buster_desc"							"Αντί για την κανονική τους ζημιά, οι επιθέσεις του εξοπλισμένου ήρωα προκαλούν το {s:max_health_percent_as_damage}% της μέγιστης ζωής του στόχου ως καθαρή ζημιά."
 	"dac_item_tank_buster_lore"							"Αυτή η λεπίδα σφυρηλατήθηκε στο Φρούριο των Δράκων για τον ίδιο τον Kaden. Ο φημισμένος Dragon Knight είχει ένα ρητό: «Όσο μεγαλύτερος είσαι, τόσο περισσότερο βαράει αυτό». - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_armlet"									"Armlet of Mordiggian"
-	"dac_item_armlet_desc"								"+{d:attack_damage} ζημιά επίθεσης. +{d:armor} θωράκιση. Ο εξοπλισμένος ήρωας χάνει {d:health_loss_per_second} ζωή το δευτερόλεπτο."
+	"dac_item_armlet_desc"								"+{s:attack_damage} ζημιά επίθεσης. +{s:armor} θωράκιση. Ο εξοπλισμένος ήρωας χάνει {s:health_loss_per_second} ζωή το δευτερόλεπτο."
 	"dac_item_armlet_lore"								"Απλά μην περιμένεις να το γράψω σωστά στην απόδειξη. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_name_mango_tree"								"Mango Tree"
 	"dac_item_mango_tree"								"Mango Tree"
-	"dac_item_mango_tree_desc"							"Στην αρχή του γύρου και για κάθε {s:mango_production_interval} δευτερόλεπτα μετέπειτα, το δέντρο μάνγκο ρίχνει ένα μάνγκο έως {d:radius} κελιά μακριά. Οποιαδήποτε μονάδα ακουμπήσει ένα μάνγκο το τρώει και αποκτάει 50 ενέργεια και 100 ζωή."
+	"dac_item_mango_tree_desc"							"Στην αρχή του γύρου και για κάθε {s:mango_production_interval} δευτερόλεπτα μετέπειτα, το δέντρο μάνγκο ρίχνει ένα μάνγκο έως {s:radius} κελιά μακριά. Οποιαδήποτε μονάδα ακουμπήσει ένα μάνγκο το τρώει και αποκτάει 50 ενέργεια και 100 ζωή."
 	"dac_item_mango_tree_lore"							"Δε θέλεις να είσαι στο πεδίο της μάχης όταν σου πέσει το ζάχαρο. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_hero_hint_melee"								"ΑΓΧΕΜΑΧΟΣ"
@@ -979,6 +984,17 @@
 	"dac_hero_name_void_spirit"							"Void Spirit"
 	"dac_hero_name_snapfire"							"Snapfire"
 
+	"dac_hero_name_death_prophet"						"Death Prophet"
+	"dac_name_death_prophet_exorcism_spirit"			"Evil Spirit"
+	"dac_hero_name_vengefulspirit"						"Vengeful Spirit"
+	"dac_hero_name_meepo"								"Meepo"
+	"dac_hero_name_spirit_breaker"						"Spirit Breaker"
+	"dac_hero_name_spectre"								"Spectre"
+	"dac_hero_name_pangolier"							"Pangolier"
+	"dac_hero_name_rubick"								"Rubick"
+	"dac_hero_name_wraith_king"							"Wraith King"
+
+
 	"dac_name_anessix_archer"							"Demon Archer"
 	"dac_name_anessix_warrior"							"Brill Bruiser"
 	"dac_name_broodmother_spiderling"					"Αραχνίδιο"
@@ -1073,21 +1089,28 @@
 	"dac_hero_type_vigilant"							"ΕΠΑΓΡΥΠΝΟΣ"
 	"dac_hero_type_void"								"ΚΕΝΟΣ"
 
+	"dac_hero_type_fallen"								"ΕΚΠΤΩΤΟΣ"
+	"dac_hero_type_wild"								"ΣΑΜΑΝΟΣ"
+	"dac_hero_type_swordsman"							"ΞΙΦΟΜΑΧΟΣ"
+	"dac_hero_type_rogue"								"ΤΥΧΟΔΙΩΚΤΗΣ"
+	"dac_hero_type_poisoner"							"ΔΗΛΗΤΗΡΙΑΣΤΗΣ"
+	"dac_hero_type_magus"								"ΜΑΓΙΣΤΡΟΣ"
+
 
 	"dac_item_claymore"									"Claymore"
-	"dac_item_claymore_desc"							"+{d:attack_damage} ζημιά επίθεσης."
+	"dac_item_claymore_desc"							"+{s:attack_damage} ζημιά επίθεσης."
 	"dac_item_claymore_lore"							"Τι θέλεις να σου πω; Είναι ένα σπαθί. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_brooch"									"Brooch of the Aggressor"
-	"dac_item_brooch_desc"								"+{d:mana_gain}% απόκτηση ενέργειας από επιθέσεις."
+	"dac_item_brooch_desc"								"+{s:mana_gain}% απόκτηση ενέργειας από επιθέσεις."
 	"dac_item_brooch_lore"								"Το τέλειο αντικείμενο για κάποιον που ψάχνει να ξεκινήσει μια μάχη - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_mana_sponge"								"Brooch of the Martyr"
-	"dac_item_mana_sponge_desc"							"+{d:damage_taken_mana_gain}% απόκτηση ενέργειας από λήψη ζημιάς. +{d:debuff_resist}% αντίσταση απομειώσεων."
+	"dac_item_mana_sponge_desc"							"+{s:damage_taken_mana_gain}% απόκτηση ενέργειας από λήψη ζημιάς. +{s:debuff_resist}% αντίσταση απομειώσεων."
 	"dac_item_mana_sponge_lore"							"Οι σπουδαιότερες ενέργειες ηρωισμού έρχονται όταν είσαι στα πιο χαμηλά σου. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_quelling_blade"							"Quelling Blade"
-	"dac_item_quelling_blade_desc"						"+{d:damage} ζημιά επίθεσης. Ο εξοπλισμένος ήρωας θα προτιμάει να επιτίθεται σε κλητευμένες μονάδες. Οι επιθέσεις εναντίον κλητευμένων μονάδων είναι καίριες για {d:crit_bonus_vs_neutrals}% ζημιά."
+	"dac_item_quelling_blade_desc"						"+{s:damage} ζημιά επίθεσης. Ο εξοπλισμένος ήρωας θα προτιμάει να επιτίθεται σε κλητευμένες μονάδες. Οι επιθέσεις εναντίον κλητευμένων μονάδων είναι καίριες για {s:crit_bonus_vs_neutrals}% ζημιά."
 	"dac_item_quelling_blade_lore"						"Ο Grek το μισεί όταν άτομα τα αγοράζουν αυτά. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_boots_of_speed"							"Boots of Speed"
@@ -1095,161 +1118,161 @@
 	"dac_item_boots_of_speed_lore"						"Τέλειο για τους αχρείους εν κινήσει. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"			
 
 	"dac_item_tranquil_boots"							"Tranquil Boots"
-	"dac_item_tranquil_boots_desc"						"+{d:movement_speed}% ταχύτητα κίνησης. +{d:health_regen} αναγέννηση ζωής."
+	"dac_item_tranquil_boots_desc"						"+{s:movement_speed}% ταχύτητα κίνησης. +{s:health_regen} αναγέννηση ζωής."
 	"dac_item_tranquil_boots_lore"						"Αυτά τα Boots of Speed που μου πούλησες ήταν σχεδόν άχρηστα. Δώσε μου κάτι καλύτερο για να κινούμαι. - <i>Zenok, φύλακας Λευκού Οβελίσκου</i>"
 	
 	"dac_item_octarine_fragment"						"Octarine Essence"
-	"dac_item_octarine_fragment_desc"					"Μειώνει την επαναφόρτιση ικανότητας κατά {d:cooldown_percentage}%."
+	"dac_item_octarine_fragment_desc"					"Μειώνει την επαναφόρτιση ικανότητας κατά {s:cooldown_percentage}%."
 	"dac_item_octarine_fragment_lore"					"Αυτό δεν είναι παρά μια γεύση για το τι μπορεί να κάνει το Octarine Core. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_vitality_booster"							"Vitality Booster"
-	"dac_item_vitality_booster_desc"					"+{d:health_bonus} ζωή."
+	"dac_item_vitality_booster_desc"					"+{s:health_bonus} ζωή."
 	"dac_item_vitality_booster_lore"					"Το θέμα δεν είναι να γυρίσεις την παλίρροια, αλλά να αντέξεις την καταιγίδα. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	
 	"dac_item_cloak"									"Cloak"
-	"dac_item_cloak_desc"								"+{d:bonus_magical_resistance}% μαγική αντίσταση."
+	"dac_item_cloak_desc"								"+{s:bonus_magical_resistance}% μαγική αντίσταση."
 	"dac_item_cloak_lore"								"Πρόσεχε εκεί έξω, έρχεται καταιγίδα... - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_blink_dagger"								"Blink Dagger"
-	"dac_item_blink_dagger_desc"						"Τηλεμεταφέρει τον κομιστή ήρωα στον πιο μακρινό εχθρό και παρέχει {d:mana_gain} ενέργεια. (επαναφόρτιση {d:cooldown} δευτ.)"
+	"dac_item_blink_dagger_desc"						"Τηλεμεταφέρει τον κομιστή ήρωα στον πιο μακρινό εχθρό και παρέχει {s:mana_gain} ενέργεια. (επαναφόρτιση {s:cooldown} δευτ.)"
 	"dac_item_blink_dagger_lore"						"Αυτός ο Oglodi ρωτάει συνέχεια για ένα τσεκούρι τηλεμεταφοράς... - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_mask_of_madness"							"Mask of Madness"
-	"dac_item_mask_of_madness_desc"						"Ο εξοπλισμένος ήρωας έχει σιγή. +{d:lifesteal_percentage}% κλοπή ζωής. +{d:attack_speed} ταχύτητα επίθεσης."
+	"dac_item_mask_of_madness_desc"						"Ο εξοπλισμένος ήρωας έχει σιγή. +{s:lifesteal_percentage}% κλοπή ζωής. +{s:attack_speed} ταχύτητα επίθεσης."
 	"dac_item_mask_of_madness_lore"						"Ποιος μπορεί να πει πού τελειώνει η τρέλα και αρχίζει η ιδιοφυΐα... - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_blade_mail"								"Blade Mail"
-	"dac_item_blade_mail_desc"							"+{d:bonus_armor} θωράκιση. Αντανακλά το {d:damage_taken_reflect_percentage}% της ζημιάς που λαμβάνει πίσω στον επιτιθέμενο."
+	"dac_item_blade_mail_desc"							"+{s:bonus_armor} θωράκιση. Αντανακλά το {s:damage_taken_reflect_percentage}% της ζημιάς που λαμβάνει πίσω στον επιτιθέμενο."
 	"dac_item_blade_mail_lore"							"Χάνω περίπου 3 πελάτες το χρόνο που ζητούν να το φορέσουν για να το δοκιμάσουν... - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_battle_fury"								"Battle Fury"
-	"dac_item_battle_fury_desc"							"ΑΓΧΕΜΑΧΟΙ ΜΟΝΟ. +{d:attack_damage} ζημιά επίθεσης. Οι αγχέμαχες επιθέσεις προκαλούν {d:cleave_damage_pct}% παράπλευρη ζημιά σε κοντινές μονάδες."
+	"dac_item_battle_fury_desc"							"ΑΓΧΕΜΑΧΟΙ ΜΟΝΟ. +{s:attack_damage} ζημιά επίθεσης. Οι αγχέμαχες επιθέσεις προκαλούν {s:cleave_damage_pct}% παράπλευρη ζημιά σε κοντινές μονάδες."
 	"dac_item_battle_fury_lore"							"Ξέρουμε ότι αυτά τα πράγματα ποτέ δεν μένουν στο ένας εναντίον ενός... καλύτερα να είσαι προετοιμασμένος. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_dagon"									"Dagon"
-	"dac_item_dagon_desc"								"Προκαλεί {d:ability_damage} ζημιά σε μια τυχαία εχθρική μονάδα που έχει {d:health_trigger_percentage}% ή λιγότερη ζωή. ({d:cooldown} δευτ. επαναφόρτιση)"
+	"dac_item_dagon_desc"								"Προκαλεί {s:ability_damage} ζημιά σε μια τυχαία εχθρική μονάδα που έχει {s:health_trigger_percentage}% ή λιγότερη ζωή. ({s:cooldown} δευτ. επαναφόρτιση)"
 	"dac_item_dagon_lore"								"Μερικοί λένε ότι είναι λάθος να κλωτσάς κάποιον όταν είναι κάτω... αυτά τα άτομα δε θα άντεχαν ούτε εβδομάδα στη Λευκή Σπείρα. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_sacred_relic"								"Sacred Relic"
-	"dac_item_sacred_relic_desc"						"+{d:attack_damage} ζημιά επίθεσης."
+	"dac_item_sacred_relic_desc"						"+{s:attack_damage} ζημιά επίθεσης."
 	"dac_item_sacred_relic_lore"						"Νομίζω ότι χρεώνω μια λογική τιμή για να κρατήσεις ένα μικρό κομμάτι θειότητας. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"	
 	
 	"dac_item_maelstrom"								"Maelstrom"
-	"dac_item_maelstrom_desc"							"{d:bolt_chance_percentage}% πιθανότητα ανά επίθεση να προκαλέσει αλυσιδωτό ηλεκτρισμό για {d:bolt_damage} ζημιά σε {d:bolt_targets} στόχους%. Μετά από κάθε άλμα, η ζημιά μειώνεται κατά {d:percentage_decrease}%."
+	"dac_item_maelstrom_desc"							"{s:bolt_chance_percentage}% πιθανότητα ανά επίθεση να προκαλέσει αλυσιδωτό ηλεκτρισμό για {s:bolt_damage} ζημιά σε {s:bolt_targets} στόχους%. Μετά από κάθε άλμα, η ζημιά μειώνεται κατά {s:percentage_decrease}%."
 	"dac_item_maelstrom_lore"							"Κανένας δεν μπορεί να ελέγξει τον καιρό... αλλά σίγουρα μπορείς να του δώσεις μια μικρή ώθηση. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_refresher_orb"							"Refresher Orb"
-	"dac_item_refresher_orb_desc"						"Αφού εκτελεστεί μια ικανότητα, επαναφέρει όλες τις επαναφορτίσεις και αναπληρώνει {d:mana_restored} ενέργεια στον εξοπλισμένο ήρωα. (μία φορά ανά μάχη)"
+	"dac_item_refresher_orb_desc"						"Αφού εκτελεστεί μια ικανότητα, επαναφέρει όλες τις επαναφορτίσεις και αναπληρώνει {s:mana_restored} ενέργεια στον εξοπλισμένο ήρωα. (μία φορά ανά μάχη)"
 	"dac_item_refresher_orb_lore"						"Το έχω δει να αλλάζει την έκβαση πολλών μαχών. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_heart_of_tarrasque"						"Heart of Tarrasque"
-	"dac_item_heart_of_tarrasque_desc"					"+{d:health_bonus} ζωή. Παρέχει αναγέννηση {d:bonus_hp_regen}% της μέγιστης ζωής κάθε 1 δευτ."
+	"dac_item_heart_of_tarrasque_desc"					"+{s:health_bonus} ζωή. Παρέχει αναγέννηση {s:bonus_hp_regen}% της μέγιστης ζωής κάθε 1 δευτ."
 	"dac_item_heart_of_tarrasque_lore"					"Ο θάνατος είναι για τους ποταπότερους. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_divine_rapier"						"Divine Rapier"
-	"dac_item_divine_rapier_desc"					"+{d:attack_damage} ζημιά επίθεσης. Αν το Divine Rapier είναι σε μάχη και χάσετε ένα γύρο σε άλλο παίκτη, θα λάβει αυτός το Divine Rapier."
+	"dac_item_divine_rapier_desc"					"+{s:attack_damage} ζημιά επίθεσης. Αν το Divine Rapier είναι σε μάχη και χάσετε ένα γύρο σε άλλο παίκτη, θα λάβει αυτός το Divine Rapier."
 	"dac_item_divine_rapier_lore"					"Μερικές φορές οι Θεοί απαιτούν αίμα. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"	
 	
 	"dac_item_assault_cuirass"							"Assault Cuirass"
-	"dac_item_assault_cuirass_desc"						"Ο εξοπλισμένος ήρωας και οι διπλανοί σύμμαχοι αποκτούν +{d:attack_speed_buff} ταχύτητα επίθεσης και +{d:armor_buff} θωράκιση. Οι διπλανοί εχθροί χάνουν {d:attack_speed_debuff} ταχύτητα επίθεσης και {d:armor_debuff} θωράκιση."
+	"dac_item_assault_cuirass_desc"						"Ο εξοπλισμένος ήρωας και οι διπλανοί σύμμαχοι αποκτούν +{s:attack_speed_buff} ταχύτητα επίθεσης και +{s:armor_buff} θωράκιση. Οι διπλανοί εχθροί χάνουν {s:attack_speed_debuff} ταχύτητα επίθεσης και {s:armor_debuff} θωράκιση."
 	"dac_item_assault_cuirass_lore"						"Αν πρόκειται να εφορμήσεις στη μάχη, καν' το έξυπνα. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_black_king_bar"							"Black King Bar"
-	"dac_item_black_king_bar_desc"						"+{d:attack_damage} ζημιά επίθεσης. Ο εξοπλισμένος ήρωας γίνεται μαγικά άτρωτος για {d:magic_immune_duration} δευτ. αφότου ο πρώτος εχθρός αποκτήσει {d:mana_trigger_percentage}% ενέργεια. (μία φορά ανά μάχη)"
+	"dac_item_black_king_bar_desc"						"+{s:attack_damage} ζημιά επίθεσης. Ο εξοπλισμένος ήρωας γίνεται μαγικά άτρωτος για {s:magic_immune_duration} δευτ. αφότου ο πρώτος εχθρός αποκτήσει {s:mana_trigger_percentage}% ενέργεια. (μία φορά ανά μάχη)"
 	"dac_item_black_king_bar_lore"						"Αρνήσου τα πάντα στους εχθρούς σου. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_mekansm"									"Mekansm"
-	"dac_item_mekansm_desc"								"Όταν ο εξοπλισμένος ήρωας έχει λιγότερη από {d:health_trigger_percentage}% ζωή, θεραπεύει τους συμμάχους έως {d:heal_radius} κελιά μακριά για {d:heal_amount} ζωή. (μία φορά ανά μάχη)"
+	"dac_item_mekansm_desc"								"Όταν ο εξοπλισμένος ήρωας έχει λιγότερη από {s:health_trigger_percentage}% ζωή, θεραπεύει τους συμμάχους έως {s:heal_radius} κελιά μακριά για {s:heal_amount} ζωή. (μία φορά ανά μάχη)"
 	"dac_item_mekansm_lore"								"Μη διερωτάσαι πώς δουλεύει, απλά να είσαι ευγνώμων που λειτουργεί. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_arcane_boots"								"Arcane Boots"
-	"dac_item_arcane_boots_desc"						"Όταν ο εξοπλισμένος ήρωας έχει περισσότερο από {d:mana_trigger_percentage}% ενέργεια, αναπληρώνει {d:replenish_amount} ενέργεια σε όλους τους συμμάχους έως {d:replenish_radius} κελιά μακριά. ({d:cooldown} δευτ. επαναφόρτιση)"
+	"dac_item_arcane_boots_desc"						"Όταν ο εξοπλισμένος ήρωας έχει περισσότερο από {s:mana_trigger_percentage}% ενέργεια, αναπληρώνει {s:replenish_amount} ενέργεια σε όλους τους συμμάχους έως {s:replenish_radius} κελιά μακριά. ({s:cooldown} δευτ. επαναφόρτιση)"
 	"dac_item_arcane_boots_lore"						"Θα γίνεις ευλογία στους συμμάχους σου. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_daedalus"									"Daedalus"
-	"dac_item_daedalus_desc"							"+{d:attack_damage} ζημιά επίθεσης. {d:bonus_damage_chance}% πιθανότητα για καίρια επίθεση για {d:bonus_damage_multiplier}% ζημιά."
+	"dac_item_daedalus_desc"							"+{s:attack_damage} ζημιά επίθεσης. {s:bonus_damage_chance}% πιθανότητα για καίρια επίθεση για {s:bonus_damage_multiplier}% ζημιά."
 	"dac_item_daedalus_lore"							"Ο Lorlin Lasan δανείστηκε αυτή τη λεπίδα σε παραπάνω από μία περίσταση. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_radiance"									"Radiance"
-	"dac_item_radiance_desc"							"Καίει εχθρούς έως {d:radius} κελιά μακριά για {d:aura_damage} ζημιά ανά δευτερόλεπτο."
+	"dac_item_radiance_desc"							"Καίει εχθρούς έως {s:radius} κελιά μακριά για {s:aura_damage} ζημιά ανά δευτερόλεπτο."
 	"dac_item_radiance_lore"							"Ααα βλέπω μοιράζεσαι τις αισθηματικότητες του Hobgen... - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_skadi"									"Eye of Skadi"
-	"dac_item_skadi_desc"								"+{d:health_bonus} ζωή. Επιβραδύνει την ταχύτητα των εχθρών κατά {d:cold_movement_speed} και την ταχύτητα επίθεσής τους κατά {d:cold_attack_speed} με την επίθεση για {s:cold_duration_ranged} δευτερόλεπτα."
+	"dac_item_skadi_desc"								"+{s:health_bonus} ζωή. Επιβραδύνει την ταχύτητα των εχθρών κατά {s:cold_movement_speed} και την ταχύτητα επίθεσής τους κατά {s:cold_attack_speed} με την επίθεση για {s:cold_duration_ranged} δευτερόλεπτα."
 	"dac_item_skadi_lore"								"Δε θέλεις να ξέρεις πώς ήρθε στην κατοχή μου αυτό... - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_chainmail"								"Chainmail"
-	"dac_item_chainmail_desc"							"+{d:bonus_armor} θωράκιση."
+	"dac_item_chainmail_desc"							"+{s:bonus_armor} θωράκιση."
 	"dac_item_chainmail_lore"							"Είναι πρακτικό και αξιόπιστο. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_gloves_of_haste"							"Gloves of Haste"
-	"dac_item_gloves_of_haste_desc"						"+{d:attack_speed} ταχύτητα επίθεσης."
+	"dac_item_gloves_of_haste_desc"						"+{s:attack_speed} ταχύτητα επίθεσης."
 	"dac_item_gloves_of_haste_lore"						"Αν θέλεις να ξυλοκοπήσεις κάποιον γρήγορα, αυτά τα γάντια είναι για σένα. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_moon_shard"								"Moon Shard"
-	"dac_item_moon_shard_desc"							"+{d:attack_speed} ταχύτητα επίθεσης."
+	"dac_item_moon_shard_desc"							"+{s:attack_speed} ταχύτητα επίθεσης."
 	"dac_item_moon_shard_lore"							"Μερικοί ισχυρίζονται ότι είναι θραύσμα του ίδιου του Τρελού Φεγγαριού... - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_blight_stone"								"Blight Stone"
-	"dac_item_blight_stone_desc"						"Ο στόχος της επίθεσης χάνει {d:target_armor} θωράκιση."
+	"dac_item_blight_stone_desc"						"Ο στόχος της επίθεσης χάνει {s:target_armor} θωράκιση."
 	"dac_item_blight_stone_lore"						"Ένα διακριτικό, αλλά αποτελεσματικό εργαλείο. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_shivas_guard"								"Shiva's Guard"
-	"dac_item_shivas_guard_desc"						"+{d:bonus_armor} θωράκιση. Εκπέμπει ένα παγωμένο κύμα που προκαλεί {d:blast_damage} ζημιά σε εχθρούς εντός 3 κελιών και επιβραδύνει την ταχύτητα κίνησης και επίθεσής τους για {s:blast_debuff_duration} δευτ. (μία φορά ανά μάχη)"
+	"dac_item_shivas_guard_desc"						"+{s:bonus_armor} θωράκιση. Εκπέμπει ένα παγωμένο κύμα που προκαλεί {s:blast_damage} ζημιά σε εχθρούς εντός 3 κελιών και επιβραδύνει την ταχύτητα κίνησης και επίθεσής τους για {s:blast_debuff_duration} δευτ. (μία φορά ανά μάχη)"
 	"dac_item_shivas_guard_lore"						"Μη με ρωτήσεις πώς βγήκε αυτό από το θησαυροφυλάκιο του Ζαφειρένιου Συμβουλίου. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	
 	"dac_item_hood_of_defiance"							"Hood of Defiance"
-	"dac_item_hood_of_defiance_desc"					"+{d:bonus_magical_resistance}% μαγική αντίσταση. +{d:health_regen} αναγέννηση ζωής."
+	"dac_item_hood_of_defiance_desc"					"+{s:bonus_magical_resistance}% μαγική αντίσταση. +{s:health_regen} αναγέννηση ζωής."
 	"dac_item_hood_of_defiance_lore"					"Μείνε ισχυρός μπροστά στους εχθρούς σου. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_vanguard"									"Vanguard"
-	"dac_item_vanguard_desc"							"+{d:health_bonus} ζωή. {d:block_chance}% πιθανότητα για μπλοκάρισμα {d:block_damage} ζημιάς όταν δέχεται επίθεση."
+	"dac_item_vanguard_desc"							"+{s:health_bonus} ζωή. {s:block_chance}% πιθανότητα για μπλοκάρισμα {s:block_damage} ζημιάς όταν δέχεται φυσική ζημιά."
 	"dac_item_vanguard_lore"							"Αν ψάχνεις να προστατευτείς, δε θα βρεις πολύ καλύτερο. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_basher"									"Skull Basher"
-	"dac_item_basher_desc"								"+{d:attack_damage} ζημιά επίθεσης. {d:bash_chance}% πιθανότητα να προκαλέσει επιπλέον {d:bonus_chance_damage} ζημιά και σάστισμα στόχου για {s:bash_duration} δευτερόλεπτα."
+	"dac_item_basher_desc"								"+{s:attack_damage} ζημιά επίθεσης. {s:bash_chance}% πιθανότητα να προκαλέσει επιπλέον {s:bonus_chance_damage} ζημιά και σάστισμα στόχου για {s:bash_duration} δευτερόλεπτα."
 	"dac_item_basher_lore"								"Ένας εχθρός με διάσειση είναι ένας σύντομα νεκρός εχθρός. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_pipe_of_insight"							"Pipe of Insight"
-	"dac_item_pipe_of_insight_desc"						"+{d:bonus_magical_resistance}% μαγική αντίσταση. Μόλις ο πρώτος εχθρός έχει {d:mana_trigger_percentage}% ενέργεια, εφαρμόζει μια ασπίδα που μπλοκάρει {d:barrier_amount} μαγική ζημιά σε συμμάχους έως {d:barrier_radius} κελί μακριά. (μία φορά ανά μάχη)"
+	"dac_item_pipe_of_insight_desc"						"+{s:bonus_magical_resistance}% μαγική αντίσταση. Μόλις ο πρώτος εχθρός έχει {s:mana_trigger_percentage}% ενέργεια, εφαρμόζει μια ασπίδα που μπλοκάρει {s:barrier_amount} μαγική ζημιά σε συμμάχους έως {s:barrier_radius} κελιά μακριά. (μία φορά ανά μάχη)"
 	"dac_item_pipe_of_insight_lore"						"Από πού νομίζεις παίρνει ο Tinker της τρελές ιδέες του; - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_bloodbound_hat"							"Big-Time Contract"
-	"dac_item_bloodbound_hat_desc"						"+{d:health_bonus} ζωή. Ο εξοπλισμένος ήρωας είναι <span class='Ogre'>Αιμοδέσμιος</span><img class='InlineSynergyIcon SynergyOgre'/>."
+	"dac_item_bloodbound_hat_desc"						"+{s:health_bonus} ζωή. Ο εξοπλισμένος ήρωας είναι <span class='Ogre'>Αιμοδέσμιος</span><img class='InlineSynergyIcon SynergyOgre'/>."
 	"dac_item_bloodbound_hat_lore"						"Η Rita δεν έχει μονοπώλιο στην καλλιέργεια... - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_sheepstick"								"Scythe of Vyse"
-	"dac_item_sheepstick_desc"							"+{d:mana_per_second} ενέργεια ανά δευτερόλεπτο. Όταν ο εξοπλισμένος ήρωας λάβει ζημιά, μεταμορφώνει την μονάδα που την προκάλεσε σε γουρούνι για {s:sheep_duration} δευτ. ({d:cooldown} δευτ. επαναφόρτιση)"
+	"dac_item_sheepstick_desc"							"+{s:mana_per_second} ενέργεια ανά δευτερόλεπτο. Όταν ο εξοπλισμένος ήρωας λάβει ζημιά, μεταμορφώνει την μονάδα που την προκάλεσε σε γουρούνι για {s:sheep_duration} δευτ. ({s:cooldown} δευτ. επαναφόρτιση)"
 	"dac_item_sheepstick_lore"							"Οι Σαμάνοι δεν το χορταίνουν σου λέω. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_force_staff"								"Force Staff"
-	"dac_item_force_staff_desc"							"Όταν ο εξοπλισμένος ήρωας λάβει ζημιά από μια αγχέμαχη επίθεση, σπρώχνει τον επιτιθέμενο έως {d:push_length} κελιά μακριά. ({d:cooldown} δευτ. επαναφόρτιση)"
+	"dac_item_force_staff_desc"							"Όταν ο εξοπλισμένος ήρωας λάβει ζημιά από μια αγχέμαχη επίθεση, σπρώχνει τον επιτιθέμενο έως {s:push_length} κελιά μακριά. ({s:cooldown} δευτ. επαναφόρτιση)"
 	"dac_item_force_staff_lore"							"Λένε ότι ο Aghanim έχει ένα πιο φοβερό ραβδί, αλλά δεν το έχω δει. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_never_die_hat"							"Helm of the Undying"
-	"dac_item_never_die_hat_desc"						"+{d:bonus_armor} θωράκιση. Ο εξοπλισμένος ήρωας επιβιώνει επιπλέον {s:invulnerability_duration} δευτερόλεπτα αφού λάβει ένα θανάσιμο χτύπημα."
+	"dac_item_never_die_hat_desc"						"+{s:bonus_armor} θωράκιση. Ο εξοπλισμένος ήρωας επιβιώνει επιπλέον {s:invulnerability_duration} δευτερόλεπτα αφού λάβει ένα θανάσιμο χτύπημα."
 	"dac_item_never_die_hat_lore"						"Δε θα σώσει τη ζωή σου, αλλά θα σε βοηθήσει να πάρεις κάποιον μαζί σου. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_gold_on_last_hit_hat"						"Poaching Knife"
-	"dac_item_gold_on_last_hit_hat_desc"				"Ο εξοπλισμένος ήρωας έχει {d:percent_chance}% πιθανότητα να παράξει {d:gold} χρυσό όταν σκοτώσει έναν εχθρό. Οι επιθέσεις εναντίον μονάδων με λιγότερη από {d:target_health_percent}% ζωή προκαλούν καίρια επίθεση για {d:target_crit_multiplier}%."
+	"dac_item_gold_on_last_hit_hat_desc"				"Ο εξοπλισμένος ήρωας έχει {s:percent_chance}% πιθανότητα να παράξει {s:gold} χρυσό όταν σκοτώσει έναν εχθρό. Οι επιθέσεις εναντίον μονάδων με λιγότερη από {s:target_health_percent}% ζωή προκαλούν καίρια επίθεση για {s:target_crit_multiplier}%."
 	"dac_item_gold_on_last_hit_hat_lore"				"Μακάρι να σου χαρίσει καλύτερη τύχη από ό,τι χάρισε στον κένταυρο στου οποίου το πτώμα το βρήκα. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_final_flash_hat"							"Bracers of Desperation"
-	"dac_item_final_flash_hat_desc"						"Ο εξοπλισμένος ήρωας επαναφέρει την επαναφόρτισή του και αποκτάει πλήρη ενέργεια όταν πέσει κάτω από {d:health_percent_trigger}% ζωή. Η μαγική αντίσταση του στόχου επίθεσης μειώνεται κατά {d:target_magic_resistance}%."
+	"dac_item_final_flash_hat_desc"						"Ο εξοπλισμένος ήρωας επαναφέρει την επαναφόρτισή του και αποκτάει πλήρη ενέργεια όταν πέσει κάτω από {s:health_percent_trigger}% ζωή. Η μαγική αντίσταση του στόχου επίθεσης μειώνεται κατά {s:target_magic_resistance}%."
 	"dac_item_final_flash_hat_lore"						"Δεν ανακαλύπτεις για τι είσαι ικανός μέχρι να βρεθείς με την πλάτη στον τοίχο. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_hype_breaker"								"Assassin's Veil"
-	"dac_item_hype_breaker_desc"						"Ο εξοπλισμένος ήρωας πάντα επιτίθεται τον εχθρικό Underlord αν μπορεί. Οι επιθέσεις του εξοπλισμένου ήρωα ενάντια στον εχθρικό Underlord αφαιρούν {d:hype_burn} Ορμή ({s:cooldown} δευτερόλεπτα επαναφόρτιση)."
+	"dac_item_hype_breaker_desc"						"Ο εξοπλισμένος ήρωας πάντα επιτίθεται τον εχθρικό Underlord αν μπορεί. Οι επιθέσεις του εξοπλισμένου ήρωα ενάντια στον εχθρικό Underlord αφαιρούν {s:hype_burn} Ορμή ({s:cooldown} δευτερόλεπτα επαναφόρτιση)."
 	"dac_item_hype_breaker_lore"						"Για όσους θέλουν να γνωρίζουν πώς είναι να είσαι Αδερφή του Πέπλου αλλά δε θέλει να τον απαγάγουν από μωρό. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_hype_harvester"							"Celebratory Murder Gong"
-	"dac_item_hype_harvester_desc"						"Κάθε φορά που ο εξοπλισμένος ήρωας καταφέρνει ένα σκοτωμό δημιουργεί {d:hype_per_kill} Ορμή για τον Underlord σας."
+	"dac_item_hype_harvester_desc"						"Κάθε φορά που ο εξοπλισμένος ήρωας καταφέρνει ένα σκοτωμό δημιουργεί {s:hype_per_kill} Ορμή για τον Underlord σας."
 	"dac_item_hype_harvester_lore"						"Τη χτυπήσαμε για τον Fronzell.  Τη χτυπήσαμε για τη Momma Eeb.  Να προσεύχεσαι να μη χτυπήσει ποτέ για σένα. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_summoning_stone"							"Summoning Stone"
-	"dac_item_summoning_stone_desc"						"Οι συμμαχικές κλητευμένες μονάδες έχουν +{d:health_bonus} ζωή και +{d:attack_speed_bonus} ταχύτητα επίθεσης."
+	"dac_item_summoning_stone_desc"						"Οι συμμαχικές κλητευμένες μονάδες έχουν +{s:health_bonus} ζωή και +{s:attack_speed_bonus} ταχύτητα επίθεσης."
 	"dac_item_summoning_stone_lore"						"Πνίξε τους εχθρούς σου σε μια ανένδοτη παλίρροια σάρκας. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_better_units_in_shop"						"A Higher Class of Criminal"
@@ -1277,7 +1300,7 @@
 	"dac_item_humans_turn_undead_lore"					"Αυτή η πόλη έχει έναν τρόπο να κατατροπώνει το καλό μέσα σου. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_elves_start_invisible"					"Elusive Targets"
-	"dac_item_elves_start_invisible_desc"				"Οι <span class='Elf'>Άπιαστες</span> <img class='InlineSynergyIcon SynergyElusive'/> μονάδες έχουν {d:evasion_pct}% αποφυγή τα πρώτα {s:invisibility_duration} δευτερόλεπτα μιας μάχης."
+	"dac_item_elves_start_invisible_desc"				"Οι <span class='Elf'>Άπιαστες</span> <img class='InlineSynergyIcon SynergyElusive'/> μονάδες έχουν {s:evasion_pct}% αποφυγή τα πρώτα {s:invisibility_duration} δευτερόλεπτα μιας μάχης."
 	"dac_item_elves_start_invisible_lore"				"Είναι δύσκολο να μαχαιρώσεις αυτό που δεν μπορείς να δεις. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_shamans_hex_attackers"					"Shaman Pluck"
@@ -1289,7 +1312,7 @@
 	"dac_item_discount_rerolls_lore"					"Μην συμβιβαστείς για πλήρωμα που δεν υποστηρίζεις. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_assassins_blind_on_landing"				"Pocket Sand"
-	"dac_item_assassins_blind_on_landing_desc"			"Οι <span class='Assassin'>Δολοφόνοι</span> <img class='InlineSynergyIcon SynergyAssassins'/> τυφλώνουν εχθρούς έως 1 κελί μακριά από εκεί που προσγειώνονται για {s:blind_duration} δευτερόλεπτα ({d:blind_chance}% ποσοστό αστοχίας και {d:mana_gain_reduction}% λιγότερη ενέργεια όταν δέχονται επίθεση)."
+	"dac_item_assassins_blind_on_landing_desc"			"Οι <span class='Assassin'>Δολοφόνοι</span> <img class='InlineSynergyIcon SynergyAssassins'/> τυφλώνουν εχθρούς έως 1 κελί μακριά από εκεί που προσγειώνονται για {s:blind_duration} δευτερόλεπτα ({s:blind_chance}% ποσοστό αστοχίας και {s:mana_gain_reduction}% λιγότερη ενέργεια όταν δέχονται επίθεση)."
 	"dac_item_assassins_blind_on_landing_lore"			"Η Quiet δεν πολεμάει δίκαια, πολεμάει για να κερδίσει. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_extra_items"								"Embarrassment of Riches"
@@ -1309,15 +1332,15 @@
 	"dac_item_prevent_next_life_loss_lore"				"Μερικές φορές το μόνο που χρειάζεσαι είναι μια δεύτερη ευκαιρία. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_mechs_explode_on_death"					"Unstable Reactor"
-	"dac_item_mechs_explode_on_death_desc"				"Οι συμμαχικοί <span class='Mech'>Εφευρέτες</span> <img class='InlineSynergyIcon SynergyInventors'/> εκρήγνυνται με το θάνατο προκαλώντας το {s:damage_hp_pct}% της μέγιστης ζωής τους ως ζημιά σε όλους τους εχθρούς έως {d:range_in_cells} κελί μακριά."
+	"dac_item_mechs_explode_on_death_desc"				"Οι συμμαχικοί <span class='Mech'>Εφευρέτες</span> <img class='InlineSynergyIcon SynergyInventors'/> εκρήγνυνται με το θάνατο προκαλώντας το {s:damage_hp_pct}% της μέγιστης ζωής τους ως ζημιά σε όλους τους εχθρούς έως {s:range_in_cells} κελί μακριά."
 	"dac_item_mechs_explode_on_death_lore"				"Να γιατί δεν εμπιστεύομαι εμπορεύματα από Keen. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_trolls_have_aspd_aura"					"Coordinated Assault"
-	"dac_item_trolls_have_aspd_aura_desc"				"Οι μονάδες <span class='Troll'>Τρολ</span> <img class='InlineSynergyIcon SynergyTroll'/> παρέχουν +{s:attack_speed_buff} ταχύτητα επίθεσης σε συμμάχους έως {d:range_in_cells} κελί μακριά."
+	"dac_item_trolls_have_aspd_aura_desc"				"Οι μονάδες <span class='Troll'>Τρολ</span> <img class='InlineSynergyIcon SynergyTroll'/> παρέχουν +{s:attack_speed_buff} ταχύτητα επίθεσης σε συμμάχους έως {s:range_in_cells} κελί μακριά."
 	"dac_item_trolls_have_aspd_aura_lore"				"Όταν μια αγέλη Τρολ αποφασίσει ότι θέλει να σε δείρει δεν υπάρχουν και πολλά που μπορείς να κάνεις για αυτό. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_goblins_give_gold_on_last_hit"			"Check the Bodies"
-	"dac_item_goblins_give_gold_on_last_hit_desc"		"Οι <span class='Goblin'>Επινοητικοί</span> <img class='InlineSynergyIcon SynergyScrappy'/> λαμβάνουν {s:percent_chance}% πιθανότητα να παράξουν {d:gold} χρυσό όταν σκοτώνουν έναν εχθρό."
+	"dac_item_goblins_give_gold_on_last_hit_desc"		"Οι <span class='Goblin'>Επινοητικοί</span> <img class='InlineSynergyIcon SynergyScrappy'/> λαμβάνουν {s:percent_chance}% πιθανότητα να παράξουν {s:gold} χρυσό όταν σκοτώνουν έναν εχθρό."
 	"dac_item_goblins_give_gold_on_last_hit_lore"		"Δε θα το έλεγα αγενές. Οι νεκροί δεν μπορούν να ξοδέψουν νομίσματα ούτως ή άλλως. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_orcs_get_extra_hp"						"Forged in Battle"
@@ -1354,7 +1377,7 @@
 	"dac_item_humans_debuff_resist_lore"				"Αααα να το διάσημο ανθρώπινο πνεύμα. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_druids_heal_over_time_on_death"			"Completing the Cycle"
-	"dac_item_druids_heal_over_time_on_death_desc"		"Όταν ένας <span class='Druid'>Δρυίδης</span> <img class='InlineSynergyIcon SynergyDruid'/> πεθάνει, θεραπεύει τους συμμάχους έως {d:range_in_cells} κελιά μακριά σταδιακά για {s:heal_pct_per_second}% ζωή ανά δευτερόλεπτο για {d:heal_duration} δευτερόλεπτα."
+	"dac_item_druids_heal_over_time_on_death_desc"		"Όταν ένας <span class='Druid'>Δρυίδης</span> <img class='InlineSynergyIcon SynergyDruid'/> πεθάνει, θεραπεύει τους συμμάχους έως {s:range_in_cells} κελιά μακριά σταδιακά για {s:heal_pct_per_second}% ζωή ανά δευτερόλεπτο για {s:heal_duration} δευτερόλεπτα."
 	"dac_item_druids_heal_over_time_on_death_lore"		"Μερικές φορές, μπορεί να βρεθεί παρηγοριά στο θάνατο. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_beast_bleed"								"Tooth and Claw"
@@ -1366,7 +1389,7 @@
 	"dac_item_warriors_never_die_lore"					"Ούτε ο θάνατος δεν είναι αρκετός για να σταματήσει τους πιο γενναίους πολεμιστές. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_warlocks_spell_lifesteal"					"Soul Sucking Syphon"
-	"dac_item_warlocks_spell_lifesteal_desc"			"Συμμαχικές μονάδες έως {d:range_in_cells} κελί μακριά από <span class='Warlock'>Νεκρομάντες</span> <img class='InlineSynergyIcon SynergyWarlocks'/> θεραπεύονται για το {s:spell_lifesteal}% της συνολικής ζημιάς που προκαλείται από ικανότητες και αντικείμενα."
+	"dac_item_warlocks_spell_lifesteal_desc"			"Συμμαχικές μονάδες έως {s:range_in_cells} κελί μακριά από <span class='Warlock'>Νεκρομάντες</span> <img class='InlineSynergyIcon SynergyWarlocks'/> θεραπεύονται για το {s:spell_lifesteal}% της συνολικής ζημιάς που προκαλείται από ικανότητες και αντικείμενα."
 	"dac_item_warlocks_spell_lifesteal_lore"			"Δε θα πω ψέματα, αυτό είναι λίγο παράξενο. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_undeads_stop_healing"						"Wicked Intent"
@@ -1374,7 +1397,7 @@
 	"dac_item_undeads_stop_healing_lore"				"Μερικοί άνθρωποι απλά απολαμβάνουν να κάνουν τους άλλους να υποφέρουν. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 	"dac_item_lower_healing"							"Dawning of Ristul"
-	"dac_item_lower_healing_desc"						"Η θεραπεία και για τις δύο ομάδες μειώνεται κατά {d:healing_prevented}%."
+	"dac_item_lower_healing_desc"						"Η θεραπεία και για τις δύο ομάδες μειώνεται κατά {s:healing_prevented}%."
 	"dac_item_lower_healing_lore"						"Τα Vhoul αντέδρασαν άσχημα στον πόλεμο στο Ροδόφυλλο. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 	
 	"dac_item_mages_ghost_on_low_health"				"Final Flash"
@@ -1757,6 +1780,57 @@
 	"dac_item_vesture_of_the_tyrant_4"		"Vesture of the Tyrant από Stonehall"
 	"dac_item_vesture_of_the_tyrant_5"		"Vesture of the Tyrant του Galanius"
 
+	"dac_item_headdress_rot1"									"Headdress"
+	"dac_item_headdress_rot1_desc"								"Ο εξοπλισμένος ήρωας, και οι μονάδες εντός {s:row_radius} κελιού αριστερά ή δεξιά του στην αρχή της μάχης, αποκτούν +{s:health_regen} ζωή ανά δευτερόλεπτο."
+	"dac_item_headdress_rot1_lore"								"Το αγόρασα από έναν τύπο που είπε ότι ήρθε από την Τρομερή Φωλιά. Δε ξέρω αν είναι αλήθεια ή όχι, αλλά έχει ένα ωραίο πούπουλο - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
+
+	"dac_item_hood_of_defiance_rot1"							"Hood of Defiance"
+	"dac_item_hood_of_defiance_rot1_desc"						"Ο εξοπλισμένος ήρωας, και οι μονάδες εντός {s:row_radius} κελιού αριστερά ή δεξιά του στην αρχή της μάχης, αποκτούν +{s:bonus_magical_resistance}% μαγική αντίσταση."
+	"dac_item_hood_of_defiance_rot1_lore"							"Μείνε ισχυρός μπροστά στους εχθρούς σου. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
+
+	"dac_item_vitality_booster_rot1"							"Vitality Booster"
+	"dac_item_vitality_booster_rot1_desc"						"Ο εξοπλισμένος ήρωας, και οι μονάδες εντός {s:row_radius} κελιού αριστερά ή δεξιά του στην αρχή της μάχης, αποκτούν +{s:health_bonus} ζωή."
+	"dac_item_vitality_booster_rot1_lore"						"Το θέμα δεν είναι να γυρίσεις την παλίρροια, αλλά να αντέξεις την καταιγίδα. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
+
+	"dac_item_paladin_sword"									"Paladin Sword"
+	"dac_item_paladin_sword_desc"								"+{s:attack_damage} ζημιά επίθεσης. Η συμμαχική θεραπεία αυξάνεται κατά {s:healing_amplify_pct}%."
+	"dac_item_paladin_sword_lore"								"Μου είπαν ότι αυτό ήταν ευλογημένο από την ίδια τη Λαίδη Anshu.  - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
+
+	"dac_item_poisoner_hat"									"Orb of Venom"
+	"dac_item_poisoner_hat_desc"							"Ο εξοπλισμένος ήρωας είναι <span class='Poisoner'>Δηλητηριαστής</span><img class='InlineSynergyIcon SynergyPoisoner'/>."
+	"dac_item_poisoner_hat_lore"							"Λένε ότι το μόνο που χρειάζεσαι για να σκοτώσεις κάποιον είναι χρόνος. Εγώ λέω, γιατί να μη βοηθήσουμε λιγάκι το χρόνο; - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
+
+	"dac_item_barricade_rot1"								"Barricade"
+	"dac_item_barricade_rot1_desc"							"Δύο τοποθετούμενα φράγματα για να μπλοκάρουν εχθρούς και και να μειώσουν τη ζημιά τηλέμαχων επιθέσεων κατά 50%. Άτρωτο και απρόσβλητο από ξόρκια."
+	"dac_item_barricade_rot1_lore"							"Όταν δεν μπορείς να βρεις κάλυμμα, φέρ'το μαζί σου. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
+
+	"dac_item_heavens_halberd"									"Heaven's Halberd"
+	"dac_item_heavens_halberd_desc"								"+{s:evasion_pct}% αποφυγή. Όταν ο εξοπλισμένος ήρωας επιτίθεται, αφοπλίζει τον στόχο για {s:disarm_duration} δευτερόλεπτα. ({s:cooldown} δευτερόλεπτα επαναφόρτιση)"
+	"dac_item_heavens_halberd_lore"								"Ανακάλυψα ότι το μυστικό σε μια μεγάλη και υγιή ζωή είναι να μαχαιρώνεις κόσμο πριν σε μαχαιρώσουν αυτοί. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
+
+	"dac_item_necronomicon"									"Necronomicon"
+	"dac_item_necronomicon_desc"								"Όποτε ο εξοπλισμένος ήρωας εκτελεί ένα ξόρκι, κλητεύει ένα δαίμονα πυγμάχο. (Μέγιστο {s:max_units} μονάδες ζωντανές με μιας)"
+	"dac_item_necronomicon_lore"								"Παρακαλώ αγνόησε το όνομα της Anessix που είναι γραμμένο μέσα στο εξώφυλλο. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
+
+	"dac_item_swordsman_hat"									"Pirate Hat"
+	"dac_item_swordsman_hat_desc"								"Ο εξοπλισμένος ήρωας είναι <span class='Swordsman'>Ξιφομάχος</span><img class='InlineSynergyIcon SynergySwordsman'/>."
+	"dac_item_swordsman_hat_lore"								"Μια μέρα μπορεί να θελήσει το καπέλο της πίσω. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
+
+	"dac_item_craggy_coat"									"Craggy Coat"
+	"dac_item_craggy_coat_desc"								"Ο εξοπλισμένος ήρωας αποκτάει +{s:bonus_armor} θωράκιση αλλά με κόστος {s:attack_speed} ταχύτητα επίθεσης."
+	"dac_item_craggy_coat_lore"								"Δε λέω ότι είναι άνετο, λέω ότι θα σε κρατήσει ζωντανό. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
+
+	"dac_item_witless_shako"									"Witless Shako"
+	"dac_item_witless_shako_desc"								"Ο εξοπλισμένος ήρωας αποκτάει +{s:health_bonus} ζωή αλλά με κόστος να έχει {s:mana_gain_pct_decrease}% λιγότερη ενέργεια."
+	"dac_item_witless_shako_lore"								"Άκου, αν τα μυαλά ήταν τόσο σημαντικά ο Axe θα είχε πεθάνει μέχρι τώρα... - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
+
+	"dac_item_maelstrom_rot1"								"Maelstrom"
+	"dac_item_maelstrom_rot1_desc"							"{s:bolt_chance_percentage}% πιθανότητα ανά επίθεση να εκτελέσει αλυσιδωτό ηλεκτρισμό για {s:bolt_damage} ζημιά σε {s:bolt_targets} στόχους. Προκαλεί {s:summon_damage_increase}% περισσότερη ζημιά σε κλητευμένες μονάδες."
+	"dac_item_maelstrom_rot1_lore"							"Κανένας δεν μπορεί να ελέγξει τον καιρό... αλλά σίγουρα μπορείς να του δώσεις μια μικρή ώθηση. - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
+
+	"dac_item_monkey_king_bar"									"Monkey King Bar"
+	"dac_item_monkey_king_bar_desc"								"Ο εξοπλισμένος ήρωας αποκτάει +{s:attack_damage} ζημιά επίθεσης και οι επιθέσεις του δεν μπορούν να αστοχήσουν."
+	"dac_item_monkey_king_bar_lore"								"Αν έρθει ο Wukong και ρωτήσει, δεν το πήρες αυτό από μένα.  - <i>Zenok, κλεπταποδόχος Λευκής Σπείρας</i>"
 
 
 	"dac_bp1_bronze_border"								"Χάλκινο περίγραμμα"
@@ -1895,7 +1969,7 @@
 	"DAC_InGame_DevPasteShareCode_Failed" 				"ΜΗ ΕΓΚΥΡΟΣ ΚΩΔΙΚΑΣ"	
 	"DAC_InGame_DevPasteShareCode_Success" 				"ΕΠΙΤΥΧΙΑ!"
 	"DAC_InGame_VsOpponent"								"εναντίον {g:dac_player_slot_persona:gameStateOpponentPlayerSlot}"
-	"DAC_InGame_VsOpponentFirstEncounter"				"Πρώτη μάχη με αυτόν τον αντίπαλο"
+	"DAC_InGame_VsOpponentFirstEncounter"				"ΠΡΩΤΗ ΜΑΧΗ ΜΕ ΑΥΤΟΝ ΤΟΝ ΑΝΤΙΠΑΛΟ"
 	"DAC_InGame_VsOpponentRecordTitle"					"Ιστορικό με αυτόν τον αντίπαλο:"
 	"DAC_InGame_VsOpponentRecordWinLoss"				"{d:wins} Ν - {d:losses} Η"
 	"DAC_InGame_VsOpponentRecordWinLossDraw"			"{d:wins} Ν – {d:losses} Η – {d:draws} Ι"
@@ -2085,6 +2159,15 @@
 	"DAC_EndGame_Hobgen_win_with_warlock"			"ΟΙ ΝΕΚΡΟΜΑΝΤΕΣ ΤΟΥ HOBGEN ΥΦΑΙΝΟΥΝ ΕΝΑ ΞΟΡΚΙ ΠΑΝΩ ΑΠΟ ΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
 	"DAC_EndGame_Hobgen_win_with_warrior"			"ΤΑ ΤΣΙΡΑΚΙΑ ΤΟΥ HOBGEN ΔΕΡΝΟΥΝ ΟΛΟΥΣ ΤΟΥΣ ΠΑΡΕΥΡΙΣΚΟΜΕΝΟΥΣ"
 	"DAC_EndGame_Hobgen_win_with_summoners"			"Ο HOBGEN ΚΑΤΑΚΛΥΖΕΙ ΤΟΝ ΑΝΤΑΓΩΝΙΣΜΟ ΜΕ ΦΑΙΝΟΜΕΝΙΚΑ ΑΤΕΛΕΙΩΤΟ ΣΤΡΑΤΟ"
+	"DAC_EndGame_Hobgen_win_with_fallen"			"ΟΥΤΕ Ο ΘΑΝΑΤΟΣ ΔΕΝ ΜΠΟΡΕΙ ΝΑ ΣΤΑΜΑΤΗΣΕΙ ΤΟΝ HOBGEN ΣΤΗΝ ΠΟΡΕΙΑ ΤΟΥ ΝΑ ΓΙΝΕΙ ΛΟΡΔΟΣ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Hobgen_win_with_poisoner"			"Ο HOBGEN ΠΑΙΡΝΕΙ ΜΑΘΗΜΑ ΑΠΟ ΤΟ ΒΙΒΛΙΟ ΤΟΥ ENNO ΚΑΙ ΔΗΛΗΤΗΡΙΑΖΕΙ ΤΟ ΔΡΟΜΟ ΤΟΥ ΓΙΑ ΤΗΝ ΚΟΡΥΦΗ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Hobgen_win_with_swordsman"			"ΟΙ ΞΙΦΟΜΑΧΟΙ ΤΟΥ HOBGEN ΑΠΟΜΑΚΡΥΝΟΥΝ ΕΧΘΡΟΥΣ ΜΕ ΑΝΕΣΗ"
+	"DAC_EndGame_Hobgen_win_with_wild"				"ΟΙ ΔΥΝΑΜΕΙΣ ΤΗΣ ΦΥΣΗΣ ΒΟΗΘΟΥΝ ΤΟΝ HOBGEN"
+	"DAC_EndGame_Hobgen_win_with_magus"				"Ο RUBICK ΣΤΕΚΕΤΑΙ ΔΙΠΛΑ ΣΤΟΝ HOBGEN, ΤΟΥ ΧΑΡΙΖΕΙ ΤΗΝ ΠΟΛΗ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Hobgen_win_with_rogue"				"Ο HOBGEN ΒΑΣΙΖΕΤΑΙ ΣΕ ΤΥΧΟΔΙΩΚΤΕΣ ΓΙΑ ΝΑ ΑΦΑΙΡΕΣΟΥΝ ΤΟΥΣ ΕΧΘΡΟΥΣ ΤΟΥ"
+	
+	
+	
 	
 	"DAC_EndGame_Hobgen_does_good_with_assassins"		"ΟΙ ΠΛΗΡΩΜΕΝΟΙ ΔΟΛΟΦΟΝΟΙ ΤΟΥ HOBGEN ΔΕΝ ΣΚΟΤΩΣΑΝ ΑΡΚΕΤΑ"
 	"DAC_EndGame_Hobgen_does_good_with_blood_bound"		"ΟΙ ΓΙΓΑΝΤΕΣ ΔΕΝ ΕΦΕΡΑΝ ΑΡΚΕΤΗ ΙΣΧΥ ΓΙΑ ΝΑ ΔΩΣΟΥΝ ΣΤΟΝ HOBGEN ΤΗ ΝΙΚΗ"
@@ -2113,7 +2196,15 @@
 	"DAC_EndGame_Hobgen_does_good_with_warlock"			"ΟΙ ΝΕΚΡΟΜΑΝΤΕΣ ΤΟΥ HOBGEN ΕΙΝΑΙ ΚΑΛΟΙ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
 	"DAC_EndGame_Hobgen_does_good_with_warrior"			"ΟΙ ΠΟΛΕΜΙΣΤΕΣ ΤΟΥ HOBGEN ΑΠΟΚΡΟΟΥΝ ΕΧΘΡΟΥΣ, ΑΛΛΑ ΤΕΛΙΚΑ ΚΑΤΑΠΛΑΚΩΝΟΝΤΑΙ"
 	"DAC_EndGame_Hobgen_does_good_with_summoners"		"Ο HOBGEN ΚΑΛΕΙ ΕΝΑΝ ΙΣΧΥΡΟ ΣΤΡΑΤΟ, ΑΛΛΑ ΔΕΝ ΕΙΝΑΙ ΑΡΚΕΤΟΣ ΓΙΑ ΝΑ ΠΑΡΕΙ ΤΟΝ ΕΛΕΓΧΟ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
-
+	"DAC_EndGame_Hobgen_does_good_with_fallen"			"ΟΙ ΕΚΠΤΩΤΟΙ ΣΧΕΔΟΝ ΔΙΝΟΥΝ ΣΤΟΝ HOBGEN ΤΟΝ ΕΛΕΓΧΟ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Hobgen_does_good_with_poisoner"		"Ο HOBGEN ΔΗΛΗΤΗΡΙΑΖΕΙ ΠΟΛΥ ΚΟΣΜΟ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΟ ΚΟΣΜΟ"
+	"DAC_EndGame_Hobgen_does_good_with_swordsman"		"ΜΙΣΘΟΦΟΡΟΙ ΠΗΓΑΙΝΟΥΝ ΤΟΝ HOBGEN ΜΑΚΡΙΑ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
+	"DAC_EndGame_Hobgen_does_good_with_wild"			"ΣΑΜΑΝΟΙ ΤΑΣΣΟΝΤΑΙ ΜΕ ΤΟΝ HOBGEN, ΑΛΛΑ ΔΕΝ ΜΠΟΡΟΥΝ ΝΑ ΚΛΕΙΔΩΣΟΥΝ ΤΗ ΝΙΚΗ"
+	"DAC_EndGame_Hobgen_does_good_with_magus"			"Η ΚΥΡΙΑΡΧΙΑ ΤΡΟΜΟΥ ΤΟΥ ΜΕΓΑ ΜΑΓΟΥ ΚΑΙ ΤΟΥ HOBGEN ΦΤΑΝΕΙ ΣΤΟ ΤΕΛΟΣ ΤΗΣ"
+	"DAC_EndGame_Hobgen_does_good_with_rogue"			"ΠΡΟΔΟΣΙΑ ΚΑΙ ΜΙΣΘΟΦΟΡΟΙ ΠΗΓΑΙΝΟΥΝ ΤΟΝ HOBGEN ΜΑΚΡΙΑ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
+	
+	
+	
 	"DAC_EndGame_Hobgen_does_ok_with_assassins"			"ΟΙ ΔΟΛΟΦΟΝΟΙ ΤΟΥ HOBGEN ΑΠΟΤΥΓΧΑΝΟΥΝ ΝΑ ΜΑΧΑΙΡΩΣΟΥΝ ΑΡΚΕΤΟ ΚΟΣΜΟ"
 	"DAC_EndGame_Hobgen_does_ok_with_blood_bound"		"Ο HOBGEN ΤΟΠΟΘΕΤΕΙ ΤΙΣ ΕΛΠΙΔΕΣ ΤΟΥ ΜΕ ΤΟ ΛΑΓΩΝΙΚΟ ΤΟΥ. ΑΠΟΓΟΗΤΕΥΤΙΚΑ ΑΠΟΤΕΛΕΣΜΑΤΑ."
 	"DAC_EndGame_Hobgen_does_ok_with_brawny"			"ΤΟ ΤΟΙΧΟΣ ΚΡΕΑΤΟΣ ΔΕΝ ΗΤΑΝ ΑΡΚΕΤΑ ΠΑΧΥ ΓΙΑ ΝΑ ΠΡΟΣΤΑΤΕΥΣΕΙ ΤΟΝ HOBGEN"
@@ -2141,6 +2232,14 @@
 	"DAC_EndGame_Hobgen_does_ok_with_warlock"			"ΝΕΚΡΟΜΑΝΤΕΣ ΕΚΤΕΛΟΥΝ ΑΝΑΠΟΤΕΛΕΣΜΑΤΙΚΑ ΞΟΡΚΙΑ ΓΙΑ ΤΟΝ HOBGEN"
 	"DAC_EndGame_Hobgen_does_ok_with_warrior"			"ΟΙ ΠΟΛΕΜΙΣΤΕΣ ΤΟΥ HOBGEN ΠΟΛΕΜΟΥΝ ΣΚΛΗΡΑ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
 	"DAC_EndGame_Hobgen_does_ok_with_summoners"			"Ο HOBGEN ΠΡΟΣΛΑΜΒΑΝΕΙ ΤΡΙΤΟΥΣ ΓΙΑ ΝΑ ΤΟΥ ΜΑΖΕΨΟΥΝ ΣΤΡΑΤΟ ΜΕ ΜΕΙΚΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ"
+	"DAC_EndGame_Hobgen_does_ok_with_fallen"			"Ο HOBGEN ΚΑΝΕΙ ΣΥΜΦΩΝΙΑ ΜΕ ΕΚΠΤΩΤΟΥΣ, ΕΞΑΚΟΛΟΥΘΕΙ ΝΑ ΜΗΝ ΕΙΝΑΙ ΑΡΚΕΤΟ"
+	"DAC_EndGame_Hobgen_does_ok_with_poisoner"			"Ο HOBGEN ΣΤΡΕΦΕΤΑΙ ΣΕ ΔΗΛΗΤΗΡΙΟ ΜΕ ΑΝΑΜΕΙΚΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ"
+	"DAC_EndGame_Hobgen_does_ok_with_swordsman"			"Ο HOBGEN ΤΣΙΓΚΟΥΝΕΥΕΤΑΙ ΣΕ ΜΙΣΘΟΦΟΡΟΥΣ, ΠΑΙΡΝΕΙ ΑΥΤΟ ΠΟΥ ΠΛΗΡΩΣΕ"
+	"DAC_EndGame_Hobgen_does_ok_with_wild"				"Ο HOBGEN ΠΡΟΣΠΑΘΕΙ ΝΑ ΒΑΛΕΙ ΤΟ ΧΕΡΙ ΤΟΥ ΣΤΟΥΣ ΝΕΟΥΣ ΣΑΜΑΝΟΥΣ, ΑΛΛΑ ΔΕΝ ΜΠΟΡΕΙ ΝΑ ΤΟΥΣ ΚΥΡΙΑΡΧΗΣΕΙ"
+	"DAC_EndGame_Hobgen_does_ok_with_magus"				"Ο RUBICK ΚΑΙ Ο HOBGEN ΔΕΝ ΕΙΝΑΙ ΑΚΡΙΒΩΣ ΣΤΗΝ ΙΔΙΑ ΣΕΛΙΔΑ"
+	"DAC_EndGame_Hobgen_does_ok_with_rogue"				"ΟΙ ΤΥΧΟΔΙΩΚΤΕΣ ΑΠΟΤΥΓΧΑΝΟΥΝ ΝΑ ΚΛΕΨΟΥΝ ΜΙΑ ΝΙΚΗ"
+	
+	
 	
 	"DAC_EndGame_Hobgen_does_bad_with_assassins"		"Ο HOBGEN ΠΡΟΣΛΑΜΒΑΝΕΙ ΧΑΛΙΑ ΔΟΛΟΦΟΝΟΥΣ"
 	"DAC_EndGame_Hobgen_does_bad_with_blood_bound"		"Ο HOBGEN ΑΝΑΚΑΛΥΠΤΕΙ ΟΤΙ ΤΑ ΚΟΛΠΑ ΔΕΝ ΚΕΡΔΙΖΟΥΝ ΜΑΧΕΣ"
@@ -2169,6 +2268,14 @@
 	"DAC_EndGame_Hobgen_does_bad_with_warlock"			"ΝΕΚΡΟΜΑΝΤΕΣ ΕΠΑΝΑΣΤΑΤΟΥΝ ΕΝΑΝΤΙΟΝ ΤΟΥ HOBGEN, ΑΡΝΟΥΝΤΑΙ ΝΑ ΤΟΝ ΒΟΗΘΗΣΟΥΝ ΝΑ ΝΙΚΗΣΕΙ"
 	"DAC_EndGame_Hobgen_does_bad_with_warrior"			"Ο HOBGEN ΠΡΟΣΛΑΜΒΑΝΕΙ ΠΟΛΕΜΙΣΤΕΣ ΠΟΥ ΔΕΝ ΤΟΥΣ ΕΝΔΙΕΦΕΡΕ ΝΑ ΝΙΚΗΣΟΥΝ"
 	"DAC_EndGame_Hobgen_does_bad_with_summoners"		"Ο HOBGEN ΠΡΟΣΛΑΜΒΑΝΕΙ ΑΤΟΜΑ Β ΔΙΑΛΟΓΗΣ, ΠΟΥ ΠΡΟΣΛΑΜΒΑΝΟΥΝ Γ ΔΙΑΛΟΓΗΣ"
+	"DAC_EndGame_Hobgen_does_bad_with_fallen"			"Ο HOBGEN ΣΥΝΤΑΣΣΕΤΑΙ ΜΕ ΤΟΥΣ ΕΚΠΤΩΤΟΥΣ, ΠΟΥ ΕΧΟΥΝ ΠΑΡΑΞΕΝΑ ΠΡΟΦΗΤΙΚΟ ΟΝΟΜΑ"
+	"DAC_EndGame_Hobgen_does_bad_with_poisoner"			"Ο HOBGEN ΔΗΛΗΤΗΡΙΑΖΕΙ ΕΠΙΤΥΧΩΣ ΤΙΣ ΜΕΛΛΟΝΤΙΚΕΣ ΤΟΥ ΠΡΟΟΠΤΙΚΕΣ"
+	"DAC_EndGame_Hobgen_does_bad_with_swordsman"		"ΟΙ ΞΙΦΟΜΑΧΟΙ ΤΟΥ HOBGEN ΠΕΡΝΟΥΝ ΠΕΡΙΣΣΟΤΕΡΟ ΧΡΟΝΟ ΣΤΟ ΜΠΑΡ ΠΑΡΑ ΣΤΟ ΠΕΔΙΟ ΤΗΣ ΜΑΧΗΣ"
+	"DAC_EndGame_Hobgen_does_bad_with_wild"				"Ο HOBGEN ΑΝΑΜΕΝΕΙ ΚΟΤΟΠΟΥΛΟ, ΑΛΛΑ ΤΕΛΙΚΑ ΤΟΥ ΣΕΡΒΙΡΕΤΑΙ ΑΠΟΤΥΧΙΑ"
+	"DAC_EndGame_Hobgen_does_bad_with_magus"			"ΤΟ ΜΟΝΟ ΠΡΑΓΜΑ ΠΟΥ ΑΝΤΙΓΡΑΦΕΙ Ο ΜΕΓΑΣ ΜΑΓΟΣ ΕΙΝΑΙ Η ΑΠΟΤΥΧΙΑ"
+	"DAC_EndGame_Hobgen_does_bad_with_rogue"			"ΤΥΧΟΔΙΩΚΤΕΣ ΑΡΝΟΥΝΤΑΙ ΝΑ ΕΡΓΑΣΤΟΥΝ ΜΕ ΤΟΝ HOBGEN"
+	
+	
 	
 	//Anessix End Screen Headlines
 	
@@ -2199,6 +2306,13 @@
 	"DAC_EndGame_Anessix_win_with_warlock"			"ΟΙ ΝΕΚΡΟΜΑΝΤΕΣ ΤΗΣ ANESSIX ΥΦΑΙΝΟΥΝ ΕΝΑ ΞΟΡΚΙ ΠΑΝΩ ΑΠΟ ΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
 	"DAC_EndGame_Anessix_win_with_warrior"			"ΤΑ ΤΣΙΡΑΚΙΑ ΤΗΣ ANESSIX ΔΕΡΝΟΥΝ ΟΛΟΥΣ ΤΟΥΣ ΠΑΡΕΥΡΙΣΚΟΜΕΝΟΥΣ"
 	"DAC_EndGame_Anessix_win_with_summoners"		"Η ANESSIX ΚΑΤΑΚΛΥΖΕΙ ΤΟΝ ΑΝΤΑΓΩΝΙΣΜΟ ΜΕ ΦΑΙΝΟΜΕΝΙΚΑ ΑΤΕΛΕΙΩΤΟ ΣΤΡΑΤΟ"
+	"DAC_EndGame_Anessix_win_with_fallen"			"ΟΥΤΕ Ο ΘΑΝΑΤΟΣ ΔΕΝ ΜΠΟΡΕΙ ΝΑ ΣΤΑΜΑΤΗΣΕΙ ΤΗΝ ANESSIX ΣΤΗΝ ΠΟΡΕΙΑ ΤΗΣ ΝΑ ΓΙΝΕΙ ΛΟΡΔΟΣ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Anessix_win_with_poisoner"			"Η ANESSIX ΠΑΙΡΝΕΙ ΜΑΘΗΜΑ ΑΠΟ ΤΟ ΒΙΒΛΙΟ ΤΟΥ ENNO ΚΑΙ ΔΗΛΗΤΗΡΙΑΖΕΙ ΤΟ ΔΡΟΜΟ ΤΗΣ ΓΙΑ ΤΗΝ ΚΟΡΥΦΗ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Anessix_win_with_swordsman"		"ΟΙ ΞΙΦΟΜΑΧΟΙ ΤΗΣ ANESSIX ΑΠΟΜΑΚΡΥΝΟΥΝ ΕΧΘΡΟΥΣ ΜΕ ΑΝΕΣΗ"
+	"DAC_EndGame_Anessix_win_with_wild"				"ΟΙ ΔΥΝΑΜΕΙΣ ΤΗΣ ΦΥΣΗΣ ΒΟΗΘΟΥΝ ΤΗΝ ANESSIX"
+	"DAC_EndGame_Anessix_win_with_magus"			"Ο RUBICK ΣΤΕΚΕΤΑΙ ΔΙΠΛΑ ΣΤΗΝ ANESSIX, ΤΗΣ ΧΑΡΙΖΕΙ ΤΗΝ ΠΟΛΗ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Anessix_win_with_rogue"			"Η ANESSIX ΒΑΣΙΖΕΤΑΙ ΣΕ ΤΥΧΟΔΙΩΚΤΕΣ ΓΙΑ ΝΑ ΑΦΑΙΡΕΣΟΥΝ ΤΟΥΣ ΕΧΘΡΟΥΣ ΤΗΣ"
+	
 	
 	"DAC_EndGame_Anessix_does_good_with_assassins"		"ΟΙ ΠΛΗΡΩΜΕΝΟΙ ΔΟΛΟΦΟΝΟΙ ΤΗΣ ANESSIX ΔΕΝ ΣΚΟΤΩΣΑΝ ΑΡΚΕΤΑ"
 	"DAC_EndGame_Anessix_does_good_with_blood_bound"	"ΟΙ ΓΙΓΑΝΤΕΣ ΔΕΝ ΕΦΕΡΑΝ ΑΡΚΕΤΗ ΙΣΧΥ ΓΙΑ ΝΑ ΔΩΣΟΥΝ ΣΤΗΝ ANESSIX ΤΗ ΝΙΚΗ"
@@ -2227,7 +2341,13 @@
 	"DAC_EndGame_Anessix_does_good_with_warlock"		"ΟΙ ΝΕΚΡΟΜΑΝΤΕΣ ΤΗΣ ANESSIX ΕΙΝΑΙ ΚΑΛΟΙ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
 	"DAC_EndGame_Anessix_does_good_with_warrior"		"ΟΙ ΠΟΛΕΜΙΣΤΕΣ ΤΗΣ ANESSIX ΑΠΟΚΡΟΟΥΝ ΕΧΘΡΟΥΣ, ΑΛΛΑ ΤΕΛΙΚΑ ΚΑΤΑΠΛΑΚΩΝΟΝΤΑΙ"
 	"DAC_EndGame_Anessix_does_good_with_summoners"		"Η ANESSIX ΚΑΛΕΙ ΕΝΑΝ ΙΣΧΥΡΟ ΣΤΡΑΤΟ, ΑΛΛΑ ΔΕΝ ΕΙΝΑΙ ΑΡΚΕΤΟΣ ΓΙΑ ΝΑ ΠΑΡΕΙ ΤΟΝ ΕΛΕΓΧΟ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
-
+	"DAC_EndGame_Anessix_does_good_with_fallen"			"ΟΙ ΕΚΠΤΩΤΟΙ ΣΧΕΔΟΝ ΔΙΝΟΥΝ ΣΤΗΝ ANESSIX ΤΟΝ ΕΛΕΓΧΟ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Anessix_does_good_with_poisoner"		"Η ANESSIX ΔΗΛΗΤΗΡΙΑΖΕΙ ΠΟΛΥ ΚΟΣΜΟ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΟ ΚΟΣΜΟ"
+	"DAC_EndGame_Anessix_does_good_with_swordsman"		"ΜΙΣΘΟΦΟΡΟΙ ΠΗΓΑΙΝΟΥΝ ΤΗΝ ANESSIX ΜΑΚΡΙΑ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
+	"DAC_EndGame_Anessix_does_good_with_wild"			"ΣΑΜΑΝΟΙ ΤΑΣΣΟΝΤΑΙ ΜΕ ΤΗΝ ANESSIX, ΑΛΛΑ ΔΕΝ ΜΠΟΡΟΥΝ ΝΑ ΚΛΕΙΔΩΣΟΥΝ ΤΗ ΝΙΚΗ"
+	"DAC_EndGame_Anessix_does_good_with_magus"			"Η ΚΥΡΙΑΡΧΙΑ ΤΡΟΜΟΥ ΤΟΥ ΜΕΓΑ ΜΑΓΟΥ ΚΑΙ ΤΗΣ ANESSIX ΦΤΑΝΕΙ ΣΤΟ ΤΕΛΟΣ ΤΗΣ"
+	"DAC_EndGame_Anessix_does_good_with_rogue"			"ΠΡΟΔΟΣΙΑ ΚΑΙ ΜΙΣΘΟΦΟΡΟΙ ΠΗΓΑΙΝΟΥΝ ΤΗΝ ANESSIX ΜΑΚΡΙΑ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
+	
 	"DAC_EndGame_Anessix_does_ok_with_assassins"		"ΟΙ ΔΟΛΟΦΟΝΟΙ ΤΗΣ ANESSIX ΑΠΟΤΥΓΧΑΝΟΥΝ ΝΑ ΜΑΧΑΙΡΩΣΟΥΝ ΑΡΚΕΤΟ ΚΟΣΜΟ"
 	"DAC_EndGame_Anessix_does_ok_with_blood_bound"		"Η ANESSIX ΤΟΠΟΘΕΤΕΙ ΤΙΣ ΕΛΠΙΔΕΣ ΤΗΣ ΜΕ ΤΟ ΛΑΓΩΝΙΚΟ ΤΗΣ. ΑΠΟΓΟΗΤΕΥΤΙΚΑ ΑΠΟΤΕΛΕΣΜΑΤΑ."
 	"DAC_EndGame_Anessix_does_ok_with_brawny"			"ΤΟ ΤΟΙΧΟΣ ΚΡΕΑΤΟΣ ΔΕΝ ΗΤΑΝ ΑΡΚΕΤΑ ΠΑΧΥ ΓΙΑ ΝΑ ΠΡΟΣΤΑΤΕΥΣΕΙ ΤΗΝ ANESSIX"
@@ -2255,6 +2375,14 @@
 	"DAC_EndGame_Anessix_does_ok_with_warlock"			"ΝΕΚΡΟΜΑΝΤΕΣ ΕΚΤΕΛΟΥΝ ΑΝΑΠΟΤΕΛΕΣΜΑΤΙΚΑ ΞΟΡΚΙΑ ΓΙΑ ΤΗΝ ANESSIX"
 	"DAC_EndGame_Anessix_does_ok_with_warrior"			"ΟΙ ΠΟΛΕΜΙΣΤΕΣ ΤΗΣ ANESSIX ΠΟΛΕΜΟΥΝ ΣΚΛΗΡΑ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
 	"DAC_EndGame_Anessix_does_ok_with_summoners"		"Η ANESSIX ΠΡΟΣΛΑΜΒΑΝΕΙ ΤΡΙΤΟΥΣ ΓΙΑ ΝΑ ΤΟΥ ΜΑΖΕΨΟΥΝ ΣΤΡΑΤΟ ΜΕ ΜΕΙΚΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ"
+	"DAC_EndGame_Anessix_does_ok_with_fallen"			"Η ANESSIX ΚΑΝΕΙ ΣΥΜΦΩΝΙΑ ΜΕ ΕΚΠΤΩΤΟΥΣ, ΕΞΑΚΟΛΟΥΘΕΙ ΝΑ ΜΗΝ ΕΙΝΑΙ ΑΡΚΕΤΟ"
+	"DAC_EndGame_Anessix_does_ok_with_poisoner"			"Η ANESSIX ΣΤΡΕΦΕΤΑΙ ΣΕ ΔΗΛΗΤΗΡΙΟ ΜΕ ΑΝΑΜΕΙΚΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ"
+	"DAC_EndGame_Anessix_does_ok_with_swordsman"		"Η ANESSIX ΤΣΙΓΚΟΥΝΕΥΕΤΑΙ ΣΕ ΜΙΣΘΟΦΟΡΟΥΣ, ΠΑΙΡΝΕΙ ΑΥΤΟ ΠΟΥ ΠΛΗΡΩΣΕ"
+	"DAC_EndGame_Anessix_does_ok_with_wild"				"Η ANESSIX ΠΡΟΣΠΑΘΕΙ ΝΑ ΒΑΛΕΙ ΤΟ ΧΕΡΙ ΤΗΣ ΣΤΟΥΣ ΝΕΟΥΣ ΣΑΜΑΝΟΥΣ, ΑΛΛΑ ΔΕΝ ΜΠΟΡΕΙ ΝΑ ΤΟΥΣ ΚΥΡΙΑΡΧΗΣΕΙ"
+	"DAC_EndGame_Anessix_does_ok_with_magus"			"Ο RUBICK ΚΑΙ Η ANESSIX ΔΕΝ ΕΙΝΑΙ ΑΚΡΙΒΩΣ ΣΤΗΝ ΙΔΙΑ ΣΕΛΙΔΑ"
+	"DAC_EndGame_Anessix_does_ok_with_rogue"			"ΟΙ ΤΥΧΟΔΙΩΚΤΕΣ ΑΠΟΤΥΓΧΑΝΟΥΝ ΝΑ ΚΛΕΨΟΥΝ ΜΙΑ ΝΙΚΗ"
+	
+	
 	
 	"DAC_EndGame_Anessix_does_bad_with_assassins"		"Η ANESSIX ΠΡΟΣΛΑΜΒΑΝΕΙ ΧΑΛΙΑ ΔΟΛΟΦΟΝΟΥΣ"
 	"DAC_EndGame_Anessix_does_bad_with_blood_bound"		"Η ANESSIX ΑΝΑΚΑΛΥΠΤΕΙ ΟΤΙ ΤΑ ΚΟΛΠΑ ΔΕΝ ΚΕΡΔΙΖΟΥΝ ΜΑΧΕΣ"
@@ -2283,6 +2411,14 @@
 	"DAC_EndGame_Anessix_does_bad_with_warlock"			"ΝΕΚΡΟΜΑΝΤΕΣ ΕΠΑΝΑΣΤΑΤΟΥΝ ΕΝΑΝΤΙΟΝ ΤΗΣ ANESSIX, ΑΡΝΟΥΝΤΑΙ ΝΑ ΤΗΝ ΒΟΗΘΗΣΟΥΝ ΝΑ ΝΙΚΗΣΕΙ"
 	"DAC_EndGame_Anessix_does_bad_with_warrior"			"Η ANESSIX ΠΡΟΣΛΑΜΒΑΝΕΙ ΠΟΛΕΜΙΣΤΕΣ ΠΟΥ ΔΕΝ ΤΟΥΣ ΕΝΔΙΕΦΕΡΕ ΝΑ ΝΙΚΗΣΟΥΝ"
 	"DAC_EndGame_Anessix_does_bad_with_summoners"		"Η ANESSIX ΠΡΟΣΛΑΜΒΑΝΕΙ ΑΤΟΜΑ Β ΔΙΑΛΟΓΗΣ, ΠΟΥ ΠΡΟΣΛΑΜΒΑΝΟΥΝ Γ ΔΙΑΛΟΓΗΣ"
+	"DAC_EndGame_Anessix_does_bad_with_fallen"			"Η ANESSIX ΣΥΝΤΑΣΣΕΤΑΙ ΜΕ ΤΟΥΣ ΕΚΠΤΩΤΟΥΣ, ΠΟΥ ΕΧΟΥΝ ΠΑΡΑΞΕΝΑ ΠΡΟΦΗΤΙΚΟ ΟΝΟΜΑ"
+	"DAC_EndGame_Anessix_does_bad_with_poisoner"		"Η ANESSIX ΔΗΛΗΤΗΡΙΑΖΕΙ ΕΠΙΤΥΧΩΣ ΤΙΣ ΜΕΛΛΟΝΤΙΚΕΣ ΤΗΣ ΠΡΟΟΠΤΙΚΕΣ"
+	"DAC_EndGame_Anessix_does_bad_with_swordsman"		"ΟΙ ΞΙΦΟΜΑΧΟΙ ΤΗΣ ANESSIX ΠΕΡΝΟΥΝ ΠΕΡΙΣΣΟΤΕΡΟ ΧΡΟΝΟ ΣΤΟ ΜΠΑΡ ΠΑΡΑ ΣΤΟ ΠΕΔΙΟ ΤΗΣ ΜΑΧΗΣ"
+	"DAC_EndGame_Anessix_does_bad_with_wild"			"Η ANESSIX ΑΝΑΜΕΝΕΙ ΚΟΤΟΠΟΥΛΟ, ΑΛΛΑ ΤΕΛΙΚΑ ΤΗΣ ΣΕΡΒΙΡΕΤΑΙ ΑΠΟΤΥΧΙΑ"
+	"DAC_EndGame_Anessix_does_bad_with_magus"			"ΤΟ ΜΟΝΟ ΠΡΑΓΜΑ ΠΟΥ ΑΝΤΙΓΡΑΦΕΙ Ο ΜΕΓΑΣ ΜΑΓΟΣ ΕΙΝΑΙ Η ΑΠΟΤΥΧΙΑ"
+	"DAC_EndGame_Anessix_does_bad_with_rogue"			"ΤΥΧΟΔΙΩΚΤΕΣ ΑΡΝΟΥΝΤΑΙ ΝΑ ΕΡΓΑΣΤΟΥΝ ΜΕ ΤΗΝ ANESSIX"
+	
+
 	
 	//Jull End Screen Headlines
 	
@@ -2313,6 +2449,14 @@
 	"DAC_EndGame_Jull_win_with_warlock"					"ΟΙ ΝΕΚΡΟΜΑΝΤΕΣ ΤΟΥ JULL ΥΦΑΙΝΟΥΝ ΕΝΑ ΞΟΡΚΙ ΠΑΝΩ ΑΠΟ ΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
 	"DAC_EndGame_Jull_win_with_warrior"					"ΤΑ ΤΣΙΡΑΚΙΑ ΤΟΥ JULL ΔΕΡΝΟΥΝ ΟΛΟΥΣ ΤΟΥΣ ΠΑΡΕΥΡΙΣΚΟΜΕΝΟΥΣ"
 	"DAC_EndGame_Jull_win_with_summoners"				"Ο JULL ΚΑΤΑΚΛΥΖΕΙ ΤΟΝ ΑΝΤΑΓΩΝΙΣΜΟ ΜΕ ΦΑΙΝΟΜΕΝΙΚΑ ΑΤΕΛΕΙΩΤΟ ΣΤΡΑΤΟ"
+	"DAC_EndGame_Jull_win_with_fallen"			"ΟΥΤΕ Ο ΘΑΝΑΤΟΣ ΔΕΝ ΜΠΟΡΕΙ ΝΑ ΣΤΑΜΑΤΗΣΕΙ ΤΟΝ JULL ΣΤΗΝ ΠΟΡΕΙΑ ΤΟΥ ΝΑ ΓΙΝΕΙ ΛΟΡΔΟΣ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Jull_win_with_poisoner"			"Ο JULL ΠΑΙΡΝΕΙ ΜΑΘΗΜΑ ΑΠΟ ΤΟ ΒΙΒΛΙΟ ΤΟΥ ENNO ΚΑΙ ΔΗΛΗΤΗΡΙΑΖΕΙ ΤΟ ΔΡΟΜΟ ΤΟΥ ΓΙΑ ΤΗΝ ΚΟΡΥΦΗ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Jull_win_with_swordsman"			"ΟΙ ΞΙΦΟΜΑΧΟΙ ΤΟΥ JULL ΑΠΟΜΑΚΡΥΝΟΥΝ ΕΧΘΡΟΥΣ ΜΕ ΑΝΕΣΗ"
+	"DAC_EndGame_Jull_win_with_wild"				"ΟΙ ΔΥΝΑΜΕΙΣ ΤΗΣ ΦΥΣΗΣ ΒΟΗΘΟΥΝ ΤΟΝ JULL"
+	"DAC_EndGame_Jull_win_with_magus"				"Ο RUBICK ΣΤΕΚΕΤΑΙ ΔΙΠΛΑ ΣΤΟΝ JULL, ΤΟΥ ΧΑΡΙΖΕΙ ΤΗΝ ΠΟΛΗ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Jull_win_with_rogue"				"Ο JULL ΒΑΣΙΖΕΤΑΙ ΣΕ ΤΥΧΟΔΙΩΚΤΕΣ ΓΙΑ ΝΑ ΑΦΑΙΡΕΣΟΥΝ ΤΟΥΣ ΕΧΘΡΟΥΣ ΤΟΥ"
+
+
 	
 	"DAC_EndGame_Jull_does_good_with_assassins"			"ΟΙ ΠΛΗΡΩΜΕΝΟΙ ΔΟΛΟΦΟΝΟΙ ΤΟΥ JULL ΔΕΝ ΣΚΟΤΩΣΑΝ ΑΡΚΕΤΑ"
 	"DAC_EndGame_Jull_does_good_with_blood_bound"		"ΟΙ ΓΙΓΑΝΤΕΣ ΔΕΝ ΕΦΕΡΑΝ ΑΡΚΕΤΗ ΙΣΧΥ ΓΙΑ ΝΑ ΔΩΣΟΥΝ ΣΤΟΝ JULL ΤΗ ΝΙΚΗ"
@@ -2341,7 +2485,14 @@
 	"DAC_EndGame_Jull_does_good_with_warlock"			"ΟΙ ΝΕΚΡΟΜΑΝΤΕΣ ΤΟΥ JULL ΕΙΝΑΙ ΚΑΛΟΙ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
 	"DAC_EndGame_Jull_does_good_with_warrior"			"ΟΙ ΠΟΛΕΜΙΣΤΕΣ ΤΟΥ JULL ΑΠΟΚΡΟΟΥΝ ΕΧΘΡΟΥΣ, ΑΛΛΑ ΤΕΛΙΚΑ ΚΑΤΑΠΛΑΚΩΝΟΝΤΑΙ"
 	"DAC_EndGame_Jull_does_good_with_summoners"			"Ο JULL ΚΑΛΕΙ ΕΝΑΝ ΙΣΧΥΡΟ ΣΤΡΑΤΟ, ΑΛΛΑ ΔΕΝ ΕΙΝΑΙ ΑΡΚΕΤΟΣ ΓΙΑ ΝΑ ΠΑΡΕΙ ΤΟΝ ΕΛΕΓΧΟ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
-
+	"DAC_EndGame_Jull_does_good_with_fallen"			"ΟΙ ΕΚΠΤΩΤΟΙ ΣΧΕΔΟΝ ΔΙΝΟΥΝ ΣΤΟΝ JULL ΤΟΝ ΕΛΕΓΧΟ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Jull_does_good_with_poisoner"			"Ο JULL ΔΗΛΗΤΗΡΙΑΖΕΙ ΠΟΛΥ ΚΟΣΜΟ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΟ ΚΟΣΜΟ"
+	"DAC_EndGame_Jull_does_good_with_swordsman"			"ΜΙΣΘΟΦΟΡΟΙ ΠΗΓΑΙΝΟΥΝ ΤΟΝ JULL ΜΑΚΡΙΑ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
+	"DAC_EndGame_Jull_does_good_with_wild"				"ΣΑΜΑΝΟΙ ΤΑΣΣΟΝΤΑΙ ΜΕ ΤΟΝ JULL, ΑΛΛΑ ΔΕΝ ΜΠΟΡΟΥΝ ΝΑ ΚΛΕΙΔΩΣΟΥΝ ΤΗ ΝΙΚΗ"
+	"DAC_EndGame_Jull_does_good_with_magus"				"Η ΚΥΡΙΑΡΧΙΑ ΤΡΟΜΟΥ ΤΟΥ ΜΕΓΑ ΜΑΓΟΥ ΚΑΙ ΤΟΥ JULL ΦΤΑΝΕΙ ΣΤΟ ΤΕΛΟΣ ΤΗΣ"
+	"DAC_EndGame_Jull_does_good_with_rogue"				"ΠΡΟΔΟΣΙΑ ΚΑΙ ΜΙΣΘΟΦΟΡΟΙ ΠΗΓΑΙΝΟΥΝ ΤΟΝ JULL ΜΑΚΡΙΑ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
+	
+	
 	"DAC_EndGame_Jull_does_ok_with_assassins"			"ΟΙ ΔΟΛΟΦΟΝΟΙ ΤΟΥ JULL ΑΠΟΤΥΓΧΑΝΟΥΝ ΝΑ ΜΑΧΑΙΡΩΣΟΥΝ ΑΡΚΕΤΟ ΚΟΣΜΟ"
 	"DAC_EndGame_Jull_does_ok_with_blood_bound"			"Ο JULL ΤΟΠΟΘΕΤΕΙ ΤΙΣ ΕΛΠΙΔΕΣ ΤΟΥ ΜΕ ΤΟ ΛΑΓΩΝΙΚΟ ΤΟΥ. ΑΠΟΓΟΗΤΕΥΤΙΚΑ ΑΠΟΤΕΛΕΣΜΑΤΑ."
 	"DAC_EndGame_Jull_does_ok_with_brawny"				"ΤΟ ΤΟΙΧΟΣ ΚΡΕΑΤΟΣ ΔΕΝ ΗΤΑΝ ΑΡΚΕΤΑ ΠΑΧΥ ΓΙΑ ΝΑ ΠΡΟΣΤΑΤΕΥΣΕΙ ΤΟΝ JULL"
@@ -2369,6 +2520,12 @@
 	"DAC_EndGame_Jull_does_ok_with_warlock"				"ΝΕΚΡΟΜΑΝΤΕΣ ΕΚΤΕΛΟΥΝ ΑΝΑΠΟΤΕΛΕΣΜΑΤΙΚΑ ΞΟΡΚΙΑ ΓΙΑ ΤΟΝ JULL"
 	"DAC_EndGame_Jull_does_ok_with_warrior"				"ΟΙ ΠΟΛΕΜΙΣΤΕΣ ΤΟΥ JULL ΠΟΛΕΜΟΥΝ ΣΚΛΗΡΑ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
 	"DAC_EndGame_Jull_does_ok_with_summoners"			"Ο JULL ΠΡΟΣΛΑΜΒΑΝΕΙ ΤΡΙΤΟΥΣ ΓΙΑ ΝΑ ΤΟΥ ΜΑΖΕΨΟΥΝ ΣΤΡΑΤΟ ΜΕ ΜΕΙΚΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ"
+	"DAC_EndGame_Jull_does_ok_with_fallen"				"Ο JULL ΚΑΝΕΙ ΣΥΜΦΩΝΙΑ ΜΕ ΕΚΠΤΩΤΟΥΣ, ΕΞΑΚΟΛΟΥΘΕΙ ΝΑ ΜΗΝ ΕΙΝΑΙ ΑΡΚΕΤΟ"
+	"DAC_EndGame_Jull_does_ok_with_poisoner"			"Ο JULL ΣΤΡΕΦΕΤΑΙ ΣΕ ΔΗΛΗΤΗΡΙΟ ΜΕ ΑΝΑΜΕΙΚΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ"
+	"DAC_EndGame_Jull_does_ok_with_swordsman"			"Ο JULL ΤΣΙΓΚΟΥΝΕΥΕΤΑΙ ΣΕ ΜΙΣΘΟΦΟΡΟΥΣ, ΠΑΙΡΝΕΙ ΑΥΤΟ ΠΟΥ ΠΛΗΡΩΣΕ"
+	"DAC_EndGame_Jull_does_ok_with_wild"				"Ο JULL ΠΡΟΣΠΑΘΕΙ ΝΑ ΒΑΛΕΙ ΤΟ ΧΕΡΙ ΤΟΥ ΣΤΟΥΣ ΝΕΟΥΣ ΣΑΜΑΝΟΥΣ, ΑΛΛΑ ΔΕΝ ΜΠΟΡΕΙ ΝΑ ΤΟΥΣ ΚΥΡΙΑΡΧΗΣΕΙ"
+	"DAC_EndGame_Jull_does_ok_with_magus"				"Ο RUBICK ΚΑΙ Ο JULL ΔΕΝ ΕΙΝΑΙ ΑΚΡΙΒΩΣ ΣΤΗΝ ΙΔΙΑ ΣΕΛΙΔΑ"
+	"DAC_EndGame_Jull_does_ok_with_rogue"				"ΟΙ ΤΥΧΟΔΙΩΚΤΕΣ ΑΠΟΤΥΓΧΑΝΟΥΝ ΝΑ ΚΛΕΨΟΥΝ ΜΙΑ ΝΙΚΗ"
 	
 	"DAC_EndGame_Jull_does_bad_with_assassins"			"Ο JULL ΠΡΟΣΛΑΜΒΑΝΕΙ ΧΑΛΙΑ ΔΟΛΟΦΟΝΟΥΣ"
 	"DAC_EndGame_Jull_does_bad_with_blood_bound"		"Ο JULL ΑΝΑΚΑΛΥΠΤΕΙ ΟΤΙ ΤΑ ΚΟΛΠΑ ΔΕΝ ΚΕΡΔΙΖΟΥΝ ΜΑΧΕΣ"
@@ -2397,7 +2554,12 @@
 	"DAC_EndGame_Jull_does_bad_with_warlock"			"ΝΕΚΡΟΜΑΝΤΕΣ ΕΠΑΝΑΣΤΑΤΟΥΝ ΕΝΑΝΤΙΟΝ ΤΟΥ JULL, ΑΡΝΟΥΝΤΑΙ ΝΑ ΤΟΝ ΒΟΗΘΗΣΟΥΝ ΝΑ ΝΙΚΗΣΕΙ"
 	"DAC_EndGame_Jull_does_bad_with_warrior"			"Ο JULL ΠΡΟΣΛΑΜΒΑΝΕΙ ΠΟΛΕΜΙΣΤΕΣ ΠΟΥ ΔΕΝ ΤΟΥΣ ΕΝΔΙΕΦΕΡΕ ΝΑ ΝΙΚΗΣΟΥΝ"
 	"DAC_EndGame_Jull_does_bad_with_summoners"			"Ο JULL ΠΡΟΣΛΑΜΒΑΝΕΙ ΑΤΟΜΑ Β ΔΙΑΛΟΓΗΣ, ΠΟΥ ΠΡΟΣΛΑΜΒΑΝΟΥΝ Γ ΔΙΑΛΟΓΗΣ"
-	
+	"DAC_EndGame_Jull_does_bad_with_fallen"				"Ο JULL ΣΥΝΤΑΣΣΕΤΑΙ ΜΕ ΤΟΥΣ ΕΚΠΤΩΤΟΥΣ, ΠΟΥ ΕΧΟΥΝ ΠΑΡΑΞΕΝΑ ΠΡΟΦΗΤΙΚΟ ΟΝΟΜΑ"
+	"DAC_EndGame_Jull_does_bad_with_poisoner"			"Ο JULL ΔΗΛΗΤΗΡΙΑΖΕΙ ΕΠΙΤΥΧΩΣ ΤΙΣ ΜΕΛΛΟΝΤΙΚΕΣ ΤΟΥ ΠΡΟΟΠΤΙΚΕΣ"
+	"DAC_EndGame_Jull_does_bad_with_swordsman"			"ΟΙ ΞΙΦΟΜΑΧΟΙ ΤΟΥ JULL ΠΕΡΝΟΥΝ ΠΕΡΙΣΣΟΤΕΡΟ ΧΡΟΝΟ ΣΤΟ ΜΠΑΡ ΠΑΡΑ ΣΤΟ ΠΕΔΙΟ ΤΗΣ ΜΑΧΗΣ"
+	"DAC_EndGame_Jull_does_bad_with_wild"				"Ο JULL ΑΝΑΜΕΝΕΙ ΚΟΤΟΠΟΥΛΟ, ΑΛΛΑ ΤΕΛΙΚΑ ΤΟΥ ΣΕΡΒΙΡΕΤΑΙ ΑΠΟΤΥΧΙΑ"
+	"DAC_EndGame_Jull_does_bad_with_magus"				"ΤΟ ΜΟΝΟ ΠΡΑΓΜΑ ΠΟΥ ΑΝΤΙΓΡΑΦΕΙ Ο ΜΕΓΑΣ ΜΑΓΟΣ ΕΙΝΑΙ Η ΑΠΟΤΥΧΙΑ"
+	"DAC_EndGame_Jull_does_bad_with_rogue"				"ΤΥΧΟΔΙΩΚΤΕΣ ΑΡΝΟΥΝΤΑΙ ΝΑ ΕΡΓΑΣΤΟΥΝ ΜΕ ΤΟΝ JULL"
 	
 	
 	//Enno End Screen Headlines
@@ -2429,6 +2591,13 @@
 	"DAC_EndGame_Enno_win_with_warlock"					"ΟΙ ΝΕΚΡΟΜΑΝΤΕΣ ΤΟΥ ENNO ΥΦΑΙΝΟΥΝ ΕΝΑ ΞΟΡΚΙ ΠΑΝΩ ΑΠΟ ΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
 	"DAC_EndGame_Enno_win_with_warrior"					"ΤΑ ΤΣΙΡΑΚΙΑ ΤΟΥ ENNO ΔΕΡΝΟΥΝ ΟΛΟΥΣ ΤΟΥΣ ΠΑΡΕΥΡΙΣΚΟΜΕΝΟΥΣ"
 	"DAC_EndGame_Enno_win_with_summoners"				"Ο ENNO ΚΑΤΑΚΛΥΖΕΙ ΤΟΝ ΑΝΤΑΓΩΝΙΣΜΟ ΜΕ ΦΑΙΝΟΜΕΝΙΚΑ ΑΤΕΛΕΙΩΤΟ ΣΤΡΑΤΟ"
+	"DAC_EndGame_Enno_win_with_fallen"				"ΟΥΤΕ Ο ΘΑΝΑΤΟΣ ΔΕΝ ΜΠΟΡΕΙ ΝΑ ΣΤΑΜΑΤΗΣΕΙ ΤΟΝ ΕΝΝΟ ΣΤΗΝ ΠΟΡΕΙΑ ΤΟΥ ΝΑ ΓΙΝΕΙ ΛΟΡΔΟΣ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Enno_win_with_poisoner"			"Ο ΕΝΝΟ ΠΑΡΑΜΕΝΕΙ ΣΕ ΑΥΤΑ ΠΟΥ ΞΕΡΕΙ ΚΑΙ ΔΗΛΗΤΗΡΙΑΖΕΙ ΠΟΛΥ ΚΟΣΜΟ"
+	"DAC_EndGame_Enno_win_with_swordsman"			"ΟΙ ΞΙΦΟΜΑΧΟΙ ΤΟΥ ΕΝΝΟ ΑΠΟΜΑΚΡΥΝΟΥΝ ΕΧΘΡΟΥΣ ΜΕ ΑΝΕΣΗ"
+	"DAC_EndGame_Enno_win_with_wild"				"ΟΙ ΔΥΝΑΜΕΙΣ ΤΗΣ ΦΥΣΗΣ ΒΟΗΘΟΥΝ ΤΟΝ ΕΝΝΟ"
+	"DAC_EndGame_Enno_win_with_magus"				"Ο RUBICK ΣΤΕΚΕΤΑΙ ΔΙΠΛΑ ΣΤΟΝ ΕΝΝΟ, ΤΟΥ ΧΑΡΙΖΕΙ ΤΗΝ ΠΟΛΗ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Enno_win_with_rogue"				"Ο ΕΝΝΟ ΒΑΣΙΖΕΤΑΙ ΣΕ ΤΥΧΟΔΙΩΚΤΕΣ ΓΙΑ ΝΑ ΑΦΑΙΡΕΣΟΥΝ ΤΟΥΣ ΕΧΘΡΟΥΣ ΤΟΥ"
+	
 	
 	"DAC_EndGame_Enno_does_good_with_assassins"			"ΟΙ ΠΛΗΡΩΜΕΝΟΙ ΔΟΛΟΦΟΝΟΙ ΤΟΥ ENNO ΔΕΝ ΣΚΟΤΩΣΑΝ ΑΡΚΕΤΑ"
 	"DAC_EndGame_Enno_does_good_with_blood_bound"		"ΟΙ ΓΙΓΑΝΤΕΣ ΔΕΝ ΕΦΕΡΑΝ ΑΡΚΕΤΗ ΙΣΧΥ ΓΙΑ ΝΑ ΔΩΣΟΥΝ ΣΤΟΝ ENNO ΤΗ ΝΙΚΗ"
@@ -2457,7 +2626,14 @@
 	"DAC_EndGame_Enno_does_good_with_warlock"			"ΟΙ ΝΕΚΡΟΜΑΝΤΕΣ ΤΟΥ ENNO ΕΙΝΑΙ ΚΑΛΟΙ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
 	"DAC_EndGame_Enno_does_good_with_warrior"			"ΟΙ ΠΟΛΕΜΙΣΤΕΣ ΤΟΥ ENNO ΑΠΟΚΡΟΟΥΝ ΕΧΘΡΟΥΣ, ΑΛΛΑ ΤΕΛΙΚΑ ΚΑΤΑΠΛΑΚΩΝΟΝΤΑΙ"
 	"DAC_EndGame_Enno_does_good_with_summoners"			"Ο ENNO ΚΑΛΕΙ ΕΝΑΝ ΙΣΧΥΡΟ ΣΤΡΑΤΟ, ΑΛΛΑ ΔΕΝ ΕΙΝΑΙ ΑΡΚΕΤΟΣ ΓΙΑ ΝΑ ΠΑΡΕΙ ΤΟΝ ΕΛΕΓΧΟ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
-
+	"DAC_EndGame_Enno_does_good_with_fallen"			"ΟΙ ΕΚΠΤΩΤΟΙ ΣΧΕΔΟΝ ΔΙΝΟΥΝ ΣΤΟΝ ΕΝΝΟ ΤΟΝ ΕΛΕΓΧΟ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_EndGame_Enno_does_good_with_poisoner"			"Ο ΕΝΝΟ ΔΗΛΗΤΗΡΙΑΖΕΙ ΠΟΛΥ ΚΟΣΜΟ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΟ ΚΟΣΜΟ"
+	"DAC_EndGame_Enno_does_good_with_swordsman"			"ΜΙΣΘΟΦΟΡΟΙ ΠΗΓΑΙΝΟΥΝ ΤΟΝ ΕΝΝΟ ΜΑΚΡΙΑ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
+	"DAC_EndGame_Enno_does_good_with_wild"				"ΣΑΜΑΝΟΙ ΤΑΣΣΟΝΤΑΙ ΜΕ ΤΟΝ ΕΝΝΟ, ΑΛΛΑ ΔΕΝ ΜΠΟΡΟΥΝ ΝΑ ΚΛΕΙΔΩΣΟΥΝ ΤΗ ΝΙΚΗ"
+	"DAC_EndGame_Enno_does_good_with_magus"				"Η ΚΥΡΙΑΡΧΙΑ ΤΡΟΜΟΥ ΤΟΥ ΜΕΓΑ ΜΑΓΟΥ ΚΑΙ ΤΟΥ ΕΝΝΟ ΦΤΑΝΕΙ ΣΤΟ ΤΕΛΟΣ ΤΗΣ"
+	"DAC_EndGame_Enno_does_good_with_rogue"				"ΠΡΟΔΟΣΙΑ ΚΑΙ ΜΙΣΘΟΦΟΡΟΙ ΠΗΓΑΙΝΟΥΝ ΤΟΝ ΕΝΝΟ ΜΑΚΡΙΑ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
+	
+	
 	"DAC_EndGame_Enno_does_ok_with_assassins"			"ΟΙ ΔΟΛΟΦΟΝΟΙ ΤΟΥ ENNO ΑΠΟΤΥΓΧΑΝΟΥΝ ΝΑ ΜΑΧΑΙΡΩΣΟΥΝ ΑΡΚΕΤΟ ΚΟΣΜΟ"
 	"DAC_EndGame_Enno_does_ok_with_blood_bound"			"Ο ENNO ΤΟΠΟΘΕΤΕΙ ΤΙΣ ΕΛΠΙΔΕΣ ΤΟΥ ΜΕ ΤΟ ΛΑΓΩΝΙΚΟ ΤΟΥ. ΑΠΟΓΟΗΤΕΥΤΙΚΑ ΑΠΟΤΕΛΕΣΜΑΤΑ."
 	"DAC_EndGame_Enno_does_ok_with_brawny"				"ΤΟ ΤΟΙΧΟΣ ΚΡΕΑΤΟΣ ΔΕΝ ΗΤΑΝ ΑΡΚΕΤΑ ΠΑΧΥ ΓΙΑ ΝΑ ΠΡΟΣΤΑΤΕΥΣΕΙ ΤΟΝ ENNO"
@@ -2485,6 +2661,13 @@
 	"DAC_EndGame_Enno_does_ok_with_warlock"				"ΝΕΚΡΟΜΑΝΤΕΣ ΕΚΤΕΛΟΥΝ ΑΝΑΠΟΤΕΛΕΣΜΑΤΙΚΑ ΞΟΡΚΙΑ ΓΙΑ ΤΟΝ ENNO"
 	"DAC_EndGame_Enno_does_ok_with_warrior"				"ΟΙ ΠΟΛΕΜΙΣΤΕΣ ΤΟΥ ENNO ΠΟΛΕΜΟΥΝ ΣΚΛΗΡΑ, ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ"
 	"DAC_EndGame_Enno_does_ok_with_summoners"			"Ο ENNO ΠΡΟΣΛΑΜΒΑΝΕΙ ΤΡΙΤΟΥΣ ΓΙΑ ΝΑ ΤΟΥ ΜΑΖΕΨΟΥΝ ΣΤΡΑΤΟ ΜΕ ΜΕΙΚΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ"
+	"DAC_EndGame_Enno_does_ok_with_fallen"				"Ο ΕΝΝΟ ΚΑΝΕΙ ΣΥΜΦΩΝΙΑ ΜΕ ΕΚΠΤΩΤΟΥΣ, ΕΞΑΚΟΛΟΥΘΕΙ ΝΑ ΜΗΝ ΕΙΝΑΙ ΑΡΚΕΤΟ"
+	"DAC_EndGame_Enno_does_ok_with_poisoner"			"Ο ΕΝΝΟ ΣΤΡΕΦΕΤΑΙ ΣΕ ΔΗΛΗΤΗΡΙΟ ΜΕ ΑΝΑΜΕΙΚΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ"
+	"DAC_EndGame_Enno_does_ok_with_swordsman"			"Ο ΕΝΝΟ ΤΣΙΓΚΟΥΝΕΥΕΤΑΙ ΣΕ ΜΙΣΘΟΦΟΡΟΥΣ, ΠΑΙΡΝΕΙ ΑΥΤΟ ΠΟΥ ΠΛΗΡΩΣΕ"
+	"DAC_EndGame_Enno_does_ok_with_wild"				"Ο ΕΝΝΟ ΠΡΟΣΠΑΘΕΙ ΝΑ ΒΑΛΕΙ ΤΟ ΧΕΡΙ ΤΟΥ ΣΤΟΥΣ ΝΕΟΥΣ ΣΑΜΑΝΟΥΣ, ΑΛΛΑ ΔΕΝ ΜΠΟΡΕΙ ΝΑ ΤΟΥΣ ΚΥΡΙΑΡΧΗΣΕΙ"
+	"DAC_EndGame_Enno_does_ok_with_magus"				"Ο RUBICK ΚΑΙ Ο ΕΝΝΟ ΔΕΝ ΕΙΝΑΙ ΑΚΡΙΒΩΣ ΣΤΗΝ ΙΔΙΑ ΣΕΛΙΔΑ"
+	"DAC_EndGame_Enno_does_ok_with_rogue"				"ΟΙ ΤΥΧΟΔΙΩΚΤΕΣ ΑΠΟΤΥΓΧΑΝΟΥΝ ΝΑ ΚΛΕΨΟΥΝ ΜΙΑ ΝΙΚΗ"
+
 	
 	"DAC_EndGame_Enno_does_bad_with_assassins"			"Ο ENNO ΠΡΟΣΛΑΜΒΑΝΕΙ ΧΑΛΙΑ ΔΟΛΟΦΟΝΟΥΣ"
 	"DAC_EndGame_Enno_does_bad_with_blood_bound"		"Ο ENNO ΑΝΑΚΑΛΥΠΤΕΙ ΟΤΙ ΤΑ ΚΟΛΠΑ ΔΕΝ ΚΕΡΔΙΖΟΥΝ ΜΑΧΕΣ"
@@ -2513,7 +2696,13 @@
 	"DAC_EndGame_Enno_does_bad_with_warlock"			"ΝΕΚΡΟΜΑΝΤΕΣ ΕΠΑΝΑΣΤΑΤΟΥΝ ΕΝΑΝΤΙΟΝ ΤΟΥ ENNO, ΑΡΝΟΥΝΤΑΙ ΝΑ ΤΟΝ ΒΟΗΘΗΣΟΥΝ ΝΑ ΝΙΚΗΣΕΙ"
 	"DAC_EndGame_Enno_does_bad_with_warrior"			"Ο ENNO ΠΡΟΣΛΑΜΒΑΝΕΙ ΠΟΛΕΜΙΣΤΕΣ ΠΟΥ ΔΕΝ ΤΟΥΣ ΕΝΔΙΕΦΕΡΕ ΝΑ ΝΙΚΗΣΟΥΝ"
 	"DAC_EndGame_Enno_does_bad_with_summoners"			"Ο ENNO ΠΡΟΣΛΑΜΒΑΝΕΙ ΑΤΟΜΑ Β ΔΙΑΛΟΓΗΣ, ΠΟΥ ΠΡΟΣΛΑΜΒΑΝΟΥΝ Γ ΔΙΑΛΟΓΗΣ"
-	
+	"DAC_EndGame_Enno_does_bad_with_fallen"				"Ο ΕΝΝΟ ΣΥΝΤΑΣΣΕΤΑΙ ΜΕ ΤΟΥΣ ΕΚΠΤΩΤΟΥΣ, ΠΟΥ ΕΧΟΥΝ ΠΑΡΑΞΕΝΑ ΠΡΟΦΗΤΙΚΟ ΟΝΟΜΑ"
+	"DAC_EndGame_Enno_does_bad_with_poisoner"			"Ο ΕΝΝΟ ΔΗΛΗΤΗΡΙΑΖΕΙ ΕΠΙΤΥΧΩΣ ΤΙΣ ΜΕΛΛΟΝΤΙΚΕΣ ΤΟΥ ΠΡΟΟΠΤΙΚΕΣ"
+	"DAC_EndGame_Enno_does_bad_with_swordsman"			"ΟΙ ΞΙΦΟΜΑΧΟΙ ΤΟΥ ΕΝΝΟ ΠΕΡΝΟΥΝ ΠΕΡΙΣΣΟΤΕΡΟ ΧΡΟΝΟ ΣΤΟ ΜΠΑΡ ΠΑΡΑ ΣΤΟ ΠΕΔΙΟ ΤΗΣ ΜΑΧΗΣ"
+	"DAC_EndGame_Enno_does_bad_with_wild"				"Ο ΕΝΝΟ ΑΝΑΜΕΝΕΙ ΚΟΤΟΠΟΥΛΟ, ΑΛΛΑ ΤΕΛΙΚΑ ΤΟΥ ΣΕΡΒΙΡΕΤΑΙ ΑΠΟΤΥΧΙΑ"
+	"DAC_EndGame_Enno_does_bad_with_magus"				"ΤΟ ΜΟΝΟ ΠΡΑΓΜΑ ΠΟΥ ΑΝΤΙΓΡΑΦΕΙ Ο ΜΕΓΑΣ ΜΑΓΟΣ ΕΙΝΑΙ Η ΑΠΟΤΥΧΙΑ"
+	"DAC_EndGame_Enno_does_bad_with_rogue"				"ΤΥΧΟΔΙΩΚΤΕΣ ΑΡΝΟΥΝΤΑΙ ΝΑ ΕΡΓΑΣΤΟΥΝ ΜΕ ΤΟΝ ΕΝΝO"
+
 	
 	
 	
@@ -2541,9 +2730,9 @@
 	"DAC_Rewards_Free"									"ΔΩΡΕΑΝ"
 	"DAC_Rewards_BPCurrentLevelProgress"				"{d:current_points} / {d:points_per_level}"
 	"DAC_BPInGameProgressLegend"						"Πρόοδος πρώτο-πάσου από αυτό το παιχνίδι."
-	"DAC_Battlepass_SeasonTitle"						"Σεζόν Ένα"
+	"DAC_Battlepass_SeasonTitle"						"Πάσο μάχης"
 	"DAC_Battlepass_Welcome_Page1"						"ΠΑΙΞΤΕ ΑΓΩΝΕΣ, ΟΛΟΚΛΗΡΩΣΤΕ ΠΡΟΚΛΗΣΕΙΣ ΚΑΙ ΞΕΚΛΕΙΔΩΣΤΕ ΠΕΡΙΟΧΕΣ ΣΤΟ City Crawl ΓΙΑ ΝΑ ΑΝΑΒΑΘΜΙΣΕΤΕ ΤΟ ΠΑΣΟ ΣΑΣ."
-	"DAC_Battlepass_Welcome_Page2"						"Η ΣΕΖΟΝ ΕΝΑ ΠΕΡΙΕΧΕΙ ΠΑΝΩ ΑΠΟ 20 ΔΩΡΕΑΝ ΑΝΤΑΜΟΙΒΕΣ, ΠΟΥ ΚΕΡΔΙΖΕΤΕ ΚΑΘΩΣ ΑΝΕΒΑΙΝΕΤΕ ΕΠΙΠΕΔΟ. ΑΓΟΡΑΣΤΕ ΤΟ ΠΑΣΟ ΜΑΧΗΣ ΓΙΑ ΝΑ ΞΕΚΛΕΙΔΩΣΕΤΕ ΠΕΡΙΣΣΟΤΕΡΕΣ ΑΠΟ 100 ΕΠΙΠΛΕΟΝ ΑΝΤΑΜΟΙΒΕΣ!"
+	"DAC_Battlepass_Welcome_Page2"						"ΥΠΑΡΧΟΥΝ ΠΑΝΩ ΑΠΟ 20 ΔΩΡΕΑΝ ΑΝΤΑΜΟΙΒΕΣ, ΠΟΥ ΚΕΡΔΙΖΕΤΕ ΚΑΘΩΣ ΑΝΕΒΑΙΝΕΤΕ ΕΠΙΠΕΔΟ. ΑΓΟΡΑΣΤΕ ΤΟ ΠΑΣΟ ΜΑΧΗΣ ΓΙΑ ΝΑ ΞΕΚΛΕΙΔΩΣΕΤΕ ΠΕΡΙΣΣΟΤΕΡΕΣ ΑΠΟ 100 ΕΠΙΠΛΕΟΝ ΑΝΤΑΜΟΙΒΕΣ!"
 	"DAC_Battlepass_Welcome_Page3"						"ΠΡΟΣΠΕΛΑΣΤΕ ΟΛΟ ΤΟ ΠΕΡΙΕΧΟΜΕΝΟ City Crawl ΚΑΙ ΟΛΗ ΤΗ ΓΡΑΜΜΗ ΠΑΣΟΥ ΜΑΧΗΣ, ΜΕ ΑΝΤΑΜΟΙΒΕΣ ΟΠΩΣ ΝΕΕΣ ΠΙΣΤΕΣ, ΣΚΗΝΙΚΑ ΓΙΑ ΝΑ ΠΡΟΣΑΡΜΟΣΕΤΕ ΤΟ ΛΗΜΕΡΙ ΣΑΣ, ΚΟΥΚΛΕΣ ΣΤΟΧΩΝ, ΓΙΟ ΚΑΙ ΠΟΛΛΑ ΑΚΟΜΑ."
 
 	"DAC_Battlepass_Level"								"{i:battlepass_level}"
@@ -2569,9 +2758,9 @@
 	"DAC_Battlepass_UnlockDescription_3"				"Περισσότερες θέσεις σκηνικών πίστας"
 	"DAC_Battlepass_UnlockDescription_4"				"Επιπλέον υποδοχή προκλήσεων"
 	"DAC_Battlepass_YouHaveOneLockedReward"				"Έχετε μία κλειδωμένη ανταμοιβή"
-	"DAC_Battlepass_YouHaveLockedRewards"				"Έχετε {i:num_locked_rewards} κλειδωμένες ανταμοιβές"
+	"DAC_Battlepass_YouHaveLockedRewards"				"ΕΧΕΤΕ {i:num_locked_rewards} ΚΛΕΙΔΩΜΕΝΕΣ ΑΝΤΑΜΟΙΒΕΣ"
 	"DAC_Purchase"										"ΑΓΟΡΑ"
-	"DAC_Battlepass_ItemOdds"							"Πιθανότητες αντικειμένων"
+	"DAC_Battlepass_ItemOdds"							"ΠΙΘΑΝΟΤΗΤΕΣ ΑΝΤΙΚΕΙΜΕΝΩΝ"
 	
 	"DAC_ItemOdds_Title"								"ΤΥΧΑΙΕΣ ΠΙΘΑΝΟΤΗΤΕΣ ΘΗΣΑΥΡΟΥ"
 	"DAC_ItemOdds_BoardPropHeader"						"ΠΙΘΑΝΟΤΗΤΕΣ ΣΚΗΝΙΚΩΝ ΠΙΣΤΑΣ"
@@ -2619,13 +2808,13 @@
 	"DAC_Heropedia_ByTier"								"ΑΝΑ ΒΑΘΜΙΔΑ"
 	"DAC_Heropedia_ByType"								"ΑΝΑ ΤΥΠΟ"
 	"DAC_Heropedia_Sort"                                "ΑΝΑΤΑΞΙΝΟΜΗΣΗ"
-	"DAC_BattlePass"									"Πάσο μάχης"
+	"DAC_BattlePass"									"ΠΑΣΟ ΜΑΧΗΣ"
 	"DAC_Loadout"										"ΕΞΟΠΛΙΣΗ"
 	"DAC_Achievements"									"ΕΠΙΤΕΥΓΜΑΤΑ"
 	"DAC_Profile"										"Προφίλ"
 	"DAC_EarlyAccess"                                   "ΔΟΚΙΜΗ"
 	"DAC_OpenBeta"                                   	"ΑΝΟΙΚΤΗ ΔΟΚΙΜΗ"	
-	"DAC_Shared_Pool_Description"						"Σε έναν αγώνα Underlords, οι παίκτες φτιάχνουν την ομάδα τους από ένα κοινό σύνολο ηρώων που αποτελείται από 30 αντίγραφα κάθε ήρωα βαθμίδας 1, 20 αντίγραφα κάθε ήρωα βαθμίδας 2, 15 αντίγραφα κάθε ήρωα βαθμίδας 3, 12 αντίγραφα κάθε ήρωα βαθμίδας 4 και 10 αντίγραφα κάθε ήρωα βαθμίδας 5. Όταν ένας παίκτης εξοντώνεται από έναν αγώνα, όλες οι μονάδες που προσέλαβε επιστρέφουν στο κοινό σύνολο."
+	"DAC_Shared_Pool_Description"						"Σε έναν αγώνα Underlords, οι παίκτες φτιάχνουν την ομάδα τους από ένα κοινό σύνολο ηρώων που αποτελείται από 30 αντίγραφα κάθε ήρωα βαθμίδας 1, 20 αντίγραφα κάθε ήρωα βαθμίδας 2, 18 αντίγραφα κάθε ήρωα βαθμίδας 3, 12 αντίγραφα κάθε ήρωα βαθμίδας 4 και 10 αντίγραφα κάθε ήρωα βαθμίδας 5. Όταν ένας παίκτης εξοντώνεται από έναν αγώνα, όλες οι μονάδες που προσέλαβε επιστρέφουν στο κοινό σύνολο."
 	"DAC_Zoo"											"Ζωολογικός"
 	"DAC_CityCrawlButton"								"ΜΕΤΑΒΑΣΗ ΣΕ CITY CRAWL"
 	"DAC_ChallengeWorldMapPage"							"City Crawl"
@@ -2808,6 +2997,13 @@
 	"DAC_Synergy_Vigilant"		"ΕΠΑΓΡΥΠΝΟΣ"
 	"DAC_Synergy_Void"			"ΚΕΝΟΣ"
 
+	"DAC_Synergy_Fallen"		"ΕΚΠΤΩΤΟΣ"
+	"DAC_Synergy_Wild"			"ΣΑΜΑΝΟΣ"
+	"DAC_Synergy_Swordsman"		"ΞΙΦΟΜΑΧΟΣ"
+	"DAC_Synergy_Rogue"			"ΤΥΧΟΔΙΩΚΤΗΣ"
+	"DAC_Synergy_Poisoner"		"ΔΗΛΗΤΗΡΙΑΣΤΗΣ"
+	"DAC_Synergy_Magus"			"ΜΑΓΙΣΤΡΟΣ"
+
 	"DAC_Synergy_Tooltip_Goblin_0"		"Ένας τυχαίος Επινοητικός"
 	"DAC_Synergy_Tooltip_Goblin_1"		"Όλοι οι Επινοητικοί"
 	"DAC_Synergy_Tooltip_Goblin_2"		"Όλοι οι Σύμμαχοι"
@@ -2828,7 +3024,7 @@
 	"DAC_Synergy_MegaDemon"			"ΜΕΓΑ-ΔΑΙΜΟΝΑΣ"
 	"DAC_Synergy_MegaTroll"			"ΜΕΓΑ-ΤΡΟΛ"
 
-	"DAC_Synergy_Desc_Beast"		"Οι σύμμαχοι αποκτούν +{s:damage_pct}% ζημιά επίθεσης"
+	"DAC_Synergy_Desc_Beast"		"Οι σύμμαχοι αποκτούν +{s:damage_pct}% ζημιά επίθεσης."
 
 	"DAC_Synergy_Desc_Savage"		"{s:alliance_eligible} αποκτούν +{s:bonus_damage_per_attack} ζημιά επίθεσης κάθε φορά που καταφέρνουν μια επίθεση."
 
@@ -2850,14 +3046,14 @@
 
 	"DAC_Synergy_Desc_Ogre"		"Όταν μια Αιμοδέσμια μονάδα πεθάνει, όλες οι Αιμοδέσμιες μονάδες εκτός από τη Legion Commander λαμβάνουν +{s:enrage_bonus} ζημιά επίθεσης."
 
-	"DAC_Synergy_Desc_Orc"		"Όλοι οι Καβγατζήδες έχουν αυξημένη μέγιστη ζωή κατά {s:hp_bonus}"
+	"DAC_Synergy_Desc_Orc"		"Όλοι οι Καβγατζήδες έχουν αυξημένη μέγιστη ζωή κατά {s:hp_bonus}."
 
-	"DAC_Synergy_Desc_Brawny"		"Όλοι οι Καβγατζήδες λαμβάνουν +{s:hp_bonus} μέγιστη μέγιστη ζωή για κάθε σκοτωμό από οποιαδήποτε μονάδα Καβγατζή της ομάδας σας στο παιχνίδι. (+[ 60 / 120 ] μέγιστη ζωή σε Νοκ-άουτ). Κλητεύσεις μετράνε κατά 0.25."
-	"DAC_Synergy_Desc_Brawny_ExtraData" "Συνολικοί σκοτωμοί Καβγατζήδων: {f:brawny_kills} <br/>Επιπλέον ζωή Καβγατζήδων: {d:brawny_bonus_health}"
+	"DAC_Synergy_Desc_Brawny"		"Όλοι οι Καβγατζήδες λαμβάνουν +{s:hp_bonus_kill_mult} μέγιστη μέγιστη ζωή για κάθε σκοτωμό από οποιαδήποτε μονάδα Καβγατζή της ομάδας σας στο παιχνίδι. Η επαύξηση πολλαπλασιάζεται ανά επίπεδο αστεριού του Καβγατζή. Οι κλητεύσεις μετράνε κατά 0.25 σκοτωμούς. (Η επαύξηση ζωής ποικίλει ανά τύπο παιχνιδιού)"
+	"DAC_Synergy_Desc_Brawny_ExtraData" "Συνολικοί σκοτωμοί Καβγατζήδων: {f:brawny_kills} <br/>Επιπλέον ζωή Καβγατζήδων: {d:brawny_bonus_health}."
 
-	"DAC_Synergy_Desc_Troll"		"Όλα τα Τρολ αποκτούν +{s:attack_speed_bonus_trolls} ταχύτητα επίθεσης και οι άλλοι σύμμαχοι αποκτούν +{s:attack_speed_bonus_others} ταχύτητα επίθεσης"
+	"DAC_Synergy_Desc_Troll"		"Όλα τα Τρολ αποκτούν +{s:attack_speed_bonus_trolls} ταχύτητα επίθεσης και οι άλλοι σύμμαχοι αποκτούν +{s:attack_speed_bonus_others} ταχύτητα επίθεσης."
 
-	"DAC_Synergy_Desc_Undead"		"Όλοι οι εχθροί χάνουν {s:armor_debuff} θωράκιση"
+	"DAC_Synergy_Desc_Undead"		"Όλοι οι εχθροί χάνουν {s:armor_debuff} θωράκιση."
 
 	"DAC_Synergy_Desc_Assassin"		"Όλοι οι δολοφόνοι αποκτούν {s:crit_chance}% πιθανότητα για καίρια επίθεση για {s:crit_bonus}% ζημιά. Σε καίρια επίθεση, ο στόχος ΠΛΗΓΩΝΕΤΑΙ και η θεραπεία που λαμβάνει μειώνεται κατά {s:heal_damp}% για {s:duration} δευτερόλεπτα."
 
@@ -2869,9 +3065,9 @@
 
 	"DAC_Synergy_Desc_Knight"		"Οι Ιππότες λαμβάνουν {s:physical_reduction}% λιγότερη φυσική και μαγική ζημιά. Αν δέχονται επίθεση από μπροστά και εντός 1 κελιού από έναν συμμαχικό Ιππότη, οι Ιππότες λαμβάνουν επιπλέον {s:physical_reduction_extra}% λιγότερη φυσική και μαγική ζημιά."
 
-	"DAC_Synergy_Desc_Mage"		"Οι εχθροί λαμβάνουν {s:magic_resist_debuff}% περισσότερη μαγική ζημιά"
+	"DAC_Synergy_Desc_Mage"		"Οι εχθροί λαμβάνουν {s:magic_resist_debuff}% περισσότερη μαγική ζημιά."
 
-	"DAC_Synergy_Desc_Mech"		"Όλοι οι Εφευρέτες αποκτούν +{s:health_regen} αναγέννηση ζωής"
+	"DAC_Synergy_Desc_Mech"		"Όλοι οι Εφευρέτες αποκτούν +{s:health_regen} αναγέννηση ζωής."
 
 	"DAC_Synergy_Desc_Inventor"		"Οι συμμαχικοί Εφευρέτες εκρήγνυνται με το θάνατο προκαλώντας το {s:damage_hp_pct}% της μέγιστης ζωής τους ως ζημιά σε όλους τους εχθρούς έως 1 κελί μακριά."
 
@@ -2879,7 +3075,7 @@
 
 	"DAC_Synergy_Desc_Warlock"		"Όποτε ένας Νεκρομάντης εκτελεί ένα ξόρκι, σχηματίζει ένα σύνδεσμο με το σύμμαχο με τη χαμηλότερη ζωή για {s:duration} δευτερόλεπτα. Όταν ένας συνδεδεμένος ήρωας προκαλέσει ζημιά και οι δύο θεραπεύονται για το {s:lifesteal_pct}% της ζημιάς που προκλήθηκε."
 
-	"DAC_Synergy_Desc_Warrior"		"Όλοι οι Πολεμιστές αποκτούν +{s:armor_bonus} θωράκιση"
+	"DAC_Synergy_Desc_Warrior"		"Όλοι οι Πολεμιστές αποκτούν +{s:armor_bonus} θωράκιση."
 
 	"DAC_Synergy_Desc_Insect"			"Αραχνίδια κατακλύζουν συνεχώς εχθρούς από την άκρη της πίστας. Είναι μη στοχεύσιμες μονάδες που προκαλούν χαμηλή ζημιά και και πεθαίνουν αν δεχθούν οποιαδήποτε ζημιά. Οι εχθροί που δαγκώνονται οποιοδήποτε αραχνίδιο έχουν {s:miss_chance}% πιθανότητα να αστοχήσουν επιθέσεις για {s:miss_chance_duration} δευτ. Τα αραχνίδια αναπληρώνονται με το θάνατο με μέγιστο {s:num_insects}."
 
@@ -2891,13 +3087,25 @@
 
 	"DAC_Synergy_Desc_Brutal"			"Όποτε ένα Κτήνος επιτίθεται έναν εχθρό εφαρμόζει μια απομείωση -{s:damage_reduction}% ζημιάς για {s:debuff_duration} δευτερόλεπτα. Όταν εφαρμόζεται αρχικά η απομείωση προκαλεί {s:initial_damage} ζημιά. Τα Κτήνη προτιμούν να επιτίθενται εχθρούς που δεν έχουν την απομείωση."
 
-	"DAC_Synergy_Desc_SpiritBrother"	"Όταν ένα Πνεύμα εκτελεί μια ικανότητα εισάγεται σε μια φορτισμένη κατάσταση. Όταν 3 Πνεύματα είναι φορτισμένα εκτελούν την απαγορευμένη τεχνική του τριγωνικού Χτυπήματος Δέλτα, όπου το κάθε ένα προκαλεί {s:damage} μαγική ζημιά σε όλους τους εχθρούς που παγιδεύονται εντός και εφαρμόζουν τις στοιχειώδεις επιδράσεις τους."
+	"DAC_Synergy_Desc_SpiritBrother"	"Όταν ένα Πνεύμα εκτελεί μια ικανότητα εισάγεται σε μια φορτισμένη κατάσταση. Όταν 3 Πνεύματα είναι φορτισμένα εκτελούν την απαγορευμένη τεχνική του τριγωνικού Χτυπήματος Δέλτα, όπου το κάθε ένα προκαλεί {s:damage} μαγική ζημιά σε όλους τους εχθρούς που παγιδεύονται εντός και εφαρμόζουν τις στοιχειώδεις επιδράσεις τους για {s:disable_duration} δευτερόλεπτα. Η ζημιά και η διάρκεια επίδρασης πολλαπλασιάζονται κατά {s:multiplier_2star} στα 2 αστέρια και {s:multiplier_3star} στα 3 αστέρια."
 
 	"DAC_Synergy_Desc_Summoner"			"Οι κλητευμένες συμμαχικές μονάδες λαμβάνουν +{s:damage_percent}% ζημιά."
 	
 	"DAC_Synergy_Desc_Vigilant"			"Όποτε μια εχθρική μονάδα εκτελεί ένα ξόρκι, {s:alliance_eligible} στοχεύουν αυτόν τον εχθρό αν είναι εντός της εμβέλειάς τους. Η ζημιά της επόμενης επίθεσης εναντίον του στόχου αυξάνεται κατά {s:damage_percent}%."
 	
 	"DAC_Synergy_Desc_Void"				"Όλοι οι συμμαχικοί ήρωες έχουν {s:proc_chance}% πιθανότητα να προκαλέσουν επιπλέον το {s:pure_damage_percent}% της μέγιστης ζωής του στόχου ως καθαρή ζημιά. Αυτή η επίδραση μπορεί να συμβεί μόνο μία φορά κάθε {s:cooldown} δευτερόλεπτα."
+
+	"DAC_Synergy_Desc_Fallen"			"Όταν πρωτοπεθαίνει κάθε Έκπτωτη μονάδα, οι σύμμαχοι εντός {s:radius} κελιών θεραπεύονται για {s:heal} ζωή και αποκτούν +{s:damage_bonus_pct}% επιπλέον ζημιά σε επιθέσεις και ξόρκια. Μια Έκπτωτη μονάδα μπορεί να αναβιώσει {s:revive_times} φορές ανά μάχη και θα αναστηθεί με {s:resurrect_hp_pct}% ζωή."
+	
+	"DAC_Synergy_Desc_Wild"				"Όταν ξεκινάει η μάχη, κλητεύεται για βοήθεια: {s:summon_display_name}."
+
+	"DAC_Synergy_Desc_Swordsman"		"Κάθε Ξιφομάχος λαμβάνει +{s:damage_bonus_pct}% επιπλέον ζημιά για κάθε εχθρική παρακείμενη μονάδα."
+
+	"DAC_Synergy_Desc_Rogue"			"Οι συμμαχικοί Τυχοδιώκτες αποκτούν {s:evasion_pct}% αποφυγή. Όποτε ένα Τυχοδιώκτης αποφεύγει μια επίθεση, λαμβάνει +{s:bonus_attack_damage} ζημιά επίθεσης."
+
+	"DAC_Synergy_Desc_Poisoner"			"Επιθέσεις από Δηλητηριαστές εφαρμόζουν επιδράσεις Δηλητήριου. Οι εχθροί χάνουν {s:attack_speed_loss_per_stack} ταχύτητα επίθεσης ανά επίδραση Δηλητήριου."
+
+	"DAC_Synergy_Desc_Magus"			"Μια φορά ανά μάχη, όταν η ζωή ενός Μάγιστρου πέσει κάτω από {s:health_pct}%, η μονάδα γίνεται άτρωτη και ανίκανη να επιτεθεί για {s:duration} δευτερόλεπτα."
 
 	"DAC_Synergy_Desc_MegaWarrior"		"Οι συμμαχικοί Μέγα-Πολεμιστές λαμβάνουν +{s:armor_bonus} θωράκιση"
 	"DAC_Synergy_Desc_MegaWarlock"		"Όποτε ένας Μέγα-Νεκρομάντης εκτελεί ένα ξόρκι, σχηματίζει ένα σύνδεσμο με το σύμμαχο με τη χαμηλότερη ζωή για 3 δευτερόλεπτα. Όταν μία συνδεδεμένη μονάδα προκαλέσει ζημιά και οι δύο θεραπεύονται κατά το {s:lifesteal_pct}% της ζημιάς."
@@ -3128,7 +3336,7 @@
 
 	"DAC_BotName_61"					"Αστέρης Bot"
 	"DAC_BotName_62"					"Μάρθα Bot"
-	"DAC_BotName_63"					"Ψηλέας Bot"
+	"DAC_BotName_63"					"Εύη Bot"
 	"DAC_BotName_64"					"Λουίζα Bot"
 	"DAC_BotName_65"					"Θάνος Bot"
 	"DAC_BotName_66"					"Νίκη Bot"
@@ -3575,6 +3783,7 @@
 	"dac_support_upload_save_game"				"ΑΠΟΣΤΟΛΗ ΑΠΟΘΗΚΕΥΜΕΝΟΥ ΠΑΙΧΝΙΔΙΟΥ ΣΕ ΥΠΟΣΤΗΡΙΞΗ Steam"
 	"dac_support_upload_console_log"			"ΑΠΟΣΤΟΛΗ ΑΡΧΕΙΟΥ ΚΟΝΣΟΛΑΣ ΣΕ ΥΠΟΣΤΗΡΙΞΗ Steam"
 	"dac_dump_memory_stats"						"Στατιστικά καθαρισμού μνήμης"
+	"dac_trigger_memory_warning"				"Πρόκληση ειδοποίησης μνήμης κινητού"
 	"dac_support_upload"						"Αποστολή σε Υποστήριξη Steam"
 	"dac_support_upload_error_unknown"			"Το ανέβασμα απέτυχε, άγνωστο σφάλμα."
 	"dac_support_upload_error_no_file"			"Το ανέβασμα απέτυχε, δε βρέθηκε αρχείο για ανέβασμα."
@@ -3706,11 +3915,11 @@
 
 	"dac_glossary_rank_details"				"ΛΕΠΤΟΜΕΡΕΙΕΣ ΚΑΤΑΤΑΞΗΣ ΠΑΙΚΤΩΝ"
 
-	"DAC_SeasonRank_Tooltip_Title"				"ΕΠΟΧΙΑΚΑ ΜΕΤΑΛΛΙΑ ΣΕΖΟΝ"
-	"DAC_SeasonRank_Tooltip_Title_Desc"			"Η ικανότητά σας αυτή τη σεζόν φαίνεται από ένα μετάλλιο κατάταξης."
+	"DAC_SeasonRank_Tooltip_Title"				"ΜΕΤΑΛΛΙΑ ΚΑΤΑΤΑΞΗΣ"
+	"DAC_SeasonRank_Tooltip_Title_Desc"			"Η ικανότητά σας φαίνεται από ένα μετάλλιο κατάταξης."
 	"DAC_SeasonRank_Tooltip_Minor_Desc"			"Κάθε μετάλλιο έχει πέντε επίπεδα προόδου πριν την προαγωγή στην επόμενη κατάταξη."
 	"DAC_SeasonRank_Tooltip_Generic_Desc"		"Στους ισχυρότερους παίκτες φαίνεται η θέση στον πίνακα κατάταξης κάτω από το μετάλλιο κατάταξής τους."
-	"DAC_SeasonRank_Tooltip_End_Desc"			"Οι παίκτες μπορούν να αποκτήσουν μετάλλια παίζοντας σε παιχνίδια κατάταξης. Στο τέλος κάθε σεζόν τα μετάλλια κατάταξης αποσύρονται."
+	"DAC_SeasonRank_Tooltip_End_Desc"			"Οι παίκτες αποκτούν μετάλλια παίζοντας σε αγώνες κατάταξης."
 
 	"DACWantedAmount"							"$%s1"
 
@@ -3738,8 +3947,8 @@
 	"DAC_Team_Rank_Label"						"Κατάταξη ομάδας"
 	"DAC_Team_Rank_YourRank_Label"				"Η κατάταξή σας"
 
-	"DAC_Season_Rank_Title"						"ΜΕΤΑΛΛΙΑ ΕΠΟΧΙΑΚΗΣ ΚΑΤΑΤΑΞΗΣ"
-	"DAC_Season_Rank_Desc"						"Καθώς η ικανότητά σας προοδεύει στη σεζόν, θα ανταμείβεστε μετάλλια κατάταξης, κάθε ένα με πέντε επίπεδα. Αν ξεπεράσετε το Μέγα Αφεντικό V, θα στεφθείτε ως ένας Λόρδος Λευκής Σπείρας και θα κερδίσετε τη θέση σας στον παγκόσμιο πίνακα κατάταξης."
+	"DAC_Season_Rank_Title"						"Μετάλλια κατάταξης"
+	"DAC_Season_Rank_Desc"						"Καθώς η ικανότητά σας προοδεύει, θα ανταμείβεστε μετάλλια κατάταξης, κάθε ένα με πέντε επίπεδα. Αν ξεπεράσετε το Μέγα Αφεντικό V, θα στεφθείτε ως ένας Λόρδος Λευκής Σπείρας και θα κερδίσετε τη θέση σας στον παγκόσμιο πίνακα κατάταξης."
 
 	"DAC_LevelUp_Rank_Old"	"<span class='RankName'>{s:old_rank_name}</span> {s:old_rank_tier}"
 	"DAC_LevelUp_Rank_New"	"<span class='RankName'>{s:new_rank_name}</span> {s:new_rank_tier}"
@@ -3798,9 +4007,9 @@
 	"DAC_Reward_Claim_Button"						"ΑΠΟΚΤΗΣΗ"
 	"DAC_Reward_Claim_Challenge_Title"			"Ολοκληρώθηκε ημερήσια πρόκληση"
 	"DAC_Postgame_ChallengeComplete"			"Η ΠΡΟΚΛΗΣΗ ΟΛΟΚΛΗΡΩΘΗΚΕ"
-	"DAC_Weekly_Challenge_Challenge_Header"		"Challenge"
-	"DAC_Weekly_RewardCalloutHeader"			"Weekly Challenge"
-	"DAC_Weekly_RewardCalloutDesc"				"Complete the Weekly Streetfight, Objective, and Puzzle to earn this {s:reward_type}."
+	"DAC_Weekly_Challenge_Challenge_Header"		"ΠΡΟΚΛΗΣΗ"
+	"DAC_Weekly_RewardCalloutHeader"			"ΕΒΔΟΜΑΔΙΑΙΑ ΠΡΟΚΛΗΣΗ"
+	"DAC_Weekly_RewardCalloutDesc"				"ΟΛΟΚΛΗΡΩΣΤΕ ΤΗΝ ΕΒΔΟΜΑΔΙΑΙΑ ΜΑΧΗ ΔΡΟΜΗ, ΑΠΟΣΤΟΛΗ ΚΑΙ ΓΡΙΦΟ ΓΙΑ ΝΑ ΚΕΡΔΙΣΕΤΕ: {s:reward_type}."
 
 	"DAC_LookingForMatch_Desc"					"ΕΥΡΕΣΗ {s:game_mode} {s:match_mode}"
 	"DAC_LookingForMatch_Loading"				"ΦΟΡΤΩΣΗ..."
@@ -3832,7 +4041,7 @@
 	"DAC_GoldBreakdownInterestMax"				"+{d:interest} ΕΠΙΤΟΚΙΟ (ΜΕΓΙΣΤΟ)"
 	"DAC_GoldBreakdownStreakWIN"				"+{d:streak} ΣΕΡΙ ΝΙΚΩΝ"
 	"DAC_GoldBreakdownStreakLOSE"				"+{d:streak} ΣΕΡΙ ΗΤΤΩΝ"
-	"DAC_GoldBreakdownItems"					"+{d:items} ΑΠΟ ΑΝΤΙΚΕΙΜΕΝΑ"
+	"DAC_GoldBreakdownItems"					"+{d:items} ΚΑΤΑ ΤΗ ΜΑΧΗ"
 	"DAC_GoldBreakdownRoundGold"				"+{d:round} ΒΑΣΙΚΟΣ ΧΡΥΣΟΣ"
 	"DAC_GoldBreakdownVictory"					"+{d:victory} ΝΙΚΗ"
 	"DAC_GoldBreakdownTotal"					"{d:total} ΣΥΝΟΛΙΚΟΣ ΧΡΥΣΟΣ"
@@ -4018,6 +4227,7 @@
 	"DAC_CityCrawl_MostRecent"						"ΠΙΟ ΠΡΟΣΦΑΤΕΣ"
 	"DAC_CityCrawl_RecommendedHeader"				"ΠΙΟ ΠΡΟΣΦΑΤΗ:<br/><span class='RecommendedChallengeDesc'>{s:recommended_challenge}</span>"
 	"DAC_ChallengeGameModeRequirementsNotMet"		"ΕΠΙΛΕΞΤΕ ΕΝΑ ΔΙΑΦΟΡΕΤΙΚΟ ΤΥΠΟ ΠΑΙΧΝΙΔΙΟΥ ΓΙΑ ΝΑ ΟΛΟΚΛΗΡΩΣΕΤΕ ΤΗΝ ΑΠΟΣΤΟΛΗ CITY CRAWL ΣΑΣ."
+	"DAC_ChallengeMatchTypeRequirementsNotMet"		"ΕΠΙΛΕΞΤΕ ΕΝΑ ΔΙΑΦΟΡΕΤΙΚΟ ΤΥΠΟ ΑΓΩΝΑ ΓΙΑ ΝΑ ΟΛΟΚΛΗΡΩΣΕΤΕ ΤΗΝ ΑΠΟΣΤΟΛΗ CITY CRAWL ΣΑΣ."
 	"DAC_ChallengeDifficultyRequirementsNotMet"		"ΕΠΙΛΕΞΤΕ ΤΟ ΠΑΝΔΥΣΚΟΛΟ (ΕΜΠΕΙΡΙΑ) Ή ΠΑΙΞΤΕ ΠΟΛΛΩΝ ΠΑΙΚΤΩΝ ΓΙΑ ΠΡΟΟΔΟ ΣΤΟ ΠΑΣΟ ΜΑΧΗΣ."
 	"DAC_ChallengePrivateGameNotFull"				"Η ΠΑΡΕΑ ΣΑΣ ΠΡΕΠΕΙ ΝΑ ΕΙΝΑΙ ΠΛΗΡΗΣ ΓΙΑ ΝΑ ΚΑΝΕΙ ΠΡΟΟΔΟ ΠΑΣΟΥ ΜΑΧΗΣ."
 
@@ -4039,8 +4249,8 @@
 	"DAC_Challenge_RerollAt"						"ΝΕΑ ΠΡΟΚΛΗΣΗ ΣΕ {t:d:time_to_reroll}"
 	"DAC_Challenge_RerollAvailableAt"				"ΝΕΑ ΠΡΟΚΛΗΣΗ"
 	"DAC_Challenge_Claimable"						"ΔΙΕΚΔΙΚΗΣΗ"
-	"DAC_Challenge_ChallengeComplete"				"Claimed"
-	"DAC_Challenge_Number"							"Πρόκληση {d:challenge_slot}"
+	"DAC_Challenge_ChallengeComplete"				"ΑΠΟΚΤΗΘΗΚΕ"
+	"DAC_Challenge_Number"							"ΠΡΟΚΛΗΣΗ {d:challenge_slot}"
 	"DAC_Challenge_HobgenCombine2Stars_Desc"		"Δημιουργήστε {s:threshold} μονάδες ★★"
 	"DAC_Challenge_HobgenHireKnightWarrior_Desc"	"Ξοδέψτε {s:threshold} χρυσό προσλαμβάνοντας Ιππότες ή Πολεμιστές"
 	"DAC_Challenge_HobgenKillGoldWorth_Desc"				"Σκοτώστε εχθρούς αξίας {s:threshold} χρυσού"
@@ -4076,7 +4286,7 @@
 	"DAC_Challenge_AnessixKillWithSummons_Desc"		"Σκοτώστε {s:threshold} εχθρικές μονάδες με κλητεύσεις"
 	"DAC_Challenge_AnessixCombine3StarDemon_Desc"	"Συνδυάστε ★★★ Δαίμονες {s:threshold} φορές"
 	"DAC_Challenge_AnessixWinWithHumans_Desc"		"Κερδίστε {s:threshold} γύρους με μια ενεργή συμμαχία Ανθρώπων"
-	"DAC_Challenge_AnessixSummonEidolons_Desc"		"Κλητεύστε {s:threshold} είδωλα μέσω της συμμαχίας Αρχέγονων"
+	"DAC_Challenge_AnessixSummonEidolons_Desc"		"Εφαρμόστε {s:threshold} επιδράσεις δηλητηρίου"
 	"DAC_Challenge_AnessixBuyDemons_Desc"			"Ξοδέψτε {s:threshold} χρυσό αγοράζοντας Δαίμονες"
 	"DAC_Challenge_AnessixDealCritDamage_Desc"		"Προκαλέστε {s:threshold} ζημιά μέσω καίριων επιθέσεων"
 	"DAC_Challenge_AnessixKillDemons_Desc"			"Σκοτώστε {s:threshold} Δαίμονες"
@@ -4146,10 +4356,10 @@
 	"DAC_Achievement_WinWith5ActiveSynergies_Desc"	"Κερδίστε {d:challengeMaxProgress} γύρους με 5 ή περισσότερες ενεργές συμμαχίες."
 	"DAC_Achievement_WinWithA6Synergy_Desc"			"Κερδίστε {d:challengeMaxProgress} γύρους με μια ενεργή συμμαχία 6+ ηρώων."
 	"DAC_Achievement_DailyChallengesCompleted"		"Ολοκληρώθηκαν ημερήσιες προκλήσεις"
-	"DAC_Achievement_WeeklyChallengesCompleted"		"Weekly Challenges Completed"	
-	"DAC_Achievement_WeeklyStreetFightCompleted"	"Weekly Street Fight Completed"		
-	"DAC_Achievement_WeeklyPuzzleCompleted"			"Weekly Puzzle Completed"		
-	"DAC_Achievement_WeeklyChallengeCompleted"		"Weekly Challenge Completed"		
+	"DAC_Achievement_WeeklyChallengesCompleted"		"ΟΛΟΚΛΗΡΩΘΗΚΑΝ ΕΒΔΟΜ. ΠΡΟΚΛΗΣΕΙΣ"	
+	"DAC_Achievement_WeeklyStreetFightCompleted"	"ΟΛΟΚΛΗΡΩΘΗΚΕ ΕΒΔΟΜ. ΜΑΧΗ ΔΡΟΜΟΥ"		
+	"DAC_Achievement_WeeklyPuzzleCompleted"			"ΟΛΟΚΛΗΡΩΘΗΚΕ ΕΒΔΟΜ. ΓΡΙΦΟΣ"		
+	"DAC_Achievement_WeeklyChallengeCompleted"		"ΟΛΟΚΛΗΡΩΘΗΚΕ ΕΒΔΟΜ. ΠΡΟΚΛΗΣΗ"		
 
 	"DAC_Popup_ChallengeReroll_Title"				"Αλλαγή πρόκλησης;"
 	"DAC_Popup_ChallengeReroll_TitleWithProgress"	"Αλλαγή πρόκλησης;"
@@ -4175,7 +4385,7 @@
 
 	"DAC_LoadoutEquip"								"ΕΞΟΠΛΙΣΗ"
 	"DAC_LoadoutEquipped"							"ΕΞΟΠΛΙΣΜΕΝΟ"
-	"DAC_EditBoardProps"							"Επεξεργασία σκηνικών πίστας"
+	"DAC_EditBoardProps"							"ΕΠΕΞΕΡΓΑΣΙΑ ΣΚΗΝΙΚΩΝ ΠΙΣΤΑΣ"
 	"DAC_LoadoutEquip_Popup_Close"					"ΚΛΕΙΣΙΜΟ"
 	"DAC_LoadoutEquip_Failed_Title"					"ΑΔΥΝΑΜΙΑ ΕΞΟΠΛΙΣΗΣ"
 	"DAC_LoadoutEquip_Failed_Body"					"Αυτό το αντικείμενο δε μπορεί να εξοπλιστεί αυτή τη στιγμή. Προσπαθήστε ξανά αργότερα."
@@ -4205,7 +4415,7 @@
 	"DAC_Loadout_PosterPreview"						"ΠΡΟΕΠΙΣΚΟΠΗΣΗ ΠΟΣΤΕΡ"
 	"DAC_Loadout_UnderlordSkin"						"ΝΤΥΣΙΜΟ"
 	"DAC_Loadout_UnderlordVictoryDance"				"ΧΟΡΟΣ ΝΙΚΗΣ"
-	"DAC_Loadout_Generic"							"Reward"
+	"DAC_Loadout_Generic"							"ΑΝΤΑΜΟΙΒΗ"
 
 
 	"DAC_Loadout_PopupTitle_Boards"					"ΕΠΙΛΕΞΤΕ ΤΗΝ ΠΙΣΤΑ ΜΑΧΗΣ ΣΑΣ"
@@ -4226,7 +4436,7 @@
 	"DAC_Loadout_PopupTitle_UnderlordOutfit"		"Επιλέξτε το ντύσιμο του Underlord σας"
 
 
-	"DAC_Map_Prop_Editor_Header"					"Επεξεργασία σκηνικών"
+	"DAC_Map_Prop_Editor_Header"					"ΕΠΕΞΕΡΓΑΣΙΑ ΣΚΗΝΙΚΩΝ ΠΙΣΤΑΣ"
 	"DAC_Map_Prop_Editor_Subheader"					"ΕΠΙΛΕΞΤΕ ΕΝΑ ΣΗΜΕΙΟ,<br /> ΕΠΕΙΤΑ ΠΑΤΗΣΤΕ ΕΝΑ ΣΚΗΝΙΚΟ"
 	"DAC_Map_Prop_Editor_SaveAndExit"				"ΑΠΟΘΗΚΕΥΣΗ ΚΑΙ ΕΞΟΔΟΣ"
 	"DAC_Map_Prop_Editor_DiscardChanges"			"ΑΠΟΡΡΙΨΗ ΑΛΛΑΓΩΝ"
@@ -4243,11 +4453,11 @@
 	"DAC_Rewards_Rewards"                           "Ανταμοιβές"
 	"DAC_Rewards_Subhead"							"Η πρόοδός σας"
 	"DAC_Rewards_Intro"					            "Παίξτε παιχνίδια και ολοκληρώστε προκλήσεις για να ξεκλειδώσετε τις παρακάτω ανταμοιβές."
-	"DAC_Rewards_Description"						"Όπως πολλές πτυχές της δοκιμαστικής έκδοσης, το πρωτο-πάσο είναι μια εμπειρία μάθησης για την ομάδα Underlords. Παρακαλούμε να συνεχίσετε να στέλνετε ανατροφοδότηση, είναι ανεκτίμητη καθώς σχεδιάζουμε το πάσο μάχης σεζόν 1."
+	"DAC_Rewards_Description"						"Όπως πολλές πτυχές της δοκιμαστικής έκδοσης, το πρωτο-πάσο είναι μια εμπειρία μάθησης για την ομάδα Underlords. Παρακαλούμε να συνεχίσετε να στέλνετε ανατροφοδότηση, είναι ανεκτίμητη καθώς σχεδιάζουμε το πάσο μάχης μας."
 	"DAC_BattlePass_GCIssue"						"Αδυναμία σύνδεσης στο συντονιστή παιχνιδιού αυτή τη στιγμή."
 	"DAC_Rewards_CurrentLevel"						"Επίπεδο<br><span class='LevelNumber'>{d:current_level}</span>"
 
-	"DAC_Rewards_BattlePass_Title"					"Σεζόν Ένα"
+	"DAC_Rewards_BattlePass_Title"					"Πάσο μάχης"
 	"DAC_Rewards_BattlePass_Description"			"Η Μυστική κοινωνία"
 	"DAC_Reward_Item_Level"							"Επίπεδο {d:reward_level} "
 
@@ -4281,7 +4491,7 @@
 	"DAC_AchievementTitle_Missing" 					"Ο τίτλος λείπει"
 	"DAC_AchievementDesc_Missing" 					"Η περιγραφή λείπει"
 
-	"DAC_Profile_TopFinishes"				"ΚΟΡΥΦΑΙΟΙ ΤΕΡΜΑΤΙΣΜΟΙ ΣΕΖΟΝ"
+	"DAC_Profile_TopFinishes"				"Κορυφαίοι τερματισμοί"
 	"DAC_Profile_FinishFirst"				"ΠΡΩΤΟΣ"
 	"DAC_Profile_FinishSecond"				"ΔΕΥΤΕΡΟΣ"
 	"DAC_Profile_FinishThird"				"ΤΡΙΤΟΣ"
@@ -4301,8 +4511,8 @@
 
 	"DAC_Profile_LoadMore"					"ΠΕΡΙΣΣΟΤΕΡΑ"
 
-	"DAC_Profile_Progress"					"ΠΡΟΟΔΟΣ ΣΕΖΟΝ"
-	"DAC_Profile_Stats"						"ΣΤΑΤΙΣΤΙΚΑ ΣΕΖΟΝ"
+	"DAC_Profile_Progress"					"ΠΡΟΟΔΟΣ"
+	"DAC_Profile_Stats"						"ΣΤΑΤΙΣΤΙΚΑ"
 
 	"DAC_Profile_GamesPlayed"				"ΠΑΙΓΜΕΝΟΙ ΑΓΩΝΕΣ"
 	"DAC_Profile_MostTotalDamage"			"ΜΕΓΙΣΤΗ ΟΛΙΚΗ ΖΗΜΙΑ"
@@ -4353,21 +4563,30 @@
 	"dac_season_0_popup_duos"		"ΔΥΑΔΕΣ"
 	"dac_season_0_popup_proving"		"ΠΕΔΙΟ ΔΟΚΙΜΑΣΙΩΝ"
 
+	"dac_hero_rotation_popup_pre_title"			"Παρουσιάζουμε"
+	"dac_hero_rotation_popup_title"				"ΝΕΟ ΑΙΜΑ ΣΤΟΥΣ ΔΡΟΜΟΥΣ"
+	"dac_hero_rotation_popup_heroes"			"8 ΝΕΟΙ ΗΡΩΕΣ"
+	"dac_hero_rotation_popup_alliances"			"6 ΝΕΕΣ ΣΥΜΜΑΧΙΕΣ"
+	"dac_hero_rotation_popup_items"				"7 ΝΕΑ ΑΝΤΙΚΕΙΜΕΝΑ"
+	"dac_hero_rotation_popup_oldheroes"			"8 ΠΑΛΙΟΥΣ ΦΙΛΟΥΣ"
+	"dac_hero_rotation_popup_classic"			"ΚΛΑΣΙΚΟ ΤΥΠΟ"
+	"dac_hero_rotation_popup_rankreset"			"ΕΠΑΝΑΦΟΡΑ ΒΑΘΜΙΔΩΝ"
+
 	"s1_title_row_1"			"Καλώς ορίσατε στη"
 	"s1_title_row_2"			"Λευκή Σπείρα"
 	"s1_description"			"Η Momma Eeb πέθανε και η πόλη είναι διαθέσιμη να την καταλάβετε. Μαζέψτε μια ομάδα, μπείτε σε μάχες και κατακτήστε τη Λευκή Σπείρα στο <span class='Emphasis'>City Crawl</span>.<br><br>Ολοκληρώστε προκλήσεις, παίξτε αγώνες και κερδίστε ανταμοιβές στο <span class='Emphasis'>πάσο μάχης</span>.<br><br>Καλώς ορίσατε στη Σεζόν Ένα του Underlords!"
 	"s1_play_trailer"			"ΑΝΑΠΑΡΑΓΩΓΗ ΤΡΕΙΛΕΡ"
 	"s1_ricky_beta_message"		"ΨΙΙΙΙΤ - έι, ευχαριστώ που έπαιξες στη δοκιμαστική έκδοση. Σου πήρα μερικά πραγματάκια ως δώρο επιστροφής: τις πίστες της σεζόν δοκιμής, έναν τίτλο πόστερ και ένα άγαλμα για την πίστα σου!"
 
-	"DAC_MainMenu_Weekly_Challenge_Header"	"This week:\n{s:weekly_challenge_headline}"
-	"popup_weekly_challenge_title" "The Early Bird"
-	"popup_weekly_challenge_subtitle" "The best (and only) newspaper in White Spire!"
-	"popup_weekly_challenge_battlepass_title" "Battle Pass must be unlocked to open the weekly early bird."
-	"popup_weekly_challenge_description" "Every week will bring a new issue of the Early Bird with the latest news from White Spire, new challenges to complete, and more. Complete the weekly Puzzle, Streetfight, and Objective to unlock the weekly reward!"
-	"popup_weekly_challenge_description_2_locked" "Since you have unlocked the Battle Pass, you already have access to the newsletter."
-	"popup_weekly_challenge_description_2_unlocked" "The weekly Early Bird is only available to players who have unlocked the Battle Pass."
-	"popup_weekly_challenge_ok_button" "View this week's issue"	
-	"popup_weekly_challenge_getbp_button" "Unlock the battlepass"
+	"DAC_MainMenu_Weekly_Challenge_Header"	"ΑΥΤΗ ΤΗΝ ΕΒΔΟΜΑΔΑ:\n{s:weekly_challenge_headline}"
+	"popup_weekly_challenge_title" "ΤΟ ΠΡΩΙΝΟ ΠΟΥΛΙ"
+	"popup_weekly_challenge_subtitle" "Η ΚΑΛΥΤΕΡΗ (ΚΑΙ ΜΟΝΑΔΙΚΗ) ΕΦΗΜΕΡΙΔΑ ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ!"
+	"popup_weekly_challenge_battlepass_title" "Πρέπει να είναι ξεκλειδωμένο το πάσο μάχης για να ανοίξετε το εβδομαδιαίο πρωινό πουλί."
+	"popup_weekly_challenge_description" "Κάθε εβδομάδα θα φέρει ένα νέο τεύχος του Πρωινού πουλιού με τα νεότερα νέα από τη Λευκή Σπείρα, νέες προκλήσεις για να ολοκληρώσετε και άλλα. Ολοκληρώστε τον εβδομαδιαίο Γρίφο, Μάχη δρόμου και Αποστολή για να ξεκλειδώσετε την εβδομαδιαία ανταμοιβή!"
+	"popup_weekly_challenge_description_2_locked" "Αφού έχετε ξεκλειδώσει το Πάσο μάχης, έχετε ήδη πρόσβαση στην εφημερίδα."
+	"popup_weekly_challenge_description_2_unlocked" "Το εβδομαδιαίο Πρωινό πουλί είναι διαθέσιμο μόνο για παίκτες που έχουν ξεκλειδώσει το πάσο μάχης."
+	"popup_weekly_challenge_ok_button" "ΠΡΟΒΟΛΗ ΤΕΥΧΟΥΣ ΕΒΔΟΜΑΔΑΣ"	
+	"popup_weekly_challenge_getbp_button" "ΞΕΚΛΕΙΔΩΣΤΕ ΤΟ ΠΑΣΟ ΜΑΧΗΣ"
 	"dac_tutorial_popup_pre_title"			"Καλώς ορίσατε στο"
 	"dac_tutorial_popup_title"				"Dota Underlords"
 	"dac_play_tutorial_popup_desc"			"ΓΡΗΓΟΡΗ ΕΙΣΑΓΩΓΗ"
@@ -4541,7 +4760,7 @@
 
 	"DAC_MainNav_SeasonInfo"	"ΒΙΒΛΙΟ ΚΑΝΟΝΩΝ"
 	"DAC_MainNav_EarlyBird"		"ΠΡΩΙΝΟ ΠΟΥΛΙ"
-	"DAC_EarlyBird_ButtonDesc"	"Weekly Newsletter"
+	"DAC_EarlyBird_ButtonDesc"	"ΕΒΔΟΜΑΔΙΑΙΑ ΕΦΗΜΕΡΙΔΑ"
 	"DAC_MainNav_Achievements"	"ΕΠΙΤΕΥΓΜΑΤΑ"
 	"DAC_MainNav_Battlepass"	"ΠΡΩΤΟ-ΠΑΣΟ"
 	"DAC_MainNav_SecretSociety"	"ΜΥΣΤΙΚΗ ΚΟΙΝΩΝΙΑ"
@@ -4695,7 +4914,7 @@
 	"DAC_HowToPlay_WhatsAnUnderlord" "ΤΙ ΕΙΝΑΙ ΕΝΑΣ UNDERLORD;"
 	"DAC_HowToPlay_WhatsAnUnderlord_Body" "Εσείς είστε. Στο Dota Underlords, θα φτιάχνετε την ομάδα σας και σε κάποιο σημείο θα αποφασίσετε ποιος θέλετε να τους οδηγήσει. Κάθε Underlord είναι μια ισχυρή μονάδα που πολεμάει στο πεδίο μαζί με την ομάδα σας και και καθένας φέρνει το δικό του στιλ, χαρακτηριστικά και ικανότητες στη μάχη."
 
-	"DAC_HowToPlay_AbilitiesAndTalents" "Επιλέγοντας έναν Underlord"
+	"DAC_HowToPlay_AbilitiesAndTalents" "ΕΠΙΛΕΓΟΝΤΑΣ ΕΝΑΝ Underlord"
 	"DAC_HowToPlay_AbilitiesAndTalents_Body" "Στο τέλος του Γύρου 1 σε Νοκ-άουτ και στο τέλος του Γύρου 9 σε Κανονικό και Δυάδες, θα επιλέξετε έναν Underlord. Κάθε Underlord θα έχει μία από δύο τυχαίες «δομές» επιλεγμένες. Αυτές οι δομές περιλαμβάνουν μια παθητική ικανότητα, μια ενεργή ικανότητα και μια απόλυτη ικανότητα."
 
 	"DAC_HowToPlay_HypeOMeter" "ΜΠΑΡΑ ΟΡΜΗΣ"
@@ -4711,6 +4930,10 @@
 	"DAC_Puzzle_RuleDescription_UnitCountLimit"			"{d:minimum}-{d:maximum} μονάδες στην πίστα"
 	"DAC_Puzzle_RuleDescription_UnitCountLimit_Hi"		"{d:maximum} μονάδες το πολύ"
 	"DAC_Puzzle_RuleDescription_UnitCountLimit_Lo"		"{d:minimum} μονάδα το ελά;χιστο"
+
+	"DAC_Puzzle_RuleDescription_UnitCopyLimit"			"{d:minimum}-{d:maximum} αντίγραφα ανά μονάδα"
+	"DAC_Puzzle_RuleDescription_UnitCopyLimit_Hi"		"{d:maximum} αντίγραφο ανά μονάδα το πολύ"
+	"DAC_Puzzle_RuleDescription_UnitCopyLimit_Lo"		"{d:minimum} αντίγραφο ανά μονάδα το ελάχιστο"
 
 	"DAC_Puzzle_RuleDescription_UnitStarLimit"			"{d:minimum}-{d:maximum} αστέρια ανά μονάδα"
 	"DAC_Puzzle_RuleDescription_UnitStarLimit_Hi"		"{d:maximum} αστέρι το πολύ"
@@ -4897,7 +5120,7 @@
 	"dac_underlord_picker_4_build_1_ability_desc"	"Ο Hobgen επαυξάνεται και όλη η ομάδα αποκτάει ταχύτητα επίθεσης."
 
 	"DAC_Dashboard_Promo_Season1_Title"			"ΚΑΛΩΣ ΟΡΙΣΑΤΕ ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
-	"DAC_Dashboard_Promo_Season1_Desc"			"ΚΑΛΩΣ ΟΡΙΣΑΤΕ ΣΤΗ ΣΕΖΟΝ ΕΝΑ"
+	"DAC_Dashboard_Promo_Season1_Desc"			"ΚΑΤΑΛΗΨΗ ΤΗΣ ΠΟΛΗΣ"
 
 	"dac_underlord_detail_passive_name"			"ΠΑΘΗΤΙΚΗ ΙΚΑΝΟΤΗΤΑ"
 	"dac_underlord_detail_passive_build_desc"	"Σε ένα παιχνίδι, θα δείτε μία από τις δύο παρακάτω δομές."
@@ -4934,6 +5157,14 @@
 	"dac_turbo_bucket_tip_Vigilant"				"<span class='Vigilant'>ΣΤΟΧΕΥΕΙ ΜΟΝΑΔΕΣ ΠΟΥ ΕΚΤΕΛΟΥΝ ΜΑΓΕΙΕΣ</span>"
 	"dac_turbo_bucket_tip_Void"					"<span class='Void'>ΠΡΟΚΑΛΕΙ ΚΑΘΑΡΗ ΖΗΜΙΑ</span>"
 
+	"dac_turbo_bucket_tip_Fallen"				"<span class='Fallen'>ΘΕΡΑΠΕΥΕΙ ΣΕ ΘΑΝΑΤΟ, ΜΠΟΡΕΙ ΝΑ ΑΝΑΒΙΩΣΕΙ</span>"
+	"dac_turbo_bucket_tip_Wild"					"<span class='Wild'>ΚΛΗΤΕΥΕΙ ΠΛΑΣΜΑΤΑ</span>"
+	"dac_turbo_bucket_tip_Swordsman"			"<span class='Swordsman'>ΕΠΑΥΞΑΝΕΙ ΖΗΜΙΑ ΕΝΩ ΠΕΡΙΚΥΚΛΩΜΕΝΟΣ</span>"
+	"dac_turbo_bucket_tip_Rogue"				"<span class='Rogue'>ΕΠΑΥΞΑΝΕΙ ΑΠΟΦΥΓΗ ΚΑΙ ΖΗΜΙΑ</span>"
+	"dac_turbo_bucket_tip_Poisoner"				"<span class='Poisoner'>ΟΙ ΕΠΙΘΕΣΕΙΣ ΕΦΑΡΜΟΖΟΥΝ ΔΗΛΗΤΗΡΙΟ</span>"
+	"dac_turbo_bucket_tip_Magus"				"<span class='Magus'>ΑΠΟΦΕΥΓΕΙ ΕΠΙΘΕΣΕΙΣ ΜΙΑ ΦΟΡΑ ΑΝΑ ΜΑΧΗ</span>"
+
+
 	"dac_status_stunned"                        "Σάστισμα"
 	"dac_status_hexed"                          "Μεταμορφώθηκε"
 	"dac_status_muted"                          "Αχρήστευση"
@@ -4945,31 +5176,51 @@
 	"DAC_DevRandomBot"			"[DEV] Σκοτώστε 1 Bot"
 	"DAC_DevKillSelf"			"[DEV] Σκοτώστε εαυτό"
 
-	"DAC_Weekly_Headline"						"Funny Headline!"
-	"DAC_Weekly_SubHeadline"					"Pithy Subhead that expands on headline joke and makes everyone laugh"
-	"DAC_Weekly_NoActiveChallengeHeader"		"Check back next week!"
-	"DAC_Weekly_ChallengesComplete"				"{i:weeklyChallengesCompleted}/{i:weeklyChallengesRequired} Challenges Complete"
-	"DAC_Weekly_Claim"							"Claim"
-	"DAC_Weekly_WeeklyChallenges"				"Weekly Challenges"
-	"DAC_Weekly_TimeRemaining"					"Expires in {i:days_left}D {i:hours_left}H {i:minutes_left}M"
-	"DAC_Weekly_TimeRemainingDays"				"{i:days_left} days remaining"
-	"DAC_Weekly_TimeRemainingHours"				"{i:hours_left} hours remaining"
-	"DAC_Weekly_TimeRemainingMinutes"			"{i:minutes_left} minutes remaining"
-	"DAC_Weekly_Puzzle_Desc"					"Some very cool words setting up this super sneaky puzzle involving the week's theme story."
-	"DAC_Weekly_StreetFight_Desc"				"Some more neato words setting up this really exciting streetfight, also themed around the week's story."
-	"DAC_Weekly_Fight"							"Fight!"
-	"DAC_Weekly_StreetFight"					"StreetFight!"
-	"DAC_Weekly_Objective"						"Objective!"
-	"DAC_Weekly_Puzzle"							"Puzzle!"
-	"DAC_Weekly_Arcade"							"Ye Olde Arcade"
-	"DAC_Weekly_NonogramTitle"					"Weekly Headscratcher"
-	"DAC_Weekly_NonogramDesc"					"Your aim in this puzzle is to figure out where there are filled and empty squares. Beside each row and column of the grid are listed the lengths of the runs of filled squares. These numbers tell you the runs of filled squares in that row/column. So, if you see '7 2', that tells you that there will be a run of exactly 7 filled squares, followed by one or more empty squares, followed by 2 filled squares.\n\nFill in a square by clicking it, mark it empty by clicking it again, and clear it by clicking a third time."
-	"DAC_Weekly_CourierStatsTitle"				"Courier Race Results"
+	"DAC_Weekly_LastWeek"						"ΠΡΟΗΓ. ΤΕΥΧΟΣ"
+	"DAC_Weekly_NextWeek"						"ΕΠΟΜ. ΤΕΥΧΟΣ"
 
-	"DAC_Start_Courier_PlaceBet"				"Place your bets!"
-	"DAC_Start_Courier_StartRace"				"Start the race!"
-	"DAC_Start_Courier_NewRace"					"You Won <img class='goldcoin'/> {i:last_payout}!  Race Again?"
-	"DAC_Start_Courier_Race_InProgress"			"And they're off!"
+	"DAC_Weekly_Headline"						"ΑΣΤΕΙΑ ΕΠΙΚΕΦΑΛΙΔΑ!"
+	"DAC_Weekly_SubHeadline"					"ΥΠΟΤΙΤΛΟΣ ΠΟΥ ΕΠΕΚΤΕΙΝΕΙ ΤΟ ΑΣΤΕΙΟ ΕΠΙΚΕΦΑΛΙΔΑΣ ΚΑΙ ΚΑΝΕΙ ΤΟΥΣ ΠΑΝΤΕΣ ΝΑ ΓΕΛΟΥΝ"
+	"DAC_Weekly_NoActiveChallengeHeader"		"ΤΙΠΟΤΑ ΝΕΟ ΕΔΩ, ΑΛΛΑ ΠΗΓΑΙΝΕΤΕ ΠΙΣΩ ΚΑΙ ΠΑΡΤΕ ΤΙΣ ΑΝΤΑΜΟΙΒΕΣ ΠΟΥ ΧΑΣΑΤΕ!"
+	"DAC_Weekly_ChallengesComplete"				"ΟΛΟΚΛΗΡΩΘΗΚΑΝ {i:weeklyChallengesCompleted}/{i:weeklyChallengesRequired} ΠΡΟΚΛΗΣΕΙΣ"
+	"DAC_Weekly_Claim"							"ΑΠΟΚΤΗΣΗ"
+	"DAC_Weekly_WeeklyChallenges"				"ΕΒΔΟΜΑΔΙΑΙΕΣ ΠΡΟΚΛΗΣΕΙΣ"
+	"DAC_Weekly_TimeRemaining"					"ΛΗΓΕΙ ΣΕ {i:days_left}Η {i:hours_left}Ω {i:minutes_left}Λ"
+	"DAC_Weekly_TimeRemainingDays"				"ΑΠΟΜΕΝΟΥΝ {i:days_left}"
+	"DAC_Weekly_TimeRemainingHours"				"ΑΠΟΜΕΝΟΥΝ {i:hours_left}"
+	"DAC_Weekly_TimeRemainingMinutes"			"ΑΠΟΜΕΝΟΥΝ {i:minutes_left}"
+	"DAC_Weekly_Puzzle_Desc"					"Μερικές πολύ κουλ λέξεις για το σούπερ γρίφο που περιλαμβάνει το εβδομαδιαίο θέμα ιστορίας."
+	"DAC_Weekly_StreetFight_Desc"				"Μερικές πιο κουλ λέξεις για τη πολύ συναρπατστική μάχηδ δρόμου, επίσης γύρω από το εβδομαδιαίο θέμα ιστορίας."
+	"DAC_Weekly_Fight"							"ΠΟΛΕΜΗΣΤΕ!"
+	"DAC_Weekly_StreetFight"					"ΜΑΧΗ ΔΡΟΜΟΥ!"
+	"DAC_Weekly_Objective"						"ΑΠΟΣΤΟΛΗ!"
+	"DAC_Weekly_Puzzle"							"ΓΡΙΦΟΣ!"
+	"DAC_Weekly_Arcade"							"Η ΠΑΛΙΑ ΣΤΟΑ"
+	"DAC_Weekly_NonogramTitle"					"ΕΒΔΟΜ. ΣΠΑΖΟΚΕΦΑΛΙΑ"
+	"DAC_Weekly_NonogramDesc"					"Ο σκοπός σας σε αυτόν τον γρίφο είναι να βρείτε πού είναι γεμάτα και πού άδεια κελιά. Δίπλα από κάθε γραμμή και στήλη του πλέγματος είναι γραμμένα τα μήκη των γεμάτων κελιών. Αυτοί οι αριθμοί σας λένε το μήκος των γεμάτων τετραγώνων σε αυτή τη γραμμή/στήλη. Οπότε, αν βλέπετε «7 2», αυτό σας λέει ότι υπάρχει μια γραμμή ακριβώς 7 γεμάτων τετραγώνων, ακολουθούμενη από ένα ή περισσότερα κενά, ακολουθούμενα από 2 γεμάτα τετράγωνα.\n\nΓεμίστε ένα τετράγωνο πατώντας το, σημειώστε το ως κενό πατώντας το ξανά και καθαρίστε το πατώντας για τρίτη φορά."
+	"DAC_Weekly_NonogramHint"					"ΒΟΗΘΕΙΑ: {s:nonogram_hint}"	
+	"DAC_Weekly_NonogramHeader_1"				"ΤΙ ΘΕΛΕΙΣ ΣΤΗΝ ΤΑΦΟΠΛΑΚΑ ΣΟΥ;"
+	"DAC_Weekly_NonogramHeader_2"				"ΠΡΟΣΕΧΕ ΜΗΝ ΠΙΑΣΤΕΙΣ"
+	"DAC_Weekly_NonogramHeader_3"				"ΤΣΟΥΧΤΕΡΟ ΤΣΙΜΠΗΜΑ"
+	"DAC_Weekly_NonogramHeader_4"				"ΣΚΟΥΠΙΔΟΠΑΝΤΑ"
+	"DAC_Weekly_NonogramHeader_5"				"ΧΤΥΠΑ ΠΡΩΤΟΣ, ΧΤΥΠΑ ΓΕΡΑ"
+	"DAC_Weekly_NonogramHeader_6"				"ΠΑΝΤΑ ΝΑ ΚΑΝΕΙΣ ΤΗΝ ΤΕΛΙΚΗ ΕΠΙΘΕΣΗ"
+	"DAC_Weekly_NonogramHeader_7"				"ΠΑΠΠΑΣ ΤΟΥ ΛΟΙΜΟΥ"
+	"DAC_Weekly_NonogramHeader_8"				"ΔΙΑΒΟΛΟΣ ΣΤΙΣ ΛΕΠΤΟΜΕΡΕΙΕΣ"
+	"DAC_Weekly_NonogramHeader_9"				"ΚΤΗΝΩΔΗΣ ΟΜΑΔΑ"
+	"DAC_Weekly_NonogramHeader_10"				"ΧΛΟΕΡΗ ΑΜΦΙΕΣΗ"
+	"DAC_Weekly_NonogramHeader_11"				"ΚΑΥΤΕΡΟΣ"
+	"DAC_Weekly_NonogramHeader_12"				"ΜΠΑΛΤΑΣ"
+	"DAC_Weekly_NonogramHeader_13"				"ΤΕΛΕΥΤΑΙΑ ΓΡΑΜΜΗ ΦΡΑΧΤΗ"
+	"DAC_Weekly_NonogramHeader_14"				"Η ΠΙΟ ΚΑΥΤΗ ΑΔΕΡΦΗ"
+
+	"DAC_Weekly_CourierStatsTitle"				"ΑΠΟΤΕΛΕΣΜΑΤΑ ΜΕΤΑΦΟΡΟΔΡΟΜΙΑΣ"
+	"DAC_Weekly_Expired"						"Έληξε"
+
+	"DAC_Start_Courier_PlaceBet"				"ΠΟΝΤΑΡΕΤΕ!"
+	"DAC_Start_Courier_StartRace"				"ΞΕΚΙΝΗΣΤΕ ΤΟΝ ΑΓΩΝΑ!"
+	"DAC_Start_Courier_NewRace"					"ΚΕΡΔΙΣΑΤΕ <img class='goldcoin'/> {i:last_payout}!  ΝΕΟΣ ΑΓΩΝΑΣ;"
+	"DAC_Start_Courier_Race_InProgress"			"ΚΑΙ ΞΕΚΙΝΗΣΑΝ!"
 
 	"DAC_CC_Bounty_Title"						"Αμοιβή:"
 	"DAC_CC_MostWanted_Title"					"ΚΑΤΑΖΗΤΟΥΜΕΝΟΣ"
@@ -4983,7 +5234,7 @@
 	"DAC_CC_New_Item"							"ΝΕΟ!"
 	"DAC_CC_Key_Tooltip"						"Χρησιμοποιήστε ένα «Κλειδί της Πόλης» για να παρακάμψετε μια πρόκληση City Crawl και να συνεχίσετε στο χάρτη. Τα κλειδιά μπορούν να χρησιμοποιηθούν μόνο μία φορά, οπότε επιλέξτε προσεκτικά."
 	"DAC_CC_Locked_Content_Title"				"ΚΛΕΙΔΩΜΕΝΗ ΠΡΟΚΛΗΣΗ"
-	"DAC_CC_Locked_Content_Desc"				"Ξεκλειδώστε το πάσο μάχης Σεζόν Ένα για να αποκτήσετε πρόσβαση σε όλο το City Crawl, καθώς και πάνω από 100 ειδικές ανταμοιβές στη γραμμή ανταμοιβών πάσου μάχης."
+	"DAC_CC_Locked_Content_Desc"				"Ξεκλειδώστε το πάσο μάχης για να αποκτήσετε πρόσβαση σε όλο το City Crawl, καθώς και πάνω από 100 ειδικές ανταμοιβές στη γραμμή ανταμοιβών πάσου μάχης."
 	"DAC_CC_TakeOverWhiteSpire"					"ΚΑΤΑΛΗΨΗ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
 	"DAC_CC_BeginPrestige"						"ΑΝΑΚΑΤΑΛΑΒΕΤΕ ΤΗΝ ΠΟΛΗ"
 	"DAC_CC_DistrictCompleted"					"Συνοικία ολοκληρώθηκε"
@@ -5015,7 +5266,7 @@
 	"DAC_CC_Intro_StreetFight_Title"			"Μάχη δρόμου"
 	"DAC_CC_Intro_StreetFight_Desc"				"Πολεμήστε σώμα με σώμα ενάντιον μιας εχθρικής συμμορίας σε μια γρήγορη μάχη για να καταλάβετε την περιοχή τους."
 	"DAC_CC_Intro_BattlePass_Title"				"ΠΑΣΟ ΜΑΧΗΣ"
-	"DAC_CC_Intro_BattlePass_Desc"				"Οι premium προκλήσεις μπορούν να ξεκλειδωθούν με την αγορά του πάσου μάχης της σεζόν ένα."
+	"DAC_CC_Intro_BattlePass_Desc"				"Οι premium προκλήσεις μπορούν να ξεκλειδωθούν με την αγορά του πάσου μάχης."
 
 	"DAC_CC_ChallengeType_Intro"					"Εισαγωγή"
 	"DAC_CC_ChallengeType_Objective"				"Αποστολή"
@@ -5170,8 +5421,8 @@
 	"DAC_Challenge_Streetfight_scaled_slark_BotDesc"		"αχρησιμοποίητη περιγραφή για Graveyard Troll"
 	"DAC_Challenge_Streetfight_scaled_slark_Lore"			"Ο Slark και οι φίλοι του από τον Σκοτεινό Ύφαλο ξεκίνησαν να μπουκάρουν στη Νέα Τενύβρη. Αν δεν αντιμετωπιστούν γρήγορα θα αποκτήσουν ένα προπύργιο."
 	"DAC_Challenge_Streetfight_scaled_slark_Quote"			"Δε ξέρω αν είναι υπό τις διαταγές του Jull ή αν ο Slark λειτουργεί μόνος του - αλλά δε θα παραδώσω ούτε ίντσα περιοχής σε αυτόν τον λεπιδωτό μπάσταρδο. - <i>όπου ο Hobgen αντιδρά σε μια νέα απειλή</i>"
-	"DAC_Challenge_Streetfight_scaled_slark_Win"			"Hobgen unintentionally stands for law and order by killing escaped convicts"
-	"DAC_Challenge_Streetfight_scaled_slark_Lose"			"Darkreef escapees beat the hell out Hobgen"
+	"DAC_Challenge_Streetfight_scaled_slark_Win"			"Ο HOBGEN ΑΚΟΥΣΙΑ ΣΤΗΡΙΖΕΙ ΝΟΜΟ ΚΑΙ ΤΑΞΗ ΣΚΟΤΩΝΟΝΤΑΣ ΚΑΤΑΔΙΚΟΥΣ ΠΟΥ ΕΙΧΑΝ ΞΕΦΥΓΕΙ"
+	"DAC_Challenge_Streetfight_scaled_slark_Lose"			"ΔΡΑΠΕΤΕΣ ΑΠΟ ΣΚΟΤΕΙΝΟ ΥΦΑΛΟ ΣΠΑΝΕ ΣΤΟ ΞΥΛΟ ΤΟΝ HOBGEN"
 	
 	
 	
@@ -5188,8 +5439,8 @@
 	"DAC_Challenge_Streetfight_thunderhides_BotDesc"			"είναι σπασμένο εδώ;"
 	"DAC_Challenge_Streetfight_thunderhides_Lore"				"Το γεγονός που ο Grek διατηρεί ένα μεγάλο θηριοτροφείο για τα σόου του οδηγεί πάντα σε συναρπαστικά θεάματα. Επίσης οδηγεί σε πιθανή καταστροφή αν σπάσει ένα κλουβί."
 	"DAC_Challenge_Streetfight_thunderhides_Quote"				"Τα καταραμένα κεραυνοτόμαρα του Grek ξέφυγαν από το κλουβί τους - πρέπει να τα πιάσουμε πριν ισοπεδώσουν όλη τη Νέα Τενύβρη. - <i>Hobgen, ερασιτέχνης καουμπόι</i>"
-	"DAC_Challenge_Streetfight_thunderhides_Win"				"Hobgen wrangles escaped thunderhides, consideres starting own menagerie"
-	"DAC_Challenge_Streetfight_thunderhides_Lose"				"Hobgen saw the Thunderhide.  And the Thunderhide saw him."	
+	"DAC_Challenge_Streetfight_thunderhides_Win"				"Ο HOBGEN ΠΙΑΝΕΙ ΚΕΡΑΥΝΟΤΟΜΑΡΑ ΠΟΥ ΞΕΦΥΓΑΝ, ΣΚΕΦΤΕΤΑΙ ΝΑ ΑΝΟΙΞΕΙ ΔΙΚΟ ΤΟΥ ΘΗΡΙΟΤΡΟΦΕΙΟ"
+	"DAC_Challenge_Streetfight_thunderhides_Lose"				"Ο HOBGEN ΕΙΔΕ ΤΟ ΚΕΡΑΥΝΟΤΟΜΑΡΟ. ΚΑΙ ΤΟ ΚΕΡΑΥΝΟΤΟΜΑΡΟ ΕΙΔΕ ΑΥΤΟΝ."	
 	
 	"DAC_Challenge_Streetfight_foresters_title"				"ΠΥΡΟΠΡΟΣΤΑΣΙΑ"
 	"DAC_Challenge_Streetfight_foresters_Bot"				"ΟΙΚΟΛΟΓΟΙ"
@@ -5779,9 +6030,9 @@
 	"DAC_Challenge_AnessixWinWithHumans_quote"                               		"Οι άνθρωποι της Λευκής Σπείρας έμαθαν το όνομα μου και στρέφονται σε μένα για δύναμη. Με κάθε μέρα που περνάει οι λάτρεις μου πληθαίνουν και μαζί με αυτό και η επιρροή μου. - <i>Anessix, έχει αυτό που χρειάζεσαι</i>"
 
 	
-	"DAC_Challenge_AnessixSummonEidolons_title"                           	   		"ΜΗΤΕΡΑ ΕΙΔΩΛΩΝ"
-	"DAC_Challenge_AnessixSummonEidolons_lore"                            	   		"Μερικοί δειλιάζουν μπροστά στη δύναμη των Πρωταρχικών Δυνάμεων... αλλά η Anessix ζητά να περπατάει να μαζί τους μέχρι να μπορεί να καρφώσει ένα μαχαίρι στην πλάτη τους."
-	"DAC_Challenge_AnessixSummonEidolons_quote"                           	   		"Οι αρχέγονες δυνάμεις πράττουν σαν να είναι υπέρτερες, αλλά δεν μπορούν να ελεγχθούν όσο πρόθυμα όσο κάποιο θνητό πλάσμα... το μόνο που χρειάζεται να ανακαλύψεις είναι αυτό που θέλουν... μετά από αυτό είναι εξαιρετικά εύκολο να τους χειραγωγήσεις. - <i>όπου η Anessix εκδηλώνει γυμνή περιφρόνηση</i>"
+	"DAC_Challenge_AnessixSummonEidolons_title"                           	   		"ΥΨΩΣΤΕ ΕΝΑ ΠΟΤΗΡΙ"
+	"DAC_Challenge_AnessixSummonEidolons_lore"                            	   		"Οι εμφανίσεις έχουν σπουδαία σημασία για την Anessix. Ακόμα και έτσι, όταν κάποιοι από τους αριστοκράτες της Λευκής Σπείρας την χλεύασαν γιατί είχε δαιμονικό αίμα, επέλεξε να τους δηλητηριάσει σαν μια ευγενή κυρία αντί να τους κατακρεουργήσει σαν το τέρας που έλεγαν πως είναι."
+	"DAC_Challenge_AnessixSummonEidolons_quote"                           	   		"Άλλο ένα εμπόδιο που στέκεται στο δρόμο μου για να ελέγξω τη Λευκή Σπείρα. - <i>όπου η Anessix φέρει καθαρή φιλοδοξία</i>"
 
 		
 	"DAC_Challenge_AnessixBuyDemons_title"                         			"ΕΠΕΝΔΥΟΝΤΑΣ ΣΤΟ ΜΕΛΛΟΝ ΤΗΣ"
@@ -5790,8 +6041,8 @@
 
 	
 	"DAC_Challenge_AnessixDealCritDamage_title"                           		 	"Η ΜΠΙΖΝΑ ΤΩΝ ΔΟΛΟΦΟΝΙΩΝ"
-	"DAC_Challenge_AnessixDealCritDamage_lore"                            		 	"Στην Anessix δεν άρεσε ποτέ να λερώνει τα χέρια της και για αυτό συχνά επιζητά τις υπηρεσίες του Ζαφειρένιου Κύκλου."
-	"DAC_Challenge_AnessixDealCritDamage_quote"                           		 	"Οι δολοφόνοι είναι τρομερά εργαλεία. Φτηνά. Αναλώσιμα. Και ευχάριστα αποτελεσματικά στο να απομακρύνουν ανεπιθύμητους. - <i>Anessix, φίλη του Ζαφειρένιου Κύκλου</i>"
+	"DAC_Challenge_AnessixDealCritDamage_lore"                            		 	"Στην Anessix δεν άρεσε ποτέ να λερώνει τα χέρια της και για αυτό συχνά επιζητά τις υπηρεσίες του Ιάσπη Κύκλου."
+	"DAC_Challenge_AnessixDealCritDamage_quote"                           		 	"Οι δολοφόνοι είναι τρομερά εργαλεία. Φτηνά. Αναλώσιμα. Και ευχάριστα αποτελεσματικά στο να απομακρύνουν ανεπιθύμητους. - <i>Anessix, φίλη του Ιάσπη Κύκλου</i>"
 
 	
 	"DAC_Challenge_AnessixKillDemons_title"                              			"ΚΑΜΙΑ ΤΙΜΗ ΜΕΤΑΞΥ ΔΑΙΜΟΝΩΝ"
@@ -5819,7 +6070,7 @@
 
 	
 	// Enno S1 Objectives
-	"DAC_Challenge_EnnoWinWithHunters_Desc"			"Κερδίστε {s:threshold} γύρους με μια ενεργή συμμαχία <span class='Hunter'>Κυνηγών</span>"
+	"DAC_Challenge_EnnoWinWithHunters_Desc"			"Κερδίστε {s:threshold} γύρους με μια ενεργή συμμαχία Κυνηγών"
 	"DAC_Challenge_EnnoWinWithHunters_title"		"ΠΕΡΙΠΟΛΩΝΤΑΣ ΤΟΥΣ ΔΡΟΜΟΥΣ"
 	"DAC_Challenge_EnnoWinWithHunters_lore"			"Ο Enno δεν είναι κάποιος που του αρέσει να αράζει, στον ελεύθερό του χρόνο περιπολεί τον Λαβύρινθο, αναζητώντας ανεπιθύμητους επισκέπτες."
 	"DAC_Challenge_EnnoWinWithHunters_quote"		"Όπου ο Enno εξηγεί τι θα κάνει στους παραβάτες με εξονυχιστικές λεπτομέρειες."
@@ -5850,7 +6101,7 @@
 	"DAC_Challenge_EnnoStunUnits_lore"				"Ας κάνουμε κάτι απόλυτα ξεκάθαρο: Ο Enno είναι σωστός μπασταρδάκος και θέλει ο κόσμος να το ξέρει."
 	"DAC_Challenge_EnnoStunUnits_quote"				"Όπου ο Enno κοιτάει πώς να διαλύσει τους αντιπάλους του κομμάτι κομμάτι."
 	
-	"DAC_Challenge_EnnoBruteDebuff_Desc"			"Εφαρμόστε την απομείωση από τα <span class='Brute'>Κτήνη</span> σε {s:threshold} μονάδες"
+	"DAC_Challenge_EnnoBruteDebuff_Desc"			"Εφαρμόστε την απομείωση από τα Κτήνη σε {s:threshold} μονάδες"
 	"DAC_Challenge_EnnoBruteDebuff_title"			"ΔΑΓΚΩΜΑΤΙΕΣ ΣΤΟΝ ΑΣΤΡΑΓΑΛΟ"
 	"DAC_Challenge_EnnoBruteDebuff_lore"			"Ο Enno καταλαβαίνει ότι ο φόβος είναι αυτό που κρατάει τον κόσμο έξω από τον Λαβύρινθο, οπότε κάνει ότι μπορεί για να τον καλλιεργήσει."
 	"DAC_Challenge_EnnoBruteDebuff_quote"			"Όπου ο Enno δηλώνει ότι κανένας δεν είναι ασφαλής σε αυτούς τους δρόμους."
@@ -5860,10 +6111,10 @@
 	"DAC_Challenge_EnnoTop4_lore"	"Δεν είναι μυστικό ότι από τους 4 επικρατώντες Underlord, ο Enno είναι το μαύρο πρόβατο. Δεν έχει επιχειρηματικά συμφέροντα. Δεν έχει δαιμονικούς συμμάχους. Δεν ήταν ποτέ το δεξί χέρι της Momma Eeb. Δε θα ήταν υπερβολή να πει κανείς πως ο Enno νιώθει ότι έχει κάτι να αποδείξει."
 	"DAC_Challenge_EnnoTop4_quote"  "Όπου ο Enno ασπάζεται την αγάπη του για λαμπερά πράγματα"
 	
-	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"Προκαλέστε {s:threshold} ζημιά με <span class='Ogre'>Αιμοδέσμιες</span> μονάδες"
-	"DAC_Challenge_EnnoDealDamageBloodbound_title"	"ΣΤΗΡΙΓΜΑ ΤΟΥ ΜΙΚΡΟΥ"
-	"DAC_Challenge_EnnoDealDamageBloodbound_lore"	"Ο Enno πάντα αναζητεί να αποδείξει στον κόσμο ότι το μέγεθος δεν μετράει."
-	"DAC_Challenge_EnnoDealDamageBloodbound_quote"	"Όπου ο Enno δηλώνει ότι τίποτα δεν είναι πιο ικανοποιητικό από το να σκοτώνει αυτούς που τον υποτιμούν."
+	"DAC_Challenge_EnnoDealDamageBloodbound_Desc"	"Προκαλέστε {s:threshold} ζημιά με Έκπτωτες μονάδες"
+	"DAC_Challenge_EnnoDealDamageBloodbound_title"	"ΜΙΑ ΑΜΕΙΛΙΚΤΗ ΔΙΑΘΕΣΗ"
+	"DAC_Challenge_EnnoDealDamageBloodbound_lore"	"Ο Enno πάντα έλεγε ότι του αρέσει να περικυκλώνεται με μια διάθεση «Ποτέ μη λες θα πεθάνω»"
+	"DAC_Challenge_EnnoDealDamageBloodbound_quote"	"Όπου ο αρχικονόμος του Enno, YipYip, παίρνει τα λόγια του άρχοντά του κυριολεκτικά."
 
 	"DAC_Challenge_EnnoSpendGoldLeveling_Desc"		"Ξοδέψτε {s:threshold} χρυσό αγοράζοντας εμπειρία"
 	"DAC_Challenge_EnnoSpendGoldLeveling_title"	"ΝΑ ΘΥΜΑΣΑΙ ΤΟ ΟΝΟΜΑ"
@@ -5875,8 +6126,8 @@
 	"DAC_Challenge_EnnoBuy5CostUnits_lore" "Τα στρεβλόμενα στενάκια του Λαβύρινθου δίνουν σε επιχειρηματικά άτομα άφθονες ευκαιρίες να στήσουν μια ενέδρα."
 	"DAC_Challenge_EnnoBuy5CostUnits_quote" "Όπου ο Enno σχεδιάζει να χρησιμοποιήσει τους δρόμους προς όφελός του."
 
-	"DAC_Challenge_EnnoWinWithInsect_Desc"			"Κερδίστε {s:threshold} γύρους με μια ενεργή συμμαχία <span class='Insect'>Εντόμων</span>"
-	"DAC_Challenge_EnnoWinWithInsect_title" "ΕΝΤΟΜΟΠΡΟΒΛΗΜΑΤΑ"
+	"DAC_Challenge_EnnoWinWithInsect_Desc"			"Κερδίστε {s:threshold} γύρους με μια ενεργή συμμαχία Ξιφομάχων"
+	"DAC_Challenge_EnnoWinWithInsect_title" "ΞΙΦΟΜΑΧΙΑ ΣΤΟΥΣ ΔΡΟΜΟΥΣ"
 	"DAC_Challenge_EnnoWinWithInsect_lore"	"Τα στρεβλόμενα στενάκια του Λαβύρινθου δίνουν σε επιχειρηματικά άτομα άφθονες ευκαιρίες να στήσουν μια ενέδρα."
 	"DAC_Challenge_EnnoWinWithInsect_quote" "Όπου ο Enno σχεδιάζει να χρησιμοποιήσει τους δρόμους προς όφελός του."
 
@@ -5943,10 +6194,10 @@
 	"DAC_Challenge_Streetfight_assassins_enno_Title"		"ΡΟΥΤΙΝΑ ΔΟΛΟΦΟΝΩΝ"
 	"DAC_Challenge_Streetfight_assassins_enno_Bot"		"Δολοφόνοι"
 	"DAC_Challenge_Streetfight_assassins_enno_BotDesc"		"assassins_enno Desc"
-	"DAC_Challenge_Streetfight_assassins_enno_Lore"		"Ο Ζαφειρένιος Κύκλος έχει ασφαλή σπίτια διασκορπισμένα σε όλη την πόλη που νοικιάζουν σε κακοποιούς που ψάχνουν να κρυφτούν... όμως τα ασφαλή σπίτια γίνονται λιγότερο ασφαλή όταν ανακαλυφθούν"
-	"DAC_Challenge_Streetfight_assassins_enno_Quote"		"Όπου ο Enno θέλει να πληρώνουν νοίκι σε αυτόν, όχι στον Ζαφειρένιο Κύκλο"
-	"DAC_Challenge_Streetfight_assassins_enno_Win"		"ΑΣΦΑΛΕΣ ΚΤΗΡΙΟ ΤΟΥ ΖΑΦΕΙΡΕΝΙΟΥ ΚΥΚΛΟΥ ΚΑΤΑΣΤΡΑΦΗΚΕ ΑΠΟ ΤΟΝ ENNO. Ο LORLIN LASAN ΦΑΝΕΡΑ ΕΝΟΧΛΗΜΕΝΟΣ"
-	"DAC_Challenge_Streetfight_assassins_enno_Lose"		"Ο LORLIN LASAN ΒΕΒΑΙΩΝΕΙ ΤΟΥΣ ΠΕΛΑΤΕΣ ΤΟΥ ΟΤΙ Ο ΖΑΦΕΙΡΕΝΙΟΣ ΚΥΚΛΟΣ ΔΕΝ ΕΧΕΙ ΠΡΟΒΛΗΜΑΤΑ ΛΕΙΤΟΥΡΓΙΑΣ ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
+	"DAC_Challenge_Streetfight_assassins_enno_Lore"		"Ο Ιάσπης Κύκλος έχει ασφαλή σπίτια διασκορπισμένα σε όλη την πόλη που νοικιάζουν σε κακοποιούς που ψάχνουν να κρυφτούν... όμως τα ασφαλή σπίτια γίνονται λιγότερο ασφαλή όταν ανακαλυφθούν"
+	"DAC_Challenge_Streetfight_assassins_enno_Quote"		"Όπου ο Enno θέλει να πληρώνουν νοίκι σε αυτόν, όχι στον Ιάσπη Κύκλο"
+	"DAC_Challenge_Streetfight_assassins_enno_Win"		"ΑΣΦΑΛΕΣ ΚΤΗΡΙΟ ΤΟΥ ΙΑΣΠΗ ΚΥΚΛΟΥ ΚΑΤΑΣΤΡΑΦΗΚΕ ΑΠΟ ΤΟΝ ENNO. Ο LORLIN LASAN ΦΑΝΕΡΑ ΕΝΟΧΛΗΜΕΝΟΣ"
+	"DAC_Challenge_Streetfight_assassins_enno_Lose"		"Ο LORLIN LASAN ΒΕΒΑΙΩΝΕΙ ΤΟΥΣ ΠΕΛΑΤΕΣ ΤΟΥ ΟΤΙ Ο ΙΑΣΠΗΣ ΚΥΚΛΟΣ ΔΕΝ ΕΧΕΙ ΠΡΟΒΛΗΜΑΤΑ ΛΕΙΤΟΥΡΓΙΑΣ ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
 
 
 	"DAC_Challenge_Streetfight_street_healers_enno_Title"		"ΚΑΡΑΝΤΙΝΑ"
@@ -6028,7 +6279,7 @@
 	"DAC_Challenge_Streetfight_scaled_slark_enno_BotDesc"		"scaled_slark_enno Desc"
 	"DAC_Challenge_Streetfight_scaled_slark_enno_Lore"		"Ο Enno έχει 2 χόμπι. Να ληστεύει τουρίστες και να κάνει τη ζωή του Jull κόλαση."
 	"DAC_Challenge_Streetfight_scaled_slark_enno_Quote"		"Όπου ο Enno ασπάζεται το μίσος του για τον Jull"
-	"DAC_Challenge_Streetfight_scaled_slark_enno_Win"		"Enno continues to be a thorn in Jull's side by disrupting Dark Reef bootleggers"
+	"DAC_Challenge_Streetfight_scaled_slark_enno_Win"		"Ο ENNO ΣΥΝΕΧΙΖΕΙ ΝΑ ΕΙΝΑΙ ΑΓΚΑΘΙ ΣΤΟ ΠΛΕΥΡΟ ΤΟΥ JULL ΥΠΟΝΟΜΕΥΟΝΤΑΣ ΤΟΥΣ ΛΑΘΡΕΜΠΟΡΟΥΣ ΤΟΥ ΣΚΟΤΕΙΝΟΥ ΥΦΑΛΟΥ"
 	"DAC_Challenge_Streetfight_scaled_slark_enno_Lose"		"ΤΕΡΑΣΤΙΑ ΑΠΟΤΥΧΙΑ ΤΟ ΧΤΥΠΗΜΑ ΤΟΥ ENNO ΣΤΟΝ JULL"
 
 
@@ -6079,271 +6330,291 @@
 
 
 	// Weekly challenge	#1
-	"DAC_Challenge_weekly_challenge_0_Headline"						"COMING SOON!"
+	"DAC_Challenge_weekly_challenge_0_Headline"						"ΠΡΟΣΕΧΩΣ!"
 
-	"DAC_Challenge_weekly_challenge_1_Headline"						"STALK MARKET CLASH!"
-	"DAC_Challenge_weekly_challenge_1_SubHeadline"					"Turnips and blood fly at the White Spire Farmer's Market"
+	"DAC_Challenge_weekly_challenge_1_Headline"						"ΣΥΓΚΡΟΥΣΗ ΣΤΗ ΛΑΧΑΝΑΓΟΡΑ!"
+	"DAC_Challenge_weekly_challenge_1_SubHeadline"					"ΑΙΜΑ ΚΑΙ ΖΑΡΒΑΤΙΚΑ ΣΤΟΝ ΑΕΡΑ ΣΤΗ ΛΑΧΑΝΑΓΟΡΑ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
 
-	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Title"		"Axe and Disruptor Cause Disturbance in the market"
-	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Lore"		"White Spire is no stranger to questionable goods and services, but even by our citys standards, selling Oglodi skin shirts is particularly ghoulish \n(more on page 2\n)"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_Title"			"Tailor Trades Traditions"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_Lore"			"After a disasterous showing at the Farmer's Market, Carl the tailor has decided to abandon Quoidge fashion trends in lieu of more traditional garments.  When asked about the change, Carl said \"I'm just a simple corpse that likes to put a smile on peoples faces.  If that means hiring people to hunt wolves instead of Oglodi, I'm all for it,\" (more on page 6)"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_win"			"Carl decides to make a jacket that doesn't involve human flesh"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_lose"			"Trapping Party Hired by Carl get's mauled outside White Spire"
-	"DAC_Challenge_Streetfight_weekly_street_fight_1_Bot"			"Premature Pelts"
+	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Title"		"Ο AXE ΚΑΙ Ο DISRUPTOR ΠΡΟΚΑΛΟΥΝ ΧΑΜΟ ΣΤΗΝ ΑΓΟΡΑ"
+	"DAC_Challenge_Puzzle_the_customer_is_always_violent_Lore"		"Η Λευκή Σπείρα είναι συνηθισμένη σε αμφισβητήσιμα αγαθά και υπηρεσίες, αλλά ακόμα και με τα στάνταρ της πόλης μας, το να πωλούνται μπλουζάκια από δέρμα Oglodi είναι ιδαιτέρως μακάβριο \n(περισσότερα στη σελίδα 2\n)"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Title"			"ΡΑΦΤΗΣ ΤΙΜΑ ΠΑΡΑΔΟΣΕΙΣ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Lore"			"Μετά από μια καταστροφική εμφάνιση στη Λαχαναγορά, ο Carl ο ράφτης αποφάσισε να παρατήσει τις τάσεις μόδας Quoidge για πιο παραδοσιακά ενδύματα. Όταν ρωτήθηκε για την αλλαγή, ο Carl είπε «Είμαι απλά ένα απλό πτώμα που του αρέσει να βάζει χαμόγελο στα πρόσωπα του κόσμου. Αν αυτό σημαίνει να προσλάβω άτομα να κυνηγούν λύκους αντί για Oglodi, τότε ας έχει» (περισσότερα στη σελίδα 6)"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_win"			"Ο CARL ΑΠΟΦΑΣΙΖΕΙ ΝΑ ΦΤΙΑΞΕΙ ΜΙΑ ΖΑΚΕΤΑ ΠΟΥ ΔΕΝ ΠΕΡΙΛΑΜΒΑΝΕΙ ΑΝΘΡΩΠΙΝΗ ΣΑΡΚΑ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_lose"			"ΟΜΑΔΑ ΚΥΝΗΓΩΝ ΠΟΥ ΠΡΟΣΕΛΑΒΕ Ο CARL ΞΕΣΚΙΖΕΤΑΙ ΕΞΩ ΑΠΟ ΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_1_Bot"			"ΑΓΟΥΡΑ ΤΟΜΑΡΙΑ"
 
-	"DAC_Challenge_Challenge_weekly_challenge_1_Title"				"Wanted: Justice For Carl"
-	"DAC_Challenge_Challenge_weekly_challenge_1_Lore"				"Carl the Tailor was the victim of non-dead prejudice in White Spire, and the good people of Quoidge will not stand for it.  Let it be known that we will be rewarding any individuals that work to progress undead relations in White Spire.\n\n- Reginald Blithe the third, Spokesman of the Cadaver Men."
-	"DAC_Challenge_Challenge_weekly_challenge_1_Instructions"		"Kill 300 units with Heartless heroes"
+	"DAC_Challenge_Challenge_weekly_challenge_1_Title"				"ΖΗΤΕΙΤΑΙ: ΔΙΚΑΙΟΣΥΝΗ ΓΙΑ ΤΟΝ CARL"
+	"DAC_Challenge_Challenge_weekly_challenge_1_Lore"				"Ο Carl ο Ράφτης ήταν το θύμα απέθαντης προκατάληψης στη Λευκή Σπείρα και οι καλοί άνθρωποι του Quoidge δε θα το ανεχτούν. Ας γίνει γνωστό ότι θα ανταμείψουμε όποιον δουλέψει για να προοδεύσει τις σχέσεις των απέθαντων στη Λευκή Σπείρα.\n\n- Reginald Blithe ο τρίτος, εκπρόσωπος των Πτωματένιων."
+	"DAC_Challenge_Challenge_weekly_challenge_1_Instructions"		"Σκοτώστε 300 μονάδες με Άκαρδους ήρωες"
 	
 	// Weekly challenge	#2
-	"DAC_Challenge_weekly_challenge_2_Headline"						"AXE-CITING DAY IN WHITE SPIRE"
-	"DAC_Challenge_weekly_challenge_2_SubHeadline"					"Local Authorities chalk up rise in murders to Axe's vacation in White Spire"
+	"DAC_Challenge_weekly_challenge_2_Headline"						"ΜΕΡΑ ΤΟΥ ΠΕΛΕΚΥ ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
+	"DAC_Challenge_weekly_challenge_2_SubHeadline"					"ΤΟΠΙΚΕΣ ΑΡΧΕΣ ΑΠΟΔΙΔΟΥΝ ΤΗΝ ΑΥΞΗΣΗ ΤΩΝ ΔΟΛΟΦΟΝΙΩΝ ΣΤΙΣ ΔΙΑΚΟΠΕΣ ΤΟΥ AXE ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
 
-	"DAC_Challenge_Puzzle_brutal_book_signing_Title"		"Bad Luck Follows \"The Bad Luck Oglodi\" "
-	"DAC_Challenge_Puzzle_brutal_book_signing_Lore"		"A book signing for Goodkind's new novel, \"The Bad Luck Oglodi\" took a particularly violent turn after someone suggested that Axe wasn't as dangerous as he is presented in the book.  (More on page 2)"
+	"DAC_Challenge_Puzzle_brutal_book_signing_Title"		"ΚΑΚΗ ΤΥΧΗ ΑΚΟΛΟΥΘΕΙ ΤΟΝ ΚΑΚΟΤΥΧΟ OGLODI"
+	"DAC_Challenge_Puzzle_brutal_book_signing_Lore"		"Μια παρουσίαση για τη νέα νουβέλα του Goodkind, «Ο κακότυχος Oglodi» πήρε μια βίαιη στροφή όταν κάποιος υπαινίχθηκε ότι ο Axe δεν ήταν όσο επικίνδυνος όσο παρουσιάζεται στο βιβλίο. (Περισσότερα στη σελίδα 2)"
+	"DAC_Puzzle_RuleDescription_brutal_book_signing"			"Μόνο ο Axe επιτρέπεται να σκοτώσει εχθρούς."
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_2_Title"		"Axe drinks at Sundered Moon, violence ensues"
-	"DAC_Challenge_Streetfight_weekly_street_fight_2_Lore"		"Bar tabs and bodycounts rose last night as Axe's arrival to White Spire gained the attention of would be-tough guys with something to prove... and unfortunately for Jull, these ruffians found themselves at The Sundered Moon. (More on page 6)"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_2_win"				"Jull buries hatchet with Axe, punches people on his behalf"
-	"DAC_Challenge_Streetfight_weekly_street_fight_2_lose"				"Bar Fight in Sundered Moon leaves Jull's establisment in shambles"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Title"		"Ο AXE ΠΙΝΕΙ ΣΤΟ ΡΑΓΙΣΜΕΝΟ ΦΕΓΓΑΡΙ, ΞΕΣΠΑ ΒΙΑ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Lore"		"Λογαριασμοί και πτώματα αυξήθηκαν χθες το βράδυ καθώς ο ερχομός του Axe στη Λευκή Σπείρα τράβηξε την προσοχή επίδοξων σκληρών τύπων με κάτι να αποδείξουν... και δυστυχώς για τον Jull, αυτοί οι ταραχοποιοί βρίσκονταν στο Ραγισμένο Φεγγάρι. (Περισσότερα στη σελίδα 6)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_win"				"Ο JULL ΘΑΒΕΙ ΤΟ ΤΣΕΚΟΥΡΙ ΜΕ ΤΟΝ AXE, ΓΡΟΝΘΟΚΟΠΕΙ ΚΟΣΜΟ ΕΚ ΜΕΡΟΥΣ ΤΟΥ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_lose"				"ΜΑΧΗ ΜΠΑΡ ΣΤΟ ΡΑΓΙΣΜΕΝΟ ΦΕΓΓΑΡΙ ΑΦΗΝΕΙ ΤΗΝ ΕΠΙΧΕΙΡΗΣΗ ΤΟΥ JULL ΣΕ ΕΡΕΙΠΙΑ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_2_Bot"				"ΧΟΥΛΙΓΚΑΝΣ"
 
-	"DAC_Challenge_Challenge_weekly_challenge_2_Title"		"Wanted: People For Axe To Murder"
-	"DAC_Challenge_Challenge_weekly_challenge_2_Lore"		"Stupid people have told Axe that Axe wasn't good at killing but Goodkind was good at embellishment.  Axe will prove both are true. - Axe \n\nPS - buy my book"
+	"DAC_Challenge_Challenge_weekly_challenge_2_Title"			"ΖΗΤΟΥΝΤΑΙ: ΚΟΣΜΟΣ ΓΙΑ ΝΑ ΣΚΟΤΩΣΕΙ Ο AXE ΚΑΙ ΟΙ ΦΙΛΟΙ ΤΟΥ"
+	"DAC_Challenge_Challenge_weekly_challenge_2_Lore"			"Χαζά άτομα είπαν στον Axe ότι ο Axe δεν ήταν καλός στο να σκοτώνει αλλά ο Goodkind ήταν καλός στο να καλωπίζεται.  Ο Axe θα τους δείξει την αλήθεια. - Axe \n\nΥΓ - αγοράστε το βιβλίο μου"
+	"DAC_Challenge_Challenge_weekly_challenge_2_Instructions"	"Κερδίστε 75 γύρους με μια ενεργή συμμαχία από Κτήνη"
 	
 	// Weekly challenge	#3
-	"DAC_Challenge_weekly_challenge_3_Headline"						"Ladies Night!"
-	"DAC_Challenge_weekly_challenge_3_SubHeadline"					"Women of Whitespire paint the town red"
+	"DAC_Challenge_weekly_challenge_3_Headline"						"ΤΟ ΘΗΛΥΚΟ ΤΟΥ ΕΙΔΟΥΣ"
+	"DAC_Challenge_weekly_challenge_3_SubHeadline"					"ΟΙ ΓΥΝΑΙΚΕΣ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ ΒΑΦΟΥΝ ΤΗΝ ΠΟΛΗ ΚΟΚΚΙΝΗ"
 
-	"DAC_Challenge_Puzzle_anessix_and_akasha_Title"					"Anessix and Akasha"
-	"DAC_Challenge_Puzzle_anessix_and_akasha_Lore"						"To call Akasha and Anessix's relationship a friendship is being overly charitable... but when these two demonesses unite behind a common cause they are capable of remarkable things."
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Title"					"ΔΗΘΕΝ ΦΙΛΕΣ ΕΝΩΝΟΝΤΑΙ ΛΟΓΩ ΚΟΙΝΗΣ ΑΠΑΞΙΩΣΗΣ ΓΙΑ ΤΗΝ ΑΝΘΡΩΠΟΤΗΤΑ"
+	"DAC_Challenge_Puzzle_anessix_and_akasha_Lore"					"Είναι ένα από τα χειρότερα κρατημένα μυστικά των δαιμονικών κοινωνιών ότι η Akasha και η Anessix δεν αντέχουν η μία την άλλη.  Ωστόσο φαίνεται ότι η δύο δαιμόνισσες άφησαν τα πισωμαχαιρώματα στο Συμβούλιο του Ristul για να βρουν κοινό στόχο στη Λευκή Σπείρα. (περισσότερα στη σελίδα 3)"
 
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_Title"		"Don't Ask Her To Smile"
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_Bot"		"Catcallers"
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_Lore"		"White Spire has no shortage of boorish men, something that Anessix is keen to deal with."	
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_win"				"Neandrathals whistle at Anessix, immediately regret decision"
-	"DAC_Challenge_Streetfight_weekly_street_fight_3_lose"				"Anessix driven off, quietly plots revenge"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Title"		"Ο ΑΡΙΘΜΟΣ ΠΤΩΜΑΤΩΝ ΑΥΞΑΝΕΙ ΑΦΟΤΟΥ ΜΕΘΥΣΜΕΝΟΙ ΜΠΟΥΦΟΙ ΖΗΤΟΥΝ ΑΠΟ ΤΗΝ ANESSIX ΝΑ ΧΑΜΟΓΕΛΑΕΙ ΠΕΡΙΣΣΟΤΕΡΟ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Bot"		"ΠΕΦΤΟΥΛΕΣ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_Lore"		"Οι περισσότεροι απο εμάς αποφασίζουν να αγνοήσουν τις χυδαίες ασυναρτησίες μεθυσμένων τουριστών που περπατούν στους δρόμους της Λευκής Σπείρας... αλλά η Anessix δεν είναι σαν τους περισσότερους. «Πρώτα όλοι γελούσαν μαζί της» λέει ο Carl ο Ράφτης, «Έπειτα τους ξερίζωνε τις γλώσσες και τότε είπα στον εαυτό μου: Carl.  Νομίζω ότι δε θα έχουν καλή κατάληξη αυτοί οι τύποι» (περισσότερα στη σελίδα 2)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_win"				"ΝΕΑΝΤΕΡΤΑΛ ΣΦΥΡΙΖΟΥΝ ΣΤΗΝ ANESSIX, ΑΜΕΣΩΣ ΜΕΤΑΝΙΩΝΟΥΝ ΑΠΟΦΑΣΗ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_3_lose"				"Η ANESSIX ΑΠΩΘΗΘΗΚΕ, ΚΑΤΑΣΤΡΩΝΕΙ ΣΙΩΠΗΛΑ ΕΚΔΙΚΗΣΗ"
 
-	"DAC_Challenge_Challenge_weekly_challenge_3_Title"		"The Female of the Species"
-	"DAC_Challenge_Challenge_weekly_challenge_3_Lore"		"Never underestimate the women of White Spire"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Title"		"ΖΗΤΟΥΝΤΑΙ: ΑΝΔΡΕΣ ΝΑ ΜΠΟΥΝ ΣΤΗ ΘΕΣΗ ΤΟΥΣ"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Lore"		"Σιχάθηκα να ακούω τα αγόρια στο Ραγισμένο Φεγγάρι να φέρονται λες και είναι οι μόνοι που μπορούν να ρίξουν λίγο ξύλο.  Αν κάποια κυρία θέλει να περάσει και να βάλει αυτούς τους τύπους στη θέση τους θα σιγουρευτώ να κεράσω τα ποτά της. - Connie, διευθύντρια ημέρας στο Ραγισμένο Φεγγάρι"
+	"DAC_Challenge_Challenge_weekly_challenge_3_Instructions"	"Κερδίστε 75 γύρους με τουλάχιστον με μια Ηρωΐδα στην πίστα σας"
+
+	// Weekly challenge	#5
+	"DAC_Challenge_weekly_challenge_5_Headline"						"ΞΕΝΑ ΜΑΤΩΜΕΝΑ ΛΕΦΤΑ"
+	"DAC_Challenge_weekly_challenge_5_SubHeadline"					"ΤΟ ΕΜΠΟΡΙΚΟ ΒΑΣΙΛΕΙΟ ΤΟΥ REVTEL ΣΥΝΕΧΙΣΕΙ ΝΑ ΧΡΗΜΑΤΟΔΟΤΕΙ ΜΑΧΕΣ ΣΥΜΜΟΡΙΩΝ ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
+	"DAC_Puzzle_RuleDescription_Only1Allowed"						"1 αντίγραφο ανά μονάδα το πολύ"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Title"					"ΚΑΘΩΣ Η O'nia ΚΛΕΙΝΕΙ ΠΟΡΤΟΦΟΛΙΑ, ΟΙ Underlord ΠΡΕΠΕΙ ΝΑ ΚΑΝΟΥΝ ΠΕΡΙΣΣΟΤΕΡΑ ΜΕ ΛΙΓΟΤΕΡΑ"
+	"DAC_Challenge_Puzzle_weekly_puzzle_5_Lore"						"Η Geeta η Αερολεπίδα είχε ένα ρητό: «Οι πόλεμοι τελειώνουν επειδή από τον κόσμο λείπουν προμήθειες, όχι η βούληση για μάχη». Οι λέξεις του φημισμένου Άγρυπνου Ιππότη είναι σχετικά σήμερα καθώς η O'nia, ο ακρωγωνιαίος λίθος του δανεισμού χρημάτων στη Λευκή Σπείρα, αποφάσισε να σταματήσει να δανείζει άλλα χρήματα μέχρι να ξεπληρωθούν τα χρέη. (περισσότερα στη σελίδα 2)"
+
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Title"			"ΟΙ Meepo ΤΡΕΧΟΥΝ ΝΑ ΚΡΥΦΤΟΥΝ ΚΑΘΩΣ ΣΠΑΣΤΕΣ ΠΟΔΙΩΝ ΑΠΟ ΤΟ Revtel ΑΝΑΖΗΤΟΥΝ ΝΑ ΣΥΛΛΕΞΟΥΝ ΧΡΕΗ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Bot"			"ΣΠΑΣΤΕΣ ΠΟΔΙΩΝ ΑΠΟ REVTEL"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_Lore"			"Όπως ξέρουν όλοι όσους έχει επισκεφτεί οι Ravenhook, μπορείτε να δανειστείτε λεφτά μόνο μέχρι να έρθουν άτομα να προσπαθήσουν να συλλέξουν τα χρέη. Ωστόσο, αν και κανονικά αυτά τα θέματα κανονίζονται τοπικά, η O'nia αποφάσισε να χειριστεί τα πράγματα με εξωτερικά ταλέντα. (περισσότερα στη σελίδα 6)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_win"			"Ο HOBGEN ΑΠΩΘΕΙ ΟΜΑΔΑ ΜΙΣΘΟΦΟΡΩΝ, ΑΝΑΛΟΓΙΖΕΤΑΙ ΝΑ ΞΕΠΛΗΡΩΣΕΙ ΧΡΕΟΣ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_5_lose"			"ΤΟ REVTEL ΠΡΟΣΛΑΜΒΑΝΕΙ ΣΠΑΣΤΕΣ ΠΟΔΙΩΝ ΝΑ ΒΙΑΙΟΠΡΑΓΗΣΟΥΝ ΣΤΟΝ HOBGEN"
+
+	"DAC_Challenge_Challenge_weekly_challenge_5_Title"				"ΖΗΤΕΙΤΑΙ: ΜΗ ΚΟΜΜΕΝΟΣ ΛΑΙΜΟΣ"
+	"DAC_Challenge_Challenge_weekly_challenge_5_Lore"				"Γεια αγόρια και κορίτσια, ευχαριστώ που διαβάζετε - δε θα μασήσω τα λόγια μου: χρειάζομαι λεφτά. Άσχημα.  Δηλαδή πολύ άσχημα. Όπως «ο Ιάσπης Κύκλος με ψάχνει» άσχημα. Οπότε αν θα μπορούσατε να δανείσατε στο παλιό φιλαράκι σας τον Meepo 250 χρυσό, είμαι σίγουρος ότι θα μπορέσω να τα κάνω 20 χιλιάδες που χρειάζομαι - είναι η σειρά μου να κερδίσω.  - Meepo 4"
+	"DAC_Challenge_Challenge_weekly_challenge_5_Instructions"		"Κερδίστε 250 χρυσό από επιτόκια"
 
 	// Weekly challenge	#4
-	"DAC_Challenge_weekly_challenge_4_Headline"						"Foreign Blood Money"
-	"DAC_Challenge_weekly_challenge_4_SubHeadline"					"The Merchant Kingdom of Revtel Continues to Finance Gang War in White Spire"
+	"DAC_Challenge_weekly_challenge_4_Headline"						"ΝΕΚΡΟΙ ΠΕΡΠΑΤΟΥΝ ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
+	"DAC_Challenge_weekly_challenge_4_SubHeadline"					"Ο ΛΑΒΥΡΙΝΘΟΣ ΓΕΜΑΤΟΣ ΜΕ ΑΠΕΘΑΝΤΟΥΣ ΚΑΘΩΣ ΠΑΛΙΑ ΘΥΜΑΤΑ ΤΟΥ ENNO ΖΗΤΟΥΝ ΕΚΔΙΚΗΣΗ"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_4_Title"					"Tightened Purse Strings"
-	"DAC_Challenge_Puzzle_weekly_puzzle_4_Lore"						"If you are friends with O'nia, she can offer easy access to the wealth of Revtel.  If you fall out of her favor however, you may find money to be tighter than usual."
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Title"					"Ο ΒΑΣΙΛΙΑΣ ΤΟΥ ΛΑΒΥΡΙΝΘΟΥ ΥΠΕΡΑΣΠΙΖΕΤΑΙ ΤΟ ΣΤΕΜΜΑ ΑΠΟ ΤΟΝ LICH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_4_Lore"						"Για αρκετές μέρες ο Lich έψαχνε να διαστρέψει το Λαβύρινθο στο δικό του προσωπικό βασίλειο τρόμου και το μόνο πράγμα που τον κράτησε από το να αρπάξει τη συνοικία ήταν ο πιο διαβόητος τριχωτός αλητάκος της Λευκής Σπείρας. (περισσότερα στη σελίδα 10)"
+	"DAC_Puzzle_RuleDescription_KillLich"							"Σκοτώστε τον Lich για να κερδίσετε."
 
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Title"		"ΣΗΚΩΘΕΙΤΕ ΑΠΟ ΤΟΝ ΤΑΦΟ ΣΑΣ!"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Bot"		"ΑΛΛΑΓΜΕΝΑ ΠΤΩΜΑΤΑ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_Lore"		"Κάθε κάτοικος της Λευκής Σπείρας γνωρίζει ότι οι δρόμοι του Λαβύρινθου είναι γεμάτοι με τα πτώματα αυτών που τόλμησαν να μπουν στο λάθος στενό.  Αλλά τώρα, κάτι σκοτεινό και κακό κάλεσε τους νεκρούς να ξυπνήσουν από τον ύπνο τους (περισσότερα στη σελίδα 2)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_win"				"Ο ENNO ΣΚΟΤΩΝΕΙ ΖΟΜΠΙ, ΕΠΙΣΤΡΕΦΕΙ ΤΟ ΛΑΒΥΡΙΝΘΟ ΣΕ ΒΑΣΙΚΗ ΦΟΝΙΚΟΤΗΤΑ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_4_lose"				"ΝΕΚΡΟΙ ΤΟΥΡΙΣΤΕΣ ΕΚΔΙΚΟΥΝΤΑΙ ΤΟΝ ENNO"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_Title"		"Revtel Collection Crew"
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_Bot"		"Revtel Leg Breakers"
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_Lore"		"Revtel Banks mae borrowing money incredibly easy... and if you default, incredibly dangerous."	
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_win"				"Hobgen Fends Off Mercenary Band, Thinks About Paying Back Debt"
-	"DAC_Challenge_Streetfight_weekly_street_fight_4_lose"				"Revtel Hires Leg Breakers To Brutalize Hobgen"
-
-	"DAC_Challenge_Challenge_weekly_challenge_4_Title"		"Revtel Debts"
-	"DAC_Challenge_Challenge_weekly_challenge_4_Lore"		"Hobgen had been leaning heavily on O'nia to get funds from Revtel to finance his gang war... and the time has come to repay what he owes."
-	
-	// Weekly challenge	#5
-	"DAC_Challenge_weekly_challenge_5_Headline"						"The Dead Walk In White Spire"
-	"DAC_Challenge_weekly_challenge_5_SubHeadline"					"Warrens Overrun With The Undead As Enno's Previous Victims Seek Revenge"
-
-	"DAC_Challenge_Puzzle_weekly_puzzle_5_Title"					"The King Of The Warrens"
-	"DAC_Challenge_Puzzle_weekly_puzzle_5_Lore"						"To Enno, it's important that the city knows that The Warrens are his dominion... and that no one who comes there without his permission is safe, even if they are an undead murder machine."
-
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_Title"		"RISE FROM YOUR GWAVE!"
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_Bot"		"Altered Corpses"
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_Lore"		"The streets of the warrens are littered with the bodies of those who ventured down the wrong alley.  But now, something dark and sinister has called the dead to wake from their slumber."	
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_win"				"Enno Kills Zombies, Returns Warrens To Baseline Leathality"
-	"DAC_Challenge_Streetfight_weekly_street_fight_5_lose"				"Dead Tourists Get Their Revenge On Enno"
-
-	"DAC_Challenge_Challenge_weekly_challenge_5_Title"		"Intimidation Game"
-	"DAC_Challenge_Challenge_weekly_challenge_5_Lore"		"Some think that the undead outbreak has weakened Enno's position, and he intends to prove them wrong."
+	"DAC_Challenge_Challenge_weekly_challenge_4_Title"		"ΖΗΤΕΙΤΑΙ: ΑΣΤΙΚΗ ΠΕΡΗΦΑΝΕΙΑ"
+	"DAC_Challenge_Challenge_weekly_challenge_4_Lore"		"Υπάρχουν πολλοί σκληροί μπάσταρδοι που τρέχουν τριγύρω σε αυτή την πόλη και είναι ώρα να γίνει κάτι για αυτό.  Η Tenayin ψάχνει για άτομα να σταθούν μαζί της για να κάνουν τη Λευκή Σπείρα την πόλη που ξέρουμε ότι μπορεί να γίνει! ΠΛΗΡΩΜΕΝΗ ΔΙΑΦΗΜΙΣΗ ΑΠΟ «ΦΙΛΟΙ ΤΗΣ TENAYIN»"
+	"DAC_Challenge_Challenge_weekly_challenge_4_Instructions"	"Σκοτώστε 300 Άκαρδους"
 	
 	// Weekly challenge	#6
-	"DAC_Challenge_weekly_challenge_6_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_6_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_6_Headline"						"ΑΣΧΗΜΗ ΠΡΟΣΑΡΑΞΗ"
+	"DAC_Challenge_weekly_challenge_6_SubHeadline"					"Η Φρουρά της πόλης πιέζει την επιχείρηση λαθρεμπορίου του Jull."
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_6_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_6_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Title"					"ΑΝΑΜΕΤΡΗΣΗ ΣΤΟ ΛΙΜΑΝΙ"
+	"DAC_Challenge_Puzzle_weekly_puzzle_6_Lore"						"Αργά χθες το βράδυ, μια αιφνιδιαστική ενέδρα στο λιμάνια έγινε βίαιη καθώς ο βαρόνος ποτού της Λευκής Σπείρας υπερασπιζόταν το εμπόρευμά του. (περισσότερα στη σελίδα 3)"
+	"DAC_Puzzle_RuleDescription_PreserveJullMangoTree"							"Ο Jull και το δέντρο Mango Tree πρέπει να επιβιώσουν."
+	
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Title"		"ΜΕΣΑ ΣΤΟ ΧΑΟΣ, ΚΑΠΟΙΟΙ ΦΩΝΑΖΟΥΝ ΓΙΑ ΤΑΞΗ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Bot"		"ΦΡΟΥΡΑ ΤΗΣ ΠΟΛΗΣ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_Lore"		"Ο θάνατος της Momma Eeb έχει συνεχίσει να επηρεάζει την καθημερινή ζωή στη Λευκή Σπείρα, καθώς ανοικτός πόλεμος συμμοριών έχει γίνει καθημερινότητα. Ωστόσο, μερικοί ιδιώτες στη Λευκή Σπείρα ψάχνουν να βάλουν ένα τέλος στη βίαιη αρπαγή εξουσίας που συμβαίνει στους δρόμους της πόλης μας. (περισσότερα στη σελίδα 5)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_win"				"ΑΝΑΠΟΤΕΛΕΣΜΑΤΙΚΗ ΦΡΟΥΡΑ ΠΟΛΗΣ ΣΥΝΕΧΙΖΕΙ ΝΑ ΕΙΝΑΙ ΑΝΑΠΟΤΕΛΕΣΜΑΤΙΚΗ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_6_lose"				"ΦΡΟΥΡΟΙ ΤΗΣ ΠΟΛΗΣ ΛΗΓΟΥΝ ΤΗΝ ΑΠΟΠΕΙΡΑ ΕΞΟΥΣΙΑΣ ΕΝΟΣ UNDERLORD"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_6_lose"				"PH"
-
-	"DAC_Challenge_Challenge_weekly_challenge_6_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_6_Lore"		"PH"
-
-	// Weekly challenge	#7
-	"DAC_Challenge_weekly_challenge_7_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_7_SubHeadline"					"PH"
-
-	"DAC_Challenge_Puzzle_weekly_puzzle_7_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_7_Lore"						"PH"
-
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_7_lose"				"PH"
-
-	"DAC_Challenge_Challenge_weekly_challenge_7_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_7_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Title"		"ΖΗΤΟΥΝΤΑΙ: ΚΑΚΟΠΛΗΡΩΜΕΝΑ ΜΕΛΗ ΤΗΣ ΦΡΟΥΡΑΣ ΠΟΛΗΣ"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Lore"		"Κουραστήκατε να περιπολείτε τους δρόμους της Λευκής Σπείρας χωρίς να πληρώνεστε αρκετά; Ενδιαφέρεστε να ζήσετε τη συναρπαστική ζωή ενός διαφθαρμένου πολιτικού αξιωματικού; Ελάτε στο Ραγισμένο Φεγγάρι και μιλήστε στον Jull για πιθανές επιχειρηματικές ευκαιρίες!"
+	"DAC_Challenge_Challenge_weekly_challenge_6_Instructions"	"Σκοτώστε εχθρούς αξίας 5000 χρυσού"
 
 	// Weekly challenge	#8
-	"DAC_Challenge_weekly_challenge_8_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_8_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_8_Headline"						"ΤΟ ΠΙΟ ΕΠΙΚΙΝΔΥΝΟ ΣΟΟΥ ΣΤΗ ΓΗ!"
+	"DAC_Challenge_weekly_challenge_8_SubHeadline"					"Ο Grek ΞΑΝΑΝΟΙΓΕΙ ΤΗΝ ΑΡΕΝΑ, ΑΠΑΙΤΕΙ ΟΙ ΠΑΡΕΥΡΙΣΚΟΜΕΝΟΙ ΝΑ ΥΠΟΓΡΑΦΟΥΝ ΣΥΜΦΩΝΗΤΙΚΑ"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_8_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_8_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Title"					"ΚΥΡΙΑΚΗ! ΚΥΡΙΑΚΗ! ΚΥΡΙΑΚΗ!"
+	"DAC_Challenge_Puzzle_weekly_puzzle_8_Lore"						"Ο Grek υποσχέθηκε μια μάχη των αιώνων στο κύριο συμβάν του ξανανοίγματος της αρένας του και η πόλη της Λευκής Σπείρας ανυπομονή να δείτε τι ανταγωνιστές είναι αρκετά γενναίοι για να αντιμετωπίσουν την πρόκληση (περισσότερα στη σελίδα 7)"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_8_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Title"		"ΟΙΚΟΓΕΝΕΙΑΚΗ ΧΑΡΑ ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Bot"		"ΚΟΡΥΦΑΙΟ ΤΑΛΕΝΤΟ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_Lore"		"Ενώ πολλοί αμφέβαλλαν για την ηθική των ματωμένων αθλημάτων του Grek στο παρελθόν, η άνοδος στη βία στους δρόμους έκανε αυτόν τον συγγραφέα να νοσταλγήσει τις παλιές καλές μέρες που έπρεπε να πληρώσεις λεφτά για να δεις κάποιον να μαχαιρώνεται μέχρι θανάτου. (περισσότερα στη σελίδα 1)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_win"				"Η ΕΠΙΣΤΡΟΦΗ ΤΟΥ ΣΟΟΥ ΤΟΥ GREK ΕΚΑΝΕ ΘΡΑΥΣΗ!"
+	"DAC_Challenge_Streetfight_weekly_street_fight_8_lose"				"Ο ΑΓΑΠΗΜΕΝΟΣ ΤΟΥ ΚΟΙΝΟΥ ΕΧΑΣΕ ΣΕ ΜΙΑ ΑΙΦΝΙΔΙΑΣΤΙΚΗ ΑΝΑΤΡΟΠΗ!"
 
-	"DAC_Challenge_Challenge_weekly_challenge_8_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_8_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Title"		"ΖΗΤΕΙΤΑΙ: ΠΡΟΣΛΗΠΤΗΣ ΜΕΡΙΚΗΣ ΑΠΑΣΧΟΛΗΣΗΣ"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Lore"		"Μπορεί να ανοίξαμε ξανά αλλά χάσαμε πολλούς καλούς μαχητές στο «συμβάν» της προηγούμενης εβδομάδας. Αν έχεις μια καλή παραγωγή σε άτομα-θήκες μαχαιριών θα λατρέψω να συνεργαστώ μαζί σου! - Grek, ιδιοκτήτης της Μεγάλης Αρένας και των στοιχημάτων"
+	"DAC_Challenge_Challenge_weekly_challenge_8_Instructions"	"Προσλάβετε 100 μονάδες βαθμίδας 1."
+
+	// Weekly challenge	#7
+	"DAC_Challenge_weekly_challenge_7_Headline"						"ΑΙΡΕΣΗ ΤΩΝ DIRE ΕΓΚΑΘΙΣΤΑΤΑΙ ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
+	"DAC_Challenge_weekly_challenge_7_SubHeadline"					"ΛΑΤΡΕΙΣ ΜΙΑΣ ΓΥΝΑΙΚΑΣ ΠΟΥ ΟΝΟΜΑΖΕΤΑΙ «Kanna» ΣΠΕΥΔΟΥΝ ΣΤΗΝ ΠΟΛΗ ΤΩΝ ΠΟΤΑΠΩΝ ΑΠΟΛΑΥΣΕΩΝ"
+
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Title"					"ΑΙΡΕΣΗ ΤΩΝ Dire ΚΑΛΟΒΛΕΠΕΙ ΠΕΡΙΟΥΣΙΑ ΤΗΣ Anessix"
+	"DAC_Challenge_Puzzle_weekly_puzzle_7_Lore"						"Χθες το βράδυ, θρησκευτικοί προσήλυτοι διέρρηξαν την έπαυλη της Anessix, ελπίζοντας να αρπάξουν την περιουσία στο όνομα της νέας ιέρειάς τους, Kanna. Ευτυχώς για την Anessix, είχε μερικούς αμφισβητήσιμους φίλους εκεί για κοκτέιλ (περισσότερα στη σελίδα 2)"
+
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Title"		"ΕΡΓΑΖΟΜΕΝΟΙ ΣΤΡΕΦΟΝΤΑΙ ΚΑΤΑ ΑΦΕΝΤΙΚΟΥ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Bot"		"ΜΟΝΟΜΑΧΟΣ ΤΟΥ GREK"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_Lore"		"Τραγωδία χτύπησε σήμερα στην αρένα του Grek, καθώς το ταλέντο μονομάχος του τρελάθηκε και άρχισε να επιτίθεται σε οπαδούς στις κερκίδες, οδηγώντας μια όμαδα άλλων μονομάχων σε δράση (περισσότερα στη σελίδα 3)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_win"				"ΕΞΕΓΕΡΣΗ ΣΤΗΝ ΑΡΕΝΑ ΛΗΓΕΙ ΜΕ ΕΠΕΥΦΗΜΙΕΣ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_7_lose"				"ΧΑΟΣ ΣΤΗΝ ΑΡΕΝΑ ΞΕΧΥΝΕΤΑΙ ΣΤΟΥΣ ΔΡΟΜΟΥΣ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+
+	"DAC_Challenge_Challenge_weekly_challenge_7_Title"		"ΖΗΤΟΥΝΤΑΙ: ΚΕΦΑΛΙΑ ΣΕ ΣΤΥΛΟΥΣ"
+	"DAC_Challenge_Challenge_weekly_challenge_7_Lore"		"Άλλη μία φορά, ξένοι ήρθαν στο Λαβύρινθο... μόνο που αυτοί τη φορά αυτοί οι εξωτερικοί δεν απειλούν μόνο το βασίλειό μου, αλλά όλοι τη Λευκή Σπείρα. Αν δε διώξουμε τώρα αυτούς τους λάτρεις Dire, δε θα έχει σημασία ποιος θα εξουσιάζει τη Λευκή Σπείρα... θα είμαστε όλοι νεκροί. Για τώρα, πρέπει να κάνουμε ομάδα μαζί και να τους σφάξουμε όλους - λόγια του Enno όπως καταγράφηκαν από τον YipYip, αρχιοικονόμο του Enno"
+	"DAC_Challenge_Challenge_weekly_challenge_7_Instructions"	"Εφαρμόστε 1200 επιδράσεις Δηλητηρίου."
 
 
 	// Weekly challenge	#9
-	"DAC_Challenge_weekly_challenge_9_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_9_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_9_Headline"						"ΚΥΚΛΟΣ ΚΑΤΑΣΚΟΠΩΝ ΣΥΝΑΘΡΟΙΖΕΤΑΙ ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
+	"DAC_Challenge_weekly_challenge_9_SubHeadline"					"Ο Lorlin Lasan ΕΠΕΛΕΞΕ ΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ ΓΙΑ ΤΗΝ ΕΤΗΣΙΑ ΜΑΖΩΞΗ ΤΟΥ ΙΑΣΠΗ ΚΥΚΛΟΥ"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_9_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_9_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Title"					"ΔΟΛΟΦΟΝΙΑ ΓΙΑ ΠΡΟΣΛΗΨΗ ΚΑΝΟΥΝ ΔΙΑΛΕΙΜΜΑ ΑΠΟ ΣΥΝΑΝΤΗΣΕΙΣ ΓΙΑ ΝΑ ΣΚΟΤΩΣΟΥΝ ΚΟΣΜΟ ΨΥΧΑΓΩΓΙΚΑ"
+	"DAC_Challenge_Puzzle_weekly_puzzle_9_Lore"						"Τι κάνουν οι δολοφόνοι στον ελεύθερό τους χρόνο; Προφανώς σκοτώνουν κόσμο. Οι φήμες επεκτάθηκαν σε όλη τη Λευκή Σπείρα σχετικά με ένα φονικό παιχνίδι που παίζεται από έναν αριθμό δολοφόνων συμβολαίου, όπου κυνηγούν επικίνδυνο θήραμα για πόντους και άθληση. (περισσότερα στη σελίδα 8)"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_9_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Title"		"ΒΓΑΙΝΟΥΝ ΚΙ ΑΛΛΑ ΜΑΧΑΙΡΙΑ ΣΤΗ ΠΛΑΤΕΙΑ ΜΑΧΑΙΡΩΜΑΤΩΝ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Bot"		"ΘΑΜΩΝΕΣ ΠΛΑΤΕΙΑΣ ΜΑΧΑΙΡΩΜΑΤΩΝ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_Lore"		"Μακροχρόνιοι κάτοικοι της Λευκής Σπείρας ξέουν να μην πλησιάζουν την Πλατεία Μαχαιρωμάτων τις Τετάρτες, αλλά από τότε που έφτασε ο Ιάσπις Κύκλος, το τοπικό ορόσημο δολοφονιών μας έγινε ακόμα πιο επικίνδυνο. (περισσότερα στη σελίδα 2)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_win"				"Ο JULL ΚΑΝΕΙ ΤΗΝ ΠΛΑΤΕΙΑ ΜΑΧΑΙΡΩΜΑΤΩΝ ΠΛΑΤΕΙΑ ΜΩΛΩΠΩΝ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_9_lose"				"Ο Lorlin Lasan ΠΡΟΣΕΧΕΙ ΤΟΥΣ ΤΟΠΙΚΟΥΣ ΔΟΛΟΦΟΝΟΥΣ ΚΑΙ ΑΠΟΚΤΟΥΝ ΠΡΟΣΒΑΣΗ ΣΤΟΝ ΙΑΣΠΗ ΚΥΚΛΟ"
 
-	"DAC_Challenge_Challenge_weekly_challenge_9_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_9_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Title"		"ΖΗΤΟΥΝΤΑΙ: ΝΕΟΣΥΛΛΕΚΤΟΙ ΓΙΑ ΙΑΣΠΗ ΚΥΚΛΟ"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Lore"		"Έχετε ένα χάρισμα για λεπτότητα; Έχετε αμφισβητήσιμα ηθικά; Ο Ιάσπης Κύκλος πάντα ψάχνει να επεκταθεί.  Εντυπωσιάστε μας και θα σας βρούμε. - Lorlin Lasan, αρχηγός του Ιάσπη Κύκλου"
+	"DAC_Challenge_Challenge_weekly_challenge_9_Instructions"		"Σκοτώστε 400 μονάδες με Δολοφόνους"
 
 	// Weekly challenge	#10
-	"DAC_Challenge_weekly_challenge_10_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_10_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_10_Headline"						"Η ΔΟΥΛΕΙΑ ΤΩΝ ΣΩΜΑΤΟΦΥΛΑΚΩΝ ΑΝΘΙΖΕΙ ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
+	"DAC_Challenge_weekly_challenge_10_SubHeadline"					"ΜΙΣΘΟΦΟΡΟΙ ΔΕ ΦΑΙΝΕΤΑΙ ΝΑ ΑΠΟΚΡΙΝΟΝΤΑΙ ΟΥΤΕ ΣΤΟ Betty ΟΥΤΕ ΣΤΟ Al"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_10_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_10_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Title"					"Η ΠΑΡΑΝΟΙΑ ΣΩΝΕΙ ΤΗ ΒΑΣΙΛΙΣΣΑ ΤΩΝ ΜΥΣΤΙΚΩΝ"
+	"DAC_Challenge_Puzzle_weekly_puzzle_10_Lore"						"Υπάρχει μια λεπτή γραμμή μεταξύ παράνοιας και πρακτικότητας. Ευτυχώς για την Anessix, η πρόσφατη επένδυσή της σε σωματοφύλακες είναι καλά χρονισμένη, καθώς ο Hobgen αναζητούσε τιμωρία για τις παλιές της παραβάσεις. (περισσότερα στη σελίδα 2)"
+	"DAC_Puzzle_RuleDescription_PreserveAnessix"					"Η Anessix πρέπει να επιβιώσει"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_10_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Title"		"ΣΥΣΤΑΤΙΚΑ ΑΤΣΑΛΙΟΥ ΚΑΙ ΞΟΡΚΙΩΝ ΠΕΤΟΥΝ ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Bot"		"ΜΑΓΟΙ ΜΕ ΚΑΤΙ ΝΑ ΚΡΥΨΟΥΝ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_Lore"		"Φήμες μιας επερχόμενης έρευνας του Ζαφειρένιου Συμβουλίου έχουν οδηγήσει πολλούς από τους κατοίκους μάγους μας στο Δακρύροδο, ενώ αυτοί που αποφάσισαν να παραμείνουν επέλεξαν να στραφούν σε μισθοφόρους για προστασία. (περισσότερα στη σελίδα 6)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_win"				"Ο Zenok ΠΡΟΣΦΕΡΕΙ ΕΚΠΤΩΣΕΙΣ ΣΕ ΜΑΤΩΜΕΝΑ ΒΙΒΛΙΑ ΞΟΡΚΙΩΝ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_10_lose"				"ΜΑΓΟΙ ΤΑΜΠΟΥΡΩΝΟΝΤΑΙ ΠΡΟΕΤΟΙΜΑΖΟΜΕΝΟΙ ΓΙΑ ΕΠΙΔΡΟΜΗ ΤΟΥ ΖΑΦΕΙΡΕΝΙΟΥ ΣΥΜΒΟΥΛΙΟΥ"
 
-	"DAC_Challenge_Challenge_weekly_challenge_10_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_10_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Title"		"ΖΗΤΟΥΝΤΑΙ: ΠΟΡΤΙΕΡΗΔΕΣ"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Lore"		"Το Ραγισμένο Φεγγάρι ψάχνει να ενισχύσει την ομάδα ασφαλείας του. Ιδανικοί αιτούντες ευδοκιμούν σε καταστάσεις υψηλής πίεσης και είναι άνετοι με το να καθαρίζουν αίμα από τα ρούχα τους. Αν αυτό ακούγεται σαν εσάς, μιλήστε με τον  Jull και θα κανονίσει ένα δοκιμαστικό. - Connie, διευθύντρια ημέρας στο Ραγισμένο Φεγγάρι"
+	"DAC_Challenge_Challenge_weekly_challenge_10_Instructions"		"Σκοτώστε 400 μονάδες με Κτήνη"
 
 
 	// Weekly challenge	#11
-	"DAC_Challenge_weekly_challenge_11_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_11_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_11_Headline"						"ΜΑΓΙΚΗ ΚΑΤΑΣΤΟΛΗ ΣΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ!"
+	"DAC_Challenge_weekly_challenge_11_SubHeadline"					"ΣΕ ΕΞΕΛΙΞΗ ΚΥΝΗΓΙ ΓΙΑ ΤΟΝ TURATH"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_11_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_11_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Title"					"ΦΥΛΑΚΑΣ ΤΟΥ Icewrack ΒΟΗΘΑΕΙ ΤΗΝ ΕΡΕΥΝΑ ΤΟΥ ΖΑΦΕΙΡΕΝΙΟΥ ΣΥΜΒΟΥΛΙΟΥ"
+	"DAC_Challenge_Puzzle_weekly_puzzle_11_Lore"						"Ο Αντιμάγος δεν είναι ο μόνος που αναζητεί τον τρελό μάγο Turath. Πολλαπλές πηγές έχουν αναφέρει ότι η Rylai, η Φύλακας του Icewrack, επίσης ψάχνει να συλλάβει τον μάγο. Μόνο ο χρόνος θα δείξει ποιος θα τον πιάσει πρώτος. (περισσότερα στη σελίδα 10)"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_11_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Title"		"Ο ΑΝΤΙΜΑΓΟΣ ΠΑΡΑΜΟΝΕΥΕΙ ΣΤΟΥΣ ΔΡΟΜΟΥΣ ΤΗΣ ΛΕΥΚΗΣ ΣΠΕΙΡΑΣ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Bot"		"ΠΡΑΚΤΟΡΕΣ ΤΟΥ ΚΤΗΜΑΤΟΣ TYLER"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_Lore"		"Ένας ειδικός αντίπαλος για όλους τους μάγους εκεί έξω: Ο Αντιμάγος περιπλανάται στους δρόμους της Λευκής Σπείρας και δε θα σταματήσει σε τίποτα προσπαθώντας να βρει το θήραμά του."	
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_win"				"ΦΟΒΙΣΜΕΝΟΣ ΚΥΝΗΓΟΣ ΜΑΓΩΝ ΒΡΙΣΚΕΙ ΤΟ ΔΑΣΚΑΛΟ ΤΟΥ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_11_lose"				"Ο ΑΝΤΙΜΑΓΟΣ ΑΦΗΝΕΙ ΜΑΚΕΛΕΙΟ ΣΤΟ ΔΙΑΒΑ ΤΟΥ"
 
-	"DAC_Challenge_Challenge_weekly_challenge_11_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_11_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Title"		"ΖΗΤΕΙΤΑΙ: ΑΠΕΝΤΟΜΩΤΗΣ"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Lore"		"Το τελευταίο πράγμα που χρειάζεται η Λευκή Σπείρα είναι το Ζαφειρένιο Συμβούλιο να χώνει τη μύτη του στις δουλειές μας. Ας διώξουμε αυτούς τους μάχους από την ωραία πόλη μας. - Isik, Αρχιοικονόμος στον Hobgen, το Λόρδο της Νέας Τενύβρης και νόμιμο κληρονόμο στο θρόνο της Momma Eeb"
+	"DAC_Challenge_Challenge_weekly_challenge_11_Instructions"	"Σκοτώστε 400 μάγους"
 
 	// Weekly challenge	#12
-	"DAC_Challenge_weekly_challenge_12_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_12_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_12_Headline"						"ΒΛΕΠΕΙ ΔΕΝΤΡΟ, ΧΑΝΕΙ ΔΑΣΟΣ"
+	"DAC_Challenge_weekly_challenge_12_SubHeadline"					"ΠΡΟΓΡΑΜΜΑΤΙΣΜΕΝΗ ΕΞΑΠΛΩΣΗ ΠΟΛΗΣ ΕΚΝΕΥΡΙΖΕΙ ΔΡΥΙΔΕΣ"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_12_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_12_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Title"					"ΑΠΟΨΙΛΩΣΗ"
+	"DAC_Challenge_Puzzle_weekly_puzzle_12_Lore"						"Η εξωτερική επέκταση καθυστέρησε χθες το βράδυ καθώς μια ομάδα δρυίδων αρνήθηκαν να αφήσουν να ξεριζωθεί ένα δέντρο μάνγκο σε ένα ξέφωτο. (περισσότερα στη σελίδα 2)"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_12_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Title"		"ΠΟΡΕΙΑ ΠΡΟΟΔΟΥ ΓΙΝΕΤΑΙ ΒΙΑΙΗ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Bot"		"ΟΜΙΛΗΤΕΣ ΤΩΝ ΔΕΝΤΡΩΝ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_Lore"		"Δεν είναι όλοι ευχαριστημένοι με την ιδέα της Λευκής Σπείρας να επεκτείνει τα σύνορά της. Καθώς έγιναν δημόσια σχέδια για εκκαθάριση του κοντινού δάσους, τοπικοί δρυίδες βγήκαν στους δρόμους για να δείξουν βίαια τη δυσαρέσκειά τους. (περισσότερα στη σελίδα 5)"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_win"				"ΘΥΜΩΜΕΝΟΙ ΔΡΥΙΔΕΣ ΔΙΩΧΝΟΝΤΑΙ ΑΠΟ ΤΗ ΛΕΥΚΗ ΣΠΕΙΡΑ, ΟΡΚΙΖΟΝΤΑΙ ΝΑ ΑΝΤΙΣΤΑΘΟΥΝ ΚΟΝΤΑ ΣΤΑ ΔΕΝΤΡΑ ΜΑΝΓΚΟ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_12_lose"				"ΟΙ ΔΡΥΙΔΕΣ ΞΕΣΗΚΩΝΟΝΤΑΙ ΕΝΑΝΤΙΟΝ ΤΩΝ UNDERLORD, ΟΙ ΤΙΜΕΣ ΤΩΝ ΜΑΝΓΟ ΕΚΤΟΞΕΥΟΝΤΑΙ"
 
-	"DAC_Challenge_Challenge_weekly_challenge_12_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_12_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Title"		"ΖΗΤΟΥΝΤΑΙ: ΟΜΙΛΗΤΕΣ ΤΩΝ ΔΕΝΤΡΩΝ"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Lore"		"Δε θα γίνει ανεκτή η αποψίλωση των δέντρων έξω από τη Λευκή Σπείρα! Ο Χλοερός Σύλλογος καλεί όλους τους φυσιολάτρες να ξεσηκωθούν εναντίον αυτής της δασικής επίθεσης! - Ανοιξοπόδης, Υψηλός Δρυίδης του Χλοερού Συλλόγου"
+	"DAC_Challenge_Challenge_weekly_challenge_12_Instructions"		"Σκοτώστε 400 μονάδες με Σαμάνους"
 
 	// Weekly challenge	#13
-	"DAC_Challenge_weekly_challenge_13_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_13_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_13_Headline"						"Η Anessix ΟΡΓΑΝΩΝΕΙ ΔΑΙΜΟΝΙΚΟ ΧΟΡΟ"
+	"DAC_Challenge_weekly_challenge_13_SubHeadline"					"ΕΝΑ ΠΑΡΤΙ ΣΤΟ ΣΥΜΒΟΥΛΙΟ ΤΟΥ RISTUL ΓΙΑ ΚΟΚΤΕΙΛ ΚΑΙ ΣΥΝΩΜΟΣΙΕΣ ΠΕΡΙ ΔΙΑΦΘΟΡΑΣ ΤΩΝ ΨΥΧΩΝ"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_13_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_13_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Title"					"ΔΑΙΜΟΝΕΣ ΚΥΝΗΓΟΥΝ ΩΣ ΠΡΟΕΤΟΙΜΑΣΙΑ ΒΛΟΣΥΡΗΣ ΕΟΡΤΗΣ"
+	"DAC_Challenge_Puzzle_weekly_puzzle_13_Lore"						"Καθώς το Συμβούλιο του Ristul ετοιμάζεται να γιορτάζει το Στενό Λαβύρινθο, δαίμονες από όλο τον κόσμο αναζητούν να αρπάξουν τις ψυχές όσων μπορούν να παρέχουν διασκεδαστική άθληση σε αυτούς που θα τους κυνηγάνε στον κάτω κόσμο. (περισσότερα στη σελίδα 2)"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_13_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Title"		"Ο TERRORBLADE ΧΑΛΑΕΙ ΤΟ ΓΚΑΛΑ ΤΗΣ ANESSIX"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Bot"		"Ο ΔΑΙΜΟΝΑΣ ΤΟΥ FOULFELL"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_Lore"		"Βασίλεψε το χάος χθες το βράδυ καθώς θρυμματισμένες εικόνες του Terrorblade παραμόνευαν στους δρόμους της Λευκής Σπείρας, πιθανόν αναζητώντας το αίμα των καλεσμένων δείπνου της Anessix. (περισσότερα στη σελίδα 2)"	
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_win"				"ΗΡΩΕΣ ΣΤΑΜΑΤΟΥΝ ΔΑΙΜΟΝΑ, ΣΩΖΟΝΤΑΣ ΑΛΛΟΥΣ ΔΑΙΜΟΝΕΣ, ΑΦΗΝΟΝΤΑΣ ΤΟΥΣ ΠΑΝΤΕΣ ΑΝΤΙΜΑΧΟΜΕΝΟΥΣ ΓΙΑ ΤΗΝ ΕΚΒΑΣΗ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_13_lose"				"Ο Terrorblade ΞΕΚΙΝΑΕΙ ΣΦΑΓΗ, ΣΚΟΤΩΝΟΝΤΑΣ ΚΑΙ ΘΝΗΤΟΥΣ ΚΑΙ ΔΑΙΜΟΝΕΣ"
 
-	"DAC_Challenge_Challenge_weekly_challenge_13_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_13_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_13_Title"				"ΖΗΤΟΥΝΤΑΙ: ΨΥΧΕΣ"
+	"DAC_Challenge_Challenge_weekly_challenge_13_Lore"				"Ποια είναι η τιμή για κάτι που δεν μπορείς να δεις, γευτείς, αγγίξεις ή να χρησιμοποιήσεις; Μην αφήσεις την προπαγάνδα κατά των δαιμόνων να σε προκαταλήψει. Το Συμβούλιο του Ristul μπορεί να βοηθήσει."
+	"DAC_Challenge_Challenge_weekly_challenge_13_Instructions"		"Σκοτώστε 300 Ανθρώπους"
 
 	// Weekly challenge	#14
-	"DAC_Challenge_weekly_challenge_14_Headline"						"PH"
-	"DAC_Challenge_weekly_challenge_14_SubHeadline"					"PH"
+	"DAC_Challenge_weekly_challenge_14_Headline"					"ΠΑΛΙΕΣ ΠΛΗΓΕΣ ΔΕ ΓΙΑΤΡΕΥΟΝΤΑΙ ΠΟΤΕ"
+	"DAC_Challenge_weekly_challenge_14_SubHeadline"					"ΑΝΑΚΑΛΥΨΗ ΤΟΥ ΠΑΛΙΟΥ ΗΜΕΡΟΛΟΓΙΟΥ ΤΗΣ Momma Eeb ΟΔΗΓΗΣΕ ΤΟΝ Hobgen ΣΤΟ ΝΑ ΞΕΚΑΘΑΡΙΣΕΙ ΠΑΛΙΟΥΣ ΛΟΓΑΡΙΑΣΜΟΥΣ"
 
-	"DAC_Challenge_Puzzle_weekly_puzzle_14_Title"					"PH"
-	"DAC_Challenge_Puzzle_weekly_puzzle_14_Lore"						"PH"
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Title"					"Η ΝΕΑ ΤΕΝΥΒΡΗ ΣΤΙΣ ΦΛΟΓΕΣ"
+	"DAC_Challenge_Puzzle_weekly_puzzle_14_Lore"					"Αργά χθες το βράδυ, ο Hobgen πέρασε οργισμένος μέσα από την αγορά της Νέας Τενύβρης, καταστρέφοντας την περιουσία κάθε εμπόρου που έβλαψε τη Momma Eeb στο ελάχιστο. Το γεγονός ότι αυτές οι προσβολές ήταν 30 χρόνων μετρούσε λίγο στον Hobgen, όπως επίσης και το γεγονός ότι οι ιδιοκτήτες των εν λόγω επιχειρήσεων είχαν αλλάξει προ πολλού. (περισσότερα στη σελίδα 2)"
+	"DAC_Puzzle_RuleDescription_KillBarricades"						"Σκοτώστε 8 καρότσια φρούτων για να κερδίσετε"
 
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_Title"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_Bot"		"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_Lore"		"PH"	
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_win"				"PH"
-	"DAC_Challenge_Streetfight_weekly_street_fight_14_lose"				"PH"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Title"		"Ο HOBGEN ΠΑΙΡΝΕΙ ΚΥΡΙΟΛΕΚΤΙΚΑ ΜΙΑ ΜΕΤΑΦΟΡΑ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Bot"			"ΜΠΟΞ ΜΕ ΤΟΥΣ ΘΕΟΥΣ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_Lore"			"Όσοι από εμάς κρατούν ημερολόγια ξέρουν ότι μπορεί να είναι καθαρτικό να χρησιμοποιείς υπερβολές, δυστυχώς για τους κατοίκους της Λευκής Σπείρας, φαίνεται ότι ο Hobgen δεν κρατάει. Προφανώς ο Hobgen διάβασε κάπου στο ημερολόγιο της Eeb ότι ένιωθε καταραμένη από τους θεούς επειδή είχε μια κακή μέρα... φυσικά αυτό οδήγησε τον Hobgen στο να ανιχνεύσει κάθε ουράνια οντότητα που μπορούσε να βρει και να προσπαθήσει να την σκοτώσει.  (περισσότερα στη σελίδα 8)"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_win"			"Ο Hobgen ΚΟΙΤΑΕΙ ΤΟΥΣ ΘΕΟΥΣ ΣΤΑ ΜΑΤΙΑ ΚΑΙ ΚΛΕΙΝΟΥΝ ΠΡΩΤΟΙ ΤΑ ΒΛΕΦΑΡΑ"
+	"DAC_Challenge_Streetfight_weekly_street_fight_14_lose"			"ΤΑ ΧΕΡΙΑ ΤΟΥ Hobgen ΕΙΝΑΙ ΠΟΛΥ ΜΙΚΡΑ ΓΙΑ ΝΑ ΠΑΙΞΕΙ ΜΠΟΞ ΜΕ ΘΕΟΥΣ"
 
-	"DAC_Challenge_Challenge_weekly_challenge_14_Title"		"PH"
-	"DAC_Challenge_Challenge_weekly_challenge_14_Lore"		"PH"
+	"DAC_Challenge_Challenge_weekly_challenge_14_Title"				"ΖΗΤΕΙΤΑΙ: ΜΠΑΡΜΠΕΡΗΣ ΝΑ ΨΑΛΙΔΙΣΕΙ ΑΚΡΕΣ"
+	"DAC_Challenge_Challenge_weekly_challenge_14_Lore"				"Έχεις ένα ξυράφι; Σου αρέσει να ξεφορτώνεσαι πράγματα που μπλέκονται στα μαλλιά του κόσμου; Αν ναι μίλα με τον Isik, έχει δουλειά για σένα."
+	"DAC_Challenge_Challenge_weekly_challenge_14_Instructions"		"Προκαλέστε 300 καίρια χτυπήματα"
 
 	// Weekly challenge courier race names
-	"DAC_Challenge_Courier_Race_0"							"Soul-Bound and Down"
-	"DAC_Challenge_Courier_Race_1"							"Breaking Fever"
-	"DAC_Challenge_Courier_Race_2"							"Blood Money"
-	"DAC_Challenge_Courier_Race_3"							"Grifter's Fortune"
-	"DAC_Challenge_Courier_Race_4"							"Venture Lost"
-	"DAC_Challenge_Courier_Race_5"							"Venture Gained"
-	"DAC_Challenge_Courier_Race_6"							"Serrated Blade"
-	"DAC_Challenge_Courier_Race_7"							"Last Kiss"
-	"DAC_Challenge_Courier_Race_8"							"Sad Goodbye"
-	"DAC_Challenge_Courier_Race_9"							"Sigma D"
-	"DAC_Challenge_Courier_Race_10"							"Hexes and Horseshoes"
-	"DAC_Challenge_Courier_Race_11"							"Cantrip"
-	"DAC_Challenge_Courier_Race_12"							"Cruel Mistress"
-	"DAC_Challenge_Courier_Race_13"							"Devil Dancer"
-	"DAC_Challenge_Courier_Race_14"							"Reckoner "
-	"DAC_Challenge_Courier_Race_15"							"Liquid Courage"
-	"DAC_Challenge_Courier_Race_16"							"Sad Panda"
-	"DAC_Challenge_Courier_Race_17"							"Smeevils and Greevils"
-	"DAC_Challenge_Courier_Race_18"							"Ristul Bane"
-	"DAC_Challenge_Courier_Race_19"							"Bad Luck Charlie"
-	"DAC_Challenge_Courier_Race_20"							"Inciting Incident"
-	"DAC_Challenge_Courier_Race_21"							"Good Day, Sir"
-	"DAC_Weekly_CourierTitle" 								"The Finish Line: courier race odds and outcomes"	
-	"DAC_Weekly_CourierHeader_Courier"						"Courier"
-	"DAC_Weekly_CourierHeader_Bet"							"Bet"
-	"DAC_Weekly_CourierHeader_Wt"							"Wt"
-	"DAC_Weekly_CourierHeader_PP"							"PP"
+	"DAC_Challenge_Courier_Race_0"							"ΨΥΧΟΔΟΣΜΕΝΟΣ"
+	"DAC_Challenge_Courier_Race_1"							"ΠΥΡΕΤΟΣ"
+	"DAC_Challenge_Courier_Race_2"							"ΜΑΤΩΜΕΝΟ ΚΕΡΜΑ"
+	"DAC_Challenge_Courier_Race_3"							"ΤΥΧΗ ΑΛΗΤΗ"
+	"DAC_Challenge_Courier_Race_4"							"ΧΑΜΕΝΟ ΡΙΣΚΟ"
+	"DAC_Challenge_Courier_Race_5"							"ΚΕΡΔΙΣΜΕΝΟ ΡΙΣΚΟ"
+	"DAC_Challenge_Courier_Race_6"							"ΟΔΟΝΤΩΤΗ ΛΕΠΙΔΑ"
+	"DAC_Challenge_Courier_Race_7"							"ΤΕΛΕΥΤΑΙΟ ΦΙΛΙ"
+	"DAC_Challenge_Courier_Race_8"							"ΠΕΣ ΑΝΤΙΟ"
+	"DAC_Challenge_Courier_Race_9"							"ΣΙΓΜΑ ΔΕΛΤΑ"
+	"DAC_Challenge_Courier_Race_10"							"ΣΤΑΧΤΟΠΕΤΑΛΟ"
+	"DAC_Challenge_Courier_Race_11"							"ΧΥΤΡΑ"
+	"DAC_Challenge_Courier_Race_12"							"ΣΚΛΗΡΗ ΑΦΕΝΤΡΑ"
+	"DAC_Challenge_Courier_Race_13"							"ΔΙΑΒΟΛΟΧΟΡΕΥΤΗΣ"
+	"DAC_Challenge_Courier_Race_14"							"ΜΕΤΡΗΜΕΝΟΣ "
+	"DAC_Challenge_Courier_Race_15"							"ΥΓΡΟ ΚΟΥΡΑΓΙΟ"
+	"DAC_Challenge_Courier_Race_16"							"ΛΥΠΗΜΕΝΟ ΠΑΝΤΑ"
+	"DAC_Challenge_Courier_Race_17"							"Smeevil και Greevil"
+	"DAC_Challenge_Courier_Race_18"							"ΟΛΕΘΡΟΣ RISTUL"
+	"DAC_Challenge_Courier_Race_19"							"ΚΑΚΟΜΟΙΡΟΓΛΟΥ"
+	"DAC_Challenge_Courier_Race_20"							"ΓΚΑΦΑΤΖΗΣ"
+	"DAC_Challenge_Courier_Race_21"							"ΚΑΛΗ ΜΕΡΑ, ΚΥΡΙΕ"
+	"DAC_Weekly_CourierTitle" 								"ΚΑΡΟ ΣΗΜΑΙΑ: ΑΠΟΔΟΣΕΙΣ ΚΑΙ ΑΠΟΤΕΛΕΣΜΑΤΑ ΜΕΤΑΦΟΡΟΔΡΟΜΟΥ"	
+	"DAC_Weekly_CourierHeader_Courier"						"ΜΕΤΑΦΟΡΕΑΣ"
+	"DAC_Weekly_CourierHeader_Bet"							"ΣΤΟΙΧΗΜΑ"
+	"DAC_Weekly_CourierHeader_Wt"							"ΒΑΡΟΣ"
+	"DAC_Weekly_CourierHeader_PP"							"ΘΕΣΗ"
 	"DAC_Weekly_CourierHeader_Quarter"						"1/4"
 	"DAC_Weekly_CourierHeader_Half"							"1/2"
 	"DAC_Weekly_CourierHeader_ThreeQuarter"					"3/4"
-	"DAC_Weekly_CourierHeader_Mile"							"Mile"
-	"DAC_Weekly_CourierHeader_Finish"						"Fin"
-	"DAC_Weekly_CourierHeader_Odds"							"Odds"
+	"DAC_Weekly_CourierHeader_Mile"							"ΜΙΛΙ"
+	"DAC_Weekly_CourierHeader_Finish"						"ΤΕΛΟΣ"
+	"DAC_Weekly_CourierHeader_Odds"							"ΑΠΟΔΟΣΗ"
 	"DAC_Weekly_CourierEntry_CurrentBet"					"<img class='goldcoin'/> {i:current_bet}"
 	"DAC_Weekly_CourierEntry_Prize"							"{i:gold_prize} : 1"
-	"DAC_Weekly_CourierCurrent_Gold"						"Current: <img class='goldcoin'/> {i:current_gold}"
+	"DAC_Weekly_CourierCurrent_Gold"						"ΤΡΕΧΟΝ: <img class='goldcoin'/> {i:current_gold}"
 	
 	
 	// City Crawl Tutorial

@@ -8,7 +8,7 @@
 
 		// ANTIMAGE
 		"dac_ability_antimage_mana_break"										"Zhouba kouzelníků"
-		"dac_ability_antimage_mana_break_Description"							"PASIVNÍ: Antimág každým svým útokem pálí {s:mana_per_hit} bodů many nepřítele a také mu uděluje poškození ve výši 50 % spálené many. Při útočení na vládce podsvětí mu každým útokem pálí {s:hype_per_hit} bodů přízně davu."
+		"dac_ability_antimage_mana_break_Description"							"PASIVNÍ: Antimág každým svým útokem pálí {s:mana_per_hit} bodů many nepřítele a také mu uděluje poškození ve výši 50 % spálené many."
 		"dac_ability_antimage_mana_break_Lore"									"Antimág si přišel pro mě… ale já jsem připraven. – <i>Turath, uprchlík z panství Tylerů</i>"
 
 		//QUEEN OF PAIN
@@ -23,7 +23,7 @@
 
 		//FURION
 		"dac_ability_natures_prophet_summon_tree"								"Přírodní stráž"
-		"dac_ability_natures_prophet_summon_tree_Description"					"Ochránce přírody vyvolá enta, který je pro účely synergií považován za druida. Pokud je Ochránce přírody vylepšený na 3 hvězdičky, ent je vyvolán na nepřátelské straně desky."
+		"dac_ability_natures_prophet_summon_tree_Description"					"Ochránce přírody vyvolá enta. Pokud je Ochránce přírody vylepšený na 3 hvězdičky, ent je vyvolán na nepřátelské straně desky."
 		"dac_ability_natures_prophet_summon_tree_Lore"							"Tak Enno se obrátil na své lesní přátele… z toho koukají problémy. – <i>O'nia, obchodnice vyhoštěná z Revtelu</i>"
 
 		"dac_ability_natures_prophet_wrath_of_nature"							"Hněv přírody"
@@ -32,12 +32,12 @@
 
 		//WINDRUNNER
 		"dac_ability_windrunner_powershot"										"Napnutá tětiva"
-		"dac_ability_windrunner_powershot_Description"							"Lučištnice větru v průběhu maximálně {s:castPoint} sekundy napne tětivu svého luku a následně vystřelí šíp, který udělí až {s:powershot_damage} bodů poškození. Za každého zasaženého nepřítele je poškození sníženo o {s:damage_reduction} %."
+		"dac_ability_windrunner_powershot_Description"							"Lučištnice větru v průběhu maximálně {s:castPoint} sekundy napne tětivu svého luku a následně vystřelí šíp, který udělí až {s:powershot_damage} bodů poškození. Za každého zasaženého nepřítele je poškození sníženo o {s:damage_reduction} %. Pokud je Lučištnice větru vylepšená na 3 hvězdičky, jakmile začne napínat tětivu, získá {s:evasion} % k uhýbání a imunitu vůči magii. Tyto bonusy trvají {s:evasion_duration} sekundy."
 		"dac_ability_windrunner_powershot_Lore"									"Během svých cest jsem si vytvořila kupu známostí. A teď se nezdráhám požádat je o pomoc. – <i>Wren, dlouholetá cestovatelka</i>"
 
 		//WITCHDOCTOR
 		"dac_ability_witch_doctor_paralyzing_cask"								"Paralyzující nádobka"
-		"dac_ability_witch_doctor_paralyzing_cask_Description"					"Léčitel vrhne nádobku paralyzujícího prášku, která {s:bounces}× přeskočí mezi nepřáteli a každého z nich omráčí a udělí mu poškození ve výši {s:damage} bodů."
+		"dac_ability_witch_doctor_paralyzing_cask_Description"					"Léčitel vrhne nádobku paralyzujícího prášku, která {s:bounces}× přeskočí mezi nepřáteli a každého z nich omráčí a udělí mu poškození ve výši {s:damage} bodů. Pokud je Léčitel vylepšený na 3 hvězdičky, nepřátelé zasažení nádobkou jsou také na {s:health_interval} sekundy označeni a začnou dostávat {s:damage_per_sec} bodů poškození za sekundu. Po skončení schopnosti nepřátelé dostanou ještě {s:damage_pct} % z celkového poškození utrženého během označení."
 		"dac_ability_witch_doctor_paralyzing_cask_Lore"							"Jak rád vás já sleduju při práci, doktore… – <i>Hobgen, vílí výtržník</i>"
 
 		//JUGGERNAUT
@@ -130,6 +130,13 @@
 		"dac_ability_lich_chain_frost_Description"								"Lich vypustí ledový orb, který až {s:jumps}× přeskočí mezi nepřáteli stojícími poblíž sebe. Při každém přeskoku udělí orb {s:damage} bodů poškození a na {s:slow_duration} sekundy o {s:slow_value} % sníží rychlost útoku a pohybu zasažených nepřátel."
 		"dac_ability_lich_chain_frost_Lore"										"Můžeme si pomoci navzájem, co ty na to? – <i>Turath sepisuje faustovskou dohodu</i>"
 
+		"dac_ability_lich_3star"												"★★★ bonus"
+		"dac_ability_lich_3star_Description"									"Lich disponuje schopností Ledový orb. Ta mu umožňuje vypustit orb, který až {s:jumps}× přeskočí mezi nepřáteli stojícími poblíž sebe. Při každém přeskoku udělí orb {s:damage} bodů poškození a na {s:slow_duration} sekundy o {s:slow_value} % sníží rychlost útoku a pohybu zasažených nepřátel."
+
+		"dac_ability_lich_frost_shield"											"Ledový štít"
+		"dac_ability_lich_frost_shield_Description"								"Lich poskytne náhodnému spojenci ledový štít redukující poškození utržené od útoků o {s:damage_resist_pct} %. Zatímco je štít aktivní, nepřátelé v okruhu {s:radius} políček dostávají každou sekundu {s:damage_per_second} bodů poškození a přichází o {s:move_slow_pct} % z rychlosti pohybu a {s:attack_slow} bodů z rychlosti útoku. Štít vydrží {s:duration} sekund."
+		"dac_ability_lich_frost_shield_Lore"									"Můžeme si pomoci navzájem, co ty na to? – <i>Turath sepisuje faustovskou dohodu</i>"
+
 		//TIDEHUNTER
 		"dac_ability_tidehunter_ravage"											"Pomsta z hlubin"
 		"dac_ability_tidehunter_ravage_Description"								"Vlnolam praští do země, což způsobí, že v okruhu {s:cells} políček vyrazí obrovská chapadla, která na {s:duration} sekundy omráčí zasažené nepřátele a také jim udělí {s:damage} bodů poškození."
@@ -206,7 +213,7 @@
 		"dac_ability_viper_nethertoxin_Lore"									"Dávej pozor, Slarku, ta krádež by se ti mohla vymstít. – <i>O'nia varuje před svým novým kumpánem</i>"
 
 		"dac_ability_viper_corrosive_skin"										"Jedovaté šupiny"
-		"dac_ability_viper_corrosive_skin_Description"							"<i>ODEMYKÁ SE SYNERGIÍ DRAKŮ</i><br>PASIVNÍ: Viper vylučuje infekční toxin přidávající sečtení otrávení a o {s:attack_slow} bodů snižující rychlost útoku nepřátel, kteří na něj zaútočí. Trvá {s:dot_duration} sekundy. Toxin také navyšuje Viperovu odolnost vůči magii o {s:magic_resistance} %."
+		"dac_ability_viper_corrosive_skin_Description"							"<i>ODEMYKÁ SE SYNERGIÍ DRAKŮ</i><br>PASIVNÍ: Viper vylučuje infekční toxin přidávající sečtení otrávení a o {s:attack_slow} bodů snižující rychlost útoku nepřátel, kteří na něj zaútočí. Trvá {s:dot_duration} sekundy. Toxin také navyšuje Viperovu odolnost vůči magii o {s:magic_resistance} %."
 		"dac_ability_viper_corrosive_skin_Lore"									"Udělat tak z jeho šupin brnění... – <i>Snílek Carl</i>"
 
 		//LUNA
@@ -216,7 +223,7 @@
 
 		//DRAGON KNIGHT
 		"dac_ability_dragon_knight_breathe_fire"								"Ohnivý dech"
-		"dac_ability_dragon_knight_breathe_fire_Description"					"Dračí rytíř vypustí ohnivý dech, který spálí nepřátele {s:damage} body poškození a na {s:duration} sekundy zredukuje poškození jejich útoků o {s:attack_reduction} %."
+		"dac_ability_dragon_knight_breathe_fire_Description"					"Dračí rytíř vypustí ohnivý dech, který zapálí zasažené nepřátele, udělí jim {s:damage} bodů poškození a na {s:duration} sekundy zredukuje poškození jejich útoků o {s:attack_reduction} %."
 		"dac_ability_dragon_knight_breathe_fire_Lore"							"Davione, mrháš svým talentem na někoho, kdo jej nedokáže ocenit. – <i>Hobgen loví nové kumpány</i>"
 
 		"dac_ability_dragon_knight_elder_dragon_form"							"Podoba draka"
@@ -281,7 +288,7 @@
 
 		//TREANT PROTECTOR
 		"dac_ability_treant_leech_seed"											"Sémě oslabení"
-		"dac_ability_treant_leech_seed_Description"								"Strážce lesa zasadí do nepřítele oslabující semínko, které každých {s:damage_interval} sekundy saje {s:leech_damage} bodů zdraví a také snižuje rychlost pohybu a útoku hostitele o {s:movement_slow} %.<br><br>Semínko léčí spojence v okruhu {s:radius} políčka od cíle. Schopnost trvá {s:duration} sekund, a pokud první cíl zemře, semínko přeskočí na nový cíl v okruhu {s:radius} políčka."
+		"dac_ability_treant_leech_seed_Description"								"Strážce lesa zasadí do nepřítele oslabující semínko, které každou {s:damage_interval} sekundu saje {s:leech_damage} bodů zdraví a také mění rychlost pohybu a útoku hostitele o {s:movement_slow} %.<br><br>Semínko léčí spojence v okruhu {s:radius} políčka od cíle, a pokud je Strážce lesa vylepšený na 3 hvězdičky, také jim poskytuje {s:bonus_armor} bodů k brnění. Schopnost trvá {s:duration} sekund, a pokud první cíl zemře, semínko přeskočí na nový cíl v okruhu {s:radius} políčka."
 		"dac_ability_treant_leech_seed_Lore"									"Opravdu jsem nečekal, že Enno si sežene na pomoc strom. – <i>Jull a Anessix nad sklenkou alkoholu</i>"
 
 		//KEEPER OF THE LIGHT
@@ -295,7 +302,7 @@
 		"dac_ability_medusa_stone_gaze_Lore"									"Ačkoli je můj typ, mé srdce patří Miresce. – <i>Hobgen, zamilovaný zločinec</i>"
 
 		"dac_ability_medusa_split_shot"											"Rozdělené šípy"
-		"dac_ability_medusa_split_shot_Description"								"PASIVNÍ: Medúsa vystřeluje až {s:extra_shots} šípy navíc, které zasahují další nepřátele v okruhu {s:range} políčka od primárního cíle. Tyto šípy udělují o {s:damage_modifier} % nižší poškození než běžné šípy."
+		"dac_ability_medusa_split_shot_Description"								"PASIVNÍ: Medúsa vystřeluje až {s:extra_shots} šípy navíc, které zasahují další nepřátele v okruhu {s:range} políčka od primárního cíle. Tyto šípy udělují o {s:damage_modifier} % nižší poškození."
 		"dac_ability_medusa_split_shot_Lore"									"Viděl jsi tu ženskou s lukem a hady místo vlasů? Hm, jelikož ještě dýcháš, tak asi ne. – <i>Grek se vybavuje s novicem</i>"
 
 		// TROLL WARLORD
@@ -306,7 +313,7 @@
 
 		// SHADOW_DEMON
 		"dac_ability_shadow_demon_demonic_purge"								"Démonická očista"
-		"dac_ability_shadow_demon_demonic_purge_Description"					"Stínový démon opakovaně očišťuje cílového nepřítele od pozitivních buffů, používá na něj zlomení a na {s:duration} sekund jej zpomaluje. Nepřítel pomalu získává zpět svoji rychlost pohybu/útoku až do konce trvání schopnosti, kdy utrží {s:damage} bodů poškození."
+		"dac_ability_shadow_demon_demonic_purge_Description"					"Stínový démon opakovaně očišťuje cílového nepřítele od pozitivních buffů, používá na něj zlomení a na {s:duration} sekund jej zpomaluje. Nepřítel pomalu získává zpět svoji rychlost pohybu/útoku až do konce trvání schopnosti, kdy utrží {s:damage} bodů poškození. Pokud je Stínový démon vylepšený na 3 hvězdičky, nepřítel přijde do začátku o {s:health_pct} % ze svého aktuálního zdraví, přičemž když se dožije konce schopnosti, polovinu z této hodnoty získá zpět."
 		"dac_ability_shadow_demon_demonic_purge_Lore"							"Tak hele ty chlupatá obludo, vím, že si myslíš, že můžeš pracovat s Anessix, ale viděl jsi, s kým se ta mrcha kamarádíčkuje? – </i>Hobgen, který nemusí démony (a Enna)<i>"
 
 		// SVEN
@@ -351,7 +358,7 @@
 
 		//OMNIKNIGHT
 		"dac_ability_omniknight_purification"									"Očištění"
-		"dac_ability_omniknight_purification_Description"						"Paladin okamžitě vyléčí spojence {s:heal} body zdraví a stejnou hodnotu udělí jako poškození nepřátelům v okruhu {s:radius} políčka."
+		"dac_ability_omniknight_purification_Description"						"Paladin okamžitě vyléčí spojence {s:heal} body zdraví a stejnou hodnotu udělí jako poškození nepřátelům v okruhu {s:radius} políček."
 		"dac_ability_omniknight_purification_Lore"								"Jeho zbraní je víra. To máme společné. – <i>Turath, který trpí mesiášským komplexem</i>"
 		
 		//PUDGE
@@ -366,7 +373,7 @@
 		
 		//BLOODSEEKER
 		"dac_ability_bloodseeker_blood_rage"									"Krvavý amok"
-		"dac_ability_bloodseeker_blood_rage_Description"						"PASIVNÍ: S klesajícím zdravím cíle je postupně navyšována rychlost Rozparovačova útoku, a to až na {s:attack_speed_bonus_max} bodů při {s:min_health_pct} % zdraví.<br><br>Kdykoli Rozparovač zabije nepřítele, je vyléčen {s:heal_pct} % jeho maximálního zdraví."
+		"dac_ability_bloodseeker_blood_rage_Description"						"PASIVNÍ: S klesajícím zdravím cíle je postupně navyšována rychlost Rozparovačova útoku, a to až na {s:attack_speed_bonus_max} bodů při {s:min_health_pct} % zdraví.<br><br>Kdykoli Rozparovač zabije nepřítele, je vyléčen {s:heal_pct} % jeho maximálního zdraví. Pokud je Rozparovač vylepšený na 3 hvězdičky, k vyléčení dojde i v případě, že v okruhu {s:radius} políčka zemře libovolný nepřítel."
 		"dac_ability_bloodseeker_blood_rage_Lore"								"Pokud mě ty roky v branži něčemu naučily, pak tomu, že lidé milují krev. Rozparovač je proto správná volba. – <i>Grek, rozený bavič</i>"
 		
 		//ARC WARDEN
@@ -376,7 +383,7 @@
 		
 		//ARC WARDEN
 		"dac_ability_arc_warden_tempest_double_no_items"						"Elektrická kopie"
-		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Mezihvězdný strážce vytvoří elektrickou kopii sebe sama, která do začátku disponuje stejným množstvím zdraví jako on při vyvolávání kouzla. Tato kopie udílí o {s:clone_dmg_reduction} % nižší poškození."
+		"dac_ability_arc_warden_tempest_double_no_items_Description"			"Mezihvězdný strážce vytvoří elektrickou kopii sebe sama, která do začátku disponuje stejným množstvím zdraví jako on při vyvolávání kouzla. Tato kopie udílí o {s:clone_dmg_reduction} % nižší poškození a získává o {s:clone_mana_pct_loss_per} % méně many (násobně se sčítá po každé další kopii). Pokud je Mezihvězdný strážce vylepšený na 3 hvězdičky, kopie si zachovávají předmět předobrazu."
 		"dac_ability_arc_warden_tempest_double_no_items_Lore"					"Tenhle zná tajemství stvoření. – <i>Turath, kryptický prorok</i>"
 
 		//MIRANA
@@ -386,7 +393,7 @@
 		
 		//SLARK
 		"dac_ability_slark_essence_shift"										"Krádež esence"
-		"dac_ability_slark_essence_shift_description"							"PASIVNÍ: Slark s každým svým útokem získává {s:stolen_dmg} bodů k poškození a {s:stolen_aspd} body k rychlosti útoku."
+		"dac_ability_slark_essence_shift_description"							"PASIVNÍ: Slark s každým svým útokem získává {s:stolen_dmg} body k poškození a {s:stolen_aspd} body k rychlosti útoku."
 		"dac_ability_slark_essence_shift_lore"									"Slark je nepostradatelný pro pašování našich produktů z a do Temného útesu. – <i>Jull, mafián tělem i duší</i>"
 
 		"dac_ability_slark_pounce"												"Svazující skok"
@@ -395,7 +402,7 @@
 
 		//BLACK DRAGON
 		"dac_ability_black_dragon_splash_attack"								"Plošný útok"
-		"dac_ability_black_dragon_splash_attack_description"					"PASIVNÍ: Útoky Černého draka udělují plošné poškození všem nepřátelům v okruhu 1 políčka od primárního cíle."
+		"dac_ability_black_dragon_splash_attack_description"					"PASIVNÍ: Útoky Černého draka udělují {s:splash_damage_percent}% plošné poškození všem nepřátelům v okruhu {s:splash_radius} políčka od primárního cíle."
 		"dac_ability_black_dragon_splash_attack_lore"							" "
 
 		//"SVEN GREAT CLEAVE - used for YEAR BEAST and ROSHAN"
@@ -431,7 +438,8 @@
 		// BARRICADE PLACEABLE
 		"dac_ability_barricade_aura"										"Barikáda"
 		"dac_ability_barricade_aura_description"							"Barikáda imunní vůči kouzlům, která chrání jednotky poblíž."
-		"dac_ability_barricade_aura_lore"									""
+		"dac_ability_barricade_aura_rot1"										"Barikáda"
+		"dac_ability_barricade_aura_rot1_description"							"Barikáda imunní vůči kouzlům, která chrání jednotky poblíž."
 
 		// TARGET DUMMY PLACEABLE
 		"dac_ability_target_dummy_taunt"										"Naštvání"
@@ -454,7 +462,7 @@
 
 		// LEGION COMMANDER
 		"dac_ability_legion_commander_duel"											"Duel"
-		"dac_ability_legion_commander_duel_description"								"Velitelka legie si v okruhu 1 políčka vyhlédne nepřítele s nejnižším zdravím a vyzve jej k {s:stun_duration} sekundy dlouhému duelu, během kterého musí oba útočit pouze jeden na druhého a nemohou používat schopnosti nebo být léčeni. Pokud jeden z bojovníků při duelu zemře, vítěz získá permanentní bonus {s:winner_bonus_damage} bodů k poškození ([20/32/48] bodů v módu Rychlovka)."
+		"dac_ability_legion_commander_duel_description"								"Velitelka legie si v okruhu 1 políčka vyhlédne nepřítele s nejnižším zdravím a vyzve jej k {s:stun_duration} sekundy dlouhému duelu, během kterého musí oba útočit pouze jeden na druhého a nemohou používat schopnosti nebo být léčeni. Pokud jeden z bojovníků při duelu zemře, vítěz získá permanentní bonus {s:winner_bonus_damage_kill_mult} bodů k poškození. Poškození se liší dle herního módu."
 		"dac_ability_legion_commander_duel_lore"									"Tohle není třeba, Tresdin... pomohu ti najít Rixe. – <i>Anessix řeší napjatou situaci</i>"
 
 		"dac_ability_legion_commander_will_of_the_bullsnake"						"Hadobýčí odhodlání"
@@ -471,7 +479,7 @@
 		"dac_ability_nyx_assassin_spiked_carapace_lore"								"Správně bys měla říct „členovce“. – <i>Quiet, která si potrpí na detaily</i>"
 
 		"dac_ability_nyx_assassin_vendetta"											"Vendetta"
-		"dac_ability_nyx_assassin_vendetta_description"								"PASIVNÍ: Jakmile se Vrah bohyně Nyx teleportuje ke svému cíli, udělí mu poškození navýšené o {s:bonus_damage} bodů a navíc jej na {s:break_duration} sekundy zlomí, čímž přeruší všechny jeho pasivní bonusy."
+		"dac_ability_nyx_assassin_vendetta_description"								"PASIVNÍ: Jakmile se Vrah bohyně Nyx teleportuje ke svému cíli, udělí mu poškození navýšené o {s:bonus_damage} bodů a navíc jej na {s:break_duration} sekundy zlomí, čímž přeruší všechny jeho pasivní bonusy. Pokud je Vrah bohyně Nyx vylepšený na 3 hvězdičky, je schopnost Vendetta aplikována také vždy po {s:hits_to_trigger} zásazích v řadě. Počitadlo zásahů je resetováno, pokud je schopnost spuštěna teleportací."
 		"dac_ability_nyx_assassin_vendetta_lore"									"Hmyzák, nebo členovec, koho to zajímá. Momentálně potřebuju, aby pro mě někoho zabil, zvládneš ho tedy sehnat? – <i>O'nia, která nemá ráda, když ji někdo opravuje</i>"
 
 		// WEAVER
@@ -518,7 +526,7 @@
 		"dac_ability_storm_spirit_ball_lightning_lore"								"Sobec je poháněn svým srdcem, nikoli hlavou. Díky tomu ho bude snadné polapit. – <i>Turath spřádá plán</i>"
 
 		"dac_ability_storm_spirit_element"											"Element bouře"
-		"dac_ability_storm_spirit_element_description"								"PASIVNÍ: Jakmile Duch bouře provede schopnost Trojúhelníkové pole, na 3 sekundy odzbrojí zasažené nepřátele."
+		"dac_ability_storm_spirit_element_description"								"PASIVNÍ: Jakmile Duch bouře provede schopnost Trojúhelníkové pole, odzbrojí zasažené nepřátele."
 		"dac_ability_storm_spirit_element_lore"										"O Quiet se v tomto případě starat nemusíme. Z bouří má oprávněný strach. – <i>Anessix, vždy o krok napřed</i>"
 
 		// EMBER SPIRIT
@@ -527,16 +535,16 @@
 		"dac_ability_ember_spirit_sleight_of_fist_lore"								"Možná bojuje jako démon, ale jinak je čestný. Jeho slovo mi stačí. – <i>Jull ctí své zásady</i>"
 
 		"dac_ability_ember_spirit_element"											"Element ohně"
-		"dac_ability_ember_spirit_element_description"								"PASIVNÍ: Jakmile Duch ohně provede schopnost Trojúhelníkové pole, na 3 sekundy zapálí zasažené nepřátele."
+		"dac_ability_ember_spirit_element_description"								"PASIVNÍ: Jakmile Duch ohně provede schopnost Trojúhelníkové pole, zapálí zasažené nepřátele."
 		"dac_ability_ember_spirit_element_lore"										"Tohle je chlapík podle mého gusta. – <i>Hobgen vidí příležitost</i>"
 
 		// EARTH SPIRIT
 		"dac_ability_earth_spirit_geomagnetic_grip"									"Geomagnetické přitažení"
-		"dac_ability_earth_spirit_geomagnetic_grip_description"						"Duch země vyvolá mimo desku kamennou sochu a následně ji přitáhne směrem ke svému aktuálnímu cíli. Nepřátelé zasažení přitahovanou sochou jsou na {s:silence_duration} sekundy umlčeni a utrží {s:damage} bodů poškození."
+		"dac_ability_earth_spirit_geomagnetic_grip_description"						"Duch země vyvolá mimo desku kamennou sochu a následně ji přitáhne směrem ke svému aktuálnímu cíli. Nepřátelé zasažení přitahovanou sochou jsou na {s:silence_duration} sekundy umlčeni a utrží {s:damage} bodů poškození. Pokud je Duch země vylepšený na 3 hvězdičky, zasažení nepřátelé jsou také na {s:stun_duration} sekundy omráčeni."
 		"dac_ability_earth_spirit_geomagnetic_grip_lore"							"Vždy mě potěší, když Kaolin zavítá do Bílé věže. Těch věcí, co dostane ze země! – <i>Carl hledá zásoby</i>"
 
 		"dac_ability_earth_spirit_element"											"Element země"
-		"dac_ability_earth_spirit_element_description"								"PASIVNÍ: Jakmile Duch země provede schopnost Trojúhelníkové pole, na 3 sekundy umlčí zasažené nepřátele."
+		"dac_ability_earth_spirit_element_description"								"PASIVNÍ: Jakmile Duch země provede schopnost Trojúhelníkové pole, umlčí zasažené nepřátele."
 		"dac_ability_earth_spirit_element_lore"										"Ani nevíš, co bych dal za to, vidět tohohle bojovat s Wukongem. – <i>Grek sní s otevřenýma očima</i>"
 
 		// VOID SPIRIT
@@ -545,16 +553,16 @@
 		"dac_ability_void_spirit_dissimilate_lore"									"Pro návrat po takové době musí mít pádný důvod. Zjisti ho. – <i>Anessix na lovu tajemství</i>"
 
 		"dac_ability_void_spirit_element"											"Element prázdnoty"
-		"dac_ability_void_spirit_element_description"								"PASIVNÍ: Jakmile Duch prázdnoty provede schopnost Trojúhelníkové pole, na 3 sekundy zlomí zasažené nepřátele."
+		"dac_ability_void_spirit_element_description"								"PASIVNÍ: Jakmile Duch prázdnoty provede schopnost Trojúhelníkové pole, zlomí zasažené nepřátele."
 		"dac_ability_void_spirit_element_lore"										"Slarku, na tohohle bacha. – <i>Jull svými radami občas zachraňuje životy</i>"
 
 		// GRANNY LIZARD
 		"dac_ability_granny_lizard_shotgun_blast"									"Věrná brokáda"
-		"dac_ability_granny_lizard_shotgun_blast_description"						"Vždy po 4 obyčejných útocích vytáhne Snapfire brokovnici a vystřelí na nepřítele poblíž, čímž mu udělí {s:blast_damage} bodů poškození. Brokovnice má však také kuželovitý rozptyl a všichni zasažení nepřátele (včetně primárního) přijdou o {s:blast_bonus_attack_speed} % z rychlosti útoku."
+		"dac_ability_granny_lizard_shotgun_blast_description"						"Vždy po 4 obyčejných útocích vytáhne Snapfire brokovnici a vystřelí na nepřítele poblíž, čímž mu udělí {s:blast_damage} bodů poškození. Brokovnice má však kuželovitý rozptyl a kromě primárního nepřítele jsou zasaženi také okolní nepřátele, kteří společně s hlavní obětí přijdou o {s:blast_bonus_attack_speed} bodů z rychlosti útoku. Debuff trvá {s:debuff_duration} sekundy. Pokud je Snapfire vylepšená na 3 hvězdičky, nepřátelům je také o {s:blast_armor_loss} bodů sníženo brnění."
 		"dac_ability_granny_lizard_shotgun_blast_lore"								"Keenští měli vždy vytříbený smysl pro válčení, které mě shodou okolností živí. Možná ujednáme obchod. – <i>Quiet, obchodní anděl</i>"
 
 		"dac_ability_granny_lizard_bazooka"											"Mortimerovy pusinky"
-		"dac_ability_granny_lizard_bazooka_description"								"<i>ODEMYKÁ SE SYNERGIÍ DRAKŮ</i>: Mortimer vyplivne {s:projectile_count} neforemné koule ohně, které zasáhnou nepřátele nacházející se ve vzdálenosti až {s:cast_range} políček. Každá koule udělí {s:damage} bodů poškození všem nepřátelům v okruhu {s:impact_radius} políčka od místa dopadu a také je na {s:burn_duration} sekundy zapálí."
+		"dac_ability_granny_lizard_bazooka_description"								"<i>ODEMYKÁ SE SYNERGIÍ DRAKŮ</i>: Mortimer vyplivne {s:projectile_count} neforemné koule ohně, přičemž každá z těchto koulí udělí {s:damage} bodů poškození všem nepřátelům v okruhu {s:impact_radius} políčka od místa dopadu a na {s:burn_duration} sekund je zapálí. Zasažení nepřátelé také {s:attack_slow_duration} sekundy ztrácí {s:attack_slow} bodů z rychlosti útoku."
 		"dac_ability_granny_lizard_bazooka_lore"									"Co? Snad nechceš té dámě říct, že ta její věc není drak! – <i>Grek je schopen odpustit pár nesrovnalostí</i>"
 
 		// MANGO TREE
@@ -596,7 +604,7 @@
 		"dac_ability_anessix_enthrall_description_lore"								"Teď patříš mně. – <i>Anessix přebírá otěže nad dalším ubožákem</i>"
 
 		"dac_ability_demon_warrior_bash"											"Pořádná rána"
-		"dac_ability_demon_warrior_bash_description"								"Anessixin pomocník má {s:bash_chance}% šanci na {s:bash_duration} sekundy omráčit svůj cíl a udělit bonusové poškození ve výši {s:bonus_chance_damage} bodů."
+		"dac_ability_demon_warrior_bash_description"								"Mlátička má {s:bash_chance}% šanci na {s:bash_duration} sekundy omráčit svůj cíl a udělit mu bonusové poškození ve výši {s:bonus_chance_damage} bodů."
 		"dac_ability_demon_warrior_bash_lore"										"Pokud si jdeš pro Anessix, musíš přese mě... – <i>Démonický ochránce Mlátička</i>"
 
 		"dac_ability_hobgen_passive"												"Pasivní schopnost"
@@ -660,16 +668,258 @@
 		"dac_ability_enno_airbrawl_description"										"Enno se naštve a dá všem nepřátelům pořádnou nakládačku – přidá jim {s:stacks} sečtení otrávení, udělí jim {s:fight_damage} bodů fyzického poškození a na {s:land_stun_duration} sekundy je omráčí."
 		"dac_ability_enno_airbrawl_lore"											"PRACKY PRYČ, TY MALÁ OBLUDO! – <i>Hobgen si nevědomky ještě zhoršuje svoji situaci</i>"
 
+
+		// **** New Rotation
+
+		// VENGEFULSPIRIT
+		"dac_ability_vengefulspirit_wave_of_terror"								"Vlna hrůzy"
+		"dac_ability_vengefulspirit_wave_of_terror_Description"					"Mstivá duše vyšle přímo před sebe nářek, který udělí {s:projectile_damage} bodů poškození všem zasaženým nepřátelům a také na {s:duration} sekund o {s:armor_loss} bodů sníží jejich brnění."
+		"dac_ability_vengefulspirit_wave_of_terror_Lore"									"Věř mi, že o pomstě něco vím... a pokud mi pomůžeš ovládnout Bílou věž, slibuji, že město tě podpoří proti Imperii. – <i>Hobgen uzavírá dohodu</i>"
+		"dac_ability_vengefulspirit_3star"										"★★★ bonus"
+		"dac_ability_vengefulspirit_3star_Description"							"Když Mstivá duše zemře, udělí {s:damage} bodů poškození všem nepřátelům nacházejícím se v okruhu {s:radius} políček."
+
+		// MEEPO
+		"dac_ability_meepo_poof"												"Puf"
+		"dac_ability_meepo_poof_Description"									"Meepo se teleportuje na náhodného nepřítele, čímž udělí {s:damage} bodů poškození všem sousedním nepřátelům."		
+		"dac_ability_meepo_poof_Lore"									"Nepronásleduj ho do Temných nor, protože jestli je pod Ennovou ochranou, už se nevrátíš. – <i>Jull pro jednou nechal podvodníka podvodníkem</i>"
+		"dac_ability_meepo_divided_we_stand"									"Jeden za všechny"
+		"dac_ability_meepo_divided_we_stand_Description"						"Kdykoli Meepo použije schopnost, vytvoří kopii sebe sama, která do začátku disponuje stejným množstvím zdraví jako originál. Pokud zemře libovolný z Meepů, zemřou všichni."
+		"dac_ability_meepo_divided_we_stand_Lore"									"Pane, Meepo číslo 2 se znovu snaží zahájit hru v kostky, opravdu je rozumné jim poskytovat útočiště? – <i>YipYip má pochybnosti o hostech svého pána</i>"
+		"dac_ability_meepo_3star"												"★★★ bonus"
+		"dac_ability_meepo_3star_Description"									"Meepovy kopie si zachovávají předmět originálu."
+ 									
+		// SPIRIT BREAKER
+		"dac_ability_spirit_breaker_charge_of_darkness"							"Cesta temnoty"
+		"dac_ability_spirit_breaker_charge_of_darkness_Description"				"Lamač duší se rozeběhne ke vzdálenému nepříteli, přičemž kromě něj udělí {s:damage} bodů poškození a na {s:stun_duration} sekundy omráčí také všechny ostatní oponenty, kteří se mu postaví do cesty."
+		"dac_ability_spirit_breaker_charge_of_darkness_Lore"									"Tohohle nespouštěj z očí... chci vědět, proč tu je. – <i>Hobgen je nerad ponechán v temnotě</i>"
+		"dac_ability_spirit_breaker_3star"										"★★★ bonus"
+		"dac_ability_spirit_breaker_3star_Description"							"Lamač duší disponuje schopností Omračující rána. Jeho útoky tak mají {s:bash_chance}% šanci udělit bonusové poškození ve výši {s:damage} bodů a na {s:bash_duration} sekundy omráčit svůj cíl."
+
+		// SPECTRE
+		"dac_ability_spectre_spectral_dagger"									"Spektrální dýka"
+		"dac_ability_spectre_spectral_dagger_Description"						"Spektra vrhne na nepřátelského hrdinu dýku, která uděluje {s:damage} bodů poškození a zanechává za sebou temnou stopu. Zatímco nepřátelům temná stopa na {s:path_duration} sekundy snižuje rychlost pohybu o {s:move_slow_pct} % a rychlost útoku o {s:attack_slow} bodů, Spektře pohybující se ke svému cíli skrze všechny živé překážky poskytuje po dobu {s:speed_duration} sekund {s:bonus_move_pct} % k rychlosti pohybu a {s:bonus_aspd} bodů k rychlosti útoku."
+		"dac_ability_spectre_spectral_dagger_Lore"									"Pro tebe je tvá minulost opředena tajemstvím... já ji však vidím jasně. Pomoz mi a poskytnu ti odpovědi, které hledáš. – <i>Turath a jeho kult osobnosti</i>"
+		"dac_ability_spectre_3star"												"★★★ bonus"
+		"dac_ability_spectre_3star_Description"									"Zatímco je Spektra naživu, zajišťuje, že kdykoli démon použije schopnost, všichni spojenečtí démoni vzplanou, díky čemuž začnou jejich útoky zapalovat nepřátele a udělovat poškození ve výši {s:damage} bodů také kolem cílů."
+
+		// DEATH PROPHET
+		"dac_ability_death_prophet_exorcism"									"Exorcismus"
+		"dac_ability_death_prophet_exorcism_Description"						"Prorokyně smrti vypustí až {s:number} zlých duchů, kteří kolem ní začnou {s:spirit_duration} sekund obletovat. Duchové se pohybují v okruhu {s:radius} políček od Prorokyně a udílejí všem nepřátelům {s:damage} bodů poškození. Po skončení schopnosti se duchové vrátí k Prorokyni a vyléčí ji {s:heal_percent} % uděleného poškození."
+		"dac_ability_death_prophet_exorcism_Lore"									"Kriminálníci nejsou problém... ale mrtvoly? Tak na ty certifikát nemám. – <i>Jull si neví rady, jak zabít něco, co už je mrtvé</i>"
+
+		// PANGOLIER
+		"dac_ability_pangolier_shield_crash"									"Drtivý dopad"
+		"dac_ability_pangolier_shield_crash_Description"						"Pangolin vyskočí do vzduchu a dopadem udeří do země. Nepřátelé v okruhu {s:radius} políček utrží {s:damage} bodů poškození a Pangolin získá za každého z nich na {s:duration} sekund {s:reduction_pct_per_enemy}% redukci poškození. Jakmile Pangolin dopadne, zaměří se na něj všichni nepřátelé v dosahu útoku."
+		"dac_ability_pangolier_shield_crash_Lore"									"Asi bude lepší, když ten lustr přiděláme až poté, co skončí Dontého návštěva ve městě... – <i>Jull, rozvážný projektant</i>"
+
+		// RUBICK
+		"dac_ability_rubick_fade_bolt"											"Oslabující blesk"
+		"dac_ability_rubick_fade_bolt_Description"								"Rubick vytvoří silný proud magické energie, který zasáhne cíl a poté {s:jumps}× přeskočí mezi nepřátelskými jednotkami, přičemž na své cestě uděluje {s:damage} bodů poškození a na {s:duration} sekund snižuje poškození jejich útoku o {s:damage_reduction_pct} %."
+		"dac_ability_rubick_fade_bolt_Lore"									"Víš, proč jsme si byli souzeni, Rubicku? Oba jsme nepředvídatelní. – <i>Hobgen a jeho pochybné smlouvání</i>"
+		"dac_ability_rubick_spell_steal"										"Krádež kouzla"
+		"dac_ability_rubick_spell_steal_Description"							"PASIVNÍ: Kdykoli nepřítel v okruhu {s:radius} políček sešle kouzlo, Rubick ho ukradne a sešle znovu. Síla okopírovaného kouzla se odvíjí od Rubickova počtu hvězdiček." 
+		"dac_ability_rubick_spell_steal_Lore"									"S tvojí silou a mými zdroji nás nic nezastaví. – <i>Anessix si namlouvá Velkého Maguse</i>"
+		
+		// WRAITH KING
+		"dac_ability_wraith_king_wraithfire_blast"								"Spektrální výbuch"
+		"dac_ability_wraith_king_wraithfire_blast_Description"					"Nemrtvý král spálí nepřítele v okruhu {s:fallback_range} políček spektrálním ohněm, čímž ho na {s:stun_duration} sekundy omráčí a v průběhu {s:damage_duration} sekund mu každou sekundu udělí {s:damage} bodů poškození."
+		"dac_ability_wraith_king_wraithfire_blast_Lore"									"Chci audienci u Nemrtvého krále! S takovým mistrem v zapalování lidí se musím seznámit. – <i>Hobgen prokazuje respekt</i>"
+		"dac_ability_wraith_king_raise_dead"									"Jak si žádá král"
+		"dac_ability_wraith_king_raise_dead_Description"						"PASIVNÍ: Pokud hrdinové zemřou v okruhu {s:range} políček od Nemrtvého krále, vrátí se jako zombie."
+		"dac_ability_wraith_king_raise_dead_Lore"									"Ostarione, společně bychom mohli provádět tak krásně zlé skutky. – <i>Anessix míří až na vrchol</i>"
+
+
 		// 3star abilities
-		"dac_ability_3star"															"Tříhvězdičkový bonus"
+		"dac_ability_3star"															"★★★ bonus"
 
-		"dac_ability_warlock_3star"													"Tříhvězdičkový bonus – Černokněžník"
-		"dac_ability_warlock_3star_Description"										"Pokud je Černokněžník vylepšený na 3 hvězdičky, zamezuje spojeneckým démonům v tom, aby se navzájem umlčovali po použití schopnosti."
+		"dac_ability_warlock_3star"													"★★★ bonus"
+		"dac_ability_warlock_3star_Description"										"Zatímco je Černokněžník naživu, zamezuje spojeneckým démonům v tom, aby se navzájem umlčovali po použití schopnosti."
 
-		"dac_ability_razor_3star"													"Tříhvězdičkový bonus – Razor"
-		"dac_ability_razor_3star_Description"										"Pokud je Razor vylepšený na 3 hvězdičky, krade s každým úspěšným zásahem nepřítele {s:stolen_dmg} bodů z jeho poškození útoku, a to až do maxima {s:max_stacks} bodů. Když Razor změní cíl, buff je pro něj resetován, nicméně debuff na předchozím cíli zůstane."
+		"dac_ability_razor_3star"													"★★★ bonus"
+		"dac_ability_razor_3star_Description"										"Razor disponuje schopností Statické spojení, díky které krade s každým úspěšným zásahem nepřítele {s:stolen_dmg} bodů z jeho poškození útoku (maximálně {s:max_stacks}×). Když Razor změní cíl, buff je pro něj resetován, nicméně debuff na předchozím cíli zůstane."
 
-		"dac_ability_chaos_knight_3star"													"Tříhvězdičkový bonus – Rytíř chaosu"
-		"dac_ability_chaos_knight_3star_Description"								"Pokud je Rytíř chaosu vylepšený na 3 hvězdičky, spřátelení rytíři získávají nezávisle na skutečné vzdálenosti takové bonusy, jako kdyby stáli vedle sebe."
+		"dac_ability_chaos_knight_3star"											"★★★ bonus"
+		"dac_ability_chaos_knight_3star_Description"								"Zatímco je Rytíř chaosu naživu, spřátelení rytíři získávají nezávisle na skutečné vzdálenosti takové bonusy, jako kdyby stáli vedle sebe."
+
+		"dac_ability_crystal_maiden_3star"											"★★★ bonus"
+		"dac_ability_crystal_maiden_3star_Description"								"Zatímco je Paní ledu naživu, cooldowny všech spojenců jsou redukovány o {s:cooldown_reduction} %."
+
+		"dac_ability_terrorblade_3star"												"★★★ bonus"
+		"dac_ability_terrorblade_3star_Description"									"Teror se může posílit démonickou energií a získat tak {s:damage_bonus_pct}% bonus k neredukovanému poškození při útočení na nepřátelské démony. Bonus trvá vždy {s:duration} sekundy."
+
+		"dac_ability_tiny_3star"													"★★★ bonus"
+		"dac_ability_tiny_3star_Description"										"Vždy když Prcek odhodí nepřítele, o něco poporoste, což mu přidá {s:bonus_damage} bodů k poškození útoku a {s:bonus_armor} bodů k brnění, ale také o {s:aspd_loss} bodů sníží rychlost jeho útoku. Prcek může vyrůst maximálně {s:max_stacks}×."
+
+		"dac_ability_luna_3star"													"★★★ bonus"
+		"dac_ability_luna_3star_Description"										"Luna disponuje schopností Zatmění. Díky té může požádat bohyni Selemene, aby v okruhu {s:radius} políček kolem ní zastřela oblohu a seslala na nepřátele celkem {s:beams} paprsků měsíční energie (vždy s prodlevou {s:beam_interval} sekundy), z nichž každý udělí {s:beam_damage} bodů poškození a omráčí nepřítele na {s:beam_stun} sekundy. Jednoho nepřítele může zasáhnout maximálně {s:hit_count} paprsků."
+
+		"dac_ability_dazzle_3star"													"★★★ bonus"
+		"dac_ability_dazzle_3star_Description"										"Dazzle disponuje schopností Mělký hrob ovlivňující všechny spojence v okruhu {s:never_die_range} políčka. Tyto jednotky přežijí ještě {s:never_die_duration} sekund poté, co utrží smrtící ránu."
+
+		"dac_ability_broodmother_3star"												"★★★ bonus"
+		"dac_ability_broodmother_3star_Description"									"Zatímco je Pavoučí matka naživu, zajišťuje všem spojeneckým pavoučkům nezranitelnost."
+
+		"dac_ability_pudge_3star"													"★★★ bonus"
+		"dac_ability_pudge_3star_Description"										"Pudge disponuje schopností Sešívanec, která mu zajišťuje {s:bonus_health_per_death} bodů k maximálnímu zdraví a {s:magical_resistance} % k odolnosti vůči magii za každého nepřítele, který zemře v okruhu {s:radius} políčka."
+
+		"dac_ability_viper_3star"													"★★★ bonus"
+		"dac_ability_viper_3star_Description"										"Viper každých {s:num_attacks} útoků automaticky použije schopnost Sprška kyseliny. Jí zasažený nepřítel začne každou sekundu dostávat {s:damage} bodů poškození a také je o {s:bonus_movement_speed} % snížena rychlost jeho pohybu a o {s:bonus_attack_speed} bodů rychlost jeho útoku. Zpomalující účinky pak v průběhu {s:debuff_duration} sekund působení postupně slábnou."
+
+		"dac_ability_beastmaster_3star"												"★★★ bonus"
+		"dac_ability_beastmaster_3star_Description"									"Pán šelem dostává o {s:damage_reduction} % nižší poškození od vyvolaných jednotek a je imunní vůči veškerým jejich magickým efektům."
+
+		"dac_ability_juggernaut_3star"												"★★★ bonus"
+		"dac_ability_juggernaut_3star_Description"									"Zatímco je Juggernaut naživu, všichni spojenečtí hrdinové získávají navíc {s:bonus_health_pct} % z jeho maximální hodnoty zdraví."
+
+		"dac_ability_queenofpain_3star"												"★★★ bonus"
+		"dac_ability_queenofpain_3star_Description"									"Královna bolesti je natolik okouzlující, že má {s:evasion}% šanci zmást nepřátele v okruhu {s:radius} políček a uhnout se jejich útokům."
+
+		"dac_ability_drow_ranger_3star"												"★★★ bonus"
+		"dac_ability_drow_ranger_3star_Description"									"Hraničářka používá ledové šípy, které o {s:move_speed_loss} % snižují rychlost pohybu a také o {s:attack_speed_loss} bodů rychlost útoku zasaženého nepřítele. Tento efekt přetrvává ještě {s:slow_duration} sekundy po zásahu."
+
+		"dac_ability_abaddon_3star"													"★★★ bonus"
+		"dac_ability_abaddon_3star_Description"										"Abaddon disponuje schopností Prokletí Avernů, kterou může uvalit na své cíle. Jakmile tedy Abaddon {s:min_stacks}× v řadě zaútočí na jednoho stejného nepřítele, na {s:silence_duration} sekundy ho umlčí a získá proti němu {s:attack_speed} bodů k rychlosti útoku. Tento bonus je obnoven s každým dalším úspěšným zásahem, ale pokud Abaddon změní cíl, musí pro opětovné získání bonusu nejprve provést úvodní sérii útoků."
+
+		"dac_ability_bloodseeker_3star"												"★★★ bonus"
+		"dac_ability_bloodseeker_3star_Description"									"Rozparovač získává šanci na udělení kritického zásahu dle úrovně aktivní synergie vrahů."
+
+		"dac_ability_morphling_3star"												"★★★ bonus"
+		"dac_ability_morphling_3star_Description"									"Morfos získává bonusy všech aktivních nepřátelských synergií, jako kdyby byl nepřátelský šampion."
+
+		"dac_ability_shadow_fiend_3star"											"★★★ bonus"
+		"dac_ability_Shadow_fiend_3star_Description"								"Stínový ďábel disponuje schopností Přítomnost Pána temnot, díky které jsou nepřátelé v okruhu {s:radius} políček tak vystrašeni, že ztrácí {s:armor_reduction} bodů z brnění."
+
+		"dac_ability_magnataur_3star"												"★★★ bonus"
+		"dac_ability_magnataur_3star_Description"									"Magnus disponuje schopností Reverzní polarita. Ta po použití udělí všem nepřátelům v okruhu {s:radius} políček {s:damage} bodů poškození a na {s:duration} sekundu je omráčí."
+
+		"dac_ability_arc_warden_3star"												"★★★ bonus"
+		"dac_ability_arc_warden_3star_Description"									"Kopie schopnosti Elektrická kopie si zachovávají předmět předobrazu."
+
+		"dac_ability_bat_rider_3star"												"★★★ bonus"
+		"dac_ability_bat_rider_3star_Description"									"Schopnost Lepkavý napalm také zapaluje nepřátele. Více informací u samotné schopnosti."
+
+		"dac_ability_nyx_assassin_3star"											"★★★ bonus"
+		"dac_ability_nyx_assassin_3star_Description"								"Schopnost Vendetta je používána častěji. Více informací u samotné schopnosti."
+
+		"dac_ability_shadow_demon_3star"											"★★★ bonus"
+		"dac_ability_shadow_demon_3star_Description"								"Na cíl schopnosti Démonická očista je použita také schopnost Lapač duší. Více informací u samotné schopnosti."
+
+		"dac_ability_tusk_3star"													"★★★ bonus"
+		"dac_ability_tusk_3star_Description"										"Následky schopnosti Mroží PĚST! doznívají delší dobu a nepřátelé přicházejí jak o rychlost pohybu, tak o rychlost útoku. Více informací u samotné schopnosti."
+
+		"dac_ability_venomancer_3star"												"★★★ bonus"
+		"dac_ability_venomancer_3star_Description"									"Morové stráže jsou imunní vůči magickému poškození."
+
+		"dac_ability_weaver_3star"													"★★★ bonus"
+		"dac_ability_weaver_3star_Description"										"Po použití schopnosti Shukuchi pálí Tkadlecovy útoky manu nepřátel. Více informací u samotné schopnosti."
+
+		"dac_ability_bristleback_3star"												"★★★ bonus"
+		"dac_ability_bristleback_3star_Description"									"Cooldown schopnosti Vystřelující ostny je výrazně snížen. Více informací u samotné schopnosti."
+
+		"dac_ability_earth_spirit_3star"											"★★★ bonus"
+		"dac_ability_earth_spirit_3star_Description"								"Schopnost Geomagnetické přitažení také omračuje nepřátele. Více informací u samotné schopnosti."
+
+		"dac_ability_natures_prophet_3star"											"★★★ bonus"
+		"dac_ability_natures_prophet_3star_Description"								"Enti jsou vyvoláváni na nepřátelské straně desky."
+
+		"dac_ability_ogre_magi_3star"												"★★★ bonus"
+		"dac_ability_ogre_magi_3star_Description"									"Ogří magič má šanci použít schopnost Krvežíznivost na 2 cíle. Více informací u samotné schopnosti."
+
+		"dac_ability_slardar_3star"													"★★★ bonus"
+		"dac_ability_slardar_3star_Description"										"Slardar po použití schopnosti Žíravý opar také udělí poškození a omráčí svůj cíl. Více informací u samotné schopnosti."
+
+		"dac_ability_windrunner_3star"												"★★★ bonus"
+		"dac_ability_windrunner_3star_Description"									"Zatímco Lučištnice větru vyvolává schopnost Napnutá tětiva, získává bonus k uhýbání a imunitu vůči magii. Více informací u samotné schopnosti."
+
+		"dac_ability_witch_doctor_3star"											"★★★ bonus"
+		"dac_ability_witch_doctor_3star_Description"								"Na nepřátele zasažené schopností Paralyzující nádobka je použita také schopnost Prokletí. Více informací u samotné schopnosti."
+
+		"dac_ability_ember_spirit_3star"											"★★★ bonus"
+		"dac_ability_ember_spirit_3star_Description"								"Rozsah schopnosti Rychlé pěsti je navýšen. Více informací u samotné schopnosti."
+
+		"dac_ability_enigma_3star"													"★★★ bonus"
+		"dac_ability_enigma_3star_Description"										"Rozsah schopnosti Temná rezonance je navýšen. Více informací u samotné schopnosti."
+
+		"dac_ability_wisp_3star"													"★★★ bonus"
+		"dac_ability_wisp_3star_Description"										"Schopnost Přemístění také resetuje cooldowny oživeného hrdiny."
+
+		"dac_ability_lycan_3star"													"★★★ bonus"
+		"dac_ability_lycan_3star_Description"										"Schopnost Přeměna vyvolává více vlků. Více informací u samotné schopnosti."
+
+		"dac_ability_omniknight_3star"												"★★★ bonus"
+		"dac_ability_omniknight_3star_Description"									"Rozsah schopnosti Očištění je navýšen. Více informací u samotné schopnosti."
+
+		"dac_ability_shadow_shaman_3star"											"★★★ bonus"
+		"dac_ability_shadow_shaman_3star_Description"								"Nepřátelé uvěznění schopností Hadí strážci jsou také přeměněni na slepici."
+
+		"dac_ability_treant_protector_3star"										"★★★ bonus"
+		"dac_ability_treant_protector_3star_Description"							"Jednotky léčené schopností Sémě oslabení získávají také bonusy schopnosti Živoucí brnění. Více informací u samotné schopnosti."
+
+		"dac_ability_storm_spirit_3star"											"★★★ bonus"
+		"dac_ability_storm_spirit_3star_Description"								"Duch bouře disponuje schopností Přepětí, díky níž vždy po použití kouzla vytvoří elektrický náboj, který se uvolní při jeho dalším útoku. Náboj udělí {s:damage} bodů poškození a na {s:slow_duration} sekundy sníží rychlost útoku cíle o {s:attack_speed_loss} bodů. Schopnost Trojúhelníkové pole je brána jako útok, takže pokud se jí účastní také Duch bouře, všichni zasažení nepřátele utrží poškození a jsou zpomaleni."
+		
+		"dac_ability_legion_commander_3star"										"★★★ bonus"
+		"dac_ability_legion_commander_3star_Description"							"Po zahájení duelu si všichni nepřátelé útočící na Velitelku legie (kromě soupeře z duelu) najdou jiný cíl pro své běžné útoky."
+
+		"dac_ability_life_stealer_3star"											"★★★ bonus"
+		"dac_ability_life_stealer_3star_Description"								"Požírač disponuje schopností Vztek. Jakmile ji použije, stane se imunním vůči magii a získá {s:bonus_movement_speed_pct} % k rychlosti pohybu a {S:bonus_attack_speed} bodů k rychlosti útoku. Schopnost působí {s:duration} sekund."
+
+		"dac_ability_snapfire_3star"												"★★★ bonus"
+		"dac_ability_snapfire_3star_Description"									"Schopnost Věrná brokáda také redukuje brnění nepřátel. Více informací u samotné schopnosti."
+
+		"dac_ability_antimage_3star"												"★★★ bonus"
+		"dac_ability_antimage_3star_Description"									"Pokud Antimág spálí všechnu manu svého cíle, udělí mu schopností Zhouba kouzelníků bonusové poškození ve výši {s:bonus_damage} bodů."
+
+		"dac_ability_enchantress_3star"												"★★★ bonus"
+		"dac_ability_enchantress_3star_Description"									"Zaříkávačka disponuje schopností Nedotknutelnost, která zajišťuje, že když je na ni zaútočeno, má {s:chance}% šanci o {s:slow} bodů snížit rychlost probíhajícího útoku daného nepřítele."
+
+		"dac_ability_phantom_assassin_3star"										"★★★ bonus"
+		"dac_ability_phantom_assassin_3star_Description"							"Přízračná vražedkyně získává výhody aktivní synergie darebáků."
+
+		"dac_ability_bounty_hunter_3star"											"★★★ bonus"
+		"dac_ability_bounty_hunter_3star_Description"								"Nájemný lovec získává {s:gold} zlaťák za každého zabitého hrdinu."
+
+		"dac_ability_kunkka_3star"													"★★★ bonus"
+		"dac_ability_kunkka_3star_Description"										"Kunkka disponuje schopností Vlnobití, díky níž vždy po {s:number} útocích provede mocný švih, který cíli udělí bonusové poškození ve výši {s:damage} bodů a ještě se {s:cleave_pct} % rozštípne na okolní nepřátele."
+
+		"dac_ability_alchemist_3star"												"★★★ bonus"
+		"dac_ability_alchemist_3star_Description"									"Alchymista vždy na začátku bitvy pomocí chemikálií vyvolá ve svém ogrovi zuřivost, čímž na {s:rage_duration} sekund zvýší rychlost jeho útoku o {s:attack_speed} bodů a poskytne mu imunitu vůči magii."
+
+		"dac_ability_puck_3star"													"★★★ bonus"
+		"dac_ability_puck_3star_Description"										"Cooldown schopnosti Klamný orb je výrazně snížen. Více informací u samotné schopnosti."
+
+		"dac_ability_slark_3star"													"★★★ bonus"
+		"dac_ability_slark_3star_Description"										"Slark disponuje schopností Temný pakt, která mu umožňuje po krátké prodlevě obětovat část zdraví, aby ze sebe očistil negativní efekty a udělil nepřátelům v okruhu {s:radius} políček celkem {s:total_damage} bodů poškození. Slark utrží {s:self_harm_pct} % z tohoto poškození."
+
+		// WILD ALLIANCE BONUSES
+		"dac_ability_wild_alliance_crit"								"Kritický zásah"
+		"dac_ability_wild_alliance_crit_description"					"PASIVNÍ: Vlk má {s:crit_chance}% šanci na udělení zničujícího kritického zásahu ve výši {s:crit_bonus} % poškození."
+		
+		"dac_ability_wild_alliance_evasion"								"Úhyb"
+		"dac_ability_wild_alliance_evasion_description"					"PASIVNÍ: Divozobák disponuje {s:evasion_pct}% bonusem k uhýbání."
+
+		"dac_ability_wild_alliance_splash_attack"								"Plošný útok"
+		"dac_ability_wild_alliance_splash_attack_description"					"PASIVNÍ: Útoky Černého draka udělují {s:splash_damage_percent}% plošné poškození všem nepřátelům v okruhu {s:splash_radius} políčka od primárního cíle."
+
+		"dac_ability_enchantress_wild_alliance_bonus"								"Synergie šamanů"
+		"dac_ability_enchantress_wild_alliance_bonus_Description"					"Kdykoli je na tvora synergie šamanů zaútočeno, má {s:chance}% šanci o {s:slow} bodů snížit rychlost probíhajícího útoku daného nepřítele."
+
+		"dac_ability_magnus_wild_alliance_bonus"									"Synergie šamanů"
+		"dac_ability_magnus_wild_alliance_bonus_Description"						"Kdykoli tvor synergie šamanů utrží poškození od nepřítele s útoky na blízko ze vzdálenosti 1 políčka, má {s:chance}% šanci ho odstrčit až {s:length} políček daleko."
+
+		"dac_ability_beastmaster_wild_alliance_bonus"								"Synergie šamanů"
+		"dac_ability_beastmaster_wild_alliance_bonus_Description"					"Po přivolání a následně vždy po zabití nepřítele získá tvor synergie šamanů na {s:buff_duration} sekundy bonus k rychlosti útoku ve výši {s:attack_speed} bodů."
+
+		"dac_ability_treant_protector_wild_alliance_bonus"							"Synergie šamanů"
+		"dac_ability_treant_protector_wild_alliance_bonus_Description"				"Tvor synergie šamanů poskytuje spojencům v okruhu {s:radius} políčka {s:armor} bodů k brnění a {s:hp_regen} bodů k regeneraci zdraví."
+
+		"dac_ability_lone_druid_wild_alliance_bonus"								"Synergie šamanů"
+		"dac_ability_lone_druid_wild_alliance_bonus_Description"					"Tvor synergie šamanů je duševně spojen s Osamělým druidem, takže když kterýkoli z nich udělí poškození nepříteli, oba se {s:lifesteal_pct} % z tohoto poškození vyléčí."
+
+		"dac_ability_natures_prophet_wild_alliance_bonus"							"Synergie šamanů"
+		"dac_ability_natures_prophet_wild_alliance_bonus_Description"				"Tvor synergie šamanů disponuje schopností Hněv přírody. Ta mu umožňuje vytvořit energii, která udělí cíli {s:damage} bodů poškození a následně {s:jumps}× přeskočí mezi dalšími nepřáteli. Každý přeskok zvýší poškození o {s:increase_pct} %."
+
+		"dac_ability_wild_alliance_wrath_of_nature"									"Hněv přírody"
+		"dac_ability_wild_alliance_wrath_of_nature_Description"						"Tvor vytvoří energii, která udělí cíli {s:damage} bodů poškození a následně {s:jumps}× přeskočí mezi dalšími nepřáteli. Každý přeskok zvýší poškození o {s:increase_pct} %."
 	}
 }
