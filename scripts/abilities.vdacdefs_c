@@ -2922,21 +2922,21 @@
 			duration = 6
 			regen_immediate = 
 			[
-				105,
-				140,
-				155,
-				275,
-				310,
-				345,
+				61,
+				75,
+				90,
+				135,
+				150,
+				180,
 			]
 			regen = 
 			[
-				17,
+				8,
+				12,
+				15,
+				22,
 				25,
 				30,
-				45,
-				50,
-				60,
 			]
 			attack_damage_bonus = 
 			[
@@ -3733,7 +3733,7 @@
 			summonID = 126
 			ward_magic_resist = 50
 			movespeed = 100
-			duration = 5
+			duration = 7
 			precache = 
 			[
 				"particles/units/heroes/hero_shadowshaman/shadowshaman_ward_spawn.vpcf",
@@ -4198,8 +4198,8 @@
 			manaCost = 75
 			animationlength = 0.010000
 			duration = 5.000000
-			bonus_movement_speed_pct = 50
-			bonus_attack_speed = 50
+			bonus_movement_speed_pct = 30
+			bonus_attack_speed = 30
 			precache = 
 			[
 				"particles/status_fx/status_effect_life_stealer_rage.vpcf",
@@ -4335,8 +4335,8 @@
 			damage = 
 			[
 				100,
-				175,
-				250,
+				150,
+				200,
 			]
 			bash_bounce_duration = 0.800000
 			damageType = "#DAC_InGame_DamageType_Physical"
@@ -4416,14 +4416,14 @@
 			[
 				15,
 				13,
-				11,
+				12,
 			]
 			manaCost = 70
 			damage = 
 			[
 				300,
-				500,
-				700,
+				450,
+				600,
 			]
 			move_slow_pct = 50
 			attack_slow = 50
@@ -4433,7 +4433,7 @@
 			path_speed = 1000
 			path_tick_interval = 0.500000
 			bonus_move_pct = 100
-			bonus_aspd = 200
+			bonus_aspd = 175
 			speed_duration = 4.000000
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 
@@ -5034,7 +5034,7 @@
 			[
 				4.500000,
 				6,
-				7.500000,
+				7,
 			]
 		}
 		sven_cleave = 
@@ -5493,18 +5493,13 @@
 			castPoint = 0.300000
 			cooldown = 10
 			manaCost = 100
-			radius = 
-			[
-				2,
-				2,
-				3,
-			]
+			radius = 2
 			duration = 10
 			damage = 
 			[
 				10,
 				20,
-				30,
+				35,
 			]
 			armor_reduction = 
 			[
@@ -7885,21 +7880,21 @@
 			duration = 6
 			regen_immediate = 
 			[
-				105,
-				140,
-				155,
-				275,
-				310,
-				345,
+				61,
+				75,
+				90,
+				135,
+				150,
+				180,
 			]
 			regen = 
 			[
-				17,
+				8,
+				12,
+				15,
+				22,
 				25,
 				30,
-				45,
-				50,
-				60,
 			]
 			attack_damage_bonus = 
 			[
@@ -8696,7 +8691,7 @@
 			summonID = 126
 			ward_magic_resist = 50
 			movespeed = 100
-			duration = 5
+			duration = 7
 			precache = 
 			[
 				"particles/units/heroes/hero_shadowshaman/shadowshaman_ward_spawn.vpcf",
@@ -9161,8 +9156,8 @@
 			manaCost = 75
 			animationlength = 0.010000
 			duration = 5.000000
-			bonus_movement_speed_pct = 50
-			bonus_attack_speed = 50
+			bonus_movement_speed_pct = 30
+			bonus_attack_speed = 30
 			precache = 
 			[
 				"particles/status_fx/status_effect_life_stealer_rage.vpcf",
@@ -9298,8 +9293,8 @@
 			damage = 
 			[
 				100,
-				175,
-				250,
+				150,
+				200,
 			]
 			bash_bounce_duration = 0.800000
 			damageType = "#DAC_InGame_DamageType_Physical"
@@ -9379,14 +9374,14 @@
 			[
 				15,
 				13,
-				11,
+				12,
 			]
 			manaCost = 70
 			damage = 
 			[
 				300,
-				500,
-				700,
+				450,
+				600,
 			]
 			move_slow_pct = 50
 			attack_slow = 50
@@ -9396,7 +9391,7 @@
 			path_speed = 1000
 			path_tick_interval = 0.500000
 			bonus_move_pct = 100
-			bonus_aspd = 200
+			bonus_aspd = 175
 			speed_duration = 4.000000
 			damageType = "#DAC_InGame_DamageType_Magical"
 			precache = 

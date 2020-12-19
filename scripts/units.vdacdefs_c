@@ -5059,6 +5059,7 @@
 			projectile_model = "particles/neutral_fx/thunderlizard_base_attack.vpcf"
 			soundSet = "Creep_Thunderhide"
 			projectile_speed = 1500
+			player_dmg_override = 0
 			precache = 
 			[
 				"particles/neutral_fx/thunderlizard_base_attack.vpcf",
@@ -5742,12 +5743,7 @@
 			armor = 10
 			attackAnimationPoint = 0.330000
 			attackRange = 1
-			attackRate = 
-			[
-				1.500000,
-				1.500000,
-				1.500000,
-			]
+			attackRate = 1.500000
 			damageMin = 
 			[
 				55,
@@ -6786,6 +6782,7 @@
 			movespeed = 330
 			magicResist = 0
 			armor = 5
+			player_dmg_override = 0
 		}
 		wild_alliance_wildwing = 
 		{
@@ -6818,6 +6815,7 @@
 			armor = 5
 			projectile_model = "particles/units/creeps/vultures/vulture_tornado.vpcf"
 			projectile_speed = 320
+			player_dmg_override = 0
 		}
 		wild_alliance_thunderhide = 
 		{
@@ -6846,6 +6844,7 @@
 			projectile_model = "particles/neutral_fx/thunderlizard_base_attack.vpcf"
 			soundSet = "Creep_Thunderhide"
 			projectile_speed = 1500
+			player_dmg_override = 0
 			precache = 
 			[
 				"particles/neutral_fx/thunderlizard_base_attack.vpcf",
@@ -6880,6 +6879,7 @@
 			armor = 10
 			projectile_model = "particles/units/heroes/hero_vengeful/vengeful_magic_missle.vpcf"
 			projectile_speed = 600
+			player_dmg_override = 0
 		}
 		necronomicon_warrior = 
 		{
@@ -7541,7 +7541,7 @@
 			]
 			displayName = "#dac_hero_name_disruptor"
 			dota_unit_name = "npc_dota_hero_disruptor"
-			draftTier = 0
+			draftTier = 4
 			goldCost = 4
 			health = 
 			[
@@ -7566,6 +7566,7 @@
 			projectile_model = "particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf"
 			movespeed = 295
 			healthBarOffset = -90
+			content_enable_group = "rotation"
 		}
 		doom = 
 		{
@@ -7801,7 +7802,7 @@
 			]
 			displayName = "#dac_hero_name_enigma"
 			dota_unit_name = "npc_dota_hero_enigma"
-			draftTier = 0
+			draftTier = 3
 			goldCost = 3
 			health = 
 			[
@@ -7826,6 +7827,7 @@
 			projectile_model = "particles/units/heroes/hero_enigma/enigma_base_attack.vpcf"
 			movespeed = 290
 			healthBarOffset = -70
+			content_enable_group = "rotation"
 		}
 		furion = 
 		{
@@ -8432,7 +8434,7 @@
 			]
 			displayName = "#dac_hero_name_morphling"
 			dota_unit_name = "npc_dota_hero_morphling"
-			draftTier = 0
+			draftTier = 3
 			goldCost = 3
 			health = 
 			[
@@ -8463,6 +8465,7 @@
 				"particles/units/heroes/hero_morphling/morphling_dissolve.vpcf",
 				"particles/units/heroes/hero_morphling/morphling_apear.vpcf",
 			]
+			content_enable_group = "rotation"
 		}
 		necrophos = 
 		{
@@ -8488,7 +8491,7 @@
 			]
 			displayName = "#dac_hero_name_necrophos"
 			dota_unit_name = "npc_dota_hero_necrolyte"
-			draftTier = 0
+			draftTier = 4
 			goldCost = 4
 			health = 
 			[
@@ -8514,6 +8517,7 @@
 			projectile_model = "particles/units/heroes/hero_necrolyte/necrolyte_base_attack.vpcf"
 			movespeed = 280
 			healthBarOffset = -10
+			content_enable_group = "rotation"
 		}
 		ogre_magi = 
 		{
@@ -8540,7 +8544,7 @@
 			]
 			displayName = "#dac_hero_name_ogre_magi"
 			dota_unit_name = "npc_dota_hero_ogre_magi"
-			draftTier = 0
+			draftTier = 2
 			goldCost = 2
 			health = 
 			[
@@ -8563,6 +8567,7 @@
 			soundSet = "Hero_OgreMagi"
 			movespeed = 290
 			healthBarOffset = -15
+			content_enable_group = "rotation"
 		}
 		omniknight = 
 		{
@@ -8815,7 +8820,7 @@
 			]
 			displayName = "#dac_hero_name_razor"
 			dota_unit_name = "npc_dota_hero_razor"
-			draftTier = 0
+			draftTier = 1
 			goldCost = 1
 			health = 
 			[
@@ -8841,6 +8846,7 @@
 			movespeed = 285
 			healthBarOffset = -80
 			aiAura = true
+			content_enable_group = "rotation"
 		}
 		sand_king = 
 		{
@@ -8867,7 +8873,7 @@
 			]
 			displayName = "#dac_hero_name_sand_king"
 			dota_unit_name = "npc_dota_hero_sand_king"
-			draftTier = 0
+			draftTier = 5
 			goldCost = 5
 			health = 
 			[
@@ -8895,6 +8901,7 @@
 			[
 				"particles/units/heroes/hero_sandking/sandking_burrow.vpcf",
 			]
+			content_enable_group = "rotation"
 		}
 		shadow_fiend = 
 		{
@@ -8921,7 +8928,7 @@
 			]
 			displayName = "#dac_hero_name_shadow_fiend"
 			dota_unit_name = "npc_dota_hero_nevermore"
-			draftTier = 0
+			draftTier = 3
 			goldCost = 3
 			health = 
 			[
@@ -8949,6 +8956,7 @@
 			movespeed = 305
 			healthBarOffset = -20
 			aiAura = true
+			content_enable_group = "rotation"
 		}
 		shadow_shaman = 
 		{
@@ -9014,15 +9022,15 @@
 			attackRate = 1.200000
 			damageMin = 
 			[
-				50,
-				100,
-				200,
+				60,
+				120,
+				240,
 			]
 			damageMax = 
 			[
-				80,
-				160,
-				320,
+				85,
+				170,
+				340,
 			]
 			displayName = "#dac_hero_name_slardar"
 			dota_unit_name = "npc_dota_hero_slardar"
@@ -9519,7 +9527,7 @@
 			]
 			displayName = "#dac_hero_name_tiny"
 			dota_unit_name = "npc_dota_hero_tiny"
-			draftTier = 0
+			draftTier = 1
 			goldCost = 1
 			health = 
 			[
@@ -9548,6 +9556,7 @@
 			soundSet = "Hero_Tiny"
 			movespeed = 290
 			healthBarOffset = 95
+			content_enable_group = "rotation"
 		}
 		treant_protector = 
 		{
@@ -9681,9 +9690,9 @@
 			goldCost = 1
 			health = 
 			[
-				1050,
-				2100,
-				4200,
+				1150,
+				2300,
+				4600,
 			]
 			id = 4
 			hintWords = 
@@ -9782,9 +9791,9 @@
 			goldCost = 4
 			health = 
 			[
-				900,
-				1800,
-				3600,
+				1100,
+				2200,
+				4400,
 			]
 			id = 37
 			hintWords = 
@@ -9886,7 +9895,7 @@
 			]
 			displayName = "#dac_hero_name_witch_doctor"
 			dota_unit_name = "npc_dota_hero_witch_doctor"
-			draftTier = 0
+			draftTier = 2
 			goldCost = 2
 			health = 
 			[
@@ -9912,6 +9921,7 @@
 			projectile_model = "particles/units/heroes/hero_witchdoctor/witchdoctor_base_attack.vpcf"
 			movespeed = 300
 			healthBarOffset = -30
+			content_enable_group = "rotation"
 		}
 		pudge = 
 		{
@@ -9990,7 +10000,7 @@
 			]
 			displayName = "#dac_hero_name_warlock"
 			dota_unit_name = "npc_dota_hero_warlock"
-			draftTier = 0
+			draftTier = 1
 			goldCost = 1
 			health = 
 			[
@@ -10013,6 +10023,7 @@
 			soundSet = "Hero_Warlock"
 			movespeed = 290
 			healthBarOffset = -40
+			content_enable_group = "rotation"
 		}
 		bloodseeker = 
 		{
@@ -10040,7 +10051,7 @@
 			]
 			displayName = "#dac_hero_name_bloodseeker"
 			dota_unit_name = "npc_dota_hero_bloodseeker"
-			draftTier = 0
+			draftTier = 1
 			goldCost = 1
 			health = 
 			[
@@ -10070,6 +10081,7 @@
 			healthBarOffset = 20
 			aiPassiveAbility = true
 			prevent_mana_items = 1
+			content_enable_group = "rotation"
 			bonus_keyword = "assassin"
 		}
 		arc_warden = 
@@ -10105,7 +10117,7 @@
 			]
 			displayName = "#dac_hero_name_arc_warden"
 			dota_unit_name = "npc_dota_hero_arc_warden"
-			draftTier = 0
+			draftTier = 1
 			goldCost = 1
 			health = 
 			[
@@ -10131,6 +10143,7 @@
 			[
 			]
 			healthBarOffset = 20
+			content_enable_group = "rotation"
 		}
 		mirana = 
 		{
@@ -11371,7 +11384,7 @@
 			]
 			displayName = "#dac_hero_name_nyx_assassin"
 			dota_unit_name = "npc_dota_hero_nyx_assassin"
-			draftTier = 0
+			draftTier = 1
 			goldCost = 1
 			health = 
 			[
@@ -11399,6 +11412,7 @@
 				"particles/units/heroes/hero_nyx_assassin/nyx_assassin_vendetta_start.vpcf",
 			]
 			healthBarOffset = 20
+			content_enable_group = "rotation"
 		}
 		weaver = 
 		{
@@ -11425,7 +11439,7 @@
 			]
 			displayName = "#dac_hero_name_weaver"
 			dota_unit_name = "npc_dota_hero_weaver"
-			draftTier = 0
+			draftTier = 1
 			goldCost = 1
 			health = 
 			[
@@ -11450,6 +11464,7 @@
 			projectile_model = "particles/units/heroes/hero_weaver/weaver_base_attack.vpcf"
 			movespeed = 290
 			healthBarOffset = 0
+			content_enable_group = "rotation"
 		}
 		broodmother = 
 		{
@@ -11476,7 +11491,7 @@
 			]
 			displayName = "#dac_hero_name_broodmother"
 			dota_unit_name = "npc_dota_hero_broodmother"
-			draftTier = 0
+			draftTier = 3
 			goldCost = 3
 			health = 
 			[
@@ -11499,6 +11514,7 @@
 			soundSet = "Hero_Broodmother"
 			movespeed = 275
 			healthBarOffset = 25
+			content_enable_group = "rotation"
 		}
 		broodmother_spiderling = 
 		{
@@ -12032,7 +12048,7 @@
 			]
 			displayName = "#dac_hero_name_wisp"
 			dota_unit_name = "npc_dota_hero_wisp"
-			draftTier = 0
+			draftTier = 3
 			goldCost = 3
 			health = 
 			[
@@ -12062,6 +12078,7 @@
 			[
 				"particles/units/heroes/hero_wisp/wisp_death.vpcf",
 			]
+			content_enable_group = "rotation"
 		}
 		horn_of_the_alpha_thunderhide = 
 		{
@@ -12085,6 +12102,7 @@
 			projectile_model = "particles/neutral_fx/thunderlizard_base_attack.vpcf"
 			soundSet = "Creep_Thunderhide"
 			projectile_speed = 1500
+			player_dmg_override = 0
 			precache = 
 			[
 				"particles/neutral_fx/thunderlizard_base_attack.vpcf",
@@ -12782,12 +12800,7 @@
 			armor = 10
 			attackAnimationPoint = 0.330000
 			attackRange = 1
-			attackRate = 
-			[
-				1.500000,
-				1.500000,
-				1.500000,
-			]
+			attackRate = 1.500000
 			damageMin = 
 			[
 				55,
@@ -13827,6 +13840,7 @@
 			movespeed = 330
 			magicResist = 0
 			armor = 5
+			player_dmg_override = 0
 		}
 		wild_alliance_wildwing = 
 		{
@@ -13859,6 +13873,7 @@
 			armor = 5
 			projectile_model = "particles/units/creeps/vultures/vulture_tornado.vpcf"
 			projectile_speed = 320
+			player_dmg_override = 0
 		}
 		wild_alliance_thunderhide = 
 		{
@@ -13887,6 +13902,7 @@
 			projectile_model = "particles/neutral_fx/thunderlizard_base_attack.vpcf"
 			soundSet = "Creep_Thunderhide"
 			projectile_speed = 1500
+			player_dmg_override = 0
 			precache = 
 			[
 				"particles/neutral_fx/thunderlizard_base_attack.vpcf",
@@ -13921,6 +13937,7 @@
 			armor = 10
 			projectile_model = "particles/units/heroes/hero_vengeful/vengeful_magic_missle.vpcf"
 			projectile_speed = 600
+			player_dmg_override = 0
 		}
 		necronomicon_warrior = 
 		{

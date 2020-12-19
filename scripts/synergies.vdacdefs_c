@@ -1414,7 +1414,7 @@
 			evasion_pct = 
 			[
 				20,
-				30,
+				40,
 			]
 			bonus_attack_damage = 
 			[
@@ -1704,8 +1704,8 @@
 			]
 			magic_resist = 
 			[
-				20,
-				50,
+				30,
+				55,
 			]
 			color = "72 63 162"
 		}
@@ -1777,13 +1777,13 @@
 			]
 			attack_speed_bonus_trolls = 
 			[
-				35,
-				65,
+				40,
+				70,
 			]
 			attack_speed_bonus_others = 
 			[
-				15,
-				30,
+				20,
+				40,
 			]
 			applies_to_untargetable_units = true
 			color = "158 110 74"
@@ -2583,13 +2583,13 @@
 			damage_reduction = 
 			[
 				30,
-				60,
+				50,
 			]
 			debuff_duration = 4
 			initial_damage = 
 			[
 				80,
-				150,
+				120,
 			]
 			precache = 
 			[
@@ -2881,7 +2881,7 @@
 			evasion_pct = 
 			[
 				20,
-				30,
+				40,
 			]
 			bonus_attack_damage = 
 			[
